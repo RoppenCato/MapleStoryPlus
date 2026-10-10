@@ -20,6 +20,7 @@ Suggested names: `DevWarrior`, `DevMage`, `DevBowman`, `DevThief`, `DevPirate`.
 | `trialguy` | Fire/Poison Wizard | 50 | 6 | Set up in the database 2026-10-10 with level 50 gear, skills and 1M meso. |
 | `DevBandit` | Chief Bandit | 70 | 6 | Created 2026-10-10 with the character tool for the Round 1 tests. Has the Hermit's Flash Jump as a test. Keys: Q Savage Blow, R Haste, T Dagger Booster, A Flash Jump, Shift sprint (Nimble Feet). |
 | `DevHermit` | Hermit | 80 | 6 | Created 2026-10-10 to compare Flash Jump on its own class against the test on DevBandit. Keys: Q Lucky Seven, R Haste, A Flash Jump, Shift sprint. |
+| `DevHero` | Crusader | 75 | 6 | Created 2026-10-10 to test crit and the warrior skill values. Iron Body set to level 20. Keys: Q Slash Blast, F Power Strike, R Iron Body, A Rage, T Sword Booster, Shift and Ctrl sprint. |
 
 ## GM commands
 
