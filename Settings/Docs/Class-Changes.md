@@ -24,6 +24,18 @@ Change table columns:
 - Review damage and MP/HP costs of all skills.
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 - **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
+- **Critical hits for every class (Robin's idea, 2026-10-10; numbers proposed).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
+
+  | Job | Chance | A critical hit does |
+  |-----|--------|---------------------|
+  | 1st | 10% | 150% |
+  | 2nd | 15% | 150% |
+  | 3rd | 20% | 160% |
+  | 4th | 25% | 170% |
+
+  For comparison, a bowman's Critical Shot is 40% for 200%.
+
+  How: the server gives the character the same effect as the bowmaster's Sharp Eyes buff, permanently. The client already shows critical hits for any class under that buff, so nothing in the client changes. Not tested. Doubt: in the original game Sharp Eyes does not affect magic, so magicians may not be able to crit this way.
 
 **Changes:** none yet.
 
@@ -35,7 +47,7 @@ Hero, Paladin, Dark Knight. Under discussion since 2026-10-10, one job at a time
 
 **Goal:** not set. Starting point: the warrior is the sturdiest class and the only one with a group attack in 1st job. Its weaknesses are movement and constant HP and MP costs.
 
-**Decided for the whole class (Robin, 2026-10-10):** warriors get critical hits. In the original game only bowmen and assassins have them.
+**Decided (Robin, 2026-10-10):** warriors get critical hits. This became the rule for all classes at the top of this document.
 
 ### Swordman (shared 1st job)
 
@@ -44,7 +56,7 @@ Hero, Paladin, Dark Knight. Under discussion since 2026-10-10, one job at a time
 | 1 | Slash Blast has no HP cost (now 16 HP per swing at max). | agreed | Server and client skill data |
 | 2 | Iron Body lasts 30 minutes (now 300 seconds) and gives +80 weapon defence (now +40) and +40 magic defence (now none). | agreed | Server and client skill data |
 | 3 | Iron Body also gives +20 movement speed. This is the warrior's speed-up, done the certain way first; a real dash skill is a later idea. | agreed | Server and client skill data |
-| 4 | Critical hits start in 1st job. Suggested: Endure, which today only recovers HP on ropes, is reworked into a passive giving a 15% chance to hit for 150% at max. More is added in later jobs. | agreed; numbers proposed | To be tested. The client already supports critical hits on any class through the Sharp Eyes buff, so the likely route is the server giving warriors that effect. |
+| 4 | Critical hits: covered by the rule for all classes at the top of this document. Endure is not reworked for it and stays as it is. | agreed | See the rule |
 | 5 | Power Strike, Improved HP Recovery and Improved MaxHP Increase stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
