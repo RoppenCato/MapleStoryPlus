@@ -15,7 +15,7 @@ What we have done, decided and changed. Newest first.
 **Decided**
 
 - Work locally first. A private GitHub repo for backup comes later.
-- Game data (`wz/`) and passwords stay out of any GitHub repo of ours.
+- The game client, its data files, the database and its backups stay out of GitHub. The server's own data (`Server/wz/`, part of the original repo) is included, since we will be editing it.
 
 - Java 21 and MySQL installed directly, not Docker.
 - Both are unpacked into `Tools/` instead of installed on Windows, because this PC has no winget and installers need admin rights. Nothing was added to the system PATH or to Windows services.
@@ -33,6 +33,12 @@ What we have done, decided and changed. Newest first.
 
 - Chosen: original v83 install + MapleEzorsia v2 (see `Client/README.md`).
 - Downloaded to `Client/Downloads`: v83 installer and Cosmic game data (P0nk/Cosmic-client), Ezorsia v2 Release 2.
+
+**Backups**
+
+- The project folder is now one git repo (branch `main`). The original server is merged in under `Server/` with its history; the separate git folder inside `Server/` is gone.
+- Remotes: `origin` = our GitHub repo, `upstream` = SoloMapling (push disabled).
+- `Backup-Database.bat` saves the database to `Backups/` (local only).
 
 **Planning**
 

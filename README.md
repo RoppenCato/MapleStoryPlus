@@ -32,6 +32,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 |--------|--------------|
 | `Start-Server.bat` | Starts the database if it is not running, then the game server, using `Settings/config.yaml`. |
 | `Stop-Database.bat` | Shuts the database down cleanly. Close the game server window first. |
+| `Backup-Database.bat` | Saves a copy of the database to `Backups/`. |
 | `Build-Server.bat` | Rebuilds the server after code changes. |
 
 The server is online when the window says `Cosmic is now online`. It listens on port 8484 (login) and 7575-7577 (channels). The database only accepts connections from this PC.
@@ -43,6 +44,24 @@ The server is online when the window says `Cosmic is now online`. It listens on 
 - [x] Server built and starts
 - [ ] Client installed and first login (files are downloaded in `Client/Downloads`)
 
+## Backups
+
+| What | How |
+|------|-----|
+| Code, settings and docs | Git. The whole `MapleStoryPlus` folder is one repo; our GitHub repo is the remote `origin`. |
+| Database (accounts, characters) | Run `Backup-Database.bat`. It saves a dated file in `Backups/`. These stay on this PC and are not sent to GitHub. |
+
+Not in git: `Tools/`, `Database/`, `Backups/`, the game client and its downloads. Tools and client can be downloaded again.
+
 ## The original repo
 
-`Server/` is a git clone. The original repo is linked as `upstream` with pushing disabled, so nothing here can end up there. We can still pull their updates with `git pull upstream main` from inside `Server/`.
+The original server code (SoloMapling) is merged in under `Server/`, with its history. It is linked as the remote `upstream`, with pushing disabled, so nothing here can end up there.
+
+To pull in their updates later:
+
+```
+git fetch upstream
+git merge -X subtree=Server upstream/main
+```
+
+Our own changes to the server code are listed in the Development log, so we know what to check after such a merge.
