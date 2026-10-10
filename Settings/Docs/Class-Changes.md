@@ -31,13 +31,21 @@ Change table columns:
 
 ## Warriors
 
-Hero, Paladin, Dark Knight.
+Hero, Paladin, Dark Knight. Under discussion since 2026-10-10, one job at a time.
 
-**Goal:** not set.
+**Goal:** not set. Starting point: the warrior is the sturdiest class and the only one with a group attack in 1st job. Its weaknesses are movement and constant HP and MP costs.
 
-**Ideas**
+**Decided for the whole class (Robin, 2026-10-10):** warriors get critical hits. In the original game only bowmen and assassins have them.
 
-- Something to speed them up (movement).
+### Swordman (shared 1st job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Slash Blast has no HP cost (now 16 HP per swing at max). | agreed | Server and client skill data |
+| 2 | Iron Body lasts 30 minutes (now 300 seconds) and gives +80 weapon defence (now +40) and +40 magic defence (now none). | agreed | Server and client skill data |
+| 3 | Iron Body also gives +20 movement speed. This is the warrior's speed-up, done the certain way first; a real dash skill is a later idea. | agreed | Server and client skill data |
+| 4 | Critical hits start in 1st job. Suggested: Endure, which today only recovers HP on ropes, is reworked into a passive giving a 15% chance to hit for 150% at max. More is added in later jobs. | agreed; numbers proposed | To be tested. The client already supports critical hits on any class through the Sharp Eyes buff, so the likely route is the server giving warriors that effect. |
+| 5 | Power Strike, Improved HP Recovery and Improved MaxHP Increase stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
