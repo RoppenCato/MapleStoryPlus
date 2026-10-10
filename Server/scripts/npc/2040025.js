@@ -27,11 +27,13 @@
 var status = 0;
 var map = 221024400;
 
+var teleportCost = 5000;    // MapleStoryPlus: the tower stones cost mesos instead of a rock scroll
+
 function start() {
-    if (cm.haveItem(4001020)) {
-        cm.sendSimple("You can use #bEos Rock Scroll#k to activate #bSecond Eos Rock#k. Which of these rocks would you like to teleport to?#b\r\n#L0#First Eos Rock (100th Floor)#l\r\n#L1#Third Eos Rock (41st Floor)#l");
+    if (cm.getMeso() >= teleportCost) {
+        cm.sendSimple("For #b" + teleportCost + " mesos#k you can activate #bSecond Eos Rock#k. Which of these rocks would you like to teleport to?#b\r\n#L0#First Eos Rock (100th Floor)#l\r\n#L1#Third Eos Rock (41st Floor)#l");
     } else {
-        cm.sendOk("There's a rock that will enable you to teleport to #bFirst Eos Rock or Third Eos Rock#k, but it cannot be activated without the scroll.");
+        cm.sendOk("There's a rock that will enable you to teleport to #bFirst Eos Rock or Third Eos Rock#k, but it costs #b" + teleportCost + " mesos#k to activate.");
         cm.dispose();
     }
 }
@@ -51,13 +53,17 @@ function action(mode, type, selection) {
         }
         if (status == 1) {
             if (selection == 0) {
-                cm.sendYesNo("You can use #bEos Rock Scroll#k to activate #bSecond Eos Rock#k. Will you teleport to #bFirst Eos Rock#k at the 100th Floor?");
+                cm.sendYesNo("For #b" + teleportCost + " mesos#k you can activate #bSecond Eos Rock#k. Will you teleport to #bFirst Eos Rock#k at the 100th Floor?");
             } else {
-                cm.sendYesNo("You can use #bEos Rock Scroll#k to activate #bSecond Eos Rock#k. Will you teleport to #bThird Eos Rock#k at the 41st Floor?");
+                cm.sendYesNo("For #b" + teleportCost + " mesos#k you can activate #bSecond Eos Rock#k. Will you teleport to #bThird Eos Rock#k at the 41st Floor?");
                 map = 221021700;
             }
         } else if (status == 2) {
-            cm.gainItem(4001020, -1);
+            if (cm.getMeso() < teleportCost) {
+                cm.dispose();
+                return;
+            }
+            cm.gainMeso(-teleportCost);
             cm.warp(map, 3);
             cm.dispose();
         }

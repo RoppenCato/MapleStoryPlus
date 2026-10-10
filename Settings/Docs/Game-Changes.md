@@ -16,6 +16,8 @@ Add a row when a change is done and tested. The ID points to the item in the [Im
 
 | Date | ID | Change | Before | After |
 |------|----|--------|--------|-------|
+| 2026-10-10 | T-2 | Tower teleport stones cost mesos | Orbis Tower and Eos Tower stones each used up a rock scroll, which could not be bought or found | 5,000 mesos per jump |
+| 2026-10-10 | T-4 (part) | Bots answer whispers and give directions | Bots ignored whispers | Whisper any bot: it chats, knows which monsters drop an item, where monsters live, and the quickest way there from your map. Needs the bot chat window running. |
 
 ## The Hub
 

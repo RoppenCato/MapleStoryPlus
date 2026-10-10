@@ -41,7 +41,7 @@ from_map	to_map	how	cost	both_ways	note
 540000000	550000000	Audrey's ride from CBD in Singapore to Trend Zone Metropolis in Malaysia	42000	no	
 550000000	551000000	Audrey's ride between Trend Zone Metropolis and Kampung Village	10000	yes	
 600000000	682000000	the NLC Taxi between New Leaf City and the Haunted House	15000	yes	
-200080200	200082100	the Orbis Magic Spot in Orbis Tower, which teleports between the 20th and the 1st floor and uses up one Orbis Rock Scroll	0	yes	
-221024400	221022900	the Eos Rock in Eos Tower, which teleports between the 100th and the 71st floor and uses up one Eos Rock Scroll	0	yes	
-221022900	221021700	the Eos Rock in Eos Tower, which teleports between the 71st and the 41st floor and uses up one Eos Rock Scroll	0	yes	
-221021700	221020000	the Eos Rock in Eos Tower, which teleports between the 41st and the 1st floor and uses up one Eos Rock Scroll	0	yes	
+200080200	200082100	the Orbis Magic Spot in Orbis Tower, which teleports between the 20th and the 1st floor	5000	yes	
+221024400	221022900	the Eos Rock in Eos Tower, which teleports between the 100th and the 71st floor	5000	yes	
+221022900	221021700	the Eos Rock in Eos Tower, which teleports between the 71st and the 41st floor	5000	yes	
+221021700	221020000	the Eos Rock in Eos Tower, which teleports between the 41st and the 1st floor	5000	yes	

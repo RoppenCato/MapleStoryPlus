@@ -55,16 +55,16 @@ Pay and arrive at once.
 | Trend Zone Metropolis | Kampung Village | 10,000 | Audrey |
 | Kerning City subway | Construction site B1 to B3 | 1,000 | Ticket seller |
 
-## Towers (scroll travel)
+## Towers
 
-These are the ones the plan wants changed to cost meso (`T-2`).
+Changed on 2026-10-10 (`T-2`): the tower stones cost mesos instead of a rock scroll. The scrolls were not sold or dropped anywhere on our server, so the stones could not be used before.
 
-| Tower | From ↔ To | Cost now | NPC |
-|-------|-----------|----------|-----|
-| Orbis Tower | 20th floor ↔ 1st floor | 1 Orbis Rock Scroll (item 4001019) | Orbis Magic Spot (NPCs 2012014, 2012015) |
-| Eos Tower | 100th ↔ 71st ↔ 41st ↔ 1st floor | 1 Eos Rock Scroll (item 4001020) per jump | Eos Rock (NPCs 2040024 to 2040027) |
+| Tower | From and to | Cost | NPC |
+|-------|-------------|------|-----|
+| Orbis Tower | 20th floor and 1st floor | 5,000 mesos | Orbis Magic Spot (NPCs 2012014, 2012015) |
+| Eos Tower | 100th, 71st, 41st and 1st floor, one step at a time | 5,000 mesos per jump | Eos Rock (NPCs 2040024 to 2040027) |
 
-Neither scroll is sold in any shop and neither is in the monster drop list in our database. Where players are meant to get them here is not found yet.
+The price is the line `var teleportCost = 5000;` at the top of each of the six scripts in `Server/scripts/npc/`.
 
 ## Not covered
 

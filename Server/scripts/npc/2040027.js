@@ -26,11 +26,13 @@
 	Description: 		Brings you to 41st Floor
 */
 
+var teleportCost = 5000;    // MapleStoryPlus: the tower stones cost mesos instead of a rock scroll
+
 function start() {
-    if (cm.haveItem(4001020)) {
-        cm.sendYesNo("You can use #bEos Rock Scroll#k to activate #bFourth Eos Rock#k. Will you head over to #bThird Eos Rock#k at the 41st floor?");
+    if (cm.getMeso() >= teleportCost) {
+        cm.sendYesNo("For #b" + teleportCost + " mesos#k you can activate #bFourth Eos Rock#k. Will you head over to #bThird Eos Rock#k at the 41st floor?");
     } else {
-        cm.sendOk("There's a rock that will enable you to teleport to #bThird Eos Rock#k, but it cannot be activated without the scroll.");
+        cm.sendOk("There's a rock that will enable you to teleport to #bThird Eos Rock#k, but it costs #b" + teleportCost + " mesos#k to activate.");
         cm.dispose();
     }
 }
@@ -38,7 +40,11 @@ function start() {
 function action(mode, type, selection) {
     if (mode < 1) {
     } else {
-        cm.gainItem(4001020, -1);
+        if (cm.getMeso() < teleportCost) {
+            cm.dispose();
+            return;
+        }
+        cm.gainMeso(-teleportCost);
         cm.warp(221021700, 3);
     }
     cm.dispose();
