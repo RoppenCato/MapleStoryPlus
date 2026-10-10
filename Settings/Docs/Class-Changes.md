@@ -22,6 +22,7 @@ Change table columns:
 **Ideas**
 
 - Review damage and MP/HP costs of all skills.
+- Long buffs: boosters and similar self-buffs last 30 minutes. Agreed for the bandit's Dagger Booster and Haste on 2026-10-10; every weapon booster in the game lasts 200 seconds at max today. To decide: does this apply to every class?
 
 **Changes:** none yet.
 
@@ -69,21 +70,27 @@ Under discussion since 2026-10-10. Ideas from other servers are in [Research-Oth
 
 **Goal (set 2026-10-10):** a fast melee thief. Mobility and group attacks are fixed first; the meso skills stay as flavour and should work without chores.
 
-**Proposed plan** (not approved line by line yet)
+**Plan**
 
-| # | Job | Change | Needs |
-|---|-----|--------|-------|
-| 1 | Bandit | Savage Blow hits 6 times at every level; damage per hit grows from 50% to 80%. Level 1 does 300% in total (Double Stab at max does 280%), level 30 does 480% as now. | Server and client skill data |
-| 2 | Bandit | A group attack in 2nd job: Steal hits up to 3 monsters. | Server and client skill data |
-| 3 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | To be tested: the client may refuse another job's skill |
-| 4 | Chief Bandit | Assaulter is faster and travels further, so it works as movement. | Client data, possibly client code |
-| 5 | Chief Bandit | Pickpocket drops mesos far more reliably and lasts longer, so Meso Explosion always has something to explode. | Server data |
-| 6 | Chief Bandit | Meso Guard lasts 180 seconds. | Server and client skill data |
-| 7 | Shadower | Assassinate does full damage without the Dark Sight setup. | To be tested |
-| 8 | All | Dark Sight is a toggle and any attack leaves it. | Client code, likely hard |
-| 9 | Shadower | Boomerang Step works on slopes and at ledges. | Client code, likely hard |
+Status: `agreed` = Robin decided it. `proposed` = suggested, not yet confirmed. Nothing is built.
 
-Order: 1 first, because it is also the first test of how a skill edit is made at all (`R-4`). Then 2 and 3.
+| # | Job | Change | Status | Needs |
+|---|-----|--------|--------|-------|
+| 1 | Rogue | Double Stab gets an overall damage buff. Suggested: 160% per hit at max instead of 140% (320% in total, was 280%). | agreed; numbers proposed | Server and client skill data |
+| 2 | Bandit | Savage Blow is better than a maxed Double Stab from its first point, and stronger overall. Suggested: 6 hits at every level, 55% per hit at level 1 (330%) growing to 100% at level 30 (600%, was 480%). | agreed; numbers proposed | Server and client skill data |
+| 3 | Bandit | Steal hits 4 monsters from level 1 and 6 when maxed. | agreed | Server and client skill data |
+| 4 | Bandit | Dagger Booster and Haste last 30 minutes (now 200 seconds at max). | agreed | Server and client skill data |
+| 5 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | agreed | To be tested: the client may refuse another job's skill |
+| 6 | Chief Bandit | Assaulter is faster and travels further, so it works as movement. | proposed | Client data, possibly client code |
+| 7 | Chief Bandit | Pickpocket drops mesos far more reliably and lasts longer, so Meso Explosion always has something to explode. | proposed | Server data |
+| 8 | Chief Bandit | Meso Guard lasts longer (180 seconds, or 30 minutes like the other buffs). | proposed | Server and client skill data |
+| 9 | Shadower | Assassinate does full damage without the Dark Sight setup. | proposed | To be tested |
+| 10 | All | Dark Sight is a toggle and any attack leaves it. | proposed | Client code, likely hard |
+| 11 | Shadower | Boomerang Step works on slopes and at ledges. | proposed | Client code, likely hard |
+
+Why the bandit needs the damage buff: at 2nd job an Assassin's Lucky Seven does 300% from range and Critical Throw adds about half again on average, while a Bandit's Savage Blow does 480% in melee with a slower swing.
+
+Order when we build: Savage Blow first, because it is also the first test of how a skill edit is made at all (`R-4`).
 
 **How it plays now** (numbers from `SkillDetails.tsv`)
 
