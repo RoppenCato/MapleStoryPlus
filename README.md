@@ -1,0 +1,48 @@
+# MapleStoryPlus
+
+Our own private MapleStory v83 server. Runs locally for now; playing with friends comes later.
+
+## Folders
+
+| Folder | What it is |
+|--------|------------|
+| [Server](Server/) | The server code. A copy of [SoloMapling](https://github.com/MadaraGameDev/SoloMapling) (Cosmic v83 emulator + bots that fill the world). |
+| [Client](Client/) | The game client we play with. Not chosen yet, see [Client/README.md](Client/README.md). |
+| [Settings](Settings/) | Our personal settings (`config.yaml`: rates, worlds, gameplay switches) and our documentation. |
+| `Database/` | The MySQL data: accounts, characters, items. This is the save file, so back it up. |
+| `Tools/` | Java 21 and MySQL 8.4, unpacked here instead of installed on Windows. Delete the folder to remove them. |
+
+## Where to change things
+
+- **Rates and gameplay settings:** edit [Settings/config.yaml](Settings/config.yaml). The guide is in [Settings/README.md](Settings/README.md).
+- **Server code:** edit files under `Server/`, then rebuild.
+
+## Documentation
+
+| Document | What it is |
+|----------|------------|
+| [Implementation list](Settings/Docs/Implementation-List.md) | The plan: what we do and in what order, ticked off as we go. |
+| [Game changes](Settings/Docs/Game-Changes.md) | What is different from the original game. |
+| [Class changes](Settings/Docs/Class-Changes.md) | Goals and changes per class and skill. |
+| [Development log](Settings/Docs/Development-Log.md) | What we did and decided, and which server files we changed. |
+
+## Starting and stopping
+
+| Script | What it does |
+|--------|--------------|
+| `Start-Server.bat` | Starts the database if it is not running, then the game server, using `Settings/config.yaml`. |
+| `Stop-Database.bat` | Shuts the database down cleanly. Close the game server window first. |
+| `Build-Server.bat` | Rebuilds the server after code changes. |
+
+The server is online when the window says `Cosmic is now online`. It listens on port 8484 (login) and 7575-7577 (channels). The database only accepts connections from this PC.
+
+## Status
+
+- [x] Java 21 (Amazon Corretto 21.0.12, in `Tools/java21`)
+- [x] MySQL 8.4.11 (in `Tools/mysql`, data in `Database/`)
+- [x] Server built and starts
+- [ ] Client installed and first login (files are downloaded in `Client/Downloads`)
+
+## The original repo
+
+`Server/` is a git clone. The original repo is linked as `upstream` with pushing disabled, so nothing here can end up there. We can still pull their updates with `git pull upstream main` from inside `Server/`.

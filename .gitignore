@@ -1,0 +1,8 @@
+# Installed tools (Java, MySQL, Magpie): re-download instead of backing up
+/Tools/
+# Live database files and local database backups (contain account data)
+/Database/
+/Backups/
+# The game client and its downloads: large, and not ours to redistribute
+/Client/MapleStory/
+/Client/Downloads/
