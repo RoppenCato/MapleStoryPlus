@@ -95,6 +95,16 @@ To measure once built: bundling frees many skill points. A Fighter can then max 
 | 4 | Threaten lowers attack and defence by 30 (now 20). | agreed | Server and client skill data |
 | 5 | Final Attack's numbers stay as they are. | agreed | Nothing |
 
+### Spearman (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Spear and Pole Arm Mastery, Booster and Final Attack are each bundled, by the pairing rule. | agreed | Server code |
+| 2 | The Boosters last 30 minutes (now 200 seconds) and have no HP cost. | agreed | Server and client skill data |
+| 3 | Hyper Body lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
+| 4 | Iron Will lasts 30 minutes (now 300 seconds) and gives +40 weapon and magic defence (now +20 each). | agreed | Server and client skill data |
+| 5 | Final Attack's numbers stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
