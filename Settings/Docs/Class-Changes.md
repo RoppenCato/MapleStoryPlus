@@ -37,20 +37,22 @@ Change table columns:
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 - **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
 - **Agreed 2026-10-10: sprint and the speed budget (Robin's numbers).**
-  - Sprint: the beginner skill Nimble Feet gives +10 speed for 10 seconds, with a 20-second cooldown and no MP cost, at every level (now +10 to +20 for 4 to 12 seconds, 60-second cooldown, costs MP). Bound to Shift by the player. Every class has it.
-  - The speed cap goes from 140 to 150 (Ezorsia's `speedMovementCap` in the client's `config.ini`).
-  - Thieves are the fastest class, at 150. Classes that get speed from their buffs top out at 130. Base speed is 100.
+  - Sprint: the beginner skill Nimble Feet gives +20 speed for 10 seconds, with a 20-second cooldown and no MP cost, at every level (originally +10 to +20 for 4 to 12 seconds, 60-second cooldown, costs MP). Bound to Shift by the player. Every class has it. First tried at +10, which was barely noticeable in play.
+  - The speed cap goes from 140 to 160 (Ezorsia's `speedMovementCap` in the client's `config.ini`).
+  - Thieves are the fastest class: 140 normally, 160 while sprinting. Classes that get speed from their buffs reach 140 while sprinting. Base speed is 100.
 
   | Class | Speed from skills | With sprint |
   |-------|-------------------|-------------|
-  | Thief | Haste +40 = 140 | 150 |
-  | Warrior | Iron Body +20 = 120 | 130 |
-  | Bowman, 1st and 2nd job | Focus +10 = 110 | 120 |
-  | Bowman, 3rd job on | Focus +10, Thrust +10 = 120 | 130 |
-  | Pirate | Dash +20 for 3 minutes = 120 | 130 |
-  | Magician | none = 100 | 110. Magicians have Teleport instead. |
+  | Thief | Haste +40 = 140 | 160 |
+  | Warrior | Iron Body +20 = 120 | 140 |
+  | Bowman, 1st and 2nd job | Focus +10 = 110 | 130 |
+  | Bowman, 3rd job on | Focus +10, Thrust +10 = 120 | 140 |
+  | Pirate | Dash +20 for 3 minutes = 120 | 140 |
+  | Magician | none = 100 | 120. Magicians have Teleport instead. |
 
-  Three adjustments were made to fit this budget, all agreed: Thrust gives +10 (was +30 in the original game), Dash gives +20 (was +30), and Nimble Body does not get the +10 speed first planned for it, so sprint still matters for thieves. Speed from equipment comes on top of all this, up to the cap of 150.
+  Three adjustments were made to fit this budget, all agreed: Thrust gives +10 (was +30 in the original game), Dash gives +20 (was +30), and Nimble Body does not get the +10 speed first planned for it. Speed from equipment comes on top of all this, up to the cap of 160.
+
+  Built and tested in game 2026-10-10: sprint works from the server's skill data alone, with no client edit.
 - **Agreed 2026-10-10: critical hits for every class (Robin's idea).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
 
   | Job | Chance | A critical hit does |
