@@ -128,6 +128,18 @@ To note: a permanent Hyper Body makes the Dark Knight line by far the highest-HP
 | 4 | Charged Blow no longer uses up the active charge. In the original game this only comes with Advanced Charge in 4th job. Advanced Charge then needs a different bonus; to settle when we reach the Paladin. | agreed | Server code; to be tested, since the client may remove the charge by itself |
 | 5 | Magic Crash, Shield Mastery and Improving MP Recovery stay as they are. | agreed | Nothing |
 
+### Dragon Knight (3rd job)
+
+The class's theme is spending HP for damage. Small constant HP costs are removed; the big deliberate ones stay.
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Crusher and Dragon Fury are each bundled across spear and pole arm, by the pairing rule. | agreed | Server code |
+| 2 | Dragon Fury has no HP cost (now 30 HP). | agreed | Server and client skill data |
+| 3 | Dragon Blood lasts 30 minutes (now 160 seconds) and no longer drains HP (now 20 HP every 4 seconds). | agreed | Server and client skill data; the drain is server code |
+| 4 | Dragon Roar keeps its 30% HP cost but no longer stuns you for 2 seconds afterwards. | agreed | To be tested: the self-stun may be handled by the client |
+| 5 | Crusher's numbers, Sacrifice, Power Crash and Elemental Resistance stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
