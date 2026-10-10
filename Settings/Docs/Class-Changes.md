@@ -61,6 +61,15 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 4 | Improved MP Recovery recovers more MP. It gives double what it does now. | agreed | To be tested: natural recovery is worked out by the client, so this may have to be done as extra recovery from the server |
 | 5 | Magic Claw and Improved MaxMP Increase stay as they are. | agreed | Nothing |
 
+### Fire/Poison Wizard (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Meditation lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 2 | Poison Breath hits up to 4 monsters (now 1) and always poisons at max level (now 60%). It is the branch's group attack: weaker upfront than Thunder Bolt, but the poison keeps working. | agreed | Server and client skill data |
+| 3 | Teleport costs less MP. Suggested: 30 MP at level 1 falling to 5 at max (now 60 falling to 13). Applies to all three magician branches. | agreed; numbers proposed | Server and client skill data |
+| 4 | Fire Arrow, MP Eater and Slow stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Bowmen
