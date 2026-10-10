@@ -17,7 +17,7 @@ Suggested names: `DevWarrior`, `DevMage`, `DevBowman`, `DevThief`, `DevPirate`.
 
 | Character | Class | Level | GM | Notes |
 |-----------|-------|-------|----|-------|
-| `trialguy` | Beginner | 1 | 6 | First test character. |
+| `trialguy` | Fire/Poison Wizard | 50 | 6 | Set up in the database 2026-10-10 with level 50 gear, skills and 1M meso. |
 
 ## GM commands
 

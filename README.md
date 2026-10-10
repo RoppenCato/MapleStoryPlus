@@ -24,6 +24,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | [Implementation list](Settings/Docs/Implementation-List.md) | The plan: what we do and in what order, ticked off as we go. |
 | [Game changes](Settings/Docs/Game-Changes.md) | What is different from the original game. |
 | [Class changes](Settings/Docs/Class-Changes.md) | Goals and changes per class and skill. |
+| [Reference lists](Settings/Reference/README.md) | Names and IDs of jobs, skills, maps, monsters, NPCs and items. |
 | [Research: bots and bosses](Settings/Docs/Research-Bots-and-Bosses.md) | How the bots work and what each boss needs. |
 | [Development log](Settings/Docs/Development-Log.md) | What we did and decided, and which server files we changed. |
 
