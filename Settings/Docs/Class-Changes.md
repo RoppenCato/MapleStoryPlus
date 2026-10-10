@@ -305,11 +305,17 @@ To measure once built: a cheaper Blizzard with a longer Infinity freezes and dam
 
 ## Bowmen
 
-Bowmaster, Marksman.
+Bowmaster, Marksman. Under discussion since 2026-10-10, one job at a time.
 
-**Goal:** not set.
+**Goal:** not set. Starting point: the bowman is the crit specialist with good range. Its weaknesses are being fragile, getting knocked around, and having no movement skill.
 
-**Ideas:** none yet.
+### Archer (shared 1st job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Arrow Blow hits up to 3 monsters in a line (now 1). Today it does the same total damage as Double Shot, so there is no reason to take both. | agreed | Server and client skill data |
+| 2 | Focus lasts 30 minutes (now 300 seconds) and also gives +10 movement speed. This is the bowman's speed-up. | agreed | Server and client skill data |
+| 3 | Critical Shot, Double Shot, The Blessing of Amazon and The Eye of Amazon stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
