@@ -64,7 +64,7 @@ Change table columns:
 
   For comparison, a bowman's Critical Shot is 40% for 200%.
 
-  How: the server gives the character the same effect as the bowmaster's Sharp Eyes buff, permanently. The client already shows critical hits for any class under that buff, so nothing in the client changes. Not tested. Doubt: in the original game Sharp Eyes does not affect magic, so magicians may not be able to crit this way.
+  How: the server gives the character the same effect as the bowmaster's Sharp Eyes buff, permanently. The client already shows critical hits for any class under that buff, so nothing in the client changes. Built and tested in game on a warrior, 2026-10-10. Still to check: whether magicians crit this way, since in the original game Sharp Eyes does not affect magic.
 
 **Changes:** none yet.
 

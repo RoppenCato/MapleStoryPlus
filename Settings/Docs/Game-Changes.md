@@ -23,6 +23,14 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-10 | Haste (bandit and assassin) | 200 seconds at max | 30 minutes at max | Yes |
 | 2026-10-10 | Every other booster, class buff, Maple Warrior and summon | 2 to 20 minutes | 30 minutes at max (a few shorter by design, listed in the Development log) | Yes, spot-checked: buffs last far longer than before. Not timed to the full 30 minutes, and not every one of the 85 skills was tried. |
 
+| 2026-10-10 | Critical hits for every class | Only bowmen and assassins could crit | Every other class crits too: 10% for 150% in 1st job, 15% for 150% in 2nd, 20% for 160% in 3rd, 25% for 170% in 4th. Shown as a permanent Sharp Eyes icon. | Yes, on a Crusader |
+| 2026-10-10 | Defence buffs | Iron Body and Magic Armor +40 weapon defence; Iron Will +20 | Iron Body and Magic Armor +80 weapon and +40 magic defence; Iron Will +40 of each; Iron Body also +20 speed | Yes (Iron Body) |
+| 2026-10-10 | HP costs | Boosters, Slash Blast, Coma, Charged Blow and Dragon Fury cost HP | No HP cost | Yes (Slash Blast, Sword Booster) |
+| 2026-10-10 | Rage | -12 weapon defence while active | No penalty | Yes |
+| 2026-10-10 | Teleport | 60 MP falling to 13 | 30 MP falling to 5 | Yes |
+| 2026-10-10 | Dark Sight | Slows you until maxed | No speed penalty | Yes |
+| 2026-10-10 | Other values in the same batch: Threaten and Disorder at -30; Shout, Seal, Doom, Power Knock-Back, Poison Breath, Poison Mist and Pickpocket always work at max; 3-second freezes on Cold Beam and Ice Strike; ultimates at most 2,500 MP; Element Amplification with no extra MP cost at max; Dash +20; full Holy Symbol bonus when alone | See Class-Changes.md | As agreed | Not individually. Same kind of change as the tested ones. |
+
 ## Travel and guidance
 
 | Date | ID | Change | Before | After |
