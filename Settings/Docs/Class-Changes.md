@@ -118,6 +118,16 @@ To note: a permanent Hyper Body makes the Dark Knight line by far the highest-HP
 | 5 | Shout always stuns at max level (now 95%). | agreed | Server and client skill data |
 | 6 | Armor Crash, Shield Mastery and Improving MP Recovery stay as they are. | agreed | Nothing |
 
+### White Knight (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | The element charges (fire, ice, lightning) are bundled across sword and blunt weapon, by the pairing rule. | agreed | Server code |
+| 2 | The element charges last 30 minutes (now 200 seconds) and all do 130% (now 110 to 125%). | agreed | Server and client skill data |
+| 3 | Charged Blow has no HP cost (now 25 HP). | agreed | Server and client skill data |
+| 4 | Charged Blow no longer uses up the active charge. In the original game this only comes with Advanced Charge in 4th job. Advanced Charge then needs a different bonus; to settle when we reach the Paladin. | agreed | Server code; to be tested, since the client may remove the charge by itself |
+| 5 | Magic Crash, Shield Mastery and Improving MP Recovery stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
