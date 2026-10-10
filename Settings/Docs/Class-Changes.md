@@ -91,6 +91,17 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 
 To measure once built: Bless, Invincible, Magic Guard and a full self-heal together make the cleric the sturdiest 2nd job by a distance.
 
+### Fire/Poison Mage (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Element Amplification keeps +40% magic damage, and its extra MP cost shrinks as it is levelled, to none at max (now every spell costs double). | agreed | Server and client skill data |
+| 2 | Element Amplification also raises the weakness bonus: monsters weak to your element take 175% at max (now 150%). Robin's idea. | agreed | To be tested: the weakness multiplier is probably inside the client program. If so, it is parked. |
+| 3 | Spell Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 4 | Poison Mist always poisons at max level (now 70%). | agreed | Server and client skill data |
+| 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
+| 6 | Explosion, Element Composition and Partial Resistance stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Bowmen
