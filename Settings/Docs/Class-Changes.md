@@ -68,8 +68,8 @@ How: the two skills level together. A point put into one gives the same point in
 | Pair | Status |
 |------|--------|
 | Fighter: Sword Mastery and Axe Mastery | agreed |
-| The other 2nd job pairs: Final Attack and Booster for the Fighter; Mastery, Final Attack and Booster for the Page (sword and blunt weapon) and the Spearman (spear and pole arm) | proposed |
-| 3rd job pairs, such as Panic and Coma for sword and axe, the element charges for sword and blunt weapon, Crusher and Dragon Fury for spear and pole arm | proposed |
+| The other 2nd job pairs: Final Attack and Booster for the Fighter; Mastery, Final Attack and Booster for the Page (sword and blunt weapon) and the Spearman (spear and pole arm) | agreed |
+| 3rd job pairs, such as Panic and Coma for sword and axe, the element charges for sword and blunt weapon, Crusher and Dragon Fury for spear and pole arm | agreed |
 
 ### Fighter (2nd job)
 
@@ -82,6 +82,18 @@ The Fighter gets no new attack in 2nd job; it keeps Power Strike and Slash Blast
 | 3 | Rage lasts 30 minutes (now 160 seconds) and has no defence penalty (now -12 weapon defence). | agreed | Server and client skill data |
 | 4 | Power Guard lasts 30 minutes (now 90 seconds). | agreed | Server and client skill data |
 | 5 | Final Attack stays as it is. | agreed | Nothing |
+
+To measure once built: bundling frees many skill points. A Fighter can then max every 2nd job skill, which is not possible today.
+
+### Page (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Sword and Blunt Weapon Mastery, Booster and Final Attack are each bundled, by the pairing rule. | agreed | Server code |
+| 2 | The Boosters last 30 minutes (now 200 seconds) and have no HP cost. | agreed | Server and client skill data |
+| 3 | Power Guard lasts 30 minutes (now 90 seconds). | agreed | Server and client skill data |
+| 4 | Threaten lowers attack and defence by 30 (now 20). | agreed | Server and client skill data |
+| 5 | Final Attack's numbers stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
