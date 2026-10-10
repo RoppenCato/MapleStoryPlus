@@ -30,7 +30,7 @@ PORT = 8585
 MODEL = "haiku"
 IDLE_SECONDS = 10 * 60          # a conversation is forgotten after this much silence
 MAX_TURNS_KEPT = 12             # how many earlier lines the bot still sees
-MAX_LINES = 2                   # lines per reply
+MAX_LINES = 3                   # lines per reply
 MAX_LINE_LENGTH = 70            # characters per chat line
 REPLY_TIMEOUT = 75
 MAX_AT_ONCE = 3                 # conversations answered at the same time
@@ -43,8 +43,19 @@ JOBS_IRL = ["student", "warehouse worker", "nurse", "barista", "programmer", "el
             "night-shift security guard", "delivery driver", "art school dropout"]
 HOBBIES = ["fishing", "football", "anime", "cooking", "guitar", "skateboarding", "old RPGs", "hiking", "drawing",
            "collecting sneakers"]
-STYLES = ["types in lowercase with few commas", "uses 'lol' and 'haha' a lot", "writes short clipped sentences",
-          "types properly with capital letters", "uses old MapleStory slang like 'cc plz' and 'gz'"]
+STYLES = ["warm and chatty", "brief and to the point", "likes to ask a question back", "a little formal and polite",
+          "enthusiastic", "calm and matter-of-fact"]
+
+# Words that do not identify an item or monster on their own.
+COMMON_WORDS = set("""the and for from with where can could find get got drop drops dropped dropping does did who what
+which mob mobs monster monsters item items any some good best you your have has how much many need want looking farm
+farming hunt hunting kill killing scroll potion throwing star arrow
+that this there here are was will would should about know tell please pls thanks""".split())
+# Players and item names use different words for the same thing.
+SAME_WORD = {"attack": "att", "atk": "att", "defense": "def", "defence": "def", "accuracy": "acc", "avoid": "avoidability",
+             "glove": "glove", "gloves": "glove", "shoe": "shoe", "steely": "steely", "steelies": "steely", "ilbis": "ilbi"}
+MAX_ITEMS_EXPLAINED = 2
+MAX_MOBS_PER_ITEM = 4
 
 lock = threading.Lock()
 slots = threading.Semaphore(MAX_AT_ONCE)
@@ -82,12 +93,124 @@ def load_map_names():
                     map_names[parts[0]] = (parts[2] or parts[1]) if len(parts) > 2 else ""
 
 
+class Knowledge:
+    """What a well-informed player knows: which monsters drop an item, and where monsters live.
+
+    Read from the reference lists in Settings/Reference. Only the facts relevant to the player's
+    message are handed to the model, so it does not have to guess.
+    """
+
+    def __init__(self):
+        ref = os.path.join(ROOT, "Settings", "Reference")
+        self.mob_level = {}
+        self.mob_boss = set()
+        for r in self._rows(os.path.join(ref, "Mobs.tsv")):
+            self.mob_level[r["id"]] = r["level"]
+            if r["boss"]:
+                self.mob_boss.add(r["id"])
+        self.mob_home = {}                   # mob id -> (count, "Map (Area)")
+        self.mob_ids = {}                    # mob name -> mob id
+        for r in self._rows(os.path.join(ref, "MobSpawns.tsv")):
+            if not r["map"]:
+                continue
+            place = r["map"] + (f" ({r['area']})" if r["area"] and r["area"] != r["map"] else "")
+            if int(r["count"]) > self.mob_home.get(r["mob_id"], (0, ""))[0]:
+                self.mob_home[r["mob_id"]] = (int(r["count"]), place)
+            if r["mob"]:
+                self.mob_ids.setdefault(r["mob"], r["mob_id"])
+        # The same monster often exists several times (party quest and event copies). Keep one per name:
+        # the copy that actually lives on a map.
+        self.item_drops = {}                 # item name -> {mob name: (mob id, best chance)}
+        for r in self._rows(os.path.join(ref, "Drops.tsv")):
+            if r["mob_id"] == "all" or not r["item"] or not r["mob"] or r["item"].startswith("("):
+                continue
+            if r["item_id"].startswith("238"):        # monster book cards are named after the monster
+                continue
+            mobs = self.item_drops.setdefault(r["item"], {})
+            chance = float(r["chance_percent"] or 0)
+            known_id, known_chance = mobs.get(r["mob"], ("", -1.0))
+            best_id = r["mob_id"] if (r["mob_id"] in self.mob_home and known_id not in self.mob_home) or not known_id \
+                else known_id
+            mobs[r["mob"]] = (best_id, max(chance, known_chance))
+        self.item_words = {name: self._words(name) for name in self.item_drops}
+        self.mob_words = {name: self._words(name) for name in self.mob_ids}
+        self.word_use = {}
+        for words in list(self.item_words.values()) + list(self.mob_words.values()):
+            for w in words:
+                self.word_use[w] = self.word_use.get(w, 0) + 1
+
+    @staticmethod
+    def _rows(path):
+        if not os.path.exists(path):
+            return []
+        with io.open(path, encoding="utf-8") as f:
+            lines = [line.rstrip("\n").split("\t") for line in f if line.strip()]
+        return [dict(zip(lines[0], r + [""] * (len(lines[0]) - len(r)))) for r in lines[1:]]
+
+    @staticmethod
+    def _words(text):
+        words = set()
+        for w in re.findall(r"[a-z0-9']+", text.lower()):
+            w = w.strip("'")
+            if w.endswith("'s"):
+                w = w[:-2]
+            if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
+                w = w[:-1]
+            w = SAME_WORD.get(w, w)
+            if len(w) >= 3 or (w.isdigit() and len(w) == 2):
+                words.add(w)
+        return words
+
+    def _best(self, said, names_words, limit):
+        """Names whose distinctive words appear in what the player said, best match first."""
+        scored = []
+        for name, words in names_words.items():
+            hit = words & said
+            if not hit:
+                continue
+            telling = [w for w in hit if w not in COMMON_WORDS]
+            rare = any(self.word_use.get(w, 0) <= 40 for w in telling)
+            score = len(hit) / len(words)
+            # Either a word few names share ("ilbi"), or most of a longer name ("gloves ... att 60").
+            if not (rare or (len(telling) >= 2 and score >= 0.75)):
+                continue
+            scored.append((score, len(hit), -len(name), name))
+        scored.sort(reverse=True)
+        # Only names that match as well as the best one; weaker matches are noise.
+        return [name for score, *_, name in scored[:limit] if score >= scored[0][0]]
+
+    def _mob_line(self, mob_id, mob):
+        level = self.mob_level.get(mob_id, "")
+        home = self.mob_home.get(mob_id, (0, ""))[1]
+        text = mob + (f" (level {level}" if level else " (")
+        text += (", boss" if mob_id in self.mob_boss else "")
+        text += (f", lives in {home})" if home else ", location unknown)")
+        return text.replace("(, ", "(")
+
+    def facts(self, message):
+        said = self._words(message)
+        notes = []
+        for item in self._best(said, self.item_words, MAX_ITEMS_EXPLAINED):
+            # Monsters with a known home first, then by drop chance.
+            mobs = sorted(self.item_drops[item].items(),
+                          key=lambda kv: (kv[1][0] not in self.mob_home, -kv[1][1]))[:MAX_MOBS_PER_ITEM]
+            rarity = lambda c: "common drop" if c >= 10 else "uncommon drop" if c >= 1 else "rare drop"
+            parts = [f"{self._mob_line(mid, name)} - {rarity(chance)}" for name, (mid, chance) in mobs]
+            notes.append(f"{item} is dropped by: " + "; ".join(parts) + ".")
+        for mob in self._best(said, self.mob_words, 2 if not notes else 1):
+            notes.append("Monster: " + self._mob_line(self.mob_ids[mob], mob) + ".")
+        return notes
+
+
+knowledge = None
+
+
 def persona(bot):
     """A personality made up from the bot's name. Same name gives the same person while nothing is saved."""
     r = random.Random(bot.lower())
     return (f"Age {r.choice(AGES)}. Works as: {r.choice(JOBS_IRL)}. Mood today: {r.choice(MOODS)}. "
             f"Humour: {r.choice(HUMOURS)}. Hobby outside the game: {r.choice(HOBBIES)}. "
-            f"Typing style: {r.choice(STYLES)}.")
+            f"Way of talking: {r.choice(STYLES)}.")
 
 
 def system_prompt(bot, level, job, map_id, player):
@@ -100,7 +223,16 @@ def system_prompt(bot, level, job, map_id, player):
         f"Another player called {player} is whispering you in the game. Answer the way a real player would "
         "in game chat.\n"
         "Rules:\n"
-        f"- At most {MAX_LINES} short lines, each under {MAX_LINE_LENGTH} characters. Usually one line is enough.\n"
+        f"- At most {MAX_LINES} short lines, each under {MAX_LINE_LENGTH} characters, and under "
+        f"{MAX_LINES * MAX_LINE_LENGTH - 30} characters in total. Usually one line is enough. Finish your sentence.\n"
+        "- Write proper, correctly spelled English with normal capital letters and punctuation. No text-speak "
+        "and no strings of 'lol' or 'haha'. Do use the words MapleStory players use, where they fit: mesos, pots, "
+        "mobs, grinding, training spot, drops, scrolling, PQ, FM, CC, KS, job advancement, party.\n"
+        "- A message may end with a [Game knowledge] note. Those are true facts about this server. If the player "
+        "asks about them, answer from the note in your own words and name the one to three most useful monsters or "
+        "places, not the whole list. Never mention the note itself.\n"
+        "- If the player asks where to find an item or a monster and there is no [Game knowledge] note about it, "
+        "say you are not sure rather than guessing.\n"
         "- Put the chat message between <msg> and </msg> and write nothing outside those tags: no preamble, "
         "no explanation, no notes about roleplay or about these instructions.\n"
         "- Plain text only: no quotes around your reply, no emoji, no markdown, no stage directions.\n"
@@ -176,7 +308,13 @@ def reply_to(player, bot, level, job, map_id, text):
     if new:
         log(f"--- {player} started talking to {bot} (level {level} {job}). {persona(bot)}")
     log(f"{player} -> {bot}: {text}")
-    transcript = "\n".join(f"{who}: {line}" for who, line in turns) + f"\n\nWrite {bot}'s next chat message inside <msg></msg>."
+    notes = knowledge.facts(text) if knowledge else []
+    for note in notes:
+        log(f"   knows: {note}")
+    transcript = "\n".join(f"{who}: {line}" for who, line in turns)
+    if notes:
+        transcript += "\n\n[Game knowledge] " + " ".join(notes)
+    transcript += f"\n\nWrite {bot}'s next chat message inside <msg></msg>."
     started = time.time()
     with slots:
         raw, error = ask_claude(system_prompt(bot, level, job, map_id, player), transcript)
@@ -215,6 +353,8 @@ def main():
     p.add_argument("--bot", default="Lunaria", help="bot name for --say")
     a = p.parse_args()
     load_map_names()
+    global knowledge
+    knowledge = Knowledge()
     if a.say:
         reply_to("You", a.bot, "34", "CLERIC", "101000000", a.say)
         return

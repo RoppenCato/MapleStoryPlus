@@ -12,6 +12,7 @@ The `.tsv` files are tab-separated text. Open them in a text editor and search, 
 | [Skills.tsv](Skills.tsv) | 541 | id, job id, job, name, max level |
 | [Maps.tsv](Maps.tsv) | 4,416 | id, area, name |
 | [Mobs.tsv](Mobs.tsv) | 1,568 | id, name, level, HP, exp, boss |
+| [MobSpawns.tsv](MobSpawns.tsv) | 2,865 | monster, map, how many spawn there, respawn time |
 | [Npcs.tsv](Npcs.tsv) | 7,075 | id, name, role |
 | [Equips.tsv](Equips.tsv) | 5,116 | id, name, type, required level, job, scroll slots, cash, stats, required STR/DEX/INT/LUK/fame |
 | [Items.tsv](Items.tsv) | 5,482 | id, name, kind (use, setup, etc, cash, pet), description |

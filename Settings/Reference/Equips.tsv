@@ -719,7 +719,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1002711	White Kitty Ears	Cap	0	all		cash		0	0	0	0	0
 1002712	Black Kitty Ears	Cap	0	all		cash		0	0	0	0	0
 1002713	Black Bubble Beanie	Cap	0	all		cash		0	0	0	0	0
-1002714	Christmas Tree Hat	Cap		all				0	0	0	0	0
+1002714	Christmas Tree Hat	Cap	0	all		cash		0	0	0	0	0
 1002715	Military Beanie	Cap	0	all		cash		0	0	0	0	0
 1002716	Versalmas Hat	Cap	0	all	7		MDD+10	0	0	0	0	0
 1002717	Maplemas Hat	Cap	0	all	7		MDD+10	0	0	0	0	0
@@ -762,19 +762,19 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1002771	Tiger Cub Hat	Cap	0	all		cash		0	0	0	0	0
 1002773	Gold Dragon Crown	Cap	110	magician	7		PDD+56 MDD+85 INT+5 LUK+5 MMP+25	0	0	338	113	0
 1002774	Victory Hairpin	Cap	0	all		cash		0	0	0	0	0
-1002776	Timeless Fennel	Cap	120	warrior	7		PDD+120 STR+7 STRMax+1 DEXMax+1 MHPMin+10 MHPMax+20	330	0	0	0	0
-1002777	Timeless Coral	Cap	120	magician	7		PDD+60 MDD+90 INT+7 LUK+5 MMP+25 INTMax+1 LUKMax+1 MHPMin+5 MHPMax+10 MMPMin+5 MMPMax+10	0	0	368	123	0
-1002778	Timeless Rapido	Cap	120	bowman	7		PDD+75 DEX+7 STR+3 MHP+30 DEXMax+1 STRMax+1 MHPMin+20 MHPMax+30	0	370	0	0	0
-1002779	Timeless Chive	Cap	120	thief	7		PDD+75 LUK+6 DEX+4 MHP+30 LUKMax+1 DEXMax+1 STRMax+1 MHPMin+20 MHPMax+30	0	160	0	300	0
-1002780	Timeless Conrad Henkel	Cap	120	pirate	7		PDD+75 STR+6 DEX+6 STRMax+1 DEXMax+1 MHPMin+10 MHPMax+20	120	120	0	0	0
+1002776	Timeless Fennel	Cap	120	warrior	7		PDD+120 STR+7	330	0	0	0	0
+1002777	Timeless Coral	Cap	120	magician	7		PDD+60 MDD+90 INT+7 LUK+5 MMP+25	0	0	368	123	0
+1002778	Timeless Rapido	Cap	120	bowman	7		PDD+75 DEX+7 STR+3 MHP+30	0	370	0	0	0
+1002779	Timeless Chive	Cap	120	thief	7		PDD+75 LUK+6 DEX+4 MHP+30	0	160	0	300	0
+1002780	Timeless Conrad Henkel	Cap	120	pirate	7		PDD+75 STR+6 DEX+6	120	120	0	0	0
 1002784	"A" Cap	Cap	0	all		cash		0	0	0	0	0
 1002785	Azure Sun Cap	Cap	0	all		cash		0	0	0	0	0
 1002788	Necomimi	Cap	30	all	7		PDD+30 MDD+30 MHP+30 MMP+30	0	0	0	0	0
-1002790	Reverse Fennel	Cap	120	warrior	7		PDD+120 STR+6 STRMax+1 DEXMax+1 MHPMin+10 MHPMax+20	330	0	0	0	0
-1002791	Reverse Coral	Cap	120	magician	7		PDD+60 MDD+90 INT+6 LUK+5 MMP+25 INTMax+1 LUKMax+1 MHPMin+5 MHPMax+10 MMPMin+5 MMPMax+10	0	0	368	123	0
-1002792	Reverse Rapido	Cap	120	bowman	7		PDD+75 DEX+6 STR+3 MHP+30 DEXMax+1 STRMax+1 MHPMin+20 MHPMax+30	0	370	0	0	0
-1002793	Reverse Chive	Cap	120	thief	7		PDD+75 LUK+5 DEX+4 MHP+30 LUKMax+1 DEXMax+1 STRMax+1 MHPMin+20 MHPMax+30	0	160	0	300	0
-1002794	Reverse Conrad Henkel	Cap	120	pirate	7		PDD+75 STR+5 DEX+5 STRMax+1 DEXMax+1 MHPMin+10 MHPMax+20	120	120	0	0	0
+1002790	Reverse Fennel	Cap	120	warrior	7		PDD+120 STR+6	330	0	0	0	0
+1002791	Reverse Coral	Cap	120	magician	7		PDD+60 MDD+90 INT+6 LUK+5 MMP+25	0	0	368	123	0
+1002792	Reverse Rapido	Cap	120	bowman	7		PDD+75 DEX+6 STR+3 MHP+30	0	370	0	0	0
+1002793	Reverse Chive	Cap	120	thief	7		PDD+75 LUK+5 DEX+4 MHP+30	0	160	0	300	0
+1002794	Reverse Conrad Henkel	Cap	120	pirate	7		PDD+75 STR+5 DEX+5	120	120	0	0	0
 1002796	Puffy Ram Hat	Cap	0	all		cash		0	0	0	0	0
 1002797	Agent N's Disposable Receiver	Cap	10	all	6		STR+2 DEX+2 LUK+2 INT+2 MHP+5	0	0	0	0	0
 1002798	A Rice Cake on Top of My Head	Cap	15	all	7		PDD+22 HP+50	4	4	4	4	0
@@ -782,7 +782,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1002801	Raven Ninja Bandana	Cap	60	all	7		PDD+8 STR+2 DEX+3 LUK+3 EVA+7	0	0	0	0	0
 1002803	Mrs. Octopus	Cap	0	all		cash		0	0	0	0	0
 1002804	Brown Felt Hat	Cap	0	all		cash		0	0	0	0	0
-1002812	Moon Bloom Hair Pin	Cap		all				0	0	0	0	0
+1002812	Moon Bloom Hair Pin	Cap	0	all			PAD+3 MAD+3 Speed+5 Jump+3	0	0	0	0	0
 1002820	Inferno Horns	Cap	0	all		cash		0	0	0	0	0
 1002821	Violet Heart Beanie	Cap	0	all		cash		0	0	0	0	0
 1002822	Bird Nest	Cap	0	all		cash		0	0	0	0	0
@@ -1167,7 +1167,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1032028	Red Emerald Earrings	Accessory	30	all	5		MDD+5 INT+2	0	0	0	0	0
 1032029	Silver Earrings	Accessory	0	all		cash		0	0	0	0	0
 1032030	Sword Earrings	Accessory	100	all	5		MDD+80 PAD+1	0	0	0	0	0
-1032031	Timeless Earrings	Accessory	120	all	5		MDD+100 MMP+30 ACC+3 STRMax+1 DEXMax+1 INTMax+1 LUKMax+1 MHPMin+5 MHPMax+20	0	0	0	0	0
+1032031	Timeless Earrings	Accessory	120	all	5		MDD+100 MMP+30 ACC+3	0	0	0	0	0
 1032032	Fallen Leaf Earrings	Accessory	25	all	5		MMP+25 MAD+1 MDD+2 MHP+25	0	0	0	0	0
 1032033	Protector Rock	Accessory	10	all	5		MDD+10	0	0	0	0	0
 1032034	Coke Earring	Accessory	0	all		cash		0	0	0	0	0
@@ -2100,23 +2100,23 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1052143	Sky Blue Padded Coat	Longcoat	0	all		cash		0	0	0	0	0
 1052144	Luxurious Padded Coat	Longcoat	0	all		cash		0	0	0	0	0
 1052145	Christmas Party Suit	Longcoat	0	all		cash		0	0	0	0	0
-1052147	Chinese Lion Costume	Longcoat		all				0	0	0	0	0
+1052147	Chinese Lion Costume	Longcoat	0	all		cash		0	0	0	0	0
 1052148	 Bosshunter Armor	Longcoat	70	warrior/bowman/pirate	10		PDD+120 MDD+30 STR+5 DEX+5 MHP+100	0	0	0	0	0
 1052149	 Bosshunter Gi	Longcoat	70	magician/thief	10		PDD+80 MDD+45 INT+4 LUK+4 DEX+5 MMP+80	0	0	0	0	0
 1052151	 Bosshunter Armor	Longcoat	0	all		cash		0	0	0	0	0
 1052152	 Bosshunter Gi	Longcoat	0	all		cash		0	0	0	0	0
 1052153	Red Viska for Transformation	Longcoat	0	all		cash		0	0	0	0	0
 1052154	Tiger Cub Outfit	Longcoat	0	all		cash		0	0	0	0	0
-1052155	Timeless Taragon	Longcoat	120	warrior	10		DEX+7 STR+9 PDD+196 ACC+3 STRMax+1 DEXMax+1 EVAMin+1 EVAMax+2	370	0	0	0	0
-1052156	Timeless Myst Blue	Longcoat	118	magician	10		INT+9 LUK+4 MMP+50 PDD+100 MDD+50 INTMax+1 LUKMax+1 EVAMin+1 EVAMax+2	0	0	355	120	0
-1052157	Timeless Evernew	Longcoat	120	bowman	10		STR+6 DEX+9 PDD+125 EVA+3 DEXMax+1 STRMax+1 EVAMin+1 EVAMax+3	0	370	0	0	0
-1052158	Timeless Prinsid	Longcoat	120	thief	10		PDD+125 DEX+5 LUK+8 EVA+4 LUKMax+1 DEXMax+1 STRMax+1 EVAMin+1 EVAMax+3	0	160	0	300	0
-1052159	Timeless Burgunt	Longcoat	120	pirate	10		PDD+125 STR+8 DEX+8 MHP+30 STRMax+1 DEXMax+1 EVAMin+1 EVAMax+3	120	120	0	0	0
-1052160	Reverse Taragon	Longcoat	120	warrior	10		DEX+7 STR+8 PDD+196 ACC+3 STRMax+1 DEXMax+1 EVAMin+1 EVAMax+2	370	0	0	0	0
-1052161	Reverse Myst Blue	Longcoat	118	magician	10		INT+8 LUK+4 MMP+50 PDD+100 MDD+50 INTMax+1 LUKMax+1 EVAMin+1 EVAMax+2	0	0	355	120	0
-1052162	Reverse Evernew	Longcoat	120	bowman	10		STR+6 DEX+8 PDD+125 EVA+3 DEXMax+1 STRMax+1 EVAMin+1 EVAMax+3	0	370	0	0	0
-1052163	Reverse Prinsid	Longcoat	120	thief	10		DEX+5 LUK+7 EVA+4 PDD+125 LUKMax+1 DEXMax+1 STRMax+1 EVAMin+1 EVAMax+3	0	160	0	300	0
-1052164	Reverse Burgunt	Longcoat	120	pirate	10		PDD+125 STR+7 DEX+7 MHP+30 STRMax+1 DEXMax+1 EVAMin+1 EVAMax+3	120	120	0	0	0
+1052155	Timeless Taragon	Longcoat	120	warrior	10		DEX+7 STR+9 PDD+196 ACC+3	370	0	0	0	0
+1052156	Timeless Myst Blue	Longcoat	118	magician	10		INT+9 LUK+4 MMP+50 PDD+100 MDD+50	0	0	355	120	0
+1052157	Timeless Evernew	Longcoat	120	bowman	10		STR+6 DEX+9 PDD+125 EVA+3	0	370	0	0	0
+1052158	Timeless Prinsid	Longcoat	120	thief	10		PDD+125 DEX+5 LUK+8 EVA+4	0	160	0	300	0
+1052159	Timeless Burgunt	Longcoat	120	pirate	10		PDD+125 STR+8 DEX+8 MHP+30	120	120	0	0	0
+1052160	Reverse Taragon	Longcoat	120	warrior	10		DEX+7 STR+8 PDD+196 ACC+3	370	0	0	0	0
+1052161	Reverse Myst Blue	Longcoat	118	magician	10		INT+8 LUK+4 MMP+50 PDD+100 MDD+50	0	0	355	120	0
+1052162	Reverse Evernew	Longcoat	120	bowman	10		STR+6 DEX+8 PDD+125 EVA+3	0	370	0	0	0
+1052163	Reverse Prinsid	Longcoat	120	thief	10		DEX+5 LUK+7 EVA+4 PDD+125	0	160	0	300	0
+1052164	Reverse Burgunt	Longcoat	120	pirate	10		PDD+125 STR+7 DEX+7 MHP+30	120	120	0	0	0
 1052165	Parachute Agent Suit	Longcoat	10	all	9		PDD+10 MDD+5 STR+1 DEX+1 INT+1 LUK+1 MHP+5 EVA+5	0	0	0	0	0
 1052166	Invincible Agent Suit	Longcoat	30	all	9		PDD+30 MDD+15 STR+2 DEX+2 INT+2 LUK+2 MHP+10 EVA+10	0	0	0	0	0
 1052167	Ultimate Agent Suit	Longcoat	50	all	9		PDD+50 MDD+25 STR+3 DEX+3 INT+3 LUK+3 MHP+15 EVA+15	0	0	0	0	0
@@ -2610,7 +2610,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1072010	Black Dress Shoes	Shoes	0	all		cash		0	0	0	0	0
 1072011	Mithril War Boots	Shoes	25	warrior	5		PDD+15	80	0	0	0	0
 1072012	Red Whitebottom Boots	Shoes	26	all	5		PDD+13 Speed+3	0	0	0	0	0
-1072013	Red Air H's	Shoes		all				0	0	0	0	0
+1072013	Red Air H's	Shoes	0	all		cash		0	0	0	0	0
 1072014	Camping Boots	Shoes	0	all		cash		0	0	0	0	0
 1072015	Brown Hard Leather Boots	Shoes	10	bowman	5		PDD+4	0	0	0	0	0
 1072016	Green Woodsman Boots	Shoes	15	bowman	5		PDD+7	15	35	0	0	0
@@ -2922,17 +2922,17 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1072352	Red Silky Boots for Transformation	Shoes	0	all		cash		0	0	0	0	0
 1072353	White Ninja Sandals for Transformation	Shoes	0	all		cash		0	0	0	0	0
 1072354	Black Voyson Shoes for Transformation	Shoes	0	all		cash		0	0	0	0	0
-1072355	Timeless Grabbe	Shoes	120	warrior	5		STR+6 DEX+3 ACC+1 PDD+84 STRMax+1 DEXMax+1 SpeedMax+1 JumpMax+1	390	0	0	0	0
-1072356	Timeless Cabatina	Shoes	120	magician	5		INT+5 LUK+4 PDD+47 MDD+23 MAD+1 INTMax+1 LUKMax+1 SpeedMax+1 JumpMax+1	0	0	368	123	0
-1072357	Timeless Rontano	Shoes	120	bowman	5		PDD+70 DEX+6 STR+3 EVA+1 DEXMax+1 STRMax+1 SpeedMax+1 JumpMax+1	0	370	0	0	0
-1072358	Timeless Moonsteed	Shoes	120	thief	5		PDD+70 DEX+4 LUK+5 EVA+1 LUKMax+1 DEXMax+1 STRMax+1 SpeedMax+1 JumpMax+1	0	160	0	300	0
-1072359	Timeless Faraon	Shoes	120	pirate	5		DEX+5 STR+5 EVA+1 PDD+70 STRMax+1 DEXMax+1 SpeedMax+1 JumpMax+1	120	120	0	0	0
-1072360	White & Blue Sandals	Shoes		all				0	0	0	0	0
-1072361	Reverse Grabbe	Shoes	120	warrior	5		STR+5 DEX+3 ACC+1 PDD+84 STRMax+1 DEXMax+1 SpeedMax+1 JumpMax+1	390	0	0	0	0
-1072362	Reverse Cabatina	Shoes	120	magician	5		INT+4 LUK+4 PDD+47 MDD+23 MAD+1 INTMax+1 LUKMax+1 SpeedMax+1 JumpMax+1	0	0	368	123	0
-1072363	Reverse Rontano	Shoes	120	bowman	5		PDD+70 DEX+5 STR+3 EVA+1 DEXMax+1 STRMax+1 SpeedMax+1 JumpMax+1	0	370	0	0	0
-1072364	Reverse Moonsteed	Shoes	120	thief	5		PDD+70 DEX+4 LUK+4 EVA+1 LUKMax+1 DEXMax+1 STRMax+1 SpeedMax+1 JumpMax+1	0	160	0	300	0
-1072365	Reverse Faraon	Shoes	120	pirate	5		DEX+4 STR+4 EVA+1 PDD+70 STRMax+1 DEXMax+1 SpeedMax+1 JumpMax+1	120	120	0	0	0
+1072355	Timeless Grabbe	Shoes	120	warrior	5		STR+6 DEX+3 ACC+1 PDD+84	390	0	0	0	0
+1072356	Timeless Cabatina	Shoes	120	magician	5		INT+5 LUK+4 PDD+47 MDD+23 MAD+1	0	0	368	123	0
+1072357	Timeless Rontano	Shoes	120	bowman	5		PDD+70 DEX+6 STR+3 EVA+1	0	370	0	0	0
+1072358	Timeless Moonsteed	Shoes	120	thief	5		PDD+70 DEX+4 LUK+5 EVA+1	0	160	0	300	0
+1072359	Timeless Faraon	Shoes	120	pirate	5		DEX+5 STR+5 EVA+1 PDD+70	120	120	0	0	0
+1072360	White & Blue Sandals	Shoes	0	all	5		STR+1 DEX+1 INT+1 LUK+1	0	0	0	0	0
+1072361	Reverse Grabbe	Shoes	120	warrior	5		STR+5 DEX+3 ACC+1 PDD+84	390	0	0	0	0
+1072362	Reverse Cabatina	Shoes	120	magician	5		INT+4 LUK+4 PDD+47 MDD+23 MAD+1	0	0	368	123	0
+1072363	Reverse Rontano	Shoes	120	bowman	5		PDD+70 DEX+5 STR+3 EVA+1	0	370	0	0	0
+1072364	Reverse Moonsteed	Shoes	120	thief	5		PDD+70 DEX+4 LUK+4 EVA+1	0	160	0	300	0
+1072365	Reverse Faraon	Shoes	120	pirate	5		DEX+4 STR+4 EVA+1 PDD+70	120	120	0	0	0
 1072366	Parachute Agent Shoes	Shoes	10	all	5		STR+2 DEX+2 LUK+2 INT+2 PDD+12 MDD+5 Jump+3	0	0	0	0	0
 1072367	Puffy Ram Shoes	Shoes	0	all		cash		0	0	0	0	0
 1072368	Ultimate Agent Shoes	Shoes	10	all	5		STR+3 DEX+3 LUK+3 INT+3 PDD+13 MDD+7 Jump+3	0	0	0	0	0
@@ -2942,7 +2942,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1072373	Purple Rainbow Sneaks	Shoes	0	all		cash		0	0	0	0	0
 1072374	Lace Long Boots	Shoes	0	all		cash		0	0	0	0	0
 1072375	Balrog's Leather Shoes	Shoes	58	all	6		STR+2 DEX+2 LUK+2 INT+2	0	0	0	0	0
-1072376	Balrog's Fur Shoes 	Shoes	68	all	6		STR+2 DEX+2 LUK+2 INT+2 STRMax+1 DEXMax+1 INTMax+1 LUKMax+1	0	0	0	0	0
+1072376	Balrog's Fur Shoes 	Shoes	68	all	6		STR+2 DEX+2 LUK+2 INT+2	0	0	0	0	0
 1072377	Treacherous Wolf Shoes	Shoes	0	all		cash		0	0	0	0	0
 1072379	Yellow Rainbow Sneaks	Shoes	0	all		cash		0	0	0	0	0
 1072380	White & Blue Sandals	Shoes	0	all		cash		0	0	0	0	0
@@ -3182,21 +3182,21 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1082225	Mercury Gloves	Glove	0	all		cash		0	0	0	0	0
 1082227	Transparent Skull Glove	Glove	0	all		cash		0	0	0	0	0
 1082228	Green Mittens	Glove	15	all	6		MDD+5	0	0	0	0	0
-1082229	Heart Ribbon Glove	Glove		all				0	0	0	0	0
+1082229	Heart Ribbon Glove	Glove	0	all		cash		0	0	0	0	0
 1082230	Glitter Gloves	Glove	50	magician	5		INT+2 MMP+200	0	0	0	0	0
 1082231	Luxury Wristwatch	Glove	0	all		cash		0	0	0	0	0
 1082232	Goddess Wristband	Glove	50	all	5		PDD+20 MDD+10 PAD+1 MAD+1	0	0	0	0	0
 1082233	Moomoo Gloves	Glove	0	all		cash		0	0	0	0	0
-1082234	Timeless Bergamot	Glove	120	warrior	5		STR+7 DEX+4 MMP+25 PDD+51 STRMax+1 DEXMax+1 ACCMin+1 ACCMax+2	390	0	0	0	0
-1082235	Timeless Hermosa	Glove	120	magician	5		INT+6 LUK+6 MMP+15 MDD+17 PDD+50 INTMax+1 LUKMax+1 MADMax+1	0	0	368	123	0
-1082236	Timeless Presto	Glove	120	bowman	5		PDD+48 DEX+7 STR+5 MMP+30 DEXMax+1 STRMax+1 MHPMin+5 MHPMax+10	0	340	0	0	0
-1082237	Timeless Lubav	Glove	120	thief	5		PDD+46 LUK+7 DEX+6 MMP+30 LUKMax+1 DEXMax+1 STRMax+1 MHPMin+5 MHPMax+10	0	160	0	300	0
-1082238	Timeless Charlston	Glove	120	pirate	5		PDD+48 DEX+6 STR+6 MHP+20 STRMax+1 DEXMax+1 MHPMin+5 MHPMax+10	120	120	0	0	0
-1082239	Reverse Bergamot	Glove	120	warrior	5		STR+6 DEX+4 MMP+25 PDD+51 STRMax+1 DEXMax+1 ACCMin+1 ACCMax+2	390	0	0	0	0
-1082240	Reverse Hermosa	Glove	120	magician	5		INT+5 LUK+5 MMP+15 MDD+17 PDD+50 INTMax+1 LUKMax+1 MADMax+1	0	0	368	123	0
-1082241	Reverse Presto	Glove	120	bowman	5		PDD+48 DEX+6 STR+5 MMP+30 DEXMax+1 STRMax+1 MHPMin+5 MHPMax+10	0	340	0	0	0
-1082242	Reverse Lubav	Glove	120	thief	5		PDD+46 LUK+6 DEX+6 MMP+30 LUKMax+1 DEXMax+1 STRMax+1 MHPMin+5 MHPMax+10	0	160	0	300	0
-1082243	Reverse Charlston	Glove	120	pirate	5		PDD+48 DEX+5 STR+5 MHP+20 STRMax+1 DEXMax+1 MHPMin+5 MHPMax+10	120	120	0	0	0
+1082234	Timeless Bergamot	Glove	120	warrior	5		STR+7 DEX+4 MMP+25 PDD+51	390	0	0	0	0
+1082235	Timeless Hermosa	Glove	120	magician	5		INT+6 LUK+6 MMP+15 MDD+17 PDD+50	0	0	368	123	0
+1082236	Timeless Presto	Glove	120	bowman	5		PDD+48 DEX+7 STR+5 MMP+30	0	340	0	0	0
+1082237	Timeless Lubav	Glove	120	thief	5		PDD+46 LUK+7 DEX+6 MMP+30	0	160	0	300	0
+1082238	Timeless Charlston	Glove	120	pirate	5		PDD+48 DEX+6 STR+6 MHP+20	120	120	0	0	0
+1082239	Reverse Bergamot	Glove	120	warrior	5		STR+6 DEX+4 MMP+25 PDD+51	390	0	0	0	0
+1082240	Reverse Hermosa	Glove	120	magician	5		INT+5 LUK+5 MMP+15 MDD+17 PDD+50	0	0	368	123	0
+1082241	Reverse Presto	Glove	120	bowman	5		PDD+48 DEX+6 STR+5 MMP+30	0	340	0	0	0
+1082242	Reverse Lubav	Glove	120	thief	5		PDD+46 LUK+6 DEX+6 MMP+30	0	160	0	300	0
+1082243	Reverse Charlston	Glove	120	pirate	5		PDD+48 DEX+5 STR+5 MHP+20	120	120	0	0	0
 1082244	Agent O's Nylon Gloves	Glove	10	all	4		PAD+2 MHP+15	0	0	0	0	0
 1082245	Agent O's Leather Gloves	Glove	30	all	4		PAD+3 MHP+30	0	0	0	0	0
 1082246	Flamekeeper Cordon 	Glove	50	all	5		ACC+20 MAD+8	0	0	0	0	0
@@ -3264,9 +3264,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1092050	Khanjar	Shield	80	thief	7		MDD+1 PDD+3 PAD+7 LUK+1	60	120	0	0	0
 1092052	Black Phoenix Shield	Shield	20	all	7		PDD+20 MDD+20	0	0	0	0	0
 1092056	Transparent Shield	Shield	0	all		cash		0	0	0	0	0
-1092057	Timeless Prelude	Shield	120	magician	7		PDD+60 MDD+110 INT+5 INTMax+1 LUKMax+1 PDDMin+5 PDDMax+10 MDDMin+5 MDDMax+10	0	0	368	120	0
-1092058	Timeless Kite Shield	Shield	120	warrior	7		PDD+100 MDD+35 STR+7 DEX+5 EVA+5 STRMax+1 DEXMax+1 PDDMin+5 PDDMax+10	370	0	0	0	0
-1092059	Timeless List	Shield	120	thief	7		PDD+84 LUK+5 LUKMax+1 DEXMax+1 STRMax+1 PDDMin+5 PDDMax+10	0	160	0	300	0
+1092057	Timeless Prelude	Shield	120	magician	7		PDD+60 MDD+110 INT+5	0	0	368	120	0
+1092058	Timeless Kite Shield	Shield	120	warrior	7		PDD+100 MDD+35 STR+7 DEX+5 EVA+5	370	0	0	0	0
+1092059	Timeless List	Shield	120	thief	7		PDD+84 LUK+5	0	160	0	300	0
 1092060	Blue Dragon Shield	Shield	110	warrior	7		PDD+78 MDD+30 STR+7 DEX+4 EVA+5	340	0	0	0	0
 1092061	Crossheider 	Shield	100	warrior	7		PDD+80 MDD+30 STR+5	310	0	0	0	0
 1092062	Maple Girl Shield	Shield	0	all		cash		0	0	0	0	0
@@ -3412,7 +3412,7 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1102167	Maple Cape	Cape	40	all	5		Speed+5 Jump+2 PDD+8 MDD+12	0	0	0	0	0
 1102168	Maple Cape	Cape	70	all	5		Speed+10 Jump+5 PDD+23 MDD+28	0	0	0	0	0
 1102169	Blue Wing Bag	Cape	0	all		cash		0	0	0	0	0
-1102172	Timeless Moonlight	Cape	120	all	5		PDD+55 MDD+60 STRMax+1 DEXMax+1 INTMax+1 LUKMax+1 SpeedMax+2 JumpMax+1	0	0	0	0	0
+1102172	Timeless Moonlight	Cape	120	all	5		PDD+55 MDD+60	0	0	0	0	0
 1102174	Agent Cape	Cape	10	all	5		PDD+8 MDD+12 Jump+1	0	0	0	0	0
 1102175	Puffy Ram Wings	Cape	0	all		cash		0	0	0	0	0
 1102176	Stirgeman Cape	Cape	20	all	5		PDD+2 MHP+1 MMP+1 EVA+1	0	0	0	0	0
@@ -3571,11 +3571,11 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1122007	Spiegelmann's Necklace	Accessory	30	all	3		STR+1 DEX+1 INT+1 LUK+1 PDD+27 MDD+27	0	0	0	0	0
 1122010	Horus' Eye	Accessory	70	all	3		STR+3 DEX+3 INT+3 LUK+3 PDD+60 MDD+60 EVA+14	0	0	0	0	0
 1122011	Locked Timeless Pendant	Accessory	30	all	0		PDD+30 MDD+30 EVA+5	0	0	0	0	0
-1122012	Timeless Pendant	Accessory	140	all	3		STR+9 DEX+9 INT+9 LUK+9 PDD+126 MDD+126 EVA+28 STRMin+2 STRMax+4 DEXMin+2 DEXMax+4 INTMin+2 INTMax+4 LUKMin+2 LUKMax+4 PDDMin+20 PDDMax+30 MDDMin+20 MDDMax+30 EVAMin+2 EVAMax+4	0	0	0	0	0
+1122012	Timeless Pendant	Accessory	140	all	3		STR+9 DEX+9 INT+9 LUK+9 PDD+126 MDD+126 EVA+28	0	0	0	0	0
 1122013	Gordon's Magic Iron	Accessory	50	all	0			0	0	0	0	0
 1122014	Silver Deputy Star	Accessory	50	all	3		STR+5 DEX+5 INT+5 LUK+5 PDD+35 MDD+35 MHP+100 MMP+100	0	0	0	0	0
 1122015	Maple Scarf	Accessory	30	all	3		PDD+30 MDD+30	0	0	0	0	0
-1122017	Pendant of the Spirit	Accessory		all			ExpR+10	0	0	0	0	0
+1122017	Pendant of the Spirit	Accessory		all				0	0	0	0	0
 1122018	Warm Muffler	Accessory	10	all	3		STR+2 DEX+2 INT+2 LUK+2 PDD+15 MDD+15	0	0	0	0	0
 1122039	Mind of Maple Necklace	Accessory	10	all	3		STR+1 DEX+1 INT+1 LUK+1	0	0	0	0	0
 1122040	Bronze Maple Necklace	Accessory	10	all	3		STR+2 DEX+2 INT+2 LUK+2 Speed+3	0	0	0	0	0
@@ -3841,9 +3841,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1302077	Beginner Warrior's sword	Weapon	10	warrior	7		PAD+30	35	0	0	0	0
 1302079	Astral Blade	Weapon	70	warrior	7		PAD+86 STR+2	200	0	0	0	0
 1302080	Maplemas Lights	Weapon	25	all	7		Speed+10 PAD+43	0	0	0	0	0
-1302081	Timeless Executioners	Weapon		all				0	0	0	0	0
+1302081	Timeless Executioners	Weapon	120	warrior	7		PAD+110	340	0	0	0	0
 1302083	Viking Sword for Transformation	Weapon	0	all		cash		0	0	0	0	0
-1302086	Reverse Executioners	Weapon	120	warrior	7		PAD+108 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	340	0	0	0	0
+1302086	Reverse Executioners	Weapon	120	warrior	7		PAD+108	340	0	0	0	0
 1302088	Stirge-on-a-String	Weapon	20	all	7		PAD+25 Speed+3	0	0	0	0	0
 1302089	Stirge-on-a-Rope	Weapon	35	all	7		PAD+50 Speed+8	0	0	0	0	0
 1302090	Stirge-o-Whip	Weapon	50	all	7		PAD+70 Speed+12	0	0	0	0	0
@@ -3906,8 +3906,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1312034	Pink Flower Tube	Weapon	30	warrior	7		STR+3 INT+3 DEX+3 LUK+3 PAD+67 ACC+5	0	0	0	0	0
 1312035	MISSING NAME	Weapon	30	warrior	7		PAD+47 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
 1312036	Malaysia Flag (One Handed Axe)	Weapon	30	warrior	7		PAD+47 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
-1312037	Timeless Bardiche	Weapon	120	warrior	7		PAD+110 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	350	0	0	0	0
-1312038	Reverse Bardiche	Weapon	120	warrior	7		PAD+108 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	350	0	0	0	0
+1312037	Timeless Bardiche	Weapon	120	warrior	7		PAD+110	350	0	0	0	0
+1312038	Reverse Bardiche	Weapon	120	warrior	7		PAD+108	350	0	0	0	0
 1312039	Seraphim One-handed Axe	Weapon	10	all	7		PAD+30 ACC+35 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1312042	Balrog's Gaea 	Weapon	80	warrior	8		PAD+85	230	0	0	0	0
 1312043	Balrog's Vifennis 	Weapon	90	warrior	8		PAD+90	260	0	0	0	0
@@ -3972,8 +3972,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1322057	Singapore Flag (One Handed Mace)	Weapon	30	warrior	7		PAD+47 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
 1322058	Malaysia Flag (One Handed Mace)	Weapon	30	warrior	7		PAD+47 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
 1322059	Cosmic Scepter	Weapon	70	warrior	7		PAD+85 STR+2	200	0	0	0	0
-1322060	Timeless Allargando	Weapon	120	warrior	7		PAD+110 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	290	0	0	0	0
-1322061	Reverse Allargando	Weapon	120	warrior	7		PAD+108 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	290	0	0	0	0
+1322060	Timeless Allargando	Weapon	120	warrior	7		PAD+110	290	0	0	0	0
+1322061	Reverse Allargando	Weapon	120	warrior	7		PAD+108	290	0	0	0	0
 1322062	Crushed Skull	Weapon	120	warrior	7		PAD+115 ACC+12	300	0	0	0	0
 1322063	Duck tube	Weapon	50	all	7		PAD+65 Speed+5 EVA+3	0	0	0	0	0
 1322064	Duck tube	Weapon	100	all	7		PAD+90 Speed+5 EVA+3	0	0	0	0	0
@@ -4052,10 +4052,10 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1332070	Maku(STR)	Weapon	10	thief	7		PAD+30 Speed+2	5	20	0	0	0
 1332071	Makusuma(STR)	Weapon	40	thief	7		PAD+60 Speed+2 LUK+1	60	80	0	0	0
 1332072	Makumagna(STR)	Weapon	80	thief	7		PAD+87 Speed+2 LUK+3	60	120	0	0	0
-1332073	Timeless Pescas	Weapon	120	warrior/thief	7		PAD+107 PADMax+2 LUKMin+1 LUKMax+2 STRMax+1	75	160	0	0	0
-1332074	Timeless Killic	Weapon	120	thief	7		PAD+105 PADMax+2 LUKMin+1 LUKMax+2 DEXMax+1	0	160	0	290	0
-1332075	Reverse Pescas	Weapon	120	warrior/thief	7		PAD+105 PADMax+2 LUKMin+1 LUKMax+2 STRMax+1	75	160	0	0	0
-1332076	Reverse Killic	Weapon	120	thief	7		PAD+103 PADMax+2 LUKMin+1 LUKMax+2 DEXMax+1	0	160	0	290	0
+1332073	Timeless Pescas	Weapon	120	warrior/thief	7		PAD+107	75	160	0	0	0
+1332074	Timeless Killic	Weapon	120	thief	7		PAD+105	0	160	0	290	0
+1332075	Reverse Pescas	Weapon	120	warrior/thief	7		PAD+105	75	160	0	0	0
+1332076	Reverse Killic	Weapon	120	thief	7		PAD+103	0	160	0	290	0
 1332077	Raven's Beak	Weapon	80	thief	7		PAD+85 LUK+2	60	120	0	0	0
 1332078	Night Raven's Beak	Weapon	90	thief	7		PAD+92 LUK+2	0	130	0	230	0
 1332079	Dawn Raven's Beak	Weapon	90	thief	7		PAD+95 LUK+4	60	130	0	0	0
@@ -4113,8 +4113,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1372041	Elemental Wand 7	Weapon	130	magician	7		PAD+92 MAD+145 RMAI+125 RMAL+110 LUK+2	0	0	0	0	0
 1372042	Elemental Wand 8	Weapon	130	magician	7		PAD+92 MAD+145 RMAI+110 RMAL+125 LUK+2	0	0	0	0	0
 1372043	Beginner Magician's wand	Weapon	8	magician	7		PAD+16 MAD+25	0	0	20	0	0
-1372044	Timeless Enreal Tear	Weapon	118	magician	7		PAD+82 MAD+138 MADMin+1 MADMax+4 INTMin+1 INTMax+2 LUKMax+1	0	0	355	120	0
-1372045	Reverse Enreal Tear	Weapon	118	magician	7		PAD+81 MAD+133 MADMin+1 MADMax+4 INTMin+1 INTMax+2 LUKMax+1	0	0	355	120	0
+1372044	Timeless Enreal Tear	Weapon	118	magician	7		PAD+82 MAD+138	0	0	355	120	0
+1372045	Reverse Enreal Tear	Weapon	118	magician	7		PAD+81 MAD+133	0	0	355	120	0
 1372046	Seraphim Wand	Weapon	10	magician	7		PAD+49 MAD+80 MHP+100 MMP+100 STR+3 INT+3 DEX+3 LUK+3	0	0	0	0	0
 1372049	Zakum's Tree Branch	Weapon	10	all	7		PAD+33 MAD+55	0	0	4	4	0
 1372050	Balrog's Magicodar 	Weapon	88	magician	8		PAD+69 MAD+105 INT+1	0	0	265	90	0
@@ -4177,9 +4177,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1382054	Umaru	Weapon	10	magician	7		PAD+20 MAD+32	0	0	32	13	0
 1382055	Umarusuma	Weapon	40	magician	7		PAD+40 MAD+62 MMP+50	0	0	123	43	0
 1382056	Umarumagna	Weapon	80	magician	7		PAD+60 MAD+102 MMP+150	0	0	243	82	0
-1382057	Timeless Aeas Hand	Weapon	120	magician	7		PAD+88 MAD+140 MADMin+1 MADMax+4 INTMin+1 INTMax+2 LUKMax+1	0	0	363	123	0
+1382057	Timeless Aeas Hand	Weapon	120	magician	7		PAD+88 MAD+140	0	0	363	123	0
 1382058	Wooden Staff for Transformation	Weapon	0	all		cash		0	0	0	0	0
-1382059	Reverse Aeas Hand	Weapon	120	magician	7		PAD+86 MAD+135 MADMin+1 MADMax+4 INTMin+1 INTMax+2 LUKMax+1	0	0	363	123	0
+1382059	Reverse Aeas Hand	Weapon	120	magician	7		PAD+86 MAD+135	0	0	363	123	0
 1382060	Crimson Arcanon	Weapon	100	magician	7		PAD+72 MAD+117 INT+4	0	0	303	98	0
 1382062	Seraphim Staff	Weapon	10	magician	7		PAD+35 MAD+48 MHP+100 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1382066	Balrog's Kage	Weapon	85	magician	8		PAD+62 MAD+100	0	0	258	88	0
@@ -4236,8 +4236,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1402043	MISSING NAME	Weapon	30	warrior	7		PAD+50 STR+1 INT+1 DEX+1 LUK+1 Speed+15	100	0	0	0	0
 1402044	Pumpkin Lantern	Weapon	30	all	7		PAD+55 MAD+55 MHP+50	0	0	0	0	0
 1402045	Tiger's Fang	Weapon	50	warrior	7		PAD+72 ACC+8 Speed+2	155	0	0	0	0
-1402046	Timeless Nibleheim	Weapon		all				0	0	0	0	0
-1402047	Reverse Nibleheim	Weapon	120	warrior	7		PAD+110 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1402046	Timeless Nibleheim	Weapon	120	warrior	7		PAD+112	370	0	0	0	0
+1402047	Reverse Nibleheim	Weapon	120	warrior	7		PAD+110	370	0	0	0	0
 1402048	Raven's Wing	Weapon	80	warrior	7		PAD+90 STR+2	250	0	0	0	0
 1402049	Night Raven's Wing	Weapon	90	warrior	7		PAD+96 STR+2	265	95	0	0	0
 1402050	Dawn Raven's Wing 	Weapon	90	warrior	7		PAD+99 STR+4	280	0	0	0	0
@@ -4285,8 +4285,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1412030	Singapore Flag (Two Handed Axe)	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	100	0	0	0	0
 1412031	Malaysia Flag (Two Handed Axe)	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	100	0	0	0	0
 1412032	Crescent Moon	Weapon	70	warrior	7		PAD+90 STR+2	220	0	0	0	0
-1412033	Timeless Tabarzin	Weapon	120	warrior	7		PAD+114 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
-1412034	Reverse Tabarzin	Weapon	120	warrior	7		PAD+112 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1412033	Timeless Tabarzin	Weapon	120	warrior	7		PAD+114	370	0	0	0	0
+1412034	Reverse Tabarzin	Weapon	120	warrior	7		PAD+112	370	0	0	0	0
 1412035	Seraphim Two-handed Axe	Weapon	10	warrior	7		PAD+68 ACC+30 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1412038	Balrog's Helios 	Weapon	80	warrior	8		PAD+89	250	0	0	0	0
 1412039	Balrog's Colonian Axe 	Weapon	90	warrior	8		PAD+94	280	0	0	0	0
@@ -4333,8 +4333,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1422034	Singapore Flag (Two Handed Mace)	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
 1422035	MISSING NAME	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	95	0	0	0	0
 1422036	Toymaker Hammer	Weapon	40	all	7		PAD+55	0	0	0	0	0
-1422037	Timeless Bellocce	Weapon	120	warrior	7		PAD+114 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
-1422038	Reverse Bellocce	Weapon	120	warrior	7		PAD+112 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1422037	Timeless Bellocce	Weapon	120	warrior	7		PAD+114	370	0	0	0	0
+1422038	Reverse Bellocce	Weapon	120	warrior	7		PAD+112	370	0	0	0	0
 1422039	Seraphim Two-handed Blunt Weapon	Weapon	10	warrior	7		PAD+85 ACC+35 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1422042	Balrog's Morningstar	Weapon	80	warrior	8		PAD+89	250	0	0	0	0
 1422043	Balrog's Leomite 	Weapon	90	warrior	8		PAD+90	280	0	0	0	0
@@ -4387,9 +4387,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1432044	Malaysia Flag (Spear)	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	100	0	0	0	0
 1432045	Sunspear	Weapon	70	warrior	7		PAD+90 STR+2	220	0	0	0	0
 1432046	Maplemas Tree	Weapon	30	all	7		PAD+52 MMP+100	0	0	0	0	0
-1432047	Timeless Alchupiz	Weapon	120	warrior	7		PAD+114 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1432047	Timeless Alchupiz	Weapon	120	warrior	7		PAD+114	370	0	0	0	0
 1432048	Pooh Pooh Shovel	Weapon	105	warrior	7		PAD+105 ACC+3	325	0	0	0	0
-1432049	Reverse Alchupiz	Weapon	120	warrior	7		PAD+112 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1432049	Reverse Alchupiz	Weapon	120	warrior	7		PAD+112	370	0	0	0	0
 1432050	Seraphim Spear	Weapon	10	warrior	7		PAD+85 ACC+35 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1432054	Balrog's Omega Spear 	Weapon	80	warrior	8		PAD+89	250	0	0	0	0
 1432055	Balrog's Fairfrozen 	Weapon	90	warrior	8		PAD+97	280	0	0	0	0
@@ -4460,10 +4460,10 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1442059	MISSING NAME	Weapon	30	warrior	7		PAD+52 STR+1 INT+1 DEX+1 LUK+1 Speed+15	100	0	0	0	0
 1442060	Heavenly Messenger	Weapon	70	warrior	7		PAD+90 STR+2	220	0	0	0	0
 1442061	Versalmas Cactus	Weapon	30	all	7		PAD+54 MHP+100	0	0	0	0	0
-1442063	Timeless Diesra	Weapon	120	warrior	7		PAD+114 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1442063	Timeless Diesra	Weapon	120	warrior	7		PAD+114	370	0	0	0	0
 1442065	Tsunami Wave	Weapon	30	all	7		PAD+48 Speed+5	0	0	0	0	0
 1442066	Bullseye Board	Weapon	55	all	7		Jump+5 PAD+78 ACC+3	0	0	0	0	0
-1442067	Reverse Diesra	Weapon	120	warrior	7		PAD+112 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	370	0	0	0	0
+1442067	Reverse Diesra	Weapon	120	warrior	7		PAD+112	370	0	0	0	0
 1442068	Crimson Arcglaive	Weapon	100	all	7		PAD+102 MAD+89 Speed+5 STR+2	300	80	0	0	0
 1442071	Seraphim Pole Arm	Weapon	10	warrior	7		PAD+68 ACC+30 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1442074	Balrog's Eclipse 	Weapon	80	warrior	8		PAD+89	250	0	0	0	0
@@ -4532,9 +4532,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1452054	Akha	Weapon	10	bowman	7		PAD+30 Speed+1 EVA+2	10	40	0	0	0
 1452055	Akhasuma	Weapon	40	bowman	7		PAD+60 Speed+3 EVA+6	40	130	0	0	0
 1452056	Akhamagna	Weapon	80	bowman	7		PAD+90 Speed+10 EVA+15	70	240	0	0	0
-1452057	Timeless Engaw	Weapon	120	bowman	7		PAD+107 Speed+12 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	125	305	0	0	0
+1452057	Timeless Engaw	Weapon	120	bowman	7		PAD+107 Speed+12	125	305	0	0	0
 1452058	MISSING NAME	Weapon	0	all		cash		0	0	0	0	0
-1452059	Reverse Engaw	Weapon	120	bowman	7		PAD+105 Speed+12 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	125	305	0	0	0
+1452059	Reverse Engaw	Weapon	120	bowman	7		PAD+105 Speed+12	125	305	0	0	0
 1452060	Crimson Arclancer	Weapon	100	bowman	7		PAD+95 DEX+2 Speed+5	115	255	0	0	0
 1452062	Seraphim Bow	Weapon	10	bowman	7		PAD+48 Speed+7 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1452066	Balrog's Marine Arund	Weapon	80	bowman	8		PAD+82 ACC+1	85	225	0	0	0
@@ -4597,8 +4597,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1462047	Xaru	Weapon	10	bowman	7		PAD+32	14	40	0	0	0
 1462048	Xarusuma	Weapon	40	bowman	7		PAD+65 DEX+2	44	130	0	0	0
 1462049	Xarumagna	Weapon	80	bowman	7		PAD+90 DEX+3	84	240	0	0	0
-1462050	Timeless Black Beauty	Weapon	120	bowman	7		PAD+110 Speed+12 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	120	330	0	0	0
-1462051	Reverse Black Beauty	Weapon	120	bowman	7		PAD+108 Speed+12 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	120	330	0	0	0
+1462050	Timeless Black Beauty	Weapon	120	bowman	7		PAD+110 Speed+12	120	330	0	0	0
+1462051	Reverse Black Beauty	Weapon	120	bowman	7		PAD+108 Speed+12	120	330	0	0	0
 1462052	Raven's Eye	Weapon	80	bowman	7		PAD+90 DEX+2	80	240	0	0	0
 1462053	Night Raven's Eye	Weapon	90	bowman	7		PAD+90 DEX+4	70	280	0	0	0
 1462054	Dawn Raven's Eye	Weapon	90	bowman	7		PAD+95 DEX+4	90	255	0	0	0
@@ -4680,9 +4680,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1472065	Kuma	Weapon	10	thief	7		PAD+12 PDD+1 EVA+2	0	25	0	25	0
 1472066	Kumasuma	Weapon	40	thief	7		PAD+24 PDD+2 EVA+8 DEX+1	0	80	0	120	0
 1472067	Kumamagna	Weapon	80	thief	7		PAD+42 PDD+3 EVA+14 DEX+3	0	120	0	230	0
-1472068	Timeless Lampion	Weapon	120	thief	7		PAD+56 LUK+8 EVA+8 PADMax+2 LUKMin+1 LUKMax+2 DEXMax+1	0	160	0	350	0
+1472068	Timeless Lampion	Weapon	120	thief	7		PAD+56 LUK+8 EVA+8	0	160	0	350	0
 1472069	Steel Avarice for Transformation	Weapon	40	thief	7		PAD+22 PDD+2 LUK+1	0	80	0	120	0
-1472071	Reverse Lampion	Weapon	120	thief	7		PAD+54 LUK+8 EVA+8 PADMax+2 LUKMin+1 LUKMax+2 DEXMax+1	0	160	0	350	0
+1472071	Reverse Lampion	Weapon	120	thief	7		PAD+54 LUK+8 EVA+8	0	160	0	350	0
 1472072	Raven's Claw	Weapon	80	thief	7		PAD+38 PDD+5 LUK+3 EVA+7	0	120	0	230	0
 1472073	Night Raven's Claw	Weapon	90	thief	7		PAD+40 PDD+5 LUK+2	0	0	0	300	0
 1472074	Dawn Raven's Claw	Weapon	90	thief	7		PAD+45 PDD+5 LUK+2	0	130	0	260	0
@@ -4719,8 +4719,8 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1482020	Maple Knuckle	Weapon	35	pirate	7		PAD+38 ACC+10	0	0	0	0	0
 1482021	Maple Storm Finger	Weapon	43	pirate	7		PAD+46 ACC+20 STR+3	0	0	0	0	0
 1482022	Maple Golden Claw	Weapon	64	pirate	7		PAD+60 ACC+30 STR+5 MHP+100	0	0	0	0	0
-1482023	Timeless Equinox	Weapon		all				0	0	0	0	0
-1482024	Reverse Equinox	Weapon	120	pirate	7		PAD+82 PADMin+1 PADMax+2 STRMin+1 STRMax+2 DEXMax+1	330	120	0	0	0
+1482023	Timeless Equinox	Weapon	120	pirate	7		PAD+84	330	120	0	0	0
+1482024	Reverse Equinox	Weapon	120	pirate	7		PAD+82	330	120	0	0	0
 1482025	Pink Flower Tube	Weapon	30	pirate	7		PAD+67 STR+3 INT+3 DEX+3 LUK+3 ACC+5	0	0	0	0	0
 1482029	Seraphim Knuckler	Weapon	10	pirate	7		PAD+38 ACC+10 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1482031	Balrog's Steel Renault	Weapon	80	pirate	8		PAD+63	210	80	0	0	0
@@ -4754,9 +4754,9 @@ id	name	type	req_level	job	slots	cash	stats	req_str	req_dex	req_int	req_luk	req_
 1492020	Maple Gun	Weapon	35	pirate	7		PAD+36 EVA+10	0	0	0	0	0
 1492021	Maple Storm Pistol	Weapon	43	pirate	7		PAD+44 EVA+20 DEX+3	0	0	0	0	0
 1492022	Maple Canon Shooter	Weapon	64	pirate	7		PAD+60 EVA+25 DEX+5 MHP+100	0	0	0	0	0
-1492023	Timeless Blindness	Weapon	120	pirate	7		PAD+84 PADMin+1 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	120	335	0	0	0
+1492023	Timeless Blindness	Weapon	120	pirate	7		PAD+84	120	335	0	0	0
 1492024	Lunar Shooter for transformation	Weapon	0	all		cash		0	0	0	0	0
-1492025	Reverse Blindness	Weapon	120	pirate	7		PAD+82 PADMin+1 PADMax+2 DEXMin+1 DEXMax+2 STRMax+1	120	335	0	0	0
+1492025	Reverse Blindness	Weapon	120	pirate	7		PAD+82	120	335	0	0	0
 1492026	Pink Flower Tube	Weapon	30	pirate	7		PAD+67 STR+3 INT+3 DEX+3 LUK+3 ACC+5	0	0	0	0	0
 1492030	Seraphim Gun	Weapon	10	pirate	7		PAD+36 EVA+10 STR+3 DEX+3 INT+3 LUK+3	0	0	0	0	0
 1492032	Kyrin's Pistol	Weapon	10	pirate	7		PAD+27	0	0	0	0	0

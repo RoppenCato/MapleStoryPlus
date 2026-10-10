@@ -34,9 +34,26 @@ def string_entries(name):
 
 def info_block(path):
     """The fields of the first <imgdir name="info"> block of a data file."""
-    text = read(path, 12000)
-    m = re.search(r'<imgdir name="info">(.*?)</imgdir>', text, re.S)
-    return dict(FIELD.findall(m.group(1))) if m else {}
+    text = read(path, 40000)
+    start = text.find('<imgdir name="info">')
+    if start < 0:
+        return {}
+    # Only the block's own fields count: nested blocks (a boss's skill list, an item's level-up table)
+    # have fields with the same names, such as "level".
+    fields, depth = {}, 0
+    for line in text[start:].splitlines():
+        s = line.strip()
+        if s.startswith("<imgdir"):
+            depth += 1
+        elif s.startswith("</imgdir"):
+            depth -= 1
+            if depth == 0:
+                break
+        elif depth == 1:
+            m = FIELD.match(s)
+            if m:
+                fields.setdefault(m.group(1), m.group(2))
+    return fields
 
 
 def file_index(folder):
@@ -277,6 +294,38 @@ def commands():
     write("Commands.tsv", ["gm_level", "command", "description"], rows)
 
 
+LIFE = re.compile(r'<imgdir name="\d+">\s*<string name="type" value="m"/>\s*<string name="id" value="(\d+)"/>(.*?)</imgdir>',
+                  re.S)
+
+
+def mob_spawns():
+    """Which monsters spawn on which map, from the map files."""
+    mob_names = {k: v.get("name", "") for k, v in string_entries("Mob").items()}
+    map_names = string_entries("Map")
+    rows = []
+    for path in glob.glob(os.path.join(WZ, "Map.wz", "Map", "Map*", "*.img.xml")):
+        m = re.match(r"0*(\d+)\.img\.xml$", os.path.basename(path))
+        if not m:
+            continue
+        map_id = int(m.group(1))
+        text = read(path)
+        start = text.find('<imgdir name="life">')
+        if start < 0:
+            continue
+        counts, respawn = {}, {}
+        for mob, rest in LIFE.findall(text[start:]):
+            mob = int(mob)
+            counts[mob] = counts.get(mob, 0) + 1
+            t = re.search(r'<int name="mobTime" value="(-?\d+)"', rest)
+            respawn[mob] = max(respawn.get(mob, 0), int(t.group(1)) if t else 0)
+        place = map_names.get(map_id, {})
+        for mob, n in counts.items():
+            rows.append((mob, mob_names.get(mob, ""), map_id, place.get("streetName", ""), place.get("mapName", ""), n,
+                         respawn[mob] if respawn[mob] > 0 else ""))
+    rows.sort()
+    write("MobSpawns.tsv", ["mob_id", "mob", "map_id", "area", "map", "count", "respawn_seconds"], rows)
+
+
 if __name__ == "__main__":
     job_names = jobs()
     skills(job_names)
@@ -289,6 +338,7 @@ if __name__ == "__main__":
     skill_details(job_names)
     quests()
     commands()
+    mob_spawns()
     # These two read the database, so it must be running.
     drops(all_item_names())
     shops(all_item_names())

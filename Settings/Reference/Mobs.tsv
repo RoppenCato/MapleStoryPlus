@@ -40,7 +40,7 @@ id	name	level	hp	exp	boss
 2110301	Scorpion	29	780	58	
 2130100	Dark Axe Stump	22	550	38	
 2130103	Jr. Necki	21	285	38	
-2220000	Mano 	7	2000	120	boss
+2220000	Mano 	20	2000	120	boss
 2220100	Blue Mushroom	20	350	32	
 2230100	Evil Eye	27	720	50	
 2230101	Zombie Mushroom	24	500	42	
@@ -58,10 +58,10 @@ id	name	level	hp	exp	boss
 2230200	Flower Fish	29	790	58	
 2300100	Stirge	20	300	33	
 3000000	Sentinel	30	900	55	
-3000001	Fairy 1	1	800	120	
-3000002	Fairy 2	1	800	120	
-3000003	Fairy 3	1	800	120	
-3000004	Fairy 4	1	800	120	
+3000001	Fairy 1	30	800	120	
+3000002	Fairy 2	30	800	120	
+3000003	Fairy 3	30	800	120	
+3000004	Fairy 4	30	800	120	
 3000005	Brown Teddy	30	950	60	
 3000006	Krip	30	900	55	
 3100101	Sand Dwarf 	32	1000	60	
@@ -85,20 +85,20 @@ id	name	level	hp	exp	boss
 3210208	Retz	36	1400	78	
 3210450	Scuba Pepe	36	1430	80	
 3210800	Lupin	37	1500	77	
-3220000	Stumpy	1	7000	405	boss
-3220001	Deo	1	7700	445	boss
+3220000	Stumpy	35	7000	405	boss
+3220001	Deo	38	7700	445	boss
 3230100	Curse Eye	35	1250	70	
 3230101	Jr. Wraith	35	1200	70	
 3230102	Lorang	37	1950	80	
 3230103	King Bloctopus	38	1850	85	
 3230104	Mask Fish	32	1000	65	
 3230200	Star Pixie	35	1300	72	
-3230300	Jr. Boogie 1	1	1700	150	
-3230301	Jr. Boogie 2	1	1700	150	
+3230300	Jr. Boogie 1	35	1700	150	
+3230301	Jr. Boogie 2	35	1700	150	
 3230302	Bloctopus	35	1300	72	
 3230303	Propelly	37	1700	82	
 3230304	Planey	38	1830	85	
-3230305	Toy Trojan	1	1920	92	
+3230305	Toy Trojan	39	1920	92	
 3230306	Chronos	37	1750	82	
 3230307	Chirppy	31	800	62	
 3230308	Tweeter	39	1900	85	
@@ -109,10 +109,10 @@ id	name	level	hp	exp	boss
 3300002	Intoxicated Pig	31	810	68	
 3300003	Helmet Pepe	32	850	71	
 3300004	Royal Guard Pepe	33	900	75	
-3300005	Grey Yeti and King Pepe	165	120000	210	
-3300006	Gold Yeti and King Pepe	165	120000	210	
-3300007	White Yeti and King Pepe	165	120000	210	
-3300008	Prime Minister	164	12500	800	boss
+3300005	Grey Yeti and King Pepe	35	120000	210	boss
+3300006	Gold Yeti and King Pepe	35	120000	210	boss
+3300007	White Yeti and King Pepe	35	120000	210	boss
+3300008	Prime Minister	38	12500	800	boss
 3400000	Cherry Bubble Tea	35	1400	80	
 3400001	Mango Bubble Tea	36	1500	85	
 3400002	Melon Bubble Tea	37	1600	88	
@@ -122,7 +122,7 @@ id	name	level	hp	exp	boss
 3400006	Jr. Pepe Doll  	35	200	5	
 3400007	Transformed Doll Claw Game	39	200	5	
 3400008	Transformed Doll Claw Game	39	1800	110	
-4090000	Iron Hook	1	2200	99	
+4090000	Iron Hook	42	2200	99	
 4110300	Iron Mutae	42	2400	102	
 4110301	Reinforced Iron Mutae	45	2550	110	
 4110302	Mithril  mutae	47	2750	117	
@@ -131,15 +131,15 @@ id	name	level	hp	exp	boss
 4130102	Dark Nependeath	47	2700	115	
 4130103	Rombot	47	11000	720	boss
 4130104	Dark Nependeath	47	2700	115	
-4220000	Seruf	14	7800	330	boss
+4220000	Seruf	45	7800	330	boss
 4220001	Seruf	45	2550	0	boss
 4230100	Cold Eye	40	2000	85	
 4230101	Zombie Lupin	40	1800	90	
 4230102	Wraith	48	2800	120	
-4230103	Iron Hog	1	2200	99	
+4230103	Iron Hog	42	2200	99	
 4230104	Clang	48	3000	128	
 4230105	Nependeath	42	2100	99	
-4230106	Lunar Pixie	1	2500	105	
+4230106	Lunar Pixie	45	2500	105	
 4230107	Flyeye	41	1600	95	
 4230108	Jr. Cerebes	43	2300	102	
 4230109	Block Golem	42	2400	102	
@@ -172,7 +172,7 @@ id	name	level	hp	exp	boss
 4230505	Jar	47	2700	117	
 4230506	Ginseng Jar	48	2800	123	
 4230600	Desert Giant 	40	1800	95	
-4240000	Chief Gray	27	9000	580	
+4240000	Chief Gray	49	9000	580	
 4250000	Mossy Snail	42	2400	102	
 4250001	Tree Rod	46	2600	112	
 4300000	Blue Perfume	40	1	0	
@@ -188,23 +188,23 @@ id	name	level	hp	exp	boss
 4300010	Greatest Oldies	47	2700	133	
 4300011	Cheap Amplifier	48	2800	138	
 4300012	Fancy Amplifier 	49	3000	143	
-4300013	Spirit of Rock	173	250000	1700	boss
+4300013	Spirit of Rock	49	250000	1700	boss
 4300014	Greatest Oldies	47	2700	150	
 4300015	Cheap Amplifier	48	2800	180	
 4300016	Fancy Amplifier 	49	3000	190	
 4300017	Spirit of Rock's Soul	40	1		boss
-5090000	Shade	5	30000	5600	boss
-5090001	Master Dummy	8	15375000	114200	boss
+5090000	Shade	56	30000	5600	boss
+5090001	Master Dummy	128	15375000	114200	boss
 5100000	Jr. Yeti	50	3700	135	
 5100001	Transforming Jr. Yeti	50	3700	0	
 5100002	Firebomb	51	3600	142	
 5100003	Hodori	50	3800	140	
-5100004	Samiho	4	4500	185	
-5100005	Hogul	1	4500	165	
+5100004	Samiho	56	4500	185	
+5100005	Hogul	53	4500	165	
 5110300	Reinforced Mithril Mutae 	50	3000	135	
 5110301	Roid 	54	4400	168	
 5110302	Neo Huroid	58	5600	205	
-5120000	Luster Pixie	2	4000	155	
+5120000	Luster Pixie	52	4000	155	
 5120001	Cellion	53	4200	160	
 5120002	Lioner	53	4200	160	
 5120003	Grupin	53	4200	160	
@@ -214,11 +214,11 @@ id	name	level	hp	exp	boss
 5120502	Sr. Bellflower Root	54	4400	168	
 5120503	Straw Target Dummy	50	3000	135	
 5120504	Wooden Target Dummy	51	3200	142	
-5120505	Reindeer	1	5600	205	
-5120506	The Book Ghost	2	4500	175	
+5120505	Reindeer	58	5600	205	
+5120506	The Book Ghost	55	4500	175	
 5130100	Drake	50	3200	135	
-5130101	Stone Golem	1	4000	170	
-5130102	Dark Stone Golem	2	4800	200	
+5130101	Stone Golem	55	4000	170	
+5130102	Dark Stone Golem	58	4800	200	
 5130103	Croco	52	3800	170	
 5130104	Hector	55	4600	170	
 5130105	Dark Jr. Yeti	56	4400	180	
@@ -226,15 +226,15 @@ id	name	level	hp	exp	boss
 5130107	Coolie Zombie	57	4500	190	
 5130108	Miner Zombie	57	4500	190	
 5140000	White Fang	58	5800	220	
-5150000	Mixed Golem	1	6000	210	
+5150000	Mixed Golem	59	6000	210	
 5150001	Skeleton Soldier	57	4600	190	
 5200000	Jr. Sentinel	23	600	40	
 5200001	Ice Sentinel	30	900	55	
 5200002	Fire Sentinel	30	900	55	
-5220000	King Clang	8	25000	1210	boss
+5220000	King Clang	55	25000	1210	boss
 5220001	King Clang	55	4000	0	boss
-5220002	Faust	18	9800	410	boss
-5220003	Timer	17	21000	650	boss
+5220002	Faust	50	9800	410	boss
+5220003	Timer	59	21000	650	boss
 5220004	Giant Centipede	50	15000	425	boss
 5250000	Mossy Mushroom	55	4400	175	
 5250001	Stone Bug	51	3600	142	
@@ -243,27 +243,27 @@ id	name	level	hp	exp	boss
 5300001	Dark Leatty	33	1100	65	
 5300100	Malady	55	4000	175	
 5400000	Jr. Pepe	35	1400	75	
-6090000	Riche	1	11000	25000	boss
-6090001	Snow Witch	4	7700	10320	boss
-6090002	Bamboo Warrior	7	86890	17000	boss
-6090003	Scholar Ghost	9	6000	3984	boss
-6090004	Rurumo	11	7600000	245	boss
+6090000	Riche	74	11000	25000	boss
+6090001	Snow Witch	64	7700	10320	boss
+6090002	Bamboo Warrior	68	86890	17000	boss
+6090003	Scholar Ghost	62	6000	3984	boss
+6090004	Rurumo	63	7600000	245	boss
 6110300	Homun	65	11000	255	
 6110301	Saitie	68	13000	265	
 6130100	Red Drake	60	6000	220	
 6130101	Mushmom	60	20000	1200	boss
 6130102	Separated Pepe	60	7200	420	
 6130103	Pepe	60	7200	220	
-6130104	Boogie	1	14800	400	
+6130104	Boogie	35	14800	400	
 6130200	Buffy	61	7400	230	
 6130201	Blin	60	3500	0	
-6130202	Morphed Blin	1	7000	330	
+6130202	Morphed Blin	60	7000	330	
 6130203	Panda	60	6500	225	
 6130204	Mr. Alli	64	7800	250	
 6130207	Peach Monkey	62	7500	240	
 6130208	Kru	68	12500	265	
-6130209	Sage Cat	2	9000	255	
-6220000	Dyle	17	31000	810	boss
+6130209	Sage Cat	66	9000	255	
+6220000	Dyle	65	31000	810	boss
 6220001	Zeno	65	36000	940	boss
 6230100	Wild Kargo	62	5500	240	
 6230101	Puco	63	20000	190	
@@ -276,14 +276,14 @@ id	name	level	hp	exp	boss
 6230600	Ice Drake	64	7700	250	
 6230601	Dark Drake	68	13000	265	
 6230602	Officer Skeleton	63	7500	240	
-6300000	Yeti	1	11000	255	
+6300000	Yeti	65	11000	255	
 6300001	Transformed Yeti	65	11000	390	
 6300002	Separated Yeti	65	11000	455	
 6300003	Punco	67	40000	210	
 6300004	Pachu	66	38000	200	boss
 6300005	Zombie Mushmom	65	35000	1500	boss
 6300100	Buffoon	74	16000	340	
-6400000	Dark Yeti	2	13000	265	
+6400000	Dark Yeti	68	13000	265	
 6400001	Transformed Dark Yeti	68	13000	445	
 6400002	Separated Dark Yeti	68	13000	715	
 6400003	Cuzco	69	60000	240	
@@ -294,12 +294,12 @@ id	name	level	hp	exp	boss
 6400008	Jr. Balrog	55	30000	10	boss
 6400009	Crimson Balrog	55	28000	10	boss
 6400100	Deep Buffoon	77	19000	385	
-7090000	Security Camera	6	150000	350	boss
-7110300	D. Roy	2	16000	350	
+7090000	Security Camera	75	150000	350	boss
+7110300	D. Roy	75	16000	350	
 7110301	Homunculus	73	15500	320	
-7120100	Gatekeeper Nex	21	90000	330	boss
-7120101	Gatekeeper Nex	21	102000	330	boss
-7120102	Gatekeeper Nex	22	114000	330	boss
+7120100	Gatekeeper Nex	70	90000	330	boss
+7120101	Gatekeeper Nex	73	102000	330	boss
+7120102	Gatekeeper Nex	77	114000	330	boss
 7120103	Red Slime	70	15000	338	
 7120104	Silver Slime	71	15100	346	
 7120105	Gold Slime  	72	15200	354	
@@ -309,89 +309,89 @@ id	name	level	hp	exp	boss
 7120109	Iruvata	79	23500	750	
 7130000	Lucida	73	15500	320	
 7130001	Cerebes	72	15200	295	
-7130002	Beetle	2	15200	295	
-7130003	Dual Beetle	2	18000	370	
-7130004	Hankie	2	20000	400	
+7130002	Beetle	72	15200	295	
+7130003	Dual Beetle	76	18000	370	
+7130004	Hankie	78	20000	400	
 7130010	Death Teddy	85	32000	1300	
 7130020	Goby	85	17000	1400	
 7130100	Tauromacis	70	15000	270	
 7130101	Taurospear	75	18000	350	
 7130102	Yeti and Pepe	78	20000	0	
-7130103	Commander Skeleton	5	15300	315	
+7130103	Commander Skeleton	73	15300	315	
 7130104	Captain	70	15000	282	
-7130200	Werewolf	2	16000	350	
+7130200	Werewolf	75	16000	350	
 7130300	Master Death Teddy	89	40000	1720	
 7130400	Yellow King Goblin	70	25000	400	boss
 7130401	Blue King Goblin	70	25000	400	boss
-7130402	Green King Goblin	2	25000	400	boss
-7130500	Rash	5	14500	270	
-7130501	Dark Rash	6	15500	340	
+7130402	Green King Goblin	70	25000	400	boss
+7130500	Rash	70	14500	270	
+7130501	Dark Rash	74	15500	340	
 7130600	Hobi	72	15000	295	
-7130601	Green Hobi	52	18000	370	
+7130601	Green Hobi	76	18000	370	
 7130602	Thorny Vine	76	8000	0	boss
 7140000	Ghost Pirate	83	30000	1100	
 7160000	Dual Ghost Pirate	87	35000	1500	
-7220000	Tae Roon	4	93000	1580	boss
-7220001	Nine-Tailed Fox	15	89000	1300	boss
-7220002	King Sage Cat	15	108000	2280	boss
-7220003	Bergamot	7	40000	0	boss
-7220004	Bergamot	16	65000	0	boss
-7220005	Bergamot	2	40000	3000	boss
-8090000	Deet and Roi	10	175000	850	boss
+7220000	Tae Roon	71	93000	1580	boss
+7220001	Nine-Tailed Fox	70	89000	1300	boss
+7220002	King Sage Cat	77	108000	2280	boss
+7220003	Bergamot	77	40000	0	boss
+7220004	Bergamot	77	65000	0	boss
+7220005	Bergamot	77	40000	3000	boss
+8090000	Deet and Roi	80	175000	850	boss
 8110300	Homunscullo	80	27000	850	
-8120100	Gatekeeper Nex	22	126000	330	boss
-8120101	Gatekeeper Nex	23	138000	330	boss
+8120100	Gatekeeper Nex	81	126000	330	boss
+8120101	Gatekeeper Nex	85	138000	330	boss
 8120102	Afterlord	82	29000	1220	
-8120103	Prototype Lord	20	31000	1440	
+8120103	Prototype Lord	84	31000	1440	
 8120104	Maverick Type A	86	32000	1560	
-8120105	Maverick Type S	9	37000	1920	
-8120106	Maverick Type D	9	40000	2064	
-8120107	Maverick Type D	13	25000	2064	
+8120105	Maverick Type S	88	37000	1920	
+8120106	Maverick Type D	89	40000	2064	
+8120107	Maverick Type D	89	25000	2064	
 8130100	Jr. Balrog	80	50000	2000	boss
-8140000	Lycanthrope	2	27000	850	
+8140000	Lycanthrope	80	27000	850	
 8140001	Harp	80	27000	850	
 8140002	Blood Harp	83	30000	1100	
 8140100	Dark Yeti and Pepe	82	29000	0	
 8140101	Black Kentaurus	88	37000	1600	
 8140102	Red Kentaurus	88	37000	1600	
 8140103	Blue Kentaurus	88	37000	1600	
-8140110	Birk	2	32000	1420	
-8140111	Dual Birk	2	37000	1620	
+8140110	Birk	85	32000	1420	
+8140111	Dual Birk	88	37000	1620	
 8140200	Klock	70	15000	270	
 8140300	Dark Klock	76	18000	370	
 8140500	Bain	90	45000	1800	
-8140510	Gatekeeper Nex	23	150000	330	boss
+8140510	Gatekeeper Nex	90	150000	330	boss
 8140511	Imperial Guard	91	43000	2280	
-8140512	Royal Guard	34	50000	2520	
+8140512	Royal Guard	93	50000	2520	
 8140555	Bombing Fish House 	90	40500	0	
-8140600	Bone Fish	3	42500	2000	
-8140700	Blue Dragon Turtle	1	40000	1780	
-8140701	Red Dragon Turtle	1	49000	2100	
+8140600	Bone Fish	92	42500	2000	
+8140700	Blue Dragon Turtle	90	40000	1780	
+8140701	Red Dragon Turtle	93	49000	2100	
 8140702	Rexton	95	50000	2280	
 8140703	Brexton	97	55000	2500	
 8141000	Spirit Viking	93	50000	2100	
 8141100	Gigantic Spirit Viking	98	58000	2600	
-8141300	Squid	3	46000	2200	
+8141300	Squid	94	46000	2200	
 8142000	Phantom Watch	95	53000	2300	
 8142100	Risell Squid	97	49000	2500	
 8143000	Grim Phantom Watch	99	60000	2800	
 8150000	Crimson Balrog	100	100000	3500	boss
-8150100	Shark	2	56000	3000	
-8150101	Cold Shark	2	58500	3100	
+8150100	Shark	100	56000	3000	
+8150101	Cold Shark	102	58500	3100	
 8150200	Green Cornian	100	56000	3000	
-8150201	Dark Cornian	3	67000	3700	
+8150201	Dark Cornian	105	67000	3700	
 8150300	Red Wyvern	97	53000	2500	
 8150301	Blue Wyvern	101	57000	3050	
 8150302	Dark Wyvern	103	60000	3150	
-8160000	Gatekeeper	1	78000	4300	
-8170000	Thanatos	1	70000	4100	
+8160000	Gatekeeper	108	78000	4300	
+8170000	Thanatos	108	70000	4100	
 8180000	Manon	105	3700000	13500	boss
 8180001	Griffey	105	3700000	13500	boss
 8190000	Jr. Newtie	105	68000	3800	
 8190001	Jr. Newtie	105	68000	0	
 8190002	Nest Golem	110	80000	8050	
-8190003	Skelegon	4	80000	4500	
-8190004	Skelosaurus	4	85000	4750	
+8190003	Skelegon	110	80000	4500	
+8190004	Skelosaurus	113	85000	4750	
 8190005	Nest Golem	110	80000	4450	
 8200000	Eye of Time	80	24000	850	
 8200001	Memory Monk	91	41000	1900	
@@ -406,51 +406,51 @@ id	name	level	hp	exp	boss
 8200010	Oblivion Monk Trainee	124	123000	6150	
 8200011	Oblivion Guardian	128	133000	6670	
 8200012	Chief Oblivion Guardian	131	141000	7060	
-8220000	Eliza	80	87000	2800	boss
-8220001	Snowman	77	120000	5200	boss
-8220002	Chimera	88	96000	3000	boss
-8220003	Leviathan	2	13400000	47355	boss
-8220004	Dodo	2	5900000	20850	boss
-8220005	Lilynouch	23	7600000	26850	boss
-8220006	Lyka	2	9300000	32865	boss
+8220000	Eliza	83	87000	2800	boss
+8220001	Snowman	90	120000	5200	boss
+8220002	Chimera	85	96000	3000	boss
+8220003	Leviathan	120	13400000	47355	boss
+8220004	Dodo	121	5900000	20850	boss
+8220005	Lilynouch	131	7600000	26850	boss
+8220006	Lyka	141	9300000	32865	boss
 8220007	Blue Mushmom	90	135000	5500	boss
 8220008	Unknow Snack Bar	85	5000	0	
 8220009	Snack Bar	85	110000	3180	boss
-8220010	Dunas	7	300000	3800	boss
-8220011	Aufheben	6	410000	4300	boss
-8220012	Oberon	4	450000	5500	boss
+8220010	Dunas	81	300000	3800	boss
+8220011	Aufheben	85	410000	4300	boss
+8220012	Oberon	90	450000	5500	boss
 8220013	Nibelung	95	240000	0	boss
 8220014	Nibelung	95	240000	0	boss
 8220015	Nibelung	95	240000	6340	boss
 8500000	Time Sphere	100	16000	0	boss
-8500001	Papulatus Clock	1	23000000	596000	boss
+8500001	Papulatus Clock	125	23000000	596000	boss
 8500002	Papulatus	125	1590000	970000	boss
 8500003	High Darkstar	71	10000	0	boss
-8500004	Low Darkstar	2	10000	0	boss
-8510000	Pianus	5	30000000	1300000	boss
+8500004	Low Darkstar	80	10000	0	boss
+8510000	Pianus	110	30000000	1300000	boss
 8510100	Bloody Boom	75	10000	0	boss
-8520000	Pianus	6	24000000	900000	boss
-8800000	Zakum1	1	66000000	0	boss
-8800001	Zakum2	1	88000000	0	boss
-8800002	Zakum3	1	110000000	7000000	boss
+8520000	Pianus	110	24000000	900000	boss
+8800000	Zakum1	140	66000000	0	boss
+8800001	Zakum2	140	88000000	0	boss
+8800002	Zakum3	140	110000000	7000000	boss
 8800003	Zakum's Arm 1	140	33000000	1344000	boss
 8800004	Zakum's Arm 2	140	33000000	1344000	boss
-8800005	Zakum's Arm 3	1	22000000	896000	boss
+8800005	Zakum's Arm 3	140	22000000	896000	boss
 8800006	Zakum's Arm 4	140	22000000	896000	boss
-8800007	Zakum's Arm 5	3	27500000	1120000	boss
-8800008	Zakum's Arm 6	3	30000000	1120000	boss
+8800007	Zakum's Arm 5	140	27500000	1120000	boss
+8800008	Zakum's Arm 6	140	30000000	1120000	boss
 8800009	Zakum's Arm 7	140	25300000	1030400	boss
 8800010	Zakum's Arm 8	140	25300000	1030400	boss
-8810000	Horntail's Left Head	9	330000000	9732030	boss
-8810001	Horntail's Right Head	9	330000000	9732030	boss
-8810002	Horntail's Head A	9	330000000	13902900	boss
-8810003	Horntail's Head B	9	490000000	20673700	boss
-8810004	Horntail's Head C	9	330000000	13902900	boss
-8810005	Horntail's Left Hand	7	230000000	9689900	boss
-8810006	Horntail's Right Hand	8	230000000	9689900	boss
-8810007	Horntail's Wings	56	270000000	11375100	boss
+8810000	Horntail's Left Head	160	330000000	9732030	boss
+8810001	Horntail's Right Head	160	330000000	9732030	boss
+8810002	Horntail's Head A	160	330000000	13902900	boss
+8810003	Horntail's Head B	160	490000000	20673700	boss
+8810004	Horntail's Head C	160	330000000	13902900	boss
+8810005	Horntail's Left Hand	160	230000000	9689900	boss
+8810006	Horntail's Right Hand	160	230000000	9689900	boss
+8810007	Horntail's Wings	160	270000000	11375100	boss
 8810008	Horntail's Legs	160	130000000	5476900	boss
-8810009	Horntail's Tails	4	80000000	3370400	boss
+8810009	Horntail's Tails	160	80000000	3370400	boss
 8810010	Dead Horntail's Head A	140	66000000	0	boss
 8810011	Dead Horntail's Head B	140	66000000	0	boss
 8810012	Dead Horntail's Head C	140	66000000	0	boss
@@ -459,34 +459,34 @@ id	name	level	hp	exp	boss
 8810015	Dead Horntail's Wings	140	66000000	0	boss
 8810016	Dead Horntail's Legs	140	66000000	0	boss
 8810017	Dead Horntail's Tails	140	66000000	0	boss
-8810018	Horntail	160	2090000000	0	
+8810018	Horntail	160	2090000000	0	boss
 8810019	Red Wyvern	97	53000	800	boss
 8810020	Blue Wyvern	101	57000	1000	boss
-8810021	Dark Wyvern	11	80000	1050	
+8810021	Dark Wyvern	103	80000	1050	boss
 8810022	Green Cornian	100	56000	1000	boss
-8810023	Dark Cornian	3	67000	1200	boss
+8810023	Dark Cornian	105	67000	1200	boss
 8810024	Summon Horntail's Left Head	1	40000	0	
 8810025	Summon Horntail's Right Head	1	40000	0	
 8810026	Summon Horntail	1	40000	0	
-8820000	Pink Bean	3	1	0	boss
-8820001	Pink Bean	101	2100000000	50000000	boss
+8820000	Pink Bean	180	1	0	boss
+8820001	Pink Bean	180	2100000000	50000000	boss
 8820002	Ariel	180	600000000	20000000	boss
 8820003	Solomon the Wise	180	300000000	3000000	boss
 8820004	Rex the Wise	180	300000000	3000000	boss
 8820005	Hugin	180	450000000	3500000	boss
 8820006	Munin	180	450000000	3500000	boss
-8820007	Mini Bean	12	303000	11000	boss
+8820007	Mini Bean	150	303000	11000	boss
 8820008	Transparent Mob for summoning baby boss	1	200000	0	
 8820009	set0 Transparent Mob	1	200000	0	
-8820010	Pink Bean	1	300000000	0	
-8820011	Pink Bean	1	600000000	0	
-8820012	Pink Bean	1	1050000000	0	
-8820013	Pink Bean	1	1500000000	0	
-8820014	Pink Bean	1	2100000000	0	
+8820010	Pink Bean	1	300000000	0	boss
+8820011	Pink Bean	1	600000000	0	boss
+8820012	Pink Bean	1	1050000000	0	boss
+8820013	Pink Bean	1	1500000000	0	boss
+8820014	Pink Bean	1	2100000000	0	boss
 8820015	Solomon the Wise	180	300000000	3000000	boss
-8820016	Rex the Wise	2	300000000	3000000	boss
-8820017	Hugin	1	450000000	3500000	boss
-8820018	Munin	2	450000000	3500000	boss
+8820016	Rex the Wise	180	300000000	3000000	boss
+8820017	Hugin	180	450000000	3500000	boss
+8820018	Munin	180	450000000	3500000	boss
 8820019	Ariel	1	600000000	0	
 8820020	Solomon the Wise	1	300000000	0	
 8820021	Rex the Wise	1	300000000	0	
@@ -496,20 +496,20 @@ id	name	level	hp	exp	boss
 8820025	Rex the Wise	1	300000000	0	
 8820026	Hugin	1	450000000	0	
 8820027	Munin	1	450000000	0	
-8830000	Balrog	3	4280000	0	boss
-8830001	Balrog	159	2640000	0	boss
+8830000	Balrog	105	4280000	0	boss
+8830001	Balrog	60	2640000	0	boss
 8830002	Balrog	56	3060000	0	boss
-8830003	Balrog	161	9980000	0	
+8830003	Balrog	105	9980000	0	boss
 8830004	Balrog	1	600000000	0	
 8830005	Balrog	1	600000000	0	
-8830006	Balrog	1	1	0	
-8830007	Balrog	4	3210000	0	boss
-8830008	Balrog	162	2059200	0	boss
+8830006	Balrog	1	1	0	boss
+8830007	Balrog	84	3210000	0	boss
+8830008	Balrog	60	2059200	0	boss
 8830009	Balrog	56	2233800	0	boss
-8830010	Balrog	161	7503000	0	
+8830010	Balrog	80	7503000	0	boss
 8830011	Balrog	1	600000000	0	
 8830012	Balrog	1	600000000	0	
-8830013	Balrog	1	1	0	
+8830013	Balrog	1	1	0	boss
 9000001	Curse Eye 2	35	800	0	
 9000002	Horned Mushroom 2	35	600	0	
 9000100	Fire Boar 2	35	600	0	
@@ -518,21 +518,21 @@ id	name	level	hp	exp	boss
 9000201	Zombie Mushroom 2	35	600	0	
 9000300	Cold Eye 2	35	800	0	
 9000301	Blue Mushroom 2	35	600	0	
-9001000	Dances with Balrog's Clone	1	150000	2400	boss
-9001001	Grendel the Really Old's Clone	1	90000	2400	boss
-9001002	Athena Pierce's Clone	1	120000	2400	boss
-9001003	Dark Lord's Clone	1	120000	2400	boss
-9001004	Shadow Kyrin	85	130000	2400	boss
+9001000	Dances with Balrog's Clone	80	150000	2400	boss
+9001001	Grendel the Really Old's Clone	80	90000	2400	boss
+9001002	Athena Pierce's Clone	80	120000	2400	boss
+9001003	Dark Lord's Clone	80	120000	2400	boss
+9001004	Shadow Kyrin	80	130000	2400	boss
 9001005	OctoPirate	35	800	0	
 9001006	OctoPirate	35	800	0	
 9001007	Scarecrow for Training	35	800	0	
-9001008	Shadow Kyrin's Clone	1	70000	0	
-9001009	Master of Disguise	15	150000	0	boss
-9001010	Black Witch	8	9300000	0	boss
+9001008	Shadow Kyrin's Clone	80	70000	0	boss
+9001009	Master of Disguise	80	150000	0	boss
+9001010	Black Witch	140	9300000	0	boss
 9001011	Tiguru of Exam	35	800	0	
-9001012	Scarred Bear	1	800	0	
-9001013	Thief Crow	6	150000	0	boss
-9001014	Uncontrollable Maha	1	3000000	0	boss
+9001012	Scarred Bear	35	800	0	
+9001013	Thief Crow	80	150000	0	boss
+9001014	Uncontrollable Maha	140	3000000	0	boss
 9100000	Super Slime	200	9999	0	
 9100001	Super Jr. Necki	200	9999	0	
 9100002	Super Stirge	200	9999	0	
@@ -575,81 +575,81 @@ id	name	level	hp	exp	boss
 9300000	Jr. Necki (PC)	21	320	240	
 9300001	Ligator (PC)	32	1000	120	
 9300002	Curse Eye (PC)	35	2000	280	
-9300003	King Slime	40	8000	800	
+9300003	King Slime	40	8000	800	boss
 9300004	Mimic	54	4100	165	
 9300005	Ratz from Another Dimension	32	3700	260	
 9300006	Black Ratz from Another Dimension	34	4300	280	
 9300007	Bloctopus from Another Dimension	35	4900	288	
 9300008	Shadow Eye from Another Dimension	43	7100	340	
 9300009	Block Golem from Another Dimension	40	6500	408	
-9300010	Rombad from Another Dimension	28	33000	850	boss
-9300011	Toy Trojan	1	1920	92	
-9300012	Alishar	29	125000	4800	boss
+9300010	Rombad from Another Dimension	47	33000	850	boss
+9300011	Toy Trojan	39	1920	92	
+9300012	Alishar	56	125000	4800	boss
 9300013	King Block Golem from Another Dimension	200	99999	1	
 9300014	Dark Eye from Another Dimension	43	6500	340	
 9300015	Cronos	37	2750	82	
 9300016	Platoon Cronos	41	3050	99	
 9300017	Master Cronos	46	3600	115	
 9300018	Tutorial Jr. Sentinel	1	8	1	
-9300019	Master Muscle Stone	45	40000	1120	
+9300019	Master Muscle Stone	65	40000	1120	
 9300020	Muscle Stone	63	16000	520	
 9300021	Dark Muscle Stone	200	9999999	0	
-9300022	Black Knight	5	40000	1060	
-9300023	Myst Knight	6	40000	1060	
+9300022	Black Knight	66	40000	1060	
+9300023	Myst Knight	66	40000	1060	
 9300024	Puppet Golem	67	35000	1100	
-9300025	Gargoyle	46	35000	1150	
+9300025	Gargoyle	68	35000	1150	
 9300026	Jr. Gargoyle	62	15000	430	
 9300027	Devil Slime	23	1000	170	
-9300028	Ergoth	8	1700000	150000	boss
-9300029	Lion Statue A	7	1000000	0	boss
-9300030	Lion Statue B	4	800000	0	boss
-9300031	Knight Statue A	5	900000	0	boss
-9300032	Knight Statue B	47	900000	0	boss
+9300028	Ergoth	115	1700000	150000	boss
+9300029	Lion Statue A	99	1000000	0	boss
+9300030	Lion Statue B	99	800000	0	boss
+9300031	Knight Statue A	100	900000	0	boss
+9300032	Knight Statue B	100	900000	0	boss
 9300033	Jr. Gargoyle	62	15000	430	
-9300034	Mist Knight	6	20000	0	
+9300034	Mist Knight	66	20000	0	
 9300035	Jr. Gargoyle	62	15000	0	
-9300036	Black Knight	5	22000	100	
-9300037	Mist Knight	6	22000	100	
+9300036	Black Knight	66	22000	100	
+9300037	Mist Knight	66	22000	100	
 9300038	Ghost Pixie	59	9000	420	
-9300039	Papa Pixie	49	672000	17000	boss
+9300039	Papa Pixie	65	672000	17000	boss
 9300040	Cellion in Tower of Goddess	54	4400	170	
 9300041	Cellion in Tower of Goddess	57	7300	370	
 9300042	Grupin in Tower of Goddess	57	7300	370	
 9300043	Lioner in Tower of Goddess	57	7300	370	
 9300044	Lucida in Tower of Goddess	65	3000	0	
-9300045	Lunar Pixie in Tower of Goddess	1	6600	325	
+9300045	Lunar Pixie in Tower of Goddess	54	6600	325	
 9300046	Star Pixie in Tower of Goddess	53	6300	320	
-9300047	Luster Pixie in Tower of Goddess	2	7200	355	
+9300047	Luster Pixie in Tower of Goddess	56	7200	355	
 9300048	Nependeath in Tower of Goddess	59	10000	430	
 9300049	Royal Nependeath in Tower of Goddess	59	10000	430	
 9300050	Flying Boogie	60	25000	515	
 9300051	Jr. Cellion in Tower of Goddess	51	6400	305	
 9300052	Jr. Lioner in Tower of Goddess	51	6400	305	
 9300053	Jr. Grupin in Tower of Goddess	51	6400	305	
-9300054	Lunar Pixie in Tower of Goddess(Summon Boss)	1	6600	335	
+9300054	Lunar Pixie in Tower of Goddess(Summon Boss)	54	6600	335	
 9300055	Star Pixie in Tower of Goddess(Summon Boss)	53	6300	320	
-9300056	Luster Pixie in Tower of Goddess(Summon Boss)	2	7200	355	
+9300056	Luster Pixie in Tower of Goddess(Summon Boss)	56	7200	355	
 9300057	Cellion in Tower of Goddess	54	4400	170	
 9300058	Pig	7	75	15	
 9300059	Ribbon Pig	10	120	20	
-9300060	Iron Hog	1	1100	296	
+9300060	Iron Hog	42	1100	296	
 9300061	Moon Bunny	30	5000	0	
 9300062	Flyeye	8	80	10	
 9300063	Stirge	6	60	22	
 9300064	Goblin Fire	11	155	22	
 9300065	Green Cornian1 in Cave	100	56000	1000	
 9300066	Green Cornian 2 in Cave	100	56000	1000	
-9300067	Dark Cornian 1 in Cave	3	67000	1200	
-9300068	Dark Cornian 2 in Cave	3	67000	1200	
+9300067	Dark Cornian 1 in Cave	105	67000	1200	
+9300068	Dark Cornian 2 in Cave	105	67000	1200	
 9300069	Red Wyvern 1 in Cave	97	53000	800	
 9300070	Red Wyvern 2 in Cave	97	53000	800	
 9300071	Blue Wyvern 1 in Cave	101	57000	1000	
 9300072	Blue Wyvern 2 in Cave	101	57000	1000	
 9300073	Dark Wyvern 1 in Cave	103	60000	1050	
 9300074	Dark Wyvern 2 in Cave	103	60000	1050	
-9300075	Skelegon 1 in Cave	4	80000	1500	
-9300076	Skelegon 2 in Cave	4	80000	1500	
-9300077	T-Skelegon in Cave	4	85000	1500	
+9300075	Skelegon 1 in Cave	110	80000	1500	
+9300076	Skelegon 2 in Cave	110	80000	1500	
+9300077	T-Skelegon in Cave	113	85000	1500	
 9300078	Jr. Newtie in Cave	105	68000	1250	
 9300079	Nest Golem in Cave	110	80000	1500	
 9300080	Kru	68	13000	265	
@@ -658,28 +658,28 @@ id	name	level	hp	exp	boss
 9300083	Goblin Fire	11	155	22	
 9300084	Deathly Fear	43	6500	340	
 9300085	Jr. Balrog in Another World	80	50000	2000	boss
-9300086	The Elemental Thanatos	1	70000	4100	boss
+9300086	The Elemental Thanatos	108	70000	4100	boss
 9300087	The Charging Taurospear	75	18000	350	
-9300088	Dark Lord's Disciple	1	120000	2400	boss
+9300088	Dark Lord's Disciple	80	120000	2400	boss
 9300089	Phoenix	120	1350000	13500	boss
 9300090	Freezer	120	1350000	13500	boss
 9300091	Buff Rocky in the Dark	200	9999999	0	
 9300092	Jr. Balrog in Forgotten Shrine	80	50000	2000	boss
 9300093	Tylus	30	100000	0	
 9300094	Crimson Balrog the Kidnapper	100	50000	3500	boss
-9300095	Lycanthrope the Kidnapper	2	19000	850	
+9300095	Lycanthrope the Kidnapper	80	19000	850	
 9300096	Black Kentaurus	88	37000	1600	
 9300097	Goby in Warped Dimension	85	17000	1400	
-9300098	Bone Fish in Warped Dimension	3	42500	2000	
-9300099	Shark in Warped Dimension	2	56000	3000	
-9300100	The Elemental Thanatos	1	70000	4100	boss
+9300098	Bone Fish in Warped Dimension	92	42500	2000	
+9300099	Shark in Warped Dimension	100	56000	3000	
+9300100	The Elemental Thanatos	108	70000	4100	boss
 9300101	Tamable Hog	70	200	0	
 9300102	Watchhog	70	24000	0	
 9300103	Barnard Gray	70	4500	0	
 9300104	Zeta Gray	70	4500	0	
-9300105	Angry Lord Pirate	1	480000	8800	boss
-9300106	Enraged Lord Pirate	1	540000	12000	boss
-9300107	Peeking Lord Pirate	1	300000	4000	boss
+9300105	Angry Lord Pirate	63	480000	8800	boss
+9300106	Enraged Lord Pirate	68	540000	12000	boss
+9300107	Peeking Lord Pirate	70	300000	4000	boss
 9300108	Lord Pirate's Jar	56	4300	92	
 9300109	Lord Pirate's Ginseng Jar	57	4500	95	
 9300110	Lord Pirate's Bellflower	58	4700	98	
@@ -691,7 +691,7 @@ id	name	level	hp	exp	boss
 9300116	Lord Pirate's Enraged Captain	60	2940	72	
 9300117	Lord Pirate's Devoted Kru	62	22800	313	
 9300118	Lord Pirate's Devoted Captain	64	28200	378	
-9300119	Lord Pirate	1	420000	7200	boss
+9300119	Lord Pirate	60	420000	7200	boss
 9300120	Lord Pirate's Furious Mr. Alli	59	8820	180	
 9300121	Lord Pirate's Furious Kru	60	9360	187	
 9300122	Lord Pirate's Furious Captain	62	10440	198	
@@ -711,81 +711,81 @@ id	name	level	hp	exp	boss
 9300136	Rombot	30	6500	450	boss
 9300137	Juliet	70	30000	0	
 9300138	Romeo	70	30000	0	
-9300139	Frankenroid	6	660000	12000	boss
-9300140	Angry Frankenroid	6	850000	25000	boss
+9300139	Frankenroid	81	660000	12000	boss
+9300140	Angry Frankenroid	84	850000	25000	boss
 9300141	Homun of Closed Laboratory	65	11000	255	
 9300142	Homunculu of hidden laboratory	73	15500	320	
-9300143	Reinforced Iron Mutae	11	20000	300	
-9300144	Reinforced Mithril Mutae	10	23000	300	
+9300143	Reinforced Iron Mutae	73	20000	300	
+9300144	Reinforced Mithril Mutae	47	23000	300	
 9300145	Homun	74	33000	330	
 9300146	Cyti	76	38000	360	
 9300147	Homunculus	77	20000	320	
 9300148	Neo Huroid	79	24000	330	
 9300149	Roid	78	29000	295	
 9300150	Neo Huroid	80	35000	390	
-9300151	Frankenroid	8	660000	12000	boss
-9300152	Angry Frankenroid	8	850000	25000	boss
+9300151	Frankenroid	81	660000	12000	boss
+9300152	Angry Frankenroid	84	850000	25000	boss
 9300153	Obstacle Mutae	62	7500	0	
 9300154	Experimental Neo Huroid	58	5600	205	
 9300155	Pig	7	75	0	
 9300156	Black Magician's Disciple	10	300	15	
 9300157	Scorpion	25	1200	30	
-9300158	Kyrin	12	100000000	6700000	boss
+9300158	Kyrin	120	100000000	6700000	boss
 9300159	Inferno Kyrin	120	100000000	6700000	boss
 9300160	Blue Flower Serpent	45	2550	0	boss
 9300161	Red Flower Serpent	45	2550	0	boss
 9300162	Willi	55	95000	0	
-9300163	Sage Cat	2	25000	0	
-9300164	The Book Ghost	2	28000	0	
+9300163	Sage Cat	120	25000	0	
+9300164	The Book Ghost	120	28000	0	
 9300165	Peach Monkey	120	21000	0	
 9300166	Bomb	35	10000	0	boss
 9300169	Ratz from Another Dimension	32	3700	260	
 9300170	Black Ratz from Another Dimension	34	4300	280	
 9300171	Bloctopus from Another Dimension	35	4900	288	
 9300172	Poisoned Lord Tree	62	6100	235	
-9300173	Poisoned Stone Bug	1	7200	255	
+9300173	Poisoned Stone Bug	65	7200	255	
 9300174	Poisoned Spright	65	6500		
-9300175	Poison Flower	8	7500		
+9300175	Poison Flower	65	7500		
 9300176	Poison Golem	65	21000	0	
 9300177	Poison Golem Level 2	62	3500	240	
 9300178	Poison Golem Level 3	65	6700	255	
-9300179	Spright	8	7500	255	
-9300180	Poison Golem	8	63000	0	boss
-9300181	Charged Poison Golem	5	83000	0	boss
-9300182	Super-Charged Poison Golem	5	113500	17980	boss
+9300179	Spright	65	7500	255	
+9300180	Poison Golem	65	63000	0	boss
+9300181	Charged Poison Golem	75	83000	0	boss
+9300182	Super-Charged Poison Golem	85	113500	17980	boss
 9300183	Deeply Poisoned Stone Bug	1	2090000000	0	boss
-9300184	Mano	7	2000	120	boss
-9300185	Stumpy	1	7000	405	boss
-9300186	Deo	1	7700	445	boss
-9300187	King Slime	40	8000	800	
+9300184	Mano	20	2000	120	boss
+9300185	Stumpy	35	7000	405	boss
+9300186	Deo	38	7700	445	boss
+9300187	King Slime	40	8000	800	boss
 9300188	Giant Centipede	50	18000	1080	boss
-9300189	Faust	18	9800	410	boss
-9300190	King Clang	8	25000	1210	boss
+9300189	Faust	50	9800	410	boss
+9300190	King Clang	55	25000	1210	boss
 9300191	Mushmom	60	20000	1200	boss
-9300192	Alishar	111	125000	4800	
-9300193	Timer	17	21000	650	boss
-9300194	Dyle	17	31000	810	boss
-9300195	Papa Pixie	114	672000	17000	boss
+9300192	Alishar	56	125000	4800	boss
+9300193	Timer	59	21000	650	boss
+9300194	Dyle	65	31000	810	boss
+9300195	Papa Pixie	65	672000	17000	boss
 9300196	Zombie Mushmom	65	35000	1500	boss
-9300197	Zeno	116	36000	940	boss
-9300198	Lord Pirate	1	420000	7200	boss
-9300199	Nine-Tailed Fox	15	89000	1300	boss
-9300200	Tae Roon	4	93000	1580	boss
-9300201	Super-Charged Poison Golem	5	113500	17980	boss
-9300202	King Sage Cat	15	108000	2280	boss
+9300197	Zeno	65	36000	940	boss
+9300198	Lord Pirate	60	420000	7200	boss
+9300199	Nine-Tailed Fox	70	89000	1300	boss
+9300200	Tae Roon	71	93000	1580	boss
+9300201	Super-Charged Poison Golem	85	113500	17980	boss
+9300202	King Sage Cat	77	108000	2280	boss
 9300203	Jr. Balrog	80	50000	2000	boss
-9300204	Eliza	123	87000	2800	boss
-9300205	Frankenroid	6	660000	12000	boss
-9300206	Chimera	125	96000	3000	boss
+9300204	Eliza	83	87000	2800	boss
+9300205	Frankenroid	81	660000	12000	boss
+9300206	Chimera	85	96000	3000	boss
 9300207	Snack Bar	85	230000	4230	boss
-9300208	Snowman	127	120000	5200	boss
+9300208	Snowman	90	120000	5200	boss
 9300209	Blue Mushmom	90	200000	10000	boss
 9300210	Crimson Balrog	100	100000	3500	boss
 9300211	Manon	105	3700000	13500	boss
 9300212	Griffey	105	3700000	13500	boss
-9300213	Leviathan	2	13400000	30000	boss
-9300214	Papulatus	1	23000000	50000	boss
-9300215	Mu Gong Merits	2	27523000	100000	boss
+9300213	Leviathan	120	13400000	30000	boss
+9300214	Papulatus	125	23000000	50000	boss
+9300215	Mu Gong Merits	150	27523000	100000	boss
 9300216	A transparent item for checking elimination	1	2090000000	0	boss
 9300217	Blue Snail	2	15	4	
 9300218	Red Snail	4	40	8	
@@ -806,29 +806,29 @@ id	name	level	hp	exp	boss
 9300233	Tick-Tock	40	1900	95	
 9300234	Ligator	32	1200	60	
 9300235	Croko	52	3800	170	
-9300236	Luster Pixie	2	7200	355	
+9300236	Luster Pixie	56	7200	355	
 9300237	Ghost Pixie	59	9000	420	
 9300238	Zombie Mushroom	24	500	42	
 9300239	Zeta	42	2300	102	
 9300240	Ultra Gray	45	2550	110	
 9300241	Kru	68	12500	265	
 9300242	Captain	70	15000	282	
-9300243	Samiho	4	4500	185	
+9300243	Samiho	56	4500	185	
 9300244	Grizzly	56	4800	185	
 9300245	Panda	60	6500	225	
 9300246	Tree Road	62	3500	240	
 9300247	Stone Bug	65	6700	255	
-9300248	Sage Cat	2	9000	255	
+9300248	Sage Cat	66	9000	255	
 9300249	Tauromacis	70	15000	270	
 9300250	Taurospear	75	18000	350	
 9300251	Lucida	73	15500	320	
 9300252	Reinforced Iron Mutae	45	2550	110	
 9300253	Reinforced Mithril Mutae	50	3000	135	
-9300254	Reinforced Iron Mutae	11	20000	300	
-9300255	Mithril Mutae	10	23000	300	
+9300254	Reinforced Iron Mutae	73	20000	300	
+9300255	Mithril Mutae	47	23000	300	
 9300256	Transforming Doll Machine  (Before)	60	1500	0	
 9300257	Transforming Doll Machine  (After)	60	6000	280	
-9300258	Yeti	1	11000	255	
+9300258	Yeti	65	11000	255	
 9300259	Blue Mushroom	20	350	32	
 9300260	Jr. Balrog	80	50000	2000	
 9300261	Black Kentaurus	88	37000	1600	
@@ -837,8 +837,8 @@ id	name	level	hp	exp	boss
 9300264	Dark Wyvern	103	60000	3150	
 9300265	Blue Wyvern	101	57000	3050	
 9300266	High Darkstar	71	10000	0	boss
-9300267	Low Darkstar	2	10000	0	boss
-9300268	Tae Roon	4	93000	1580	boss
+9300267	Low Darkstar	80	10000	0	boss
+9300268	Tae Roon	71	93000	1580	boss
 9300269	So Gong	20	2000	35	boss
 9300270	Mingu	80	10000	10	
 9300271	Target Slime	6	50	10	
@@ -855,16 +855,16 @@ id	name	level	hp	exp	boss
 9300282	Blue Transforming Snail of the Maze	10	10	1	
 9300283	Transforming Yellow Snail of the Maze	10	10	1	
 9300284	Transforming Yellow Snail of the Maze	10	10	1	
-9300285	Puppeteer	15	10000	0	
+9300285	Puppeteer	30	10000	0	boss
 9300286	Dangerous Blue Mushroom	20	350	32	
-9300287	Snowman of Competence	77	220000	5200	boss
+9300287	Snowman of Competence	90	220000	5200	boss
 9300288	Crimson Balrog of Competence 	90	220000	5200	boss
-9300289	Snipe of Competence 	12	220000	5200	boss
-9300290	Lilynouch of Competence	23	220000	5200	boss
+9300289	Snipe of Competence 	90	220000	5200	boss
+9300290	Lilynouch of Competence	90	220000	5200	boss
 9300291	Advanced Manon	100	560000	3500	boss
 9300292	Advanced Griffey	100	560000	3500	boss
-9300293	Advanced Leviathan	2	560000	3500	boss
-9300294	Advanced Pianus	5	560000	3500	boss
+9300293	Advanced Leviathan	100	560000	3500	boss
+9300294	Advanced Pianus	100	560000	3500	boss
 9300295	The Dangerous Tree of the Maze	100	10000	1	boss
 9300296	The Cool Shade of the Maze	100	10000	1	boss
 9300297	Mutae of the Maze	10	10	1	
@@ -903,7 +903,7 @@ id	name	level	hp	exp	boss
 9300330	Rose Thorn	10	40000	0	boss
 9300331	Gaga	10	10	10	boss
 9300332	Barnard Gray	40	1930	95	
-9300334	Chief Gray	27	9000	580	
+9300334	Chief Gray	49	9000	580	
 9300335	Mateon	41	2080	99	
 9300336	Mecateon	46	2600	110	
 9300337	Mecateon	46	2600	110	
@@ -913,18 +913,18 @@ id	name	level	hp	exp	boss
 9300341	Target Slime	6	50	10	
 9300342	Target Orange Mushroom	8	80	15	
 9300343	Target Pig	7	75	15	
-9300344	Puppeteer	15	8000	0	boss
-9300345	Puppeteer	15	12000	0	
-9300346	Puppeteer	15	20000	0	
-9300347	Giant Nependeath	23	5000	110	
-9300348	Giant	6	25000	0	boss
+9300344	Puppeteer	28	8000	0	boss
+9300345	Puppeteer	31	12000	0	boss
+9300346	Puppeteer	37	20000	0	boss
+9300347	Giant Nependeath	45	5000	110	
+9300348	Giant	45	25000	0	boss
 9300349	Gentleman	999	99	0	
-9300350	Mu Gong's Shadow	11	22000	0	boss
-9300351	Shadow Knight	2	44000	0	boss
+9300350	Mu Gong's Shadow	54	22000	0	boss
+9300351	Shadow Knight	54	44000	0	boss
 9300352	Gentleman	999	99	0	
 9300353	Gentleman	999	99	0	
 9300354	Wolf Underling	150	100000	0	
-9300355	Shapeshifter	13	75000	0	boss
+9300355	Shapeshifter	63	75000	0	boss
 9300356	Sma Gingerman	1	30	1	boss
 9300357	Grii Gingerman	1	10	1	boss
 9300358	Grii Gingerman	1	10	1	boss
@@ -936,17 +936,17 @@ id	name	level	hp	exp	boss
 9300364	Sma Gingerman	1	10	1	boss
 9300365	Grii Gingerman	1	10	1	boss
 9300366	Grii Gingerman 	1	10	1	boss
-9300367	Witch Bear	16	1000	0	boss
-9300368	Witch Bear	16	2000	0	boss
-9300369	Witch Bear	16	7000	0	boss
-9300370	Witch Bear	16	7700	445	boss
-9300371	Witch Bear	16	9800	410	boss
-9300372	Witch Bear	16	25000	0	boss
-9300373	Witch Bear	16	31000	810	boss
-9300374	Witch Bear	16	50000	0	boss
-9300375	Witch Bear	16	96000	3000	boss
-9300376	Witch Bear	16	96000	3000	boss
-9300377	Witch Bear	16	200000	3000	boss
+9300367	Witch Bear	10	1000	0	boss
+9300368	Witch Bear	20	2000	0	boss
+9300369	Witch Bear	30	7000	0	boss
+9300370	Witch Bear	40	7700	445	boss
+9300371	Witch Bear	50	9800	410	boss
+9300372	Witch Bear	60	25000	0	boss
+9300373	Witch Bear	70	31000	810	boss
+9300374	Witch Bear	80	50000	0	boss
+9300375	Witch Bear	90	96000	3000	boss
+9300376	Witch Bear	90	96000	3000	boss
+9300377	Witch Bear	110	200000	3000	boss
 9300378	Giant Nependeath	45	2000	0	
 9300379	Black Mage Wyvern	1	60000	0	
 9300380	Black Mage Cornian	1	67000	0	
@@ -970,27 +970,27 @@ id	name	level	hp	exp	boss
 9303002	King Slime	10	1000	0	boss
 9303003	Deo	10	1000	0	
 9303004	Mushmom	10	1000	0	
-9303005	Tae Roon	1	3000	0	
+9303005	Tae Roon	26	3000	0	
 9303006	Rombot	26	3000	0	
 9303007	Zeno	26	3000	0	
-9303008	Nine-Tailed Fox	15	3000	0	
-9303009	King Sage Cat	15	5000	0	
+9303008	Nine-Tailed Fox	26	3000	0	
+9303009	King Sage Cat	51	5000	0	
 9303010	Jr. Balrog	51	5000	0	
-9303011	Lord Pirate	4	5000	0	
+9303011	Lord Pirate	51	5000	0	
 9303012	Papa Pixie	51	5000	0	
 9303013	Crimson Balrog	81	10000	0	
 9303014	Seruf	81	10000	0	
 9303015	Eliza	81	10000	0	
-9303016	Leviathan	2	10000	0	
+9303016	Leviathan	81	10000	0	
 9400000	Crow	25	550	42	
 9400001	Fire Raccoon	30	900	55	
 9400002	Cloud Fox	30	920	55	
 9400003	Nightghost	60	7100	220	
 9400004	Big Cloud Fox	45	2600	110	
-9400005	Red Boogie	1	275	30	
-9400006	Blue Boogie	1	1050	60	
-9400007	Green Boogie	1	2900	120	
-9400008	Black Boogie	1	7980	325	
+9400005	Red Boogie	15	275	30	
+9400006	Blue Boogie	30	1050	60	
+9400007	Green Boogie	45	2900	120	
+9400008	Black Boogie	65	7980	325	
 9400009	Crow	200	99999	0	
 9400010	Flaming Raccoon	200	99999	0	
 9400011	Paper Lantern Ghost	40	1920	93	
@@ -1006,9 +1006,9 @@ id	name	level	hp	exp	boss
 9400112	Bodyguard A	152	400000000	13800000	boss
 9400113	Bodyguard B	155	500000000	10500000	boss
 9400114	Slot Machine	50	50000	1500	
-9400120	Male Boss	8	85000	5500	boss
+9400120	Male Boss	95	85000	5500	boss
 9400121	Female Boss	130	75000000	3900000	boss
-9400122	Male Boss	8	85000	5500	boss
+9400122	Male Boss	95	85000	5500	boss
 9400200	Malady	55	4200	1	
 9400201	Wild Cargo	62	5500	1	
 9400202	B Slime	1	100	1	
@@ -1017,8 +1017,8 @@ id	name	level	hp	exp	boss
 9400205	Blue Mushmom	90	200000	10000	boss
 9400209	Miner Zombie (JP)	57	4500	190	
 9400210	Coolie Zombie (JP)	57	4700	190	
-9400211	Dark Stone Golem (JP)	2	4800	200	
-9400212	Stone Golem (JP)	1	4000	170	
+9400211	Dark Stone Golem (JP)	58	4800	200	
+9400212	Stone Golem (JP)	55	4000	170	
 9400213	Dark Jr. Yeti (JP)	56	4400	180	
 9400214	Master Chronos (JP)	46	2600	115	
 9400215	Ultra Gray (JP)	45	2550	110	
@@ -1030,8 +1030,8 @@ id	name	level	hp	exp	boss
 9400240	Roid 	54	4400	168	
 9400241	Pig	7	75	15	
 9400242	Ribbon Pig	10	120	20	
-9400243	Stone Golem	1	4000	170	
-9400244	Mixed Golem	1	6000	210	
+9400243	Stone Golem	55	4000	170	
+9400244	Mixed Golem	59	6000	210	
 9400245	Zombie Mushroom	24	500	42	
 9400246	Horny Mushroom	22	300	35	
 9400247	Drumming Bunny	30	950	60	
@@ -1047,22 +1047,22 @@ id	name	level	hp	exp	boss
 9400316	Tic (Hard)	58	4000	0	
 9400317	Tac (Hard)	60	4500	0	
 9400318	Toe (Hard)	62	4800	0	
-9400319	Cross (Easy)	19	2500	300	boss
-9400320	Cross (Medium)	3	7500	1000	boss
-9400321	Cross (Hard)	2	89000	1500	boss
+9400319	Cross (Easy)	20	2500	300	boss
+9400320	Cross (Medium)	45	7500	1000	boss
+9400321	Cross (Hard)	70	89000	1500	boss
 9400322	Giant Snowman (Lvl 1) - Easy	23	2000	0	
-9400323	Giant Snowman (Lvl 2) - Easy				
-9400324	Giant Snowman (Lvl 3) - Easy				
+9400323	Giant Snowman (Lvl 2) - Easy	23	3000	0	
+9400324	Giant Snowman (Lvl 3) - Easy	23	4000	0	
 9400325	Giant Snowman (Lvl 4) - Easy	23	5000	0	
 9400326	Giant Snowman (Lvl 5) - Easy	23	6000	0	
 9400327	Giant Snowman (Lvl 1) - Medium	50	10000	0	
-9400328	Giant Snowman (Lvl 2) - Medium				
-9400329	Giant Snowman (Lvl 3) - Medium				
+9400328	Giant Snowman (Lvl 2) - Medium	50	11000	0	
+9400329	Giant Snowman (Lvl 3) - Medium	50	12000	0	
 9400330	Giant Snowman (Lvl 4) - Medium	50	13000	0	
 9400331	Giant Snowman (Lvl 5) - Medium	50	14000	0	
 9400332	Giant Snowman (Lvl 1) - Hard	80	15000	0	
-9400333	Giant Snowman (Lvl 2) - Hard				
-9400334	Giant Snowman (Lvl 3) - Hard				
+9400333	Giant Snowman (Lvl 2) - Hard	80	16500	0	
+9400334	Giant Snowman (Lvl 3) - Hard	80	18000	0	
 9400335	Giant Snowman (Lvl 4) - Hard	80	19500	0	
 9400336	Giant Snowman (Lvl 5) - Hard	80	21000	0	
 9400500	Malady	1	4200	0	boss
@@ -1079,11 +1079,11 @@ id	name	level	hp	exp	boss
 9400511	Yellow Eggy Popp	20	350	50	
 9400512	Cake Mob (2nd) 	30	950	65	
 9400513	Candle Mob (2nd) 	10	250	20	
-9400514	Geist Balrog Phase 3	6	1500000	5600	boss
+9400514	Geist Balrog Phase 3	95	1500000	5600	boss
 9400515	Indigo Eye	38	1550	85	
 9400516	Crystal Boar	40	1900	90	
-9400517	Magik Fierry A	1	1930	135	
-9400518	Magik Fierry B	1	800	120	
+9400517	Magik Fierry A	40	1930	135	
+9400518	Magik Fierry B	30	800	120	
 9400519	G Slime	35	1300		
 9400520	P Slime	35	1300		
 9400521	O Slime	38	1850		
@@ -1091,15 +1091,15 @@ id	name	level	hp	exp	boss
 9400523	Evil Eye GL	27	720		
 9400524	Curse Eye GL	35	1250		
 9400525	Cold Eye GL	40	2000		
-9400526	Fierry GL	1	800		
+9400526	Fierry GL	30	800		
 9400527	Fire Boar GL	32	1000		
 9400528	Sentinel GL	30	900		
 9400529	Ice Sentinel GL	30	900		
 9400530	Zombie Lupin GL	40	1800		
-9400531	Toy Trojan GL	1	1920		
+9400531	Toy Trojan GL	39	1920		
 9400533	Indigo Eye PQ	38	1550		
 9400534	Crystal Boar PQ	40	1900		
-9400535	Magik Fiarry A PQ	1	1930		
+9400535	Magik Fiarry A PQ	40	1930		
 9400536	Geist Balrog Phase 1	80	100000	1000	boss
 9400537	Geist Balrog Phase 2	100	300000	1100	boss
 9400538	Street Slime	19	320	35	
@@ -1133,7 +1133,7 @@ id	name	level	hp	exp	boss
 9400566	Loki Box Ex	1	100000	0	boss
 9400567	Loki Box Tr	1	3	0	boss
 9400568	Turkey Commando	20	350	41	
-9400569	Big Puff Daddy	93	50000000	5200	boss
+9400569	Big Puff Daddy	60	50000000	5200	boss
 9400570	Anniversary Cake	15	250	30	
 9400571	Headless Horseman	50	4000	160	boss
 9400572	Geist Balrog	60	7000	230	boss
@@ -1146,19 +1146,19 @@ id	name	level	hp	exp	boss
 9400579	Nightshadow	100	70000	3600	
 9400580	Elderwraith	95	51000	2480	
 9400581	Stormbreaker	80	38000	1650	
-9400582	Crimson Guardian	12	120000	6100	
-9400583	Leprechaun	5	2800	135	
+9400582	Crimson Guardian	120	120000	6100	
+9400583	Leprechaun	45	2800	135	
 9400584	Leprechaun	45	45	0	
 9400585	Crimson Tree	75	3500	122	
 9400586	Crimson Tree	75	3500	122	
 9400587	Phantom Tree	50	3500	122	
 9400588	Phantom Tree	50	3500	122	
-9400589	MV	135	17000000	60000	boss
-9400590	Margana	3	200000000	4300000	boss
-9400591	Red Nirg	140	255000000	4550000	boss
-9400592	Rellik	145	231000000	4450000	boss
-9400593	Hsalf	1	233000000	4510000	boss
-9400594	Master Guardian	12	7000000	10000	
+9400589	MV	180	17000000	60000	boss
+9400590	Margana	130	200000000	4300000	boss
+9400591	Red Nirg	130	255000000	4550000	boss
+9400592	Rellik	130	231000000	4450000	boss
+9400593	Hsalf	130	233000000	4510000	boss
+9400594	Master Guardian	100	7000000	10000	boss
 9400595	Blood Stirge	20	9999999	0	
 9400596	Scarlet Phoenix	120	5000000	250000	boss
 9400597	Azure Ocelot	120	5000000	250000	boss
@@ -1172,12 +1172,12 @@ id	name	level	hp	exp	boss
 9400605	Chocolate Cake	60	4400	200	
 9400606	Giant Cake	70	13000	280	boss
 9400607	Cake Monster	15	250	30	
-9400608	Big Puff Daddy	93	50000000	5200	boss
-9400609	Andras	19	2500	60	boss
-9400610	Amdusias	16	2500	60	boss
-9400611	Crocell	29	2500	60	boss
-9400612	Marbas	15	2500	60	boss
-9400613	Valefor	20	2500	60	boss
+9400608	Big Puff Daddy	60	50000000	5200	boss
+9400609	Andras	25	2500	60	boss
+9400610	Amdusias	25	2500	60	boss
+9400611	Crocell	25	2500	60	boss
+9400612	Marbas	25	2500	60	boss
+9400613	Valefor	25	2500	60	boss
 9400614	Strange Orange Mushroom	8	80	15	
 9400615	Strange Ribbon Pig	10	120	20	
 9400616	Strange Green Mushroom	15	250	26	
@@ -1187,11 +1187,11 @@ id	name	level	hp	exp	boss
 9400620	Strange Dark Stump	10	250	18	
 9400621	Strange Horny Mushroom	22	300	35	
 9400622	Strange Blue Mushroom	20	350	32	
-9400623	Amdusias	16	2500	60	boss
-9400630	Event Horntail's Left Head	1	1000000	10000	boss
-9400631	Event Horntail's Right Head	2	1000000	10000	boss
-9400632	Event Pink Bean	1	2000000	30000	boss
-9400633	Astaroth	168	180000	5250	boss
+9400623	Amdusias	25	2500	60	boss
+9400630	Event Horntail's Left Head	60	1000000	10000	boss
+9400631	Event Horntail's Right Head	60	1000000	10000	boss
+9400632	Event Pink Bean	70	2000000	30000	boss
+9400633	Astaroth	32	180000	5250	boss
 9400634	Frog	5	500	10	
 9400635	Cursed Frog	35	14000000	5000	boss
 9400636	Black Cat	5	500	10	
@@ -1199,20 +1199,20 @@ id	name	level	hp	exp	boss
 9400638	Rotting Skeleton	20	850	74	
 9400639	Dead Scarecrow	50	3300	220	
 9400640	Twisted Jester	70	50000	1325	
-9400641	Olivia	10	50000	2711	boss
-9400642	Olivia	10	210000	6950	boss
-9400643	Olivia	11	810000	11200	boss
+9400641	Olivia	30	50000	2711	boss
+9400642	Olivia	50	210000	6950	boss
+9400643	Olivia	70	810000	11200	boss
 9400644	Malady	10	1000	100	
-9400645	Totem1	16	500	10	
-9400646	Totem2	29	500	10	
+9400645	Totem1	8	500	10	
+9400646	Totem2	8	500	10	
 9400647	A Parasite	15	200	25	
 9400648	Possessed Bear Doll	30	1300	60	
 9400649	Possessed Rabbit Doll	30	1950	60	
 9400650	Possessed Bear Doll	50	2950	140	
-9400651	Possessed Rabbit Doll	31	3950	145	
+9400651	Possessed Rabbit Doll	50	3950	145	
 9400652	Possessed Bear Doll	65	10000	300	
-9400653	Possessed Rabbit Doll	31	13000	310	
-9400654	Event Pink Bean	1	150000000	30000	boss
+9400653	Possessed Rabbit Doll	65	13000	310	
+9400654	Event Pink Bean	70	150000000	30000	boss
 9400655	Strange Orange Mushroom	8	80	15	
 9400656	Strange Ribbon Pig	10	120	20	
 9400657	Strange Green Mushroom	15	250	26	
@@ -1221,7 +1221,7 @@ id	name	level	hp	exp	boss
 9400707	Item Maker	30	1	0	
 9400708	Snowman1	20	54000	182	boss
 9400709	Snowman2	50	162000	543	boss
-9400710	Snowman3	87	324000	350000	boss
+9400710	Snowman3	60	324000	350000	boss
 9400711	Transparent Mob	1	75600	0	
 9400712	Little Snowman	10	10	16	
 9400713	Item Killer	10	120	20	
@@ -1245,7 +1245,7 @@ id	name	level	hp	exp	boss
 9400745	Jr. Balrog Minion	160	5000000	100000	boss
 9400746	Muscle Stone Minion	170	2000000	30000	boss
 9400747	Bain Minion	170	4500000	25000	boss
-9400748	MV	135			boss
+9400748	MV	180	17000000	60000	boss
 9400749	Red Eggy Popp	50	2150	120	
 9409000	Tutorial Leatty	1	8	1	
 9409001	Tutorial Drumming Rabbit	1	8	1	
@@ -1285,7 +1285,7 @@ id	name	level	hp	exp	boss
 9420510	Slimy	63	5800	250	
 9420511	Selkie Jr.	60	5500	220	
 9420512	Mr. Anchor	68	11500	275	
-9420513	Capt. Latanica	79	2000000	210000	boss
+9420513	Capt. Latanica	100	2000000	210000	boss
 9420527	Chlorotrap	45	2600	132	
 9420528	Emo Slime	47	2850	135	
 9420529	Dark Fission	52	3700	172	
@@ -1296,19 +1296,19 @@ id	name	level	hp	exp	boss
 9420534	Charmer	65	9800	255	
 9420535	Jester Scarlion	68	12000	270	
 9420536	Froscola	72	15200	300	
-9420537	Yabber Doo	5	15800	352	
-9420538	Booper Scarlion	3	28000	1250	
-9420539	Vikerola	26	36000	2000	
-9420540	Gallopera	26	43000	2500	
+9420537	Yabber Doo	75	15800	352	
+9420538	Booper Scarlion	82	28000	1250	
+9420539	Vikerola	87	36000	2000	
+9420540	Gallopera	94	43000	2500	
 9420541	Targa	140	10	0	boss
 9420542	Targa	80	60000000	268800	boss
 9420543	Angry Targa	100	90000000	403200	boss
-9420544	Furious Targa	15	150000000	1344000	boss
+9420544	Furious Targa	140	150000000	1344000	boss
 9420545	Ratatula	59	6200	0	
 9420546	Scarlion Boss	140	10	0	boss
 9420547	Scarlion Boss	80	60000000	268800	boss
 9420548	Angry Scarlion Boss	100	90000000	403200	boss
-9420549	Furious Scarlion Boss	15	150000000	1344000	boss
+9420549	Furious Scarlion Boss	140	150000000	1344000	boss
 9420550	Scaredy Scarlion	59	5800	0	
 9500000	Making a wish to full moon	1	100000	0	boss
 9500001	Making a wish to the full moon	1	100000	0	boss
@@ -1335,22 +1335,22 @@ id	name	level	hp	exp	boss
 9500116	Zombie Lupin	40	1800	90	
 9500117	Helly	36	1350	77	
 9500118	Tweeter	39	1900	85	
-9500119	Toy Trojan	1	1920	92	
+9500119	Toy Trojan	39	1920	92	
 9500120	King Block Golem	45	2600	110	
 9500121	Wraith	48	2800	120	
-9500122	Chief Gray	27	9000	580	
-9500123	Mixed Golem	1	6000	210	
+9500122	Chief Gray	49	9000	580	
+9500123	Mixed Golem	59	6000	210	
 9500124	Mushmom	60	20000	1200	boss
 9500125	Red Drake	60	6000	220	
 9500126	Ice Drake	64	7700	250	
 9500127	Master Soul Teddy	67	11000	265	
-9500128	Dark Yeti	2	13000	265	
+9500128	Dark Yeti	68	13000	265	
 9500129	Taurospear	70	15000	270	
 9500130	Blue King Goblin	70	25000	400	boss
 9500131	Lucida	73	15500	320	
-9500132	Werewolf	2	16000	350	
+9500132	Werewolf	75	16000	350	
 9500133	Yeti and Pepe	78	20000	0	
-9500134	Lycanthrope	2	27000	850	
+9500134	Lycanthrope	80	27000	850	
 9500135	Death Teddy	85	32000	1300	
 9500136	Gigantic Viking	98	58000	2600	
 9500137	G. Phantom Watch	95	53000	2800	
@@ -1365,13 +1365,13 @@ id	name	level	hp	exp	boss
 9500146	Play Seal	42	2250	100	
 9500147	Yeti and Coketump	70	20000	272	
 9500148	Igloo Turtle	45	2600	110	
-9500149	Coke Golem	1	3600	136	
-9500150	Ice Golem	1	6900	221	
+9500149	Coke Golem	50	3600	136	
+9500150	Ice Golem	60	6900	221	
 9500151	Coke Slime	15	240	26	
 9500152	Coke Mushroom	20	350	32	
 9500153	Coketump	25	560	43	
 9500154	Coketump Lite	30	930	56	
-9500155	Three-Tailed Fox	4	4500	185	
+9500155	Three-Tailed Fox	56	4500	185	
 9500156	Wraith	48	2800	120	
 9500157	Jr. Wraith	35	1200	70	
 9500158	Yellow King Goblin	70	25000	400	boss
@@ -1384,20 +1384,20 @@ id	name	level	hp	exp	boss
 9500165	Red Kentaurus	88	37000	1600	
 9500166	Blue Kentaurus	88	37000	1600	
 9500167	Golden Pig	10	120	20	
-9500168	King Slime	4	945	182	
-9500169	Jr. Balrog	4	3094	263	boss
-9500170	Papa Pixie	4	8925	543	boss
-9500171	Crimson Balrog	4	18620	1267	boss
-9500172	Alishar	4	20230	1590	
-9500173	Griffey	4	205100	17200	boss
-9500174	Manon	4	205100	17200	boss
-9500175	Angry Lord Pirate	4	54600	2430	boss
-9500176	Blue Mushmom	4	50400	2260	boss
-9500177	Giant Centipede	4	20692	1780	boss
-9500178	Snack Bar	4	1435	0	
-9500179	Transformed Snack Bar	4	5810	532	boss
+9500168	King Slime	20	945	182	boss
+9500169	Jr. Balrog	30	3094	263	boss
+9500170	Papa Pixie	45	8925	543	boss
+9500171	Crimson Balrog	50	18620	1267	boss
+9500172	Alishar	50	20230	1590	boss
+9500173	Griffey	80	205100	17200	boss
+9500174	Manon	80	205100	17200	boss
+9500175	Angry Lord Pirate	60	54600	2430	boss
+9500176	Blue Mushmom	60	50400	2260	boss
+9500177	Giant Centipede	50	20692	1780	boss
+9500178	Snack Bar	40	1435	0	
+9500179	Transformed Snack Bar	40	5810	532	boss
 9500180	Papulatus	90	353500	18200	boss
-9500181	Papulatus	4	211400	24647	boss
+9500181	Papulatus	90	211400	24647	boss
 9500182	Watermelon Guard Hogol 	35	330000000	35	boss
 9500183	Watermelon Guard Hogol 	35	330000000	35	boss
 9500184	Rideword P	15	15	20	
@@ -1427,17 +1427,17 @@ id	name	level	hp	exp	boss
 9500303	Mirror Ghost 2	20	350	1	boss
 9500304	Mirror Ghost 3	20	350	1	boss
 9500305	Jack-o-Lantern	10	10	0	
-9500306	Mano	7	2000	120	boss
-9500307	Stumpy	1	7000	405	boss
-9500308	Faust	18	9800	410	boss
-9500309	King Clang	8	25000	1210	boss
-9500310	Timer	17	21000	650	boss
-9500311	Dyle	17	31000	810	boss
-9500312	Nine-Tailed Fox	15	89000	1300	boss
-9500313	Tae Roon	4	93000	1580	boss
-9500314	King Sage Cat	15	108000	2280	boss
-9500315	Eliza	80	87000	2800	boss
-9500316	Snow Yeti	77	120000	5200	boss
+9500306	Mano	20	2000	120	boss
+9500307	Stumpy	35	7000	405	boss
+9500308	Faust	50	9800	410	boss
+9500309	King Clang	55	25000	1210	boss
+9500310	Timer	59	21000	650	boss
+9500311	Dyle	65	31000	810	boss
+9500312	Nine-Tailed Fox	70	89000	1300	boss
+9500313	Tae Roon	71	93000	1580	boss
+9500314	King Sage Cat	77	108000	2280	boss
+9500315	Eliza	83	87000	2800	boss
+9500316	Snow Yeti	90	120000	5200	boss
 9500317	Kid Snowman	10	3000	20	boss
 9500318	Angry Snowman	40	4500	85	boss
 9500319	Giant Snowman	70	6000	270	boss
@@ -1457,63 +1457,63 @@ id	name	level	hp	exp	boss
 9500333	Leviathan	50	30000	675	boss
 9500334	Lord Pirate	55	48000	925	boss
 9500335	Frankenroid	50	30000	675	boss
-9500336	P Junior	6	50000000	0	boss
-9500337	Mano	7	2000	120	boss
-9500338	Stumpy	1	7000	405	boss
-9500339	Deo	1	7700	445	boss
-9500340	King Slime	40	8000	800	
-9500341	Faust	18	9800	410	boss
-9500342	King Clang	8	25000	1210	boss
-9500343	Alishar	29	125000	4800	
-9500344	Timer	17	21000	650	boss
+9500336	P Junior	70	50000000	0	boss
+9500337	Mano	20	2000	120	boss
+9500338	Stumpy	35	7000	405	boss
+9500339	Deo	38	7700	445	boss
+9500340	King Slime	40	8000	800	boss
+9500341	Faust	50	9800	410	boss
+9500342	King Clang	55	25000	1210	boss
+9500343	Alishar	56	125000	4800	boss
+9500344	Timer	59	21000	650	boss
 9500345	Mushmom	60	20000	1200	boss
-9500346	Dyle	17	31000	810	boss
+9500346	Dyle	65	31000	810	boss
 9500347	Zeno	65	36000	940	boss
-9500348	Nine-Tailed Fox	15	89000	1300	boss
-9500349	Lord Pirate	1	420000	7200	boss
-9500350	Tae Roon	4	93000	1580	boss
-9500351	Papa Pixie	49	672000	17000	boss
-9500352	King Sage Cat	15	108000	2280	boss
+9500348	Nine-Tailed Fox	70	89000	1300	boss
+9500349	Lord Pirate	60	420000	7200	boss
+9500350	Tae Roon	71	93000	1580	boss
+9500351	Papa Pixie	65	672000	17000	boss
+9500352	King Sage Cat	77	108000	2280	boss
 9500353	Jr. Balrog	80	50000	2000	boss
-9500354	Frankenroid	6	660000	12000	boss
-9500355	Eliza	80	87000	2800	boss
-9500356	Chimera	88	96000	3000	boss
-9500357	Snow Yeti	77	120000	5200	boss
+9500354	Frankenroid	81	660000	12000	boss
+9500355	Eliza	83	87000	2800	boss
+9500356	Chimera	85	96000	3000	boss
+9500357	Snow Yeti	90	120000	5200	boss
 9500358	Crimson Balrog	100	100000	3500	boss
 9500359	Manon	105	3700000	13500	boss
 9500360	Griffey	105	3700000	13500	boss
-9500361	Leviathan	2	13400000	47355	boss
-9500362	Papulatus	1	23000000	596000	boss
-9500363	Pianus	5	30000000	1300000	boss
+9500361	Leviathan	120	13400000	47355	boss
+9500362	Papulatus	125	23000000	596000	boss
+9500363	Pianus	110	30000000	1300000	boss
 9500364	Mini Dungeon Transparent Monster	10	20	0	boss
 9500365	Mini Dungeon Agent Box	10	20	0	boss
 9500366	Barnard Gray	15	380	95	
 9500367	Zeta Gray	15	400	102	
 9500368	Ultra Gray	15	420	110	
-9500369	Chief Gray	27	520	580	
+9500369	Chief Gray	15	520	580	
 9500370	Mecateon	15	450	20	
 9500371	Mateon	15	480	99	
 9500372	Plateon	15	500	105	
 9500373	Machine MT-09	20	600	980	boss
 9500400	Gourd	1	10000	0	boss
-9501000	Sealed	11	300000	0	
-9501001	Darkness	8	300000	0	
-9501002	Weakness	11	300000	0	
-9501003	Knocked Out	12	300000	0	
-9501004	Cursed	9	300000	0	
-9501005	Poisoned	9	300000	0	
-9501006	Slow	8	300000	0	
-9501007	Disable Buff	11	300000	0	
-9501008	Seduce	6	300000	0	
-9501009	Immune to Weapon	12	300000	0	
-9501010	Immune to Magic	11	300000	0	
+9501000	Sealed	10	300000	0	
+9501001	Darkness	10	300000	0	
+9501002	Weakness	10	300000	0	
+9501003	Knocked Out	10	300000	0	
+9501004	Cursed	10	300000	0	
+9501005	Poisoned	10	300000	0	
+9501006	Slow	10	300000	0	
+9501007	Disable Buff	10	300000	0	
+9501008	Seduce	10	300000	0	
+9501009	Immune to Weapon	10	300000	0	
+9501010	Immune to Magic	10	300000	0	
 9501011	Cancel Element	10	300000	0	
 9501012	Reduce Element	10	300000	0	
 9501013	Expand Element	10	300000	0	
 9501014	Undead	10	300000	0	
 9501015	Boss	10	300000	0	boss
 9501016	Monster Book Test				
-9501017	Skull	2	300000	0	
+9501017	Skull	10	300000	0	
 9501018	Stat Change Test	10	300000	0	
 9600001	Rooster	20	340	33	
 9600002	Duck	22	380	37	
@@ -1548,9 +1548,9 @@ id	name	level	hp	exp	boss
 9700018	Anubis	49	1		
 9700019	Pharaoh Jr. Yeti	39	1		
 9700020	Metro Bubbling	15	240		
-9700021	Pharaoh Yeti	39	1		
-9700022	Transparent Pharaoh Yeti	40	1		
-9700023	Transparent Pharaoh Yeti	40	1		
+9700021	Pharaoh Yeti	39	1		boss
+9700022	Transparent Pharaoh Yeti	40	1		boss
+9700023	Transparent Pharaoh Yeti	40	1		boss
 9700024	Pyramid Mummydog	59	1		
 9700025	Pyramid Skeleton	59	1		
 9700026	Mummy	59	1		
@@ -1558,12 +1558,12 @@ id	name	level	hp	exp	boss
 9700028	Anubis	59	1		
 9700029	Pharaoh Jr. Yeti	40	1		
 9700030	해군 이등병 유령	60	60000		boss
-9700031	해군 일등병 유령	2	80000		
-9700032	해군 상병 유령	2	100000		
-9700033	해군 병장 유령	1	130000		
-9700034	해군 하사 유령	2	150000		
-9700035	일등 항해사	167	700000		boss
+9700031	해군 일등병 유령	61	80000		boss
+9700032	해군 상병 유령	61	100000		boss
+9700033	해군 병장 유령	61	130000		boss
+9700034	해군 하사 유령	61	150000		boss
+9700035	일등 항해사	62	700000		boss
 9700036	나무 상자	1	1	0	boss
-9700037	유령선 함장	166	4000000		boss
+9700037	유령선 함장	62	4000000		boss
 9700038	유령선 함장의 영혼	40	1		boss
 9999999	???		1		
