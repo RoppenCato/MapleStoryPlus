@@ -436,7 +436,7 @@ Status: `agreed` = Robin decided it. `proposed` = suggested, not yet confirmed. 
 | 2 | Bandit | Savage Blow is better than a maxed Double Stab from its first point, and stronger overall: 6 hits at every level, 55% per hit at level 1 (330%) growing to 100% at level 30 (600%, was 480%). | agreed | Server and client skill data |
 | 3 | Bandit | Steal hits 4 monsters from level 1 and 6 when maxed. | agreed | Server and client skill data |
 | 4 | Bandit | Dagger Booster and Haste last 30 minutes (now 200 seconds at max). | agreed | Server and client skill data |
-| 5 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | agreed | To be tested: the client may refuse another job's skill |
+| 5 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | agreed | Tested 2026-10-10: the client allows it. It does not show in the bandit's skill window, so the server must grant it at 3rd job and give a way to bind it to a key. |
 | 6 | Chief Bandit | Pickpocket drops mesos on every hit at max level (now 60%) and lasts 30 minutes (now 180 seconds), so Meso Explosion always has something to explode. Meso Explosion itself is unchanged. | agreed | Server and client skill data |
 | 7 | Chief Bandit | Meso Guard lasts 30 minutes (now 120 seconds). | agreed | Server and client skill data |
 | 8 | Chief Bandit | Band of Thieves does 250% (now 210%) on 6 monsters. It must stay clearly better than Steal, which does 100% on up to 6. | agreed | Server and client skill data |

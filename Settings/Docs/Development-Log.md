@@ -63,7 +63,14 @@ What we have done, decided and changed. Newest first.
 
 ## 2026-10-10: First game changes (Round 1 tests)
 
-Waiting for Robin's test in game. Nothing below is confirmed working yet.
+Results from Robin's tests, 2026-10-10:
+
+- Sprint works from the server's skill data alone: speed, duration, cooldown and MP cost all took effect with no client edit.
+- Haste lasts 30 minutes from the server's skill data alone. The tooltip still shows the old duration, since that text is in the client's data.
+- Flash Jump works on a Chief Bandit: the client does not refuse another job's skill. It does not appear in the bandit's skill window, only as a key binding, so the server will have to grant it and offer a way to bind it.
+- Buffs of the same kind do not add up. With Haste on, sprint did nothing, because only the strongest speed buff counts. Fixed in server code afterwards (see the code change list); that fix is not tested yet.
+- One client freeze happened when sprint was used right after Flash Jump. It did not happen again in later tries on either the bandit or a real Hermit. Cause unknown; possibly coincidence.
+- Still open: whether the raised speed cap (160) works. The stat window showed 140 with Haste, which the stacking problem explains.
 
 - `Settings/Scripts/Apply-Skill-Changes.py` applies the rows in `Skill-Changes.tsv` to the server's skill data. Running it twice changes nothing the second time.
 - Applied to `Server/wz/Skill.wz`: Haste lasts 30 minutes at max (bandit and assassin); Nimble Feet is the sprint (+10 speed, 10 seconds, 20-second cooldown, no MP cost).
@@ -83,3 +90,4 @@ Every change we make to the original code, so we know what to check when pulling
 | 2026-10-10 | `Server/src/main/java/net/server/channel/handlers/WhisperHandler.java` | A whisper to a bot is also passed to the bot chat bridge. | Bots answer whispers through Claude Haiku (prototype). |
 | 2026-10-10 | `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java` (new) | Sends the whisper to the bridge on `127.0.0.1:8585` and whispers the reply lines back. Silent if the bridge is not running. | Same. |
 | 2026-10-10 | `Server/scripts/npc/2012014.js`, `2012015.js`, `2040024.js` to `2040027.js` | The tower teleport stones charge `teleportCost` (5,000 mesos) instead of using up a rock scroll. | `T-2`. The scrolls could not be obtained. |
+| 2026-10-10 | `Server/src/main/java/server/StatEffect.java`, `Server/src/main/java/client/Character.java` | Sprint (Nimble Feet) adds its speed to the speed buff already running, in the packet to the client and in the server's own record. | The server only counts the strongest buff of a kind, so a +20 sprint lost to Haste's +40. Not tested in game yet. |

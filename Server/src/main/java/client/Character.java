@@ -4567,7 +4567,15 @@ public class Character extends AbstractCharacterObject {
             Map<BuffStat, BuffStatValueHolder> appliedStatups = new LinkedHashMap<>();
 
             for (Pair<BuffStat, Integer> ps : effect.getStatups()) {
-                appliedStatups.put(ps.getLeft(), new BuffStatValueHolder(effect, starttime, ps.getRight()));
+                int value = ps.getRight();
+                if (effect.isSprint() && ps.getLeft() == BuffStat.SPEED) {
+                    // MapleStoryPlus: sprint adds to the speed buff already running (see StatEffect.applyBuffEffect).
+                    BuffStatValueHolder running = effects.get(BuffStat.SPEED);
+                    if (running != null && !running.effect.isSprint() && running.value > 0) {
+                        value += running.value;
+                    }
+                }
+                appliedStatups.put(ps.getLeft(), new BuffStatValueHolder(effect, starttime, value));
             }
 
             boolean active = effect.isActive(this);

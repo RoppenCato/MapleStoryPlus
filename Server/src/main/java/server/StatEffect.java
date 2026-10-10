@@ -1302,6 +1302,17 @@ public class StatEffect {
         }
 
         List<Pair<BuffStat, Integer>> localstatups = statups;
+        if (isSprint()) {
+            // MapleStoryPlus: only the strongest buff of a kind counts, so a +20 sprint would lose to Haste's +40.
+            // Send the sprint's speed on top of the speed buff already running instead.
+            Integer runningSpeed = applyto.getBuffedValue(BuffStat.SPEED);
+            if (runningSpeed != null && runningSpeed > 0) {
+                localstatups = new ArrayList<>(statups.size());
+                for (Pair<BuffStat, Integer> statup : statups) {
+                    localstatups.add(statup.getLeft() == BuffStat.SPEED ? new Pair<>(BuffStat.SPEED, statup.getRight() + runningSpeed) : statup);
+                }
+            }
+        }
         int localDuration = getBuffLocalDuration();
         int localsourceid = sourceid;
         int seconds = localDuration / 1000;
@@ -1586,6 +1597,11 @@ public class StatEffect {
 
     private boolean isTimeLeap() {
         return sourceid == Buccaneer.TIME_LEAP;
+    }
+
+    // MapleStoryPlus: Nimble Feet (and its Cygnus, Evan and Aran versions) is the sprint.
+    public boolean isSprint() {
+        return skill && (sourceid == Beginner.NIMBLE_FEET || sourceid == Noblesse.NIMBLE_FEET || sourceid == Evan.NIMBLE_FEET || sourceid == Legend.AGILE_BODY);
     }
 
     public boolean isDragonBlood() {
