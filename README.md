@@ -7,7 +7,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | Folder | What it is |
 |--------|------------|
 | [Server](Server/) | The server code. A copy of [SoloMapling](https://github.com/MadaraGameDev/SoloMapling) (Cosmic v83 emulator + bots that fill the world). |
-| [Client](Client/) | The game client we play with. Not chosen yet, see [Client/README.md](Client/README.md). |
+| [Client](Client/) | The game client we play with: the original v83 game plus MapleEzorsia v2. See [Client/README.md](Client/README.md). |
 | [Settings](Settings/) | Our personal settings (`config.yaml`: rates, worlds, gameplay switches) and our documentation. |
 | `Database/` | The MySQL data: accounts, characters, items. This is the save file, so back it up. |
 | `Tools/` | Java 21 and MySQL 8.4, unpacked here instead of installed on Windows. Delete the folder to remove them. |
@@ -16,11 +16,13 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 
 - **Rates and gameplay settings:** edit [Settings/config.yaml](Settings/config.yaml). The guide is in [Settings/README.md](Settings/README.md).
 - **Server code:** edit files under `Server/`, then rebuild.
+- **Anything else (skills, NPCs, drops, test characters):** the recipes are in the [Guide](Settings/Docs/Guide.md).
 
 ## Documentation
 
 | Document | What it is |
 |----------|------------|
+| [Guide](Settings/Docs/Guide.md) | Start here. How the project was set up, how to run it, and how to make each kind of change. Kept up to date. |
 | [Implementation list](Settings/Docs/Implementation-List.md) | The plan: what we do and in what order, ticked off as we go. |
 | [Ideas](Settings/Docs/Ideas.md) | Things we might do, grouped by area. Not decided or planned. |
 | [Game changes](Settings/Docs/Game-Changes.md) | What is different from the original game. |
@@ -51,7 +53,7 @@ The server is online when the window says `Cosmic is now online`. It listens on 
 - [x] Java 21 (Amazon Corretto 21.0.12, in `Tools/java21`)
 - [x] MySQL 8.4.11 (in `Tools/mysql`, data in `Database/`)
 - [x] Server built and starts
-- [ ] Client installed and first login (files are downloaded in `Client/Downloads`)
+- [x] Client installed and playing (`Client/MapleStory`)
 
 ## Backups
 

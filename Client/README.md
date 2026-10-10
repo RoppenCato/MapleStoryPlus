@@ -40,7 +40,7 @@ Ultrawide sizes this PC offers:
 
 | Game resolution | Zoom | Tested |
 |-----------------|------|--------|
-| 1680x720 | 2x | Works. Current setting, starts in fullscreen (`WindowedMode=false`). |
+| 1680x720 | 2x | Works. Current setting. Starts in a window (`WindowedMode=true`; starting in fullscreen gave a start error); Alt+Enter switches to fullscreen. |
 | 1920x820 | about 1.75x | Not tried |
 | 2310x990 | about 1.45x | Not tried |
 | 2560x1080 | 1.33x | Not tried |
