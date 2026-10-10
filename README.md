@@ -29,6 +29,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | [Scripts](Settings/Scripts/README.md) | The tool that sets up a test character with level, skills and gear. |
 | [Progression design](Settings/Docs/Progression-Design.md) | The solo progression: trial bands, tokens, job levels and skill points. Design in progress. |
 | [Bosses and party quests](Settings/Docs/Bosses-and-Party-Quests.md) | Every boss and party quest the server has: players, levels, HP, where, respawn. Built automatically. |
+| [Research: other servers](Settings/Docs/Research-Other-Servers.md) | What popular servers changed about classes and skills, as ideas for ours. |
 | [Research: bots and bosses](Settings/Docs/Research-Bots-and-Bosses.md) | How the bots work and what each boss needs. |
 | [Development log](Settings/Docs/Development-Log.md) | What we did and decided, and which server files we changed. |
 
