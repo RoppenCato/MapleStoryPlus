@@ -134,9 +134,18 @@ Order when we build: Savage Blow first, because it is also the first test of how
 
 ### Assassin line (Rogue, Assassin, Hermit, Night Lord)
 
-**Goal:** not set.
+Under discussion since 2026-10-10, one job at a time.
 
-**Ideas:** none yet.
+**Goal:** not set. Starting point: the assassin is not lagging (Night Lord is among the strongest classes), so the work is on chores and gaps, not damage.
+
+**Plan**
+
+| # | Job | Change | Status | Needs |
+|---|-----|--------|--------|-------|
+| 1 | Assassin | Claw Booster lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 2 | Assassin | Haste lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 3 | Assassin | Drain hits up to 3 monsters (now 1), giving 2nd job a group attack. The healing must not grow with it: the heal counts only one monster per use, as today. | agreed | Server and client skill data; the heal rule is server code |
+| 4 | Assassin | Critical Throw, Claw Mastery and Endure stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
