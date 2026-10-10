@@ -363,6 +363,18 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 | 3 | Phoenix lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
 | 4 | Hurricane, Concentrate, Dragon's Breath, Bow Expert and Hero's Will stay as they are. | agreed | Nothing |
 
+### Marksman (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Sharp Eyes lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
+| 2 | Blind lasts 30 minutes (now 180 seconds). | agreed | Server and client skill data |
+| 3 | Frostprey lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 4 | Marksman Boost gives +15 attack (now +10), to help close the gap to the Bowmaster. | agreed | Server and client skill data |
+| 5 | Snipe, Piercing Arrow, Dragon's Breath and Hero's Will stay as they are for now. | agreed | Nothing |
+
+To do with the damage cap (`F-7`): Snipe's damage to bosses is a fixed number just under the original cap of 199,999. When the cap is raised, Snipe's boss damage must be raised with it, or the Marksman falls further behind on bosses.
+
 **Changes:** none yet.
 
 ## Thieves
