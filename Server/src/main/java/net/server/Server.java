@@ -1375,7 +1375,20 @@ public class Server {
         lgnRLock.lock();
         try {
             Set<Integer> accChars = accountChars.get(accountid);
-            return accChars.contains(chrid);
+            if (accChars != null && accChars.contains(chrid)) {
+                return true;
+            }
+        } finally {
+            lgnRLock.unlock();
+        }
+
+        // MapleStoryPlus: a character made straight in the database (Make-Character.py) after this account's
+        // first login is not in the list yet. Read the account's characters again before refusing.
+        loadAccountCharactersView(accountid, 0, 0);
+        lgnRLock.lock();
+        try {
+            Set<Integer> accChars = accountChars.get(accountid);
+            return accChars != null && accChars.contains(chrid);
         } finally {
             lgnRLock.unlock();
         }
