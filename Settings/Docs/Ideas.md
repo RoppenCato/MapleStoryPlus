@@ -49,7 +49,7 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 - **Which bots:** all 3,000, only town and social bots, or only the ones in your guild or party.
 - **Limits:** how many conversations at once, and whether there is a cap on usage.
 
-Not built or timed yet. Reply speed through Claude Code is unknown until a prototype exists.
+**Prototype built 2026-10-10:** whisper any bot, no saving or history. See `Bot-Chat-Bridge.py` in [Scripts](../Scripts/README.md). Not yet run with a real reply, so reply speed is still unknown.
 
 ---
 

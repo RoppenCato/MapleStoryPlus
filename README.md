@@ -37,6 +37,8 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | `Start-Server.bat` | Starts the database if it is not running, then the game server, using `Settings/config.yaml`. |
 | `Stop-Database.bat` | Shuts the database down cleanly. Close the game server window first. |
 | `Backup-Database.bat` | Saves a copy of the database to `Backups/`. |
+| `Start-Bot-Chat.bat` | Prototype: lets bots answer whispers through Claude Haiku. Leave the window open while playing. |
+| `Login-Bot-Chat.bat` | One-time Claude login for the bot chat. |
 | `Build-Server.bat` | Rebuilds the server after code changes. |
 
 The server is online when the window says `Cosmic is now online`. It listens on port 8484 (login) and 7575-7577 (channels). The database only accepts connections from this PC.

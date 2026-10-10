@@ -61,3 +61,21 @@ Magicians advance at level 8. Levels 1 to 119 work; fourth job is not supported 
 ### Not tested yet
 
 The tool has only been run in check mode, where the changes are undone. No character built by it has been opened in the game.
+
+## Bot-Chat-Bridge.py
+
+Prototype: bots answer whispers through Claude Haiku. Started with `Start-Bot-Chat.bat` in the project folder; the window shows every exchange.
+
+- Any bot can be whispered.
+- Nothing is saved. A bot's personality is made up from its name, and the conversation is forgotten after 10 minutes of silence or when the window closes.
+- Replies come from Claude Code running Haiku on your Claude login, with no API key. Run `Login-Bot-Chat.bat` once to sign it in.
+- Each reply starts a new Claude Code process, so expect a few seconds per reply.
+- Settings (reply length, how many lines are remembered, the personality lists) are at the top of the script.
+
+Test without the game:
+
+```
+python Settings/Scripts/Bot-Chat-Bridge.py --say "hey, how's the hunt?"
+```
+
+Not tested with a real reply yet: Claude Code was not logged in when it was built.

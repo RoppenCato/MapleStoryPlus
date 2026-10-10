@@ -69,3 +69,5 @@ Every change we make to the original code, so we know what to check when pulling
 |------|------|--------|-----|
 | 2026-10-10 | `Server/src/main/java/config/YamlConfig.java` | Config file path can be set with `-Dconfig-path=...`; default is still `config.yaml`. | So the server reads `Settings/config.yaml`. |
 | 2026-10-10 | `Server/src/main/java/client/Character.java` | Removed the blocked-word list for character names (`BLOCKED_NAMES`). Names must still be unused and 3-12 letters or digits. | It blocked ordinary names such as "Test". |
+| 2026-10-10 | `Server/src/main/java/net/server/channel/handlers/WhisperHandler.java` | A whisper to a bot is also passed to the bot chat bridge. | Bots answer whispers through Claude Haiku (prototype). |
+| 2026-10-10 | `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java` (new) | Sends the whisper to the bridge on `127.0.0.1:8585` and whispers the reply lines back. Silent if the bridge is not running. | Same. |

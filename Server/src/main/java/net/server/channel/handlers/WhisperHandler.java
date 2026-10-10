@@ -29,6 +29,8 @@ import net.packet.InPacket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import server.ChatLogger;
+import soloMapling.ArtificialPlayer.BotHelpers;
+import soloMapling.BotChat.BotChatBridge;
 import tools.PacketCreator;
 import tools.PacketCreator.WhisperFlag;
 
@@ -106,5 +108,9 @@ public final class WhisperHandler extends AbstractPacketHandler {
 
         boolean hidden = target.isHidden() && target.gmLevel() > user.gmLevel();
         user.sendPacket(PacketCreator.getWhisperResult(target.getName(), !hidden));
+
+        if (BotHelpers.isBot(target)) {
+            BotChatBridge.whisper(user, target, message); // MapleStoryPlus: bots answer whispers through the chat bridge
+        }
     }
 }
