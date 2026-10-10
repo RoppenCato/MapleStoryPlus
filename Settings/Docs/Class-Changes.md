@@ -81,12 +81,25 @@ Status: `agreed` = Robin decided it. `proposed` = suggested, not yet confirmed. 
 | 3 | Bandit | Steal hits 4 monsters from level 1 and 6 when maxed. | agreed | Server and client skill data |
 | 4 | Bandit | Dagger Booster and Haste last 30 minutes (now 200 seconds at max). | agreed | Server and client skill data |
 | 5 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | agreed | To be tested: the client may refuse another job's skill |
-| 6 | Chief Bandit | Assaulter is faster and travels further, so it works as movement. | proposed | Client data, possibly client code |
-| 7 | Chief Bandit | Pickpocket drops mesos far more reliably and lasts longer, so Meso Explosion always has something to explode. | proposed | Server data |
-| 8 | Chief Bandit | Meso Guard lasts longer (180 seconds, or 30 minutes like the other buffs). | proposed | Server and client skill data |
-| 9 | Shadower | Assassinate does full damage without the Dark Sight setup. | proposed | To be tested |
-| 10 | All | Dark Sight is a toggle and any attack leaves it. | proposed | Client code, likely hard |
-| 11 | Shadower | Boomerang Step works on slopes and at ledges. | proposed | Client code, likely hard |
+| 6 | Chief Bandit | Pickpocket drops mesos on every hit at max level (now 60%) and lasts 30 minutes (now 180 seconds), so Meso Explosion always has something to explode. Meso Explosion itself is unchanged. | agreed | Server and client skill data |
+| 7 | Chief Bandit | Meso Guard lasts 30 minutes (now 120 seconds). | agreed | Server and client skill data |
+| 8 | Chief Bandit | Band of Thieves does 250% (now 210%) on 6 monsters. It must stay clearly better than Steal, which does 100% on up to 6. | agreed | Server and client skill data |
+| 9 | Chief Bandit | Assaulter dashes 50% further and hits up to 3 monsters in its path. | agreed | To be tested: the dash distance may sit in client code |
+| 10 | Chief Bandit | Chakra can be used at any HP (now only below half). | agreed | To be tested |
+| 11 | Shadower | Assassinate does full damage without the Dark Sight setup. | agreed | To be tested |
+| 12 | Shadower | Boomerang Step hits 6 monsters (now 4). | agreed | Server and client skill data |
+| 13 | Shadower | Smokescreen's cooldown is 5 minutes (now 10). | agreed | Server and client skill data |
+| 14 | Shadower | Taunt, Shadow Shifter and Venomous Stab stay as they are. | agreed | Nothing |
+
+Parked, because they need changes inside the client program:
+
+| Change | Note |
+|--------|------|
+| Assaulter usable without a monster to target | Robin would like this. Today the skill needs a target to dash to. Flash Jump covers free movement in the meantime. |
+| Dark Sight as a toggle, and any attack leaves it | |
+| Boomerang Step on slopes and at ledges | |
+
+To measure once it is built: reliable Pickpocket plus a shorter Smokescreen cooldown make the Shadower much richer and safer than before.
 
 Why the bandit needs the damage buff: at 2nd job an Assassin's Lucky Seven does 300% from range and Critical Throw adds about half again on average, while a Bandit's Savage Blow does 480% in melee with a slower swing.
 
