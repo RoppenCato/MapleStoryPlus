@@ -30,14 +30,14 @@ The order is a plan, not a rule. Move things when it makes sense.
 - [x] `F-5` Make our character a GM so we can test things
 - [x] `F-6` Ultrawide: 1680x720 in fullscreen (Alt+Enter). Details in `Client/README.md`.
 - [ ] `F-7` Raise the damage cap in the client and confirm the server accepts it
-- [ ] `F-8` Backups: private GitHub repo for code and settings, and a database backup script
+- [ ] `F-8` Backups: git repo and `Backup-Database.bat` are set up locally. Push to GitHub is waiting: the repo is public.
 - [ ] `F-9` Run the server's own tests once
 
 ## 1. Understand what we have (no changes)
 
-- [ ] `R-1` How the bots work: which types exist, where they go, what they can do with a real player
-- [ ] `R-2` Bosses solo: which bosses need a party or expedition, a prequest, or several players in practice
-- [ ] `R-3` Can bots join a party or help on a boss, or must every boss be made soloable?
+- [x] `R-1` (first pass, see [research](Research-Bots-and-Bosses.md)) How the bots work: which types exist, where they go, what they can do with a real player
+- [x] `R-2` (first pass, area bosses not covered) Bosses solo: which bosses need a party or expedition, a prequest, or several players in practice
+- [ ] `R-3` (code read; needs testing in game) Can bots join a party or help on a boss, or must every boss be made soloable?
 - [ ] `R-4` How skills are stored and what it takes to change one. Suspected: both the server data and the client data must be edited, and giving a class another class's skill needs a client edit. Confirm with one test skill.
 - [ ] `R-5` How NPC scripts, shops, drops and quests are stored, so we know what is easy and what is hard
 - [ ] `R-6` Play the unchanged game for a while and note what feels bad solo
