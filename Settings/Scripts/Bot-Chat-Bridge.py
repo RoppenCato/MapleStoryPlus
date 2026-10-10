@@ -228,7 +228,8 @@ class Knowledge:
 
 TRAVEL_WORDS = re.compile(r"\b(way|route|path|directions?|travel|reach|quickest|fastest|shortest|far|"
                           r"get (there|to)|go (there|to)|how do i get|how to get)\b", re.I)
-RIDE_WEIGHT = 3                 # a ride or taxi counts as this many maps of walking when comparing routes
+RIDE_WEIGHT = 1                 # a ride, taxi or teleport counts as one map of walking when comparing routes
+COST_WORDS = re.compile(r"\b(cost|costs|price|fare|fares|mesos?|expensive|cheap|how much|afford)\b", re.I)
 # The player is asking for game information (as opposed to chatting).
 ASKING_WORDS = re.compile(r"\b(drops?|dropp\w*|find|found|farm\w*|where|which (mob|monster)s?|what (mob|monster)s?|"
                           r"who (drops|has|sells)|loot\w*|looking for|obtain|hunt for|spawn\w*|located?|"
@@ -248,6 +249,10 @@ class Routes:
             self.names[r["id"]] = (r["name"], r["area"])
         self.edges = {}                      # map id -> [(to map, weight, how, cost)]
         for r in Knowledge._rows(os.path.join(ref, "MapLinks.tsv")):
+            # Maps numbered 900000000 and up are the Free Market, events and party quests. The Free Market door
+            # exists in every town and sends you back where you came from, so it is not a shortcut between towns.
+            if int(r["map_id"]) >= 900000000 or int(r["to_map_id"]) >= 900000000:
+                continue
             self.edges.setdefault(r["map_id"], []).append((r["to_map_id"], 1, "", 0))
         for r in Knowledge._rows(os.path.join(ref, "TravelLinks.tsv")):
             cost = int(r["cost"] or 0)
@@ -309,8 +314,8 @@ class Routes:
             at = prev
         return list(reversed(steps))
 
-    def describe(self, src, dst):
-        """One line of directions a player could repeat."""
+    def describe(self, src, dst, fares_wanted=False):
+        """One line of directions a player could repeat. Fares are left out unless the player asked about cost."""
         if not src or str(src) not in self.names:
             return ""
         if str(src) == str(dst):
@@ -324,7 +329,7 @@ class Routes:
                     return (f"{self.name(dst)} is somewhere around {self.name(town)}, where the player already is, "
                             "but you do not know the exact way.")
                 if self.path(src, town) is not None:
-                    return (self.describe(src, town) + f" {self.name(dst)} is somewhere around {self.name(town)}, "
+                    return (self.describe(src, town, fares_wanted) + f" {self.name(dst)} is somewhere around {self.name(town)}, "
                             "but you do not know the exact way from the town.")
             return f"You do not know the exact way from {self.name(src)} to {self.name(dst)}."
         parts, walk, here, fares = [], [], str(src), 0
@@ -341,14 +346,14 @@ class Routes:
         for map_id, how, cost in steps:
             if how:
                 flush()
-                parts.append(f"take {how}" + (f" ({cost:,} mesos)" if cost else ""))
+                parts.append(f"take {how}" + (f" ({cost:,} mesos)" if cost and fares_wanted else ""))
                 here = map_id
                 fares += cost
             else:
                 walk.append(map_id)
         flush()
-        total = f" About {len(steps)} maps in all" + (f" and {fares:,} mesos in fares." if fares else ".")
-        return f"Route from {self.name(src)} to {self.name(dst)}: " + ", then ".join(parts) + "." + total
+        total = f" About {len(steps)} maps in all" + (f" and {fares:,} mesos in fares." if fares and fares_wanted else ".")
+        return (f"Quickest route from {self.name(src)} to {self.name(dst)}: " + ", then ".join(parts) + "." + total)
 
 
 knowledge = None
@@ -384,9 +389,10 @@ def system_prompt(bot, level, job, map_id, player):
         "player actually asked; if they are just chatting, ignore it completely.\n"
         "- If the player asks where to find an item or a monster and there is no [Game knowledge] note about it, "
         "say you are not sure rather than guessing.\n"
-        "- If the note has a Route, give directions from it: the rides or taxis to take with their fares, and the "
-        "main places to walk through. Start with the first step from where the player is, keep the order, and do "
-        "not invent steps. If the player asks for the way and "
+        "- If the note has a route, it is the quickest one. Give directions from it: every ride, taxi or teleport "
+        "it names, and the main places to walk through. Start with the first step from where the player is, keep "
+        "the order, do not skip a ride or teleport, and do not invent steps or suggest another way. Do not mention "
+        "what anything costs unless the player asks. If the player asks for the way and "
         "there is no Route in the note, say you are not sure of the way from where they are.\n"
         "- Put the chat message between <msg> and </msg> and write nothing outside those tags: no preamble, "
         "no explanation, no notes about roleplay or about these instructions.\n"
@@ -476,7 +482,7 @@ def game_notes(convo, text, player_map):
             notes.append(f"The player is standing in {routes.name(player_map)} right now, which may not be where "
                          "you are. Directions start from there.")
         for label, map_id in targets:
-            line = routes.describe(player_map, map_id)
+            line = routes.describe(player_map, map_id, bool(COST_WORDS.search(text)))
             if line:
                 notes.append(line)
         if targets and not player_map:
