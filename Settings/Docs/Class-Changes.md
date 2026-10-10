@@ -163,6 +163,17 @@ The class's theme is spending HP for damage. Small constant HP costs are removed
 | 3 | Advanced Charge still raises Charged Blow to 350%. Its other half, keeping the charge, moved to 3rd job; in its place Charged Blow hits up to 10 monsters (now 6). | agreed | Server and client skill data; the target count per Advanced Charge level is to be tested |
 | 4 | Blast, Heaven's Hammer and Guardian stay as they are. | agreed | Nothing |
 
+### Dark Knight (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Berserk gives its double damage while below 60% HP (now 50%). | agreed | Server and client skill data |
+| 2 | Aura of the Beholder never heals above the Berserk line, so it no longer pushes you out of Berserk. | agreed | Server code |
+| 3 | Beholder lasts 30 minutes (now 20). | agreed | Server and client skill data |
+| 4 | Hex of the Beholder stays as it is. | agreed | Nothing |
+
+To measure once built: with the risk reduced, the Dark Knight's double damage is close to always on. Compare against the Hero.
+
 **Changes:** none yet.
 
 ## Magicians
