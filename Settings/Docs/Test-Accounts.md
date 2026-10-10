@@ -13,14 +13,28 @@ Local test logins for our own server. These are not real passwords; do not reuse
 
 ## Test characters
 
-Suggested names: `DevWarrior`, `DevMage`, `DevBowman`, `DevThief`, `DevPirate`.
+All on the `devacc` account, all GM level 6. Rebuilt on 2026-10-10 with every skill of their jobs at max level, so any skill can be tested without spending points. They are test characters, not fair ones: a real character could not have all of these maxed.
 
-| Character | Class | Level | GM | Notes |
-|-----------|-------|-------|----|-------|
-| `trialguy` | Fire/Poison Wizard | 50 | 6 | Set up in the database 2026-10-10 with level 50 gear, skills and 1M meso. |
-| `DevBandit` | Chief Bandit | 70 | 6 | Created 2026-10-10 with the character tool for the Round 1 tests. Has the Hermit's Flash Jump as a test. Keys: Q Savage Blow, R Haste, T Dagger Booster, A Flash Jump, Shift sprint (Nimble Feet). |
-| `DevHermit` | Hermit | 80 | 6 | Created 2026-10-10 to compare Flash Jump on its own class against the test on DevBandit. Keys: Q Lucky Seven, R Haste, A Flash Jump, Shift sprint. |
-| `DevHero` | Crusader | 75 | 6 | Created 2026-10-10 to test crit and the warrior skill values. Iron Body set to level 20. Keys: Q Slash Blast, F Power Strike, R Iron Body, A Rage, T Sword Booster, Shift and Ctrl sprint. |
+| Character | Class | Level | For testing |
+|-----------|-------|-------|-------------|
+| `trialguy` | Fire/Poison Mage | 75 | Energy Bolt and Poison Breath on groups, Teleport, Element Amplification |
+| `DevCleric` | Priest | 75 | Holy Arrow on 3, Bless, Holy Symbol alone, Doom |
+| `DevHero` | Crusader | 75 | Crit, Iron Body, Rage, Slash Blast and Coma without HP cost |
+| `DevPage` | Page | 35 | Weapon pairs: it has no class skills and 100 unspent skill points. Put a point in Sword Mastery and check Blunt Weapon Mastery follows. |
+| `DevBandit` | Chief Bandit | 75 | Savage Blow, Steal, Band of Thieves, Disorder, Assaulter, and Flash Jump being granted on login |
+| `DevHermit` | Hermit | 80 | Drain on 3 with one heal, Avenger, Shadow Partner |
+| `DevHunter` | Ranger | 75 | Arrow Blow on 3, Focus and Thrust speed, Soul Arrow, Puppet |
+| `DevBrawler` | Marauder | 75 | Corkscrew and Backspin on 6, Energy Blast, Dash |
+| `DevGunner` | Outlaw | 75 | Double Shot, Invisible Shot, Blank Shot, Grenade, Octopus |
+
+Sprint is on Shift for all of them, except where Shift was already taken (`trialguy`, where it is on Ctrl). Other skills are dragged from the skill window to a key.
+
+To rebuild one, or make another:
+
+```
+python Settings/Scripts/Make-Character.py DevHero hero 75 --max-skills
+python Settings/Scripts/Make-Character.py DevPage paladin 35 --create --no-skills --sp 100
+```
 
 ## GM commands
 

@@ -17,6 +17,9 @@ python Settings/Scripts/Make-Character.py DevBandit bandit 60 --create
 | `--template NAME` | Copy a different character when creating. |
 | `--gender m` or `f` | Gender of a created character. |
 | `--meso N` | Set meso to this amount. Without it, meso is left alone. |
+| `--max-skills` | For testing: every skill of the jobs reached, at max level, ignoring skill points. |
+| `--no-skills` | For testing: no class skills at all. |
+| `--sp N` | Leave N unspent skill points on the character. |
 | `--dry-run` | Show what would be set. Changes nothing. |
 | `--check` | Run the changes against the database and undo them. Proves they work without changing anything. |
 
@@ -58,9 +61,7 @@ Magicians advance at level 8. Levels 1 to 119 work; fourth job is not supported 
 | `Skill-Builds.tsv` | Which skills each line takes, in priority order, and to what level. |
 | `Loadout-Overrides.tsv` | Force a specific item for a line, level, gender (`m`, `f` or `any`) and slot. Use `none` as the item to leave a slot empty. |
 
-### Not tested yet
-
-The tool has only been run in check mode, where the changes are undone. No character built by it has been opened in the game.
+Every character also gets the sprint (Nimble Feet) on Shift if Shift is free, and key bindings for skills the character does not have are removed. Names are limited to 12 letters or digits.
 
 ## Bot-Chat-Bridge.py
 

@@ -225,9 +225,18 @@ def skill_points(line, level):
     return out
 
 
-def build_skills(data, line, level):
-    """[(skill id, name, level)] following Skill-Builds.tsv."""
+def build_skills(data, line, level, mode="build"):
+    """[(skill id, name, level)]. mode "build" follows Skill-Builds.tsv within the skill points the level
+    gives; "max" gives every skill of the jobs reached at its max level, for testing; "none" gives nothing."""
     result = []
+    if mode == "none":
+        return result
+    if mode == "max":
+        for job in skill_points(line, level):
+            for name, (sid, max_level) in sorted(data.skills[job].items(), key=lambda kv: kv[1][0]):
+                if max_level > 0:
+                    result.append((sid, name, max_level))
+        return result
     for job, points in skill_points(line, level).items():
         for name, want in data.builds.get((line, job), []):
             if name not in data.skills[job]:
@@ -329,13 +338,17 @@ def create_character(name, template, gender):
             f"SELECT @new, `key`, `type`, `action` FROM keymap WHERE characterid = {source[0]};")
 
 
-def apply(data, name, line, level, meso, dry_run, check=False):
+NIMBLE_FEET = 1002      # the sprint; every test character gets it on Shift
+KEY_SHIFT = 42
+
+
+def apply(data, name, line, level, meso, dry_run, check=False, skill_mode="build", spare_sp=0):
     found = find_character(name)
     if not found:
         raise SystemExit(f"Character '{name}' not found. Create it in the game, or add --create.")
     cid, gender, logged_in, _ = found
     gear = loadout(data, line, level, gender)
-    skills = build_skills(data, line, level)
+    skills = build_skills(data, line, level, skill_mode)
     stats, fame = stats_for(line, level, gear)
     hp, mp = hp_mp(line, level)
     items = supplies(data, line, level, gear)
@@ -348,7 +361,8 @@ def apply(data, name, line, level, meso, dry_run, check=False):
             item, label = gear[slot]
             note = "" if label == "standard" else f"  [{label}]"
             print(f"  {slot:9}{item['name']} (level {item['req_level']}, id {item['id']}){note}")
-    print("  Skills " + ", ".join(f"{n} {lv}" for _, n, lv in skills))
+    print("  Skills " + (", ".join(f"{n} {lv}" for _, n, lv in skills) or "none")
+          + (f"  (+{spare_sp} unspent skill points)" if spare_sp else ""))
     print("  Items  " + ", ".join(f"{data.item_names.get(str(i), i)} x{q}" for i, q, _ in items))
     if dry_run:
         print("Dry run: nothing changed.")
@@ -413,9 +427,18 @@ def apply(data, name, line, level, meso, dry_run, check=False):
     for sid, _, lv in skills:
         q.append(f"INSERT INTO skills (skillid, characterid, skilllevel, masterlevel, expiration) "
                  f"VALUES ({sid}, {cid}, {lv}, 0, -1);")
+    # Sprint for everyone, and no key bindings left over from another class's skills.
+    q += [f"DELETE FROM skills WHERE characterid = {cid} AND skillid = {NIMBLE_FEET};",
+          f"INSERT INTO skills (skillid, characterid, skilllevel, masterlevel, expiration) VALUES ({NIMBLE_FEET}, {cid}, 3, 0, -1);"]
+    keep = ",".join(str(sid) for sid, _, _ in skills) or "0"
+    q += [f"DELETE FROM keymap WHERE characterid = {cid} AND type = 1 AND action NOT IN ({keep}, {NIMBLE_FEET});",
+          # Shift gets the sprint unless the player already put something on Shift or bound the sprint elsewhere.
+          f"INSERT INTO keymap (characterid, `key`, `type`, `action`) SELECT {cid}, {KEY_SHIFT}, 1, {NIMBLE_FEET} FROM DUAL "
+          f"WHERE NOT EXISTS (SELECT 1 FROM keymap k WHERE k.characterid = {cid} AND k.`key` = {KEY_SHIFT}) "
+          f"AND NOT EXISTS (SELECT 1 FROM keymap k WHERE k.characterid = {cid} AND k.type = 1 AND k.action = {NIMBLE_FEET});"]
     money = f", meso = {meso}" if meso is not None else ""
     q.append(f"UPDATE characters SET level = {level}, exp = 0, job = {job}, str = {stats['str']}, dex = {stats['dex']}, "
-             f"`int` = {stats['int']}, luk = {stats['luk']}, ap = 0, sp = '0,0,0,0,0,0,0,0,0,0', maxhp = {hp}, hp = {hp}, "
+             f"`int` = {stats['int']}, luk = {stats['luk']}, ap = 0, sp = '{int(spare_sp)},0,0,0,0,0,0,0,0,0', maxhp = {hp}, hp = {hp}, "
              f"maxmp = {mp}, mp = {mp}, fame = GREATEST(fame, {fame}){money} WHERE id = {cid};")
     q.append("ROLLBACK;" if check else "COMMIT;")
     sql_run("\n".join(q))
@@ -446,6 +469,10 @@ def main():
     p.add_argument("--template", default="trialguy", help="character to copy when creating (default trialguy)")
     p.add_argument("--gender", choices=["m", "f"], help="gender for a created character (default: the template's)")
     p.add_argument("--meso", type=int, help="set the character's meso to this amount")
+    p.add_argument("--max-skills", action="store_true",
+                   help="for testing: every skill of the jobs reached, at max level, ignoring skill points")
+    p.add_argument("--no-skills", action="store_true", help="for testing: no class skills at all")
+    p.add_argument("--sp", type=int, default=0, help="unspent skill points to leave on the character")
     p.add_argument("--dry-run", action="store_true", help="show what would be set, change nothing")
     p.add_argument("--check", action="store_true", help="run the changes against the database, then undo them")
     p.add_argument("--loadouts", action="store_true", help="rewrite Settings/Reference/Loadouts.tsv and exit")
@@ -469,7 +496,8 @@ def main():
     elif a.create and a.dry_run and not find_character(a.name):
         raise SystemExit("Dry run with --create: the character does not exist yet, so there is nothing to show. "
                          "Run the dry run against an existing character.")
-    apply(data, a.name, line, a.level, a.meso, a.dry_run, a.check)
+    mode = "max" if a.max_skills else "none" if a.no_skills else "build"
+    apply(data, a.name, line, a.level, a.meso, a.dry_run, a.check, mode, a.sp)
 
 
 if __name__ == "__main__":
