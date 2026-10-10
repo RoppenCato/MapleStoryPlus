@@ -337,6 +337,14 @@ Bowmaster, Marksman. Under discussion since 2026-10-10, one job at a time.
 
 Background for the crossbow line: crossbows shoot slower than bows, and the Marksman ends up behind the Bowmaster on damage. That gap opens in 3rd and 4th job and is dealt with there.
 
+### Ranger (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Silver Hawk lasts 30 minutes (now 180 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
+| 2 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
+| 3 | Strafe, Arrow Rain, Inferno, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Thieves
@@ -347,7 +355,7 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 |---|--------|--------|-------|
 | 1 | Double Stab: 160% per hit at max instead of 140%. (Also line 1 of the bandit plan.) | agreed | Server and client skill data |
 | 2 | Dark Sight has no speed penalty at any level (now slows by 30 at level 1, none only at max). | agreed | Server and client skill data |
-| 3 | Nimble Body: +30 accuracy and +30 avoidability at max (now +20 each), plus +10 speed if a passive can give speed. | agreed | Server and client skill data; the speed part is to be tested |
+| 3 | Nimble Body: +30 accuracy and +30 avoidability at max (now +20 each), plus +10 speed. | agreed | Server and client skill data. A passive can give speed: the Ranger's Thrust already does. |
 | 4 | Disorder affects up to 6 monsters (now 1), lowers their attack and defence by 30 (now 20), and lasts 2 minutes (now 1). | agreed | Server and client skill data |
 | 5 | Lucky Seven and Keen Eyes stay as they are. | agreed | Nothing |
 
