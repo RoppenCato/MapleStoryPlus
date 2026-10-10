@@ -327,8 +327,21 @@ def mob_spawns():
 
 
 def map_links():
-    """Which maps connect to which through ordinary portals (walking). Scripted portals are not included."""
+    """Which maps connect to which by walking: ordinary portals, plus scripted portals whose script names a
+    fixed destination map. Portals whose destination is worked out while the game runs are not included."""
     map_names = string_entries("Map")
+    portal_scripts = os.path.join(ROOT, "Server", "scripts", "portal")
+    script_targets = {}
+
+    def targets_of(script):
+        if script not in script_targets:
+            path = os.path.join(portal_scripts, script + ".js")
+            found = set()
+            if os.path.exists(path):
+                found = {int(t) for t in re.findall(r"\bwarp\(\s*(\d{9})\b", read(path))}
+            script_targets[script] = found
+        return script_targets[script]
+
     rows = []
     for path in glob.glob(os.path.join(WZ, "Map.wz", "Map", "Map*", "*.img.xml")):
         m = re.match(r"0*(\d+)\.img\.xml$", os.path.basename(path))
@@ -340,13 +353,17 @@ def map_links():
         if start < 0:
             continue
         end = text.find("\n  </imgdir>", start)
-        targets = {int(t) for t in re.findall(r'<int name="tm" value="(\d+)"/>', text[start:end if end > 0 else None])}
-        for target in sorted(targets):
+        block = text[start:end if end > 0 else None]
+        targets = {int(t): "portal" for t in re.findall(r'<int name="tm" value="(\d+)"/>', block)}
+        for script in set(re.findall(r'<string name="script" value="([^"]+)"/>', block)):
+            for t in targets_of(script):
+                targets.setdefault(t, "scripted portal")
+        for target, kind in sorted(targets.items()):
             if target != map_id and target != 999999999:
                 rows.append((map_id, map_names.get(map_id, {}).get("mapName", ""), target,
-                             map_names.get(target, {}).get("mapName", "")))
+                             map_names.get(target, {}).get("mapName", ""), kind))
     rows.sort()
-    write("MapLinks.tsv", ["map_id", "map", "to_map_id", "to_map"], rows)
+    write("MapLinks.tsv", ["map_id", "map", "to_map_id", "to_map", "kind"], rows)
 
 
 if __name__ == "__main__":

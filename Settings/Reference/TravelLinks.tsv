@@ -35,3 +35,9 @@ from_map	to_map	how	cost	both_ways	note
 2000000	104000000	Shanks' ship from Maple Island to Lith Harbor	150	no
 104000000	140000000	the ship between Lith Harbor and Rien	800	yes
 101000400	130000210	the ship between Ellinia and Ereve	1000	yes
+103000100	103000900	the ticket gate at the Kerning City Subway Ticketing Booth to construction site B1	1000	no	ticket from the ticket seller
+103000100	103000903	the ticket gate at the Kerning City Subway Ticketing Booth to construction site B2	1000	no	ticket from the ticket seller
+103000100	103000906	the ticket gate at the Kerning City Subway Ticketing Booth to construction site B3	1000	no	ticket from the ticket seller
+540000000	550000000	Audrey's ride from CBD in Singapore to Trend Zone Metropolis in Malaysia	42000	no	
+550000000	551000000	Audrey's ride between Trend Zone Metropolis and Kampung Village	10000	yes	
+600000000	682000000	the NLC Taxi between New Leaf City and the Haunted House	15000	yes	

@@ -100,7 +100,7 @@ class Knowledge:
     message are handed to the model, so it does not have to guess.
     """
 
-    def __init__(self):
+    def __init__(self, reachable=()):
         ref = os.path.join(ROOT, "Settings", "Reference")
         self.mob_level = {}
         self.mob_boss = set()
@@ -114,8 +114,11 @@ class Knowledge:
             if not r["map"]:
                 continue
             place = r["map"] + (f" ({r['area']})" if r["area"] and r["area"] != r["map"] else "")
-            if int(r["count"]) > self.mob_home.get(r["mob_id"], (0, ""))[0]:
-                self.mob_home[r["mob_id"]] = (int(r["count"]), place, r["map_id"])
+            # A monster's "home" is the map with most of them, preferring maps a player can actually walk to
+            # over event and party quest copies.
+            rank = (r["map_id"] in reachable, int(r["count"]))
+            if rank > self.mob_home.get(r["mob_id"], ((False, 0), "", ""))[0]:
+                self.mob_home[r["mob_id"]] = (rank, place, r["map_id"])
             if r["mob"]:
                 self.mob_ids.setdefault(r["mob"], r["mob_id"])
         # The same monster often exists several times (party quest and event copies). Keep one per name:
@@ -195,7 +198,12 @@ class Knowledge:
             home = self.mob_home.get(mob_id)
             if home and (name, home[2]) not in places:
                 places.append((name, home[2]))
-        for item in self._best(said, self.item_words, MAX_ITEMS_EXPLAINED):
+        items = self._best(said, self.item_words, MAX_ITEMS_EXPLAINED)
+        mobs_named = self._best(said, self.mob_words, 2)
+        # "where can I find lycanthrope" names the monster in full, so it is not about "Lycanthrope Toenail".
+        if mobs_named and self.mob_words[mobs_named[0]] <= said and not (items and self.item_words[items[0]] <= said):
+            items = []
+        for item in items:
             # Monsters with a known home first, then by drop chance.
             mobs = sorted(self.item_drops[item].items(),
                           key=lambda kv: (kv[1][0] not in self.mob_home, -kv[1][1]))[:MAX_MOBS_PER_ITEM]
@@ -205,7 +213,7 @@ class Knowledge:
             for name, (mid, _) in mobs:
                 remember(mid, name)
         # Only look for a monster by name when no item matched: "fairy wand" is not about the monster Fairy.
-        named = self._best(said, self.mob_words, 2) if not notes else []
+        named = mobs_named if not notes else []
         for mob in named:
             notes.append("Monster: " + self._mob_line(self.mob_ids[mob], mob) + ".")
         # A monster the player names outright is the most likely place they want to go.
@@ -221,6 +229,12 @@ class Knowledge:
 TRAVEL_WORDS = re.compile(r"\b(way|route|path|directions?|travel|reach|quickest|fastest|shortest|far|"
                           r"get (there|to)|go (there|to)|how do i get|how to get)\b", re.I)
 RIDE_WEIGHT = 3                 # a ride or taxi counts as this many maps of walking when comparing routes
+# The player is asking for game information (as opposed to chatting).
+ASKING_WORDS = re.compile(r"\b(drops?|dropp\w*|find|found|farm\w*|where|which (mob|monster)s?|what (mob|monster)s?|"
+                          r"who (drops|has|sells)|loot\w*|looking for|obtain|hunt for|spawn\w*|located?|"
+                          r"how (do|can|to) i get|where (do|can) i get)\b", re.I)
+# The question leans on something said earlier.
+FOLLOW_UP_WORDS = re.compile(r"\b(that|those|there|them|they|it|him|her|one|ones|these)\b", re.I)
 
 
 class Routes:
@@ -250,6 +264,16 @@ class Routes:
     def name(self, map_id):
         name, area = self.names.get(str(map_id), ("", ""))
         return name or f"map {map_id}"
+
+    def reachable_from(self, start):
+        """Every map that can be reached from a starting map."""
+        seen, todo = {str(start)}, [str(start)]
+        while todo:
+            for to, *_ in self.edges.get(todo.pop(), ()):
+                if to not in seen:
+                    seen.add(to)
+                    todo.append(to)
+        return seen
 
     def town_in(self, message):
         text = message.lower()
@@ -356,7 +380,8 @@ def system_prompt(bot, level, job, map_id, player):
         "mobs, grinding, training spot, drops, scrolling, PQ, FM, CC, KS, job advancement, party.\n"
         "- A message may end with a [Game knowledge] note. Those are true facts about this server. If the player "
         "asks about them, answer from the note in your own words and name the one to three most useful monsters or "
-        "places, not the whole list. Never mention the note itself.\n"
+        "places, not the whole list. Never mention the note itself. Use the note only when it answers what the "
+        "player actually asked; if they are just chatting, ignore it completely.\n"
         "- If the player asks where to find an item or a monster and there is no [Game knowledge] note about it, "
         "say you are not sure rather than guessing.\n"
         "- If the note has a Route, give directions from it: the rides or taxis to take with their fares, and the "
@@ -427,16 +452,21 @@ def ask_claude(system, transcript):
 def game_notes(convo, text, player_map):
     """Facts for this message. Follow-up questions ("where is that?", "how do I get there?") reuse what the
     conversation was last about."""
+    travel = bool(TRAVEL_WORDS.search(text))
+    asking = bool(ASKING_WORDS.search(text)) or travel
+    # Small talk gets no lookup at all: "do you like cats?" is not a question about the monster Cat.
+    if not asking:
+        return []
     notes, places = knowledge.facts(text) if knowledge else ([], [])
-    asking_way_to_town = bool(routes and TRAVEL_WORDS.search(text) and routes.town_in(text))
+    asking_way_to_town = bool(routes and travel and routes.town_in(text))
     if asking_way_to_town:
         notes, places = [], []      # "how do I get to Ludibrium" is about the town, not about "Ludibrium Medal"
     if notes:
         convo["notes"], convo["places"] = notes, places
-    elif not asking_way_to_town:
+    elif not asking_way_to_town and FOLLOW_UP_WORDS.search(text):
         notes, places = convo.get("notes", []), convo.get("places", [])
     notes = list(notes)
-    if routes and TRAVEL_WORDS.search(text):
+    if routes and travel:
         town = routes.town_in(text)
         # "There" most likely means a monster the bot just talked about.
         last_reply = next((line for who, line in reversed(convo.get("turns", [])) if who != convo.get("player")), "")
@@ -518,8 +548,8 @@ def main():
     a = p.parse_args()
     load_map_names()
     global knowledge, routes
-    knowledge = Knowledge()
     routes = Routes()
+    knowledge = Knowledge(routes.reachable_from("100000000"))     # reachable from Henesys
     if a.say:
         for line in a.say:
             reply_to("You", a.bot, "34", "CLERIC", "101000000", line, a.start)
