@@ -4,8 +4,8 @@
     python Settings/Scripts/Apply-Skill-Changes.py --check    show what would change, write nothing
 
 Each row sets one field of one skill at every level. The value is a small formula in L (the skill
-level) and M (the skill's max level), for example  90*L  or  10  or  30 if L == M else 20.
-Rows set absolute values, so running the script twice changes nothing the second time.
+level), M (the skill's max level) and V (the value the field has now), for example  90*L  or  10  or
+max(V, 1800*L//M). Running the script twice changes nothing the second time.
 
 The server must be restarted to pick up the changes. The client has its own copy of this data; a
 change the client also needs (damage, hit count, number of targets) will not show until that copy is
@@ -60,9 +60,11 @@ def apply_change(text, skill_id, field, formula):
     def edit(m):
         nonlocal changed
         level = int(m.group("level"))
-        value = int(eval(formula, {"__builtins__": {}}, {"L": level, "M": top, "min": min, "max": max, "round": round}))
         body = m.group("body")
         existing = re.search(rf'<int name="{field}" value="(-?\d+)"/>', body)
+        current = int(existing.group(1)) if existing else 0
+        value = int(eval(formula, {"__builtins__": {}},
+                         {"L": level, "M": top, "V": current, "min": min, "max": max, "round": round}))
         if existing:
             if int(existing.group(1)) == value:
                 return m.group(0)

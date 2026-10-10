@@ -261,196 +261,196 @@
           <string name="hs" value="h3"/>
           <int name="mpCon" value="12"/>
           <int name="pad" value="92"/>
-          <int name="time" value="10"/>
+          <int name="time" value="12"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="12"/>
           <int name="pad" value="96"/>
-          <int name="time" value="10"/>
+          <int name="time" value="16"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="13"/>
           <int name="pad" value="100"/>
-          <int name="time" value="10"/>
+          <int name="time" value="20"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="13"/>
           <int name="pad" value="104"/>
-          <int name="time" value="10"/>
+          <int name="time" value="24"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="14"/>
           <int name="pad" value="108"/>
-          <int name="time" value="10"/>
+          <int name="time" value="28"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="14"/>
           <int name="pad" value="112"/>
-          <int name="time" value="10"/>
+          <int name="time" value="32"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="15"/>
           <int name="pad" value="116"/>
-          <int name="time" value="10"/>
+          <int name="time" value="36"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="15"/>
           <int name="pad" value="120"/>
-          <int name="time" value="10"/>
+          <int name="time" value="40"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="16"/>
           <int name="pad" value="124"/>
-          <int name="time" value="20"/>
+          <int name="time" value="44"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="16"/>
           <int name="pad" value="128"/>
-          <int name="time" value="20"/>
+          <int name="time" value="48"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="17"/>
           <int name="pad" value="132"/>
-          <int name="time" value="20"/>
+          <int name="time" value="52"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="17"/>
           <int name="pad" value="136"/>
-          <int name="time" value="20"/>
+          <int name="time" value="56"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="18"/>
           <int name="pad" value="140"/>
-          <int name="time" value="20"/>
+          <int name="time" value="60"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="18"/>
           <int name="pad" value="144"/>
-          <int name="time" value="20"/>
+          <int name="time" value="64"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="19"/>
           <int name="pad" value="148"/>
-          <int name="time" value="20"/>
+          <int name="time" value="68"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="19"/>
           <int name="pad" value="152"/>
-          <int name="time" value="20"/>
+          <int name="time" value="72"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="20"/>
           <int name="pad" value="156"/>
-          <int name="time" value="20"/>
+          <int name="time" value="76"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="20"/>
           <int name="pad" value="160"/>
-          <int name="time" value="20"/>
+          <int name="time" value="80"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="21">
           <string name="hs" value="h21"/>
           <int name="mpCon" value="21"/>
           <int name="pad" value="164"/>
-          <int name="time" value="30"/>
+          <int name="time" value="84"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="22">
           <string name="hs" value="h22"/>
           <int name="mpCon" value="21"/>
           <int name="pad" value="168"/>
-          <int name="time" value="30"/>
+          <int name="time" value="88"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="23">
           <string name="hs" value="h23"/>
           <int name="mpCon" value="22"/>
           <int name="pad" value="172"/>
-          <int name="time" value="30"/>
+          <int name="time" value="92"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="24">
           <string name="hs" value="h24"/>
           <int name="mpCon" value="22"/>
           <int name="pad" value="176"/>
-          <int name="time" value="30"/>
+          <int name="time" value="96"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="25">
           <string name="hs" value="h25"/>
           <int name="mpCon" value="23"/>
           <int name="pad" value="180"/>
-          <int name="time" value="30"/>
+          <int name="time" value="100"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="26">
           <string name="hs" value="h26"/>
           <int name="mpCon" value="23"/>
           <int name="pad" value="184"/>
-          <int name="time" value="30"/>
+          <int name="time" value="104"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="27">
           <string name="hs" value="h27"/>
           <int name="mpCon" value="24"/>
           <int name="pad" value="188"/>
-          <int name="time" value="30"/>
+          <int name="time" value="108"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="28">
           <string name="hs" value="h28"/>
           <int name="mpCon" value="24"/>
           <int name="pad" value="192"/>
-          <int name="time" value="30"/>
+          <int name="time" value="112"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="29">
           <string name="hs" value="h29"/>
           <int name="mpCon" value="25"/>
           <int name="pad" value="196"/>
-          <int name="time" value="30"/>
+          <int name="time" value="116"/>
           <int name="cooltime" value="10"/>
         </imgdir>
         <imgdir name="30">
           <string name="hs" value="h30"/>
           <int name="mpCon" value="25"/>
           <int name="pad" value="200"/>
-          <int name="time" value="30"/>
+          <int name="time" value="120"/>
           <int name="cooltime" value="10"/>
         </imgdir>
       </imgdir>

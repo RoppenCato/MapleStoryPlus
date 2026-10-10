@@ -258,7 +258,7 @@
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
-          <int name="time" value="37"/>
+          <int name="time" value="39"/>
           <int name="eva" value="7"/>
           <int name="acc" value="7"/>
           <int name="x" value="111"/>
@@ -268,7 +268,7 @@
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
-          <int name="time" value="37"/>
+          <int name="time" value="42"/>
           <int name="eva" value="7"/>
           <int name="acc" value="7"/>
           <int name="x" value="114"/>
@@ -278,7 +278,7 @@
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
-          <int name="time" value="38"/>
+          <int name="time" value="45"/>
           <int name="eva" value="8"/>
           <int name="acc" value="8"/>
           <int name="x" value="117"/>
@@ -288,7 +288,7 @@
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
-          <int name="time" value="38"/>
+          <int name="time" value="48"/>
           <int name="eva" value="8"/>
           <int name="acc" value="8"/>
           <int name="x" value="120"/>
@@ -298,7 +298,7 @@
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
-          <int name="time" value="39"/>
+          <int name="time" value="51"/>
           <int name="eva" value="9"/>
           <int name="acc" value="9"/>
           <int name="x" value="123"/>
@@ -308,7 +308,7 @@
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
-          <int name="time" value="39"/>
+          <int name="time" value="54"/>
           <int name="eva" value="9"/>
           <int name="acc" value="9"/>
           <int name="x" value="126"/>
@@ -318,7 +318,7 @@
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
-          <int name="time" value="40"/>
+          <int name="time" value="57"/>
           <int name="eva" value="10"/>
           <int name="acc" value="10"/>
           <int name="x" value="129"/>
@@ -328,7 +328,7 @@
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
-          <int name="time" value="40"/>
+          <int name="time" value="60"/>
           <int name="eva" value="10"/>
           <int name="acc" value="10"/>
           <int name="x" value="132"/>
@@ -338,7 +338,7 @@
         </imgdir>
         <imgdir name="21">
           <string name="hs" value="h21"/>
-          <int name="time" value="41"/>
+          <int name="time" value="63"/>
           <int name="eva" value="11"/>
           <int name="acc" value="11"/>
           <int name="x" value="135"/>
@@ -348,7 +348,7 @@
         </imgdir>
         <imgdir name="22">
           <string name="hs" value="h22"/>
-          <int name="time" value="41"/>
+          <int name="time" value="66"/>
           <int name="eva" value="11"/>
           <int name="acc" value="11"/>
           <int name="x" value="138"/>
@@ -358,7 +358,7 @@
         </imgdir>
         <imgdir name="23">
           <string name="hs" value="h23"/>
-          <int name="time" value="42"/>
+          <int name="time" value="69"/>
           <int name="eva" value="12"/>
           <int name="acc" value="12"/>
           <int name="x" value="141"/>
@@ -368,7 +368,7 @@
         </imgdir>
         <imgdir name="24">
           <string name="hs" value="h24"/>
-          <int name="time" value="42"/>
+          <int name="time" value="72"/>
           <int name="eva" value="12"/>
           <int name="acc" value="12"/>
           <int name="x" value="144"/>
@@ -378,7 +378,7 @@
         </imgdir>
         <imgdir name="25">
           <string name="hs" value="h25"/>
-          <int name="time" value="43"/>
+          <int name="time" value="75"/>
           <int name="eva" value="13"/>
           <int name="acc" value="13"/>
           <int name="x" value="147"/>
@@ -388,7 +388,7 @@
         </imgdir>
         <imgdir name="26">
           <string name="hs" value="h26"/>
-          <int name="time" value="43"/>
+          <int name="time" value="78"/>
           <int name="eva" value="13"/>
           <int name="acc" value="13"/>
           <int name="x" value="150"/>
@@ -398,7 +398,7 @@
         </imgdir>
         <imgdir name="27">
           <string name="hs" value="h27"/>
-          <int name="time" value="44"/>
+          <int name="time" value="81"/>
           <int name="eva" value="14"/>
           <int name="acc" value="14"/>
           <int name="x" value="153"/>
@@ -408,7 +408,7 @@
         </imgdir>
         <imgdir name="28">
           <string name="hs" value="h28"/>
-          <int name="time" value="44"/>
+          <int name="time" value="84"/>
           <int name="eva" value="14"/>
           <int name="acc" value="14"/>
           <int name="x" value="156"/>
@@ -418,7 +418,7 @@
         </imgdir>
         <imgdir name="29">
           <string name="hs" value="h29"/>
-          <int name="time" value="45"/>
+          <int name="time" value="87"/>
           <int name="eva" value="15"/>
           <int name="acc" value="15"/>
           <int name="x" value="159"/>
@@ -428,7 +428,7 @@
         </imgdir>
         <imgdir name="30">
           <string name="hs" value="h30"/>
-          <int name="time" value="45"/>
+          <int name="time" value="90"/>
           <int name="eva" value="15"/>
           <int name="acc" value="15"/>
           <int name="x" value="162"/>
@@ -438,7 +438,7 @@
         </imgdir>
         <imgdir name="31">
           <string name="hs" value="h31"/>
-          <int name="time" value="46"/>
+          <int name="time" value="93"/>
           <int name="eva" value="16"/>
           <int name="acc" value="16"/>
           <int name="x" value="165"/>
@@ -448,7 +448,7 @@
         </imgdir>
         <imgdir name="32">
           <string name="hs" value="h32"/>
-          <int name="time" value="46"/>
+          <int name="time" value="96"/>
           <int name="eva" value="16"/>
           <int name="acc" value="16"/>
           <int name="x" value="168"/>
@@ -458,7 +458,7 @@
         </imgdir>
         <imgdir name="33">
           <string name="hs" value="h33"/>
-          <int name="time" value="47"/>
+          <int name="time" value="99"/>
           <int name="eva" value="17"/>
           <int name="acc" value="17"/>
           <int name="x" value="171"/>
@@ -468,7 +468,7 @@
         </imgdir>
         <imgdir name="34">
           <string name="hs" value="h34"/>
-          <int name="time" value="47"/>
+          <int name="time" value="102"/>
           <int name="eva" value="17"/>
           <int name="acc" value="17"/>
           <int name="x" value="174"/>
@@ -478,7 +478,7 @@
         </imgdir>
         <imgdir name="35">
           <string name="hs" value="h35"/>
-          <int name="time" value="48"/>
+          <int name="time" value="105"/>
           <int name="eva" value="18"/>
           <int name="acc" value="18"/>
           <int name="x" value="177"/>
@@ -488,7 +488,7 @@
         </imgdir>
         <imgdir name="36">
           <string name="hs" value="h36"/>
-          <int name="time" value="48"/>
+          <int name="time" value="108"/>
           <int name="eva" value="18"/>
           <int name="acc" value="18"/>
           <int name="x" value="180"/>
@@ -498,7 +498,7 @@
         </imgdir>
         <imgdir name="37">
           <string name="hs" value="h37"/>
-          <int name="time" value="49"/>
+          <int name="time" value="111"/>
           <int name="eva" value="19"/>
           <int name="acc" value="19"/>
           <int name="x" value="183"/>
@@ -508,7 +508,7 @@
         </imgdir>
         <imgdir name="38">
           <string name="hs" value="h38"/>
-          <int name="time" value="49"/>
+          <int name="time" value="114"/>
           <int name="eva" value="19"/>
           <int name="acc" value="19"/>
           <int name="x" value="186"/>
@@ -518,7 +518,7 @@
         </imgdir>
         <imgdir name="39">
           <string name="hs" value="h39"/>
-          <int name="time" value="50"/>
+          <int name="time" value="117"/>
           <int name="eva" value="20"/>
           <int name="acc" value="20"/>
           <int name="x" value="189"/>
@@ -528,7 +528,7 @@
         </imgdir>
         <imgdir name="40">
           <string name="hs" value="h40"/>
-          <int name="time" value="50"/>
+          <int name="time" value="120"/>
           <int name="eva" value="20"/>
           <int name="acc" value="20"/>
           <int name="x" value="192"/>
@@ -1493,7 +1493,7 @@
           <string name="hs" value="h14"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="48"/>
-          <int name="time" value="120"/>
+          <int name="time" value="126"/>
           <int name="str" value="14"/>
           <int name="pdd" value="28"/>
           <int name="mdd" value="28"/>
@@ -1505,7 +1505,7 @@
           <string name="hs" value="h15"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="50"/>
-          <int name="time" value="120"/>
+          <int name="time" value="135"/>
           <int name="str" value="15"/>
           <int name="pdd" value="30"/>
           <int name="mdd" value="30"/>
@@ -1517,7 +1517,7 @@
           <string name="hs" value="h16"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="52"/>
-          <int name="time" value="120"/>
+          <int name="time" value="144"/>
           <int name="str" value="16"/>
           <int name="pdd" value="32"/>
           <int name="mdd" value="32"/>
@@ -1529,7 +1529,7 @@
           <string name="hs" value="h17"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="54"/>
-          <int name="time" value="120"/>
+          <int name="time" value="153"/>
           <int name="str" value="17"/>
           <int name="pdd" value="34"/>
           <int name="mdd" value="34"/>
@@ -1541,7 +1541,7 @@
           <string name="hs" value="h18"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="56"/>
-          <int name="time" value="120"/>
+          <int name="time" value="162"/>
           <int name="str" value="18"/>
           <int name="pdd" value="36"/>
           <int name="mdd" value="36"/>
@@ -1553,7 +1553,7 @@
           <string name="hs" value="h19"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="58"/>
-          <int name="time" value="120"/>
+          <int name="time" value="171"/>
           <int name="str" value="19"/>
           <int name="pdd" value="38"/>
           <int name="mdd" value="38"/>
@@ -1565,7 +1565,7 @@
           <string name="hs" value="h20"/>
           <int name="morph" value="1000"/>
           <int name="mpCon" value="60"/>
-          <int name="time" value="120"/>
+          <int name="time" value="180"/>
           <int name="str" value="20"/>
           <int name="pdd" value="40"/>
           <int name="mdd" value="40"/>

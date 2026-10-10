@@ -70,7 +70,9 @@ Results from Robin's tests, 2026-10-10:
 - Flash Jump works on a Chief Bandit: the client does not refuse another job's skill. It does not appear in the bandit's skill window, only as a key binding, so the server will have to grant it and offer a way to bind it.
 - Buffs of the same kind do not add up. With Haste on, sprint did nothing, because only the strongest speed buff counts. Fixed in server code afterwards (see the code change list); that fix is not tested yet.
 - One client freeze happened when sprint was used right after Flash Jump. It did not happen again in later tries on either the bandit or a real Hermit. Cause unknown; possibly coincidence.
-- Still open: whether the raised speed cap (160) works. The stat window showed 140 with Haste, which the stacking problem explains.
+- After the stacking fix: Haste plus sprint reaches 160 and drops back to 140 when the sprint ends. The fix and the raised speed cap both work (confirmed by Robin).
+
+**Round 1b, applied to the server data but not loaded or tested yet (needs a server restart):** every duration and cooldown agreed in the class design, 98 rows in `Skill-Changes.tsv` covering 85 skills. All boosters, class buffs, Maple Warrior and summons last 30 minutes at max; Puppet, Dash and the two Transformations 3 minutes; Infinity, the energized state and the Octopus turrets 2 minutes; Mystic Door 10 minutes; Smokescreen has a 5-minute cooldown; the Cygnus and Aran versions of Nimble Feet match the sprint. Lower skill levels scale up in step and never get shorter than they were.
 
 - `Settings/Scripts/Apply-Skill-Changes.py` applies the rows in `Skill-Changes.tsv` to the server's skill data. Running it twice changes nothing the second time.
 - Applied to `Server/wz/Skill.wz`: Haste lasts 30 minutes at max (bandit and assassin); Nimble Feet is the sprint (+10 speed, 10 seconds, 20-second cooldown, no MP cost).

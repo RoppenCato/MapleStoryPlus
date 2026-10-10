@@ -12,6 +12,17 @@ Add a row when a change is done and tested. The ID points to the item in the [Im
 |------|----|--------|--------|-------|
 | 2026-10-10 | - | Character name filter removed | Names containing any of about 60 blocked words (test, gm, master, party, event...) were refused | Any unused name of 3-12 letters or digits is allowed |
 
+## Skills and movement
+
+Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
+
+| Date | Change | Before | After | Tested in game |
+|------|--------|--------|-------|----------------|
+| 2026-10-10 | Sprint: the beginner skill Nimble Feet | +10 to +20 speed for 4 to 12 seconds, 60-second cooldown, costs MP | +20 speed for 10 seconds, 20-second cooldown, no MP cost. Adds to Haste and other speed buffs. | Yes |
+| 2026-10-10 | Speed cap | 140 | 160 | Yes |
+| 2026-10-10 | Haste (bandit and assassin) | 200 seconds at max | 30 minutes at max | Yes |
+| 2026-10-10 | Every other booster, class buff, Maple Warrior and summon | 2 to 20 minutes | 30 minutes at max (a few shorter by design, listed in the Development log) | No: applied, waiting for a restart |
+
 ## Travel and guidance
 
 | Date | ID | Change | Before | After |

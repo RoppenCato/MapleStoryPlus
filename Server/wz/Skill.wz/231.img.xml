@@ -428,133 +428,133 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="77"/>
-          <int name="time" value="40"/>
+          <int name="time" value="60"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="74"/>
-          <int name="time" value="50"/>
+          <int name="time" value="90"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="71"/>
-          <int name="time" value="60"/>
+          <int name="time" value="120"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="68"/>
-          <int name="time" value="70"/>
+          <int name="time" value="150"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="65"/>
-          <int name="time" value="80"/>
+          <int name="time" value="180"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="62"/>
-          <int name="time" value="90"/>
+          <int name="time" value="210"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="59"/>
-          <int name="time" value="100"/>
+          <int name="time" value="240"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="56"/>
-          <int name="time" value="110"/>
+          <int name="time" value="270"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="53"/>
-          <int name="time" value="120"/>
+          <int name="time" value="300"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="51"/>
-          <int name="time" value="126"/>
+          <int name="time" value="330"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="49"/>
-          <int name="time" value="132"/>
+          <int name="time" value="360"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="47"/>
-          <int name="time" value="138"/>
+          <int name="time" value="390"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="45"/>
-          <int name="time" value="144"/>
+          <int name="time" value="420"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="43"/>
-          <int name="time" value="150"/>
+          <int name="time" value="450"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="41"/>
-          <int name="time" value="156"/>
+          <int name="time" value="480"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="39"/>
-          <int name="time" value="162"/>
+          <int name="time" value="510"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="37"/>
-          <int name="time" value="168"/>
+          <int name="time" value="540"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="35"/>
-          <int name="time" value="174"/>
+          <int name="time" value="570"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="33"/>
-          <int name="time" value="180"/>
+          <int name="time" value="600"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>
@@ -682,7 +682,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="51"/>
-          <int name="time" value="33"/>
+          <int name="time" value="60"/>
           <int name="x" value="2"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -690,7 +690,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="52"/>
-          <int name="time" value="36"/>
+          <int name="time" value="120"/>
           <int name="x" value="4"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -698,7 +698,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="53"/>
-          <int name="time" value="39"/>
+          <int name="time" value="180"/>
           <int name="x" value="6"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -706,7 +706,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="54"/>
-          <int name="time" value="42"/>
+          <int name="time" value="240"/>
           <int name="x" value="8"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -714,7 +714,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="55"/>
-          <int name="time" value="45"/>
+          <int name="time" value="300"/>
           <int name="x" value="10"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -722,7 +722,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="56"/>
-          <int name="time" value="48"/>
+          <int name="time" value="360"/>
           <int name="x" value="12"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -730,7 +730,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="57"/>
-          <int name="time" value="51"/>
+          <int name="time" value="420"/>
           <int name="x" value="14"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -738,7 +738,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="58"/>
-          <int name="time" value="54"/>
+          <int name="time" value="480"/>
           <int name="x" value="16"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -746,7 +746,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="59"/>
-          <int name="time" value="57"/>
+          <int name="time" value="540"/>
           <int name="x" value="18"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -754,7 +754,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="60"/>
-          <int name="time" value="60"/>
+          <int name="time" value="600"/>
           <int name="x" value="20"/>
           <vector name="lt" x="-200" y="-100"/>
           <vector name="rb" x="200" y="100"/>
@@ -762,7 +762,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="61"/>
-          <int name="time" value="63"/>
+          <int name="time" value="660"/>
           <int name="x" value="22"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -770,7 +770,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="62"/>
-          <int name="time" value="66"/>
+          <int name="time" value="720"/>
           <int name="x" value="24"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -778,7 +778,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="63"/>
-          <int name="time" value="69"/>
+          <int name="time" value="780"/>
           <int name="x" value="26"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -786,7 +786,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="64"/>
-          <int name="time" value="72"/>
+          <int name="time" value="840"/>
           <int name="x" value="28"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -794,7 +794,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="65"/>
-          <int name="time" value="75"/>
+          <int name="time" value="900"/>
           <int name="x" value="30"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -802,7 +802,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="66"/>
-          <int name="time" value="78"/>
+          <int name="time" value="960"/>
           <int name="x" value="32"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -810,7 +810,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="67"/>
-          <int name="time" value="81"/>
+          <int name="time" value="1020"/>
           <int name="x" value="34"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -818,7 +818,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="68"/>
-          <int name="time" value="84"/>
+          <int name="time" value="1080"/>
           <int name="x" value="36"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -826,7 +826,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="69"/>
-          <int name="time" value="87"/>
+          <int name="time" value="1140"/>
           <int name="x" value="38"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -834,7 +834,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="70"/>
-          <int name="time" value="90"/>
+          <int name="time" value="1200"/>
           <int name="x" value="40"/>
           <vector name="lt" x="-250" y="-150"/>
           <vector name="rb" x="250" y="150"/>
@@ -842,7 +842,7 @@
         <imgdir name="21">
           <string name="hs" value="h21"/>
           <int name="mpCon" value="71"/>
-          <int name="time" value="93"/>
+          <int name="time" value="1260"/>
           <int name="x" value="41"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -850,7 +850,7 @@
         <imgdir name="22">
           <string name="hs" value="h22"/>
           <int name="mpCon" value="72"/>
-          <int name="time" value="96"/>
+          <int name="time" value="1320"/>
           <int name="x" value="42"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -858,7 +858,7 @@
         <imgdir name="23">
           <string name="hs" value="h23"/>
           <int name="mpCon" value="73"/>
-          <int name="time" value="99"/>
+          <int name="time" value="1380"/>
           <int name="x" value="43"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -866,7 +866,7 @@
         <imgdir name="24">
           <string name="hs" value="h24"/>
           <int name="mpCon" value="74"/>
-          <int name="time" value="102"/>
+          <int name="time" value="1440"/>
           <int name="x" value="44"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -874,7 +874,7 @@
         <imgdir name="25">
           <string name="hs" value="h25"/>
           <int name="mpCon" value="75"/>
-          <int name="time" value="105"/>
+          <int name="time" value="1500"/>
           <int name="x" value="45"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -882,7 +882,7 @@
         <imgdir name="26">
           <string name="hs" value="h26"/>
           <int name="mpCon" value="76"/>
-          <int name="time" value="108"/>
+          <int name="time" value="1560"/>
           <int name="x" value="46"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -890,7 +890,7 @@
         <imgdir name="27">
           <string name="hs" value="h27"/>
           <int name="mpCon" value="77"/>
-          <int name="time" value="111"/>
+          <int name="time" value="1620"/>
           <int name="x" value="47"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -898,7 +898,7 @@
         <imgdir name="28">
           <string name="hs" value="h28"/>
           <int name="mpCon" value="78"/>
-          <int name="time" value="114"/>
+          <int name="time" value="1680"/>
           <int name="x" value="48"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -906,7 +906,7 @@
         <imgdir name="29">
           <string name="hs" value="h29"/>
           <int name="mpCon" value="79"/>
-          <int name="time" value="117"/>
+          <int name="time" value="1740"/>
           <int name="x" value="49"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -914,7 +914,7 @@
         <imgdir name="30">
           <string name="hs" value="h30"/>
           <int name="mpCon" value="80"/>
-          <int name="time" value="120"/>
+          <int name="time" value="1800"/>
           <int name="x" value="50"/>
           <vector name="lt" x="-300" y="-200"/>
           <vector name="rb" x="300" y="200"/>
@@ -1896,7 +1896,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="32"/>
-          <int name="time" value="10"/>
+          <int name="time" value="60"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="1"/>
@@ -1905,7 +1905,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="34"/>
-          <int name="time" value="15"/>
+          <int name="time" value="120"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="1"/>
@@ -1914,7 +1914,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="36"/>
-          <int name="time" value="20"/>
+          <int name="time" value="180"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="1"/>
@@ -1923,7 +1923,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="38"/>
-          <int name="time" value="25"/>
+          <int name="time" value="240"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="2"/>
@@ -1932,7 +1932,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="40"/>
-          <int name="time" value="30"/>
+          <int name="time" value="300"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="2"/>
@@ -1941,7 +1941,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="42"/>
-          <int name="time" value="35"/>
+          <int name="time" value="360"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="2"/>
@@ -1950,7 +1950,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="44"/>
-          <int name="time" value="40"/>
+          <int name="time" value="420"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="3"/>
@@ -1959,7 +1959,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="46"/>
-          <int name="time" value="45"/>
+          <int name="time" value="480"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="3"/>
@@ -1968,7 +1968,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="48"/>
-          <int name="time" value="50"/>
+          <int name="time" value="540"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="3"/>
@@ -1977,7 +1977,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="50"/>
-          <int name="time" value="55"/>
+          <int name="time" value="600"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="4"/>
@@ -1986,7 +1986,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="52"/>
-          <int name="time" value="60"/>
+          <int name="time" value="660"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="4"/>
@@ -1995,7 +1995,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="54"/>
-          <int name="time" value="65"/>
+          <int name="time" value="720"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="4"/>
@@ -2004,7 +2004,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="56"/>
-          <int name="time" value="70"/>
+          <int name="time" value="780"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="5"/>
@@ -2013,7 +2013,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="58"/>
-          <int name="time" value="75"/>
+          <int name="time" value="840"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="5"/>
@@ -2022,7 +2022,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="60"/>
-          <int name="time" value="80"/>
+          <int name="time" value="900"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="5"/>
@@ -2031,7 +2031,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="62"/>
-          <int name="time" value="84"/>
+          <int name="time" value="960"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="6"/>
@@ -2040,7 +2040,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="64"/>
-          <int name="time" value="88"/>
+          <int name="time" value="1020"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="6"/>
@@ -2049,7 +2049,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="66"/>
-          <int name="time" value="92"/>
+          <int name="time" value="1080"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="6"/>
@@ -2058,7 +2058,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="68"/>
-          <int name="time" value="96"/>
+          <int name="time" value="1140"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="7"/>
@@ -2067,7 +2067,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="70"/>
-          <int name="time" value="100"/>
+          <int name="time" value="1200"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="7"/>
@@ -2076,7 +2076,7 @@
         <imgdir name="21">
           <string name="hs" value="h21"/>
           <int name="mpCon" value="71"/>
-          <int name="time" value="104"/>
+          <int name="time" value="1260"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="7"/>
@@ -2085,7 +2085,7 @@
         <imgdir name="22">
           <string name="hs" value="h22"/>
           <int name="mpCon" value="72"/>
-          <int name="time" value="108"/>
+          <int name="time" value="1320"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="8"/>
@@ -2094,7 +2094,7 @@
         <imgdir name="23">
           <string name="hs" value="h23"/>
           <int name="mpCon" value="73"/>
-          <int name="time" value="112"/>
+          <int name="time" value="1380"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="8"/>
@@ -2103,7 +2103,7 @@
         <imgdir name="24">
           <string name="hs" value="h24"/>
           <int name="mpCon" value="74"/>
-          <int name="time" value="116"/>
+          <int name="time" value="1440"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="8"/>
@@ -2112,7 +2112,7 @@
         <imgdir name="25">
           <string name="hs" value="h25"/>
           <int name="mpCon" value="75"/>
-          <int name="time" value="120"/>
+          <int name="time" value="1500"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="9"/>
@@ -2121,7 +2121,7 @@
         <imgdir name="26">
           <string name="hs" value="h26"/>
           <int name="mpCon" value="76"/>
-          <int name="time" value="124"/>
+          <int name="time" value="1560"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="9"/>
@@ -2130,7 +2130,7 @@
         <imgdir name="27">
           <string name="hs" value="h27"/>
           <int name="mpCon" value="77"/>
-          <int name="time" value="128"/>
+          <int name="time" value="1620"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="9"/>
@@ -2139,7 +2139,7 @@
         <imgdir name="28">
           <string name="hs" value="h28"/>
           <int name="mpCon" value="78"/>
-          <int name="time" value="132"/>
+          <int name="time" value="1680"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="10"/>
@@ -2148,7 +2148,7 @@
         <imgdir name="29">
           <string name="hs" value="h29"/>
           <int name="mpCon" value="79"/>
-          <int name="time" value="136"/>
+          <int name="time" value="1740"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="10"/>
@@ -2157,7 +2157,7 @@
         <imgdir name="30">
           <string name="hs" value="h30"/>
           <int name="mpCon" value="80"/>
-          <int name="time" value="140"/>
+          <int name="time" value="1800"/>
           <int name="itemCon" value="4006001"/>
           <int name="itemConNo" value="1"/>
           <int name="mastery" value="10"/>

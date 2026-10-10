@@ -6,3 +6,102 @@ skill_id	skill	field	value	why
 1002	Nimble Feet	time	10	Sprint: lasts 10 seconds
 1002	Nimble Feet	cooltime	20	Sprint: 20 second cooldown
 1002	Nimble Feet	mpCon	0	Sprint: no MP cost
+# Round 1b (2026-10-10): durations and cooldowns. These are sent by the server, so no client edit is needed.
+4201002	Dagger Booster (Bandit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4101003	Claw Booster (Assassin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4211005	Meso Guard (Chiefbandit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4211003	Pickpocket (Chiefbandit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4111002	Shadow Partner (Hermit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4111001	Meso Up (Hermit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4121006	Shadow Stars (Nightlord)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2001002	Magic Guard (Magician)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2001003	Magic Armor (Magician)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2101001	Meditation (Fp Wizard)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2201001	Meditation (Il Wizard)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2301004	Bless (Cleric)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2301003	Invincible (Cleric)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2111005	Spell Booster (Fp Mage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2211005	Spell Booster (Il Mage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2311003	Holy Symbol (Priest)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2311006	Summon Dragon (Priest)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2121002	Mana Reflection (Fp Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2221002	Mana Reflection (Il Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2321002	Mana Reflection (Bishop)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2121005	Elquines (Fp Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2221005	Ifrit (Il Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2321003	Bahamut (Bishop)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1001003	Iron Body (Warrior)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1101004	Sword Booster (Fighter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1101005	Axe Booster (Fighter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1201004	Sword Booster (Page)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1201005	BW Booster (Page)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1301004	Spear Booster (Spearman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1301005	Pole Arm Booster (Spearman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1101006	Rage (Fighter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1101007	Power Guard (Fighter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1201007	Power Guard (Page)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1301007	Hyper Body (Spearman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1301006	Iron Will (Spearman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1111002	Combo Attack (Crusader)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211003	Fire Charge: Sword (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211004	Flame Charge: BW (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211005	Ice Charge: Sword (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211006	Blizzard Charge: BW (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211007	Thunder Charge: Sword (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1211008	Lightning Charge: BW (Whiteknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1311008	Dragon Blood (Dragonknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1121002	Power Stance (Hero)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1221002	Power Stance (Paladin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1321002	Power Stance (Darkknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1221003	Holy Charge : Sword (Paladin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1221004	Divine Charge : BW (Paladin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1321007	Beholder (Darkknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3001003	Focus (Bowman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3101002	Bow Booster (Hunter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3201002	Crossbow Booster (Crossbowman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3101004	Soul Arrow : Bow (Hunter)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3201004	Soul Arrow : Crossbow (Crossbowman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3111005	Silver Hawk (Ranger)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3211005	Golden Eagle (Sniper)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3121002	Sharp Eyes (Bowmaster)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3221002	Sharp Eyes (Marksman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3121007	Hamstring (Bowmaster)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3221006	Blind (Marksman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3121006	Phoenix (Bowmaster)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3221005	Frostprey (Marksman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+5101006	Knuckler Booster (Brawler)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+5201003	Gun Booster (Gunslinger)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+5121009	Speed Infusion (Buccaneer)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1121000	Maple Warrior (Hero)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1221000	Maple Warrior (Paladin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+1321000	Maple Warrior (Darkknight)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2121000	Maple Warrior (Fp Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2221000	Maple Warrior (Il Archmage)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+2321000	Maple Warrior (Bishop)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3121000	Maple Warrior (Bowmaster)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3221000	Maple Warrior (Marksman)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4121000	Maple Warrior (Nightlord)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+4221000	Maple Warrior (Shadower)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+5121000	Maple Warrior (Buccaneer)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+5221000	Maple Warrior (Corsair)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
+3111002	Puppet (Ranger)	time	max(V, 180*L//M)	Lasts 3 minutes
+3211002	Puppet (Sniper)	time	max(V, 180*L//M)	Lasts 3 minutes
+5001005	Dash (Pirate)	time	max(V, 180*L//M)	Lasts 3 minutes
+5111005	Transformation (Marauder)	time	max(V, 180*L//M)	Lasts 3 minutes
+5121003	Super Transformation (Buccaneer)	time	max(V, 180*L//M)	Lasts 3 minutes
+2121004	Infinity (Fp Archmage)	time	max(V, 120*L//M)	Lasts 2 minutes
+2221004	Infinity (Il Archmage)	time	max(V, 120*L//M)	Lasts 2 minutes
+2321004	Infinity (Bishop)	time	max(V, 120*L//M)	Lasts 2 minutes
+5110001	Energy Charge (Marauder)	time	max(V, 120*L//M)	Lasts 2 minutes
+5211001	Octopus (Outlaw)	time	max(V, 120*L//M)	Lasts 2 minutes
+5220002	Wrath of the Octopi (Corsair)	time	max(V, 120*L//M)	Lasts 2 minutes
+2311002	Mystic Door (Priest)	time	max(V, 600*L//M)	Lasts 10 minutes
+4221006	Smokescreen (Shadower)	cooltime	300	5 minute cooldown (was 10)
+10001002	Nimble Feet (Noblesse)	speed	20	Sprint: +20 speed
+10001002	Nimble Feet (Noblesse)	time	10	Sprint: lasts 10 seconds
+10001002	Nimble Feet (Noblesse)	cooltime	20	Sprint: 20 second cooldown
+10001002	Nimble Feet (Noblesse)	mpCon	0	Sprint: no MP cost
+20001002	Agile Body (Aran)	speed	20	Sprint: +20 speed
+20001002	Agile Body (Aran)	time	10	Sprint: lasts 10 seconds
+20001002	Agile Body (Aran)	cooltime	20	Sprint: 20 second cooldown
+20001002	Agile Body (Aran)	mpCon	0	Sprint: no MP cost
