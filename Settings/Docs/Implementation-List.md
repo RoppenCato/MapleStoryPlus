@@ -139,10 +139,6 @@ Goal: bosses are meaningful and fun progression, and all of them can be killed.
 
 ---
 
-## Ideas not placed yet
+## Ideas
 
-Add things here as they come up, then move them into a section.
-
-- Faster movement for everyone, or Shift as a sprint key. Options: raise base speed and the client's speed cap (simple), a sprint toggle skill on Shift (server work), true hold-to-sprint (needs a client code change). Ties in with the warrior speed idea.
-- Remove the client's built-in forbidden name list (needs a WZ editor on `Etc.wz`). Postponed.
-- New accounts skip the terms message: code is changed, takes effect at the next server rebuild.
+Ideas that are not planned yet are collected in [Ideas.md](Ideas.md). When one is picked up, it moves into a section above and gets an ID.
