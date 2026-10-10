@@ -59,6 +59,30 @@ Hero, Paladin, Dark Knight. Under discussion since 2026-10-10, one job at a time
 | 4 | Critical hits: covered by the rule for all classes at the top of this document. Endure is not reworked for it and stays as it is. | agreed | See the rule |
 | 5 | Power Strike, Improved HP Recovery and Improved MaxHP Increase stay as they are. | agreed | Nothing |
 
+### Paired weapon skills (rule for all warriors)
+
+Robin, 2026-10-10: Sword Mastery and Axe Mastery should be bundled into one.
+
+How: the two skills level together. A point put into one gives the same point in its twin for free, so a warrior pays for the pair once and can switch weapon type without losing anything. The client still shows two skills, each working for its own weapon; only the server's handling of skill points changes. Not tested.
+
+| Pair | Status |
+|------|--------|
+| Fighter: Sword Mastery and Axe Mastery | agreed |
+| The other 2nd job pairs: Final Attack and Booster for the Fighter; Mastery, Final Attack and Booster for the Page (sword and blunt weapon) and the Spearman (spear and pole arm) | proposed |
+| 3rd job pairs, such as Panic and Coma for sword and axe, the element charges for sword and blunt weapon, Crusher and Dragon Fury for spear and pole arm | proposed |
+
+### Fighter (2nd job)
+
+The Fighter gets no new attack in 2nd job; it keeps Power Strike and Slash Blast. Final Attack, a permanent Rage and the crit rule are its gains. If it feels flat in play, the fix is a damage bump to those two 1st job attacks.
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Sword Mastery and Axe Mastery are bundled, by the pairing rule above. | agreed | Server code |
+| 2 | Sword Booster and Axe Booster last 30 minutes (now 200 seconds) and have no HP cost. | agreed | Server and client skill data |
+| 3 | Rage lasts 30 minutes (now 160 seconds) and has no defence penalty (now -12 weapon defence). | agreed | Server and client skill data |
+| 4 | Power Guard lasts 30 minutes (now 90 seconds). | agreed | Server and client skill data |
+| 5 | Final Attack stays as it is. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
