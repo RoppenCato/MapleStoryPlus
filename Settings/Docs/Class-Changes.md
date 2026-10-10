@@ -41,16 +41,16 @@ Change table columns:
   - The speed cap goes from 140 to 150 (Ezorsia's `speedMovementCap` in the client's `config.ini`).
   - Thieves are the fastest class, at 150. Classes that get speed from their buffs top out at 130. Base speed is 100.
 
-  | Class | Speed from skills | With sprint | Fits the budget? |
-  |-------|-------------------|-------------|------------------|
-  | Thief | Haste +40, Nimble Body +10 = 150 | 150 (already at the cap) | Yes, but sprint then adds nothing for thieves |
-  | Warrior | Iron Body +20 = 120 | 130 | Yes |
-  | Bowman, 1st and 2nd job | Focus +10 = 110 | 120 | Yes |
-  | Bowman, 3rd job on | Focus +10, Thrust +30 = 140 | 150 | No: Thrust alone gives +30 in the original game |
-  | Pirate | Dash +30 for 3 minutes = 130 | 140 | No |
-  | Magician | none = 100 | 110 | Yes. Magicians have Teleport instead. |
+  | Class | Speed from skills | With sprint |
+  |-------|-------------------|-------------|
+  | Thief | Haste +40 = 140 | 150 |
+  | Warrior | Iron Body +20 = 120 | 130 |
+  | Bowman, 1st and 2nd job | Focus +10 = 110 | 120 |
+  | Bowman, 3rd job on | Focus +10, Thrust +10 = 120 | 130 |
+  | Pirate | Dash +20 for 3 minutes = 120 | 130 |
+  | Magician | none = 100 | 110. Magicians have Teleport instead. |
 
-  Proposed to make it fit (not confirmed): Thrust gives +10 instead of +30; Dash gives +20 instead of +30; Nimble Body loses its +10 speed so a thief runs at 140 and reaches 150 with sprint. Speed from equipment comes on top of all this, up to the cap.
+  Three adjustments were made to fit this budget, all agreed: Thrust gives +10 (was +30 in the original game), Dash gives +20 (was +30), and Nimble Body does not get the +10 speed first planned for it, so sprint still matters for thieves. Speed from equipment comes on top of all this, up to the cap of 150.
 - **Agreed 2026-10-10: critical hits for every class (Robin's idea).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
 
   | Job | Chance | A critical hit does |
@@ -370,7 +370,8 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 |---|--------|--------|-------|
 | 1 | Silver Hawk lasts 30 minutes (now 180 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
 | 2 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
-| 3 | Strafe, Arrow Rain, Inferno, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
+| 3 | Thrust gives +10 speed at max (now +30), to fit the speed budget. | agreed | Server and client skill data |
+| 4 | Strafe, Arrow Rain, Inferno and Mortal Blow stay as they are. | agreed | Nothing |
 
 ### Sniper (3rd job)
 
@@ -379,7 +380,8 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 | 1 | Strafe does 120% per arrow (now 100%, the same as the Ranger's), to offset the crossbow's slower shooting. A first estimate: check it by comparing a Ranger and a Sniper at the same level. | agreed | Server and client skill data |
 | 2 | Golden Eagle lasts 30 minutes (now 180 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
 | 3 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
-| 4 | Arrow Eruption, Blizzard, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
+| 4 | Thrust gives +10 speed at max (now +30), to fit the speed budget. | agreed | Server and client skill data |
+| 5 | Arrow Eruption, Blizzard and Mortal Blow stay as they are. | agreed | Nothing |
 
 ### Bowmaster (4th job)
 
@@ -412,7 +414,7 @@ To do with the damage cap (`F-7`): Snipe's damage to bosses is a fixed number ju
 |---|--------|--------|-------|
 | 1 | Double Stab: 160% per hit at max instead of 140%. (Also line 1 of the bandit plan.) | agreed | Server and client skill data |
 | 2 | Dark Sight has no speed penalty at any level (now slows by 30 at level 1, none only at max). | agreed | Server and client skill data |
-| 3 | Nimble Body: +30 accuracy and +30 avoidability at max (now +20 each), plus +10 speed. | agreed | Server and client skill data. A passive can give speed: the Ranger's Thrust already does. |
+| 3 | Nimble Body: +30 accuracy and +30 avoidability at max (now +20 each). No speed: dropped to fit the speed budget. | agreed | Server and client skill data |
 | 4 | Disorder affects up to 6 monsters (now 1), lowers their attack and defence by 30 (now 20), and lasts 2 minutes (now 1). | agreed | Server and client skill data |
 | 5 | Lucky Seven and Keen Eyes stay as they are. | agreed | Nothing |
 
@@ -518,7 +520,7 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 | # | Change | Status | Needs |
 |---|--------|--------|-------|
 | 1 | Double Shot does 130% per bullet (now 80%), matching the bowman's Double Shot. At 160% in total it was the weakest 1st job attack in the game. | agreed | Server and client skill data |
-| 2 | Dash lasts 3 minutes (now 20 seconds). Not 30 minutes: it is meant as a burst, and a permanent +30 speed would outrun thieves with Haste. | agreed | Server and client skill data |
+| 2 | Dash lasts 3 minutes (now 20 seconds) and gives +20 speed (now +30), to fit the speed budget. Not 30 minutes: it is meant as a burst. | agreed | Server and client skill data |
 | 3 | Flash Fist, Sommersault Kick and Bullet Time stay as they are. | agreed | Nothing |
 
 ### Brawler (2nd job)
