@@ -18,6 +18,7 @@ Suggested names: `DevWarrior`, `DevMage`, `DevBowman`, `DevThief`, `DevPirate`.
 | Character | Class | Level | GM | Notes |
 |-----------|-------|-------|----|-------|
 | `trialguy` | Fire/Poison Wizard | 50 | 6 | Set up in the database 2026-10-10 with level 50 gear, skills and 1M meso. |
+| `DevBandit` | Chief Bandit | 70 | 6 | Created 2026-10-10 with the character tool for the Round 1 tests. Has the Hermit's Flash Jump as a test. Keys: Q Savage Blow, R Haste, T Dagger Booster, A Flash Jump, Shift sprint (Nimble Feet). |
 
 ## GM commands
 

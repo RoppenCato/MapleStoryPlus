@@ -61,6 +61,17 @@ What we have done, decided and changed. Newest first.
 - `trialguy` was set by hand to a level 50 Fire/Poison Wizard before the tool existed. It still wears the level 50 Zhu-Ge-Liang Wand, which is not a normal-progression weapon.
 - Found: the tower travel scrolls (Orbis Rock Scroll, Eos Rock Scroll) are not sold in any shop and not in the drop table.
 
+## 2026-10-10: First game changes (Round 1 tests)
+
+Waiting for Robin's test in game. Nothing below is confirmed working yet.
+
+- `Settings/Scripts/Apply-Skill-Changes.py` applies the rows in `Skill-Changes.tsv` to the server's skill data. Running it twice changes nothing the second time.
+- Applied to `Server/wz/Skill.wz`: Haste lasts 30 minutes at max (bandit and assassin); Nimble Feet is the sprint (+10 speed, 10 seconds, 20-second cooldown, no MP cost).
+- Client: `speedMovementCap=150` in `Client/MapleStory/config.ini` (was 140). The client folder is not in git.
+- Test character `DevBandit` (level 70 Chief Bandit) created with the character tool, its first real run with `--create`, and given the Hermit's Flash Jump directly in the database.
+
+What the tests answer: whether buff durations and speed are decided by the server alone, and whether the client lets a job use another job's skill.
+
 ## Changes to the server code
 
 Every change we make to the original code, so we know what to check when pulling updates from `upstream`.
