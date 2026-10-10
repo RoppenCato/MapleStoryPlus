@@ -480,7 +480,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="10"/>
+          <int name="time" value="90"/>
           <int name="speed" value="2"/>
           <int name="jump" value="1"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -489,7 +489,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="20"/>
+          <int name="time" value="180"/>
           <int name="speed" value="4"/>
           <int name="jump" value="2"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -498,7 +498,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="30"/>
+          <int name="time" value="270"/>
           <int name="speed" value="6"/>
           <int name="jump" value="3"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -507,7 +507,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="40"/>
+          <int name="time" value="360"/>
           <int name="speed" value="8"/>
           <int name="jump" value="4"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -516,7 +516,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="50"/>
+          <int name="time" value="450"/>
           <int name="speed" value="10"/>
           <int name="jump" value="5"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -525,7 +525,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="60"/>
+          <int name="time" value="540"/>
           <int name="speed" value="12"/>
           <int name="jump" value="6"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -534,7 +534,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="70"/>
+          <int name="time" value="630"/>
           <int name="speed" value="14"/>
           <int name="jump" value="7"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -543,7 +543,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="80"/>
+          <int name="time" value="720"/>
           <int name="speed" value="16"/>
           <int name="jump" value="8"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -552,7 +552,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="90"/>
+          <int name="time" value="810"/>
           <int name="speed" value="18"/>
           <int name="jump" value="9"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -561,7 +561,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="15"/>
-          <int name="time" value="100"/>
+          <int name="time" value="900"/>
           <int name="speed" value="20"/>
           <int name="jump" value="10"/>
           <vector name="lt" x="-250" y="-150"/>
@@ -570,7 +570,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="110"/>
+          <int name="time" value="990"/>
           <int name="speed" value="22"/>
           <int name="jump" value="11"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -579,7 +579,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="120"/>
+          <int name="time" value="1080"/>
           <int name="speed" value="24"/>
           <int name="jump" value="12"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -588,7 +588,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="130"/>
+          <int name="time" value="1170"/>
           <int name="speed" value="26"/>
           <int name="jump" value="13"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -597,7 +597,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="140"/>
+          <int name="time" value="1260"/>
           <int name="speed" value="28"/>
           <int name="jump" value="14"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -606,7 +606,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="150"/>
+          <int name="time" value="1350"/>
           <int name="speed" value="30"/>
           <int name="jump" value="15"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -615,7 +615,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="160"/>
+          <int name="time" value="1440"/>
           <int name="speed" value="32"/>
           <int name="jump" value="16"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -624,7 +624,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="170"/>
+          <int name="time" value="1530"/>
           <int name="speed" value="34"/>
           <int name="jump" value="17"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -633,7 +633,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="180"/>
+          <int name="time" value="1620"/>
           <int name="speed" value="36"/>
           <int name="jump" value="18"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -642,7 +642,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="190"/>
+          <int name="time" value="1710"/>
           <int name="speed" value="38"/>
           <int name="jump" value="19"/>
           <vector name="lt" x="-300" y="-200"/>
@@ -651,7 +651,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="30"/>
-          <int name="time" value="200"/>
+          <int name="time" value="1800"/>
           <int name="speed" value="40"/>
           <int name="jump" value="20"/>
           <vector name="lt" x="-300" y="-200"/>

@@ -1,0 +1,8 @@
+skill_id	skill	field	value	why
+# Round 1 tests (2026-10-10). See Settings/Docs/Class-Changes.md.
+4201003	Haste (Bandit)	time	90*L	30 minutes at max, buff rule
+4101004	Haste (Assassin)	time	90*L	30 minutes at max, buff rule
+1002	Nimble Feet	speed	10	Sprint: +10 speed at every level
+1002	Nimble Feet	time	10	Sprint: lasts 10 seconds
+1002	Nimble Feet	cooltime	20	Sprint: 20 second cooldown
+1002	Nimble Feet	mpCon	0	Sprint: no MP cost
