@@ -49,7 +49,7 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 - **Which bots:** all 3,000, only town and social bots, or only the ones in your guild or party.
 - **Limits:** how many conversations at once, and whether there is a cap on usage.
 
-**Prototype built 2026-10-10:** whisper any bot, no saving or history. See `Bot-Chat-Bridge.py` in [Scripts](../Scripts/README.md). Not yet run with a real reply, so reply speed is still unknown.
+**Prototype built 2026-10-10:** whisper any bot, no saving or history. See `Bot-Chat-Bridge.py` in [Scripts](../Scripts/README.md). Works in the game: replies arrive as whispers in 2 to 4 seconds. Next steps would be saved bots, history with summaries, and mentions in normal chat.
 
 ---
 

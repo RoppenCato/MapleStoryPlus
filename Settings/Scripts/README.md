@@ -69,7 +69,7 @@ Prototype: bots answer whispers through Claude Haiku. Started with `Start-Bot-Ch
 - Any bot can be whispered.
 - Nothing is saved. A bot's personality is made up from its name, and the conversation is forgotten after 10 minutes of silence or when the window closes.
 - Replies come from Claude Code running Haiku on your Claude login, with no API key. Run `Login-Bot-Chat.bat` once to sign it in.
-- Each reply starts a new Claude Code process, so expect a few seconds per reply.
+- Each reply starts a new Claude Code process and takes 2 to 4 seconds.
 - Settings (reply length, how many lines are remembered, the personality lists) are at the top of the script.
 
 Test without the game:
@@ -78,4 +78,4 @@ Test without the game:
 python Settings/Scripts/Bot-Chat-Bridge.py --say "hey, how's the hunt?"
 ```
 
-Not tested with a real reply yet: Claude Code was not logged in when it was built.
+Tested in the game on 2026-10-10: whispering a bot gets a reply in 2 to 4 seconds.
