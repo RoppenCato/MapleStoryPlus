@@ -24,11 +24,32 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 | Hook up a cheap Claude model that answers when you whisper a bot or mention its name in chat. | new | The server already routes chat to bots and has scripted replies, so there is a place to plug this in. Needs an Anthropic API key, costs a little per message, and replies take a second or two. The key must never go into the public GitHub repo. |
 | Give each bot a simple backstory as a basis for the model: age, gender, profession, type of humour, mood today, hobbies and so on. | new | Bots already get a generated look, level and gear when they are created; a personality sheet would be generated the same way. It only stays consistent if the bot itself is saved, which ties in with the guild idea above. |
 
-Open questions for this group:
+#### How it should work (Robin's design, 2026-10-10)
 
-- Which bots get a personality: all 3,000, only town and social bots, or only the ones in your guild?
-- Should a bot remember earlier conversations with you?
-- Is there a monthly spending limit?
+1. You whisper a bot, or mention a bot in a chat.
+2. You get connected to that bot through Claude Haiku.
+3. Haiku is loaded with the bot's backstory and its history.
+4. You chat. The conversation stays open as long as the chat lasts.
+5. When the chat ends (the player logs out, or the bot is kicked from the party), the conversation is summarized by a set of rules and added to the bot's history.
+6. Next time, the same thing happens with the updated history.
+
+#### How it could be built
+
+- **A chat bridge in its own window**, started next to the server. The game server sends it chat lines; it sends replies back. The window shows every exchange.
+- **One Claude Code session per conversation**, running Haiku on the subscription login, with no tools and a short "you are this character" instruction. The session holds the conversation while it lasts, so each line is quick to send. An API key can replace the subscription later without a rebuild.
+- **One small file per bot** holding the backstory and the history. This is what Haiku is loaded with.
+- **Bots only call Claude when spoken to.** Scripted lines stay for everything else.
+
+#### Things the design needs to settle
+
+- **More ways a chat ends:** you walk away and say nothing more (an idle timeout), or the server stops. Lines should be saved to disk as they happen, so a crash does not lose the conversation before it is summarized.
+- **Summary rules:** what is kept (what the bot learned about you, promises, how it feels about you) and a size limit. Old entries need merging, or the history grows without end.
+- **Saved bots first:** a history only makes sense for a bot that still exists after a restart. Same foundation as the guild idea.
+- **Mentions:** how a name in chat is matched to a bot, and what happens when two bots are mentioned or several players talk to the same bot.
+- **Which bots:** all 3,000, only town and social bots, or only the ones in your guild or party.
+- **Limits:** how many conversations at once, and whether there is a cap on usage.
+
+Not built or timed yet. Reply speed through Claude Code is unknown until a prototype exists.
 
 ---
 
