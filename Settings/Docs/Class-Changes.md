@@ -513,6 +513,15 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 | 4 | Grenade does 200% (now 140%). | agreed | Server and client skill data |
 | 5 | Recoil Shot, Wings and Gun Mastery stay as they are. | agreed | Nothing |
 
+### Marauder (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Energy Charge: the energized state lasts 2 minutes (now 50 seconds). | agreed | Server and client skill data |
+| 2 | Energy Blast hits up to 6 monsters (now 4). | agreed | Server and client skill data |
+| 3 | Transformation lasts 3 minutes (now 2). The 6-minute cooldown stays, so it remains a state to plan around. | agreed | Server and client skill data |
+| 4 | Shockwave, Energy Drain and Stun Mastery stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Cygnus Knights
