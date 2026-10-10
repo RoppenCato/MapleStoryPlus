@@ -11,7 +11,8 @@ import java.util.List;
 
 
 public class YamlConfig {
-    public static final String CONFIG_FILE_NAME = "config.yaml";
+    // Either provide a custom config file path through the "config-path" property when launching the .jar, or don't provide one to use the default "config.yaml"
+    public static final String CONFIG_FILE_NAME = System.getProperty("config-path", "config.yaml");
     public static final YamlConfig config = loadConfig();
 
     public List<WorldConfig> worlds;
