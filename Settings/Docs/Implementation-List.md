@@ -130,7 +130,7 @@ Details per class are in [Class-Changes.md](Class-Changes.md).
 
 Goal: bosses are meaningful and fun progression, and all of them can be killed.
 
-- [ ] `B-1` List every boss: level, HP, attacks, drops, spawn time, entry requirements
+- [ ] `B-1` List every boss: level, HP, attacks, drops, spawn time, entry requirements. First pass done: [Bosses and party quests](Bosses-and-Party-Quests.md) has level, HP, exp, map, respawn and player requirements. Attacks and drops per boss are still missing (drops are in `Drops.tsv`).
 - [ ] `B-2` Decide the progression order and at what level each boss should be beatable
 - [ ] `B-3` Rework HP, attacks and levels to match the classes after section 9
 - [ ] `B-4` Rework drops so each boss gives something worth having

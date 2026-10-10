@@ -1,0 +1,44 @@
+name	kind	min_players	max_players	min_level	max_level	minutes	entry_map	area	event_script
+Amoria PQ	party quest	6	6	40	255	75	Stage 1 - Magik Mirror	Hidden Street	AmoriaPQ
+Balrog	expedition boss	6	30	50	255	60	Balrog's Tomb  	Dungeon  	BalrogBattle
+Balrog (easy)	expedition boss	3	30	50	255	60	Balrog's Tomb  	Dungeon  	BalrogBattle_Easy
+Boss Rush PQ	party quest	1	6	1	255	5	Stage 1 <Mano>	Hidden Street	BossRushPQ
+Crimsonwood Keep PQ	expedition party quest	6	30	90	255	2	Inner Sanctum Hallway	Party Quest	CWKPQ
+Internet Cafe PQ 1	party quest	3	6	21	120	45	Another Sanctuary	Premium Road	CafePQ_1
+Internet Cafe PQ 2	party quest	3	6	21	120	45	The Monkey Forest	Premium Road	CafePQ_2
+Internet Cafe PQ 3	party quest	3	6	21	120	45	Dry Rocky Mountain	Premium Road	CafePQ_3
+Internet Cafe PQ 4	party quest	3	6	21	120	45	Dangerous Ant-Hole	Premium Road	CafePQ_4
+Internet Cafe PQ 5	party quest	3	6	21	120	45	The Chilly Hill	Premium Road	CafePQ_5
+Internet Cafe PQ 6	party quest	3	6	21	120	45	Windy Terrace I	Premium Road	CafePQ_6
+Delli	boss battle	1	2	120	255	6	Save Delli!	Hidden Street	DelliBattle
+Elemental battle	boss battle	2	2	100	255	20	Room of Thanatos	Hidden Street	ElementalBattle
+Ellin Forest PQ	party quest	4	6	44	55	30	Pre-Entrance	Forest of Poison Haze	EllinPQ
+El Nath PQ (Protect Tylus)	party quest	1	4	80	255	10	Protect Tylus	Hidden Street	ElnathPQ
+Guild Quest (Sharenian)	party quest	6	30	1	255	90	Excavation Site	Sharenian	GuildQuest
+Henesys PQ (Moon Bunny)	party quest	3	6	10	255	10	Primrose Hill	Hidden Street	HenesysPQ
+Holiday PQ (level 21-30)	party quest	3	6	21	30	15	Snow Man's Land	Snow Man's Land	HolidayPQ_1
+Holiday PQ (level 31-40)	party quest	3	6	31	40	20	Snow Man's Land	Snow Man's Land	HolidayPQ_2
+Holiday PQ (level 41-50)	party quest	3	6	41	50	25	Snow Man's Land	Snow Man's Land	HolidayPQ_3
+Horntail	expedition boss	6	30	100	255	120	The Cave of Trial I	Cave of Life	HorntailBattle
+Horntail PQ (prequest)	party quest	6	6	120	255	25	Room of Maze	Cave of Life	HorntailPQ
+Kerning PQ	party quest	3	4	21	30	30	1st Accompaniment <1st Stage>	Hidden Street	KerningPQ
+Capt. Latanica	boss battle	1	6	1	255	10	The Engine Room	Singapore	LatanicaBattle
+Ludibrium Maze PQ	party quest	3	6	51	70	15	Ludibrium Maze 1	Ludibrium	LudiMazePQ
+Ludibrium PQ	party quest	5	6	35	50	45	Abandoned Tower<Stage 1>	Hidden Street	LudiPQ
+Magatia PQ (Alcadno, Juliet)	party quest	4	4	71	85	45	Mysterious Lab	Hidden Street	MagatiaPQ_A
+Magatia PQ (Zenumist, Romeo)	party quest	4	4	71	85	45	Mysterious Lab	Hidden Street	MagatiaPQ_Z
+Orbis PQ	party quest	5	6	51	70	45	Tower of Goddess <Entrance>	Hidden Street	OrbisPQ
+Papulatus	boss battle	1	6	1	255	45	Origin of Clocktower	Ludibrium	PapulatusBattle
+Pink Bean	expedition boss	6	30	120	255	140	Twilight of Gods	Deep Place of Temple	PinkBeanBattle
+Pirate PQ (Herb Town)	party quest	3	6	55	100	4	On the Way to the Pirate Ship	Hidden Street	PiratePQ
+RescueGaga	story or quest instance	1	1	12	255	3	Rescue Gaga! 	Space Gaga  	RescueGaga
+Scarlion and Targa	expedition boss	6	30	100	255	60	Spooky World	Malaysia	ScargaBattle
+The Boss (Showa)	expedition boss	3	30	100	255	60	The Nightmarish Last Days	Zipangu	ShowaBattle
+Neo Tokyo boss 1	boss battle	2	6	70	255	10	<Year 2009> Midnight Harbor Pier	Neo City	TD_Battle1
+Neo Tokyo boss 2	boss battle	2	6	70	255	10	<Year 2215> Bombed City Center Square	Neo City	TD_Battle2
+Neo Tokyo boss 3	boss battle	2	6	70	255	15	<Year 2216> Ruined City Land Mark	Neo City	TD_Battle3
+Neo Tokyo boss 4	boss battle	2	6	70	255	15	<Year 2230> Dangerous Tower Penthouse	Neo City	TD_Battle4
+Neo Tokyo boss 5	boss battle	2	6	70	255	20	<Year 2503> Air Battleship Stern	Neo City	TD_Battle5
+Treasure PQ	party quest	4	6	140	255	45	Initiation	Treasure Dungeon	TreasurePQ
+Zakum	expedition boss	6	30	50	255	120	Zakum's Altar	Last Mission	ZakumBattle
+Zakum PQ (prequest)	party quest	1	6	50	255	30	Unknown Dead Mine	Adobis's Mission I	ZakumPQ

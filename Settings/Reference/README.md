@@ -25,6 +25,8 @@ The `.tsv` files are tab-separated text. Open them in a text editor and search, 
 |------|------|---------|
 | [Drops.tsv](Drops.tsv) | 22,162 | monster, item, quantity, chance in percent, quest. The last rows are drops from every monster. |
 | [Shops.tsv](Shops.tsv) | 3,886 | shop, NPC, item, price |
+| [Bosses.tsv](Bosses.tsv) | 202 | boss, kind, level, HP, exp, map, respawn. Readable version: [Bosses and party quests](../Docs/Bosses-and-Party-Quests.md) |
+| [PartyQuests.tsv](PartyQuests.tsv) | 43 | party quests, boss battles and expeditions: players, levels, timer, entry map |
 | [Scrolls.tsv](Scrolls.tsv) | 754 | id, name, success chance, destroy chance, stats |
 | [SkillDetails.tsv](SkillDetails.tsv) | 10,462 | one row per skill level: MP cost, damage, attack count, targets, duration, cooldown and more |
 

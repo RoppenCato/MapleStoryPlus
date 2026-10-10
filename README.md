@@ -27,6 +27,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | [Class changes](Settings/Docs/Class-Changes.md) | Goals and changes per class and skill. |
 | [Reference lists](Settings/Reference/README.md) | Names, IDs and numbers: jobs, skills, maps, monsters, NPCs, items, drops, shops, scrolls, quests, GM commands, travel. |
 | [Scripts](Settings/Scripts/README.md) | The tool that sets up a test character with level, skills and gear. |
+| [Bosses and party quests](Settings/Docs/Bosses-and-Party-Quests.md) | Every boss and party quest the server has: players, levels, HP, where, respawn. Built automatically. |
 | [Research: bots and bosses](Settings/Docs/Research-Bots-and-Bosses.md) | How the bots work and what each boss needs. |
 | [Development log](Settings/Docs/Development-Log.md) | What we did and decided, and which server files we changed. |
 

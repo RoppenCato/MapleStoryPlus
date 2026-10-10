@@ -366,6 +366,171 @@ def map_links():
     write("MapLinks.tsv", ["map_id", "map", "to_map_id", "to_map", "kind"], rows)
 
 
+EVENT_NAMES = {
+    "HenesysPQ": "Henesys PQ (Moon Bunny)", "KerningPQ": "Kerning PQ", "LudiPQ": "Ludibrium PQ",
+    "LudiMazePQ": "Ludibrium Maze PQ", "OrbisPQ": "Orbis PQ", "PiratePQ": "Pirate PQ (Herb Town)",
+    "EllinPQ": "Ellin Forest PQ", "MagatiaPQ_A": "Magatia PQ (Alcadno, Juliet)",
+    "MagatiaPQ_Z": "Magatia PQ (Zenumist, Romeo)", "AmoriaPQ": "Amoria PQ", "GuildQuest": "Guild Quest (Sharenian)",
+    "CWKPQ": "Crimsonwood Keep PQ", "HorntailPQ": "Horntail PQ (prequest)", "ZakumPQ": "Zakum PQ (prequest)",
+    "TreasurePQ": "Treasure PQ", "BossRushPQ": "Boss Rush PQ", "ElnathPQ": "El Nath PQ (Protect Tylus)",
+    "CafePQ_1": "Internet Cafe PQ 1", "CafePQ_2": "Internet Cafe PQ 2", "CafePQ_3": "Internet Cafe PQ 3",
+    "CafePQ_4": "Internet Cafe PQ 4", "CafePQ_5": "Internet Cafe PQ 5", "CafePQ_6": "Internet Cafe PQ 6",
+    "HolidayPQ_1": "Holiday PQ (level 21-30)", "HolidayPQ_2": "Holiday PQ (level 31-40)",
+    "HolidayPQ_3": "Holiday PQ (level 41-50)",
+    "BalrogBattle": "Balrog", "BalrogBattle_Easy": "Balrog (easy)", "ZakumBattle": "Zakum",
+    "HorntailBattle": "Horntail", "PinkBeanBattle": "Pink Bean", "ScargaBattle": "Scarlion and Targa",
+    "ShowaBattle": "The Boss (Showa)", "PapulatusBattle": "Papulatus", "LatanicaBattle": "Capt. Latanica",
+    "DelliBattle": "Delli", "MahaBattle": "Maha", "ElementalBattle": "Elemental battle",
+    "TD_Battle1": "Neo Tokyo boss 1", "TD_Battle2": "Neo Tokyo boss 2", "TD_Battle3": "Neo Tokyo boss 3",
+    "TD_Battle4": "Neo Tokyo boss 4", "TD_Battle5": "Neo Tokyo boss 5",
+}
+EXPEDITIONS = {"BalrogBattle", "BalrogBattle_Easy", "ZakumBattle", "HorntailBattle", "PinkBeanBattle", "ScargaBattle",
+               "ShowaBattle", "CWKPQ"}
+
+
+def bosses_and_party_quests():
+    """Bosses.tsv, PartyQuests.tsv and the readable overview in Settings/Docs."""
+    mobs = {}
+    for row in read(os.path.join(HERE, "Mobs.tsv")).splitlines()[1:]:
+        p = row.split("\t")
+        mobs[int(p[0])] = {"name": p[1].strip(), "level": p[2], "hp": p[3], "exp": p[4], "boss": p[5] == "boss"}
+    map_names = string_entries("Map")
+    place = lambda m: (map_names.get(m, {}).get("mapName", "") or f"map {m}")
+    area = lambda m: map_names.get(m, {}).get("streetName", "")
+    events = os.path.join(ROOT, "Server", "scripts", "event")
+
+    bosses = []          # (name, kind, level, hp, exp, where, area, respawn, mob id, map id)
+    seen_mobs = set()
+
+    def add(mob, kind, map_id, respawn):
+        m = mobs.get(mob)
+        if not m or not m["name"]:
+            return
+        bosses.append((m["name"], kind, m["level"], m["hp"], m["exp"], place(map_id) if map_id else "",
+                       area(map_id) if map_id else "", respawn, mob, map_id or ""))
+        seen_mobs.add(mob)
+
+    # 1. Bosses the server keeps alive on a normal map with a spawner script.
+    for path in sorted(glob.glob(os.path.join(events, "AreaBoss*.js"))):
+        text = re.sub(r"/\*.*?\*/", "", read(path), flags=re.S)
+        ids = [int(x) for x in re.findall(r"getMonster\((\d+)\)", text)] or \
+              [int(x) for x in re.findall(r"bossMobid\s*=\s*(\d+)", text)]
+        map_ids = [int(x) for x in re.findall(r"getMap\((\d+)\)", text)] or \
+                  [int(x) for x in re.findall(r"bossMapid\s*=\s*(\d+)", text)]
+        hours = re.search(r'schedule\("start",\s*(\d+)\s*\*\s*60\s*\*\s*60\s*\*\s*1000', text)
+        respawn = f"checked every {hours.group(1)} hours" if hours else "kept alive by a script"
+        for mob in ids:
+            add(mob, "area boss", map_ids[0] if map_ids else None, respawn)
+
+    # 2. Bosses placed in a normal map's own data, with a respawn timer.
+    spawn_rows = [r.split("\t") for r in read(os.path.join(HERE, "MobSpawns.tsv")).splitlines()[1:]]
+    for mob, _, map_id, _, _, _, respawn in sorted((r + [""] * 7)[:7] for r in spawn_rows):
+        mob, map_id = int(mob), int(map_id)
+        if mob in mobs and mobs[mob]["boss"] and map_id < 900000000:
+            wait = f"{int(respawn) // 60} minutes" if respawn.isdigit() and int(respawn) >= 60 else "normal respawn"
+            add(mob, "area boss", map_id, wait)
+
+    # 3. Party quests, boss battles and expeditions: every event script that describes itself as one.
+    quests = []          # (name, kind, min players, max players, min level, max level, minutes, entry, area, script)
+    for path in sorted(glob.glob(os.path.join(events, "*.js"))):
+        script = os.path.basename(path)[:-3]
+        text = read(path)
+        if not re.search(r"^var isPq = true", text, re.M) or "EXAMPLE" in script:
+            continue
+        num = lambda name: (re.search(r"\b" + name + r"\s*=\s*(\d+)", text) or [None, ""])[1]
+        entry = int(num("entryMap") or 0)
+        if script in EXPEDITIONS:
+            kind = "expedition boss" if script != "CWKPQ" else "expedition party quest"
+        elif "PQ" in script or script == "GuildQuest":
+            kind = "party quest"
+        elif "Battle" in script:
+            kind = "boss battle"
+        else:
+            kind = "story or quest instance"
+        quests.append((EVENT_NAMES.get(script, script), kind, num("minPlayers"), num("maxPlayers"), num("minLevel"),
+                       num("maxLevel"), num("eventTime"), place(entry) if entry else "", area(entry) if entry else "",
+                       script))
+
+    # 4. Every other boss monster: fought inside an instance, summoned, or part of a quest.
+    by_name = {}
+    for mob, m in sorted(mobs.items()):
+        # 9400000-9499999 are the world tour, New Leaf City and Crimsonwood monsters; other IDs from 9000000
+        # up are event and party quest copies of monsters already listed.
+        real = mob < 9000000 or 9400000 <= mob <= 9499999
+        if m["boss"] and real and mob not in seen_mobs and m["name"] and m["name"].isascii():
+            base = re.sub(r"\s*\d+$", "", m["name"])            # Zakum1, Zakum2, Zakum3 are one boss
+            cur = by_name.get(base)
+            if not cur or int(m["hp"] or 0) > int(cur[3] or 0):
+                by_name[base] = (base, "instanced, summoned or quest boss", m["level"], m["hp"], m["exp"], "", "", "", mob, "")
+    seen_names = {b[0] for b in bosses}
+    bosses += [b for name, b in by_name.items() if name not in seen_names]
+
+    bosses.sort(key=lambda b: (int(b[2] or 0), b[0]))
+    write("Bosses.tsv", ["name", "kind", "level", "hp", "exp", "map", "area", "respawn", "mob_id", "map_id"], bosses)
+    write("PartyQuests.tsv", ["name", "kind", "min_players", "max_players", "min_level", "max_level", "minutes",
+                              "entry_map", "area", "event_script"], quests)
+
+    n = lambda v: f"{int(v):,}" if str(v).isdigit() else str(v)
+    lv = lambda lo, hi: f"{lo}+" if hi in ("255", "200", "") else f"{lo}-{hi}"
+    players = lambda lo, hi: lo if lo == hi else f"{lo}-{hi}"
+    out = ["# Bosses and party quests", "",
+           "Everything the server has, read from its data and scripts. **Built automatically** by "
+           "`Settings/Reference/Build-Reference.py`; do not edit by hand. Nothing here is tested in the game, so "
+           "\"available\" means the server has it, not that it works.", "",
+           "The same content as sortable lists: [Bosses.tsv](../Reference/Bosses.tsv) and "
+           "[PartyQuests.tsv](../Reference/PartyQuests.tsv).", "",
+           "Player counts are the original requirements. The setting `USE_ENABLE_SOLO_EXPEDITIONS` (off) lowers the "
+           "expedition bosses to 1 player. Party quests have no such setting.", ""]
+
+    def table(title, intro, header, rows):
+        out.extend([f"## {title}", "", intro, "", "| " + " | ".join(header) + " |",
+                    "|" + "|".join("---" for _ in header) + "|"])
+        out.extend("| " + " | ".join(str(c) for c in r) + " |" for r in rows)
+        out.append("")
+
+    exp = [q for q in quests if q[1].startswith("expedition")]
+    table(f"Expedition bosses ({len(exp)})", "The big group fights. Players sign up at an NPC.",
+          ["Boss", "Players", "Level", "Time limit", "Entry map"],
+          [(q[0], players(q[2], q[3]), lv(q[4], q[5]), f"{q[6]} min" if q[6] else "", f"{q[7]} ({q[8]})" if q[8] else q[7])
+           for q in sorted(exp, key=lambda q: int(q[4] or 0))])
+    battle = [q for q in quests if q[1] == "boss battle"]
+    table(f"Instanced boss battles ({len(battle)})", "Bosses fought in a private copy of the map.",
+          ["Boss", "Players", "Level", "Time limit", "Entry map"],
+          [(q[0], players(q[2], q[3]), lv(q[4], q[5]), f"{q[6]} min" if q[6] else "", f"{q[7]} ({q[8]})" if q[8] else q[7])
+           for q in sorted(battle, key=lambda q: q[0])])
+    pq = [q for q in quests if q[1] == "party quest"]
+    table(f"Party quests ({len(pq)})", "Sorted by minimum level.",
+          ["Party quest", "Players", "Level", "Time limit", "Entry map"],
+          [(q[0], players(q[2], q[3]), lv(q[4], q[5]), f"{q[6]} min" if q[6] else "", f"{q[7]} ({q[8]})" if q[8] else q[7])
+           for q in sorted(pq, key=lambda q: (int(q[4] or 0), q[0]))])
+    other = [q for q in quests if q[1] == "story or quest instance"]
+    table(f"Other instances ({len(other)})", "Job advancement trials, quest fights and similar. Listed by script name.",
+          ["Script", "Players", "Level", "Entry map"],
+          [(q[9], players(q[2], q[3]), lv(q[4], q[5]), f"{q[7]} ({q[8]})" if q[8] else q[7]) for q in other])
+    field = [b for b in bosses if b[1] == "area boss"]
+    table(f"Area bosses ({len(field)})", "Bosses that live on a normal map. Sorted by level.",
+          ["Boss", "Level", "HP", "Exp", "Map", "Respawn"],
+          [(b[0], b[2], n(b[3]), n(b[4]), f"{b[5]} ({b[6]})" if b[6] else b[5], b[7]) for b in field])
+    rest = [b for b in bosses if b[1] != "area boss"]
+    table(f"Other boss monsters ({len(rest)})",
+          "Boss monsters with no place on a normal map: fought inside the battles and party quests above, summoned "
+          "with an item, or part of a quest. Parts of one boss (Zakum's arms, Horntail's heads) are listed "
+          "separately when they have their own name. HP is the largest single part.",
+          ["Boss", "Level", "HP", "Exp"], [(b[0], b[2], n(b[3]), n(b[4])) for b in rest])
+    out.extend(["## Not in these lists", "",
+                "- **Mu Lung Dojo** and **Monster Carnival** are built into the server code, not event scripts. "
+                "Monster Carnival is switched on (`USE_CPQ`).",
+                "- **Ariant Coliseum** is an expedition type in the server code (2 to 7 players, level 20 to 30).",
+                "- Event and party quest copies of bosses are left out (monster IDs from 9000000 up, except the "
+                "world tour, New Leaf City and Crimsonwood range 9400000 to 9499999).",
+                "- The time limit is the script's main timer. For a few (Crimsonwood Keep PQ, Pirate PQ) that is "
+                "only the first stage.", ""])
+    path = os.path.join(ROOT, "Settings", "Docs", "Bosses-and-Party-Quests.md")
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(out))
+    print("Bosses-and-Party-Quests.md written")
+
+
 if __name__ == "__main__":
     job_names = jobs()
     skills(job_names)
@@ -380,6 +545,7 @@ if __name__ == "__main__":
     commands()
     mob_spawns()
     map_links()
+    bosses_and_party_quests()
     # These two read the database, so it must be running.
     drops(all_item_names())
     shops(all_item_names())
