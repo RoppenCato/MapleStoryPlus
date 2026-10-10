@@ -95,6 +95,7 @@ public class AssignSPProcessor {
                     player.changeSkillLevel(SkillFactory.getSkill(Aran.HIDDEN_OVER_TRIPLE), player.getSkillLevel(skill), player.getMasterLevel(skill), player.getSkillExpiration(skill));
                 } else {
                     player.changeSkillLevel(skill, (byte) (curLevel + 1), player.getMasterLevel(skill), player.getSkillExpiration(skill));
+                    plus.ClassSkills.levelTwin(player, skill); // MapleStoryPlus: paired warrior weapon skills level together
                 }
             }
         } finally {

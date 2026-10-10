@@ -2,17 +2,52 @@
 
 One section per class: the goal we agreed on, the ideas, and every change made. Belongs to section 9 (`K`) of the [Implementation list](Implementation-List.md).
 
-## Where the design stands (2026-10-10)
+## Where things stand (2026-10-10)
 
-The first pass over the five explorer classes is done: every job from 1st to 4th has been gone through with Robin, 187 lines agreed. **Nothing is built.** Robin's instruction: work through the classes and the documents first, then make changes.
+The design pass over the five explorer classes is done and agreed. Cygnus Knights and Aran are not covered.
 
-Not covered yet: Cygnus Knights and Aran.
+Building started the same day. Every number change lives in `Settings/Scripts/Skill-Changes.tsv` and is applied to the server and the client by the two tools described in [Scripts](../Scripts/README.md).
 
-Before building:
+### Built
 
-- About 13 lines are marked "to be tested". They depend on what the client allows, most of all: giving a job another job's skill (Flash Jump for bandits), critical hits through the Sharp Eyes effect, and changes to things the client works out by itself (weakness bonus, self-stun, orb count).
-- Every "server and client skill data" line assumes both copies of the skill data must be edited to match. The first skill edit (Savage Blow) is also the test of that method.
-- Lines marked "to measure" need test characters at the right level once built: the bandit against the assassin, the Sniper against the Ranger, the Dark Knight against the Hero, the priest's levelling speed, and the mages' ultimates.
+| What | Tested in game |
+|------|----------------|
+| Sprint, speed cap 160 | Yes |
+| All durations and cooldowns (85 skills) | Spot-checked |
+| Buff strength, HP and MP costs, success chances, freezes (48 skills) | Yes, on six skills |
+| Critical hits for every class | Yes, on a warrior. Not checked on a magician. |
+| Double Stab, Savage Blow, Steal with its hit box | Yes |
+| Tooltips rewritten from the change list | Yes |
+| The remaining number changes: damage, target counts and hit boxes for about 45 more skills (Band of Thieves, Avenger, Holy Arrow, the element charges, Strafe for the Sniper, the pirate attacks, Achilles, Berserk, Nimble Body, Focus, Thrust and others) | No |
+| Group versions of single-target skills, each given a hit box as a first guess: Disorder, Drain, Energy Bolt, Poison Breath, Holy Arrow, Arrow Blow, and Assaulter hitting 3 with a longer reach | No. These are the least certain: the client may ignore extra targets on some skill types. |
+| Warrior weapon pairs level together | No |
+| Flash Jump for Chief Bandits and Shadowers: granted by the server, one level per character level from 70, put on a free key | No (the skill itself was tested on a bandit earlier) |
+| Drain heals from one monster only | No |
+| Dragon Blood without HP drain | No |
+| Full Holy Symbol bonus when alone | No |
+
+### Not built yet
+
+These need server code that has not been written, or depend on the client.
+
+| Line | Why it is harder |
+|------|------------------|
+| Bless reduces damage taken by 15% | Server code in the damage-taken path |
+| Resurrection revives yourself | Server code; untested whether a death can be stopped as it happens |
+| Panic and Coma use 3 orbs | Server code; the client also shows the orb count |
+| Charged Blow keeps the charge from 3rd job; Advanced Charge gives Charged Blow 10 targets | Server code; the client may drop the charge itself |
+| Aura of the Beholder stops healing at the Berserk line | Server code |
+| The Battleship takes much less damage | Server code |
+| Improved MP Recovery gives double | The client works out natural recovery |
+| Chakra at any HP; Assassinate without Dark Sight; Dragon Roar without the self-stun | Likely checked inside the client |
+| Flamethrower and Ice Splitter without capsules | Needs a field removed from the skill data, which the tools cannot do yet |
+| Stronger elemental weakness bonus | Likely inside the client |
+| Snipe's boss damage | Waits for the damage cap |
+| Parked client-code changes: Assaulter without a target, Dark Sight as a toggle, Boomerang Step on slopes | Need changes inside the client program |
+
+### To measure
+
+Bandit against assassin, Sniper against Ranger, Dark Knight against Hero, the priest's levelling speed, the mages' ultimates.
 
 ## How to use
 

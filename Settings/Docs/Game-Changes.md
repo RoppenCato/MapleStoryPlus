@@ -36,6 +36,8 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-10 | Steal | Hits 1 monster | Hits 4 monsters from level 1 and 6 at max, with its own hit box | Yes |
 | 2026-10-10 | Tooltips | Showed the original numbers | Rewritten to show the new numbers for every changed skill. 244 values have no place in their text and are not shown. | Yes |
 
+| 2026-10-10 | The rest of the agreed number changes (about 45 skills), weapon pairs for warriors, Flash Jump for the bandit line, Drain's heal rule, Dragon Blood without drain | See Class-Changes.md | Installed | No |
+
 ## Travel and guidance
 
 | Date | ID | Change | Before | After |

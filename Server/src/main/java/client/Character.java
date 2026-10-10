@@ -1271,6 +1271,7 @@ public class Character extends AbstractCharacterObject {
         }
 
         plus.ClassCrit.send(this); // MapleStoryPlus: the crit tier grows with the job
+        plus.ClassSkills.updateBanditFlashJump(this); // MapleStoryPlus: Chief Bandits get Flash Jump
     }
 
     public void broadcastAcquaintances(int type, String message) {
@@ -6538,6 +6539,8 @@ public class Character extends AbstractCharacterObject {
                 }
             }
         }
+
+        plus.ClassSkills.updateBanditFlashJump(this); // MapleStoryPlus: the bandit's Flash Jump grows with level
     }
 
     public boolean leaveParty() {

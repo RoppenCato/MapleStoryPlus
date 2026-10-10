@@ -1898,210 +1898,210 @@
           <string name="hs" value="h1"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="65"/>
+          <int name="damage" value="72"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="70"/>
+          <int name="damage" value="78"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="75"/>
+          <int name="damage" value="83"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="80"/>
+          <int name="damage" value="89"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="85"/>
+          <int name="damage" value="94"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="90"/>
+          <int name="damage" value="100"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="95"/>
+          <int name="damage" value="106"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="100"/>
+          <int name="damage" value="111"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="105"/>
+          <int name="damage" value="117"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mobCount" value="4"/>
           <int name="mpCon" value="16"/>
-          <int name="damage" value="110"/>
+          <int name="damage" value="122"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="114"/>
+          <int name="damage" value="127"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="118"/>
+          <int name="damage" value="131"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="122"/>
+          <int name="damage" value="136"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="126"/>
+          <int name="damage" value="140"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="130"/>
+          <int name="damage" value="144"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="134"/>
+          <int name="damage" value="149"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="138"/>
+          <int name="damage" value="153"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="142"/>
+          <int name="damage" value="158"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="146"/>
+          <int name="damage" value="162"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mobCount" value="5"/>
           <int name="mpCon" value="23"/>
-          <int name="damage" value="150"/>
+          <int name="damage" value="167"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="21">
           <string name="hs" value="h21"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="153"/>
+          <int name="damage" value="170"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="22">
           <string name="hs" value="h22"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="156"/>
+          <int name="damage" value="173"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="23">
           <string name="hs" value="h23"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="159"/>
+          <int name="damage" value="177"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="24">
           <string name="hs" value="h24"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="162"/>
+          <int name="damage" value="180"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="25">
           <string name="hs" value="h25"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="165"/>
+          <int name="damage" value="183"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="26">
           <string name="hs" value="h26"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="168"/>
+          <int name="damage" value="187"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="27">
           <string name="hs" value="h27"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="171"/>
+          <int name="damage" value="190"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="28">
           <string name="hs" value="h28"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="174"/>
+          <int name="damage" value="193"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="29">
           <string name="hs" value="h29"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="177"/>
+          <int name="damage" value="197"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
         <imgdir name="30">
           <string name="hs" value="h30"/>
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="180"/>
+          <int name="damage" value="200"/>
           <int name="bulletConsume" value="3"/>
         </imgdir>
       </imgdir>

@@ -793,244 +793,334 @@
       <string name="elemAttr" value="s"/>
       <imgdir name="level">
         <imgdir name="1">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h1"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="12"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="31"/>
           <int name="time" value="4"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="2">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h2"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="14"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="32"/>
           <int name="time" value="4"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="3">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h3"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="16"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="33"/>
           <int name="time" value="4"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="4">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h4"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="18"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="34"/>
           <int name="time" value="8"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="5">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h5"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="20"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="35"/>
           <int name="time" value="8"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="6">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h6"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="22"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="36"/>
           <int name="time" value="8"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="7">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h7"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="24"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="37"/>
           <int name="time" value="12"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="8">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h8"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="26"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="38"/>
           <int name="time" value="12"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="9">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h9"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="28"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="39"/>
           <int name="time" value="12"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="10">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h10"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="30"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="40"/>
           <int name="time" value="16"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="11">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h11"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="32"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="41"/>
           <int name="time" value="16"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="12">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h12"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="34"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="42"/>
           <int name="time" value="16"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="13">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h13"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="36"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="43"/>
           <int name="time" value="20"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="14">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h14"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="38"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="44"/>
           <int name="time" value="20"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="15">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h15"/>
           <int name="mpCon" value="10"/>
           <int name="mad" value="40"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="45"/>
           <int name="time" value="20"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="16">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h16"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="42"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="46"/>
           <int name="time" value="24"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="17">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h17"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="44"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="47"/>
           <int name="time" value="24"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="18">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h18"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="46"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="48"/>
           <int name="time" value="24"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="19">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h19"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="48"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="49"/>
           <int name="time" value="28"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="20">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h20"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="50"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="50"/>
           <int name="time" value="28"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="21">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h21"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="52"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="51"/>
           <int name="time" value="28"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="22">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h22"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="54"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="52"/>
           <int name="time" value="32"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="23">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h23"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="56"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="53"/>
           <int name="time" value="32"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="24">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h24"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="58"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="54"/>
           <int name="time" value="32"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="25">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h25"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="60"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="55"/>
           <int name="time" value="36"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="26">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h26"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="62"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="56"/>
           <int name="time" value="36"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="27">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h27"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="64"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="57"/>
           <int name="time" value="36"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="28">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h28"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="66"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="58"/>
           <int name="time" value="40"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="29">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h29"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="68"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="59"/>
           <int name="time" value="58"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
         <imgdir name="30">
+          <int name="mobCount" value="4"/>
           <string name="hs" value="h30"/>
           <int name="mpCon" value="20"/>
           <int name="mad" value="70"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="100"/>
           <int name="time" value="40"/>
+          <vector name="lt" x="-300" y="-80"/>
+          <vector name="rb" x="-10" y="40"/>
         </imgdir>
       </imgdir>
       <imgdir name="action">

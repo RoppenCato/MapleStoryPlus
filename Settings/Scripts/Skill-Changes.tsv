@@ -166,3 +166,59 @@ skill_id	skill	field	value	why
 4201004	Steal (Bandit)	mobCount	4 + 2*(L-1)//(M-1)	Hits 4 monsters from level 1, 6 at max
 4201004	Steal (Bandit)	lt	-170,-70	Wider hit box, so nearby monsters are caught (the original only reaches one spot)
 4201004	Steal (Bandit)	rb	-10,10	Wider hit box
+# Round 3 (2026-10-10): the remaining number changes from Class-Changes.md. Damage, targets and hit boxes need the client patched too.
+4000000	Nimble Body (Thief)	x	max(O, 30*L//M)	Nimble Body: +30 accuracy at max
+4000000	Nimble Body (Thief)	y	max(O, 30*L//M)	Nimble Body: +30 avoidability at max
+4001002	Disorder (Thief)	mobCount	6	Disorder affects up to 6 monsters
+4001002	Disorder (Thief)	lt	-200,-100	Disorder: area around you, as Threaten has
+4001002	Disorder (Thief)	rb	200,100	Disorder: area around you, as Threaten has
+4211004	Band of Thieves (Chiefbandit)	damage	round(O*250/OM)	Band of Thieves: 250% at max (was 210%)
+4211002	Assaulter (Chiefbandit)	mobCount	3	Assaulter hits up to 3 monsters in its path
+4211002	Assaulter (Chiefbandit)	lt	-300,-120	Assaulter reaches 50% further
+4221007	Boomerang Step (Shadower)	mobCount	O + 2	Boomerang Step: 6 monsters at max (was 4)
+4101005	Drain (Assassin)	mobCount	3	Drain hits up to 3 monsters
+4101005	Drain (Assassin)	lt	-350,-80	Drain: hit box for more than one target
+4101005	Drain (Assassin)	rb	-10,40	Drain: hit box for more than one target
+4111005	Avenger (Hermit)	damage	round(O*200/OM)	Avenger: 200% at max (was 180%)
+2001004	Energy Bolt (Magician)	mobCount	3	Energy Bolt hits up to 3 monsters
+2001004	Energy Bolt (Magician)	lt	-300,-80	Energy Bolt: hit box for more than one target
+2001004	Energy Bolt (Magician)	rb	-10,40	Energy Bolt: hit box for more than one target
+2101005	Poison Breath (Fp Wizard)	mobCount	4	Poison Breath hits up to 4 monsters
+2101005	Poison Breath (Fp Wizard)	lt	-300,-80	Poison Breath: hit box for more than one target
+2101005	Poison Breath (Fp Wizard)	rb	-10,40	Poison Breath: hit box for more than one target
+2301005	Holy Arrow (Cleric)	mad	round(O*120/OM)	Holy Arrow: 120 magic attack at max (was 80)
+2301005	Holy Arrow (Cleric)	mobCount	3	Holy Arrow hits up to 3 monsters
+2301005	Holy Arrow (Cleric)	lt	-300,-80	Holy Arrow: hit box for more than one target
+2301005	Holy Arrow (Cleric)	rb	-10,40	Holy Arrow: hit box for more than one target
+2121006	Paralyze (Fp Archmage)	mad	round(O*240/OM)	Paralyze: 240 at max (was 210)
+2221006	Chain Lightning (Il Archmage)	mad	round(O*210/OM)	Chain Lightning: 210 at max (was 180)
+1211003	Fire Charge: Sword (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1211004	Flame Charge: BW (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1211005	Ice Charge: Sword (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1211006	Blizzard Charge: BW (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1211007	Thunder Charge: Sword (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1211008	Lightning Charge: BW (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
+1221003	Holy Charge : Sword (Paladin)	damage	round(O*150/OM)	Holy and Divine Charge: 150% at max (was 140%)
+1221004	Divine Charge : BW (Paladin)	damage	round(O*150/OM)	Holy and Divine Charge: 150% at max (was 140%)
+1120004	Achilles (Hero)	x	1000 - round((1000 - O)*200/(1000 - OM))	Achilles: 20% less damage at max (was 15%)
+1220005	Achilles (Paladin)	x	1000 - round((1000 - O)*200/(1000 - OM))	Achilles: 20% less damage at max (was 15%)
+1320005	Achilles (Darkknight)	x	1000 - round((1000 - O)*200/(1000 - OM))	Achilles: 20% less damage at max (was 15%)
+1320006	Berserk (Darkknight)	x	O + 10	Berserk works below 60% HP at max (was 50%)
+3001004	Arrow Blow (Bowman)	mobCount	3	Arrow Blow hits up to 3 monsters in a line
+3001004	Arrow Blow (Bowman)	lt	-400,-60	Arrow Blow: hit box for more than one target
+3001004	Arrow Blow (Bowman)	rb	-10,30	Arrow Blow: hit box for more than one target
+3001003	Focus (Bowman)	speed	10*L//M	Bowman speed-up: Focus +10 at max
+3211006	Strafe (Sniper)	damage	round(O*120/OM)	Sniper's Strafe: 120% per arrow at max (was 100%)
+3110000	Thrust (Ranger)	speed	max(1, 10*L//M)	Thrust: +10 speed at max (was +30), speed budget
+3210000	Thrust (Sniper)	speed	max(1, 10*L//M)	Thrust: +10 speed at max (was +30), speed budget
+3220004	Marksman Boost (Marksman)	x	round(O*15/OM)	Marksman Boost: +15 attack at max (was +10)
+5001003	Double Shot (Pirate)	damage	round(O*130/OM)	Pirate's Double Shot: 130% per bullet at max (was 80%)
+5101004	Corkscrew Blow (Brawler)	mobCount	6	Hits up to 6 monsters (was 3)
+5101002	Backspin Blow (Brawler)	mobCount	6	Hits up to 6 monsters (was 3)
+5201001	Invisible Shot (Gunslinger)	damage	round(O*200/OM)	Invisible Shot: 200% at max (was 170%)
+5201001	Invisible Shot (Gunslinger)	mobCount	6	Hits up to 6 monsters (was 3)
+5201004	Blank Shot (Gunslinger)	mobCount	6	Hits up to 6 monsters (was 3)
+5201002	Grenade (Gunslinger)	damage	round(O*200/OM)	Grenade: 200% at max (was 140%)
+5111002	Energy Blast (Marauder)	mobCount	6	Energy Blast hits up to 6 monsters (was 4)
+5221004	Rapid Fire (Corsair)	damage	round(O*200/OM)	Rapid Fire: 200% at max (was 170%)
+1311008	Dragon Blood (Dragonknight)	x	0	No HP drain while active (was 20 HP every 4 seconds at max)

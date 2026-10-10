@@ -2643,6 +2643,7 @@ public class MapleMap {
         announcePlayerDiseases(chr.getClient());
         if (!isBot(chr)) {
             plus.ClassCrit.send(chr); // MapleStoryPlus: critical hits for every class
+            plus.ClassSkills.updateBanditFlashJump(chr); // MapleStoryPlus: covers bandits that existed before the change
         }
     }
 

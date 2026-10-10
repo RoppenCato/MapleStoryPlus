@@ -4,9 +4,15 @@
     python Settings/Scripts/Apply-Skill-Changes.py --check    show what would change, write nothing
     python Settings/Scripts/Apply-Skill-Changes.py --export FILE   list the current server values, for the client patcher
 
-Each row sets one field of one skill at every level. The value is a small formula in L (the skill
-level), M (the skill's max level) and V (the value the field has now), for example  90*L  or  10  or
-max(V, 1800*L//M). Running the script twice changes nothing the second time.
+Each row sets one field of one skill at every level. The value is a small formula, for example
+90*L  or  10  or  max(V, 1800*L//M)  or  round(O*250/OM). It can use:
+
+    L    the skill level                    M    the skill's max level
+    V    the value the field has now        O    the value it had originally, before our changes
+    OM   the original value at max level
+
+Running the script twice changes nothing the second time. Formulas that scale a value should use O,
+not V, for that reason.
 
 The server must be restarted to pick up the changes. The client has its own copy of this data; a
 change the client also needs (damage, hit count, number of targets) will not show until that copy is
@@ -15,6 +21,7 @@ edited too. Buff durations, speed and cooldowns are sent by the server.
 import io
 import os
 import re
+import subprocess
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +56,28 @@ def skill_span(text, skill_id):
     return level_start, end
 
 
+ORIGINAL_COMMIT = "47b61b538"     # the SoloMapling commit our server started from
+_original_files = {}
+
+
+def original_values(skill_id, field):
+    """{level: value} of a field as it was before any of our changes, read from git."""
+    name = "%03d.img.xml" % (skill_id // 10000)
+    if name not in _original_files:
+        out = subprocess.run(["git", "show", f"{ORIGINAL_COMMIT}:wz/Skill.wz/{name}"], cwd=ROOT,
+                             capture_output=True, text=True, encoding="utf-8", errors="ignore")
+        _original_files[name] = out.stdout if out.returncode == 0 else ""
+    text = _original_files[name]
+    span = skill_span(text, skill_id) if text else None
+    values = {}
+    if span:
+        for m in LEVEL_BLOCK.finditer(text[span[0]:span[1]]):
+            found = re.search(rf'<int name="{field}" value="(-?\d+)"/>', m.group("body"))
+            if found:
+                values[int(m.group("level"))] = int(found.group(1))
+    return values
+
+
 def apply_change(text, skill_id, field, formula):
     """Returns (new text, levels changed)."""
     span = skill_span(text, skill_id)
@@ -59,6 +88,7 @@ def apply_change(text, skill_id, field, formula):
     levels = [int(m.group("level")) for m in LEVEL_BLOCK.finditer(block)]
     top = max(levels)
     changed = 0
+    original = original_values(skill_id, field) if ("O" in formula and field not in VECTOR_FIELDS) else {}
 
     def edit(m):
         nonlocal changed
@@ -81,7 +111,8 @@ def apply_change(text, skill_id, field, formula):
         existing = re.search(rf'<int name="{field}" value="(-?\d+)"/>', body)
         current = int(existing.group(1)) if existing else 0
         value = int(eval(formula, {"__builtins__": {}},
-                         {"L": level, "M": top, "V": current, "min": min, "max": max, "round": round}))
+                         {"L": level, "M": top, "V": current, "O": original.get(level, 0),
+                          "OM": original.get(top, 0), "min": min, "max": max, "round": round}))
         if existing:
             if int(existing.group(1)) == value:
                 return m.group(0)

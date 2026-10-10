@@ -993,140 +993,140 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="4"/>
-          <int name="damage" value="61"/>
+          <int name="damage" value="99"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="215"/>
         </imgdir>
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="4"/>
-          <int name="damage" value="62"/>
+          <int name="damage" value="101"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="215"/>
         </imgdir>
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="4"/>
-          <int name="damage" value="63"/>
+          <int name="damage" value="102"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="230"/>
         </imgdir>
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="4"/>
-          <int name="damage" value="64"/>
+          <int name="damage" value="104"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="230"/>
         </imgdir>
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="4"/>
-          <int name="damage" value="65"/>
+          <int name="damage" value="106"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="245"/>
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="5"/>
-          <int name="damage" value="66"/>
+          <int name="damage" value="107"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="245"/>
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="5"/>
-          <int name="damage" value="67"/>
+          <int name="damage" value="109"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="260"/>
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="5"/>
-          <int name="damage" value="68"/>
+          <int name="damage" value="110"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="260"/>
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="5"/>
-          <int name="damage" value="69"/>
+          <int name="damage" value="112"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="275"/>
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="5"/>
-          <int name="damage" value="70"/>
+          <int name="damage" value="114"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="275"/>
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="6"/>
-          <int name="damage" value="71"/>
+          <int name="damage" value="115"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="290"/>
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="6"/>
-          <int name="damage" value="72"/>
+          <int name="damage" value="117"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="290"/>
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="6"/>
-          <int name="damage" value="73"/>
+          <int name="damage" value="119"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="305"/>
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="6"/>
-          <int name="damage" value="74"/>
+          <int name="damage" value="120"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="305"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="6"/>
-          <int name="damage" value="75"/>
+          <int name="damage" value="122"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="320"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="7"/>
-          <int name="damage" value="76"/>
+          <int name="damage" value="124"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="320"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="7"/>
-          <int name="damage" value="77"/>
+          <int name="damage" value="125"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="335"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="7"/>
-          <int name="damage" value="78"/>
+          <int name="damage" value="127"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="335"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="7"/>
-          <int name="damage" value="79"/>
+          <int name="damage" value="128"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="350"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="7"/>
-          <int name="damage" value="80"/>
+          <int name="damage" value="130"/>
           <int name="bulletCount" value="2"/>
           <int name="range" value="350"/>
         </imgdir>

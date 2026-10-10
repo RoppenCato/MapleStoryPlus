@@ -10,123 +10,123 @@
       <imgdir name="level">
         <imgdir name="1">
           <string name="hs" value="h1"/>
-          <int name="x" value="995"/>
+          <int name="x" value="993"/>
         </imgdir>
         <imgdir name="2">
           <string name="hs" value="h2"/>
-          <int name="x" value="990"/>
+          <int name="x" value="987"/>
         </imgdir>
         <imgdir name="3">
           <string name="hs" value="h3"/>
-          <int name="x" value="985"/>
+          <int name="x" value="980"/>
         </imgdir>
         <imgdir name="4">
           <string name="hs" value="h4"/>
-          <int name="x" value="980"/>
+          <int name="x" value="973"/>
         </imgdir>
         <imgdir name="5">
           <string name="hs" value="h5"/>
-          <int name="x" value="975"/>
+          <int name="x" value="967"/>
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
-          <int name="x" value="970"/>
+          <int name="x" value="960"/>
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
-          <int name="x" value="965"/>
+          <int name="x" value="953"/>
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
-          <int name="x" value="960"/>
+          <int name="x" value="947"/>
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
-          <int name="x" value="955"/>
+          <int name="x" value="940"/>
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
-          <int name="x" value="950"/>
+          <int name="x" value="933"/>
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
-          <int name="x" value="945"/>
+          <int name="x" value="927"/>
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
-          <int name="x" value="940"/>
+          <int name="x" value="920"/>
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
-          <int name="x" value="935"/>
+          <int name="x" value="913"/>
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
-          <int name="x" value="930"/>
+          <int name="x" value="907"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
-          <int name="x" value="925"/>
+          <int name="x" value="900"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
-          <int name="x" value="920"/>
+          <int name="x" value="893"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
-          <int name="x" value="915"/>
+          <int name="x" value="887"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
-          <int name="x" value="910"/>
+          <int name="x" value="880"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
-          <int name="x" value="905"/>
+          <int name="x" value="873"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
-          <int name="x" value="900"/>
+          <int name="x" value="867"/>
         </imgdir>
         <imgdir name="21">
           <string name="hs" value="h21"/>
-          <int name="x" value="895"/>
+          <int name="x" value="860"/>
         </imgdir>
         <imgdir name="22">
           <string name="hs" value="h22"/>
-          <int name="x" value="890"/>
+          <int name="x" value="853"/>
         </imgdir>
         <imgdir name="23">
           <string name="hs" value="h23"/>
-          <int name="x" value="885"/>
+          <int name="x" value="847"/>
         </imgdir>
         <imgdir name="24">
           <string name="hs" value="h24"/>
-          <int name="x" value="880"/>
+          <int name="x" value="840"/>
         </imgdir>
         <imgdir name="25">
           <string name="hs" value="h25"/>
-          <int name="x" value="875"/>
+          <int name="x" value="833"/>
         </imgdir>
         <imgdir name="26">
           <string name="hs" value="h26"/>
-          <int name="x" value="870"/>
+          <int name="x" value="827"/>
         </imgdir>
         <imgdir name="27">
           <string name="hs" value="h27"/>
-          <int name="x" value="865"/>
+          <int name="x" value="820"/>
         </imgdir>
         <imgdir name="28">
           <string name="hs" value="h28"/>
-          <int name="x" value="860"/>
+          <int name="x" value="813"/>
         </imgdir>
         <imgdir name="29">
           <string name="hs" value="h29"/>
-          <int name="x" value="855"/>
+          <int name="x" value="807"/>
         </imgdir>
         <imgdir name="30">
           <string name="hs" value="h30"/>
-          <int name="x" value="850"/>
+          <int name="x" value="800"/>
         </imgdir>
       </imgdir>
       <int name="masterLevel" value="10"/>
@@ -2274,7 +2274,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="102"/>
+          <int name="damage" value="109"/>
           <int name="mad" value="11"/>
           <int name="time" value="90"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2286,7 +2286,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="104"/>
+          <int name="damage" value="111"/>
           <int name="mad" value="12"/>
           <int name="time" value="180"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2298,7 +2298,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="106"/>
+          <int name="damage" value="114"/>
           <int name="mad" value="13"/>
           <int name="time" value="270"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2310,7 +2310,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="108"/>
+          <int name="damage" value="116"/>
           <int name="mad" value="14"/>
           <int name="time" value="360"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2322,7 +2322,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="110"/>
+          <int name="damage" value="118"/>
           <int name="mad" value="15"/>
           <int name="time" value="450"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2334,7 +2334,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="112"/>
+          <int name="damage" value="120"/>
           <int name="mad" value="16"/>
           <int name="time" value="540"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2346,7 +2346,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="114"/>
+          <int name="damage" value="122"/>
           <int name="mad" value="17"/>
           <int name="time" value="630"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2358,7 +2358,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="116"/>
+          <int name="damage" value="124"/>
           <int name="mad" value="18"/>
           <int name="time" value="720"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2370,7 +2370,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="118"/>
+          <int name="damage" value="126"/>
           <int name="mad" value="19"/>
           <int name="time" value="810"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2382,7 +2382,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="120"/>
+          <int name="damage" value="129"/>
           <int name="mad" value="20"/>
           <int name="time" value="900"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2394,7 +2394,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="122"/>
+          <int name="damage" value="131"/>
           <int name="mad" value="21"/>
           <int name="time" value="990"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2406,7 +2406,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="124"/>
+          <int name="damage" value="133"/>
           <int name="mad" value="22"/>
           <int name="time" value="1080"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2418,7 +2418,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="126"/>
+          <int name="damage" value="135"/>
           <int name="mad" value="23"/>
           <int name="time" value="1170"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2430,7 +2430,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="128"/>
+          <int name="damage" value="137"/>
           <int name="mad" value="24"/>
           <int name="time" value="1260"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2442,7 +2442,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="130"/>
+          <int name="damage" value="139"/>
           <int name="mad" value="25"/>
           <int name="time" value="1350"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2454,7 +2454,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="132"/>
+          <int name="damage" value="141"/>
           <int name="mad" value="26"/>
           <int name="time" value="1440"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2466,7 +2466,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="134"/>
+          <int name="damage" value="144"/>
           <int name="mad" value="27"/>
           <int name="time" value="1530"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2478,7 +2478,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="136"/>
+          <int name="damage" value="146"/>
           <int name="mad" value="28"/>
           <int name="time" value="1620"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2490,7 +2490,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="138"/>
+          <int name="damage" value="148"/>
           <int name="mad" value="29"/>
           <int name="time" value="1710"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2502,7 +2502,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="140"/>
+          <int name="damage" value="150"/>
           <int name="mad" value="30"/>
           <int name="time" value="1800"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2604,7 +2604,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="102"/>
+          <int name="damage" value="109"/>
           <int name="mad" value="11"/>
           <int name="time" value="90"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2616,7 +2616,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="104"/>
+          <int name="damage" value="111"/>
           <int name="mad" value="12"/>
           <int name="time" value="180"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2628,7 +2628,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="106"/>
+          <int name="damage" value="114"/>
           <int name="mad" value="13"/>
           <int name="time" value="270"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2640,7 +2640,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="108"/>
+          <int name="damage" value="116"/>
           <int name="mad" value="14"/>
           <int name="time" value="360"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2652,7 +2652,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="110"/>
+          <int name="damage" value="118"/>
           <int name="mad" value="15"/>
           <int name="time" value="450"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2664,7 +2664,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="112"/>
+          <int name="damage" value="120"/>
           <int name="mad" value="16"/>
           <int name="time" value="540"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2676,7 +2676,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="114"/>
+          <int name="damage" value="122"/>
           <int name="mad" value="17"/>
           <int name="time" value="630"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2688,7 +2688,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="116"/>
+          <int name="damage" value="124"/>
           <int name="mad" value="18"/>
           <int name="time" value="720"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2700,7 +2700,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="118"/>
+          <int name="damage" value="126"/>
           <int name="mad" value="19"/>
           <int name="time" value="810"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2712,7 +2712,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="20"/>
-          <int name="damage" value="120"/>
+          <int name="damage" value="129"/>
           <int name="mad" value="20"/>
           <int name="time" value="900"/>
           <vector name="lt" x="-45" y="-30"/>
@@ -2724,7 +2724,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="122"/>
+          <int name="damage" value="131"/>
           <int name="mad" value="21"/>
           <int name="time" value="990"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2736,7 +2736,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="124"/>
+          <int name="damage" value="133"/>
           <int name="mad" value="22"/>
           <int name="time" value="1080"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2748,7 +2748,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="126"/>
+          <int name="damage" value="135"/>
           <int name="mad" value="23"/>
           <int name="time" value="1170"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2760,7 +2760,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="128"/>
+          <int name="damage" value="137"/>
           <int name="mad" value="24"/>
           <int name="time" value="1260"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2772,7 +2772,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="130"/>
+          <int name="damage" value="139"/>
           <int name="mad" value="25"/>
           <int name="time" value="1350"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2784,7 +2784,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="132"/>
+          <int name="damage" value="141"/>
           <int name="mad" value="26"/>
           <int name="time" value="1440"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2796,7 +2796,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="134"/>
+          <int name="damage" value="144"/>
           <int name="mad" value="27"/>
           <int name="time" value="1530"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2808,7 +2808,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="136"/>
+          <int name="damage" value="146"/>
           <int name="mad" value="28"/>
           <int name="time" value="1620"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2820,7 +2820,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="138"/>
+          <int name="damage" value="148"/>
           <int name="mad" value="29"/>
           <int name="time" value="1710"/>
           <vector name="lt" x="-50" y="-35"/>
@@ -2832,7 +2832,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="30"/>
-          <int name="damage" value="140"/>
+          <int name="damage" value="150"/>
           <int name="mad" value="30"/>
           <int name="time" value="1800"/>
           <vector name="lt" x="-50" y="-35"/>
