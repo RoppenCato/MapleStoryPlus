@@ -24,10 +24,30 @@ Related: [Bosses and party quests](Bosses-and-Party-Quests.md), [Class changes](
 
 | Band | Levels | Finishing it gives | Candidate bosses |
 |------|--------|--------------------|------------------|
-| 1 | 10 to 30 | 2nd job | Mano (20). Very few bosses exist below level 30, so this band needs other trials or lower-level bosses. |
+| 1 | 10 to 30 | 2nd job | Mano (20), plus one low-level boss outside each starting town. See below. |
 | 2 | 30 to 70 | 3rd job | Stumpy (35), Deo (38), Seruf (45), Rombot (47), Faust (50), Giant Centipede (50), King Clang (55), Shade (56), Timer (59), Mushmom (60), Zombie Mushmom (65), Dyle (65), Zeno (65) |
 | 3 | 70 to 120 | 4th job | Nine-Tailed Fox (70), Tae Roon (71), Riche (74), King Sage Cat (77), Jr. Balrog (80), Eliza (83), Chimera (85), Snowman (90), Griffey (105), Manon (105), Pianus (110), Balrog |
 | 4 | 120 and up | Endgame rewards | Leviathan (120), Dodo (121), Papulatus (125), Lilynouch (131), Lyka (141), Zakum, Horntail, Pink Bean |
+
+### Band 1: one boss outside each starting town (parked 2026-10-10)
+
+Robin's idea: one boss per starter zone, just outside each explorer town, so Band 1 has six bosses to pick 4 from. The game data already has low-level versions of several bosses, so no new monsters are needed. Not tested in game; the matching below is a first guess.
+
+| Town | Boss | Level | HP in the data | Spawn command to try it |
+|------|------|-------|----------------|-------------------------|
+| Lith Harbor | Mano | 20 | 2,000 | already lives there |
+| Henesys | Mushmom (small version) | 10 | 1,000 | `!spawn 9303004` |
+| Kerning City | King Slime | 20 | 945 | `!spawn 9500168` |
+| Ellinia | King Slime (stronger) or a demon | 23 to 25 | 2,500 to 5,000 | `!spawn 9500325` |
+| Perion | Jr. Balrog (small version) | 30 | 3,094 | `!spawn 9500169` |
+| Nautilus | A demon: Andras, Amdusias, Crocell, Marbas or Valefor | 25 | 2,500 | `!spawn 9400609` to `9400613` |
+
+Still to do when this is picked up: see how each one looks and fights, settle which boss goes with which town, raise HP to a real boss fight, and write a spawner script per boss.
+
+What the server can and cannot do with bosses:
+
+- Easy: put any existing monster on any map with a respawn timer, and change its HP, exp and drops.
+- Needs client edits: a brand-new monster, a different name or level on screen, and how hard a boss hits.
 
 ### Tokens
 
@@ -56,7 +76,6 @@ Set a target fight length and work backwards from measured damage: about 1 to 3 
 ## To find out first
 
 - Which two items can serve as the tokens without client edits (existing, unused items with fitting names).
-- What Band 1 uses for trials, given how few bosses exist below level 30.
 
 ## Considered and dropped
 
