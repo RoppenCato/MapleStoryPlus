@@ -105,6 +105,19 @@ To measure once built: bundling frees many skill points. A Fighter can then max 
 | 4 | Iron Will lasts 30 minutes (now 300 seconds) and gives +40 weapon and magic defence (now +20 each). | agreed | Server and client skill data |
 | 5 | Final Attack's numbers stay as they are. | agreed | Nothing |
 
+To note: a permanent Hyper Body makes the Dark Knight line by far the highest-HP class. That fits the class and sets up its later skills, which trade HP for damage.
+
+### Crusader (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Combo Attack lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 2 | Panic and Coma are each bundled across sword and axe, by the pairing rule. | agreed | Server code |
+| 3 | Panic and Coma use up 3 orbs instead of all of them, so they are worth pressing without giving up all the Combo damage. Robin's choice. | agreed | Server code; to be tested, since the client also shows the orb count |
+| 4 | Coma has no HP cost (now 25 HP). | agreed | Server and client skill data |
+| 5 | Shout always stuns at max level (now 95%). | agreed | Server and client skill data |
+| 6 | Armor Crash, Shield Mastery and Improving MP Recovery stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
