@@ -30,7 +30,7 @@ The order is a plan, not a rule. Move things when it makes sense.
 - [x] `F-5` Make our character a GM so we can test things
 - [x] `F-6` Ultrawide: 1680x720 in fullscreen (Alt+Enter). Details in `Client/README.md`.
 - [ ] `F-7` Raise the damage cap in the client and confirm the server accepts it
-- [ ] `F-8` Backups: git repo and `Backup-Database.bat` are set up locally. Push to GitHub is waiting: the repo is public.
+- [x] `F-8` Backups: git repo pushed to GitHub (public repo), and `Backup-Database.bat` for the database
 - [ ] `F-9` Run the server's own tests once
 
 ## 1. Understand what we have (no changes)
@@ -42,7 +42,7 @@ The order is a plan, not a rule. Move things when it makes sense.
 - [ ] `R-5` How NPC scripts, shops, drops and quests are stored, so we know what is easy and what is hard
 - [ ] `R-6` Play the unchanged game for a while and note what feels bad solo
 
-Decision after this section: **is everything made solo, or do bots fill the party?** Most later sections depend on it.
+Decision (2026-10-10): **solo by default, with companion bots as optional extra damage.** Content is made soloable; bots are never required.
 
 ## 2. Quick wins from the settings file
 

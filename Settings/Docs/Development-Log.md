@@ -47,7 +47,12 @@ What we have done, decided and changed. Newest first.
 **Open**
 
 - Install the client and log in.
-- Solo or bots in the party: decide after looking at how the bots work (Implementation list, section 1).
+- Test companion bots in game (do they take damage, follow into boss rooms, count for party quests).
+
+**Decided later the same day**
+
+- Solo by default, with companion bots as optional extra damage.
+- The GitHub repo (`RoppenCato/MapleStoryPlus`) is public. Nothing private goes in it.
 
 ## Changes to the server code
 
