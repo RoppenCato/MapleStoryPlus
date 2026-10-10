@@ -37,11 +37,13 @@ public class SkillSplash {
     // How far from the monster that was hit another monster may stand, in pixels.
     private static final int REACH_X = 200;
     private static final int REACH_Y = 80;
-    // The extra damage lands a little after the hit, about when the projectile arrives.
-    private static final long DELAY_MS = 350;
+    // The extra damage lands just after the client shows the first hit. The client reports that moment with
+    // each attack (the hit delay); this is added to it, and used alone when no delay is reported.
+    private static final long AFTER_HIT_MS = 150;
+    private static final long MIN_DELAY_MS = 700;
 
     /** Called after a single-target hit has been applied to {@code hit}. */
-    public static void apply(Character player, MapleMap map, Monster hit, Skill skill, StatEffect effect, int damage) {
+    public static void apply(Character player, MapleMap map, Monster hit, Skill skill, StatEffect effect, int damage, short hitDelay) {
         if (skill == null || effect == null || damage <= 0 || !SKILLS.contains(skill.getId())) {
             return;
         }
@@ -76,7 +78,7 @@ public class SkillSplash {
                     m.applyStatus(player, new MonsterStatusEffect(stati, skill, null, false), effect.isPoison(), effect.getDuration());
                 }
                 map.damageMonster(player, m, dealt);
-            }, DELAY_MS);
+            }, Math.max(MIN_DELAY_MS, hitDelay + AFTER_HIT_MS));
         }
     }
 }
