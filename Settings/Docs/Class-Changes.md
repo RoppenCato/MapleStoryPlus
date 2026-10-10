@@ -146,6 +146,10 @@ Under discussion since 2026-10-10, one job at a time.
 | 2 | Assassin | Haste lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
 | 3 | Assassin | Drain hits up to 3 monsters (now 1), giving 2nd job a group attack. The healing must not grow with it: the heal counts only one monster per use, as today. | agreed | Server and client skill data; the heal rule is server code |
 | 4 | Assassin | Critical Throw, Claw Mastery and Endure stay as they are. | agreed | Nothing |
+| 5 | Hermit | Shadow Partner lasts 30 minutes (now 3). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
+| 6 | Hermit | Meso Up lasts 30 minutes (now 2). | agreed | Server and client skill data |
+| 7 | Hermit | Avenger does 200% on 6 monsters (now 180%). | agreed | Server and client skill data |
+| 8 | Hermit | Flash Jump, Shadow Web, Alchemist and Shadow Meso stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
