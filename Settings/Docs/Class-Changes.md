@@ -43,13 +43,23 @@ Hero, Paladin, Dark Knight.
 
 ## Magicians
 
-Fire/Poison, Ice/Lightning, Bishop.
+Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job at a time.
 
-**Goal:** not set.
+**Goal:** not set. Starting point: magicians are not weak overall (they are the best group killers from 3rd job on). The problems are early: 1st job is slow.
 
 **Ideas**
 
 - Stronger bonus against elemental weaknesses.
+
+### Magician (shared 1st job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Magic Guard lasts 30 minutes (now 10). | agreed | Server and client skill data |
+| 2 | Magic Armor lasts 30 minutes (now 400 seconds) and gives more defence. Suggested: +80 weapon defence (now +40) and +40 magic defence (now none). | agreed; numbers proposed | Server and client skill data |
+| 3 | Energy Bolt hits up to 3 monsters (now 1), so it has a use next to Magic Claw. | proposed | Server and client skill data |
+| 4 | Improved MP Recovery recovers more MP. Suggested: double what it gives now. | agreed; numbers proposed | To be tested: natural recovery is worked out by the client, so this may have to be done as extra recovery from the server |
+| 5 | Magic Claw and Improved MaxMP Increase stay as they are. | proposed | Nothing |
 
 **Changes:** none yet.
 
