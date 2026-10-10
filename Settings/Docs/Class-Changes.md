@@ -22,7 +22,7 @@ Change table columns:
 **Ideas**
 
 - Review damage and MP/HP costs of all skills.
-- Long buffs: boosters and similar self-buffs last 30 minutes. Agreed for the bandit's Dagger Booster and Haste on 2026-10-10; every weapon booster in the game lasts 200 seconds at max today. To decide: does this apply to every class?
+- **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 
 **Changes:** none yet.
 
@@ -76,8 +76,8 @@ Status: `agreed` = Robin decided it. `proposed` = suggested, not yet confirmed. 
 
 | # | Job | Change | Status | Needs |
 |---|-----|--------|--------|-------|
-| 1 | Rogue | Double Stab gets an overall damage buff. Suggested: 160% per hit at max instead of 140% (320% in total, was 280%). | agreed; numbers proposed | Server and client skill data |
-| 2 | Bandit | Savage Blow is better than a maxed Double Stab from its first point, and stronger overall. Suggested: 6 hits at every level, 55% per hit at level 1 (330%) growing to 100% at level 30 (600%, was 480%). | agreed; numbers proposed | Server and client skill data |
+| 1 | Rogue | Double Stab gets an overall damage buff: 160% per hit at max instead of 140% (320% in total, was 280%). | agreed | Server and client skill data |
+| 2 | Bandit | Savage Blow is better than a maxed Double Stab from its first point, and stronger overall: 6 hits at every level, 55% per hit at level 1 (330%) growing to 100% at level 30 (600%, was 480%). | agreed | Server and client skill data |
 | 3 | Bandit | Steal hits 4 monsters from level 1 and 6 when maxed. | agreed | Server and client skill data |
 | 4 | Bandit | Dagger Booster and Haste last 30 minutes (now 200 seconds at max). | agreed | Server and client skill data |
 | 5 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | agreed | To be tested: the client may refuse another job's skill |
