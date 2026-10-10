@@ -115,6 +115,18 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 
 To measure once built: Ice Strike can keep a whole group frozen almost permanently. It is the safest group attack in the game.
 
+### Priest (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Holy Symbol lasts 30 minutes (now 2) and gives its full +50% exp to a solo player (now only a fraction when alone). | agreed | Server and client skill data, plus the setting `USE_FULL_HOLY_SYMBOL` |
+| 2 | Summon Dragon lasts 30 minutes (now 140 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
+| 3 | Doom always succeeds at max level (now 90%). | agreed | Server and client skill data |
+| 4 | Mystic Door lasts 10 minutes (now 3). | agreed | Server and client skill data |
+| 5 | Shining Ray, Dispel and Elemental Resistance stay as they are. | agreed | Nothing |
+
+To measure once built: a permanent +50% exp makes the priest level half again as fast as every other class. +25% is the fallback if that proves too much.
+
 **Changes:** none yet.
 
 ## Bowmen
