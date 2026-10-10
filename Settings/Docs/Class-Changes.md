@@ -155,6 +155,17 @@ To measure once built: longer Infinity and a cheaper Meteor Shower make the stro
 
 To measure once built: a cheaper Blizzard with a longer Infinity freezes and damages 15 monsters on every cast. It is the safest ultimate in the game.
 
+### Bishop (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Mana Reflection lasts 30 minutes (now 250 seconds). | agreed | Server and client skill data |
+| 2 | Bahamut lasts 30 minutes (now 160 seconds). | agreed | Server and client skill data |
+| 3 | Infinity lasts 120 seconds (now 40). The 10-minute cooldown stays. | agreed | Server and client skill data |
+| 4 | Genesis costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
+| 5 | Resurrection works on yourself: when you would die, you are revived on the spot instead. Same 30-minute cooldown. Today it does nothing for a solo player. | agreed | To be tested: whether the server can stop a death as it happens |
+| 6 | Angel Ray, Holy Shield, Big Bang and Hero's Will stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Bowmen
