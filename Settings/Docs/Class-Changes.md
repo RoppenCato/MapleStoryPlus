@@ -533,6 +533,14 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 
 Found while checking: on our server the Blaze Capsule only comes from a few monster drops, and no source was found for the Glacier Capsule, so an Outlaw could barely use its group attacks.
 
+### Buccaneer (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Speed Infusion lasts 30 minutes (now 300 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 2 | Super Transformation lasts 3 minutes (now 2). The 4-minute cooldown stays. | agreed | Server and client skill data |
+| 3 | Demolition, Barrage, Dragon Strike, Energy Orb, Snatch, Time Leap and Pirate's Rage stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Cygnus Knights
