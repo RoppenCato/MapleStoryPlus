@@ -86,6 +86,23 @@ foreach ($row in $rows) {
     }
     $img.Changed = $true
 }
+# Skills that lose their projectile. The game keeps a spell that fires a projectile on one target whatever
+# its target count says; without the projectile it is treated as an area spell, like Thunder Bolt.
+# Trial: Energy Bolt only.
+$noProjectile = @(2001004)
+$removed = 0
+foreach ($id in $noProjectile) {
+    $name = ('{0:000}.img' -f [int][math]::Floor($id / 10000))
+    if (-not $images.ContainsKey($name)) {
+        $img = $wz.WzDirectory.WzImages | Where-Object { $_.Name -eq $name }
+        if ($img) { [void]$img.ParseImage() }
+        $images[$name] = $img
+    }
+    $skill = $images[$name].GetFromPath(('skill/{0:0000000}' -f $id))
+    $ball = $skill.WzProperties | Where-Object { $_.Name -eq 'ball' } | Select-Object -First 1
+    if ($ball) { $skill.RemoveProperty($ball); $images[$name].Changed = $true; $removed++ }
+}
+"Projectiles removed: $removed"
 "Values: $changed changed, $added added, $same already matching. Skills not found in the client: $($missing.Keys.Count)"
 if ($missing.Keys.Count) { '  ' + (($missing.Keys | Sort-Object) -join ', ') }
 
@@ -175,6 +192,12 @@ foreach ($row in $rows) {
     if (-not $p) { $bad++ }
     elseif ($row.value -match ',') { if (('{0},{1}' -f $p.X.Value, $p.Y.Value) -ne $row.value) { $bad++ } }
     elseif ([int]$p.WzValue -ne [int]$row.value) { $bad++ }
+}
+foreach ($id in $noProjectile) {
+    $name = ('{0:000}.img' -f [int][math]::Floor($id / 10000))
+    if (-not $loaded.ContainsKey($name)) { $i = $check.WzDirectory.WzImages | Where-Object { $_.Name -eq $name }; [void]$i.ParseImage(); $loaded[$name] = $i }
+    if ($loaded[$name].GetFromPath(('skill/{0:0000000}/ball' -f $id))) { $bad++ }
+    if (-not $loaded[$name].GetFromPath(('skill/{0:0000000}/hit' -f $id))) { $bad++ }
 }
 $check.Dispose()
 if ($bad) { throw "$bad values did not read back correctly. Nothing was installed." }
