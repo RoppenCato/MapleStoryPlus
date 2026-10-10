@@ -24,7 +24,7 @@ Change table columns:
 - Review damage and MP/HP costs of all skills.
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 - **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
-- **Critical hits for every class (Robin's idea, 2026-10-10; numbers proposed).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
+- **Agreed 2026-10-10: critical hits for every class (Robin's idea).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
 
   | Job | Chance | A critical hit does |
   |-----|--------|---------------------|
