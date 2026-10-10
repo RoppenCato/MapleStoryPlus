@@ -102,6 +102,19 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 | 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
 | 6 | Explosion, Element Composition and Partial Resistance stay as they are. | agreed | Nothing |
 
+### Ice/Lightning Mage (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Element Amplification: extra MP cost shrinks to none at max, as for the Fire/Poison Mage. | agreed | Server and client skill data |
+| 2 | Element Amplification raises the weakness bonus to 175% at max, as for the Fire/Poison Mage. | agreed | To be tested, likely client code |
+| 3 | Spell Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 4 | Ice Strike freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
+| 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
+| 6 | Thunder Spear, Element Composition and Partial Resistance stay as they are. | agreed | Nothing |
+
+To measure once built: Ice Strike can keep a whole group frozen almost permanently. It is the safest group attack in the game.
+
 **Changes:** none yet.
 
 ## Bowmen
