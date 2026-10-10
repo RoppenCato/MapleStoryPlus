@@ -23,6 +23,7 @@ Change table columns:
 
 - Review damage and MP/HP costs of all skills.
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
+- **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
 
 **Changes:** none yet.
 
@@ -150,6 +151,8 @@ Under discussion since 2026-10-10, one job at a time.
 | 6 | Hermit | Meso Up lasts 30 minutes (now 2). | agreed | Server and client skill data |
 | 7 | Hermit | Avenger does 200% on 6 monsters (now 180%). | agreed | Server and client skill data |
 | 8 | Hermit | Flash Jump, Shadow Web, Alchemist and Shadow Meso stay as they are. | agreed | Nothing |
+| 9 | Night Lord | Shadow Stars lasts 30 minutes (now 2). To measure once built: this removes almost all star use, which was the class's running cost. 10 minutes is the fallback if that proves too generous. | agreed | Server and client skill data |
+| 10 | Night Lord | Triple Throw, Taunt, Shadow Shifter, Venomous Star, Ninja Ambush, Ninja Storm and Hero's Will stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
