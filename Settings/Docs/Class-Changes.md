@@ -482,11 +482,17 @@ Under discussion since 2026-10-10, one job at a time.
 
 ## Pirates
 
-Buccaneer, Corsair.
+Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 
-**Goal:** not set.
+**Goal:** not set. Starting point: both branches are mobile and flashy but were weak on damage for most of the game, and the gunslinger has little to shoot with early on.
 
-**Ideas:** none yet.
+### Pirate (shared 1st job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Double Shot does 130% per bullet (now 80%), matching the bowman's Double Shot. At 160% in total it was the weakest 1st job attack in the game. | agreed | Server and client skill data |
+| 2 | Dash lasts 3 minutes (now 20 seconds). Not 30 minutes: it is meant as a burst, and a permanent +30 speed would outrun thieves with Haste. | agreed | Server and client skill data |
+| 3 | Flash Fist, Sommersault Kick and Bullet Time stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 
