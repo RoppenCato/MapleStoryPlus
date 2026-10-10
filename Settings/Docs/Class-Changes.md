@@ -65,6 +65,16 @@ Bowmaster, Marksman.
 
 ## Thieves
 
+### Rogue (shared 1st job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Double Stab: 160% per hit at max instead of 140%. (Also line 1 of the bandit plan.) | agreed | Server and client skill data |
+| 2 | Dark Sight has no speed penalty at any level (now slows by 30 at level 1, none only at max). | agreed | Server and client skill data |
+| 3 | Nimble Body gets a buff. Suggested: +30 accuracy and +30 avoidability at max (now +20 each), plus +10 speed if a passive can give speed. | agreed; numbers proposed | Server and client skill data; the speed part is to be tested |
+| 4 | Disorder gets a buff. Suggested: it affects up to 6 monsters (now 1), lowers their attack and defence by 30 (now 20), and lasts 2 minutes (now 1). | agreed; numbers proposed | Server and client skill data |
+| 5 | Lucky Seven and Keen Eyes stay as they are. | agreed | Nothing |
+
 ### Bandit line (Rogue, Bandit, Chief Bandit, Shadower)
 
 Under discussion since 2026-10-10. Ideas from other servers are in [Research-Other-Servers.md](Research-Other-Servers.md).
