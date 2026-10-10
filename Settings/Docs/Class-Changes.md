@@ -522,6 +522,17 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 | 3 | Transformation lasts 3 minutes (now 2). The 6-minute cooldown stays, so it remains a state to plan around. | agreed | Server and client skill data |
 | 4 | Shockwave, Energy Drain and Stun Mastery stay as they are. | agreed | Nothing |
 
+### Outlaw (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Flamethrower needs no Blaze Capsule. | agreed | Server and client skill data; to be tested, since the client may check for the item itself |
+| 2 | Ice Splitter needs no Glacier Capsule. | agreed | Same |
+| 3 | Octopus lasts 2 minutes (now 30 seconds). | agreed | Server and client skill data |
+| 4 | Gaviota, Burst Fire and Homing Beacon stay as they are. | agreed | Nothing |
+
+Found while checking: on our server the Blaze Capsule only comes from a few monster drops, and no source was found for the Glacier Capsule, so an Outlaw could barely use its group attacks.
+
 **Changes:** none yet.
 
 ## Cygnus Knights
