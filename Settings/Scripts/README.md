@@ -70,6 +70,7 @@ Prototype: bots answer whispers through Claude Haiku. Started with `Start-Bot-Ch
 - Nothing is saved. A bot's personality is made up from its name, and the conversation is forgotten after 10 minutes of silence or when the window closes.
 - Replies come from Claude Code running Haiku on your Claude login, with no API key. Run `Login-Bot-Chat.bat` once to sign it in.
 - Each reply starts a new Claude Code process and takes 2 to 5 seconds.
+- Bots are kept away from everything personal: no tools, no connectors, no memory, no saved transcripts, and they run in an empty folder outside every project. Replies that contain an email address, a file path or a detail of the computer are dropped before they reach the game.
 - Bots write proper English and use common MapleStory words.
 - Small talk gets no lookup. The bridge only looks things up when the message asks for game information (drop, find, where, way and similar words), so "do you like cats?" is not answered with facts about the monster Cat.
 - Bots give directions: ask for the way to a town, or to a monster you were just talking about, and the bridge works out the route from the map you are on (walking, cabs and rides with fares). Follow-up questions like "where is that?" and "how do I get there?" use what the conversation was last about.
