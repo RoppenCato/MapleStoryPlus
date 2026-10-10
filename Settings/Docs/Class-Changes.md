@@ -345,6 +345,15 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 | 2 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
 | 3 | Strafe, Arrow Rain, Inferno, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
 
+### Sniper (3rd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Strafe does 120% per arrow (now 100%, the same as the Ranger's), to offset the crossbow's slower shooting. A first estimate: check it by comparing a Ranger and a Sniper at the same level. | agreed | Server and client skill data |
+| 2 | Golden Eagle lasts 30 minutes (now 180 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
+| 3 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
+| 4 | Arrow Eruption, Blizzard, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Thieves
