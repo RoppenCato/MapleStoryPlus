@@ -67,7 +67,23 @@ Bowmaster, Marksman.
 
 Under discussion since 2026-10-10. Ideas from other servers are in [Research-Other-Servers.md](Research-Other-Servers.md).
 
-**Goal:** not set.
+**Goal (set 2026-10-10):** a fast melee thief. Mobility and group attacks are fixed first; the meso skills stay as flavour and should work without chores.
+
+**Proposed plan** (not approved line by line yet)
+
+| # | Job | Change | Needs |
+|---|-----|--------|-------|
+| 1 | Bandit | Savage Blow hits 6 times at every level; damage per hit grows from 50% to 80%. Level 1 does 300% in total (Double Stab at max does 280%), level 30 does 480% as now. | Server and client skill data |
+| 2 | Bandit | A group attack in 2nd job: Steal hits up to 3 monsters. | Server and client skill data |
+| 3 | Chief Bandit | Flash Jump at 3rd job, the same point where Hermits get it. | To be tested: the client may refuse another job's skill |
+| 4 | Chief Bandit | Assaulter is faster and travels further, so it works as movement. | Client data, possibly client code |
+| 5 | Chief Bandit | Pickpocket drops mesos far more reliably and lasts longer, so Meso Explosion always has something to explode. | Server data |
+| 6 | Chief Bandit | Meso Guard lasts 180 seconds. | Server and client skill data |
+| 7 | Shadower | Assassinate does full damage without the Dark Sight setup. | To be tested |
+| 8 | All | Dark Sight is a toggle and any attack leaves it. | Client code, likely hard |
+| 9 | Shadower | Boomerang Step works on slopes and at ledges. | Client code, likely hard |
+
+Order: 1 first, because it is also the first test of how a skill edit is made at all (`R-4`). Then 2 and 3.
 
 **How it plays now** (numbers from `SkillDetails.tsv`)
 
