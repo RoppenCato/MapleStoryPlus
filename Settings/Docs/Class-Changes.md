@@ -154,6 +154,15 @@ The class's theme is spending HP for damage. Small constant HP costs are removed
 |---|--------|--------|-------|
 | 1 | Brandish, Advanced Combo Attack, Enrage and Guardian stay as they are. The Hero already gains from the crit rule and from permanent Rage and Combo Attack. | agreed | Nothing |
 
+### Paladin (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Holy Charge and Divine Charge are bundled, by the pairing rule. | agreed | Server code |
+| 2 | Holy Charge and Divine Charge last 30 minutes (now 300 seconds) and do 150% (now 140%), so they stay ahead of the 3rd job charges at 130%. | agreed | Server and client skill data |
+| 3 | Advanced Charge still raises Charged Blow to 350%. Its other half, keeping the charge, moved to 3rd job; in its place Charged Blow hits up to 10 monsters (now 6). | agreed | Server and client skill data; the target count per Advanced Charge level is to be tested |
+| 4 | Blast, Heaven's Hammer and Guardian stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
