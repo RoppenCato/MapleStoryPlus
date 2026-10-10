@@ -317,6 +317,15 @@ Bowmaster, Marksman. Under discussion since 2026-10-10, one job at a time.
 | 2 | Focus lasts 30 minutes (now 300 seconds) and also gives +10 movement speed. This is the bowman's speed-up. | agreed | Server and client skill data |
 | 3 | Critical Shot, Double Shot, The Blessing of Amazon and The Eye of Amazon stay as they are. | agreed | Nothing |
 
+### Hunter (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Bow Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 2 | Soul Arrow lasts 30 minutes (now 10). Arrows stop being a running chore. Under Soul Arrow you get no bonus from better arrow types, as in the original game. | agreed | Server and client skill data |
+| 3 | Power Knock-Back always works at max level (now 70%). | agreed | Server and client skill data |
+| 4 | Arrow Bomb, Final Attack and Bow Mastery stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Thieves
