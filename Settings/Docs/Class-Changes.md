@@ -79,6 +79,18 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 3 | Cold Beam freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
 | 4 | Thunder Bolt, MP Eater and Slow stay as they are. | agreed | Nothing |
 
+### Cleric (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Holy Arrow does 120 magic attack (now 80) and hits up to 3 monsters (now 1). | agreed | Server and client skill data |
+| 2 | Bless lasts 30 minutes (now 200 seconds) and also reduces all damage taken by 15%. | agreed | Server and client skill data; the damage reduction is server code |
+| 3 | Invincible lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
+| 4 | Teleport costs less MP, as for the wizards. | agreed | Server and client skill data |
+| 5 | Heal and MP Eater stay as they are. | agreed | Nothing |
+
+To measure once built: Bless, Invincible, Magic Guard and a full self-heal together make the cleric the sturdiest 2nd job by a distance.
+
 **Changes:** none yet.
 
 ## Bowmen
