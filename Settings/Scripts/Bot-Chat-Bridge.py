@@ -52,7 +52,9 @@ which mob mobs monster monsters item items any some good best you your have has 
 farming hunt hunting kill killing scroll potion throwing star arrow
 that this there here are was will would should about know tell please pls thanks""".split())
 # Players and item names use different words for the same thing.
+SHORT_WORDS = {"jr", "ht", "pb"}          # two-letter words that matter in names ("Jr. Balrog")
 SAME_WORD = {"attack": "att", "atk": "att", "defense": "def", "defence": "def", "accuracy": "acc", "avoid": "avoidability",
+             "junior": "jr",
              "glove": "glove", "gloves": "glove", "shoe": "shoe", "steely": "steely", "steelies": "steely", "ilbis": "ilbi"}
 MAX_ITEMS_EXPLAINED = 2
 MAX_MOBS_PER_ITEM = 4
@@ -104,10 +106,13 @@ class Knowledge:
         ref = os.path.join(ROOT, "Settings", "Reference")
         self.mob_level = {}
         self.mob_boss = set()
+        all_mobs = []
         for r in self._rows(os.path.join(ref, "Mobs.tsv")):
             self.mob_level[r["id"]] = r["level"]
             if r["boss"]:
                 self.mob_boss.add(r["id"])
+            if r["name"].strip():
+                all_mobs.append((r["name"].strip(), r["id"]))
         self.mob_home = {}                   # mob id -> (count, "Map (Area)")
         self.mob_ids = {}                    # mob name -> mob id
         for r in self._rows(os.path.join(ref, "MobSpawns.tsv")):
@@ -119,8 +124,14 @@ class Knowledge:
             rank = (r["map_id"] in reachable, int(r["count"]))
             if rank > self.mob_home.get(r["mob_id"], ((False, 0), "", ""))[0]:
                 self.mob_home[r["mob_id"]] = (rank, place, r["map_id"])
-            if r["mob"]:
-                self.mob_ids.setdefault(r["mob"], r["mob_id"])
+            # Several monsters can share a name (event copies). Keep the one with the best home.
+            if r["mob"] and (r["mob"] not in self.mob_ids
+                             or self.mob_home[r["mob_id"]][0] > self.mob_home.get(self.mob_ids[r["mob"]], ((False, 0),))[0]):
+                self.mob_ids[r["mob"]] = r["mob_id"]
+        # Monsters that never appear in the spawn list (summoned or scripted ones such as Crimson Balrog on the
+        # boat) are still known by name, just without a home. Event copies numbered 9000000 and up come last.
+        for name, mob_id in sorted(all_mobs, key=lambda m: (int(m[1]) >= 9000000, int(m[1]))):
+            self.mob_ids.setdefault(name, mob_id)
         # The same monster often exists several times (party quest and event copies). Keep one per name:
         # the copy that actually lives on a map.
         self.item_drops = {}                 # item name -> {mob name: (mob id, best chance)}
@@ -135,6 +146,11 @@ class Knowledge:
             best_id = r["mob_id"] if (r["mob_id"] in self.mob_home and known_id not in self.mob_home) or not known_id \
                 else known_id
             mobs[r["mob"]] = (best_id, max(chance, known_chance))
+        # Hand-written places: bosses that are not ordinary spawns, so the spawn list does not have them.
+        self.places = []                     # (name, [alias word sets], map id, note)
+        for r in self._rows(os.path.join(ref, "Places.tsv")):
+            aliases = [self._words(a) for a in r["also_called"].split(",") if a.strip()]
+            self.places.append((r["name"], [a for a in aliases if a], r["map_id"], r["note"]))
         self.item_words = {name: self._words(name) for name in self.item_drops}
         self.mob_words = {name: self._words(name) for name in self.mob_ids}
         self.word_use = {}
@@ -160,7 +176,7 @@ class Knowledge:
             if len(w) > 3 and w.endswith("s") and not w.endswith("ss"):
                 w = w[:-1]
             w = SAME_WORD.get(w, w)
-            if len(w) >= 3 or (w.isdigit() and len(w) == 2):
+            if len(w) >= 3 or (w.isdigit() and len(w) == 2) or w in SHORT_WORDS:
                 words.add(w)
         return words
 
@@ -174,13 +190,14 @@ class Knowledge:
             telling = [w for w in hit if w not in COMMON_WORDS]
             rare = any(self.word_use.get(w, 0) <= 40 for w in telling)
             score = len(hit) / len(words)
-            # Either a word few names share ("ilbi"), or most of a longer name ("gloves ... att 60").
-            if not (rare or (len(telling) >= 2 and score >= 0.75)):
+            # A word few names share ("ilbi"), most of a longer name ("gloves ... att 60"), or the whole name
+            # ("jr balrog", even though many names contain "balrog").
+            if not (rare or (len(telling) >= 2 and score >= 0.75) or (telling and score == 1.0)):
                 continue
             scored.append((score, len(hit), -len(name), name))
         scored.sort(reverse=True)
         # Only names that match as well as the best one; weaker matches are noise.
-        return [name for score, *_, name in scored[:limit] if score >= scored[0][0]]
+        return [name for score, hits, _, name in scored[:limit] if (score, hits) >= scored[0][:2]]
 
     def _mob_line(self, mob_id, mob):
         level = self.mob_level.get(mob_id, "")
@@ -200,6 +217,14 @@ class Knowledge:
                 places.append((name, home[2]))
         items = self._best(said, self.item_words, MAX_ITEMS_EXPLAINED)
         mobs_named = self._best(said, self.mob_words, 2)
+        # A hand-written place wins unless a monster's full name matches more of what was said
+        # ("jr balrog" is the monster Jr. Balrog, plain "balrog" is the expedition boss).
+        mob_hits = len(self.mob_words[mobs_named[0]]) if mobs_named and self.mob_words[mobs_named[0]] <= said else 0
+        for name, aliases, map_id, note in self.places:
+            best_alias = max((len(a) for a in aliases if a <= said), default=0)
+            homeless = bool(mobs_named) and self.mob_ids[mobs_named[0]] not in self.mob_home
+            if best_alias and (best_alias > mob_hits or (best_alias == mob_hits and homeless)):
+                return [f"{name}: {note}"], [(name, map_id)]
         # "where can I find lycanthrope" names the monster in full, so it is not about "Lycanthrope Toenail".
         if mobs_named and self.mob_words[mobs_named[0]] <= said and not (items and self.item_words[items[0]] <= said):
             items = []
