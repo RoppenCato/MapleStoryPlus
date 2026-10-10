@@ -326,6 +326,29 @@ def mob_spawns():
     write("MobSpawns.tsv", ["mob_id", "mob", "map_id", "area", "map", "count", "respawn_seconds"], rows)
 
 
+def map_links():
+    """Which maps connect to which through ordinary portals (walking). Scripted portals are not included."""
+    map_names = string_entries("Map")
+    rows = []
+    for path in glob.glob(os.path.join(WZ, "Map.wz", "Map", "Map*", "*.img.xml")):
+        m = re.match(r"0*(\d+)\.img\.xml$", os.path.basename(path))
+        if not m:
+            continue
+        map_id = int(m.group(1))
+        text = read(path)
+        start = text.find('<imgdir name="portal">')
+        if start < 0:
+            continue
+        end = text.find("\n  </imgdir>", start)
+        targets = {int(t) for t in re.findall(r'<int name="tm" value="(\d+)"/>', text[start:end if end > 0 else None])}
+        for target in sorted(targets):
+            if target != map_id and target != 999999999:
+                rows.append((map_id, map_names.get(map_id, {}).get("mapName", ""), target,
+                             map_names.get(target, {}).get("mapName", "")))
+    rows.sort()
+    write("MapLinks.tsv", ["map_id", "map", "to_map_id", "to_map"], rows)
+
+
 if __name__ == "__main__":
     job_names = jobs()
     skills(job_names)
@@ -339,6 +362,7 @@ if __name__ == "__main__":
     quests()
     commands()
     mob_spawns()
+    map_links()
     # These two read the database, so it must be running.
     drops(all_item_names())
     shops(all_item_names())

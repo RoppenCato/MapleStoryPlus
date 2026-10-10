@@ -40,6 +40,7 @@ public class BotChatBridge {
         form.put("level", String.valueOf(bot.getLevel()));
         form.put("job", bot.getJob().name());
         form.put("map", String.valueOf(bot.getMapId()));
+        form.put("player_map", String.valueOf(player.getMapId()));   // lets the bot give directions from where the player is
         form.put("text", message);
         String body = form.entrySet().stream()
                 .map(e -> e.getKey() + "=" + URLEncoder.encode(e.getValue(), StandardCharsets.UTF_8))

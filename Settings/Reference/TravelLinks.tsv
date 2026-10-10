@@ -1,0 +1,37 @@
+from_map	to_map	how	cost	both_ways	note
+101000300	200000100	the boat between Ellinia Station and Orbis Station	5000	yes	ticket from Joel in Ellinia or the seller at Orbis Station
+200000100	220000100	the train between Orbis Station and Ludibrium Station	6000	yes	ticket at the station
+200000100	240000100	the cabin between Orbis Station and Leafre Station	30000	yes	ticket at the station
+200000100	260000100	the genie between Orbis Station and Ariant Station	6000	yes	ticket at the station
+200000141	250000100	the crane between Orbis and Mu Lung	1500	yes
+250000100	251000000	the crane between Mu Lung and Herb Town	500	yes
+103000100	600010001	the subway between Kerning City and New Leaf City	5000	yes	ticket from Bell
+103000000	540010000	the plane between Kerning City and Singapore	5000	yes	ticket from Irene or Shalon
+104000000	100000000	a Regular Cab between Lith Harbor and Henesys	1000	yes
+104000000	101000000	a Regular Cab between Lith Harbor and Ellinia	1000	yes
+104000000	102000000	a Regular Cab between Lith Harbor and Perion	1000	yes
+104000000	103000000	a Regular Cab between Lith Harbor and Kerning City	1000	yes
+104000000	120000000	a Regular Cab between Lith Harbor and Nautilus Harbor	1000	yes
+100000000	101000000	a Regular Cab between Henesys and Ellinia	1000	yes
+100000000	102000000	a Regular Cab between Henesys and Perion	1000	yes
+100000000	103000000	a Regular Cab between Henesys and Kerning City	1000	yes
+100000000	120000000	a Regular Cab between Henesys and Nautilus Harbor	1000	yes
+101000000	102000000	a Regular Cab between Ellinia and Perion	1000	yes
+101000000	103000000	a Regular Cab between Ellinia and Kerning City	1000	yes
+101000000	120000000	a Regular Cab between Ellinia and Nautilus Harbor	1000	yes
+102000000	103000000	a Regular Cab between Perion and Kerning City	1000	yes
+102000000	120000000	a Regular Cab between Perion and Nautilus Harbor	1000	yes
+103000000	120000000	a Regular Cab between Kerning City and Nautilus Harbor	1000	yes
+104000000	105070001	the VIP Cab from Lith Harbor to Ant Tunnel Park	10000	no
+101000000	105070001	the VIP Cab from Ellinia to Ant Tunnel Park	10000	no
+211000000	211040200	the Danger Zone Taxi from El Nath to Ice Valley II	10000	no
+220000000	220050300	the Danger Zone Taxi from Ludibrium to Path of Time	25000	no
+221000000	220000000	the Danger Zone Taxi from Omega Sector to Ludibrium	25000	no
+240000000	240030000	the Danger Zone Taxi from Leafre to the Entrance to Dragon Forest	65000	no
+260000000	261000000	the Camel Cab between Ariant and Magatia	1500	yes
+230000000	251000100	the Dolphin between Aquarium and Herb Town	10000	yes
+104000000	110000000	Pason's boat between Lith Harbor and Florina Beach	1500	yes
+222020100	222020200	the Helios Tower elevator between Ludibrium and Korean Folk Town	0	yes
+2000000	104000000	Shanks' ship from Maple Island to Lith Harbor	150	no
+104000000	140000000	the ship between Lith Harbor and Rien	800	yes
+101000400	130000210	the ship between Ellinia and Ereve	1000	yes

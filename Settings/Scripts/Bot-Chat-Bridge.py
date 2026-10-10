@@ -115,7 +115,7 @@ class Knowledge:
                 continue
             place = r["map"] + (f" ({r['area']})" if r["area"] and r["area"] != r["map"] else "")
             if int(r["count"]) > self.mob_home.get(r["mob_id"], (0, ""))[0]:
-                self.mob_home[r["mob_id"]] = (int(r["count"]), place)
+                self.mob_home[r["mob_id"]] = (int(r["count"]), place, r["map_id"])
             if r["mob"]:
                 self.mob_ids.setdefault(r["mob"], r["mob_id"])
         # The same monster often exists several times (party quest and event copies). Keep one per name:
@@ -188,8 +188,13 @@ class Knowledge:
         return text.replace("(, ", "(")
 
     def facts(self, message):
+        """(notes, places): what is known about the things named, and where they are as [(label, map id)]."""
         said = self._words(message)
-        notes = []
+        notes, places = [], []
+        def remember(mob_id, name):
+            home = self.mob_home.get(mob_id)
+            if home and (name, home[2]) not in places:
+                places.append((name, home[2]))
         for item in self._best(said, self.item_words, MAX_ITEMS_EXPLAINED):
             # Monsters with a known home first, then by drop chance.
             mobs = sorted(self.item_drops[item].items(),
@@ -197,12 +202,133 @@ class Knowledge:
             rarity = lambda c: "common drop" if c >= 10 else "uncommon drop" if c >= 1 else "rare drop"
             parts = [f"{self._mob_line(mid, name)} - {rarity(chance)}" for name, (mid, chance) in mobs]
             notes.append(f"{item} is dropped by: " + "; ".join(parts) + ".")
-        for mob in self._best(said, self.mob_words, 2 if not notes else 1):
+            for name, (mid, _) in mobs:
+                remember(mid, name)
+        # Only look for a monster by name when no item matched: "fairy wand" is not about the monster Fairy.
+        named = self._best(said, self.mob_words, 2) if not notes else []
+        for mob in named:
             notes.append("Monster: " + self._mob_line(self.mob_ids[mob], mob) + ".")
-        return notes
+        # A monster the player names outright is the most likely place they want to go.
+        named_places = []
+        for mob in named:
+            home = self.mob_home.get(self.mob_ids[mob])
+            if home:
+                named_places.append((mob, home[2]))
+        places = named_places + [p for p in places if p not in named_places]
+        return notes, places
+
+
+TRAVEL_WORDS = re.compile(r"\b(way|route|path|directions?|travel|reach|quickest|fastest|shortest|far|"
+                          r"get (there|to)|go (there|to)|how do i get|how to get)\b", re.I)
+RIDE_WEIGHT = 3                 # a ride or taxi counts as this many maps of walking when comparing routes
+
+
+class Routes:
+    """Finds the way between two maps: walking through portals (MapLinks.tsv) plus rides and taxis
+    (TravelLinks.tsv)."""
+
+    def __init__(self):
+        ref = os.path.join(ROOT, "Settings", "Reference")
+        self.names = {}                      # map id -> (name, area)
+        for r in Knowledge._rows(os.path.join(ref, "Maps.tsv")):
+            self.names[r["id"]] = (r["name"], r["area"])
+        self.edges = {}                      # map id -> [(to map, weight, how, cost)]
+        for r in Knowledge._rows(os.path.join(ref, "MapLinks.tsv")):
+            self.edges.setdefault(r["map_id"], []).append((r["to_map_id"], 1, "", 0))
+        for r in Knowledge._rows(os.path.join(ref, "TravelLinks.tsv")):
+            cost = int(r["cost"] or 0)
+            self.edges.setdefault(r["from_map"], []).append((r["to_map"], RIDE_WEIGHT, r["how"], cost))
+            if r["both_ways"] == "yes":
+                self.edges.setdefault(r["to_map"], []).append((r["from_map"], RIDE_WEIGHT, r["how"], cost))
+        # Towns a player might name as a destination.
+        self.towns = {}
+        for map_id, (name, _) in self.names.items():
+            if name and map_id.isdigit() and int(map_id) % 1000000 == 0 and int(map_id) >= 100000000:
+                self.towns.setdefault(name.lower(), map_id)
+        self.towns.setdefault("sleepywood", "105040300")
+
+    def name(self, map_id):
+        name, area = self.names.get(str(map_id), ("", ""))
+        return name or f"map {map_id}"
+
+    def town_in(self, message):
+        text = message.lower()
+        found = [(len(n), mid) for n, mid in self.towns.items() if re.search(r"\b" + re.escape(n) + r"\b", text)]
+        return max(found)[1] if found else None
+
+    def path(self, src, dst):
+        """Cheapest route as [(map id, how it was reached, fare)], or None."""
+        import heapq
+        src, dst = str(src), str(dst)
+        best = {src: 0}
+        came = {}
+        heap = [(0, src)]
+        while heap:
+            d, here = heapq.heappop(heap)
+            if here == dst:
+                break
+            if d > best.get(here, 1e9):
+                continue
+            for to, weight, how, cost in self.edges.get(here, ()):
+                nd = d + weight
+                if nd < best.get(to, 1e9):
+                    best[to] = nd
+                    came[to] = (here, how, cost)
+                    heapq.heappush(heap, (nd, to))
+        if dst not in best:
+            return None
+        steps = []
+        at = dst
+        while at != src:
+            prev, how, cost = came[at]
+            steps.append((at, how, cost))
+            at = prev
+        return list(reversed(steps))
+
+    def describe(self, src, dst):
+        """One line of directions a player could repeat."""
+        if not src or str(src) not in self.names:
+            return ""
+        if str(src) == str(dst):
+            return f"{self.name(dst)} is the map the player is standing on."
+        steps = self.path(src, dst)
+        if steps is None:
+            # Some maps are only reached through special portals. Give the way to the nearest town instead.
+            town = str(int(dst) // 1000000 * 1000000) if str(dst).isdigit() else ""
+            if town in self.names and town != str(dst) and self.name(town) != f"map {town}":
+                if town == str(src):
+                    return (f"{self.name(dst)} is somewhere around {self.name(town)}, where the player already is, "
+                            "but you do not know the exact way.")
+                if self.path(src, town) is not None:
+                    return (self.describe(src, town) + f" {self.name(dst)} is somewhere around {self.name(town)}, "
+                            "but you do not know the exact way from the town.")
+            return f"You do not know the exact way from {self.name(src)} to {self.name(dst)}."
+        parts, walk, here, fares = [], [], str(src), 0
+        def flush():
+            nonlocal walk, here
+            if walk:
+                via = [self.name(m) for m in walk[:-1]]
+                if len(via) > 3:
+                    via = via[:2] + ["..."] + via[-1:]
+                parts.append(f"walk from {self.name(here)} to {self.name(walk[-1])}"
+                             + (f" through {', '.join(via)}" if via else "") + f" ({len(walk)} maps)")
+                here = walk[-1]
+                walk = []
+        for map_id, how, cost in steps:
+            if how:
+                flush()
+                parts.append(f"take {how}" + (f" ({cost:,} mesos)" if cost else ""))
+                here = map_id
+                fares += cost
+            else:
+                walk.append(map_id)
+        flush()
+        total = f" About {len(steps)} maps in all" + (f" and {fares:,} mesos in fares." if fares else ".")
+        return f"Route from {self.name(src)} to {self.name(dst)}: " + ", then ".join(parts) + "." + total
 
 
 knowledge = None
+routes = None
 
 
 def persona(bot):
@@ -233,6 +359,10 @@ def system_prompt(bot, level, job, map_id, player):
         "places, not the whole list. Never mention the note itself.\n"
         "- If the player asks where to find an item or a monster and there is no [Game knowledge] note about it, "
         "say you are not sure rather than guessing.\n"
+        "- If the note has a Route, give directions from it: the rides or taxis to take with their fares, and the "
+        "main places to walk through. Start with the first step from where the player is, keep the order, and do "
+        "not invent steps. If the player asks for the way and "
+        "there is no Route in the note, say you are not sure of the way from where they are.\n"
         "- Put the chat message between <msg> and </msg> and write nothing outside those tags: no preamble, "
         "no explanation, no notes about roleplay or about these instructions.\n"
         "- Plain text only: no quotes around your reply, no emoji, no markdown, no stage directions.\n"
@@ -294,13 +424,43 @@ def ask_claude(system, transcript):
     return text, ""
 
 
-def reply_to(player, bot, level, job, map_id, text):
+def game_notes(convo, text, player_map):
+    """Facts for this message. Follow-up questions ("where is that?", "how do I get there?") reuse what the
+    conversation was last about."""
+    notes, places = knowledge.facts(text) if knowledge else ([], [])
+    asking_way_to_town = bool(routes and TRAVEL_WORDS.search(text) and routes.town_in(text))
+    if asking_way_to_town:
+        notes, places = [], []      # "how do I get to Ludibrium" is about the town, not about "Ludibrium Medal"
+    if notes:
+        convo["notes"], convo["places"] = notes, places
+    elif not asking_way_to_town:
+        notes, places = convo.get("notes", []), convo.get("places", [])
+    notes = list(notes)
+    if routes and TRAVEL_WORDS.search(text):
+        town = routes.town_in(text)
+        # "There" most likely means a monster the bot just talked about.
+        last_reply = next((line for who, line in reversed(convo.get("turns", [])) if who != convo.get("player")), "")
+        spoken = [p for p in places if p[0].lower() in last_reply.lower()]
+        targets = [(routes.name(town), town)] if town else (spoken or places)[:2]
+        if targets and player_map:
+            notes.append(f"The player is standing in {routes.name(player_map)} right now, which may not be where "
+                         "you are. Directions start from there.")
+        for label, map_id in targets:
+            line = routes.describe(player_map, map_id)
+            if line:
+                notes.append(line)
+        if targets and not player_map:
+            notes.append("You do not know which map the player is on, so ask where they are.")
+    return notes
+
+
+def reply_to(player, bot, level, job, map_id, text, player_map=""):
     key = (player.lower(), bot.lower())
     now = time.time()
     with lock:
         for k in [k for k, c in conversations.items() if now - c["last"] > IDLE_SECONDS]:
             del conversations[k]
-        convo = conversations.setdefault(key, {"turns": [], "last": now})
+        convo = conversations.setdefault(key, {"turns": [], "last": now, "player": player})
         new = not convo["turns"]
         convo["turns"].append((player, text))
         convo["last"] = now
@@ -308,7 +468,8 @@ def reply_to(player, bot, level, job, map_id, text):
     if new:
         log(f"--- {player} started talking to {bot} (level {level} {job}). {persona(bot)}")
     log(f"{player} -> {bot}: {text}")
-    notes = knowledge.facts(text) if knowledge else []
+    with lock:
+        notes = game_notes(convo, text, player_map)
     for note in notes:
         log(f"   knows: {note}")
     transcript = "\n".join(f"{who}: {line}" for who, line in turns)
@@ -335,7 +496,8 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         form = parse_qs(self.rfile.read(int(self.headers.get("Content-Length", 0))).decode("utf-8", "ignore"))
         get = lambda k: (form.get(k) or [""])[0]
-        lines = reply_to(get("player"), get("bot"), get("level"), get("job"), get("map"), get("text")[:200])
+        lines = reply_to(get("player"), get("bot"), get("level"), get("job"), get("map"), get("text")[:200],
+                         get("player_map"))
         body = "\n".join(lines).encode("utf-8")
         self.send_response(200)
         self.send_header("Content-Type", "text/plain; charset=utf-8")
@@ -349,14 +511,18 @@ class Handler(BaseHTTPRequestHandler):
 
 def main():
     p = argparse.ArgumentParser(description="Bot chat bridge")
-    p.add_argument("--say", help="test without the game: send one line to a made-up bot and print the reply")
+    p.add_argument("--say", action="append",
+                   help="test without the game: send a line to a made-up bot and print the reply. Repeat for a conversation")
+    p.add_argument("--start", default="101000000", help="map id the player stands on for --say (default Ellinia)")
     p.add_argument("--bot", default="Lunaria", help="bot name for --say")
     a = p.parse_args()
     load_map_names()
-    global knowledge
+    global knowledge, routes
     knowledge = Knowledge()
+    routes = Routes()
     if a.say:
-        reply_to("You", a.bot, "34", "CLERIC", "101000000", a.say)
+        for line in a.say:
+            reply_to("You", a.bot, "34", "CLERIC", "101000000", line, a.start)
         return
     log(f"Bot chat bridge listening on 127.0.0.1:{PORT}, model {MODEL}")
     log(f"Using {CLAUDE}")

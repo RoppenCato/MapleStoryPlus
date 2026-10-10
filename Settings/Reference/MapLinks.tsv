@@ -1,0 +1,2748 @@
+map_id	map	to_map_id	to_map
+1	Upper level of the Training Camp	2	Lower level of the Training Camp
+2	Lower level of the Training Camp	1	Upper level of the Training Camp
+10000	Mushroom Town	20000	Snail Garden
+20000	Snail Garden	30000	Snail Field of Flowers
+20001	Mushroom Town Townstreet	20000	Snail Garden
+30000	Snail Field of Flowers	30001	Mushroom Town Townstreet
+30000	Snail Field of Flowers	40000	In a Small Forest
+30001	Mushroom Town Townstreet	30000	Snail Field of Flowers
+40000	In a Small Forest	50000	Dangerous Forest
+40001	Snail Hunting Ground II	40000	In a Small Forest
+40001	Snail Hunting Ground II	40002	Snail Hunting Ground III
+40002	Snail Hunting Ground III	40001	Snail Hunting Ground II
+40002	Snail Hunting Ground III	50000	Dangerous Forest
+50000	Dangerous Forest	1000000	Amherst
+50001	The Field West of Southperry	50000	Dangerous Forest
+50001	The Field West of Southperry	60000	Southperry
+50001	The Field West of Southperry	1000001	Amherst Weapon Store
+50001	The Field West of Southperry	1000002	Amherst Townstreet
+60000	Southperry	50001	The Field West of Southperry
+60000	Southperry	60001	Southperry Armor Store
+60001	Southperry Armor Store	60000	Southperry
+1000000	Amherst	50000	Dangerous Forest
+1000000	Amherst	1000001	Amherst Weapon Store
+1000000	Amherst	1000003	Amherst Department Store
+1000000	Amherst	1010000	Entrance to Adventurer Training Center
+1000001	Amherst Weapon Store	1000000	Amherst
+1000002	Amherst Townstreet	1000000	Amherst
+1000003	Amherst Department Store	1000000	Amherst
+1000004	Snail Garden	1000000	Amherst
+1000005	Hunting Ground Middle of the Forest I	1020000	Split Road of Destiny
+1000006	Hunting Ground Middle of the Forest II	1020000	Split Road of Destiny
+1010000	Entrance to Adventurer Training Center	1000000	Amherst
+1010000	Entrance to Adventurer Training Center	1020000	Split Road of Destiny
+1010001	Amherst Weapon Store	1010000	Entrance to Adventurer Training Center
+1010002	Amherst Townstreet	1010000	Entrance to Adventurer Training Center
+1010002	Amherst Townstreet	1010004	Snail Field of Flowers
+1010003	Amherst Department Store	1010000	Entrance to Adventurer Training Center
+1010004	Snail Field of Flowers	1010002	Amherst Townstreet
+1010100	Adventurer Training Center 1	1010000	Entrance to Adventurer Training Center
+1010200	Adventurer Training Center 2	1010000	Entrance to Adventurer Training Center
+1010300	Adventurer Training Center 3	1010000	Entrance to Adventurer Training Center
+1010400	Adventurer Training Center 4	1010000	Entrance to Adventurer Training Center
+1020000	Split Road of Destiny	1010000	Entrance to Adventurer Training Center
+1020000	Split Road of Destiny	2000000	Southperry
+1020001	Tomato Field	1020000	Split Road of Destiny
+2000000	Southperry	1020000	Split Road of Destiny
+2000000	Southperry	2000001	Southperry Armor Store
+2000001	Southperry Armor Store	2000000	Southperry
+100000000	Henesys	100000001	Henesys Townstreet
+100000000	Henesys	100000002	An Empty House
+100000000	Henesys	100000100	Henesys Market
+100000000	Henesys	100000200	Henesys Park
+100000000	Henesys	100010000	The Hill East of Henesys
+100000000	Henesys	104040000	Henesys Hunting Ground I
+100000000	Henesys	106010000	The Road to the Dungeon
+100000001	Henesys Townstreet	100000000	Henesys
+100000002	An Empty House	100000000	Henesys
+100000002	An Empty House	100000003	Pig Park
+100000003	Pig Park	100000002	An Empty House
+100000003	Pig Park	100000004	Pig Park II
+100000003	Pig Park	100000006	The Resting Spot, Pig Park
+100000004	Pig Park II	100000003	Pig Park
+100000004	Pig Park II	100000005	Someone Else's House
+100000005	Someone Else's House	100000004	Pig Park II
+100000006	The Resting Spot, Pig Park	100000003	Pig Park
+100000100	Henesys Market	100000000	Henesys
+100000100	Henesys Market	100000101	Henesys Weapon Store
+100000100	Henesys Market	100000102	Henesys Department Store
+100000100	Henesys Market	100000103	Henesys Plastic Surgery
+100000100	Henesys Market	100000104	Henesys Hair Salon
+100000100	Henesys Market	100000105	Henesys Skin-Care
+100000100	Henesys Market	100000200	Henesys Park
+100000101	Henesys Weapon Store	100000100	Henesys Market
+100000102	Henesys Department Store	100000100	Henesys Market
+100000103	Henesys Plastic Surgery	100000100	Henesys Market
+100000104	Henesys Hair Salon	100000100	Henesys Market
+100000105	Henesys Skin-Care	100000100	Henesys Market
+100000200	Henesys Park	100000000	Henesys
+100000200	Henesys Park	100000100	Henesys Market
+100000200	Henesys Park	100000202	Pet-Walking Road
+100000200	Henesys Park	100000203	Henesys Game Park
+100000201	Bowman Instructional School	100000200	Henesys Park
+100000202	Pet-Walking Road	100000200	Henesys Park
+100000203	Henesys Game Park	100000200	Henesys Park
+100000204	Hall of Bowmen	100000201	Bowman Instructional School
+100000205	Hall of Bowmen	100000201	Bowman Instructional School
+100010000	The Hill East of Henesys	100000000	Henesys
+100010000	The Hill East of Henesys	100010100	Nefarious Hill
+100010000	The Hill East of Henesys	100020000	The Rain-Forest East of Henesys
+100010100	Nefarious Hill	100010000	The Hill East of Henesys
+100020000	The Rain-Forest East of Henesys	100010000	The Hill East of Henesys
+100020000	The Rain-Forest East of Henesys	100030000	The Forest East of Henesys
+100030000	The Forest East of Henesys	100020000	The Rain-Forest East of Henesys
+100030000	The Forest East of Henesys	100030001	The Blue Mushroom Forest
+100030000	The Forest East of Henesys	100040000	The Forest South of Ellinia
+100030000	The Forest East of Henesys	120010000	On the Way to the Harbor
+100030001	The Blue Mushroom Forest	100030000	The Forest East of Henesys
+100040000	The Forest South of Ellinia	100030000	The Forest East of Henesys
+100040000	The Forest South of Ellinia	100040001	Dungeon, Southern Forest I
+100040000	The Forest South of Ellinia	100040002	Dungeon, Southern Forest II
+100040000	The Forest South of Ellinia	100040003	Dungeon, Southern Forest III
+100040000	The Forest South of Ellinia	100040004	Dungeon, Southern Forest IV
+100040000	The Forest South of Ellinia	100040100	The Forest of Wisdom
+100040001	Dungeon, Southern Forest I	100040000	The Forest South of Ellinia
+100040002	Dungeon, Southern Forest II	100040000	The Forest South of Ellinia
+100040003	Dungeon, Southern Forest III	100040000	The Forest South of Ellinia
+100040004	Dungeon, Southern Forest IV	100040000	The Forest South of Ellinia
+100040100	The Forest of Wisdom	100040000	The Forest South of Ellinia
+100040100	The Forest of Wisdom	100040101	Monkey Forest I
+100040100	The Forest of Wisdom	100040110	Downstairs at the Forest
+100040100	The Forest of Wisdom	100050000	The Field South of Ellinia
+100040101	Monkey Forest I	100040100	The Forest of Wisdom
+100040101	Monkey Forest I	100040102	Tree Dungeon, Monkey Forest I
+100040101	Monkey Forest I	100040103	Monkey Forest II
+100040102	Tree Dungeon, Monkey Forest I	100040101	Monkey Forest I
+100040103	Monkey Forest II	100040101	Monkey Forest I
+100040103	Monkey Forest II	100040104	Tree Dungeon, Monkey Forest II
+100040103	Monkey Forest II	100040105	The Forest of Evil I
+100040104	Tree Dungeon, Monkey Forest II	100040103	Monkey Forest II
+100040105	The Forest of Evil I	100040103	Monkey Forest II
+100040105	The Forest of Evil I	100040106	The Forest of Evil II
+100040106	The Forest of Evil II	100040105	The Forest of Evil I
+100040110	Downstairs at the Forest	100040100	The Forest of Wisdom
+100050000	The Field South of Ellinia	100040100	The Forest of Wisdom
+100050000	The Field South of Ellinia	101000000	Ellinia
+101000000	Ellinia	100050000	The Field South of Ellinia
+101000000	Ellinia	101000001	Ellinia Weapon Store
+101000000	Ellinia	101000002	Ellinia Department Store
+101000000	Ellinia	101000200	Mar's Forest
+101000000	Ellinia	101000300	Ellinia Station
+101000000	Ellinia	101010000	The Field Up North of Ellinia
+101000001	Ellinia Weapon Store	101000000	Ellinia
+101000002	Ellinia Department Store	101000000	Ellinia
+101000003	Magic Library	101000000	Ellinia
+101000004	Hall of Magicians	101000003	Magic Library
+101000005	Hall of Magicians	101000003	Magic Library
+101000100	The Forest of Patience <Step 1>	101000101	The Forest of Patience <Step 2>
+101000102	The Forest of Patience <Step 3>	101000103	The Forest of Patience <Step 4>
+101000103	The Forest of Patience <Step 4>	101000104	The Forest of Patience <Step 5>
+101000200	Mar's Forest	101000000	Ellinia
+101000300	Ellinia Station	101000000	Ellinia
+101000400	Sky Ferry <To Ereve>	101000000	Ellinia
+101010000	The Field Up North of Ellinia	101000000	Ellinia
+101010000	The Field Up North of Ellinia	101010100	The Tree That Grew I
+101010100	The Tree That Grew I	101010000	The Field Up North of Ellinia
+101010100	The Tree That Grew I	101010101	The Tree That Grew II
+101010100	The Tree That Grew I	101020000	The Forest North of Ellinia
+101010101	The Tree That Grew II	101010100	The Tree That Grew I
+101010101	The Tree That Grew II	101010102	The Tree That Grew III
+101010102	The Tree That Grew III	101010101	The Tree That Grew II
+101010102	The Tree That Grew III	101010103	Top of the Tree That Grew
+101010103	Top of the Tree That Grew	101010102	The Tree That Grew III
+101010103	Top of the Tree That Grew	105040300	Sleepywood
+101020000	The Forest North of Ellinia	101010100	The Tree That Grew I
+101020000	The Forest North of Ellinia	101020001	The Tree Tunnel At the Forest Up North
+101020000	The Forest North of Ellinia	101020002	Tree Dungeon, Forest Up North I
+101020000	The Forest North of Ellinia	101020003	Tree Dungeon, Forest Up North II
+101020000	The Forest North of Ellinia	101020004	Tree Dungeon, Forest Up North III
+101020000	The Forest North of Ellinia	101020005	Tree Dungeon, Forest Up North IV
+101020000	The Forest North of Ellinia	101020006	Tree Dungeon, Forest Up North V
+101020000	The Forest North of Ellinia	101020007	Tree Dungeon, Forest Up North VI
+101020000	The Forest North of Ellinia	101020008	Tree Dungeon, Forest Up North VII
+101020000	The Forest North of Ellinia	101020009	Tree Dungeon, Forest Up North
+101020000	The Forest North of Ellinia	101020010	Tree Dungeon, Forest Up North IX
+101020000	The Forest North of Ellinia	101030000	East Domain of Perion
+101020001	The Tree Tunnel At the Forest Up North	101020000	The Forest North of Ellinia
+101020002	Tree Dungeon, Forest Up North I	101020000	The Forest North of Ellinia
+101020003	Tree Dungeon, Forest Up North II	101020000	The Forest North of Ellinia
+101020004	Tree Dungeon, Forest Up North III	101020000	The Forest North of Ellinia
+101020005	Tree Dungeon, Forest Up North IV	101020000	The Forest North of Ellinia
+101020006	Tree Dungeon, Forest Up North V	101020000	The Forest North of Ellinia
+101020007	Tree Dungeon, Forest Up North VI	101020000	The Forest North of Ellinia
+101020008	Tree Dungeon, Forest Up North VII	101020000	The Forest North of Ellinia
+101020009	Tree Dungeon, Forest Up North	101020000	The Forest North of Ellinia
+101020010	Tree Dungeon, Forest Up North IX	101020000	The Forest North of Ellinia
+101030000	East Domain of Perion	101020000	The Forest North of Ellinia
+101030000	East Domain of Perion	101030001	The Land of Wild Boar II
+101030000	East Domain of Perion	101030100	Rocky Road III
+101030001	The Land of Wild Boar II	101030000	East Domain of Perion
+101030100	Rocky Road III	101030000	East Domain of Perion
+101030100	Rocky Road III	101030101	Excavation Site I
+101030100	Rocky Road III	101030200	Rocky Road II
+101030101	Excavation Site I	101030100	Rocky Road III
+101030101	Excavation Site I	101030102	Excavation Site II
+101030102	Excavation Site II	101030101	Excavation Site I
+101030102	Excavation Site II	101030103	Excavation Site III
+101030103	Excavation Site III	101030102	Excavation Site II
+101030103	Excavation Site III	101030104	Excavation Site <Camp>
+101030104	Excavation Site <Camp>	101030103	Excavation Site III
+101030104	Excavation Site <Camp>	101030105	Remains <Tomb> I
+101030105	Remains <Tomb> I	101030104	Excavation Site <Camp>
+101030105	Remains <Tomb> I	101030106	Remains <Tomb> II
+101030106	Remains <Tomb> II	101030105	Remains <Tomb> I
+101030106	Remains <Tomb> II	101030107	Remains <Tomb> III
+101030106	Remains <Tomb> II	101030110	Camp 1
+101030107	Remains <Tomb> III	101030106	Remains <Tomb> II
+101030107	Remains <Tomb> III	101030108	Remains <Tomb> IV
+101030107	Remains <Tomb> III	101030111	Camp 2
+101030108	Remains <Tomb> IV	101030107	Remains <Tomb> III
+101030108	Remains <Tomb> IV	101030109	Remains <Cliff>
+101030108	Remains <Tomb> IV	101030112	Camp 3
+101030109	Remains <Cliff>	101030108	Remains <Tomb> IV
+101030110	Camp 1	101030106	Remains <Tomb> II
+101030111	Camp 2	101030107	Remains <Tomb> III
+101030112	Camp 3	101030108	Remains <Tomb> IV
+101030200	Rocky Road II	101030100	Rocky Road III
+101030200	Rocky Road II	101030300	Rocky Road I
+101030300	Rocky Road I	101030200	Rocky Road II
+101030300	Rocky Road I	101030400	East Rocky Mountain I
+101030400	East Rocky Mountain I	101030300	Rocky Road I
+101030400	East Rocky Mountain I	101030401	East Rocky Mountain II
+101030400	East Rocky Mountain I	101040000	Perion Street Corner
+101030401	East Rocky Mountain II	101030400	East Rocky Mountain I
+101030401	East Rocky Mountain II	101030402	East Rocky Mountain III
+101030402	East Rocky Mountain III	101030401	East Rocky Mountain II
+101030402	East Rocky Mountain III	101030403	East Rocky Mountain IV
+101030403	East Rocky Mountain IV	101030402	East Rocky Mountain III
+101030403	East Rocky Mountain IV	101030404	East Rocky Mountain V
+101030404	East Rocky Mountain V	101030403	East Rocky Mountain IV
+101030404	East Rocky Mountain V	101030405	East Rocky Mountain VI
+101030405	East Rocky Mountain VI	101030404	East Rocky Mountain V
+101030405	East Rocky Mountain VI	101030406	East Rocky Mountain VII
+101030406	East Rocky Mountain VII	101030405	East Rocky Mountain VI
+101040000	Perion Street Corner	101030400	East Rocky Mountain I
+101040000	Perion Street Corner	101040001	Land of Wild Boar
+101040000	Perion Street Corner	102000000	Perion
+101040001	Land of Wild Boar	101040000	Perion Street Corner
+101040001	Land of Wild Boar	101040002	Over the Wall
+101040001	Land of Wild Boar	101040003	Iron Boar Land
+101040002	Over the Wall	101040001	Land of Wild Boar
+101040003	Iron Boar Land	101040001	Land of Wild Boar
+102000000	Perion	101040000	Perion Street Corner
+102000000	Perion	102000001	Perion Weapon Store
+102000000	Perion	102000002	Perion Department Store
+102000000	Perion	102000003	Warriors' Sanctuary
+102000000	Perion	102010000	West Street Corner of Perion
+102000000	Perion	106000000	Deep Valley I
+102000001	Perion Weapon Store	102000000	Perion
+102000002	Perion Department Store	102000000	Perion
+102000003	Warriors' Sanctuary	102000000	Perion
+102000004	Hall of Warriors	102000003	Warriors' Sanctuary
+102000005	Hall of Warriors	102000003	Warriors' Sanctuary
+102010000	West Street Corner of Perion	102000000	Perion
+102010000	West Street Corner of Perion	102020000	West Rocky Mountain I
+102020000	West Rocky Mountain I	102010000	West Street Corner of Perion
+102020000	West Rocky Mountain I	102020100	West Rocky Mountain II
+102020000	West Rocky Mountain I	102030000	West Domain of Perion
+102020100	West Rocky Mountain II	102020000	West Rocky Mountain I
+102020100	West Rocky Mountain II	102020200	West Rocky Mountain III
+102020200	West Rocky Mountain III	102020100	West Rocky Mountain II
+102020200	West Rocky Mountain III	102020300	West Rocky Mountain IV
+102020300	West Rocky Mountain IV	102020200	West Rocky Mountain III
+102030000	West Domain of Perion	102020000	West Rocky Mountain I
+102030000	West Domain of Perion	102040000	Construction Site North of Kerning City
+102040000	Construction Site North of Kerning City	102030000	West Domain of Perion
+102040000	Construction Site North of Kerning City	102040001	Northern Top of Construction Site
+102040000	Construction Site North of Kerning City	102050000	Sunset Sky
+102040001	Northern Top of Construction Site	102040000	Construction Site North of Kerning City
+102050000	Sunset Sky	102040000	Construction Site North of Kerning City
+102050000	Sunset Sky	103000000	Kerning City
+103000000	Kerning City	102050000	Sunset Sky
+103000000	Kerning City	103000001	Kerning City Self-Defence Item Store
+103000000	Kerning City	103000002	Kerning City Pharmacy
+103000000	Kerning City	103000003	Thieves' Hideout
+103000000	Kerning City	103000004	Naora Hospital
+103000000	Kerning City	103000005	Kerning City Hair Salon
+103000000	Kerning City	103000006	Kerning City Repair Shop
+103000000	Kerning City	103000100	Subway Ticketing Booth
+103000000	Kerning City	103010000	Kerning City Construction Site
+103000000	Kerning City	107000000	The Swamp of Despair I
+103000001	Kerning City Self-Defence Item Store	103000000	Kerning City
+103000002	Kerning City Pharmacy	103000000	Kerning City
+103000003	Thieves' Hideout	103000000	Kerning City
+103000004	Naora Hospital	103000000	Kerning City
+103000005	Kerning City Hair Salon	103000000	Kerning City
+103000006	Kerning City Repair Shop	103000000	Kerning City
+103000007	Kerning City Night Market  	103000000	Kerning City
+103000008	Hall of Thieves	103000003	Thieves' Hideout
+103000009	Hall of Thieves	103000003	Thieves' Hideout
+103000100	Subway Ticketing Booth	103000000	Kerning City
+103000101	Line 1 <Area 1>	103000100	Subway Ticketing Booth
+103000101	Line 1 <Area 1>	103000102	Transfer Area
+103000102	Transfer Area	103000101	Line 1 <Area 1>
+103000102	Transfer Area	103000103	Line 1 <Area 2>
+103000102	Transfer Area	103000200	Line 2 <Area 1>
+103000103	Line 1 <Area 2>	103000102	Transfer Area
+103000103	Line 1 <Area 2>	103000104	Line 1 <Area 3>
+103000104	Line 1 <Area 3>	103000103	Line 1 <Area 2>
+103000104	Line 1 <Area 3>	103000105	Line 1 <Area 4>
+103000105	Line 1 <Area 4>	103000104	Line 1 <Area 3>
+103000200	Line 2 <Area 1>	103000102	Transfer Area
+103000200	Line 2 <Area 1>	103000201	Line 2 <Area 2>
+103000201	Line 2 <Area 2>	103000200	Line 2 <Area 1>
+103000201	Line 2 <Area 2>	103000202	Line 2 <Area 3>
+103000202	Line 2 <Area 3>	103000201	Line 2 <Area 2>
+103000310	Kerning Square Station	103040000	Kerning Square Lobby
+103000800	1st Accompaniment <1st Stage>	103000801	1st Accompaniment <2nd Stage>
+103000801	1st Accompaniment <2nd Stage>	103000802	1st Accompaniment <3rd Stage>
+103000802	1st Accompaniment <3rd Stage>	103000803	1st Accompaniment <4th stage>
+103000803	1st Accompaniment <4th stage>	103000804	1st Accompaniment <Last Stage>
+103000900	B1 <Area 1>	103000901	B1 <Area 2>
+103000901	B1 <Area 2>	103000902	B1 <Subway Depot>
+103000903	B2 <Area 1>	103000904	B2 <Area 2>
+103000904	B2 <Area 2>	103000905	B2 <Subway Depot>
+103000906	B3 <Area 1>	103000907	B3 <Area 2>
+103000907	B3 <Area 2>	103000908	B3 <Area 3>
+103000908	B3 <Area 3>	103000909	B3 <Subway Depot>
+103010000	Kerning City Construction Site	103000000	Kerning City
+103010000	Kerning City Construction Site	103010001	Caution Falling Down
+103010000	Kerning City Construction Site	103020000	L Forest I
+103010001	Caution Falling Down	103010000	Kerning City Construction Site
+103020000	L Forest I	103010000	Kerning City Construction Site
+103020000	L Forest I	103020100	L Forest II
+103020100	L Forest II	103020000	L Forest I
+103020100	L Forest II	103020200	L Forest III
+103020200	L Forest III	103020100	L Forest II
+103020200	L Forest III	103030000	Kerning City Middle Forest I
+103030000	Kerning City Middle Forest I	103020200	L Forest III
+103030000	Kerning City Middle Forest I	103030100	Kerning City Middle Forest II
+103030000	Kerning City Middle Forest I	104010000	3-Way Road-Split
+103030100	Kerning City Middle Forest II	103030000	Kerning City Middle Forest I
+103030100	Kerning City Middle Forest II	103030200	Kerning City Middle Forest III
+103030200	Kerning City Middle Forest III	103030100	Kerning City Middle Forest II
+103040000	Kerning Square Lobby	103000310	Kerning Square Station
+103040000	Kerning Square Lobby	103040100	1st Floor 2nd Floor Area A
+103040100	1st Floor 2nd Floor Area A	103040000	Kerning Square Lobby
+103040100	1st Floor 2nd Floor Area A	103040101	1st Floor 2nd Floor Area B
+103040100	1st Floor 2nd Floor Area A	103040103	1st Floor 2nd Floor Area D
+103040100	1st Floor 2nd Floor Area A	103040200	3rd Floor 4th Floor Area A
+103040101	1st Floor 2nd Floor Area B	103040100	1st Floor 2nd Floor Area A
+103040101	1st Floor 2nd Floor Area B	103040102	1st Floor 2nd Floor Area C
+103040102	1st Floor 2nd Floor Area C	103040101	1st Floor 2nd Floor Area B
+103040102	1st Floor 2nd Floor Area C	103040103	1st Floor 2nd Floor Area D
+103040103	1st Floor 2nd Floor Area D	103040100	1st Floor 2nd Floor Area A
+103040103	1st Floor 2nd Floor Area D	103040102	1st Floor 2nd Floor Area C
+103040200	3rd Floor 4th Floor Area A	103040100	1st Floor 2nd Floor Area A
+103040200	3rd Floor 4th Floor Area A	103040201	3rd Floor 4th Floor Area B
+103040200	3rd Floor 4th Floor Area A	103040203	3rd Floor 4th Floor Area D
+103040200	3rd Floor 4th Floor Area A	103040300	5th Floor 6th Floor Area A
+103040201	3rd Floor 4th Floor Area B	103040200	3rd Floor 4th Floor Area A
+103040201	3rd Floor 4th Floor Area B	103040202	3rd Floor 4th Floor Area C
+103040202	3rd Floor 4th Floor Area C	103040201	3rd Floor 4th Floor Area B
+103040202	3rd Floor 4th Floor Area C	103040203	3rd Floor 4th Floor Area D
+103040203	3rd Floor 4th Floor Area D	103040200	3rd Floor 4th Floor Area A
+103040203	3rd Floor 4th Floor Area D	103040202	3rd Floor 4th Floor Area C
+103040300	5th Floor 6th Floor Area A	103040200	3rd Floor 4th Floor Area A
+103040300	5th Floor 6th Floor Area A	103040301	5th Floor 6th Floor Area B
+103040300	5th Floor 6th Floor Area A	103040303	5th Floor 6th Floor Area D
+103040300	5th Floor 6th Floor Area A	103040400	7th Floor 8th Floor Area A
+103040301	5th Floor 6th Floor Area B	103040300	5th Floor 6th Floor Area A
+103040301	5th Floor 6th Floor Area B	103040302	5th Floor 6th Floor Area C
+103040302	5th Floor 6th Floor Area C	103040301	5th Floor 6th Floor Area B
+103040302	5th Floor 6th Floor Area C	103040303	5th Floor 6th Floor Area D
+103040303	5th Floor 6th Floor Area D	103040300	5th Floor 6th Floor Area A
+103040303	5th Floor 6th Floor Area D	103040302	5th Floor 6th Floor Area C
+103040410	7th Floor 8th Floor Area B	103040400	7th Floor 8th Floor Area A
+103040440	VIP Zone Area A	103040400	7th Floor 8th Floor Area A
+104000000	Lith Harbor	104000001	Lith Harbor Armor Shop
+104000000	Lith Harbor	104000002	Lith Harbor Department Store
+104000000	Lith Harbor	104000003	Lith Harbor Weapon Shop
+104000000	Lith Harbor	104000100	Right Around Lith Harbor
+104000001	Lith Harbor Armor Shop	104000000	Lith Harbor
+104000002	Lith Harbor Department Store	104000000	Lith Harbor
+104000003	Lith Harbor Weapon Shop	104000000	Lith Harbor
+104000004	Lith Harbor Info Shop	104000000	Lith Harbor
+104000100	Right Around Lith Harbor	104000000	Lith Harbor
+104000100	Right Around Lith Harbor	104000200	Thicket Around the Beach I
+104000200	Thicket Around the Beach I	104000100	Right Around Lith Harbor
+104000200	Thicket Around the Beach I	104000300	Thicket Around the Beach II
+104000300	Thicket Around the Beach II	104000200	Thicket Around the Beach I
+104000300	Thicket Around the Beach II	104000400	Thicket Around the Beach III
+104000400	Thicket Around the Beach III	104000300	Thicket Around the Beach II
+104000400	Thicket Around the Beach III	104010000	3-Way Road-Split
+104010000	3-Way Road-Split	103030000	Kerning City Middle Forest I
+104010000	3-Way Road-Split	104000400	Thicket Around the Beach III
+104010000	3-Way Road-Split	104010001	The Pig Beach
+104010000	3-Way Road-Split	104010002	Beach Hunting Ground
+104010000	3-Way Road-Split	104020000	Forest West of Henesys
+104010001	The Pig Beach	104010000	3-Way Road-Split
+104010002	Beach Hunting Ground	104010000	3-Way Road-Split
+104020000	Forest West of Henesys	104010000	3-Way Road-Split
+104020000	Forest West of Henesys	104030000	A Hill West of Henesys 
+104030000	A Hill West of Henesys 	104020000	Forest West of Henesys
+104030000	A Hill West of Henesys 	104030001	Mushroom Garden
+104030000	A Hill West of Henesys 	104040000	Henesys Hunting Ground I
+104030001	Mushroom Garden	104030000	A Hill West of Henesys 
+104040000	Henesys Hunting Ground I	100000000	Henesys
+104040000	Henesys Hunting Ground I	104030000	A Hill West of Henesys 
+104040000	Henesys Hunting Ground I	104040001	Henesys Hunting Ground II
+104040001	Henesys Hunting Ground II	104040000	Henesys Hunting Ground I
+104040001	Henesys Hunting Ground II	104040002	Henesys Hunting Ground III
+104040002	Henesys Hunting Ground III	104040001	Henesys Hunting Ground II
+104040002	Henesys Hunting Ground III	680000004	Meet the Parents
+105030000	Deep Forest	105040000	Swampy Land in a Deep Forest
+105030000	Deep Forest	106000300	Perion Dungeon Entrance
+105030000	Deep Forest	107000500	Damp Tree-Forest
+105040000	Swampy Land in a Deep Forest	105030000	Deep Forest
+105040000	Swampy Land in a Deep Forest	105040100	Hunting Ground in the Deep Forest I
+105040000	Swampy Land in a Deep Forest	105040300	Sleepywood
+105040000	Swampy Land in a Deep Forest	106010100	Henesys Dungeon Entrance
+105040100	Hunting Ground in the Deep Forest I	105040000	Swampy Land in a Deep Forest
+105040100	Hunting Ground in the Deep Forest I	105040200	Hunting Ground in the Deep Forest II
+105040200	Hunting Ground in the Deep Forest II	105040100	Hunting Ground in the Deep Forest I
+105040200	Hunting Ground in the Deep Forest II	105040201	Puppeteer's Hiding Place
+105040201	Puppeteer's Hiding Place	105040200	Hunting Ground in the Deep Forest II
+105040300	Sleepywood	105040000	Swampy Land in a Deep Forest
+105040300	Sleepywood	105040301	Sleepy Dungeon I
+105040300	Sleepywood	105040400	Sleepywood Hotel
+105040300	Sleepywood	105050000	Ant Tunnel I
+105040301	Sleepy Dungeon I	105040300	Sleepywood
+105040301	Sleepy Dungeon I	105040302	Sleepy Dungeon II
+105040302	Sleepy Dungeon II	105040301	Sleepy Dungeon I
+105040302	Sleepy Dungeon II	105040303	Sleepy Dungeon III
+105040303	Sleepy Dungeon III	105040302	Sleepy Dungeon II
+105040303	Sleepy Dungeon III	105040304	Sleepy Dungeon IV
+105040304	Sleepy Dungeon IV	105040303	Sleepy Dungeon III
+105040304	Sleepy Dungeon IV	105040305	Sleepy Dungeon V
+105040305	Sleepy Dungeon V	105040304	Sleepy Dungeon IV
+105040305	Sleepy Dungeon V	105040306	The forest of Golem
+105040306	The forest of Golem	105040305	Sleepy Dungeon V
+105040310	The Deep Forest of Patience <Step 1>	105040311	The Deep Forest of Patience <Step 2>
+105040312	The Deep Forest of Patience <Step 3>	105040313	The Deep Forest of Patience <Step 4>
+105040314	The Deep Forest of Patience <Step 5>	105040315	The Deep Forest of Patience <Step 6>
+105040315	The Deep Forest of Patience <Step 6>	105040316	The Deep Forest of Patience <Step 7>
+105040400	Sleepywood Hotel	105040300	Sleepywood
+105040401	Regular Sauna	105040400	Sleepywood Hotel
+105040402	VIP Sauna	105040400	Sleepywood Hotel
+105050000	Ant Tunnel I	105040300	Sleepywood
+105050000	Ant Tunnel I	105050100	Ant Tunnel II
+105050100	Ant Tunnel II	105050000	Ant Tunnel I
+105050100	Ant Tunnel II	105050200	Ant Tunnel III
+105050200	Ant Tunnel III	105050100	Ant Tunnel II
+105050200	Ant Tunnel III	105050300	Ant Tunnel IV
+105050300	Ant Tunnel IV	105050200	Ant Tunnel III
+105050300	Ant Tunnel IV	105050400	Dark Cave
+105050400	Dark Cave	105050300	Ant Tunnel IV
+105050400	Dark Cave	105060000	Dangerous Steam
+105060000	Dangerous Steam	105050400	Dark Cave
+105060000	Dangerous Steam	105060100	Deep Ant Tunnel I
+105060100	Deep Ant Tunnel I	105060000	Dangerous Steam
+105060100	Deep Ant Tunnel I	105070000	Deep Ant Tunnel II
+105070000	Deep Ant Tunnel II	105060100	Deep Ant Tunnel I
+105070000	Deep Ant Tunnel II	105070001	Ant Tunnel Park
+105070001	Ant Tunnel Park	105070000	Deep Ant Tunnel II
+105070001	Ant Tunnel Park	105070002	The Grave of Mushmom
+105070001	Ant Tunnel Park	105070100	The Cave of Evil Eye I
+105070002	The Grave of Mushmom	105070001	Ant Tunnel Park
+105070100	The Cave of Evil Eye I	105070001	Ant Tunnel Park
+105070100	The Cave of Evil Eye I	105070200	The Cave of Evil Eye II
+105070200	The Cave of Evil Eye II	105070100	The Cave of Evil Eye I
+105070200	The Cave of Evil Eye II	105070300	The Cave of Evil Eye III
+105070300	The Cave of Evil Eye III	105070200	The Cave of Evil Eye II
+105070300	The Cave of Evil Eye III	105070400	The Cave of Evil Eye IV
+105070400	The Cave of Evil Eye IV	105070300	The Cave of Evil Eye III
+105070400	The Cave of Evil Eye IV	105080000	Drake Hunting Ground
+105080000	Drake Hunting Ground	105070400	The Cave of Evil Eye IV
+105080000	Drake Hunting Ground	105090000	The Tunnel That Lost Light I
+105090000	The Tunnel That Lost Light I	105080000	Drake Hunting Ground
+105090000	The Tunnel That Lost Light I	105090100	The Tunnel That Lost Light II
+105090100	The Tunnel That Lost Light II	105090000	The Tunnel That Lost Light I
+105090100	The Tunnel That Lost Light II	105090200	Another Entrance
+105090200	Another Entrance	105090100	The Tunnel That Lost Light II
+105090200	Another Entrance	105090300	Drake's Meal Table
+105090200	Another Entrance	105090400	Another Path
+105090300	Drake's Meal Table	105090200	Another Entrance
+105090300	Drake's Meal Table	105090301	Wild Cargo's Area
+105090300	Drake's Meal Table	105090310	Drake Area
+105090301	Wild Cargo's Area	105090300	Drake's Meal Table
+105090310	Drake Area	105090300	Drake's Meal Table
+105090310	Drake Area	105090311	Cold Cradle
+105090311	Cold Cradle	105090310	Drake Area
+105090311	Cold Cradle	105090312	Drake's Nest
+105090312	Drake's Nest	105090311	Cold Cradle
+105090400	Another Path	105090200	Another Entrance
+105090400	Another Path	105090500	Sanctuary Entrance I
+105090500	Sanctuary Entrance I	105090400	Another Path
+105090500	Sanctuary Entrance I	105090600	Sanctuary Entrance II
+105090600	Sanctuary Entrance II	105090500	Sanctuary Entrance I
+105090600	Sanctuary Entrance II	105090700	Sanctuary Entrance III
+105090700	Sanctuary Entrance III	105090600	Sanctuary Entrance II
+105090700	Sanctuary Entrance III	105090800	Sanctuary Entrance IV
+105090800	Sanctuary Entrance IV	105090700	Sanctuary Entrance III
+105090800	Sanctuary Entrance IV	105090900	The Cursed Sanctuary
+105090900	The Cursed Sanctuary	105090800	Sanctuary Entrance IV
+105100000	Stairway to the Underground Temple  	105090200	Another Entrance
+105100000	Stairway to the Underground Temple  	105100100	Bottom of the Temple 
+105100101	Tristan's Resting Place 	105100100	Bottom of the Temple 
+106000000	Deep Valley I	102000000	Perion
+106000000	Deep Valley I	106000001	Dangerous Valley
+106000000	Deep Valley I	106000100	Deep Valley II
+106000001	Dangerous Valley	106000000	Deep Valley I
+106000001	Dangerous Valley	106000002	Dangerous Valley II
+106000002	Dangerous Valley II	106000001	Dangerous Valley
+106000100	Deep Valley II	106000000	Deep Valley I
+106000100	Deep Valley II	106000101	The Burnt Land I
+106000100	Deep Valley II	106000200	Deep Valley III
+106000101	The Burnt Land I	106000100	Deep Valley II
+106000101	The Burnt Land I	106000110	The Burnt Land II
+106000110	The Burnt Land II	106000101	The Burnt Land I
+106000110	The Burnt Land II	106000120	The Burnt Land III
+106000120	The Burnt Land III	106000110	The Burnt Land II
+106000120	The Burnt Land III	106000130	The Burnt Land IV
+106000130	The Burnt Land IV	106000120	The Burnt Land III
+106000130	The Burnt Land IV	106000140	The Burnt Land V
+106000140	The Burnt Land V	106000130	The Burnt Land IV
+106000200	Deep Valley III	106000100	Deep Valley II
+106000200	Deep Valley III	106000300	Perion Dungeon Entrance
+106000300	Perion Dungeon Entrance	105030000	Deep Forest
+106000300	Perion Dungeon Entrance	106000200	Deep Valley III
+106010000	The Road to the Dungeon	100000000	Henesys
+106010000	The Road to the Dungeon	106010100	Henesys Dungeon Entrance
+106010100	Henesys Dungeon Entrance	105040000	Swampy Land in a Deep Forest
+106010100	Henesys Dungeon Entrance	106010000	The Road to the Dungeon
+106010100	Henesys Dungeon Entrance	106010101	The Breathing Rock
+106010101	The Breathing Rock	106010100	Henesys Dungeon Entrance
+106010101	The Breathing Rock	106010102	The Entrance of Golem's Temple
+106010102	The Entrance of Golem's Temple	106010101	The Breathing Rock
+106010102	The Entrance of Golem's Temple	106010103	Golem's Temple I
+106010102	The Entrance of Golem's Temple	106010104	Golem's Temple II
+106010102	The Entrance of Golem's Temple	106010105	Golem's Temple III
+106010102	The Entrance of Golem's Temple	106010106	Golem's Temple IV
+106010103	Golem's Temple I	106010102	The Entrance of Golem's Temple
+106010104	Golem's Temple II	106010102	The Entrance of Golem's Temple
+106010105	Golem's Temple III	106010102	The Entrance of Golem's Temple
+106010106	Golem's Temple IV	106010102	The Entrance of Golem's Temple
+106020000	Mushroom Forest Field	100000002	An Empty House
+106020000	Mushroom Forest Field	106020100	Secluded Mushroom Forest
+106020100	Secluded Mushroom Forest	106020000	Mushroom Forest Field
+106020100	Secluded Mushroom Forest	106020200	Isolated Mushroom Forest
+106020200	Isolated Mushroom Forest	106020100	Secluded Mushroom Forest
+106020200	Isolated Mushroom Forest	106020300	Deep Inside Mushroom Forest
+106020300	Deep Inside Mushroom Forest	106020200	Isolated Mushroom Forest
+106020400	Split Road of Destiny	106020300	Deep Inside Mushroom Forest
+106020400	Split Road of Destiny	106020401	Steep Downhill 1
+106020401	Steep Downhill 1	106020400	Split Road of Destiny
+106020401	Steep Downhill 1	106020402	Steep Downhill 2
+106020402	Steep Downhill 2	106020401	Steep Downhill 1
+106020402	Steep Downhill 2	106020403	Shadow Cliffs
+106020403	Shadow Cliffs	106020402	Steep Downhill 2
+106020500	Castle Wall Edge	106020400	Split Road of Destiny
+106020501	Castle Wall Edge	106020400	Split Road of Destiny
+106020501	Castle Wall Edge	106020600	Outer Castle Wall
+106020600	Outer Castle Wall	106020400	Split Road of Destiny
+106020600	Outer Castle Wall	106020700	Skyscraper 1
+106020700	Skyscraper 1	106020600	Outer Castle Wall
+106020700	Skyscraper 1	106020800	Skyscraper 2
+106020800	Skyscraper 2	106020700	Skyscraper 1
+106020800	Skyscraper 2	106020900	West Castle Tower
+106020900	West Castle Tower	106020800	Skyscraper 2
+106020900	West Castle Tower	106021000	Skyscraper 3
+106021000	Skyscraper 3	106020900	West Castle Tower
+106021000	Skyscraper 3	106021100	Skyscraper 4
+106021001	Security Room	106021000	Skyscraper 3
+106021100	Skyscraper 4	106021000	Skyscraper 3
+106021100	Skyscraper 4	106021200	Skyscraper 5
+106021200	Skyscraper 5	106021100	Skyscraper 4
+106021200	Skyscraper 5	106021201	Central Castle Tower
+106021201	Central Castle Tower	106021200	Skyscraper 5
+106021201	Central Castle Tower	106021300	Skyscraper 6
+106021300	Skyscraper 6	106021201	Central Castle Tower
+106021300	Skyscraper 6	106021400	East Castle Tower
+106021401	Entrance to Wedding Hall	106021400	East Castle Tower
+106021401	Entrance to Wedding Hall	106021402	The Last Castle Tower
+106021402	The Last Castle Tower	106021401	Entrance to Wedding Hall
+106021600	Wedding Hall	106021402	The Last Castle Tower
+106021700	Wedding Hall	106021402	The Last Castle Tower
+106021700	Wedding Hall	106021800	Secluded Mushroom Forest
+106021800	Secluded Mushroom Forest	106020403	Shadow Cliffs
+107000000	The Swamp of Despair I	103000000	Kerning City
+107000000	The Swamp of Despair I	107000001	Swamp of the Jr.Necki
+107000000	The Swamp of Despair I	107000100	The Swamp of Despair II
+107000001	Swamp of the Jr.Necki	107000000	The Swamp of Despair I
+107000100	The Swamp of Despair II	107000000	The Swamp of Despair I
+107000100	The Swamp of Despair II	107000200	The Swamp of Despair III
+107000200	The Swamp of Despair III	107000100	The Swamp of Despair II
+107000200	The Swamp of Despair III	107000300	Dangerous Croko I
+107000300	Dangerous Croko I	107000200	The Swamp of Despair III
+107000300	Dangerous Croko I	107000301	Hut in the Swamp
+107000300	Dangerous Croko I	107000400	Dangerous Croko II
+107000301	Hut in the Swamp	107000300	Dangerous Croko I
+107000400	Dangerous Croko II	107000300	Dangerous Croko I
+107000400	Dangerous Croko II	107000401	Monkey Swamp I
+107000400	Dangerous Croko II	107000500	Damp Tree-Forest
+107000401	Monkey Swamp I	107000400	Dangerous Croko II
+107000401	Monkey Swamp I	107000402	Monkey Swamp II
+107000402	Monkey Swamp II	107000401	Monkey Swamp I
+107000402	Monkey Swamp II	107000403	Monkey Swamp III
+107000403	Monkey Swamp III	107000402	Monkey Swamp II
+107000500	Damp Tree-Forest	105030000	Deep Forest
+107000500	Damp Tree-Forest	107000400	Dangerous Croko II
+107000500	Damp Tree-Forest	107000501	Damp Forest
+107000501	Damp Forest	107000500	Damp Tree-Forest
+108000700	Head Blacksmith's Shop	140030000	Mirror Cave
+108010100	The Path of Glittering Crystal	108010101	The Other Dimension
+108010200	The Path of Glittering Crystal	108010201	The Other Dimension
+108010300	The Path of Glittering Crystal	108010301	The Other Dimension
+108010400	The Path of Glittering Crystal	108010401	The Other Dimension
+108010500	The Path of Glittering Crystal	108010501	The Other Dimension
+108010600	Tino's Forest	130010000	Training Forest I
+108010610	Tiv's Forest	130010000	Training Forest I
+108010620	Timu's Forest	130010100	Training Forest II
+108010630	Tiru's Forest	130010100	Training Forest II
+108010640	Entrance to the Drill Hall	130010200	Training Forest III
+108010700	Find the Black Crow!	140020200	Snow-covered Field 3
+108010701	Razor Sharp Cliff	108010702	Black Crow Region
+108010701	Razor Sharp Cliff	140030000	Mirror Cave
+108010702	Black Crow Region	108010701	Razor Sharp Cliff
+109010000	Find the Jewel	109010100	Eastern Field
+109010000	Find the Jewel	109010200	Southern Field
+109010100	Eastern Field	109010000	Find the Jewel
+109010100	Eastern Field	109010101	Hidden Place in the East
+109010100	Eastern Field	109010102	Hidden Place in the East
+109010100	Eastern Field	109010103	Hidden Place in the East
+109010101	Hidden Place in the East	109010100	Eastern Field
+109010102	Hidden Place in the East	109010100	Eastern Field
+109010103	Hidden Place in the East	109010100	Eastern Field
+109010104	Hidden Place in the East	109010100	Eastern Field
+109010105	Hidden Place in the East	109010100	Eastern Field
+109010106	Hidden Place in the East	109010100	Eastern Field
+109010107	Hidden Place in the East	109010100	Eastern Field
+109010108	Hidden Place in the East	109010100	Eastern Field
+109010109	Hidden Place in the East	109010100	Eastern Field
+109010110	Hidden Place in the East	109010100	Eastern Field
+109010200	Southern Field	109010000	Find the Jewel
+109010200	Southern Field	109010201	Hidden Place in South
+109010200	Southern Field	109010203	Hidden Place in South
+109010201	Hidden Place in South	109010200	Southern Field
+109010202	Hidden Place in South	109010200	Southern Field
+109010203	Hidden Place in South	109010200	Southern Field
+109010204	Hidden Place in South	109010200	Southern Field
+109010205	Hidden Place in South	109010200	Southern Field
+109010206	Hidden Place in South	109010200	Southern Field
+109020001	OX Quiz	109050000	Receiving the Reward For the Event
+109030101	Ola Ola <Level 1>	109030102	Ola Ola <Level 2>
+109030102	Ola Ola <Level 2>	109030103	Ola Ola <Level 3>
+109030103	Ola Ola <Level 3>	109050000	Receiving the Reward For the Event
+109030201	Ola Ola <Level 1>	109030202	Ola Ola <Level 2>
+109030202	Ola Ola <Level 2>	109030203	Ola Ola <Level 3>
+109030203	Ola Ola <Level 3>	109050000	Receiving the Reward For the Event
+109030301	Ola Ola <Level 1>	109030302	Ola Ola <Level 2>
+109030302	Ola Ola <Level 2>	109030303	Ola Ola <Level 3>
+109030303	Ola Ola <Level 3>	109050000	Receiving the Reward For the Event
+109030401	Ola Ola <Level 1>	109030402	Ola Ola <Level 2>
+109030402	Ola Ola <Level 2>	109030403	Ola Ola <Level 3>
+109030403	Ola Ola <Level 3>	109050000	Receiving the Reward For the Event
+109040000	MapleStory Physical Fitness Test <Waiting Room>	109040001	MapleStory Physical Fitness Challenge <Level 1>
+109040001	MapleStory Physical Fitness Challenge <Level 1>	109040002	MapleStory Physical Fitness Challenge <Level 2>
+109040002	MapleStory Physical Fitness Challenge <Level 2>	109040003	MapleStory Physical Fitness Challenge <Level 3>
+109040003	MapleStory Physical Fitness Challenge <Level 3>	109040004	MapleStory Physical Fitness Challenge <Level 4>
+109040004	MapleStory Physical Fitness Challenge <Level 4>	109050000	Receiving the Reward For the Event
+109070000	Minigame Challenge	109050001	Leaving the Event
+110000000	Florina Beach	110010000	A Look-Out Shed Around the Beach
+110010000	A Look-Out Shed Around the Beach	110000000	Florina Beach
+110010000	A Look-Out Shed Around the Beach	110020000	Lorang Lorang
+110020000	Lorang Lorang	110010000	A Look-Out Shed Around the Beach
+110020000	Lorang Lorang	110020001	Lorang Lorang Lorang
+110020000	Lorang Lorang	110030000	Lorang and Clang
+110020001	Lorang Lorang Lorang	110020000	Lorang Lorang
+110030000	Lorang and Clang	110020000	Lorang Lorang
+110030000	Lorang and Clang	110030001	Clang and Lorang
+110030000	Lorang and Clang	110040000	Hot Sand
+110030001	Clang and Lorang	110030000	Lorang and Clang
+110040000	Hot Sand	110030000	Lorang and Clang
+120000000	Nautilus Harbor	120000200	Mid Floor - Hallway
+120000000	Nautilus Harbor	120010000	On the Way to the Harbor
+120000100	Top Floor - Hallway	120000101	Navigation Room
+120000100	Top Floor - Hallway	120000102	Lord Jonathan's Room
+120000100	Top Floor - Hallway	120000103	Cafeteria
+120000100	Top Floor - Hallway	120000104	Training Room
+120000100	Top Floor - Hallway	120000200	Mid Floor - Hallway
+120000101	Navigation Room	120000100	Top Floor - Hallway
+120000102	Lord Jonathan's Room	120000100	Top Floor - Hallway
+120000103	Cafeteria	120000100	Top Floor - Hallway
+120000104	Training Room	120000100	Top Floor - Hallway
+120000105	Training Room	120000101	Navigation Room
+120000200	Mid Floor - Hallway	120000000	Nautilus Harbor
+120000200	Mid Floor - Hallway	120000100	Top Floor - Hallway
+120000200	Mid Floor - Hallway	120000201	Conference Room
+120000200	Mid Floor - Hallway	120000202	Bedroom
+120000200	Mid Floor - Hallway	120000300	Bottom Floor - Hallway
+120000201	Conference Room	120000200	Mid Floor - Hallway
+120000202	Bedroom	120000200	Mid Floor - Hallway
+120000300	Bottom Floor - Hallway	120000200	Mid Floor - Hallway
+120000300	Bottom Floor - Hallway	120000301	Generator Room
+120000301	Generator Room	120000300	Bottom Floor - Hallway
+120010000	On the Way to the Harbor	100030000	The Forest East of Henesys
+120010000	On the Way to the Harbor	120000000	Nautilus Harbor
+130000000	Ereve	130030006	Small Bridge
+130000100	Knights Chamber	130000000	Ereve
+130000100	Knights Chamber	130000110	Knights Chamber 2nd Floor
+130000100	Knights Chamber	130000200	Crossroads of Ereve
+130000101	Knights Chamber	130000000	Ereve
+130000101	Knights Chamber	130000200	Crossroads of Ereve
+130000110	Knights Chamber 2nd Floor	130000100	Knights Chamber
+130000110	Knights Chamber 2nd Floor	130000120	Knights Chamber 3rd Floor
+130000120	Knights Chamber 3rd Floor	130000110	Knights Chamber 2nd Floor
+130000200	Crossroads of Ereve	130000210	Sky Ferry 
+130000210	Sky Ferry 	130000200	Crossroads of Ereve
+130010000	Training Forest I	130000200	Crossroads of Ereve
+130010000	Training Forest I	130010100	Training Forest II
+130010010	Tino's Forest	130010000	Training Forest I
+130010020	Tiv's Forest	130010000	Training Forest I
+130010100	Training Forest II	130010000	Training Forest I
+130010100	Training Forest II	130010200	Training Forest III
+130010110	Timu's Forest	130010100	Training Forest II
+130010120	Tiru's Forest	130010100	Training Forest II
+130010200	Training Forest III	130010100	Training Forest II
+130010200	Training Forest III	130010210	Tiguru's Forest
+130010200	Training Forest III	130010220	Kiridu's Hatchery 
+130010210	Tiguru's Forest	130010200	Training Forest III
+130010220	Kiridu's Hatchery 	130010200	Training Forest III
+130020000	Entrance to the Drill Hall	130010200	Training Forest III
+130030000	Forest of Beginning 1	130030001	Forest of Beginning 2
+130030005	A path out of the Forest of Beginning	130030006	Small Bridge
+130030006	Small Bridge	130000000	Ereve
+130030006	Small Bridge	130030005	A path out of the Forest of Beginning
+140000000	Rien	140000001	Lilin's Home
+140000000	Rien	140000010	Rien Library 1st Floor
+140000000	Rien	140020000	Snow-covered Field 1
+140000001	Lilin's Home	140000000	Rien
+140000010	Rien Library 1st Floor	140000000	Rien
+140000010	Rien Library 1st Floor	140000011	Rien Library 2nd Floor
+140000011	Rien Library 2nd Floor	140000010	Rien Library 1st Floor
+140000011	Rien Library 2nd Floor	140000012	Rien Library 3rd Floor
+140000012	Rien Library 3rd Floor	140000011	Rien Library 2nd Floor
+140010000	Dangerous Forest	140090500	Cold Forest 5
+140010100	Dangerous Forest	140010000	Dangerous Forest
+140010100	Dangerous Forest	140010200	Dangerous Forest
+140010110	Palace of the Master	140010100	Dangerous Forest
+140010111	Palace of the Master	140010100	Dangerous Forest
+140010200	Dangerous Forest	140010100	Dangerous Forest
+140010210	Field of Wolves	140010200	Dangerous Forest
+140020000	Snow-covered Field 1	140000000	Rien
+140020000	Snow-covered Field 1	140020100	Snow-covered Field 2
+140020100	Snow-covered Field 2	140020000	Snow-covered Field 1
+140020100	Snow-covered Field 2	140020110	Dangerous Forest
+140020100	Snow-covered Field 2	140020200	Snow-covered Field 3
+140020110	Dangerous Forest	140020100	Snow-covered Field 2
+140020200	Snow-covered Field 3	140020100	Snow-covered Field 2
+140020300	Dangerous Forest	140020200	Snow-covered Field 3
+140030000	Mirror Cave	140010200	Dangerous Forest
+140090500	Cold Forest 5	140010000	Dangerous Forest
+190000000	Another Sanctuary	190000001	Breathing Sanctuary I
+190000000	Another Sanctuary	190000002	Breathing Sanctuary II
+190000001	Breathing Sanctuary I	190000000	Another Sanctuary
+190000002	Breathing Sanctuary II	190000000	Another Sanctuary
+191000000	The Monkey Forest	191000001	Tree Dungeon
+191000001	Tree Dungeon	191000000	The Monkey Forest
+192000000	Dry Rocky Mountain	192000001	Dry Rocky Mountain II
+192000001	Dry Rocky Mountain II	192000000	Dry Rocky Mountain
+193000000	Kerning City Internet Cafe	103000000	Kerning City
+195000000	Dangerous Ant-Hole	195010000	Evil Eye's Cave
+195010000	Evil Eye's Cave	195000000	Dangerous Ant-Hole
+195010000	Evil Eye's Cave	195020000	The Lightless Cave
+195020000	The Lightless Cave	195010000	Evil Eye's Cave
+195020000	The Lightless Cave	195030000	Cargo Hunting Ground
+195030000	Cargo Hunting Ground	195020000	The Lightless Cave
+196000000	The Chilly Hill	196010000	The Chilly Cliff
+196010000	The Chilly Cliff	196000000	The Chilly Hill
+197000000	Windy Terrace I	197010000	Windy Terrace II
+197010000	Windy Terrace II	197000000	Windy Terrace I
+200000000	Orbis	200000001	Orbis Weapon Store
+200000000	Orbis	200000002	Orbis Department Store
+200000000	Orbis	200000100	Orbis Station Enterence
+200000000	Orbis	200000200	Orbis Park
+200000000	Orbis	200000300	Top of the Hill
+200000000	Orbis	200010000	Cloud Park I
+200000000	Orbis	200080100	Entrance to Orbis Tower
+200000001	Orbis Weapon Store	200000000	Orbis
+200000002	Orbis Department Store	200000000	Orbis
+200000100	Orbis Station Enterence	200000000	Orbis
+200000110	Station Tunnel <To Ellinia>	200000100	Orbis Station Enterence
+200000110	Station Tunnel <To Ellinia>	200000111	Station<To Ellinia>
+200000111	Station<To Ellinia>	200000110	Station Tunnel <To Ellinia>
+200000120	Station Pathway<Ludibrium>	200000100	Orbis Station Enterence
+200000120	Station Pathway<Ludibrium>	200000121	Station<Ludibrium>
+200000121	Station<Ludibrium>	200000120	Station Pathway<Ludibrium>
+200000130	Cabin Path <To Leafre>	200000100	Orbis Station Enterence
+200000130	Cabin Path <To Leafre>	200000131	Cabin <To Leafre>
+200000131	Cabin <To Leafre>	200000130	Cabin Path <To Leafre>
+200000140	Cabin Path <To Mu Lung>	200000100	Orbis Station Enterence
+200000140	Cabin Path <To Mu Lung>	200000141	Cabin <To Mu Lung>
+200000141	Cabin <To Mu Lung>	200000140	Cabin Path <To Mu Lung>
+200000150	Station Tunnel <To Ariant>	200000100	Orbis Station Enterence
+200000150	Station Tunnel <To Ariant>	200000151	Station <To Ariant>
+200000151	Station <To Ariant>	200000150	Station Tunnel <To Ariant>
+200000160	Station Hall	200000100	Orbis Station Enterence
+200000160	Station Hall	200000161	Station
+200000161	Station	200000160	Station Hall
+200000200	Orbis Park	200000000	Orbis
+200000200	Orbis Park	200000201	Orbis Plastic Surgery
+200000200	Orbis Park	200000202	Orbis Hair Salon
+200000200	Orbis Park	200000203	Orbis Skin-Care
+200000201	Orbis Plastic Surgery	200000200	Orbis Park
+200000202	Orbis Hair Salon	200000200	Orbis Park
+200000203	Orbis Skin-Care	200000200	Orbis Park
+200000300	Top of the Hill	200000000	Orbis
+200000300	Top of the Hill	200000301	Guild Headquarters <Hall of Fame>
+200000301	Guild Headquarters <Hall of Fame>	200000300	Top of the Hill
+200010000	Cloud Park I	200000000	Orbis
+200010000	Cloud Park I	200010100	The Road to Garden of 3 Colors
+200010000	Cloud Park I	200020000	Cloud Park II
+200010100	The Road to Garden of 3 Colors	200010000	Cloud Park I
+200010100	The Road to Garden of 3 Colors	200010110	Garden of Red I
+200010100	The Road to Garden of 3 Colors	200010120	Garden of Yellow I
+200010100	The Road to Garden of 3 Colors	200010130	Garden of Green I
+200010110	Garden of Red I	200010100	The Road to Garden of 3 Colors
+200010110	Garden of Red I	200010111	Garden of Red II
+200010111	Garden of Red II	200010110	Garden of Red I
+200010111	Garden of Red II	200010200	Stairway to the Sky I
+200010120	Garden of Yellow I	200010100	The Road to Garden of 3 Colors
+200010120	Garden of Yellow I	200010121	Garden of Yellow II
+200010121	Garden of Yellow II	200010120	Garden of Yellow I
+200010121	Garden of Yellow II	200010200	Stairway to the Sky I
+200010130	Garden of Green I	200010100	The Road to Garden of 3 Colors
+200010130	Garden of Green I	200010131	Garden of Green II
+200010131	Garden of Green II	200010130	Garden of Green I
+200010131	Garden of Green II	200010200	Stairway to the Sky I
+200010200	Stairway to the Sky I	200010111	Garden of Red II
+200010200	Stairway to the Sky I	200010121	Garden of Yellow II
+200010200	Stairway to the Sky I	200010131	Garden of Green II
+200010200	Stairway to the Sky I	200010300	Stairway to the Sky II
+200010300	Stairway to the Sky II	200010200	Stairway to the Sky I
+200010300	Stairway to the Sky II	200010301	Garden of Darkness I
+200010300	Stairway to the Sky II	200010302	Garden of Darkness II
+200010301	Garden of Darkness I	200010300	Stairway to the Sky II
+200010302	Garden of Darkness II	200010300	Stairway to the Sky II
+200020000	Cloud Park II	200010000	Cloud Park I
+200020000	Cloud Park II	200030000	Strolling Path
+200030000	Strolling Path	200020000	Cloud Park II
+200030000	Strolling Path	200040000	Cloud Park III
+200040000	Cloud Park III	200030000	Strolling Path
+200040000	Cloud Park III	200040001	Disposed Flower Garden
+200040000	Cloud Park III	200050000	Cloud Park IV
+200040001	Disposed Flower Garden	200040000	Cloud Park III
+200050000	Cloud Park IV	200040000	Cloud Park III
+200050000	Cloud Park IV	200050001	Old Man's House
+200050000	Cloud Park IV	200060000	Strolling Path II
+200050001	Old Man's House	200050000	Cloud Park IV
+200060000	Strolling Path II	200050000	Cloud Park IV
+200060000	Strolling Path II	200070000	Cloud Park V
+200060001	Neglected Strolling Path	200060000	Strolling Path II
+200060001	Neglected Strolling Path	920030001	Sealed Garden
+200070000	Cloud Park V	200060000	Strolling Path II
+200070000	Cloud Park V	200080000	Cloud Park VI
+200080000	Cloud Park VI	200070000	Cloud Park V
+200080100	Entrance to Orbis Tower	200000000	Orbis
+200080100	Entrance to Orbis Tower	200080101	The Unknown Tower
+200080100	Entrance to Orbis Tower	200080200	Orbis Tower <20th Floor>
+200080101	The Unknown Tower	200080100	Entrance to Orbis Tower
+200080200	Orbis Tower <20th Floor>	200080100	Entrance to Orbis Tower
+200080200	Orbis Tower <20th Floor>	200080300	Orbis Tower <19th Floor>
+200080300	Orbis Tower <19th Floor>	200080200	Orbis Tower <20th Floor>
+200080300	Orbis Tower <19th Floor>	200080400	Orbis Tower <18th Floor>
+200080400	Orbis Tower <18th Floor>	200080300	Orbis Tower <19th Floor>
+200080400	Orbis Tower <18th Floor>	200080500	Orbis Tower <17th Floor>
+200080500	Orbis Tower <17th Floor>	200080400	Orbis Tower <18th Floor>
+200080500	Orbis Tower <17th Floor>	200080600	Orbis Tower <16th Floor>
+200080600	Orbis Tower <16th Floor>	200080500	Orbis Tower <17th Floor>
+200080600	Orbis Tower <16th Floor>	200080700	Orbis Tower <15th Floor>
+200080700	Orbis Tower <15th Floor>	200080600	Orbis Tower <16th Floor>
+200080700	Orbis Tower <15th Floor>	200080800	Orbis Tower <14th Floor>
+200080800	Orbis Tower <14th Floor>	200080700	Orbis Tower <15th Floor>
+200080800	Orbis Tower <14th Floor>	200080900	Orbis Tower <13th Floor>
+200080900	Orbis Tower <13th Floor>	200080800	Orbis Tower <14th Floor>
+200080900	Orbis Tower <13th Floor>	200081000	Orbis Tower <12th Floor>
+200081000	Orbis Tower <12th Floor>	200080900	Orbis Tower <13th Floor>
+200081000	Orbis Tower <12th Floor>	200081100	Orbis Tower <11th Floor>
+200081100	Orbis Tower <11th Floor>	200081000	Orbis Tower <12th Floor>
+200081100	Orbis Tower <11th Floor>	200081200	Orbis Tower <10th Floor>
+200081200	Orbis Tower <10th Floor>	200081100	Orbis Tower <11th Floor>
+200081200	Orbis Tower <10th Floor>	200081201	Orbis Tower <Hidden Room>
+200081200	Orbis Tower <10th Floor>	200081300	Orbis Tower <9th Floor>
+200081201	Orbis Tower <Hidden Room>	200081200	Orbis Tower <10th Floor>
+200081300	Orbis Tower <9th Floor>	200081200	Orbis Tower <10th Floor>
+200081300	Orbis Tower <9th Floor>	200081400	Orbis Tower <8th Floor>
+200081400	Orbis Tower <8th Floor>	200081300	Orbis Tower <9th Floor>
+200081400	Orbis Tower <8th Floor>	200081500	Orbis Tower <7th Floor>
+200081500	Orbis Tower <7th Floor>	200081400	Orbis Tower <8th Floor>
+200081500	Orbis Tower <7th Floor>	200081600	Orbis Tower <6th Floor>
+200081600	Orbis Tower <6th Floor>	200081500	Orbis Tower <7th Floor>
+200081600	Orbis Tower <6th Floor>	200081700	Orbis Tower <5th Floor>
+200081700	Orbis Tower <5th Floor>	200081600	Orbis Tower <6th Floor>
+200081700	Orbis Tower <5th Floor>	200081800	Orbis Tower <4th Floor>
+200081800	Orbis Tower <4th Floor>	200081700	Orbis Tower <5th Floor>
+200081800	Orbis Tower <4th Floor>	200081900	Orbis Tower <3rd Floor>
+200081900	Orbis Tower <3rd Floor>	200081800	Orbis Tower <4th Floor>
+200081900	Orbis Tower <3rd Floor>	200082000	Orbis Tower <2nd Floor>
+200082000	Orbis Tower <2nd Floor>	200081900	Orbis Tower <3rd Floor>
+200082000	Orbis Tower <2nd Floor>	200082100	Orbis Tower <1st Floor>
+200082100	Orbis Tower <1st Floor>	200082000	Orbis Tower <2nd Floor>
+200082100	Orbis Tower <1st Floor>	200082200	Orbis Tower<B1>
+200082100	Orbis Tower <1st Floor>	211000200	Snowy Hill
+200082200	Orbis Tower<B1>	200082100	Orbis Tower <1st Floor>
+200082200	Orbis Tower<B1>	200082300	Orbis Tower<B2>
+200082300	Orbis Tower<B2>	200082200	Orbis Tower<B1>
+200082300	Orbis Tower<B2>	200082301	Orbis Tower<Hugh's Laboratory>
+200082300	Orbis Tower<B2>	230010000	Ocean I.C
+200082301	Orbis Tower<Hugh's Laboratory>	200082300	Orbis Tower<B2>
+200090000	To Ellinia	200090001	Cabin <To Ellinia>
+200090001	Cabin <To Ellinia>	200090000	To Ellinia
+200090010	To Orbis	200090011	Cabin <To Orbis>
+200090011	Cabin <To Orbis>	200090010	To Orbis
+200090020	To Ereve	200000161	Station
+200090021	To Orbis	130000210	Sky Ferry 
+200090022	To Ereve	200000161	Station
+200090023	To Orbis	130000210	Sky Ferry 
+200090024	To Ereve	200000161	Station
+200090025	To Orbis	130000210	Sky Ferry 
+200090026	To Ereve	200000161	Station
+200090027	To Orbis	130000210	Sky Ferry 
+200090028	To Ereve	200000161	Station
+200090029	To Orbis	130000210	Sky Ferry 
+200090030	To Ereve	101000000	Ellinia
+200090030	To Ereve	101000400	Sky Ferry <To Ereve>
+200090031	To Ellinia	130000210	Sky Ferry 
+200090031	To Ellinia	200000161	Station
+200090032	To Ereve	101000000	Ellinia
+200090032	To Ereve	101000400	Sky Ferry <To Ereve>
+200090033	To Ellinia	130000210	Sky Ferry 
+200090033	To Ellinia	200000161	Station
+200090034	To Ereve	101000000	Ellinia
+200090034	To Ereve	101000400	Sky Ferry <To Ereve>
+200090035	To Ellinia	130000210	Sky Ferry 
+200090035	To Ellinia	200000161	Station
+200090036	To Ereve	101000000	Ellinia
+200090036	To Ereve	101000400	Sky Ferry <To Ereve>
+200090037	To Ellinia	130000210	Sky Ferry 
+200090037	To Ellinia	200000161	Station
+200090038	To Ereve	101000000	Ellinia
+200090038	To Ereve	101000400	Sky Ferry <To Ereve>
+200090039	To Ellinia	130000210	Sky Ferry 
+200090039	To Ellinia	200000161	Station
+200090040	To Ereve	200000161	Station
+200090041	To Orbis	130000210	Sky Ferry 
+200090042	To Ereve	200000161	Station
+200090043	To Orbis	130000210	Sky Ferry 
+200090044	To Ereve	200000161	Station
+200090045	To Orbis	130000210	Sky Ferry 
+200090046	To Ereve	200000161	Station
+200090047	To Orbis	130000210	Sky Ferry 
+200090048	To Ereve	200000161	Station
+200090049	To Orbis	130000210	Sky Ferry 
+200090050	To Ereve	101000000	Ellinia
+200090050	To Ereve	101000400	Sky Ferry <To Ereve>
+200090051	To Ellinia	130000210	Sky Ferry 
+200090051	To Ellinia	200000161	Station
+200090052	To Ereve	101000000	Ellinia
+200090052	To Ereve	101000400	Sky Ferry <To Ereve>
+200090053	To Ellinia	130000210	Sky Ferry 
+200090053	To Ellinia	200000161	Station
+200090054	To Ereve	101000000	Ellinia
+200090054	To Ereve	101000400	Sky Ferry <To Ereve>
+200090055	To Ellinia	130000210	Sky Ferry 
+200090055	To Ellinia	200000161	Station
+200090056	To Ereve	101000000	Ellinia
+200090056	To Ereve	101000400	Sky Ferry <To Ereve>
+200090057	To Ellinia	130000210	Sky Ferry 
+200090057	To Ellinia	200000161	Station
+200090058	To Ereve	101000000	Ellinia
+200090058	To Ereve	101000400	Sky Ferry <To Ereve>
+200090059	To Ellinia	130000210	Sky Ferry 
+200090059	To Ellinia	200000161	Station
+200090060	To Rien	104000000	Lith Harbor
+200090061	To Rien	104000000	Lith Harbor
+200090062	To Rien	104000000	Lith Harbor
+200090063	To Rien	104000000	Lith Harbor
+200090064	To Rien	104000000	Lith Harbor
+200090065	To Rien	104000000	Lith Harbor
+200090066	To Rien	104000000	Lith Harbor
+200090067	To Rien	104000000	Lith Harbor
+200090068	To Rien	104000000	Lith Harbor
+200090069	To Rien	104000000	Lith Harbor
+200090070	To Lith Harbor	140020300	Dangerous Forest
+200090071	To Lith Harbor	140020300	Dangerous Forest
+200090072	To Lith Harbor	140020300	Dangerous Forest
+200090073	To Lith Harbor	140020300	Dangerous Forest
+200090074	To Lith Harbor	140020300	Dangerous Forest
+200090075	To Lith Harbor	140020300	Dangerous Forest
+200090076	To Lith Harbor	140020300	Dangerous Forest
+200090077	To Lith Harbor	140020300	Dangerous Forest
+200090078	To Lith Harbor	140020300	Dangerous Forest
+200090079	To Lith Harbor	140020300	Dangerous Forest
+200090300	To Mu Lung	200000141	Cabin <To Mu Lung>
+200090310	To Orbis	250000100	Mu Lung Temple
+200090500	Way to Temple of Time	200090510	Way to Minar Forest
+200090510	Way to Minar Forest	200090500	Way to Temple of Time
+209000100	Cliff’s Hut	209000000	Happyville
+209080100		209000000	Happyville
+211000000	El Nath	211000001	Chief's Residence
+211000000	El Nath	211000100	El Nath Market
+211000000	El Nath	211000200	Snowy Hill
+211000000	El Nath	211010000	Watch Out for Icy Path I
+211000001	Chief's Residence	211000000	El Nath
+211000100	El Nath Market	211000000	El Nath
+211000100	El Nath Market	211000101	El Nath Weapon Store
+211000100	El Nath Market	211000102	El Nath Department Store
+211000101	El Nath Weapon Store	211000100	El Nath Market
+211000102	El Nath Department Store	211000100	El Nath Market
+211000200	Snowy Hill	200082100	Orbis Tower <1st Floor>
+211000200	Snowy Hill	211000000	El Nath
+211010000	Watch Out for Icy Path I	211000000	El Nath
+211010000	Watch Out for Icy Path I	211020000	Watch Out for Icy Path II
+211020000	Watch Out for Icy Path II	211010000	Watch Out for Icy Path I
+211020000	Watch Out for Icy Path II	211030000	Cold Field I
+211030000	Cold Field I	211020000	Watch Out for Icy Path II
+211030000	Cold Field I	211040000	Cold Field II
+211040000	Cold Field II	211030000	Cold Field I
+211040000	Cold Field II	211040001	The Crown-Flyer
+211040000	Cold Field II	211040100	Ice Valley I
+211040000	Cold Field II	211050000	Icy Cold Field
+211040001	The Crown-Flyer	211040000	Cold Field II
+211040100	Ice Valley I	211040000	Cold Field II
+211040100	Ice Valley I	211040101	Valley of Snowman
+211040100	Ice Valley I	211040200	Ice Valley II
+211040101	Valley of Snowman	211040100	Ice Valley I
+211040101	Valley of Snowman	211040102	Snow Soul’s Resting Place
+211040102	Snow Soul’s Resting Place	211040101	Valley of Snowman
+211040200	Ice Valley II	211040100	Ice Valley I
+211040300	Sharp Cliff I	211040200	Ice Valley II
+211040300	Sharp Cliff I	211040400	Sharp Cliff II
+211040400	Sharp Cliff II	211040300	Sharp Cliff I
+211040400	Sharp Cliff II	211040401	Holy Ground at the Snowfield
+211040400	Sharp Cliff II	211040500	Wolf Territory I
+211040401	Holy Ground at the Snowfield	211040400	Sharp Cliff II
+211040500	Wolf Territory I	211040400	Sharp Cliff II
+211040500	Wolf Territory I	211040600	Wolf Territory II
+211040600	Wolf Territory II	211040500	Wolf Territory I
+211040600	Wolf Territory II	211040700	Dangerous Cliff
+211040700	Dangerous Cliff	211040600	Wolf Territory II
+211040700	Dangerous Cliff	211040800	Wolf Territory III
+211040800	Wolf Territory III	211040700	Dangerous Cliff
+211040800	Wolf Territory III	211040900	Wolf Territory IV
+211040900	Wolf Territory IV	211040800	Wolf Territory III
+211040900	Wolf Territory IV	211041000	Wolf Territory V
+211041000	Wolf Territory V	211040900	Wolf Territory IV
+211041000	Wolf Territory V	211041100	Forest of Dead Trees I
+211041100	Forest of Dead Trees I	211041000	Wolf Territory V
+211041100	Forest of Dead Trees I	211041200	Forest of Dead Trees II
+211041200	Forest of Dead Trees II	211041100	Forest of Dead Trees I
+211041200	Forest of Dead Trees II	211041300	Forest of Dead Trees III
+211041300	Forest of Dead Trees III	211041200	Forest of Dead Trees II
+211041300	Forest of Dead Trees III	211041400	Forest of Dead Trees IV
+211041400	Forest of Dead Trees IV	211041300	Forest of Dead Trees III
+211041400	Forest of Dead Trees IV	211041500	Dead Mine I
+211041500	Dead Mine I	211041400	Forest of Dead Trees IV
+211041500	Dead Mine I	211041600	Dead Mine II
+211041600	Dead Mine II	211041500	Dead Mine I
+211041600	Dead Mine II	211041700	Dead Mine III
+211041700	Dead Mine III	211041600	Dead Mine II
+211041700	Dead Mine III	211041800	Dead Mine IV
+211041800	Dead Mine IV	211041700	Dead Mine III
+211041800	Dead Mine IV	211041900	The Passage
+211041900	The Passage	211041800	Dead Mine IV
+211041900	The Passage	211042000	The Cave of Trial I
+211042000	The Cave of Trial I	211041900	The Passage
+211042000	The Cave of Trial I	211042100	The Cave of Trial II
+211042100	The Cave of Trial II	211042000	The Cave of Trial I
+211042100	The Cave of Trial II	211042101	Cave Within the Cave
+211042100	The Cave of Trial II	211042200	The Cave of Trial III
+211042101	Cave Within the Cave	211042100	The Cave of Trial II
+211042200	The Cave of Trial III	211042100	The Cave of Trial II
+211042200	The Cave of Trial III	211042300	The Door to Zakum
+211042300	The Door to Zakum	211042200	The Cave of Trial III
+211042400	Entrance to Zakum Altar	211042300	The Door to Zakum
+211050000	Icy Cold Field	211040000	Cold Field II
+220000000	Ludibrium	220000001	Ludibrium Weapon Store
+220000000	Ludibrium	220000002	Ludibrium Pharmacy
+220000000	Ludibrium	220000003	Ludibrium Plastic Surgery
+220000000	Ludibrium	220000004	Ludibrium Hair Salon
+220000000	Ludibrium	220000005	Ludibrium Skin Care
+220000000	Ludibrium	220000006	Ludibrium Pet Walkway
+220000000	Ludibrium	220000100	Ludibrium Ticketing Place
+220000000	Ludibrium	220000300	Ludibrium Village
+220000000	Ludibrium	220000500	Helios Tower Entrance
+220000000	Ludibrium	220010500	Terrace Hall
+220000001	Ludibrium Weapon Store	220000000	Ludibrium
+220000002	Ludibrium Pharmacy	220000000	Ludibrium
+220000003	Ludibrium Plastic Surgery	220000000	Ludibrium
+220000004	Ludibrium Hair Salon	220000000	Ludibrium
+220000005	Ludibrium Skin Care	220000000	Ludibrium
+220000006	Ludibrium Pet Walkway	220000000	Ludibrium
+220000100	Ludibrium Ticketing Place	220000000	Ludibrium
+220000100	Ludibrium Ticketing Place	220000110	Station<Orbis>
+220000110	Station<Orbis>	220000100	Ludibrium Ticketing Place
+220000300	Ludibrium Village	220000000	Ludibrium
+220000300	Ludibrium Village	220000301	Korin's House
+220000300	Ludibrium Village	220000302	Manager Karl's House
+220000300	Ludibrium Village	220000303	Tara and Sarah's House
+220000300	Ludibrium Village	220000304	Chloe's House
+220000300	Ludibrium Village	220000305	Empty House I
+220000300	Ludibrium Village	220000306	Empty House II
+220000300	Ludibrium Village	220000307	Mason's House
+220000300	Ludibrium Village	220000400	Eos Tower Entrance
+220000301	Korin's House	220000300	Ludibrium Village
+220000302	Manager Karl's House	220000300	Ludibrium Village
+220000303	Tara and Sarah's House	220000300	Ludibrium Village
+220000304	Chloe's House	220000300	Ludibrium Village
+220000305	Empty House I	220000300	Ludibrium Village
+220000306	Empty House II	220000300	Ludibrium Village
+220000307	Mason's House	220000300	Ludibrium Village
+220000400	Eos Tower Entrance	220000300	Ludibrium Village
+220000400	Eos Tower Entrance	221024400	Eos Tower 100th Floor
+220000500	Helios Tower Entrance	220000000	Ludibrium
+220000500	Helios Tower Entrance	222020300	Helios Tower (100th Floor)
+220010000	Cloud Terrace<5>	220010001	Cloud Balcony
+220010000	Cloud Terrace<5>	220010100	Cloud Terrace<4>
+220010001	Cloud Balcony	220010000	Cloud Terrace<5>
+220010100	Cloud Terrace<4>	220010000	Cloud Terrace<5>
+220010100	Cloud Terrace<4>	220010200	Cloud Terrace<3>
+220010200	Cloud Terrace<3>	220010100	Cloud Terrace<4>
+220010200	Cloud Terrace<3>	220010300	Cloud Terrace<2>
+220010300	Cloud Terrace<2>	220010200	Cloud Terrace<3>
+220010300	Cloud Terrace<2>	220010400	Cloud Terrace<1>
+220010400	Cloud Terrace<1>	220010300	Cloud Terrace<2>
+220010400	Cloud Terrace<1>	220010500	Terrace Hall
+220010500	Terrace Hall	220000000	Ludibrium
+220010500	Terrace Hall	220010400	Cloud Terrace<1>
+220010500	Terrace Hall	220010600	Sky Terrace<1>
+220010500	Terrace Hall	220020300	Toy Factory <Main Process 1>
+220010600	Sky Terrace<1>	220010500	Terrace Hall
+220010600	Sky Terrace<1>	220010700	Sky Terrace<2>
+220010700	Sky Terrace<2>	220010600	Sky Terrace<1>
+220010700	Sky Terrace<2>	220010800	Sky Terrace<3>
+220010800	Sky Terrace<3>	220010700	Sky Terrace<2>
+220010800	Sky Terrace<3>	220010900	Sky Terrace<4>
+220010900	Sky Terrace<4>	220010800	Sky Terrace<3>
+220010900	Sky Terrace<4>	220011000	Sky Terrace<5>
+220011000	Sky Terrace<5>	220010900	Sky Terrace<4>
+220011000	Sky Terrace<5>	220011001	Sky Terrace
+220011001	Sky Terrace	220011000	Sky Terrace<5>
+220020000	Toy Factory <Process 1> Zone 1	220020100	Toy Factory <Process 1> Zone 2
+220020000	Toy Factory <Process 1> Zone 1	220030000	Toy Factory <Process 2> Zone 1
+220020100	Toy Factory <Process 1> Zone 2	220020000	Toy Factory <Process 1> Zone 1
+220020100	Toy Factory <Process 1> Zone 2	220020200	Toy Factory <Process 1> Zone 3
+220020200	Toy Factory <Process 1> Zone 3	220020100	Toy Factory <Process 1> Zone 2
+220020200	Toy Factory <Process 1> Zone 3	220020300	Toy Factory <Main Process 1>
+220020300	Toy Factory <Main Process 1>	220010500	Terrace Hall
+220020300	Toy Factory <Main Process 1>	220020200	Toy Factory <Process 1> Zone 3
+220020300	Toy Factory <Main Process 1>	220020400	Toy Factory <Process 1> Zone 5
+220020300	Toy Factory <Main Process 1>	220030200	Toy Factory <Main Process 2>
+220020400	Toy Factory <Process 1> Zone 5	220020300	Toy Factory <Main Process 1>
+220020400	Toy Factory <Process 1> Zone 5	220020500	Toy Factory <Process 1> Zone 6
+220020500	Toy Factory <Process 1> Zone 6	220020400	Toy Factory <Process 1> Zone 5
+220020500	Toy Factory <Process 1> Zone 6	220020600	Toy Factory <Aparatus Room>
+220020600	Toy Factory <Aparatus Room>	220020500	Toy Factory <Process 1> Zone 6
+220020600	Toy Factory <Aparatus Room>	220030400	Toy Factory <Process 2> Zone 4
+220030000	Toy Factory <Process 2> Zone 1	220020000	Toy Factory <Process 1> Zone 1
+220030000	Toy Factory <Process 2> Zone 1	220030100	Toy Factory <Process 2> Zone 2
+220030100	Toy Factory <Process 2> Zone 2	220030000	Toy Factory <Process 2> Zone 1
+220030100	Toy Factory <Process 2> Zone 2	220030200	Toy Factory <Main Process 2>
+220030200	Toy Factory <Main Process 2>	220020300	Toy Factory <Main Process 1>
+220030200	Toy Factory <Main Process 2>	220030100	Toy Factory <Process 2> Zone 2
+220030200	Toy Factory <Main Process 2>	220030300	Toy Factory <Process 2> Zone 3
+220030200	Toy Factory <Main Process 2>	220040200	Crossroad of Time
+220030300	Toy Factory <Process 2> Zone 3	220030200	Toy Factory <Main Process 2>
+220030300	Toy Factory <Process 2> Zone 3	220030400	Toy Factory <Process 2> Zone 4
+220030400	Toy Factory <Process 2> Zone 4	220020600	Toy Factory <Aparatus Room>
+220030400	Toy Factory <Process 2> Zone 4	220030300	Toy Factory <Process 2> Zone 3
+220040000	The Path of Time <1>	220040100	The Path of Time <2>
+220040100	The Path of Time <2>	220040000	The Path of Time <1>
+220040100	The Path of Time <2>	220040200	Crossroad of Time
+220040200	Crossroad of Time	220030200	Toy Factory <Main Process 2>
+220040200	Crossroad of Time	220040100	The Path of Time <2>
+220040200	Crossroad of Time	220040300	The Path of Time <3>
+220040200	Crossroad of Time	220050100	Whirlpool of Time
+220040300	The Path of Time <3>	220040200	Crossroad of Time
+220040300	The Path of Time <3>	220040400	The Path of Time <4>
+220040400	The Path of Time <4>	220040300	The Path of Time <3>
+220050000	Lost Time <1>	220050100	Whirlpool of Time
+220050100	Whirlpool of Time	220040200	Crossroad of Time
+220050100	Whirlpool of Time	220050000	Lost Time <1>
+220050100	Whirlpool of Time	220050200	Lost Time <2>
+220050100	Whirlpool of Time	220050300	Path of Time
+220050200	Lost Time <2>	220050100	Whirlpool of Time
+220050300	Path of Time	220050100	Whirlpool of Time
+220050300	Path of Time	220060000	Warped Path of Time<1>
+220050300	Path of Time	220070000	Forgotten Path of Time<1>
+220060000	Warped Path of Time<1>	220050300	Path of Time
+220060000	Warped Path of Time<1>	220060100	Warped Path of Time<2>
+220060100	Warped Path of Time<2>	220060000	Warped Path of Time<1>
+220060100	Warped Path of Time<2>	220060200	Warped Path of Time<3>
+220060200	Warped Path of Time<3>	220060100	Warped Path of Time<2>
+220060200	Warped Path of Time<3>	220060201	Unbalanced Time
+220060200	Warped Path of Time<3>	220060300	Warped Path of Time<4>
+220060201	Unbalanced Time	220060200	Warped Path of Time<3>
+220060300	Warped Path of Time<4>	220060200	Warped Path of Time<3>
+220060300	Warped Path of Time<4>	220060301	Twisted Time
+220060300	Warped Path of Time<4>	220060400	Warped Passage
+220060301	Twisted Time	220060300	Warped Path of Time<4>
+220060400	Warped Passage	220060300	Warped Path of Time<4>
+220060400	Warped Passage	220080000	Deep Inside the Clocktower
+220070000	Forgotten Path of Time<1>	220050300	Path of Time
+220070000	Forgotten Path of Time<1>	220070100	Forgotten Path of Time<2>
+220070100	Forgotten Path of Time<2>	220070000	Forgotten Path of Time<1>
+220070100	Forgotten Path of Time<2>	220070200	Forgotten Path of Time<3>
+220070200	Forgotten Path of Time<3>	220070100	Forgotten Path of Time<2>
+220070200	Forgotten Path of Time<3>	220070201	Lost Time
+220070200	Forgotten Path of Time<3>	220070300	Forgotten Path of Time<4>
+220070201	Lost Time	220070200	Forgotten Path of Time<3>
+220070300	Forgotten Path of Time<4>	220070200	Forgotten Path of Time<3>
+220070300	Forgotten Path of Time<4>	220070301	Forbidden Time
+220070300	Forgotten Path of Time<4>	220070400	Forgotten Passage
+220070301	Forbidden Time	220070300	Forgotten Path of Time<4>
+220070400	Forgotten Passage	220070300	Forgotten Path of Time<4>
+220070400	Forgotten Passage	220080000	Deep Inside the Clocktower
+220080000	Deep Inside the Clocktower	220060400	Warped Passage
+220080000	Deep Inside the Clocktower	220070400	Forgotten Passage
+221000000	Omega Sector	221000001	Tunnel
+221000000	Omega Sector	221000100	HQ
+221000000	Omega Sector	221000400	Safety Zone
+221000000	Omega Sector	221030000	Off-Limits
+221000001	Tunnel	221000000	Omega Sector
+221000001	Tunnel	221000100	HQ
+221000100	HQ	221000000	Omega Sector
+221000100	HQ	221000001	Tunnel
+221000100	HQ	221000200	Silo
+221000100	HQ	221000300	Command Center
+221000200	Silo	221000100	HQ
+221000300	Command Center	221000100	HQ
+221000400	Safety Zone	221000000	Omega Sector
+221000400	Safety Zone	221020000	Eos Tower 1st Floor
+221020000	Eos Tower 1st Floor	221000400	Safety Zone
+221020000	Eos Tower 1st Floor	221020100	Eos Tower 2nd Floor
+221020100	Eos Tower 2nd Floor	221020000	Eos Tower 1st Floor
+221020100	Eos Tower 2nd Floor	221020200	Eos Tower 3rd Floor
+221020200	Eos Tower 3rd Floor	221020100	Eos Tower 2nd Floor
+221020200	Eos Tower 3rd Floor	221020300	Eos Tower 4th Floor
+221020300	Eos Tower 4th Floor	221020200	Eos Tower 3rd Floor
+221020300	Eos Tower 4th Floor	221020400	Eos Tower 5th Floor
+221020400	Eos Tower 5th Floor	221020300	Eos Tower 4th Floor
+221020400	Eos Tower 5th Floor	221020500	Eos Tower 6th Floor
+221020500	Eos Tower 6th Floor	221020400	Eos Tower 5th Floor
+221020500	Eos Tower 6th Floor	221020600	Eos Tower 7th Floor
+221020600	Eos Tower 7th Floor	221020500	Eos Tower 6th Floor
+221020600	Eos Tower 7th Floor	221020700	Eos Tower 8th Floor
+221020700	Eos Tower 8th Floor	221020600	Eos Tower 7th Floor
+221020700	Eos Tower 8th Floor	221020701	Hidden Tower
+221020700	Eos Tower 8th Floor	221020800	Eos Tower 9th Floor
+221020701	Hidden Tower	221020700	Eos Tower 8th Floor
+221020800	Eos Tower 9th Floor	221020700	Eos Tower 8th Floor
+221020800	Eos Tower 9th Floor	221020900	Eos Tower 10th Floor
+221020900	Eos Tower 10th Floor	221020800	Eos Tower 9th Floor
+221020900	Eos Tower 10th Floor	221021000	Eos Tower 11th ~ 20th Floor
+221021000	Eos Tower 11th ~ 20th Floor	221020900	Eos Tower 10th Floor
+221021000	Eos Tower 11th ~ 20th Floor	221021100	Eos Tower 21st Floor
+221021100	Eos Tower 21st Floor	221021000	Eos Tower 11th ~ 20th Floor
+221021100	Eos Tower 21st Floor	221021200	Eos Tower 22nd Floor
+221021200	Eos Tower 22nd Floor	221021100	Eos Tower 21st Floor
+221021200	Eos Tower 22nd Floor	221021300	Eos Tower 23rd Floor
+221021300	Eos Tower 23rd Floor	221021200	Eos Tower 22nd Floor
+221021300	Eos Tower 23rd Floor	221021400	Eos Tower 24th Floor
+221021400	Eos Tower 24th Floor	221021300	Eos Tower 23rd Floor
+221021400	Eos Tower 24th Floor	221021500	Eos Tower 25th Floor
+221021500	Eos Tower 25th Floor	221021400	Eos Tower 24th Floor
+221021500	Eos Tower 25th Floor	221021600	Eos Tower 26th ~ 40th Floor
+221021600	Eos Tower 26th ~ 40th Floor	221021500	Eos Tower 25th Floor
+221021600	Eos Tower 26th ~ 40th Floor	221021700	Eos Tower 41st Floor
+221021700	Eos Tower 41st Floor	221021600	Eos Tower 26th ~ 40th Floor
+221021700	Eos Tower 41st Floor	221021800	Eos Tower 42nd Floor
+221021800	Eos Tower 42nd Floor	221021700	Eos Tower 41st Floor
+221021800	Eos Tower 42nd Floor	221021900	Eos Tower 43rd Floor
+221021900	Eos Tower 43rd Floor	221021800	Eos Tower 42nd Floor
+221021900	Eos Tower 43rd Floor	221022000	Eos Tower 44th Floor
+221022000	Eos Tower 44th Floor	221021900	Eos Tower 43rd Floor
+221022000	Eos Tower 44th Floor	221022100	Eos Tower 45th Floor
+221022100	Eos Tower 45th Floor	221022000	Eos Tower 44th Floor
+221022100	Eos Tower 45th Floor	221022200	Eos Tower 46th ~ 55th Floor
+221022200	Eos Tower 46th ~ 55th Floor	221022100	Eos Tower 45th Floor
+221022200	Eos Tower 46th ~ 55th Floor	221022300	Eos Tower 56th Floor
+221022300	Eos Tower 56th Floor	221022200	Eos Tower 46th ~ 55th Floor
+221022300	Eos Tower 56th Floor	221022400	Eos Tower 57th Floor
+221022400	Eos Tower 57th Floor	221022300	Eos Tower 56th Floor
+221022400	Eos Tower 57th Floor	221022500	Eos Tower 58th Floor
+221022500	Eos Tower 58th Floor	221022400	Eos Tower 57th Floor
+221022500	Eos Tower 58th Floor	221022600	Eos Tower 59th Floor
+221022600	Eos Tower 59th Floor	221022500	Eos Tower 58th Floor
+221022600	Eos Tower 59th Floor	221022700	Eos Tower 60th Floor
+221022700	Eos Tower 60th Floor	221022600	Eos Tower 59th Floor
+221022700	Eos Tower 60th Floor	221022800	Eos Tower 61st ~ 70th Floor
+221022800	Eos Tower 61st ~ 70th Floor	221022700	Eos Tower 60th Floor
+221022800	Eos Tower 61st ~ 70th Floor	221022900	Eos Tower 71st Floor
+221022900	Eos Tower 71st Floor	221022800	Eos Tower 61st ~ 70th Floor
+221022900	Eos Tower 71st Floor	221023000	Eos Tower 72nd Floor
+221023000	Eos Tower 72nd Floor	221022900	Eos Tower 71st Floor
+221023000	Eos Tower 72nd Floor	221023100	Eos Tower 73rd Floor
+221023100	Eos Tower 73rd Floor	221023000	Eos Tower 72nd Floor
+221023100	Eos Tower 73rd Floor	221023200	Eos Tower 74th Floor
+221023200	Eos Tower 74th Floor	221023100	Eos Tower 73rd Floor
+221023200	Eos Tower 74th Floor	221023300	Eos Tower 75th Floor
+221023300	Eos Tower 75th Floor	221023200	Eos Tower 74th Floor
+221023300	Eos Tower 75th Floor	221023400	Eos Tower 76th ~ 90th Floor
+221023400	Eos Tower 76th ~ 90th Floor	221023300	Eos Tower 75th Floor
+221023400	Eos Tower 76th ~ 90th Floor	221023500	Eos Tower 91st Floor
+221023500	Eos Tower 91st Floor	221023400	Eos Tower 76th ~ 90th Floor
+221023500	Eos Tower 91st Floor	221023600	Eos Tower 92nd Floor
+221023600	Eos Tower 92nd Floor	221023500	Eos Tower 91st Floor
+221023600	Eos Tower 92nd Floor	221023700	Eos Tower 93rd Floor
+221023700	Eos Tower 93rd Floor	221023600	Eos Tower 92nd Floor
+221023700	Eos Tower 93rd Floor	221023800	Eos Tower 94th Floor
+221023800	Eos Tower 94th Floor	221023700	Eos Tower 93rd Floor
+221023800	Eos Tower 94th Floor	221023900	Eos Tower 95th Floor
+221023900	Eos Tower 95th Floor	221023800	Eos Tower 94th Floor
+221023900	Eos Tower 95th Floor	221024000	Eos Tower 96th Floor
+221024000	Eos Tower 96th Floor	221023900	Eos Tower 95th Floor
+221024000	Eos Tower 96th Floor	221024100	Eos Tower 97th Floor
+221024100	Eos Tower 97th Floor	221024000	Eos Tower 96th Floor
+221024100	Eos Tower 97th Floor	221024200	Eos Tower 98th Floor
+221024200	Eos Tower 98th Floor	221024100	Eos Tower 97th Floor
+221024200	Eos Tower 98th Floor	221024300	Eos Tower 99th Floor
+221024300	Eos Tower 99th Floor	221024200	Eos Tower 98th Floor
+221024300	Eos Tower 99th Floor	221024400	Eos Tower 100th Floor
+221024400	Eos Tower 100th Floor	220000400	Eos Tower Entrance
+221024400	Eos Tower 100th Floor	221024300	Eos Tower 99th Floor
+221024400	Eos Tower 100th Floor	221024500	Eos Tower 101st Floor
+221024500	Eos Tower 101st Floor	221024400	Eos Tower 100th Floor
+221030000	Off-Limits	221000000	Omega Sector
+221030000	Off-Limits	221030100	Boswell Field I
+221030000	Off-Limits	221040000	Kulan Field I
+221030100	Boswell Field I	221030000	Off-Limits
+221030100	Boswell Field I	221030200	Boswell Field II
+221030200	Boswell Field II	221030100	Boswell Field I
+221030200	Boswell Field II	221030300	Boswell Field III
+221030300	Boswell Field III	221030200	Boswell Field II
+221030300	Boswell Field III	221030301	Mateon Field
+221030300	Boswell Field III	221030400	Boswell Field IV
+221030301	Mateon Field	221030300	Boswell Field III
+221030400	Boswell Field IV	221030300	Boswell Field III
+221030400	Boswell Field IV	221030401	Plateon Field
+221030400	Boswell Field IV	221030500	Boswell Field V
+221030401	Plateon Field	221030400	Boswell Field IV
+221030500	Boswell Field V	221030400	Boswell Field IV
+221030500	Boswell Field V	221030501	Mecateon Field
+221030500	Boswell Field V	221030600	Boswell Field VI
+221030501	Mecateon Field	221030500	Boswell Field V
+221030600	Boswell Field VI	221030500	Boswell Field V
+221030600	Boswell Field VI	221030601	Defeat Monsters
+221030601	Defeat Monsters	221030600	Boswell Field VI
+221040000	Kulan Field I	221030000	Off-Limits
+221040000	Kulan Field I	221040100	Kulan Field II
+221040100	Kulan Field II	221040000	Kulan Field I
+221040100	Kulan Field II	221040200	Kulan Field III
+221040200	Kulan Field III	221040100	Kulan Field II
+221040200	Kulan Field III	221040201	Barnard Field
+221040200	Kulan Field III	221040300	Kulan Field IV
+221040201	Barnard Field	221040200	Kulan Field III
+221040300	Kulan Field IV	221040200	Kulan Field III
+221040300	Kulan Field IV	221040301	Gray's Prairie
+221040300	Kulan Field IV	221040400	Kulan Field V
+221040301	Gray's Prairie	221040300	Kulan Field IV
+221040400	Kulan Field V	221040300	Kulan Field IV
+221040400	Kulan Field V	221040401	Entrance to Dogon's HQ
+221040401	Entrance to Dogon's HQ	221040400	Kulan Field V
+221040401	Entrance to Dogon's HQ	221040402	Dogon's HQ
+221040402	Dogon's HQ	221040401	Entrance to Dogon's HQ
+222000000	Korean Folk Town	222000001	Pond
+222000000	Korean Folk Town	222010000	Entrance to Black Mountain
+222000000	Korean Folk Town	222020000	Helios Tower <Library>
+222000001	Pond	222000000	Korean Folk Town
+222000001	Pond	230030200	The Sharp Unknown
+222010000	Entrance to Black Mountain	222000000	Korean Folk Town
+222010000	Entrance to Black Mountain	222010001	Black Mountain <Corner>
+222010000	Entrance to Black Mountain	222010100	Around the Pond
+222010001	Black Mountain <Corner>	222010000	Entrance to Black Mountain
+222010001	Black Mountain <Corner>	222010002	A Small Well
+222010002	A Small Well	222010001	Black Mountain <Corner>
+222010100	Around the Pond	222010000	Entrance to Black Mountain
+222010100	Around the Pond	222010101	Tiger Forest I
+222010100	Around the Pond	222010200	Tiger Ridge
+222010101	Tiger Forest I	222010100	Around the Pond
+222010101	Tiger Forest I	222010102	Tiger Forest II
+222010102	Tiger Forest II	222010101	Tiger Forest I
+222010200	Tiger Ridge	222010100	Around the Pond
+222010200	Tiger Ridge	222010201	Black Mountain <Valley>
+222010200	Tiger Ridge	222010300	Fox Ridge
+222010200	Tiger Ridge	922200000	The Area of Wild Hog
+222010201	Black Mountain <Valley>	222010200	Tiger Ridge
+222010300	Fox Ridge	222010310	Moon Ridge
+222010300	Fox Ridge	222010400	Top of Black Mountain
+222010310	Moon Ridge	222010300	Fox Ridge
+222010400	Top of Black Mountain	222010300	Fox Ridge
+222010400	Top of Black Mountain	222010401	Haunted House
+222010401	Haunted House	222010400	Top of Black Mountain
+222010401	Haunted House	222010402	Goblin House
+222010402	Goblin House	222010401	Haunted House
+222020000	Helios Tower <Library>	222000000	Korean Folk Town
+222020000	Helios Tower <Library>	222020100	Helios Tower <2nd Floor>
+222020100	Helios Tower <2nd Floor>	222020000	Helios Tower <Library>
+222020110	Elevator <To Ludibrium>	222020100	Helios Tower <2nd Floor>
+222020111	Elevator <To Ludibrium>	222020100	Helios Tower <2nd Floor>
+222020200	Helios Tower <99th Floor>	222020300	Helios Tower (100th Floor)
+222020210	Elevator <To Korean Folk Town>	222020200	Helios Tower <99th Floor>
+222020211	Elevator <To Korean Folk Town>	222020200	Helios Tower <99th Floor>
+222020300	Helios Tower (100th Floor)	220000500	Helios Tower Entrance
+222020300	Helios Tower (100th Floor)	222020200	Helios Tower <99th Floor>
+222020300	Helios Tower (100th Floor)	222020400	Time Control Room
+222020400	Time Control Room	222020300	Helios Tower (100th Floor)
+229020000		682000100	Foyer
+229020100		682000100	Foyer
+229020200		682000100	Foyer
+229020300		682000100	Foyer
+229020400		682000100	Foyer
+229030000		229030100	
+229030400		229030500	
+229030700		229030800	
+230000000	Aquarium	230000001	The Center Hall
+230000000	Aquarium	230000002	Department Store
+230000000	Aquarium	230000003	Zoo
+230000000	Aquarium	230010400	Forked Road : West Sea
+230000000	Aquarium	230020000	Forked Road : East Sea
+230000001	The Center Hall	230000000	Aquarium
+230000001	The Center Hall	230000002	Department Store
+230000001	The Center Hall	230000003	Zoo
+230000002	Department Store	230000000	Aquarium
+230000002	Department Store	230000001	The Center Hall
+230000003	Zoo	230000000	Aquarium
+230000003	Zoo	230000001	The Center Hall
+230010000	Ocean I.C	200082300	Orbis Tower<B2>
+230010000	Ocean I.C	230010001	Penguin's Playground
+230010000	Ocean I.C	230010100	Crystal Gorge
+230010001	Penguin's Playground	230010000	Ocean I.C
+230010100	Crystal Gorge	230010000	Ocean I.C
+230010100	Crystal Gorge	230010200	Red Coral Forest
+230010200	Red Coral Forest	230010100	Crystal Gorge
+230010200	Red Coral Forest	230010201	Snowy Whale's Island
+230010200	Red Coral Forest	230010300	Turban Shell Hill
+230010201	Snowy Whale's Island	230010200	Red Coral Forest
+230010300	Turban Shell Hill	230010200	Red Coral Forest
+230010300	Turban Shell Hill	230010400	Forked Road : West Sea
+230010400	Forked Road : West Sea	230000000	Aquarium
+230010400	Forked Road : West Sea	230010300	Turban Shell Hill
+230010400	Forked Road : West Sea	230040000	Deep Sea Gorge I
+230020000	Forked Road : East Sea	230000000	Aquarium
+230020000	Forked Road : East Sea	230020100	The Seaweed Tower
+230020000	Forked Road : East Sea	230040200	Dangerous Sea Gorge I
+230020100	The Seaweed Tower	230020000	Forked Road : East Sea
+230020100	The Seaweed Tower	230020101	The Hidden Town
+230020100	The Seaweed Tower	230020200	Sand Castle Playground
+230020101	The Hidden Town	230020100	The Seaweed Tower
+230020200	Sand Castle Playground	230020100	The Seaweed Tower
+230020200	Sand Castle Playground	230020201	Two Palm Trees
+230020200	Sand Castle Playground	230020300	Big Fish Valley
+230020201	Two Palm Trees	230020200	Sand Castle Playground
+230020300	Big Fish Valley	230020200	Sand Castle Playground
+230020300	Big Fish Valley	230030000	Blue Seaweed Road
+230030000	Blue Seaweed Road	230020300	Big Fish Valley
+230030000	Blue Seaweed Road	230030001	Fish Resting Spot
+230030000	Blue Seaweed Road	230030100	Mushroom Coral Hill
+230030001	Fish Resting Spot	230030000	Blue Seaweed Road
+230030100	Mushroom Coral Hill	230030000	Blue Seaweed Road
+230030100	Mushroom Coral Hill	230030101	Tae Gong's Ferry
+230030100	Mushroom Coral Hill	230030200	The Sharp Unknown
+230030101	Tae Gong's Ferry	230030100	Mushroom Coral Hill
+230030200	The Sharp Unknown	222000001	Pond
+230030200	The Sharp Unknown	230030100	Mushroom Coral Hill
+230040000	Deep Sea Gorge I	230010400	Forked Road : West Sea
+230040000	Deep Sea Gorge I	230040001	Carta's Cave
+230040000	Deep Sea Gorge I	230040100	Deep Sea Gorge II
+230040001	Carta's Cave	230040000	Deep Sea Gorge I
+230040100	Deep Sea Gorge II	230040000	Deep Sea Gorge I
+230040100	Deep Sea Gorge II	230040400	The Grave of a Wrecked Ship
+230040200	Dangerous Sea Gorge I	230020000	Forked Road : East Sea
+230040200	Dangerous Sea Gorge I	230040300	Dangerous Sea Gorge II
+230040300	Dangerous Sea Gorge II	230040200	Dangerous Sea Gorge I
+230040300	Dangerous Sea Gorge II	230040301	A Small Cave
+230040300	Dangerous Sea Gorge II	230040400	The Grave of a Wrecked Ship
+230040301	A Small Cave	230040300	Dangerous Sea Gorge II
+230040400	The Grave of a Wrecked Ship	230040100	Deep Sea Gorge II
+230040400	The Grave of a Wrecked Ship	230040300	Dangerous Sea Gorge II
+230040400	The Grave of a Wrecked Ship	230040401	A Small Wrecked Ship
+230040400	The Grave of a Wrecked Ship	230040410	The Dangerous Cave
+230040401	A Small Wrecked Ship	230040400	The Grave of a Wrecked Ship
+230040410	The Dangerous Cave	230040400	The Grave of a Wrecked Ship
+230040420	The Cave of Pianus	230040410	The Dangerous Cave
+240000000	Leafre	240000001	Chief's House
+240000000	Leafre	240000002	Department Store
+240000000	Leafre	240000003	Yaku's House
+240000000	Leafre	240000004	Ito's House
+240000000	Leafre	240000005	Kumo's House
+240000000	Leafre	240000006	Pam's House
+240000000	Leafre	240000100	Leafre Station Enterence
+240000000	Leafre	240010000	West Leafre Forest
+240000000	Leafre	240011000	Leafre : East Forest
+240000001	Chief's House	240000000	Leafre
+240000002	Department Store	240000000	Leafre
+240000003	Yaku's House	240000000	Leafre
+240000004	Ito's House	240000000	Leafre
+240000005	Kumo's House	240000000	Leafre
+240000006	Pam's House	240000000	Leafre
+240000100	Leafre Station Enterence	240000000	Leafre
+240000100	Leafre Station Enterence	240000110	Station
+240010000	West Leafre Forest	240000000	Leafre
+240010000	West Leafre Forest	240010100	Minar Forest : West Border
+240010100	Minar Forest : West Border	240010000	West Leafre Forest
+240010100	Minar Forest : West Border	240010101	Peach Monkey Forest
+240010100	Minar Forest : West Border	240010200	Cranky Forest
+240010101	Peach Monkey Forest	240010100	Minar Forest : West Border
+240010200	Cranky Forest	240010100	Minar Forest : West Border
+240010200	Cranky Forest	240010300	Steep Hill
+240010200	Cranky Forest	240020000	The Area of Red Kentaurus
+240010300	Steep Hill	240010200	Cranky Forest
+240010300	Steep Hill	240010400	Forest : Crossroad
+240010400	Forest : Crossroad	240010300	Steep Hill
+240010400	Forest : Crossroad	240010500	Valley of the Antelope
+240010400	Forest : Crossroad	240030000	Entrance to Dragon Forest
+240010500	Valley of the Antelope	240010400	Forest : Crossroad
+240010500	Valley of the Antelope	240010600	Sky Nest II
+240010501	Forest of the Priest	240010500	Valley of the Antelope
+240010600	Sky Nest II	240010500	Valley of the Antelope
+240010600	Sky Nest II	240010700	Sky Nest I
+240010700	Sky Nest I	240010600	Sky Nest II
+240010700	Sky Nest I	240010800	Entrance to Sky Nest
+240010800	Entrance to Sky Nest	240010700	Sky Nest I
+240010800	Entrance to Sky Nest	240010900	Minar Forest : East Border
+240010800	Entrance to Sky Nest	240020300	Battlefield of Water and Darkness
+240010900	Minar Forest : East Border	240010800	Entrance to Sky Nest
+240010900	Minar Forest : East Border	240010901	Beetle Forest
+240010900	Minar Forest : East Border	240011000	Leafre : East Forest
+240010900	Minar Forest : East Border	240070000	Tera Forest Time Gate
+240010901	Beetle Forest	240010900	Minar Forest : East Border
+240011000	Leafre : East Forest	240000000	Leafre
+240011000	Leafre : East Forest	240010900	Minar Forest : East Border
+240020000	The Area of Red Kentaurus	240010200	Cranky Forest
+240020000	The Area of Red Kentaurus	240020100	Battlefield of Fire and Darkness
+240020000	The Area of Red Kentaurus	240020500	Battlefield of Fire and Water
+240020100	Battlefield of Fire and Darkness	240020000	The Area of Red Kentaurus
+240020100	Battlefield of Fire and Darkness	240020200	The Area of Black Kentaurus
+240020101	Griffey Forest	240020100	Battlefield of Fire and Darkness
+240020102	Griffey Forest	240020100	Battlefield of Fire and Darkness
+240020200	The Area of Black Kentaurus	240020100	Battlefield of Fire and Darkness
+240020200	The Area of Black Kentaurus	240020300	Battlefield of Water and Darkness
+240020300	Battlefield of Water and Darkness	240010800	Entrance to Sky Nest
+240020300	Battlefield of Water and Darkness	240020200	The Area of Black Kentaurus
+240020300	Battlefield of Water and Darkness	240020400	The Area of Blue Kentaurus
+240020400	The Area of Blue Kentaurus	240020300	Battlefield of Water and Darkness
+240020400	The Area of Blue Kentaurus	240020500	Battlefield of Fire and Water
+240020401	Manon's Forest	240020400	The Area of Blue Kentaurus
+240020402	Manon's Forest	240020400	The Area of Blue Kentaurus
+240020500	Battlefield of Fire and Water	240020000	The Area of Red Kentaurus
+240020500	Battlefield of Fire and Water	240020400	The Area of Blue Kentaurus
+240030000	Entrance to Dragon Forest	240010400	Forest : Crossroad
+240030000	Entrance to Dragon Forest	240030100	Dragon Forest I
+240030100	Dragon Forest I	240030000	Entrance to Dragon Forest
+240030100	Dragon Forest I	240030101	The Burning Forest
+240030100	Dragon Forest I	240030102	The Forest That Disappeared
+240030100	Dragon Forest I	240030103	The Hidden Dragon Tomb I
+240030100	Dragon Forest I	240030104	The Hidden Dragon Tomb II
+240030100	Dragon Forest I	240030200	Dragon Forest II
+240030101	The Burning Forest	240030100	Dragon Forest I
+240030102	The Forest That Disappeared	240030100	Dragon Forest I
+240030103	The Hidden Dragon Tomb I	240030100	Dragon Forest I
+240030104	The Hidden Dragon Tomb II	240030100	Dragon Forest I
+240030200	Dragon Forest II	240030100	Dragon Forest I
+240030200	Dragon Forest II	240030300	Dragon Forest III
+240030300	Dragon Forest III	240030200	Dragon Forest II
+240030300	Dragon Forest III	240040000	The Dragon Canyon
+240040000	The Dragon Canyon	240030300	Dragon Forest III
+240040000	The Dragon Canyon	240040100	Canyon : Crossroad
+240040100	Canyon : Crossroad	240040000	The Dragon Canyon
+240040100	Canyon : Crossroad	240040200	Canyon : East Road
+240040100	Canyon : Crossroad	240040300	Canyon : West Road
+240040200	Canyon : East Road	240040100	Canyon : Crossroad
+240040200	Canyon : East Road	240040210	Blue Wyvern's Nest
+240040200	Canyon : East Road	240040400	Wyvern Canyon
+240040210	Blue Wyvern's Nest	240040200	Canyon : East Road
+240040300	Canyon : West Road	240040100	Canyon : Crossroad
+240040300	Canyon : West Road	240040310	Red Wyvern's Nest
+240040300	Canyon : West Road	240040400	Wyvern Canyon
+240040310	Red Wyvern's Nest	240040300	Canyon : West Road
+240040400	Wyvern Canyon	240040200	Canyon : East Road
+240040400	Wyvern Canyon	240040300	Canyon : West Road
+240040400	Wyvern Canyon	240040401	Leviathan's Canyon
+240040400	Wyvern Canyon	240040500	Entrance to Dragon Nest
+240040401	Leviathan's Canyon	240040400	Wyvern Canyon
+240040500	Entrance to Dragon Nest	240040400	Wyvern Canyon
+240040500	Entrance to Dragon Nest	240040510	Nest of a Dead Dragon
+240040500	Entrance to Dragon Nest	240040520	Destroyed Dragon Nest
+240040510	Nest of a Dead Dragon	240040500	Entrance to Dragon Nest
+240040510	Nest of a Dead Dragon	240040511	The Dragon Nest Left Behind
+240040511	The Dragon Nest Left Behind	240040510	Nest of a Dead Dragon
+240040511	The Dragon Nest Left Behind	240040600	Peak of the Big Nest
+240040520	Destroyed Dragon Nest	240040500	Entrance to Dragon Nest
+240040520	Destroyed Dragon Nest	240040521	Dangerous Dragon Nest
+240040521	Dangerous Dragon Nest	240040520	Destroyed Dragon Nest
+240040521	Dangerous Dragon Nest	240040600	Peak of the Big Nest
+240040600	Peak of the Big Nest	240040511	The Dragon Nest Left Behind
+240040600	Peak of the Big Nest	240040521	Dangerous Dragon Nest
+240040600	Peak of the Big Nest	240040610	Below the Dangerous Nest
+240040600	Peak of the Big Nest	240040700	Cave of Life - Entrance
+240040610	Below the Dangerous Nest	240040600	Peak of the Big Nest
+240040611	Nine Spirit's Nest	240040610	Below the Dangerous Nest
+240040612	Nine Spirit's Nest	240040610	Below the Dangerous Nest
+240050000	Cave Entrance	240040700	Cave of Life - Entrance
+240070000	Tera Forest Time Gate	240010900	Minar Forest : East Border
+240070010	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070020	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070030	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070040	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070050	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070060	Old Tree in Tera Forest	240070000	Tera Forest Time Gate
+240070100	<Year 2021> Average Town Entrance	240070000	Tera Forest Time Gate
+240070100	<Year 2021> Average Town Entrance	240070101	<Year 2021> Average Town Playground
+240070101	<Year 2021> Average Town Playground	240070100	<Year 2021> Average Town Entrance
+240070101	<Year 2021> Average Town Playground	240070102	<Year 2021> Average Town Outskirt
+240070102	<Year 2021> Average Town Outskirt	240070101	<Year 2021> Average Town Playground
+240070200	<Year 2099> Midnight Harbor Entrance	240070000	Tera Forest Time Gate
+240070200	<Year 2099> Midnight Harbor Entrance	240070201	<Year 2099> Midnight Harbor Loading Dock
+240070201	<Year 2099> Midnight Harbor Loading Dock	240070200	<Year 2099> Midnight Harbor Entrance
+240070201	<Year 2099> Midnight Harbor Loading Dock	240070202	<Year 2099> Midnight Harbor Warehouse
+240070202	<Year 2099> Midnight Harbor Warehouse	240070201	<Year 2099> Midnight Harbor Loading Dock
+240070203	<Year 2009> Midnight Harbor Pier	240070200	<Year 2099> Midnight Harbor Entrance
+240070300	<Year 2215> Bombed City Center Retail District	240070000	Tera Forest Time Gate
+240070300	<Year 2215> Bombed City Center Retail District	240070301	<Year 2215> Bombed City Center Overpass
+240070301	<Year 2215> Bombed City Center Overpass	240070300	<Year 2215> Bombed City Center Retail District
+240070301	<Year 2215> Bombed City Center Overpass	240070302	<Year 2215> Bombed City Center Shopping District
+240070302	<Year 2215> Bombed City Center Shopping District	240070301	<Year 2215> Bombed City Center Overpass
+240070303	<Year 2215> Bombed City Center Square	240070300	<Year 2215> Bombed City Center Retail District
+240070400	<Year 2216> Ruined City Intersection	240070000	Tera Forest Time Gate
+240070400	<Year 2216> Ruined City Intersection	240070401	<Year 2216> Ruined City Center
+240070401	<Year 2216> Ruined City Center	240070400	<Year 2216> Ruined City Intersection
+240070401	<Year 2216> Ruined City Center	240070402	<Year 2216> Ruined City Construction Site
+240070402	<Year 2216> Ruined City Construction Site	240070401	<Year 2216> Ruined City Center
+240070403	<Year 2216> Ruined City Land Mark	240070400	<Year 2216> Ruined City Intersection
+240070500	<Year 2230> Dangerous Tower Lobby	240070000	Tera Forest Time Gate
+240070500	<Year 2230> Dangerous Tower Lobby	240070501	<Year 2230> Dangerous Tower Ventilator
+240070501	<Year 2230> Dangerous Tower Ventilator	240070500	<Year 2230> Dangerous Tower Lobby
+240070501	<Year 2230> Dangerous Tower Ventilator	240070502	<Year 2230> Dangerous Tower Emergency Exit
+240070502	<Year 2230> Dangerous Tower Emergency Exit	240070501	<Year 2230> Dangerous Tower Ventilator
+240070503	<Year 2230> Dangerous Tower Penthouse	240070500	<Year 2230> Dangerous Tower Lobby
+240070600	<Year 2503> Air Battleship Bow	240070000	Tera Forest Time Gate
+240070600	<Year 2503> Air Battleship Bow	240070601	<Year 2503> Air Battleship Area A
+240070601	<Year 2503> Air Battleship Area A	240070600	<Year 2503> Air Battleship Bow
+240070601	<Year 2503> Air Battleship Area A	240070602	<Year 2503> Air Battleship Area B
+240070602	<Year 2503> Air Battleship Area B	240070601	<Year 2503> Air Battleship Area A
+240070603	<Year 2503> Air Battleship Stern	240070600	<Year 2503> Air Battleship Bow
+250000000	Mu Lung	250000001	Tae Sang's House
+250000000	Mu Lung	250000002	Mu Lung Department Store
+250000000	Mu Lung	250000003	Mu Lung Hair Salon
+250000000	Mu Lung	250000100	Mu Lung Temple
+250000000	Mu Lung	250010000	Entrance to Sky Forest
+250000001	Tae Sang's House	250000000	Mu Lung
+250000002	Mu Lung Department Store	250000000	Mu Lung
+250000003	Mu Lung Hair Salon	250000000	Mu Lung
+250000100	Mu Lung Temple	250000000	Mu Lung
+250000100	Mu Lung Temple	250020000	Practice Field : Beginner
+250010000	Entrance to Sky Forest	250000000	Mu Lung
+250010000	Entrance to Sky Forest	250010100	Sky Forest : The Train
+250010100	Sky Forest : The Train	250010000	Entrance to Sky Forest
+250010100	Sky Forest : The Train	250010200	Deep in the Sky Forest
+250010200	Deep in the Sky Forest	250010100	Sky Forest : The Train
+250010200	Deep in the Sky Forest	250010300	Snake Area
+250010300	Snake Area	250010200	Deep in the Sky Forest
+250010300	Snake Area	250010301	Wild Bear Area 1
+250010300	Snake Area	250010400	Where the Sky Forest Ends
+250010301	Wild Bear Area 1	250010300	Snake Area
+250010301	Wild Bear Area 1	250010302	Wild Bear Area 2
+250010302	Wild Bear Area 2	250010301	Wild Bear Area 1
+250010302	Wild Bear Area 2	250010303	Wild Bear Area 3
+250010303	Wild Bear Area 3	250010302	Wild Bear Area 2
+250010303	Wild Bear Area 3	250010304	Territory of Wandering Bear
+250010304	Territory of Wandering Bear	250010303	Wild Bear Area 3
+250010400	Where the Sky Forest Ends	250010300	Snake Area
+250010400	Where the Sky Forest Ends	250010500	Peach Farm1
+250010500	Peach Farm1	250010400	Where the Sky Forest Ends
+250010500	Peach Farm1	250010501	Foggy Forest
+250010500	Peach Farm1	250010600	Peach Farm 2
+250010501	Foggy Forest	250010500	Peach Farm1
+250010501	Foggy Forest	250010502	Virtuous Forest
+250010502	Virtuous Forest	250010501	Foggy Forest
+250010502	Virtuous Forest	250010503	Goblin Forest 1
+250010503	Goblin Forest 1	250010502	Virtuous Forest
+250010503	Goblin Forest 1	250010504	Goblin Forest 2
+250010504	Goblin Forest 2	250010503	Goblin Forest 1
+250010600	Peach Farm 2	250010500	Peach Farm1
+250010600	Peach Farm 2	250010700	Peach Farm 3
+250010700	Peach Farm 3	250010600	Peach Farm 2
+250010700	Peach Farm 3	251010500	Isolated Swamp
+250020000	Practice Field : Beginner	250000100	Mu Lung Temple
+250020000	Practice Field : Beginner	250020100	Practice Field : Easy Level
+250020100	Practice Field : Easy Level	250020000	Practice Field : Beginner
+250020100	Practice Field : Easy Level	250020200	Practice Field : Normal Level
+250020200	Practice Field : Normal Level	250020100	Practice Field : Easy Level
+250020200	Practice Field : Normal Level	250020300	Practice Field : Advanced Level
+250020300	Practice Field : Advanced Level	250020200	Practice Field : Normal Level
+251000000	Herb Town	251000100	Pier on the Beach
+251000000	Herb Town	251010000	10-Year-Old Herb Garden
+251000100	Pier on the Beach	251000000	Herb Town
+251010000	10-Year-Old Herb Garden	251000000	Herb Town
+251010000	10-Year-Old Herb Garden	251010100	50-Year-Old Herb Garden
+251010100	50-Year-Old Herb Garden	251010000	10-Year-Old Herb Garden
+251010100	50-Year-Old Herb Garden	251010101	60-Year-Old Herb Garden
+251010100	50-Year-Old Herb Garden	251010102	80-Year-Old Herb Garden
+251010100	50-Year-Old Herb Garden	251010200	100-Year-Old Herb Garden
+251010101	60-Year-Old Herb Garden	251010100	50-Year-Old Herb Garden
+251010102	80-Year-Old Herb Garden	251010100	50-Year-Old Herb Garden
+251010200	100-Year-Old Herb Garden	251010100	50-Year-Old Herb Garden
+251010200	100-Year-Old Herb Garden	251010300	Bellflower Valley
+251010300	Bellflower Valley	251010200	100-Year-Old Herb Garden
+251010300	Bellflower Valley	251010400	Old Swamp
+251010400	Old Swamp	251010300	Bellflower Valley
+251010400	Old Swamp	251010401	Red-Nose Pirate Den 1
+251010400	Old Swamp	251010500	Isolated Swamp
+251010401	Red-Nose Pirate Den 1	251010400	Old Swamp
+251010401	Red-Nose Pirate Den 1	251010402	Red-Nose Pirate Den 2
+251010401	Red-Nose Pirate Den 1	251010404	Over the Pirate Ship
+251010402	Red-Nose Pirate Den 2	251010401	Red-Nose Pirate Den 1
+251010402	Red-Nose Pirate Den 2	251010403	Red-Nose Pirate Den 3
+251010403	Red-Nose Pirate Den 3	251010402	Red-Nose Pirate Den 2
+251010404	Over the Pirate Ship	251010401	Red-Nose Pirate Den 1
+251010500	Isolated Swamp	250010700	Peach Farm 3
+251010500	Isolated Swamp	251010400	Old Swamp
+260000000	Ariant	260000100	Ariant Station Platform
+260000000	Ariant	260000200	The Town of Ariant
+260000000	Ariant	260000300	Ariant Castle
+260000000	Ariant	260010000	Outside the West Entrance of Ariant
+260000000	Ariant	260010700	Outside East Entrance of Ariant
+260000000	Ariant	260020000	Outside North Entrance of Ariant
+260000100	Ariant Station Platform	260000000	Ariant
+260000110	Before Takeoff <To Orbis>	260000000	Ariant
+260000200	The Town of Ariant	260000000	Ariant
+260000200	The Town of Ariant	260000202	Residential Area 1
+260000200	The Town of Ariant	260000203	Residential Area 2
+260000200	The Town of Ariant	260000204	Residential Area 3
+260000200	The Town of Ariant	260000205	Residential Area 4
+260000200	The Town of Ariant	260000206	Residential Area 5
+260000200	The Town of Ariant	260000207	Residential Area 6
+260000201	An Old, Empty House	260000200	The Town of Ariant
+260000202	Residential Area 1	260000200	The Town of Ariant
+260000203	Residential Area 2	260000200	The Town of Ariant
+260000204	Residential Area 3	260000200	The Town of Ariant
+260000205	Residential Area 4	260000200	The Town of Ariant
+260000206	Residential Area 5	260000200	The Town of Ariant
+260000207	Residential Area 6	260000200	The Town of Ariant
+260000300	Ariant Castle	260000000	Ariant
+260000301	Castle Garden	260000300	Ariant Castle
+260000301	Castle Garden	260000302	Palace Hallway
+260000302	Palace Hallway	260000301	Castle Garden
+260000302	Palace Hallway	260000303	King's Room
+260000303	King's Room	260000301	Castle Garden
+260000303	King's Room	260000302	Palace Hallway
+260010000	Outside the West Entrance of Ariant	260000000	Ariant
+260010000	Outside the West Entrance of Ariant	260010001	Young Catthus Desert
+260010000	Outside the West Entrance of Ariant	260010100	Cactus Desert 1
+260010001	Young Catthus Desert	260010000	Outside the West Entrance of Ariant
+260010100	Cactus Desert 1	260010000	Outside the West Entrance of Ariant
+260010100	Cactus Desert 1	260010200	Cactus Desert 2
+260010200	Cactus Desert 2	260010100	Cactus Desert 1
+260010200	Cactus Desert 2	260010201	Royal Catthus Desert
+260010200	Cactus Desert 2	260010300	White Rock Desert
+260010201	Royal Catthus Desert	260010200	Cactus Desert 2
+260010300	White Rock Desert	260010200	Cactus Desert 2
+260010300	White Rock Desert	260010301	Bellamoa's Cave
+260010300	White Rock Desert	260010400	The Scorching Desert
+260010301	Bellamoa's Cave	260010300	White Rock Desert
+260010400	The Scorching Desert	260010300	White Rock Desert
+260010400	The Scorching Desert	260010401	Rocky Hill
+260010400	The Scorching Desert	260010500	Dry Desert
+260010401	Rocky Hill	260010400	The Scorching Desert
+260010402	Red Scorpion's Lair	260010401	Rocky Hill
+260010500	Dry Desert	260010400	The Scorching Desert
+260010500	Dry Desert	260010501	Frilled Field
+260010500	Dry Desert	260010600	Tent of the Entertainers
+260010501	Frilled Field	260010500	Dry Desert
+260010600	Tent of the Entertainers	260010500	Dry Desert
+260010600	Tent of the Entertainers	260010700	Outside East Entrance of Ariant
+260010700	Outside East Entrance of Ariant	260000000	Ariant
+260010700	Outside East Entrance of Ariant	260010600	Tent of the Entertainers
+260020000	Outside North Entrance of Ariant	260000000	Ariant
+260020000	Outside North Entrance of Ariant	260020100	North Desert Road 1
+260020100	North Desert Road 1	260020000	Outside North Entrance of Ariant
+260020100	North Desert Road 1	260020200	North Desert Road 2
+260020200	North Desert Road 2	260020100	North Desert Road 1
+260020200	North Desert Road 2	260020300	The Desert of Red Sand
+260020300	The Desert of Red Sand	260020200	North Desert Road 2
+260020300	The Desert of Red Sand	260020400	The Ruins of Desert Nomads
+260020400	The Ruins of Desert Nomads	260020300	The Desert of Red Sand
+260020400	The Ruins of Desert Nomads	260020401	The Giant of the Sunset
+260020400	The Ruins of Desert Nomads	260020500	Sahel 3
+260020401	The Giant of the Sunset	260020400	The Ruins of Desert Nomads
+260020500	Sahel 3	260020400	The Ruins of Desert Nomads
+260020500	Sahel 3	260020600	Sahel 2
+260020600	Sahel 2	260020500	Sahel 3
+260020600	Sahel 2	260020610	The Desert of Serenity
+260020600	Sahel 2	260020620	The Desert of Dreams
+260020600	Sahel 2	260020700	Sahel 1
+260020610	The Desert of Serenity	260020600	Sahel 2
+260020620	The Desert of Dreams	260020600	Sahel 2
+260020700	Sahel 1	260020600	Sahel 2
+260020700	Sahel 1	261000000	Magatia
+261000000	Magatia	260020700	Sahel 1
+261000000	Magatia	261000001	Home of the Missing Alchemist
+261000000	Magatia	261000002	Weapon & Armor Shop
+261000000	Magatia	261000010	Zenumist Society
+261000000	Magatia	261000020	Alcadno Society
+261000001	Home of the Missing Alchemist	261000000	Magatia
+261000002	Weapon & Armor Shop	261000000	Magatia
+261000010	Zenumist Society	261000000	Magatia
+261000010	Zenumist Society	261000011	Zenumist - Hidden Room
+261000010	Zenumist Society	261010000	Lab - 1st Floor Hallway
+261000011	Zenumist - Hidden Room	261000010	Zenumist Society
+261000020	Alcadno Society	261000000	Magatia
+261000020	Alcadno Society	261000021	Alcadno - Hidden Room
+261000020	Alcadno Society	261020000	Lab - Center Gate
+261000021	Alcadno - Hidden Room	261000020	Alcadno Society
+261010000	Lab - 1st Floor Hallway	261000010	Zenumist Society
+261010000	Lab - 1st Floor Hallway	261010001	Lab - Unit 101
+261010000	Lab - 1st Floor Hallway	261010002	Lab - Unit 102
+261010000	Lab - 1st Floor Hallway	261010003	Lab - Unit 103
+261010000	Lab - 1st Floor Hallway	261010100	Lab - 2nd Floor Hallway
+261010001	Lab - Unit 101	261010000	Lab - 1st Floor Hallway
+261010002	Lab - Unit 102	261010000	Lab - 1st Floor Hallway
+261010003	Lab - Unit 103	261010000	Lab - 1st Floor Hallway
+261010100	Lab - 2nd Floor Hallway	261010000	Lab - 1st Floor Hallway
+261010100	Lab - 2nd Floor Hallway	261010101	Lab - Unit 201
+261010100	Lab - 2nd Floor Hallway	261010102	Lab - Unit 202
+261010100	Lab - 2nd Floor Hallway	261010103	Lab - Unit 203
+261010101	Lab - Unit 201	261010100	Lab - 2nd Floor Hallway
+261010102	Lab - Unit 202	261010100	Lab - 2nd Floor Hallway
+261010103	Lab - Unit 203	261010100	Lab - 2nd Floor Hallway
+261020000	Lab - Center Gate	261000020	Alcadno Society
+261020000	Lab - Center Gate	261020200	Lab - Area B-1
+261020000	Lab - Center Gate	261020400	Lab - Area C-2
+261020000	Lab - Center Gate	261020600	Lab - Area B-3
+261020100	Lab - Area A-1	261020200	Lab - Area B-1
+261020200	Lab - Area B-1	261020000	Lab - Center Gate
+261020200	Lab - Area B-1	261020100	Lab - Area A-1
+261020200	Lab - Area B-1	261020300	Lab - Area C-1
+261020300	Lab - Area C-1	261020200	Lab - Area B-1
+261020300	Lab - Area C-1	261020400	Lab - Area C-2
+261020400	Lab - Area C-2	261020000	Lab - Center Gate
+261020400	Lab - Area C-2	261020300	Lab - Area C-1
+261020400	Lab - Area C-2	261020401	Authorized Personnel Only
+261020400	Lab - Area C-2	261020500	Lab - Area C-3
+261020401	Authorized Personnel Only	261020400	Lab - Area C-2
+261020500	Lab - Area C-3	261020400	Lab - Area C-2
+261020500	Lab - Area C-3	261020600	Lab - Area B-3
+261020600	Lab - Area B-3	261020000	Lab - Center Gate
+261020600	Lab - Area B-3	261020500	Lab - Area C-3
+261020700	Lab - Area A-3	261020600	Lab - Area B-3
+261030000	Lab - Secret Basement Path	261010000	Lab - 1st Floor Hallway
+261030000	Lab - Secret Basement Path	261020200	Lab - Area B-1
+261030000	Lab - Secret Basement Path	261030001	The Unknown Underground Passage
+261030001	The Unknown Underground Passage	261030000	Lab - Secret Basement Path
+261030001	The Unknown Underground Passage	261040000	Black Magician's Lab
+261040000	Black Magician's Lab	261030001	The Unknown Underground Passage
+270000000	Three Doors	270000100	Temple of Time
+270000000	Three Doors	270010000	Past of the Verdure
+270000100	Temple of Time	270000000	Three Doors
+270010000	Past of the Verdure	270000000	Three Doors
+270010000	Past of the Verdure	270010100	Memory Lane1
+270010100	Memory Lane1	270010000	Past of the Verdure
+270010110	Resting Spot of Memory1	270010100	Memory Lane1
+270010110	Resting Spot of Memory1	270010111	Memory Keeper's Room
+270010110	Resting Spot of Memory1	270010200	Memory Lane2
+270010111	Memory Keeper's Room	270010110	Resting Spot of Memory1
+270010200	Memory Lane2	270010110	Resting Spot of Memory1
+270010210	Resting Spot of Memory2	270010200	Memory Lane2
+270010210	Resting Spot of Memory2	270010300	Memory Lane3
+270010300	Memory Lane3	270010210	Resting Spot of Memory2
+270010310	Resting Spot of Memory3	270010300	Memory Lane3
+270010310	Resting Spot of Memory3	270010400	Memory Lane4
+270010400	Memory Lane4	270010310	Resting Spot of Memory3
+270010410	Resting Spot of Memory4	270010400	Memory Lane4
+270010410	Resting Spot of Memory4	270010500	Memory Lane5
+270010500	Memory Lane5	270010410	Resting Spot of Memory4
+270020000	Frozen Past	270010500	Memory Lane5
+270020000	Frozen Past	270020100	Road of Regrets1
+270020100	Road of Regrets1	270020000	Frozen Past
+270020110	Resting Spot of Regret1	270020100	Road of Regrets1
+270020110	Resting Spot of Regret1	270020200	Road of Regrets2
+270020200	Road of Regrets2	270020110	Resting Spot of Regret1
+270020210	Resting Spot of Regret2	270020200	Road of Regrets2
+270020210	Resting Spot of Regret2	270020211	Sorcerer's Room 
+270020210	Resting Spot of Regret2	270020300	Road of Regrets3
+270020211	Sorcerer's Room 	270020210	Resting Spot of Regret2
+270020300	Road of Regrets3	270020210	Resting Spot of Regret2
+270020310	Resting Spot of Regret3	270020300	Road of Regrets3
+270020310	Resting Spot of Regret3	270020400	Road of Regrets4
+270020400	Road of Regrets4	270020310	Resting Spot of Regret3
+270020410	Resting Spot of Regret4	270020400	Road of Regrets4
+270020410	Resting Spot of Regret4	270020500	Road of Regrets5
+270020500	Road of Regrets5	270020410	Resting Spot of Regret4
+270030000	Burning Past	270020500	Road of Regrets5
+270030000	Burning Past	270030100	Road to Oblivion1
+270030100	Road to Oblivion1	270030000	Burning Past
+270030110	Resting Spot of Oblivion1	270030100	Road to Oblivion1
+270030110	Resting Spot of Oblivion1	270030200	Road to Oblivion2
+270030200	Road to Oblivion2	270030110	Resting Spot of Oblivion1
+270030210	Resting Spot of Oblivion2	270030200	Road to Oblivion2
+270030210	Resting Spot of Oblivion2	270030300	Road to Oblivion3
+270030300	Road to Oblivion3	270030210	Resting Spot of Oblivion2
+270030310	Resting Spot of Oblivion3	270030300	Road to Oblivion3
+270030310	Resting Spot of Oblivion3	270030400	Road to Oblivion4
+270030400	Road to Oblivion4	270030310	Resting Spot of Oblivion3
+270030410	Resting Spot of Oblivion4	270030400	Road to Oblivion4
+270030410	Resting Spot of Oblivion4	270030411	Record Keeper's Room
+270030410	Resting Spot of Oblivion4	270030500	Road to Oblivion5
+270030411	Record Keeper's Room	270030410	Resting Spot of Oblivion4
+270030500	Road to Oblivion5	270030410	Resting Spot of Oblivion4
+270040000	Broken Corridor	270030500	Road to Oblivion5
+270040100	Temple Ruins	270040000	Broken Corridor
+270040100	Temple Ruins	270050000	Forgotten Twilight
+270050000	Forgotten Twilight	270040100	Temple Ruins
+280010000	Unknown Dead Mine	280010010	Area 1-1
+280010000	Unknown Dead Mine	280010020	Area 2-1
+280010000	Unknown Dead Mine	280010030	Area 3-1
+280010000	Unknown Dead Mine	280010040	Area 4-1
+280010000	Unknown Dead Mine	280010050	Area 5-1
+280010000	Unknown Dead Mine	280010060	Area 6-1
+280010000	Unknown Dead Mine	280010070	Area 7-1
+280010000	Unknown Dead Mine	280010080	Area 8-1
+280010000	Unknown Dead Mine	280010090	Area 9-1
+280010000	Unknown Dead Mine	280010100	Area 10-1
+280010000	Unknown Dead Mine	280010110	Area 11-1
+280010000	Unknown Dead Mine	280010120	Area 12-1
+280010000	Unknown Dead Mine	280010130	Area 13-1
+280010000	Unknown Dead Mine	280010140	Area 14-1
+280010000	Unknown Dead Mine	280010150	Area 15-1
+280010010	Area 1-1	280010000	Unknown Dead Mine
+280010010	Area 1-1	280010011	Area 1-2
+280010011	Area 1-2	280010000	Unknown Dead Mine
+280010011	Area 1-2	280010010	Area 1-1
+280010011	Area 1-2	280010070	Area 7-1
+280010020	Area 2-1	280010000	Unknown Dead Mine
+280010030	Area 3-1	280010000	Unknown Dead Mine
+280010030	Area 3-1	280010031	Area 3-2
+280010031	Area 3-2	280010030	Area 3-1
+280010040	Area 4-1	280010000	Unknown Dead Mine
+280010040	Area 4-1	280010041	Area 4-2
+280010041	Area 4-2	280010040	Area 4-1
+280010041	Area 4-2	280010050	Area 5-1
+280010050	Area 5-1	280010000	Unknown Dead Mine
+280010060	Area 6-1	280010000	Unknown Dead Mine
+280010070	Area 7-1	280010000	Unknown Dead Mine
+280010070	Area 7-1	280010071	Area 7-2
+280010071	Area 7-2	280010070	Area 7-1
+280010071	Area 7-2	280011000	Area 16 <A Dead Mine Somewhere>
+280010080	Area 8-1	280010000	Unknown Dead Mine
+280010080	Area 8-1	280010081	Area 8-2
+280010081	Area 8-2	280010080	Area 8-1
+280010081	Area 8-2	280010130	Area 13-1
+280010090	Area 9-1	280010000	Unknown Dead Mine
+280010090	Area 9-1	280010091	Area 9-2
+280010091	Area 9-2	280010090	Area 9-1
+280010100	Area 10-1	280010000	Unknown Dead Mine
+280010100	Area 10-1	280010101	Area 10-2
+280010101	Area 10-2	280010100	Area 10-1
+280010101	Area 10-2	280011000	Area 16 <A Dead Mine Somewhere>
+280010110	Area 11-1	280010000	Unknown Dead Mine
+280010120	Area 12-1	280010000	Unknown Dead Mine
+280010130	Area 13-1	280010000	Unknown Dead Mine
+280010130	Area 13-1	280010140	Area 14-1
+280010140	Area 14-1	280010000	Unknown Dead Mine
+280010150	Area 15-1	280010000	Unknown Dead Mine
+280011000	Area 16 <A Dead Mine Somewhere>	280010000	Unknown Dead Mine
+280011000	Area 16 <A Dead Mine Somewhere>	280011001	Area 16-1
+280011000	Area 16 <A Dead Mine Somewhere>	280011002	Area 16-2
+280011000	Area 16 <A Dead Mine Somewhere>	280011003	Area 16-3
+280011000	Area 16 <A Dead Mine Somewhere>	280011004	Area 16-4
+280011000	Area 16 <A Dead Mine Somewhere>	280011005	Area 16-5
+280011000	Area 16 <A Dead Mine Somewhere>	280011006	Area 16-6
+280011001	Area 16-1	280011000	Area 16 <A Dead Mine Somewhere>
+280011002	Area 16-2	280011000	Area 16 <A Dead Mine Somewhere>
+280011003	Area 16-3	280011000	Area 16 <A Dead Mine Somewhere>
+280011004	Area 16-4	280011000	Area 16 <A Dead Mine Somewhere>
+280011005	Area 16-5	280011000	Area 16 <A Dead Mine Somewhere>
+280011006	Area 16-6	280011000	Area 16 <A Dead Mine Somewhere>
+280020000	Breath of Lava <Level 1>	280020001	Breath of Lava <Level 2>
+280020001	Breath of Lava <Level 2>	280020000	Breath of Lava <Level 1>
+300000000	Altaire Camp	300000001	Tent House 1
+300000000	Altaire Camp	300000002	Tent House 2
+300000000	Altaire Camp	300000010	Camp Conference Room
+300000000	Altaire Camp	300000100	Small Forest
+300000000	Altaire Camp	300010000	Mossy Tree Forest Entrance
+300000000	Altaire Camp	300030000	Eastern Region of Mossy Tree Forest  
+300000001	Tent House 1	300000000	Altaire Camp
+300000002	Tent House 2	300000000	Altaire Camp
+300000010	Camp Conference Room	300000000	Altaire Camp
+300000011	Library	300000010	Camp Conference Room
+300000100	Small Forest	222020400	Time Control Room
+300000100	Small Forest	300000000	Altaire Camp
+300010000	Mossy Tree Forest Entrance	300000000	Altaire Camp
+300010000	Mossy Tree Forest Entrance	300010100	Western Region of Mossy Tree Forest 1
+300010100	Western Region of Mossy Tree Forest 1	300010000	Mossy Tree Forest Entrance
+300010100	Western Region of Mossy Tree Forest 1	300010200	Western Region of Mossy Tree Forest 2
+300010200	Western Region of Mossy Tree Forest 2	300010100	Western Region of Mossy Tree Forest 1
+300010200	Western Region of Mossy Tree Forest 2	300010300	Mossy Tree Forest Trail
+300010300	Mossy Tree Forest Trail	300010200	Western Region of Mossy Tree Forest 2
+300010300	Mossy Tree Forest Trail	300010400	Boulder Mountain Entrance
+300010300	Mossy Tree Forest Trail	300020000	Souther Region of Mossy Tree Forest 1
+300010400	Boulder Mountain Entrance	300010300	Mossy Tree Forest Trail
+300020000	Souther Region of Mossy Tree Forest 1	300010300	Mossy Tree Forest Trail
+300020000	Souther Region of Mossy Tree Forest 1	300020100	Southern Region of Mossy Tree Forest 2
+300020100	Southern Region of Mossy Tree Forest 2	300020000	Souther Region of Mossy Tree Forest 1
+300020100	Southern Region of Mossy Tree Forest 2	300020200	Mushroom Hill Entrance
+300020200	Mushroom Hill Entrance	300020100	Southern Region of Mossy Tree Forest 2
+300030000	Eastern Region of Mossy Tree Forest  	300000000	Altaire Camp
+300030000	Eastern Region of Mossy Tree Forest  	300030100	Deep Fairy Forest
+300030100	Deep Fairy Forest	300030000	Eastern Region of Mossy Tree Forest  
+540000000	CBD	540000100	Central Way 1
+540000000	CBD	540010000	Changi Airport
+540000100	Central Way 1	540000000	CBD
+540000100	Central Way 1	540000200	Central Way 2
+540000200	Central Way 2	540000100	Central Way 1
+540000200	Central Way 2	540000300	Central Way 3
+540000300	Central Way 3	540000200	Central Way 2
+540000300	Central Way 3	540020000	Suburban Area 1
+540010000	Changi Airport	540000000	CBD
+540020000	Suburban Area 1	540000300	Central Way 3
+540020000	Suburban Area 1	540020100	Suburban Area 2
+540020000	Suburban Area 1	541000000	Boat Quay Town
+540020100	Suburban Area 2	540020000	Suburban Area 1
+541000000	Boat Quay Town	540020000	Suburban Area 1
+541000000	Boat Quay Town	541000100	Mysterious Path 1
+541000100	Mysterious Path 1	541000000	Boat Quay Town
+541000100	Mysterious Path 1	541000200	Mysterious Path 2
+541000200	Mysterious Path 2	541000100	Mysterious Path 1
+541000200	Mysterious Path 2	541000300	Mysterious Path 3
+541000300	Mysterious Path 3	541000200	Mysterious Path 2
+541000300	Mysterious Path 3	541010000	Ghost ship 1
+541010000	Ghost ship 1	541000300	Mysterious Path 3
+541010000	Ghost ship 1	541010010	Ghost Ship 2
+541010000	Ghost ship 1	541010020	Ghost Ship 3
+541010010	Ghost Ship 2	541010000	Ghost ship 1
+541010010	Ghost Ship 2	541010020	Ghost Ship 3
+541010020	Ghost Ship 3	541010010	Ghost Ship 2
+541010020	Ghost Ship 3	541010030	Ghost Ship 4
+541010030	Ghost Ship 4	541010020	Ghost Ship 3
+541010030	Ghost Ship 4	541010040	Ghost Ship 5
+541010040	Ghost Ship 5	541000300	Mysterious Path 3
+541010040	Ghost Ship 5	541010030	Ghost Ship 4
+541010040	Ghost Ship 5	541010050	Ghost Ship 6
+541010050	Ghost Ship 6	541010040	Ghost Ship 5
+541010050	Ghost Ship 6	541010060	Ghost ship 7
+541010060	Ghost ship 7	541010050	Ghost Ship 6
+541010110	The Peaceful Ship	541000000	Boat Quay Town
+550000000	Trend Zone Metropolis	550000100	Outskirts of Muddy Banks
+550000100	Outskirts of Muddy Banks	550000000	Trend Zone Metropolis
+550000100	Outskirts of Muddy Banks	550000200	Muddy Banks 1
+550000200	Muddy Banks 1	550000100	Outskirts of Muddy Banks
+550000200	Muddy Banks 1	550000300	Muddy Banks 2
+550000300	Muddy Banks 2	550000200	Muddy Banks 1
+550000300	Muddy Banks 2	550000400	Muddy Banks 3
+550000400	Muddy Banks 3	550000300	Muddy Banks 2
+550000400	Muddy Banks 3	551000000	Kampung Village
+551000000	Kampung Village	550000400	Muddy Banks 3
+551000000	Kampung Village	551000100	Hibiscus Road 1
+551000100	Hibiscus Road 1	551000000	Kampung Village
+551000100	Hibiscus Road 1	551000200	Hibiscus Road 2
+551000200	Hibiscus Road 2	551000100	Hibiscus Road 1
+551000200	Hibiscus Road 2	551010000	Fantasy Theme Park 1
+551010000	Fantasy Theme Park 1	551000200	Hibiscus Road 2
+551010000	Fantasy Theme Park 1	551020000	Fantasy Theme Park 2
+551020000	Fantasy Theme Park 2	551010000	Fantasy Theme Park 1
+551020000	Fantasy Theme Park 2	551030000	Fantasy Theme Park 3
+551030000	Fantasy Theme Park 3	551020000	Fantasy Theme Park 2
+551030000	Fantasy Theme Park 3	551030100	Entrance to the Spooky World
+551030100	Entrance to the Spooky World	551030000	Fantasy Theme Park 3
+600000000	New Leaf City - Town Center	600000001	NLC Mall
+600000000	New Leaf City - Town Center	600010001	NLC Subway Station
+600000000	New Leaf City - Town Center	600010100	Jungle Clearing
+600000000	New Leaf City - Town Center	600020000	Lobby
+600000001	NLC Mall	600000000	New Leaf City - Town Center
+600010000	Urban Underground	600000000	New Leaf City - Town Center
+600010001	NLC Subway Station	600000000	New Leaf City - Town Center
+600010100	Jungle Clearing	600000000	New Leaf City - Town Center
+600010100	Jungle Clearing	600010200	Krakian Jungle Basin
+600010100	Jungle Clearing	600010300	Jungle Valley 
+600010200	Krakian Jungle Basin	600010100	Jungle Clearing
+600010200	Krakian Jungle Basin	600010400	Mountain Slopes
+600010300	Jungle Valley 	600010100	Jungle Clearing
+600010400	Mountain Slopes	600010200	Krakian Jungle Basin
+600010400	Mountain Slopes	600010500	Mountain Cliffs 
+600010500	Mountain Cliffs 	600010400	Mountain Slopes
+600010500	Mountain Cliffs 	600010600	Highlands
+600010600	Highlands	600010200	Krakian Jungle Basin
+600010600	Highlands	600010500	Mountain Cliffs 
+600020000	Lobby	600000000	New Leaf City - Town Center
+600020000	Lobby	600020100	Deity Room
+600020100	Deity Room	600020000	Lobby
+600020100	Deity Room	600020200	Soul Corridor
+600020200	Soul Corridor	600020100	Deity Room
+600020200	Soul Corridor	600020300	Wolf Spider Cavern
+600020200	Soul Corridor	600020400	Fire Chamber
+600020300	Wolf Spider Cavern	600020200	Soul Corridor
+600020400	Fire Chamber	600020200	Soul Corridor
+600020400	Fire Chamber	600020500	Ice Chamber
+600020500	Ice Chamber	600020400	Fire Chamber
+600020500	Ice Chamber	600020600	Enigma Chamber
+600020600	Enigma Chamber	600020500	Ice Chamber
+610010000	Bent Tree	610010001	Haunted Hill
+610010000	Bent Tree	610010004	Dead Man's Gorge
+610010000	Bent Tree	610010010	Hidden Evil
+610010000	Bent Tree	610010200	Crossroads
+610010000	Bent Tree	610010201	Crossroads
+610010000	Bent Tree	682000000	Haunted House
+610010001	Haunted Hill	610010000	Bent Tree
+610010001	Haunted Hill	610010011	Creeping Evil
+610010001	Haunted Hill	610010200	Crossroads
+610010001	Haunted Hill	610010201	Crossroads
+610010002	Swamp Bog	610010201	Crossroads
+610010002	Swamp Bog	682000000	Haunted House
+610010003	Phantom Road	610010012	Evil Rising
+610010003	Phantom Road	610010101	Twisted Paths
+610010003	Phantom Road	610010102	Twisted Paths
+610010003	Phantom Road	610010200	Crossroads
+610010003	Phantom Road	610010201	Crossroads
+610010003	Phantom Road	610010202	Crossroads
+610010004	Dead Man's Gorge	610010000	Bent Tree
+610010004	Dead Man's Gorge	610010005	Forgotten Path
+610010004	Dead Man's Gorge	610010100	Twisted Paths
+610010004	Dead Man's Gorge	610010103	Twisted Paths
+610010005	Forgotten Path	610010004	Dead Man's Gorge
+610010005	Forgotten Path	610010013	The Evil Dead
+610010005	Forgotten Path	610010103	Twisted Paths
+610010005	Forgotten Path	610010201	Crossroads
+610010005	Forgotten Path	610010202	Crossroads
+610010005	Forgotten Path	610020000	Valley of Heroes 1
+610010010	Hidden Evil	610010000	Bent Tree
+610010011	Creeping Evil	610010001	Haunted Hill
+610010012	Evil Rising	610010003	Phantom Road
+610010013	The Evil Dead	610010005	Forgotten Path
+610010100	Twisted Paths	610010004	Dead Man's Gorge
+610010100	Twisted Paths	610010101	Twisted Paths
+610010100	Twisted Paths	610010200	Crossroads
+610010100	Twisted Paths	610010201	Crossroads
+610010101	Twisted Paths	610010003	Phantom Road
+610010101	Twisted Paths	610010100	Twisted Paths
+610010101	Twisted Paths	610010200	Crossroads
+610010101	Twisted Paths	610010201	Crossroads
+610010102	Twisted Paths	610010003	Phantom Road
+610010102	Twisted Paths	610010101	Twisted Paths
+610010102	Twisted Paths	610010200	Crossroads
+610010102	Twisted Paths	610010201	Crossroads
+610010103	Twisted Paths	610010004	Dead Man's Gorge
+610010103	Twisted Paths	610010005	Forgotten Path
+610010103	Twisted Paths	610010104	Twisted Paths
+610010103	Twisted Paths	610010202	Crossroads
+610010104	Twisted Paths	610010101	Twisted Paths
+610010104	Twisted Paths	610010102	Twisted Paths
+610010104	Twisted Paths	610010103	Twisted Paths
+610010104	Twisted Paths	610010202	Crossroads
+610010200	Crossroads	610010000	Bent Tree
+610010200	Crossroads	610010001	Haunted Hill
+610010200	Crossroads	610010002	Swamp Bog
+610010200	Crossroads	610010101	Twisted Paths
+610010200	Crossroads	610010102	Twisted Paths
+610010201	Crossroads	610010001	Haunted Hill
+610010201	Crossroads	610010002	Swamp Bog
+610010201	Crossroads	610010005	Forgotten Path
+610010201	Crossroads	610010100	Twisted Paths
+610010201	Crossroads	610010101	Twisted Paths
+610010201	Crossroads	610010102	Twisted Paths
+610010202	Crossroads	610010003	Phantom Road
+610010202	Crossroads	610010005	Forgotten Path
+610010202	Crossroads	610010101	Twisted Paths
+610010202	Crossroads	610010102	Twisted Paths
+610010202	Crossroads	610010103	Twisted Paths
+610010202	Crossroads	610010104	Twisted Paths
+610020000	Valley of Heroes 1	610010005	Forgotten Path
+610020000	Valley of Heroes 1	610020001	Valley of Heroes 2
+610020001	Valley of Heroes 2	610020000	Valley of Heroes 1
+610020001	Valley of Heroes 2	610020002	Lower Ascent
+610020002	Lower Ascent	610020000	Valley of Heroes 1
+610020002	Lower Ascent	610020001	Valley of Heroes 2
+610020002	Lower Ascent	610020003	The Path of Strength
+610020002	Lower Ascent	610020004	The Path of Peril
+610020002	Lower Ascent	610020010	Cavern of Fear
+610020002	Lower Ascent	610020011	Cavern of Pain
+610020003	The Path of Strength	610020000	Valley of Heroes 1
+610020003	The Path of Strength	610020002	Lower Ascent
+610020003	The Path of Strength	610020005	Upper Ascent 
+610020003	The Path of Strength	610020013	Cavern of Honor
+610020004	The Path of Peril	610020001	Valley of Heroes 2
+610020004	The Path of Peril	610020002	Lower Ascent
+610020004	The Path of Peril	610020005	Upper Ascent 
+610020004	The Path of Peril	610020012	Cavern of Shame
+610020005	Upper Ascent 	610020002	Lower Ascent
+610020005	Upper Ascent 	610020003	The Path of Strength
+610020005	Upper Ascent 	610020004	The Path of Peril
+610020005	Upper Ascent 	610020006	Crimsonwood Keep
+610020005	Upper Ascent 	610020014	Cavern of Fortitude
+610020005	Upper Ascent 	610020015	Cavern of Valor
+610020006	Crimsonwood Keep	610020005	Upper Ascent 
+610020006	Crimsonwood Keep	610030000	Courtyard
+610020010	Cavern of Fear	610020002	Lower Ascent
+610020011	Cavern of Pain	610020002	Lower Ascent
+610020012	Cavern of Shame	610020004	The Path of Peril
+610020013	Cavern of Honor	610020003	The Path of Strength
+610020014	Cavern of Fortitude	610020005	Upper Ascent 
+610020015	Cavern of Valor	610020005	Upper Ascent 
+610030000	Courtyard	610020006	Crimsonwood Keep
+610030000	Courtyard	610030010	Hall of Mastery
+610030010	Hall of Mastery	610030000	Courtyard
+610030010	Hall of Mastery	610030011	Tornado Corridor
+610030010	Hall of Mastery	610030012	The Inferno Chamber
+610030010	Hall of Mastery	610030013	The Wrath of Night
+610030010	Hall of Mastery	610030014	Stormhall
+610030010	Hall of Mastery	610030015	Eternal Vigilance
+610030011	Tornado Corridor	610030010	Hall of Mastery
+610030012	The Inferno Chamber	610030010	Hall of Mastery
+610030013	The Wrath of Night	610030010	Hall of Mastery
+610030014	Stormhall	610030010	Hall of Mastery
+610030015	Eternal Vigilance	610030010	Hall of Mastery
+610030020	Hall to Inner Sanctum	610030010	Hall of Mastery
+610030510	Warrior Mastery Room	610030500	The Test of Unity
+610030520	Mage Mastery Room	610030500	The Test of Unity
+610030521	Mage Mastery Room	610030500	The Test of Unity
+610030522	Mage Mastery Room	610030500	The Test of Unity
+610030530	Thief Mastery Room	610030500	The Test of Unity
+610030540	Bowman Mastery Room	610030500	The Test of Unity
+610030550	Pirate Mastery Room	610030500	The Test of Unity
+610030800	Crimsonwood Armory	610030010	Hall of Mastery
+670000100	Purplewood Forest 1	670000200	Purplewood Forest 2
+670000100	Purplewood Forest 1	680010100	Purple Plains 2
+670000200	Purplewood Forest 2	670000100	Purplewood Forest 1
+670000200	Purplewood Forest 2	670010000	Amos' Training Ground
+670010000	Amos' Training Ground	670000200	Purplewood Forest 2
+670010300	Stage 2 - Heart Strings	670010400	Stage 3 - Twisted Switcher
+670010301	Stage 2 - Heart Strings	670010400	Stage 3 - Twisted Switcher
+670010302	Stage 2 - Heart Strings	670010400	Stage 3 - Twisted Switcher
+670010400	Stage 3 - Twisted Switcher	670010500	Stage 4 - Last Man Standing
+670010500	Stage 4 - Last Man Standing	670010600	Stage 5 - Fluttering Hearts
+674030300	Treasure Dungeon	674030100	Entrance to MV's Lair
+677000000	Marbas Strolling Path	101010102	The Tree That Grew III
+677000000	Marbas Strolling Path	677000001	Marbas Hiding Place
+677000001	Marbas Hiding Place	677000000	Marbas Strolling Path
+677000002	Amdusias Strolling Path	104040002	Henesys Hunting Ground III
+677000002	Amdusias Strolling Path	677000003	Amdusias Hiding Place
+677000003	Amdusias Hiding Place	677000002	Amdusias Strolling Path
+677000004	Andras Strolling Path	102020300	West Rocky Mountain IV
+677000004	Andras Strolling Path	677000005	Andras Hiding Place
+677000005	Andras Hiding Place	677000004	Andras Strolling Path
+677000006	Crocell Strolling Path	100030000	The Forest East of Henesys
+677000006	Crocell Strolling Path	677000007	Crocell Hiding Place
+677000007	Crocell Hiding Place	677000006	Crocell Strolling Path
+677000008	Valefor Strolling Path	103030200	Kerning City Middle Forest III
+677000008	Valefor Strolling Path	677000009	Valefor Hiding Place
+677000009	Valefor Hiding Place	677000008	Valefor Strolling Path
+677000010	Fog Forest	105050400	Dark Cave
+677000010	Fog Forest	677000011	Astaroth Strolling Place
+677000011	Astaroth Strolling Place	677000010	Fog Forest
+680000000	Amoria	680000001	Amoria Wedding Shop
+680000000	Amoria	680000002	Amoria Hair Salon
+680000000	Amoria	680000003	Amoria Plastic Surgery 
+680000000	Amoria	680010000	Purple Plains 1
+680000001	Amoria Wedding Shop	680000000	Amoria
+680000002	Amoria Hair Salon	680000000	Amoria
+680000003	Amoria Plastic Surgery 	680000000	Amoria
+680000004	Meet the Parents	104040002	Henesys Hunting Ground III
+680010000	Purple Plains 1	680000000	Amoria
+680010000	Purple Plains 1	680010100	Purple Plains 2
+680010100	Purple Plains 2	670000100	Purplewood Forest 1
+680010100	Purple Plains 2	680010000	Purple Plains 1
+682000000	Haunted House	610010000	Bent Tree
+682000000	Haunted House	610010002	Swamp Bog
+682000000	Haunted House	682000001	Hollowed Ground
+682000001	Hollowed Ground	682000000	Haunted House
+682000100	Foyer	682000000	Haunted House
+682000100	Foyer	682000300	Hallway
+682000100	Foyer	682000400	Hallway - Where am I?
+682000100	Foyer	682000500	Hallway - Where are you?
+682000100	Foyer	682000506	Barren Room
+682000100	Foyer	682000600	Hallway - This Again?
+682000100	Foyer	682010200	Mansion's Main Chimney
+682000200	Ghost Chimney	682000100	Foyer
+682000200	Ghost Chimney	682000300	Hallway
+682000200	Ghost Chimney	682000302	Vanity Room
+682000200	Ghost Chimney	682000400	Hallway - Where am I?
+682000200	Ghost Chimney	682000401	Sophilia's Bedroom
+682000200	Ghost Chimney	682000500	Hallway - Where are you?
+682000200	Ghost Chimney	682000600	Hallway - This Again?
+682000200	Ghost Chimney	682000601	Sophilia's Bedroom
+682000200	Ghost Chimney	682000606	Barren Room
+682000200	Ghost Chimney	682000700	Pumpkin Vault
+682000200	Ghost Chimney	682000800	Library
+682000200	Ghost Chimney	682000900	Toy Workshop
+682000300	Hallway	682000100	Foyer
+682000300	Hallway	682000301	Sophilia's Bedroom
+682000300	Hallway	682000302	Vanity Room
+682000300	Hallway	682000303	Study
+682000300	Hallway	682000304	Piano Room
+682000300	Hallway	682000305	Toy Room
+682000300	Hallway	682000400	Hallway - Where am I?
+682000300	Hallway	682000600	Hallway - This Again?
+682000300	Hallway	682000800	Library
+682000301	Sophilia's Bedroom	682000300	Hallway
+682000302	Vanity Room	682000300	Hallway
+682000303	Study	682000300	Hallway
+682000304	Piano Room	682000300	Hallway
+682000305	Toy Room	682000300	Hallway
+682000306	Barren Room	682000600	Hallway - This Again?
+682000306	Barren Room	682000900	Toy Workshop
+682000400	Hallway - Where am I?	682000100	Foyer
+682000400	Hallway - Where am I?	682000300	Hallway
+682000400	Hallway - Where am I?	682000401	Sophilia's Bedroom
+682000400	Hallway - Where am I?	682000402	Vanity Room
+682000400	Hallway - Where am I?	682000403	Study
+682000400	Hallway - Where am I?	682000404	Piano Room
+682000400	Hallway - Where am I?	682000405	Toy Room
+682000400	Hallway - Where am I?	682000500	Hallway - Where are you?
+682000400	Hallway - Where am I?	682000800	Library
+682000401	Sophilia's Bedroom	682000400	Hallway - Where am I?
+682000402	Vanity Room	682000400	Hallway - Where am I?
+682000403	Study	682000400	Hallway - Where am I?
+682000404	Piano Room	682000400	Hallway - Where am I?
+682000405	Toy Room	682000400	Hallway - Where am I?
+682000406	Barren Room	682000600	Hallway - This Again?
+682000406	Barren Room	682000800	Library
+682000500	Hallway - Where are you?	682000100	Foyer
+682000500	Hallway - Where are you?	682000400	Hallway - Where am I?
+682000500	Hallway - Where are you?	682000501	Sophilia's Bedroom
+682000500	Hallway - Where are you?	682000502	Vanity Room
+682000500	Hallway - Where are you?	682000503	Study
+682000500	Hallway - Where are you?	682000504	Piano Room
+682000500	Hallway - Where are you?	682000505	Toy Room
+682000500	Hallway - Where are you?	682000600	Hallway - This Again?
+682000500	Hallway - Where are you?	682000800	Library
+682000501	Sophilia's Bedroom	682000500	Hallway - Where are you?
+682000502	Vanity Room	682000500	Hallway - Where are you?
+682000503	Study	682000500	Hallway - Where are you?
+682000504	Piano Room	682000500	Hallway - Where are you?
+682000505	Toy Room	682000500	Hallway - Where are you?
+682000506	Barren Room	682000100	Foyer
+682000600	Hallway - This Again?	682000100	Foyer
+682000600	Hallway - This Again?	682000300	Hallway
+682000600	Hallway - This Again?	682000306	Barren Room
+682000600	Hallway - This Again?	682000406	Barren Room
+682000600	Hallway - This Again?	682000500	Hallway - Where are you?
+682000600	Hallway - This Again?	682000601	Sophilia's Bedroom
+682000600	Hallway - This Again?	682000602	Vanity Room
+682000600	Hallway - This Again?	682000603	Study
+682000600	Hallway - This Again?	682000604	Piano Room
+682000600	Hallway - This Again?	682000605	Toy Room
+682000600	Hallway - This Again?	682000800	Library
+682000600	Hallway - This Again?	682010200	Mansion's Main Chimney
+682000601	Sophilia's Bedroom	682000600	Hallway - This Again?
+682000602	Vanity Room	682000600	Hallway - This Again?
+682000603	Study	682000600	Hallway - This Again?
+682000604	Piano Room	682000600	Hallway - This Again?
+682000605	Toy Room	682000600	Hallway - This Again?
+682000700	Pumpkin Vault	682000000	Haunted House
+682000700	Pumpkin Vault	682000200	Ghost Chimney
+682000800	Library	682000300	Hallway
+682000800	Library	682000400	Hallway - Where am I?
+682000800	Library	682000500	Hallway - Where are you?
+682000800	Library	682000600	Hallway - This Again?
+682000800	Library	682000900	Toy Workshop
+682000800	Library	682010200	Mansion's Main Chimney
+682000900	Toy Workshop	682000100	Foyer
+682000900	Toy Workshop	682000306	Barren Room
+682000900	Toy Workshop	682010200	Mansion's Main Chimney
+682010100	Olivia's Secret Room 1	682000000	Haunted House
+682010101	Olivia's Secret Room 2	682000000	Haunted House
+682010102	Olivia's Secret Room 3	682000000	Haunted House
+682010200	Mansion's Main Chimney	682000500	Hallway - Where are you?
+682010200	Mansion's Main Chimney	682010201	Chimney Possessed by the Skeletons
+682010200	Mansion's Main Chimney	682010202	Chimney Possessed by the Scarecrow
+682010200	Mansion's Main Chimney	682010203	Chimney Possessed by the Clown
+682010201	Chimney Possessed by the Skeletons	682010200	Mansion's Main Chimney
+682010202	Chimney Possessed by the Scarecrow	682010200	Mansion's Main Chimney
+682010203	Chimney Possessed by the Clown	682010200	Mansion's Main Chimney
+683000000	Sweet Cake Hill Entrance	600000000	New Leaf City - Town Center
+709000604		209000000	Happyville
+709000605		209000000	Happyville
+800000000	Mushroom Shrine	800010000	Mushroom Forest
+800000000	Mushroom Shrine	800010001	The Mountain of Cloud Fox
+800010000	Mushroom Forest	800000000	Mushroom Shrine
+800010000	Mushroom Forest	800010100	Hall of Mushroom
+800010000	Mushroom Forest	800020000	Crow Forest
+800010001	The Mountain of Cloud Fox	800000000	Mushroom Shrine
+800010001	The Mountain of Cloud Fox	800020101	Crow Forest 2
+800010100	Hall of Mushroom	800010000	Mushroom Forest
+800020000	Crow Forest	800010000	Mushroom Forest
+800020000	Crow Forest	800020100	Road to Cemetery
+800020000	Crow Forest	800020101	Crow Forest 2
+800020000	Crow Forest	800030000	Forest of Animals
+800020100	Road to Cemetery	800020000	Crow Forest
+800020100	Road to Cemetery	800020200	A Desolate Cemetery
+800020101	Crow Forest 2	800010001	The Mountain of Cloud Fox
+800020101	Crow Forest 2	800020000	Crow Forest
+800020101	Crow Forest 2	800020110	A Night in the Forest
+800020110	A Night in the Forest	800020101	Crow Forest 2
+800020110	A Night in the Forest	800020120	Vanished Village
+800020120	Vanished Village	800020110	A Night in the Forest
+800020120	Vanished Village	800020130	Encounter with the Buddha
+800020130	Encounter with the Buddha	800020120	Vanished Village
+800020200	A Desolate Cemetery	800020100	Road to Cemetery
+800020200	A Desolate Cemetery	800020300	Cemetery Full of Ghosts
+800020300	Cemetery Full of Ghosts	800020200	A Desolate Cemetery
+800020300	Cemetery Full of Ghosts	800020400	WanWan Spa of Hell
+800020400	WanWan Spa of Hell	800020300	Cemetery Full of Ghosts
+800030000	Forest of Animals	800020000	Crow Forest
+800030000	Forest of Animals	801030000	Showa Street 3
+801000000	Showa Town	801000001	Hair Salon
+801000000	Showa Town	801000002	Plastic Surgery
+801000000	Showa Town	801000300	Showa Street Market
+801000000	Showa Town	801010000	Showa Street 1
+801000001	Hair Salon	801000000	Showa Town
+801000002	Plastic Surgery	801000000	Showa Town
+801000100	Locker Room (M)	801000000	Showa Town
+801000100	Locker Room (M)	809000101	Spa (M)
+801000110	The Secret Spa (M)	809000101	Spa (M)
+801000200	Locker Room (F)	801000000	Showa Town
+801000200	Locker Room (F)	809000201	Spa (F)
+801000210	The Secret Spa (F)	809000201	Spa (F)
+801000300	Showa Street Market	801000000	Showa Town
+801010000	Showa Street 1	801000000	Showa Town
+801010000	Showa Street 1	801020000	Showa Street 2
+801020000	Showa Street 2	801010000	Showa Street 1
+801020000	Showa Street 2	801030000	Showa Street 3
+801030000	Showa Street 3	800030000	Forest of Animals
+801030000	Showa Street 3	801020000	Showa Street 2
+801040000	Near the Hideout	801040001	Parking Lot
+801040001	Parking Lot	801040000	Near the Hideout
+801040001	Parking Lot	801040002	Finance of Flaming Raccoon
+801040002	Finance of Flaming Raccoon	801040001	Parking Lot
+801040002	Finance of Flaming Raccoon	801040003	Parlor
+801040003	Parlor	801040002	Finance of Flaming Raccoon
+801040003	Parlor	801040004	Armory
+801040004	Armory	801040003	Parlor
+809000101	Spa (M)	801000100	Locker Room (M)
+809000101	Spa (M)	801000110	The Secret Spa (M)
+809000201	Spa (F)	801000200	Locker Room (F)
+809000201	Spa (F)	801000210	The Secret Spa (F)
+809050000	Ludibrium Maze 1	809050004	Ludibrium Maze 5
+809050000	Ludibrium Maze 1	809050007	Ludibrium Maze 8
+809050000	Ludibrium Maze 1	809050012	Ludibrium Maze 13
+809050001	Ludibrium Maze 2	809050005	Ludibrium Maze 6
+809050001	Ludibrium Maze 2	809050008	Ludibrium Maze 9
+809050001	Ludibrium Maze 2	809050013	Ludibrium Maze 14
+809050002	Ludibrium Maze 3	809050006	Ludibrium Maze 7
+809050002	Ludibrium Maze 3	809050009	Ludibrium Maze 10
+809050002	Ludibrium Maze 3	809050014	Ludibrium Maze 15
+809050003	Ludibrium Maze 4	809050000	Ludibrium Maze 1
+809050003	Ludibrium Maze 4	809050007	Ludibrium Maze 8
+809050003	Ludibrium Maze 4	809050010	Ludibrium Maze 11
+809050004	Ludibrium Maze 5	809050001	Ludibrium Maze 2
+809050004	Ludibrium Maze 5	809050008	Ludibrium Maze 9
+809050004	Ludibrium Maze 5	809050011	Ludibrium Maze 12
+809050005	Ludibrium Maze 6	809050002	Ludibrium Maze 3
+809050005	Ludibrium Maze 6	809050009	Ludibrium Maze 10
+809050005	Ludibrium Maze 6	809050012	Ludibrium Maze 13
+809050006	Ludibrium Maze 7	809050003	Ludibrium Maze 4
+809050006	Ludibrium Maze 7	809050010	Ludibrium Maze 11
+809050006	Ludibrium Maze 7	809050013	Ludibrium Maze 14
+809050007	Ludibrium Maze 8	809050004	Ludibrium Maze 5
+809050007	Ludibrium Maze 8	809050011	Ludibrium Maze 12
+809050007	Ludibrium Maze 8	809050014	Ludibrium Maze 15
+809050008	Ludibrium Maze 9	809050005	Ludibrium Maze 6
+809050008	Ludibrium Maze 9	809050012	Ludibrium Maze 13
+809050008	Ludibrium Maze 9	809050015	Ludibrium Maze 16
+809050009	Ludibrium Maze 10	809050001	Ludibrium Maze 2
+809050009	Ludibrium Maze 10	809050006	Ludibrium Maze 7
+809050009	Ludibrium Maze 10	809050013	Ludibrium Maze 14
+809050010	Ludibrium Maze 11	809050002	Ludibrium Maze 3
+809050010	Ludibrium Maze 11	809050007	Ludibrium Maze 8
+809050010	Ludibrium Maze 11	809050014	Ludibrium Maze 15
+809050011	Ludibrium Maze 12	809050000	Ludibrium Maze 1
+809050011	Ludibrium Maze 12	809050003	Ludibrium Maze 4
+809050011	Ludibrium Maze 12	809050008	Ludibrium Maze 9
+809050012	Ludibrium Maze 13	809050001	Ludibrium Maze 2
+809050012	Ludibrium Maze 13	809050004	Ludibrium Maze 5
+809050012	Ludibrium Maze 13	809050009	Ludibrium Maze 10
+809050013	Ludibrium Maze 14	809050002	Ludibrium Maze 3
+809050013	Ludibrium Maze 14	809050005	Ludibrium Maze 6
+809050013	Ludibrium Maze 14	809050010	Ludibrium Maze 11
+809050014	Ludibrium Maze 15	809050003	Ludibrium Maze 4
+809050014	Ludibrium Maze 15	809050006	Ludibrium Maze 7
+809050014	Ludibrium Maze 15	809050011	Ludibrium Maze 12
+809050015	Ludibrium Maze 16	809050008	Ludibrium Maze 9
+900000000	Utah's Pig Farm	100030000	The Forest East of Henesys
+910000000	Free Market Entrance	910000001	Free Market<1>
+910000000	Free Market Entrance	910000002	Free Market<2>
+910000000	Free Market Entrance	910000003	Free Market<3>
+910000000	Free Market Entrance	910000004	Free Market<4>
+910000000	Free Market Entrance	910000005	Free Market<5>
+910000000	Free Market Entrance	910000006	Free Market<6>
+910000000	Free Market Entrance	910000007	Free Market<7>
+910000000	Free Market Entrance	910000008	Free Market<8>
+910000000	Free Market Entrance	910000009	Free Market<9>
+910000000	Free Market Entrance	910000010	Free Market<10>
+910000000	Free Market Entrance	910000011	Free Market<11>
+910000000	Free Market Entrance	910000012	Free Market<12>
+910000000	Free Market Entrance	910000013	Free Market<13>
+910000000	Free Market Entrance	910000014	Free Market<14>
+910000000	Free Market Entrance	910000015	Free Market<15>
+910000000	Free Market Entrance	910000016	Free Market<16>
+910000000	Free Market Entrance	910000017	Free Market<17>
+910000000	Free Market Entrance	910000018	Free Market<18>
+910000000	Free Market Entrance	910000019	Free Market<19>
+910000000	Free Market Entrance	910000020	Free Market<20>
+910000000	Free Market Entrance	910000021	Free Market<21>
+910000000	Free Market Entrance	910000022	Free Market<22>
+910000001	Free Market<1>	910000000	Free Market Entrance
+910000002	Free Market<2>	910000000	Free Market Entrance
+910000003	Free Market<3>	910000000	Free Market Entrance
+910000004	Free Market<4>	910000000	Free Market Entrance
+910000005	Free Market<5>	910000000	Free Market Entrance
+910000006	Free Market<6>	910000000	Free Market Entrance
+910000007	Free Market<7>	910000000	Free Market Entrance
+910000008	Free Market<8>	910000000	Free Market Entrance
+910000009	Free Market<9>	910000000	Free Market Entrance
+910000010	Free Market<10>	910000000	Free Market Entrance
+910000011	Free Market<11>	910000000	Free Market Entrance
+910000012	Free Market<12>	910000000	Free Market Entrance
+910000013	Free Market<13>	910000000	Free Market Entrance
+910000014	Free Market<14>	910000000	Free Market Entrance
+910000015	Free Market<15>	910000000	Free Market Entrance
+910000016	Free Market<16>	910000000	Free Market Entrance
+910000017	Free Market<17>	910000000	Free Market Entrance
+910000018	Free Market<18>	910000000	Free Market Entrance
+910000019	Free Market<19>	910000000	Free Market Entrance
+910000020	Free Market<20>	910000000	Free Market Entrance
+910000021	Free Market<21>	910000000	Free Market Entrance
+910000022	Free Market<22>	910000000	Free Market Entrance
+910031000	Witch Cat and the Gingerbread House  	910030001	Fairytale Land Exit  
+910032000	Back Yard  	910030000	Fairytale Land Entrance  
+910040002	Fenced Street  	910040000	Ranch Entrance  
+910050000	위험에 빠진 궁수교육원	100000200	Henesys Park
+910060000	Bowman Training Center	100010000	The Hill East of Henesys
+910100000	The Cursed Forest	100040105	The Forest of Evil I
+910100001	The Cursed Forest	100040105	The Forest of Evil I
+910120000	Magician Training Center	100050000	The Field South of Ellinia
+910200000	Hidden Relic	101030104	Excavation Site <Camp>
+910200001	Hidden Relic	101030104	Excavation Site <Camp>
+910200002	Hidden Relic	101030104	Excavation Site <Camp>
+910220000	Warrior Training Center	101040000	Perion Street Corner
+910300000	Dark Lord's Practice Field	103000000	Kerning City
+910310000	Thief Training Center	103010000	Kerning City Construction Site
+910320010	Platform - Train 999	910320000	Abandoned Subway Station
+910400000	Dangerous Info Shop	104000000	Lith Harbor
+910500000	Another World : Practice Field	105090200	Another Entrance
+910500100	Secret Shrine	105090700	Sanctuary Entrance III
+910500200	Forgotten Shrine	105090800	Sanctuary Entrance IV
+910510001	Puppeteer's Cave	105070300	The Cave of Evil Eye III
+910510201	Puppeteer's Cave	105070300	The Cave of Evil Eye III
+910510202	Puppeteer's Cave	105040201	Puppeteer's Hiding Place
+910520000	Hero's Memory  	105100100	Bottom of the Temple 
+912020000	Bart's Room	120000102	Lord Jonathan's Room
+912030000	Pirate Training Center	120010000	On the Way to the Harbor
+913000000	The 1st Drill Hall	130020000	Entrance to the Drill Hall
+913000100	The 1st Drill Hall	130020000	Entrance to the Drill Hall
+913000200	The 1st Drill Hall	130020000	Entrance to the Drill Hall
+913010000	The 3rd Drill Hall	130020000	Entrance to the Drill Hall
+913010100	The 3rd Drill Hall	130020000	Entrance to the Drill Hall
+913010200	The 3rd Drill Hall	130020000	Entrance to the Drill Hall
+913010300	The 3rd Drill Hall	130020000	Entrance to the Drill Hall
+913020000	The 4th Drill Hall	130020000	Entrance to the Drill Hall
+913020100	The 4th Drill Hall	130020000	Entrance to the Drill Hall
+913020200	The 4th Drill Hall	130020000	Entrance to the Drill Hall
+913020300	The 4th Drill Hall	130020000	Entrance to the Drill Hall
+914000100	Ready to Leave	914000000	Wounded Soldier's Camp
+914000200	Burning Forest 1	914000100	Ready to Leave
+914000210	Burning Forest 2	914000200	Burning Forest 1
+914000220	Burning Forest 3	914000210	Burning Forest 2
+914000220	Burning Forest 3	914000300	Dead End Forest
+914000400	Burning Forest 3	914000300	Dead End Forest
+914000400	Burning Forest 3	914000410	Burning Forest 2
+914000410	Burning Forest 2	914000400	Burning Forest 3
+914000410	Burning Forest 2	914000420	Burning Forest 1
+914000420	Burning Forest 1	914000410	Burning Forest 2
+914000420	Burning Forest 1	914000500	Ready to Leave
+914010000	Training Ground 1	140010100	Dangerous Forest
+914010100	Training Ground 2	140010100	Dangerous Forest
+914010200	Training Ground 3	140010100	Dangerous Forest
+920010000	Tower of Goddess <Entrance>	920010100	Tower of Goddess <Center Tower>
+920010100	Tower of Goddess <Center Tower>	920010900	Tower of Goddess <The Room of the Guilty>
+920010600	Tower of Goddess <Lounge>	920010601	Tower of Goddess <Room 301>
+920010600	Tower of Goddess <Lounge>	920010602	Tower of Goddess <Room 302>
+920010600	Tower of Goddess <Lounge>	920010603	Tower of Goddess <Room 303>
+920010600	Tower of Goddess <Lounge>	920010604	Tower of Goddess <Room 304>
+920010601	Tower of Goddess <Room 301>	920010600	Tower of Goddess <Lounge>
+920010602	Tower of Goddess <Room 302>	920010600	Tower of Goddess <Lounge>
+920010603	Tower of Goddess <Room 303>	920010600	Tower of Goddess <Lounge>
+920010604	Tower of Goddess <Room 304>	920010600	Tower of Goddess <Lounge>
+920010900	Tower of Goddess <The Room of the Guilty>	920010100	Tower of Goddess <Center Tower>
+920010910	Tower of Goddess <Jail I>	920010900	Tower of Goddess <The Room of the Guilty>
+920010911	Tower of Goddess <Jail Storage1>	920010910	Tower of Goddess <Jail I>
+920010912	Tower of Goddess <Jail Storage1>	920010910	Tower of Goddess <Jail I>
+920010920	Tower of Goddess <Jail II>	920010900	Tower of Goddess <The Room of the Guilty>
+920010921	Tower of Goddess <Jail Storage2>	920010920	Tower of Goddess <Jail II>
+920010922	Tower of Goddess <Jail Storage2>	920010920	Tower of Goddess <Jail II>
+920010930	Tower of Goddess <Jail III>	920010900	Tower of Goddess <The Room of the Guilty>
+920010931	Tower of Goddess <Jail-Storage 3>	920010930	Tower of Goddess <Jail III>
+920010932	Tower of Goddess <Jail-Storage 3>	920010930	Tower of Goddess <Jail III>
+920020000	Eliza’s Garden	200010300	Stairway to the Sky II
+920030000	Quiet Walk	200060000	Strolling Path II
+920030000	Quiet Walk	920030001	Sealed Garden
+920030001	Sealed Garden	920030000	Quiet Walk
+921100000	Heart of Lava	211042300	The Door to Zakum
+921100100	Ice Valley	211040200	Ice Valley II
+921100200	Phoenix's Nest	211042200	The Cave of Trial III
+921100210	Freezer's Nest	211040700	Dangerous Cliff
+921110000	Rider's Field	211050000	Icy Cold Field
+922000009	Secret Passage	220020600	Toy Factory <Aparatus Room>
+922000020	Secret Factory	220030400	Toy Factory <Process 2> Zone 4
+922000021	Secret Factory	220030400	Toy Factory <Process 2> Zone 4
+922010100	Abandoned Tower<Stage 1>	922010200	Abandoned Tower<Stage 2>
+922010200	Abandoned Tower<Stage 2>	922010300	Abandoned Tower<Stage 3>
+922010201	Tower's Trap	922010200	Abandoned Tower<Stage 2>
+922010300	Abandoned Tower<Stage 3>	922010400	Abandoned Tower<Stage 4>
+922010400	Abandoned Tower<Stage 4>	922010401	Darkness in the Tower
+922010400	Abandoned Tower<Stage 4>	922010402	Darkness in the Tower
+922010400	Abandoned Tower<Stage 4>	922010403	Darkness in the Tower
+922010400	Abandoned Tower<Stage 4>	922010404	Darkness in the Tower
+922010400	Abandoned Tower<Stage 4>	922010405	Darkness in the Tower
+922010400	Abandoned Tower<Stage 4>	922010500	Abandoned Tower<Stage 5>
+922010401	Darkness in the Tower	922010400	Abandoned Tower<Stage 4>
+922010402	Darkness in the Tower	922010400	Abandoned Tower<Stage 4>
+922010403	Darkness in the Tower	922010400	Abandoned Tower<Stage 4>
+922010404	Darkness in the Tower	922010400	Abandoned Tower<Stage 4>
+922010405	Darkness in the Tower	922010400	Abandoned Tower<Stage 4>
+922010500	Abandoned Tower<Stage 5>	922010501	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010502	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010503	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010504	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010505	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010506	Tower's Maze
+922010500	Abandoned Tower<Stage 5>	922010600	Abandoned Tower<Stage 6>
+922010501	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010502	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010503	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010504	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010505	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010506	Tower's Maze	922010500	Abandoned Tower<Stage 5>
+922010600	Abandoned Tower<Stage 6>	922010700	Abandoned Tower<Stage 7>
+922010700	Abandoned Tower<Stage 7>	922010800	Abandoned Tower<Stage 8>
+922010800	Abandoned Tower<Stage 8>	922010900	A Crack on the Wall
+922020100	Room of Thanatos	220050300	Path of Time
+922020200	Hidden Balcony	220010000	Cloud Terrace<5>
+922200000	The Area of Wild Hog	222010200	Tiger Ridge
+922220000	Gloomy Forest	222010200	Tiger Ridge
+922220000	Gloomy Forest	222010300	Fox Ridge
+923000000	Warped Dimension	230040001	Carta's Cave
+923000100	Cold Cave	230040300	Dangerous Sea Gorge II
+924000100	The Top of the Sky Nest	240010700	Sky Nest I
+924010000	Cave of Black Witches	240040510	Nest of a Dead Dragon
+924010100	Cave of Black Witches	240040510	Nest of a Dead Dragon
+924010200	Cave of Black Witches	240040510	Nest of a Dead Dragon
+925000000	Forest of the Ghost Priest	250010504	Goblin Forest 2
+925010000	Looking for Delli 1	925010100	Looking for Delli 2
+925010100	Looking for Delli 2	925010000	Looking for Delli 1
+925010100	Looking for Delli 2	925010200	Looking for Delli 3
+925010200	Looking for Delli 3	925010000	Looking for Delli 1
+925010300	Save Delli!	925010200	Looking for Delli 3
+925020000	Mu Lung Dojo Entrance	925020001	Mu Lung Dojo Hall
+925020001	Mu Lung Dojo Hall	925020000	Mu Lung Dojo Entrance
+925020002	Mu Lung Dojo Exit	925020001	Mu Lung Dojo Hall
+925020003	Mu Lung Dojo Rooftop	925020000	Mu Lung Dojo Entrance
+925040000	Back Alley of Mu Lung Training Center	925020000	Mu Lung Dojo Entrance
+925040100	Sealed Temple	250020300	Practice Field : Advanced Level
+925100200	Through the Deck I	925100201	The Area of 100yrOld Bellflower I
+925100201	The Area of 100yrOld Bellflower I	925100200	Through the Deck I
+925100202	Lord Pirate's Servant I	925100200	Through the Deck I
+925100300	Through the Deck II	925100301	The Area of 100yrOld Bellflower II
+925100301	The Area of 100yrOld Bellflower II	925100300	Through the Deck II
+925100302	Lord Pirate's Servant II	925100300	Through the Deck II
+926000000	Ariant Back Street	260000200	The Town of Ariant
+926000010	Treasure Room of Queen	260000302	Palace Hallway
+926010010	Tomb of Pharaoh Yeti 	926010000	Pyramid Dunes
+926010070	Tomb of Pharaoh Yeti	926010000	Pyramid Dunes
+926100301	Lab - Unit 101	926100400	Entrance to Center Lab
+926100302	Lab - Unit 102	926100400	Entrance to Center Lab
+926100303	Lab - Unit 103	926100400	Entrance to Center Lab
+926100304	Lab - Unit 104	926100400	Entrance to Center Lab
+926110301	Lab - Unit 101	926110400	Entrance to Center Lab
+926110302	Lab - Unit 102	926110400	Entrance to Center Lab
+926110303	Lab - Unit 103	926110400	Entrance to Center Lab
+926110304	Lab - Unit 104	926110400	Entrance to Center Lab
+926120000	Dark Lab	261020600	Lab - Area B-3
+926120100	Closed Lab	261000010	Zenumist Society
+926120200	Dran's Lab	261020401	Authorized Personnel Only
+926120300	Where Snow Rose Grows	261000000	Magatia
+926130000	Yulete's Lab	261000000	Magatia
+926130000	Yulete's Lab	926130100	Lab Entrance
+926130100	Lab Entrance	926130000	Yulete's Lab
+926130101	Yulete's Lab 1	926130200	Lab Exit 1
+926130102	Yulete's Lab 2	926130201	Lab Exit 2
+926130103	Yulete's Lab 3	926130203	Lab Exit 3
+930010000	Dangerous Library	300000010	Camp Conference Room
+970000000	Studio Entrance	970000001	Ludibrium Studio
+970000000	Studio Entrance	970000002	Orbis Studio
+970000000	Studio Entrance	970000003	Ariant Studio
+970000000	Studio Entrance	970000004	Mu Lung Studio
+970000000	Studio Entrance	970000005	Magatia Studio
+970000001	Ludibrium Studio	970000000	Studio Entrance
+970000002	Orbis Studio	970000000	Studio Entrance
+970000003	Ariant Studio	970000000	Studio Entrance
+970000004	Mu Lung Studio	970000000	Studio Entrance
+970000005	Magatia Studio	970000000	Studio Entrance
+970000100	Family Studio Waiting Room  	970000101	Maple Studio  
+970000100	Family Studio Waiting Room  	970000102	Ludibrium Studio 
+970000100	Family Studio Waiting Room  	970000103	Ariant Studio  
+970000100	Family Studio Waiting Room  	970000104	Orbis Studio  
+970000100	Family Studio Waiting Room  	970000105	Mu Lung Studio  
+970000100	Family Studio Waiting Room  	970000106	Magatia Studio  
+970000100	Family Studio Waiting Room  	970000107	Ereve Studio  
+970000100	Family Studio Waiting Room  	970000108	Studio Made of Cookies  
+970000101	Maple Studio  	970000100	Family Studio Waiting Room  
+970000102	Ludibrium Studio 	970000100	Family Studio Waiting Room  
+970000103	Ariant Studio  	970000100	Family Studio Waiting Room  
+970000104	Orbis Studio  	970000100	Family Studio Waiting Room  
+970000105	Mu Lung Studio  	970000100	Family Studio Waiting Room  
+970000106	Magatia Studio  	970000100	Family Studio Waiting Room  
+970000107	Ereve Studio  	970000100	Family Studio Waiting Room  
+970000108	Studio Made of Cookies  	970000100	Family Studio Waiting Room  
+970020000	Cassandra's Shore	970020001	Nautilus Coast
+970020000	Cassandra's Shore	970020002	Mu Lung Clouds
+970020000	Cassandra's Shore	970020003	Herb Town Pier
+970020000	Cassandra's Shore	970020004	Magatia Waterway
+970020000	Cassandra's Shore	970020005	Aqua Road Ferry
+970020001	Nautilus Coast	970020000	Cassandra's Shore
+970020002	Mu Lung Clouds	970020000	Cassandra's Shore
+970020003	Herb Town Pier	970020000	Cassandra's Shore
+970020004	Magatia Waterway	970020000	Cassandra's Shore
+970020005	Aqua Road Ferry	970020000	Cassandra's Shore
+970033000		970030000	Exclusive Training Center
+970033000		970033001	
+980040010	Witch's Grave Site  	980040000	Witch Tower Entrance 
+990000100	Valley of the Guard	990000200	Entrance to the Remains
+990000200	Entrance to the Remains	990000300	Door to the Sharenian Castle
+990000301	Road to the Fortress	990000400	Hall of the Knight
+990000400	Hall of the Knight	990000410	Room of Glory
+990000400	Hall of the Knight	990000420	Room of Courage
+990000400	Hall of the Knight	990000440	Room of Justice
+990000401	Middle Path	990000500	Fountain of the Wiseman
+990000410	Room of Glory	990000400	Hall of the Knight
+990000420	Room of Courage	990000400	Hall of the Knight
+990000430	Room of Faith	990000400	Hall of the Knight
+990000431	Room of Pledge	990000430	Room of Faith
+990000440	Room of Justice	990000400	Hall of the Knight
+990000500	Fountain of the Wiseman	990000501	Center Banquet
+990000500	Fountain of the Wiseman	990000502	Wine Cellar
+990000501	Center Banquet	990000500	Fountain of the Wiseman
+990000502	Wine Cellar	990000500	Fountain of the Wiseman
+990000600	Underground Waterway	990000610	Waterway Maze
+990000600	Underground Waterway	990000620	Waterway Maze
+990000600	Underground Waterway	990000630	Waterway Maze
+990000610	Waterway Maze	990000600	Underground Waterway
+990000611	End of the Maze	990000610	Waterway Maze
+990000620	Waterway Maze	990000600	Underground Waterway
+990000630	Waterway Maze	990000600	Underground Waterway
+990000631	End of the Maze	990000630	Waterway Maze
+990000640	Waterway Maze	990000600	Underground Waterway
+990000641	End of the Maze	990000640	Waterway Maze
+990001101	Guild Union Camp	990001000	Sharen III's Treasure Wearhouse

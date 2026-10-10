@@ -35,6 +35,8 @@ Drop chances are before the server's drop rate. With `drop_rate` 2, a 1% drop is
 | File | What it is |
 |------|------------|
 | [Travel.md](Travel.md) | Every ride, taxi and tower: route, cost and time. Written by hand from the scripts. |
+| [TravelLinks.tsv](TravelLinks.tsv) | The same rides and taxis as map-to-map links with fares, for route finding. Written by hand. |
+| [MapLinks.tsv](MapLinks.tsv) | Which maps connect to which by ordinary portals (2,747 links). Scripted portals are missing. |
 | [Loadouts.tsv](Loadouts.tsv) | The gear each class gets at levels 10 to 100, as picked by the character tool. See [Scripts](../Scripts/README.md). |
 
 ## Good to know
@@ -53,4 +55,4 @@ python Settings/Reference/Build-Reference.py
 python Settings/Scripts/Make-Character.py --loadouts
 ```
 
-They overwrite the lists. Only `Travel.md` is edited by hand.
+They overwrite the lists. Only `Travel.md` and `TravelLinks.tsv` are edited by hand.

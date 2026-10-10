@@ -71,6 +71,7 @@ Prototype: bots answer whispers through Claude Haiku. Started with `Start-Bot-Ch
 - Replies come from Claude Code running Haiku on your Claude login, with no API key. Run `Login-Bot-Chat.bat` once to sign it in.
 - Each reply starts a new Claude Code process and takes 2 to 5 seconds.
 - Bots write proper English and use common MapleStory words.
+- Bots give directions: ask for the way to a town, or to a monster you were just talking about, and the bridge works out the route from the map you are on (walking, cabs and rides with fares). Follow-up questions like "where is that?" and "how do I get there?" use what the conversation was last about.
 - Bots know drops and monster locations: when you name an item or monster, the bridge looks it up in `Drops.tsv` and `MobSpawns.tsv` and hands the facts to the bot. The window shows what it found on a line starting with `knows:`.
 - Settings (reply length, how many lines are remembered, the personality lists) are at the top of the script.
 
