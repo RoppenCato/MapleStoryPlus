@@ -503,6 +503,16 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 | 3 | Backspin Blow hits up to 6 monsters (now 3). | agreed | Server and client skill data |
 | 4 | Double Uppercut, MP Recovery, Improve MaxHP, Knuckler Mastery and Oak Barrel stay as they are. | agreed | Nothing |
 
+### Gunslinger (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Gun Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 2 | Invisible Shot does 200% on up to 6 monsters (now 170% on 3). | agreed | Server and client skill data |
+| 3 | Blank Shot hits up to 6 monsters (now 3). | agreed | Server and client skill data |
+| 4 | Grenade does 200% (now 140%). | agreed | Server and client skill data |
+| 5 | Recoil Shot, Wings and Gun Mastery stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Cygnus Knights
