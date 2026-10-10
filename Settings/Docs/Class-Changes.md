@@ -140,6 +140,20 @@ The class's theme is spending HP for damage. Small constant HP costs are removed
 | 4 | Dragon Roar keeps its 30% HP cost but no longer stuns you for 2 seconds afterwards. | agreed | To be tested: the self-stun may be handled by the client |
 | 5 | Crusher's numbers, Sacrifice, Power Crash and Elemental Resistance stay as they are. | agreed | Nothing |
 
+### Shared by all three warrior 4th jobs
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Power Stance lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
+| 2 | Achilles reduces damage taken by 20% (now 15%). | agreed | Server and client skill data |
+| 3 | Rush, Monster Magnet and Hero's Will stay as they are. Rush is the warrior's real movement skill and only arrives at level 120; if +20 speed on Iron Body feels too slow before that, moving Rush to 3rd job is the next step. | agreed | Nothing |
+
+### Hero (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Brandish, Advanced Combo Attack, Enrage and Guardian stay as they are. The Hero already gains from the crit rule and from permanent Rage and Combo Attack. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Magicians
