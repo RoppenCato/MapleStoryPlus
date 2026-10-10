@@ -2,6 +2,18 @@
 
 One section per class: the goal we agreed on, the ideas, and every change made. Belongs to section 9 (`K`) of the [Implementation list](Implementation-List.md).
 
+## Where the design stands (2026-10-10)
+
+The first pass over the five explorer classes is done: every job from 1st to 4th has been gone through with Robin, 187 lines agreed. **Nothing is built.** Robin's instruction: work through the classes and the documents first, then make changes.
+
+Not covered yet: Cygnus Knights and Aran.
+
+Before building:
+
+- About 13 lines are marked "to be tested". They depend on what the client allows, most of all: giving a job another job's skill (Flash Jump for bandits), critical hits through the Sharp Eyes effect, and changes to things the client works out by itself (weakness bonus, self-stun, orb count).
+- Every "server and client skill data" line assumes both copies of the skill data must be edited to match. The first skill edit (Savage Blow) is also the test of that method.
+- Lines marked "to measure" need test characters at the right level once built: the bandit against the assassin, the Sniper against the Ranger, the Dark Knight against the Hero, the priest's levelling speed, and the mages' ultimates.
+
 ## How to use
 
 - **Goal:** one or two sentences on how the class should feel. Filled in when we discuss the class.
@@ -540,6 +552,15 @@ Found while checking: on our server the Blaze Capsule only comes from a few mons
 | 1 | Speed Infusion lasts 30 minutes (now 300 seconds) and has no HP cost. | agreed | Server and client skill data |
 | 2 | Super Transformation lasts 3 minutes (now 2). The 4-minute cooldown stays. | agreed | Server and client skill data |
 | 3 | Demolition, Barrage, Dragon Strike, Energy Orb, Snatch, Time Leap and Pirate's Rage stay as they are. | agreed | Nothing |
+
+### Corsair (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | The Battleship takes much less damage, so it survives ordinary hunting and is only at risk on bosses. MapleRoyals cut it to a tenth; the right figure, or more ship HP instead, is to be worked out from the server code. | agreed | Server code |
+| 2 | Rapid Fire does 200% (now 170%). | agreed | Server and client skill data |
+| 3 | Wrath of the Octopi lasts 2 minutes (now 40 seconds). | agreed | Server and client skill data |
+| 4 | Battleship Cannon, Battleship Torpedo, Aerial Strike, Bullseye, Elemental Boost and Hypnotize stay as they are. | agreed | Nothing |
 
 **Changes:** none yet.
 

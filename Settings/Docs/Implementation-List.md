@@ -123,7 +123,7 @@ Details per class are in [Class-Changes.md](Class-Changes.md).
 
 - [ ] `K-1` Set the method from `R-4`: how a skill change is made, tested and recorded
 - [ ] `K-2` Agree on a baseline: what "balanced" means (damage per second at set levels, mobbing, survivability, mobility)
-- [ ] `K-3` Go through each class: discuss, set a goal, write the plan
+- [x] `K-3` Go through each class: discuss, set a goal, write the plan. Done for the five explorer classes on 2026-10-10 (see [Class-Changes.md](Class-Changes.md)). Cygnus Knights and Aran are not covered.
 - [ ] `K-4` Implement class by class, ticking off in Class-Changes.md
 
 ## 10. Bosses
