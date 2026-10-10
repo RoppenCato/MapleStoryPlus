@@ -31,6 +31,11 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-10 | Dark Sight | Slows you until maxed | No speed penalty | Yes |
 | 2026-10-10 | Other values in the same batch: Threaten and Disorder at -30; Shout, Seal, Doom, Power Knock-Back, Poison Breath, Poison Mist and Pickpocket always work at max; 3-second freezes on Cold Beam and Ice Strike; ultimates at most 2,500 MP; Element Amplification with no extra MP cost at max; Dash +20; full Holy Symbol bonus when alone | See Class-Changes.md | As agreed | Not individually. Same kind of change as the tested ones. |
 
+| 2026-10-10 | Double Stab | 2 hits of 140% at max | 2 hits of 160% at max | Yes |
+| 2026-10-10 | Savage Blow | 4 to 6 hits of 40% to 80% | 6 hits at every level, 55% at level 1 to 100% at level 30 | Yes |
+| 2026-10-10 | Steal | Hits 1 monster | Hits 4 monsters from level 1 and 6 at max, with its own hit box | Yes |
+| 2026-10-10 | Tooltips | Showed the original numbers | Rewritten to show the new numbers for every changed skill. 244 values have no place in their text and are not shown. | Yes |
+
 ## Travel and guidance
 
 | Date | ID | Change | Before | After |
