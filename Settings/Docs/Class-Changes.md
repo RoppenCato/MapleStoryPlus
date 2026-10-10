@@ -326,6 +326,17 @@ Bowmaster, Marksman. Under discussion since 2026-10-10, one job at a time.
 | 3 | Power Knock-Back always works at max level (now 70%). | agreed | Server and client skill data |
 | 4 | Arrow Bomb, Final Attack and Bow Mastery stay as they are. | agreed | Nothing |
 
+### Crossbowman (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Crossbow Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 2 | Soul Arrow lasts 30 minutes (now 10). | agreed | Server and client skill data |
+| 3 | Power Knock-Back always works at max level (now 70%). | agreed | Server and client skill data |
+| 4 | Iron Arrow, Final Attack and Crossbow Mastery stay as they are. | agreed | Nothing |
+
+Background for the crossbow line: crossbows shoot slower than bows, and the Marksman ends up behind the Bowmaster on damage. That gap opens in 3rd and 4th job and is dealt with there.
+
 **Changes:** none yet.
 
 ## Thieves
