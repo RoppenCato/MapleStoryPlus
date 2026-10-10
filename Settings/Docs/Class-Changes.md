@@ -354,6 +354,15 @@ Background for the crossbow line: crossbows shoot slower than bows, and the Mark
 | 3 | Puppet lasts 3 minutes (now 60 seconds). | agreed | Server and client skill data |
 | 4 | Arrow Eruption, Blizzard, Mortal Blow and Thrust stay as they are. | agreed | Nothing |
 
+### Bowmaster (4th job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Sharp Eyes lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
+| 2 | Hamstring lasts 30 minutes (now 180 seconds). | agreed | Server and client skill data |
+| 3 | Phoenix lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
+| 4 | Hurricane, Concentrate, Dragon's Breath, Bow Expert and Hero's Will stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Thieves
