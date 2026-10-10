@@ -494,6 +494,15 @@ Buccaneer, Corsair. Under discussion since 2026-10-10, one job at a time.
 | 2 | Dash lasts 3 minutes (now 20 seconds). Not 30 minutes: it is meant as a burst, and a permanent +30 speed would outrun thieves with Haste. | agreed | Server and client skill data |
 | 3 | Flash Fist, Sommersault Kick and Bullet Time stay as they are. | agreed | Nothing |
 
+### Brawler (2nd job)
+
+| # | Change | Status | Needs |
+|---|--------|--------|-------|
+| 1 | Knuckler Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
+| 2 | Corkscrew Blow hits up to 6 monsters (now 3). | agreed | Server and client skill data |
+| 3 | Backspin Blow hits up to 6 monsters (now 3). | agreed | Server and client skill data |
+| 4 | Double Uppercut, MP Recovery, Improve MaxHP, Knuckler Mastery and Oak Barrel stay as they are. | agreed | Nothing |
+
 **Changes:** none yet.
 
 ## Cygnus Knights
