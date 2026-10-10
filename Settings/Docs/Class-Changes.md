@@ -36,6 +36,21 @@ Change table columns:
 - Review damage and MP/HP costs of all skills.
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 - **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
+- **Agreed 2026-10-10: sprint and the speed budget (Robin's numbers).**
+  - Sprint: the beginner skill Nimble Feet gives +10 speed for 10 seconds, with a 20-second cooldown and no MP cost, at every level (now +10 to +20 for 4 to 12 seconds, 60-second cooldown, costs MP). Bound to Shift by the player. Every class has it.
+  - The speed cap goes from 140 to 150 (Ezorsia's `speedMovementCap` in the client's `config.ini`).
+  - Thieves are the fastest class, at 150. Classes that get speed from their buffs top out at 130. Base speed is 100.
+
+  | Class | Speed from skills | With sprint | Fits the budget? |
+  |-------|-------------------|-------------|------------------|
+  | Thief | Haste +40, Nimble Body +10 = 150 | 150 (already at the cap) | Yes, but sprint then adds nothing for thieves |
+  | Warrior | Iron Body +20 = 120 | 130 | Yes |
+  | Bowman, 1st and 2nd job | Focus +10 = 110 | 120 | Yes |
+  | Bowman, 3rd job on | Focus +10, Thrust +30 = 140 | 150 | No: Thrust alone gives +30 in the original game |
+  | Pirate | Dash +30 for 3 minutes = 130 | 140 | No |
+  | Magician | none = 100 | 110 | Yes. Magicians have Teleport instead. |
+
+  Proposed to make it fit (not confirmed): Thrust gives +10 instead of +30; Dash gives +20 instead of +30; Nimble Body loses its +10 speed so a thief runs at 140 and reaches 150 with sprint. Speed from equipment comes on top of all this, up to the cap.
 - **Agreed 2026-10-10: critical hits for every class (Robin's idea).** Classes that have their own critical skill keep it: bowmen (Critical Shot) and assassins (Critical Throw). Every other class gets a lesser, built-in version that grows with each job advancement.
 
   | Job | Chance | A critical hit does |

@@ -57,7 +57,7 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 
 | Idea | Status | Notes |
 |------|--------|-------|
-| Faster movement for everyone, or Shift as a sprint key. | looked into | Three routes: raise base speed and the client's speed cap; turn the beginner skill Nimble Feet into a sprint (more speed, longer, no cooldown, bound to Shift); or true hold-to-sprint, which needs a client code change. Nimble Feet is the favourite. Ties in with the warrior speed idea. |
+| Faster movement for everyone, or Shift as a sprint key. | planned | Three routes: raise base speed and the client's speed cap; turn the beginner skill Nimble Feet into a sprint (more speed, longer, no cooldown, bound to Shift); or true hold-to-sprint, which needs a client code change. Decided 2026-10-10: Nimble Feet becomes the sprint. Numbers and the speed budget are in Class-Changes.md under "All classes". |
 
 Travel changes that are already planned (ride times, meso for towers, guidance) are in section 3 of the Implementation list.
 
