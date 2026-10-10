@@ -67,8 +67,9 @@ public class SkillSplash {
 
         Map<MonsterStatus, Integer> stati = effect.getMonsterStati();
         for (Monster m : near.subList(0, Math.min(extra, near.size()))) {
-            // The same damage as the first monster took, give or take 10%.
-            int dealt = Math.max(1, (int) (damage * (0.9 + Math.random() * 0.2)));
+            // Rolled separately for each monster: the first monster's damage, give or take 25%. The server
+            // cannot roll the real range, because the client works out damage and only reports the result.
+            int dealt = Math.max(1, (int) (damage * (0.75 + Math.random() * 0.5)));
             TimerManager.getInstance().schedule(() -> {
                 if (!m.isAlive() || player.getMap() != map) {
                     return;
