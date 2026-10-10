@@ -2689,7 +2689,7 @@
         </imgdir>
         <imgdir name="6">
           <string name="hs" value="h6"/>
-          <int name="mpCon" value="2600"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="480"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2698,7 +2698,7 @@
         </imgdir>
         <imgdir name="7">
           <string name="hs" value="h7"/>
-          <int name="mpCon" value="2700"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="490"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2707,7 +2707,7 @@
         </imgdir>
         <imgdir name="8">
           <string name="hs" value="h8"/>
-          <int name="mpCon" value="2800"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="500"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2716,7 +2716,7 @@
         </imgdir>
         <imgdir name="9">
           <string name="hs" value="h9"/>
-          <int name="mpCon" value="2900"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="510"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2725,7 +2725,7 @@
         </imgdir>
         <imgdir name="10">
           <string name="hs" value="h10"/>
-          <int name="mpCon" value="3000"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="520"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2734,7 +2734,7 @@
         </imgdir>
         <imgdir name="11">
           <string name="hs" value="h11"/>
-          <int name="mpCon" value="3100"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="530"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2743,7 +2743,7 @@
         </imgdir>
         <imgdir name="12">
           <string name="hs" value="h12"/>
-          <int name="mpCon" value="3200"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="540"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2752,7 +2752,7 @@
         </imgdir>
         <imgdir name="13">
           <string name="hs" value="h13"/>
-          <int name="mpCon" value="3300"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="550"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2761,7 +2761,7 @@
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
-          <int name="mpCon" value="3400"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="560"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2770,7 +2770,7 @@
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
-          <int name="mpCon" value="3500"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="570"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2779,7 +2779,7 @@
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
-          <int name="mpCon" value="3600"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="580"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2788,7 +2788,7 @@
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
-          <int name="mpCon" value="3700"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="590"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2797,7 +2797,7 @@
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
-          <int name="mpCon" value="3800"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="600"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2806,7 +2806,7 @@
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
-          <int name="mpCon" value="3900"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="610"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2815,7 +2815,7 @@
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
-          <int name="mpCon" value="4000"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="620"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2824,7 +2824,7 @@
         </imgdir>
         <imgdir name="21">
           <string name="hs" value="h21"/>
-          <int name="mpCon" value="3950"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="625"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2833,7 +2833,7 @@
         </imgdir>
         <imgdir name="22">
           <string name="hs" value="h22"/>
-          <int name="mpCon" value="3900"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="630"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2842,7 +2842,7 @@
         </imgdir>
         <imgdir name="23">
           <string name="hs" value="h23"/>
-          <int name="mpCon" value="3850"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="635"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2851,7 +2851,7 @@
         </imgdir>
         <imgdir name="24">
           <string name="hs" value="h24"/>
-          <int name="mpCon" value="3800"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="640"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2860,7 +2860,7 @@
         </imgdir>
         <imgdir name="25">
           <string name="hs" value="h25"/>
-          <int name="mpCon" value="3750"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="645"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2869,7 +2869,7 @@
         </imgdir>
         <imgdir name="26">
           <string name="hs" value="h26"/>
-          <int name="mpCon" value="3700"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="650"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2878,7 +2878,7 @@
         </imgdir>
         <imgdir name="27">
           <string name="hs" value="h27"/>
-          <int name="mpCon" value="3650"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="655"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2887,7 +2887,7 @@
         </imgdir>
         <imgdir name="28">
           <string name="hs" value="h28"/>
-          <int name="mpCon" value="3600"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="660"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2896,7 +2896,7 @@
         </imgdir>
         <imgdir name="29">
           <string name="hs" value="h29"/>
-          <int name="mpCon" value="3550"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="665"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>
@@ -2905,7 +2905,7 @@
         </imgdir>
         <imgdir name="30">
           <string name="hs" value="h30"/>
-          <int name="mpCon" value="3500"/>
+          <int name="mpCon" value="2500"/>
           <int name="mad" value="670"/>
           <vector name="lt" x="-400" y="-350"/>
           <vector name="rb" x="400" y="250"/>

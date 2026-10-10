@@ -736,6 +736,7 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
         }
 
         boolean canCrit = chr.getJob().isA((Job.BOWMAN)) || chr.getJob().isA(Job.THIEF) || chr.getJob().isA(Job.NIGHTWALKER1) || chr.getJob().isA(Job.WINDARCHER1) || chr.getJob() == Job.ARAN3 || chr.getJob() == Job.ARAN4 || chr.getJob() == Job.MARAUDER || chr.getJob() == Job.BUCCANEER;
+        canCrit = canCrit || plus.ClassCrit.applies(chr.getJob()); // MapleStoryPlus: critical hits for every class
 
         if (chr.getBuffEffect(BuffStat.SHARP_EYES) != null) {
             // Any class that has sharp eyes can crit. Also, since it stacks with normal crit go ahead

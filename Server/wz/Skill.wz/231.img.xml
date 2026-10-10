@@ -1730,7 +1730,7 @@
           <int name="mobCount" value="6"/>
           <int name="mpCon" value="30"/>
           <int name="time" value="20"/>
-          <int name="prop" value="90"/>
+          <int name="prop" value="100"/>
           <int name="itemCon" value="4006000"/>
           <int name="itemConNo" value="1"/>
         </imgdir>

@@ -2641,6 +2641,9 @@ public class MapleMap {
 
         chr.receivePartyMemberHP();
         announcePlayerDiseases(chr.getClient());
+        if (!isBot(chr)) {
+            plus.ClassCrit.send(chr); // MapleStoryPlus: critical hits for every class
+        }
     }
 
     private static void announcePlayerDiseases(final Client c) {

@@ -81,6 +81,10 @@ Results from Robin's tests, 2026-10-10:
 
 What the tests answer: whether buff durations and speed are decided by the server alone, and whether the client lets a job use another job's skill.
 
+**Round 1c, applied to the server data but not loaded or tested (needs a server restart):** 53 more rows in `Skill-Changes.tsv` for values the server is believed to control. Stronger Iron Body, Magic Armor and Iron Will, with +20 speed on Iron Body; no HP cost on boosters and everyday attacks; Rage without its defence penalty; Threaten and Disorder at -30; skills that always work at max level (Shout, Seal, Doom, Power Knock-Back, Poison Breath, Poison Mist, Pickpocket); 3-second freezes; cheaper Teleport; ultimates capped at 2,500 MP; Element Amplification without extra MP cost at max; Dark Sight without its speed penalty; Dash at +20. Also `USE_FULL_HOLY_SYMBOL: true` in `Settings/config.yaml`.
+
+**Found while building crit:** the server does not limit the damage a client reports. It only compares it with its own estimate to flag cheating, and that flagging is switched off. So for damage, hit counts and target counts the client's skill data is what decides; the server's copy matters for bots and for keeping the two in step.
+
 ## Changes to the server code
 
 Every change we make to the original code, so we know what to check when pulling updates from `upstream`.
@@ -93,3 +97,4 @@ Every change we make to the original code, so we know what to check when pulling
 | 2026-10-10 | `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java` (new) | Sends the whisper to the bridge on `127.0.0.1:8585` and whispers the reply lines back. Silent if the bridge is not running. | Same. |
 | 2026-10-10 | `Server/scripts/npc/2012014.js`, `2012015.js`, `2040024.js` to `2040027.js` | The tower teleport stones charge `teleportCost` (5,000 mesos) instead of using up a rock scroll. | `T-2`. The scrolls could not be obtained. |
 | 2026-10-10 | `Server/src/main/java/server/StatEffect.java`, `Server/src/main/java/client/Character.java` | Sprint (Nimble Feet) adds its speed to the speed buff already running, in the packet to the client and in the server's own record. | The server only counts the strongest buff of a kind, so a +20 sprint lost to Haste's +40. Not tested in game yet. |
+| 2026-10-10 | `Server/src/main/java/plus/ClassCrit.java` (new), `server/maps/MapleMap.java`, `client/Character.java`, `net/server/channel/handlers/AbstractDealDamageHandler.java` | Critical hits for every class: each character is sent the Sharp Eyes effect with its job's chance and damage when it enters a map or changes job. Classes with their own crit (bowmen, assassins) and beginners are left out. | Agreed class rule. Not tested in game yet. |

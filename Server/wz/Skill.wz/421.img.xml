@@ -615,7 +615,7 @@
           <int name="mpCon" value="50"/>
           <int name="time" value="1800"/>
           <int name="x" value="200"/>
-          <int name="prop" value="60"/>
+          <int name="prop" value="100"/>
         </imgdir>
       </imgdir>
       <imgdir name="effect">

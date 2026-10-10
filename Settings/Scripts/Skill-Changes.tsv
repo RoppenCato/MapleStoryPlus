@@ -105,3 +105,57 @@ skill_id	skill	field	value	why
 20001002	Agile Body (Aran)	time	10	Sprint: lasts 10 seconds
 20001002	Agile Body (Aran)	cooltime	20	Sprint: 20 second cooldown
 20001002	Agile Body (Aran)	mpCon	0	Sprint: no MP cost
+# Round 1c (2026-10-10): other values the server is believed to control (buff strength, HP and MP costs, success chances). To be confirmed in game.
+1001003	Iron Body (Warrior)	pdd	max(V, 80*L//M)	+80 weapon defence at max
+2001003	Magic Armor (Magician)	pdd	max(V, 80*L//M)	+80 weapon defence at max
+1001003	Iron Body (Warrior)	mdd	40*L//M	+40 magic defence at max
+2001003	Magic Armor (Magician)	mdd	40*L//M	+40 magic defence at max
+1001003	Iron Body (Warrior)	speed	20*L//M	Warrior speed-up: +20 at max
+1301006	Iron Will (Spearman)	pdd	max(V, 40*L//M)	+40 defence at max
+1301006	Iron Will (Spearman)	mdd	max(V, 40*L//M)	+40 defence at max
+1101004	Sword Booster (Fighter)	hpCon	0	No HP cost on boosters
+1101005	Axe Booster (Fighter)	hpCon	0	No HP cost on boosters
+1201004	Sword Booster (Page)	hpCon	0	No HP cost on boosters
+1201005	BW Booster (Page)	hpCon	0	No HP cost on boosters
+1301004	Spear Booster (Spearman)	hpCon	0	No HP cost on boosters
+1301005	Pole Arm Booster (Spearman)	hpCon	0	No HP cost on boosters
+3101002	Bow Booster (Hunter)	hpCon	0	No HP cost on boosters
+3201002	Crossbow Booster (Crossbowman)	hpCon	0	No HP cost on boosters
+5101006	Knuckler Booster (Brawler)	hpCon	0	No HP cost on boosters
+5201003	Gun Booster (Gunslinger)	hpCon	0	No HP cost on boosters
+2111005	Spell Booster (Fp Mage)	hpCon	0	No HP cost on boosters
+2211005	Spell Booster (Il Mage)	hpCon	0	No HP cost on boosters
+5121009	Speed Infusion (Buccaneer)	hpCon	0	No HP cost on boosters
+1001005	Slash Blast (Warrior)	hpCon	0	No HP cost on everyday attacks
+1111005	Coma: Sword (Crusader)	hpCon	0	No HP cost on everyday attacks
+1111006	Coma: Axe (Crusader)	hpCon	0	No HP cost on everyday attacks
+1211002	Charged Blow (Whiteknight)	hpCon	0	No HP cost on everyday attacks
+1311003	Dragon Fury: Spear (Dragonknight)	hpCon	0	No HP cost on everyday attacks
+1311004	Dragon Fury: Pole Arm (Dragonknight)	hpCon	0	No HP cost on everyday attacks
+1101006	Rage (Fighter)	pdd	0	Rage: no defence penalty
+1201006	Threaten (Page)	x	min(V, -(30*L//M))	Threaten: -30 at max
+1201006	Threaten (Page)	y	min(V, -(30*L//M))	Threaten: -30 at max
+4001002	Disorder (Thief)	x	min(V, -(30*L//M))	Disorder: -30 at max
+4001002	Disorder (Thief)	y	min(V, -(30*L//M))	Disorder: -30 at max
+4001002	Disorder (Thief)	time	max(V, 120*L//M)	Disorder: 2 minutes at max
+1111008	Shout (Crusader)	prop	100 if L == M else V	Always works at max level
+2111004	Seal (Fp Mage)	prop	100 if L == M else V	Always works at max level
+2211004	Seal (Il Mage)	prop	100 if L == M else V	Always works at max level
+2311005	Doom (Priest)	prop	100 if L == M else V	Always works at max level
+3101003	Power Knock-Back (Hunter)	prop	100 if L == M else V	Always works at max level
+3201003	Power Knock-Back (Crossbowman)	prop	100 if L == M else V	Always works at max level
+2101005	Poison Breath (Fp Wizard)	prop	100 if L == M else V	Always works at max level
+2111003	Poison Mist (Fp Mage)	prop	100 if L == M else V	Always works at max level
+4211003	Pickpocket (Chiefbandit)	prop	100 if L == M else V	Always works at max level
+2201004	Cold Beam (Il Wizard)	time	3	Freezes for 3 seconds at every level
+2211002	Ice Strike (Il Mage)	time	3	Freezes for 3 seconds at every level
+2101002	Teleport (Fp Wizard)	mpCon	30 - 25*(L-1)//(M-1)	Cheaper Teleport: 30 MP down to 5
+2201002	Teleport (Il Wizard)	mpCon	30 - 25*(L-1)//(M-1)	Cheaper Teleport: 30 MP down to 5
+2301001	Teleport (Cleric)	mpCon	30 - 25*(L-1)//(M-1)	Cheaper Teleport: 30 MP down to 5
+2121007	Meteor Shower (Fp Archmage)	mpCon	min(V, 2500)	Ultimate costs at most 2,500 MP
+2221007	Blizzard (Il Archmage)	mpCon	min(V, 2500)	Ultimate costs at most 2,500 MP
+2321008	Genesis (Bishop)	mpCon	min(V, 2500)	Ultimate costs at most 2,500 MP
+2110001	Element Amplification (Fp Mage)	x	min(V, 200 - 100*L//M)	Element Amplification: extra MP cost shrinks to none at max
+2210001	Element Amplification (Il Mage)	x	min(V, 200 - 100*L//M)	Element Amplification: extra MP cost shrinks to none at max
+4001003	Dark Sight (Thief)	speed	0	Dark Sight: no speed penalty
+5001005	Dash (Pirate)	x	min(V, 20)	Dash: +20 speed, speed budget

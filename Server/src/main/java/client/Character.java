@@ -1269,6 +1269,8 @@ public class Character extends AbstractCharacterObject {
                 broadcastAcquaintances(6, "[" + GameConstants.ordinal(GameConstants.getJobBranch(newJob)) + " Job] " + name + " has just become a " + GameConstants.getJobName(this.job.getId()) + ".");    // thanks Vcoc for noticing job name appearing in uppercase here
             }
         }
+
+        plus.ClassCrit.send(this); // MapleStoryPlus: the crit tier grows with the job
     }
 
     public void broadcastAcquaintances(int type, String message) {
