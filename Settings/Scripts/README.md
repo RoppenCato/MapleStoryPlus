@@ -100,8 +100,9 @@ What needs which step:
 
 - **Server only (step 1):** durations, cooldowns, buff strength, speed, HP and MP costs. Confirmed in game.
 - **Server and client (steps 1 and 2):** damage, number of hits, number of targets. The client works these out itself.
-- **Not covered:** the description text in tooltips, which is in the client's `String.wz`.
+- **Tooltips:** step 2 also rewrites the per-level description texts in the client's `String.wz`, so they show the new numbers. A number that has no place in the original wording is added at the end where that reads naturally (for example "hits up to 4 enemies"), and otherwise left out; the tool reports how many were left out.
+- **Hit boxes:** the fields `lt` and `rb` set the corners of a skill's hit box, written as `x,y`.
 
-The client patcher always starts from the untouched original, kept as `Client\MapleStory\Skill.wz.original`, writes the patched file to a temporary folder, reads it back to check every value, and only then installs it. To undo all client skill changes, copy `Skill.wz.original` over `Skill.wz`.
+The client patcher always starts from the untouched original, kept as `Client\MapleStory\Skill.wz.original`, writes the patched file to a temporary folder, reads it back to check every value, and only then installs it. The same goes for `String.wz` and `String.wz.original`. To undo all client changes, copy the two `.original` files over `Skill.wz` and `String.wz`.
 
 It uses the library from HaRepacker 4.1.0 in `Tools\HaRepacker-4.1.0` (an older release, chosen because its library can be loaded directly from PowerShell; the current release in `Tools\HaRepacker` is the program with a window, for looking inside WZ files by hand).

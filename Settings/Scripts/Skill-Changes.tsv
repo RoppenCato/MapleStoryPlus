@@ -164,3 +164,5 @@ skill_id	skill	field	value	why
 4201005	Savage Blow (Bandit)	damage	55 + 45*(L-1)//(M-1)	55% per hit at level 1 up to 100% at max
 4201005	Savage Blow (Bandit)	attackCount	6	6 hits at every level
 4201004	Steal (Bandit)	mobCount	4 + 2*(L-1)//(M-1)	Hits 4 monsters from level 1, 6 at max
+4201004	Steal (Bandit)	lt	-170,-70	Wider hit box, so nearby monsters are caught (the original only reaches one spot)
+4201004	Steal (Bandit)	rb	-10,10	Wider hit box

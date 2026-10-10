@@ -22,6 +22,8 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 SKILL_WZ = os.path.join(ROOT, "Server", "wz", "Skill.wz")
 CHANGES = os.path.join(HERE, "Skill-Changes.tsv")
 
+VECTOR_FIELDS = ("lt", "rb")     # the corners of a skill's hit box, written as "x,y"
+
 LEVEL_BLOCK = re.compile(r'(?P<indent>[ \t]*)<imgdir name="(?P<level>\d+)">\r?\n(?P<body>.*?)(?P=indent)</imgdir>', re.S)
 
 
@@ -62,6 +64,20 @@ def apply_change(text, skill_id, field, formula):
         nonlocal changed
         level = int(m.group("level"))
         body = m.group("body")
+        if field in VECTOR_FIELDS:
+            x, y = (int(v) for v in formula.split(","))
+            tag = f'<vector name="{field}" x="{x}" y="{y}"/>'
+            found = re.search(rf'<vector name="{field}" x="-?\d+" y="-?\d+"/>', body)
+            if found and found.group(0) == tag:
+                return m.group(0)
+            if found:
+                body = body[:found.start()] + tag + body[found.end():]
+            else:
+                newline = "\r\n" if "\r\n" in m.group(0) else "\n"
+                body = body + f'{m.group("indent")}  {tag}{newline}'
+            changed += 1
+            head = m.group(0)[:m.group(0).index(m.group("body"))]
+            return head + body + m.group("indent") + "</imgdir>"
         existing = re.search(rf'<int name="{field}" value="(-?\d+)"/>', body)
         current = int(existing.group(1)) if existing else 0
         value = int(eval(formula, {"__builtins__": {}},
@@ -97,6 +113,11 @@ def export(path):
                 texts[file] = f.read()
         start, end = skill_span(texts[file], skill_id)
         for m in LEVEL_BLOCK.finditer(texts[file][start:end]):
+            if field in VECTOR_FIELDS:
+                value = re.search(rf'<vector name="{field}" x="(-?\d+)" y="(-?\d+)"/>', m.group("body"))
+                if value:
+                    rows.append(f"{skill_id}\t{m.group('level')}\t{field}\t{value.group(1)},{value.group(2)}")
+                continue
             value = re.search(rf'<int name="{field}" value="(-?\d+)"/>', m.group("body"))
             if value:
                 rows.append(f"{skill_id}\t{m.group('level')}\t{field}\t{value.group(1)}")
