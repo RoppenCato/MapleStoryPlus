@@ -2,6 +2,7 @@
 
     python Settings/Scripts/Apply-Skill-Changes.py            apply
     python Settings/Scripts/Apply-Skill-Changes.py --check    show what would change, write nothing
+    python Settings/Scripts/Apply-Skill-Changes.py --export FILE   list the current server values, for the client patcher
 
 Each row sets one field of one skill at every level. The value is a small formula in L (the skill
 level), M (the skill's max level) and V (the value the field has now), for example  90*L  or  10  or
@@ -79,7 +80,35 @@ def apply_change(text, skill_id, field, formula):
     return text[:start] + LEVEL_BLOCK.sub(edit, block) + text[end:], changed
 
 
+def export(path):
+    """Writes the value every listed field has in the server data now, one row per skill level.
+    The client patcher uses this to make the client's copy match the server's."""
+    seen = set()
+    rows = ["skill_id\tlevel\tfield\tvalue"]
+    texts = {}
+    for row in load_changes():
+        skill_id, field = int(row["skill_id"]), row["field"]
+        if (skill_id, field) in seen:
+            continue
+        seen.add((skill_id, field))
+        file = os.path.join(SKILL_WZ, "%03d.img.xml" % (skill_id // 10000))
+        if file not in texts:
+            with io.open(file, encoding="utf-8", newline="") as f:
+                texts[file] = f.read()
+        start, end = skill_span(texts[file], skill_id)
+        for m in LEVEL_BLOCK.finditer(texts[file][start:end]):
+            value = re.search(rf'<int name="{field}" value="(-?\d+)"/>', m.group("body"))
+            if value:
+                rows.append(f"{skill_id}\t{m.group('level')}\t{field}\t{value.group(1)}")
+    with io.open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(rows) + "\n")
+    print(f"Exported {len(rows) - 1} values to {path}")
+
+
 def main():
+    if "--export" in sys.argv:
+        export(sys.argv[sys.argv.index("--export") + 1])
+        return
     check = "--check" in sys.argv
     files = {}
     total = 0

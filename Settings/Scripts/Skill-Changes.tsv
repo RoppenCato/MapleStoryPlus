@@ -159,3 +159,8 @@ skill_id	skill	field	value	why
 2210001	Element Amplification (Il Mage)	x	min(V, 200 - 100*L//M)	Element Amplification: extra MP cost shrinks to none at max
 4001003	Dark Sight (Thief)	speed	0	Dark Sight: no speed penalty
 5001005	Dash (Pirate)	x	min(V, 20)	Dash: +20 speed, speed budget
+# Round 2 (2026-10-10): values the client works out (damage, hits, targets). These need the client's skill file patched too.
+4001334	Double Stab (Thief)	damage	112 + 48*(L-1)//(M-1)	160% per hit at max (was 140%)
+4201005	Savage Blow (Bandit)	damage	55 + 45*(L-1)//(M-1)	55% per hit at level 1 up to 100% at max
+4201005	Savage Blow (Bandit)	attackCount	6	6 hits at every level
+4201004	Steal (Bandit)	mobCount	4 + 2*(L-1)//(M-1)	Hits 4 monsters from level 1, 6 at max

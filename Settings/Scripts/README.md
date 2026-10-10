@@ -84,3 +84,24 @@ python Settings/Scripts/Bot-Chat-Bridge.py --say "hey, how's the hunt?"
 ```
 
 Tested in the game on 2026-10-10: whispering a bot gets a reply in 2 to 4 seconds.
+
+## Skill changes: Apply-Skill-Changes.py and Patch-Client-Skills.ps1
+
+Every skill number we change is one row in `Skill-Changes.tsv`: skill, field, and a small formula for the value at each level. Two tools apply the list.
+
+| Step | Command | What it does |
+|------|---------|--------------|
+| 1 | `python Settings/Scripts/Apply-Skill-Changes.py` | Writes the values into the server's skill data. Restart the server afterwards. |
+| 2 | `powershell -ExecutionPolicy Bypass -File Settings\Scripts\Patch-Client-Skills.ps1` | Makes the client's `Skill.wz` match the server for every listed field. The game must be closed. |
+
+Both can be run again at any time; a second run changes nothing. Add `--check` to the first or `-CheckOnly` to the second to see what would change without writing.
+
+What needs which step:
+
+- **Server only (step 1):** durations, cooldowns, buff strength, speed, HP and MP costs. Confirmed in game.
+- **Server and client (steps 1 and 2):** damage, number of hits, number of targets. The client works these out itself.
+- **Not covered:** the description text in tooltips, which is in the client's `String.wz`.
+
+The client patcher always starts from the untouched original, kept as `Client\MapleStory\Skill.wz.original`, writes the patched file to a temporary folder, reads it back to check every value, and only then installs it. To undo all client skill changes, copy `Skill.wz.original` over `Skill.wz`.
+
+It uses the library from HaRepacker 4.1.0 in `Tools\HaRepacker-4.1.0` (an older release, chosen because its library can be loaded directly from PowerShell; the current release in `Tools\HaRepacker` is the program with a window, for looking inside WZ files by hand).
