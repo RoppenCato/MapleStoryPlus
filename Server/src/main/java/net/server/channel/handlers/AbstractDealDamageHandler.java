@@ -523,6 +523,9 @@ public abstract class AbstractDealDamageHandler extends AbstractPacketHandler {
                         }
 
                         map.damageMonster(player, monster, totDamageToOneMonster, target.getValue().delay());
+                        if (attack.targets.size() == 1) {
+                            plus.SkillSplash.apply(player, map, monster, theSkill, attackEffect, totDamageToOneMonster); // MapleStoryPlus
+                        }
                     }
                     if (monster.isBuffed(MonsterStatus.WEAPON_REFLECT) && !attack.magic) {
                         for (MobSkillId msId : monster.getSkills()) {

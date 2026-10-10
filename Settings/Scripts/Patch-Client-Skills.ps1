@@ -88,8 +88,8 @@ foreach ($row in $rows) {
 }
 # Skills that lose their projectile. The game keeps a spell that fires a projectile on one target whatever
 # its target count says; without the projectile it is treated as an area spell, like Thunder Bolt.
-# Trial: Energy Bolt only.
-$noProjectile = @(2001004)
+# Tried on Energy Bolt (2001004): it still hit one monster, so the list is empty.
+$noProjectile = @()
 $removed = 0
 foreach ($id in $noProjectile) {
     $name = ('{0:000}.img' -f [int][math]::Floor($id / 10000))
