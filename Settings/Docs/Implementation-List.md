@@ -60,7 +60,7 @@ Goal: you still take boats and travel the world, and it stays immersive, but it 
 
 - [ ] `T-1` Boats and other rides take about 3 minutes (see `Q-3`)
 - [ ] `T-2` Tower travel (Orbis Tower, Eos Tower and similar) costs meso instead of scrolls
-- [ ] `T-3` List every travel route in the game: from, to, how, cost, time
+- [x] `T-3` List every travel route in the game: from, to, how, cost, time. See [Travel.md](../Reference/Travel.md) (from scripts, not tested in game)
 - [ ] `T-4` Guidance: a way to see where you can go from here and how to get somewhere. Design to decide (an NPC in every town, a command, a world map item).
 - [ ] `T-5` Decide what stays slow on purpose
 

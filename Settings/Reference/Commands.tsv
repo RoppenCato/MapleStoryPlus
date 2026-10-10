@@ -1,0 +1,185 @@
+gm_level	command	description
+0	@bosshp	Show HP of bosses on current map.
+0	@changel	Change language settings.
+0	@credits	Show credits. These people made the server possible.
+0	@dex	Assign AP into DEX.
+0	@dispose	Dispose to fix NPC chat.
+0	@droplimit	Check drop limit of current map.
+0	@enableauth	Enable PIC code by resetting the cooldown.
+0	@equiplv	Show levels of all equipped items.
+0	@gacha	Show gachapon rewards.
+0	@gm	Send a message to the game masters.
+0	@help @commands	Show available commands.
+0	@int	Assign AP into INT.
+0	@joinevent	Join active event.
+0	@leaveevent	Leave active event.
+0	@luk	Assign AP into LUK.
+0	@mobhp	Show HP of mobs on current map.
+0	@mylawn	Claim ownership of the current map.
+0	@online	Show all online players.
+0	@points	Show point total.
+0	@ranks	Show player rankings.
+0	@rates	Show your rates.
+0	@reportbug	Send in a bug report.
+0	@showrates	Show all world/character rates.
+0	@str	Assign AP into STR.
+0	@time	Show current server time.
+0	@toggleexp	Toggle enable/disable all exp gain.
+0	@uptime	Show server online time.
+1	!buffme	Activate GM buffs on self.
+1	!goto	Warp to a predefined map.
+1	!whatdropsfrom	Show what items drop from a mob.
+1	!whodrops	Show what drops an item.
+2	!ap	Set available AP.
+2	!bomb	Bomb a player, dealing damage.
+2	!buff	Activate a buff.
+2	!buffmap	Give GM buffs to the whole map.
+2	!cleardrops	Clear drops by player.
+2	!clearsavelocs	Clear saved locations for a player.
+2	!clearslot	Clear all items in an inventory tab.
+2	!dc	Disconnect a player.
+2	!drop	Spawn an item onto the ground.
+2	!empowerme	Activate all useful buffs.
+2	!gachalist	Show gachapon rewards.
+2	!gmshop	Open the GM shop.
+2	!heal	Fully heal your HP/MP.
+2	!hide	Hide from players.
+2	!id	Search in handbook.
+2	!item	Spawn an item into your inventory.
+2	!jail	Move a player to the jail.
+2	!job	Change job of a player.
+2	!level	Set your level.
+2	!levelpro	Set your level, one by one.
+2	!loot	Loots all items that belong to you.
+2	!maxskill	Max out all job skills.
+2	!maxstat	Max out all character stats.
+2	!mobskill	Apply a mob skill to all mobs on the map. Args: <mob skill id> <skill level>
+2	!recharge	Recharge and refill all USE items.
+2	!resetskill	Set all skill levels to 0.
+2	!search	Search String.wz.
+2	!setslot	Set amount of inventory slots in all tabs.
+2	!setstat	Set all primary stats to new value.
+2	!sp	Set available SP.
+2	!unbug	Unbug self.
+2	!unhide	Toggle Hide.
+2	!unjail	Free a player from jail.
+2	!warp	Warp to a map.
+2	!warphere !summon	Move a player to your location.
+2	!warpto !reach !follow	Warp to a player.
+2	!whereami	Show info about objects on current map.
+3	!ban	Ban a player.
+3	!checkdmg	Show stats and damage of a player.
+3	!closeportal	Close a portal.
+3	!completequest	Complete an active quest.
+3	!debuff	Put a debuff on all nearby players.
+3	!endevent	Close entry for ongoing event.
+3	!expeds	Show all ongoing boss expeditions.
+3	!face	Change face of a player.
+3	!fame	Set new fame value of a player.
+3	!fly	Enable/disable fly feature.
+3	!givems	Give mesos to a player.
+3	!givenx	Give NX to a player.
+3	!giverp	Give reward points to a player.
+3	!givevp	Give vote points to a player.
+3	!hair	Change hair of a player.
+3	!healmap	Heal all HP/MP of all players in the map.
+3	!healperson	Heal all HP/MP of a player.
+3	!hpmp	Set HP/MP of a player.
+3	!hurt	Nearly kill a player.
+3	!ignore	Toggle ignore a character from auto-ban alerts.
+3	!ignored	Show all characters being ignored in auto-ban alerts.
+3	!inmap	Show all players in the map.
+3	!kill	Kill a player.
+3	!killall	Kill all mobs in the map.
+3	!killmap	Kill all players in the map.
+3	!maxenergy	Set dojo energy to max value.
+3	!maxhpmp	Set base HP/MP of a player.
+3	!monitor	Toggle monitored packet logging of a character.
+3	!monitors	Show all characters being monitored for packet logging
+3	!music	Play a song.
+3	!mutemap	Toggle mute players in the map.
+3	!night	Set sky background to black.
+3	!notice	Send a blue message to everyone on the server.
+3	!npc	Spawn an NPC on your location.
+3	!online2	Show all online players.
+3	!openportal	Open a portal on the map.
+3	!pe	Handle synthesized packets from file, and handle them as if sent from a client
+3	!pos	Show current position and foothold.
+3	!reloaddrops	Reload all drop data.
+3	!reloadevents	Reload all event data.
+3	!reloadmap	Reload the map.
+3	!reloadportals	Reload all portal scripts.
+3	!reloadshops	Reload popup shops and NPC shops.
+3	!resetquest	Reset a completed quest.
+3	!rip	Send a RIP notice.
+3	!seed	Drop all seeds inside Henesys PQ.
+3	!spawn	Spawn mob(s) on your location.
+3	!startevent	Start an event on current map.
+3	!startmapevent	Start a \
+3	!startquest	Start a quest.
+3	!stopmapevent	Stop ongoing \
+3	!timer	Set timer on a player in current map.
+3	!timerall	Set a server wide timer.
+3	!timermap	Set timer on all players in current map.
+3	!togglecoupon	Toggle enable/disable a coupon.
+3	!togglewhitechat	Toggle white GM chat.
+3	!unban	Unban a player.
+3	!warparea	Warp all nearby players to a new map.
+3	!warpmap	Warp all characters on current map to a new map.
+4	!betafmshop	Artificial FM Test.
+4	!bossdroprate	Set world boss drop rate.
+4	!bot	Artificial Player Commands Test.
+4	!cake	Spawn Cake boss with specified HP.
+4	!droprate	Set world drop rate.
+4	!env	Environment Commands.
+4	!exprate	Set world exp rate.
+4	!fishrate	Set fishing rate.
+4	!fmbot	FmBot Commands.
+4	!forcevac	Loot all drops on the map.
+4	!gcmove	GreenCat dynamic movement (GCMoveSystem) test/control.
+4	!horntail	Spawn Horntail on your location.
+4	!itemvac	Loot all drops on the map.
+4	!mesorate	Set world meso rate.
+4	!move	Bot Movement Commands Test.
+4	!opq	OPQ bot dev commands. Try: !opq help
+4	!pap	Spawn Papulatus on your location.
+4	!pianus	Spawn Pianus (R) on your location.
+4	!pinkbean	Spawn Pink Bean on your location.
+4	!playernpc	Spawn a player NPC of an online player.
+4	!playernpcremove	Remove a \
+4	!pmob	Spawn a permanent mob on your location.
+4	!pmobremove	Remove all permanent mobs of the same type on the map.
+4	!pnpc	Spawn a permanent NPC on your location.
+4	!pnpcremove	Remove a permanent NPC on the map.
+4	!proitem	Spawn an item with custom stats.
+4	!questrate	Set world quest rate.
+4	!reactor	Reactor inspection and bot-attack test commands.
+4	!servermessage	Set scrolling server message.
+4	!seteqstat	Set stats of all equips in inventory.
+4	!test	Template Commands Test.
+4	!tradebot	Trade Bot Commands.
+4	!travelrate	Set world travel rate.
+4	!zakum	Spawn Zakum on your location.
+5	!debug	Show a debug message.
+5	!iplist	Show IP of all players.
+5	!set	Store value in an array, for testing.
+5	!showmovelife	Toggle show move life in console.
+5	!showpackets	Toggle show received packets in console.
+5	!showsessions	Show online sessions.
+6	!addchannel	Add a new channel to a world.
+6	!addworld	Add a new world.
+6	!clearquest	Clear cache of a quest.
+6	!clearquestcache	Clear all quest cache.
+6	!dcall	Disconnect all players (online or logged in).
+6	!devtest	Runs devtest.js. Developer utility - test stuff without restarting the server.
+6	!eraseallpnpcs	Remove all player NPCs.
+6	!getacc	Show account name of an online player.
+6	!mapplayers	Show all players on the map.
+6	!removechannel	Remove channel from a world.
+6	!removeworld	Remove a world.
+6	!saveall	Save all characters.
+6	!setgmlevel	Set GM level of a player.
+6	!shutdown	Shut down the server.
+6	!spawnallpnpcs	Spawn player NPCs of all existing players.
+6	!supplyratecoupon	Set availability of coupons in Cash Shop.
+6	!warpworld	Warp to a different world.

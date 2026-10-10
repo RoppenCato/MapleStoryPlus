@@ -54,6 +54,13 @@ What we have done, decided and changed. Newest first.
 - Solo by default, with companion bots as optional extra damage.
 - The GitHub repo (`RoppenCato/MapleStoryPlus`) is public. Nothing private goes in it.
 
+## 2026-10-10: Reference lists and character tool
+
+- `Settings/Reference/`: lists of jobs, skills, maps, monsters, NPCs, items, drops, shops, scrolls, skill details, quests and GM commands, plus a hand-written travel list.
+- `Settings/Scripts/Make-Character.py`: sets up a test character (level, job, stats, skills, gear, supplies). Tested in check mode only.
+- `trialguy` was set by hand to a level 50 Fire/Poison Wizard before the tool existed. It still wears the level 50 Zhu-Ge-Liang Wand, which is not a normal-progression weapon.
+- Found: the tower travel scrolls (Orbis Rock Scroll, Eos Rock Scroll) are not sold in any shop and not in the drop table.
+
 ## Changes to the server code
 
 Every change we make to the original code, so we know what to check when pulling updates from `upstream`.

@@ -1,0 +1,1775 @@
+line	level	gender	slot	item_id	item	req_level	pick
+hero	10	m	hat	1002043	Bronze Koif	10	standard
+hero	10	m	top	1040015	Brown Lolico Armor	10	standard
+hero	10	m	bottom	1060008	Brown Lolico Pants	10	standard
+hero	10	m	shoes	1072005	Leather Sandals	0	standard, any class
+hero	10	m	gloves	1082003	Juno	10	standard
+hero	10	m	weapon	1402001	Wooden Sword	10	standard
+hero	10	f	hat	1002043	Bronze Koif	10	standard
+hero	10	f	top	1041014	Orange Lolica Armor	10	standard
+hero	10	f	bottom	1061014	Rookie Pants	10	standard
+hero	10	f	shoes	1072005	Leather Sandals	0	standard, any class
+hero	10	f	gloves	1082003	Juno	10	standard
+hero	10	f	weapon	1402001	Wooden Sword	10	standard
+hero	20	m	hat	1002055	Bronze Football Helmet	20	standard
+hero	20	m	earrings	1032000	Weighted Earrings	20	standard
+hero	20	m	overall	1050006	Red Kendo Robe	20	standard
+hero	20	m	shoes	1072007	Brown High Boots	20	standard
+hero	20	m	gloves	1082004	Venon	20	standard
+hero	20	m	weapon	1402000	Two-Handed Sword	20	standard
+hero	20	f	hat	1002055	Bronze Football Helmet	20	standard
+hero	20	f	earrings	1032000	Weighted Earrings	20	standard
+hero	20	f	top	1041021	Brown Lamelle	20	standard
+hero	20	f	bottom	1061018	Brown Ramel Skirt	20	standard
+hero	20	f	shoes	1072007	Brown High Boots	20	standard
+hero	20	f	gloves	1082004	Venon	20	standard
+hero	20	f	weapon	1402000	Two-Handed Sword	20	standard
+hero	30	m	hat	1002023	Jousting Helmet	30	standard
+hero	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+hero	30	m	overall	1050011	Black Dragon Robe	30	standard
+hero	30	m	shoes	1072168	Red Snowshoes	30	standard
+hero	30	m	gloves	1082005	Steel Missel	30	standard
+hero	30	m	weapon	1402002	Scimitar	30	standard
+hero	30	f	hat	1002023	Jousting Helmet	30	standard
+hero	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+hero	30	f	overall	1051010	Dark Engrit	30	standard
+hero	30	f	shoes	1072168	Red Snowshoes	30	standard
+hero	30	f	gloves	1082005	Steel Missel	30	standard
+hero	30	f	weapon	1402002	Scimitar	30	standard
+hero	40	m	hat	1002025	Red Duke	40	standard
+hero	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+hero	40	m	top	1040000	Yellow Jangoon Armor	40	standard
+hero	40	m	bottom	1060075	Brown Jangoon Pants	40	standard
+hero	40	m	shoes	1072126	Maroon Jangoon Shoes	40	standard
+hero	40	m	gloves	1082025	Dark Knuckle	40	standard
+hero	40	m	weapon	1402007	Zard	40	standard
+hero	40	f	hat	1002025	Red Duke	40	standard
+hero	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+hero	40	f	top	1041084	Red Jangoon Armor	40	standard
+hero	40	f	bottom	1061083	Red Jangoon Skirt	40	standard
+hero	40	f	shoes	1072126	Maroon Jangoon Shoes	40	standard
+hero	40	f	gloves	1082025	Dark Knuckle	40	standard
+hero	40	f	weapon	1402007	Zard	40	standard
+hero	50	m	hat	1002085	Mithril Crusader Helm	50	standard
+hero	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+hero	50	m	top	1040089	Umber Shouldermail	50	standard
+hero	50	m	bottom	1060078	Umber Shouldermail Pants	50	standard
+hero	50	m	shoes	1072132	Emerald Hildon Boots	50	standard
+hero	50	m	gloves	1082010	Mithril Brist	50	standard
+hero	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+hero	50	m	weapon	1402003	Lion's Fang	50	standard
+hero	50	f	hat	1002085	Mithril Crusader Helm	50	standard
+hero	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+hero	50	f	top	1041087	Red Shouldermail	50	standard
+hero	50	f	bottom	1061086	Red Shouldermail Pants	50	standard
+hero	50	f	shoes	1072132	Emerald Hildon Boots	50	standard
+hero	50	f	gloves	1082010	Mithril Brist	50	standard
+hero	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+hero	50	f	weapon	1402003	Lion's Fang	50	standard
+hero	60	m	hat	1002029	Red Oriental Helmet	60	standard
+hero	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+hero	60	m	top	1040092	Blue Orientican	60	standard
+hero	60	m	bottom	1060080	Red Orientican Pants	60	standard
+hero	60	m	shoes	1072149	Blood Camel Boots	60	standard
+hero	60	m	gloves	1082060	Sapphire Clench	60	standard
+hero	60	m	cape	1102016	Red Magic Cape	60	standard
+hero	60	m	weapon	1402011	Sparta	60	standard
+hero	60	f	hat	1002029	Red Oriental Helmet	60	standard
+hero	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+hero	60	f	top	1041091	Green Ice Queen	60	standard
+hero	60	f	bottom	1061091	Red Ice Queen Skirt	60	standard
+hero	60	f	shoes	1072149	Blood Camel Boots	60	standard
+hero	60	f	gloves	1082060	Sapphire Clench	60	standard
+hero	60	f	cape	1102016	Red Magic Cape	60	standard
+hero	60	f	weapon	1402011	Sparta	60	standard
+hero	70	m	hat	1002095	Mithril Planet	70	standard
+hero	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+hero	70	m	top	1040104	Orihalcon Platine	70	standard
+hero	70	m	bottom	1060092	Orihalcon Platine Pants	70	standard
+hero	70	m	shoes	1072154	Blue Carzen Boots	70	standard
+hero	70	m	gloves	1082105	Dark Husk	70	standard
+hero	70	m	cape	1102022	Red Gaia Cape	65	standard
+hero	70	m	weapon	1402012	Doombringer	70	standard
+hero	70	f	hat	1002095	Mithril Planet	70	standard
+hero	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+hero	70	f	top	1041097	Aqua Platina	70	standard
+hero	70	f	bottom	1061096	Aqua Platina Pants	70	standard
+hero	70	f	shoes	1072154	Blue Carzen Boots	70	standard
+hero	70	f	gloves	1082105	Dark Husk	70	standard
+hero	70	f	cape	1102022	Red Gaia Cape	65	standard
+hero	70	f	weapon	1402012	Doombringer	70	standard
+hero	80	m	hat	1002338	Red Dragon Babuta	80	standard
+hero	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+hero	80	m	overall	1050083	Dark Battle Road	80	standard
+hero	80	m	shoes	1072210	Red Rivers Boots	80	standard
+hero	80	m	gloves	1082116	Blood Emperor	80	standard
+hero	80	m	cape	1102029	White Seraph Cape	75	standard
+hero	80	m	weapon	1402004	Blue Screamer	80	standard
+hero	80	f	hat	1002338	Red Dragon Babuta	80	standard
+hero	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+hero	80	f	overall	1051078	Red Battle Empress	80	standard
+hero	80	f	shoes	1072210	Red Rivers Boots	80	standard
+hero	80	f	gloves	1082116	Blood Emperor	80	standard
+hero	80	f	cape	1102029	White Seraph Cape	75	standard
+hero	80	f	weapon	1402004	Blue Screamer	80	standard
+hero	90	m	hat	1002532	Dark Grace Helmet	90	standard
+hero	90	m	earrings	1032017	Rose Earrings	90	standard
+hero	90	m	top	1040111	Green Commodore	90	standard
+hero	90	m	bottom	1060100	Green Commodore Pants	90	standard
+hero	90	m	shoes	1072197	Orihalcon War Greave	90	standard
+hero	90	m	gloves	1082129	Purple Imperial	90	standard
+hero	90	m	cape	1102031	Green Giles Cape	85	standard
+hero	90	m	weapon	1402005	Berzerker	90	standard
+hero	90	f	hat	1002532	Dark Grace Helmet	90	standard
+hero	90	f	earrings	1032017	Rose Earrings	90	standard
+hero	90	f	top	1041121	Dark Valkyrie	90	standard
+hero	90	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+hero	90	f	shoes	1072197	Orihalcon War Greave	90	standard
+hero	90	f	gloves	1082129	Purple Imperial	90	standard
+hero	90	f	cape	1102031	Green Giles Cape	85	standard
+hero	90	f	weapon	1402005	Berzerker	90	standard
+hero	100	m	hat	1002532	Dark Grace Helmet	90	standard
+hero	100	m	earrings	1032030	Sword Earrings	100	standard
+hero	100	m	top	1040121	Blue Neos	100	standard
+hero	100	m	bottom	1060111	Black Neos Pants	100	standard
+hero	100	m	shoes	1072221	Blue Crescent Boots	100	standard
+hero	100	m	gloves	1082139	Green Korben	100	standard
+hero	100	m	cape	1102031	Green Giles Cape	85	standard
+hero	100	m	weapon	1402035	The Beheader	100	standard
+hero	100	f	hat	1002532	Dark Grace Helmet	90	standard
+hero	100	f	earrings	1032030	Sword Earrings	100	standard
+hero	100	f	top	1041121	Dark Valkyrie	90	standard
+hero	100	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+hero	100	f	shoes	1072221	Blue Crescent Boots	100	standard
+hero	100	f	gloves	1082139	Green Korben	100	standard
+hero	100	f	cape	1102031	Green Giles Cape	85	standard
+hero	100	f	weapon	1402035	The Beheader	100	standard
+paladin	10	m	hat	1002043	Bronze Koif	10	standard
+paladin	10	m	top	1040015	Brown Lolico Armor	10	standard
+paladin	10	m	bottom	1060008	Brown Lolico Pants	10	standard
+paladin	10	m	shoes	1072005	Leather Sandals	0	standard, any class
+paladin	10	m	gloves	1082003	Juno	10	standard
+paladin	10	m	shield	1092005	Wooden Buckler	10	standard
+paladin	10	m	weapon	1302007	Long Sword	10	standard, any class
+paladin	10	f	hat	1002043	Bronze Koif	10	standard
+paladin	10	f	top	1041014	Orange Lolica Armor	10	standard
+paladin	10	f	bottom	1061014	Rookie Pants	10	standard
+paladin	10	f	shoes	1072005	Leather Sandals	0	standard, any class
+paladin	10	f	gloves	1082003	Juno	10	standard
+paladin	10	f	shield	1092005	Wooden Buckler	10	standard
+paladin	10	f	weapon	1302007	Long Sword	10	standard, any class
+paladin	20	m	hat	1002055	Bronze Football Helmet	20	standard
+paladin	20	m	earrings	1032000	Weighted Earrings	20	standard
+paladin	20	m	overall	1050006	Red Kendo Robe	20	standard
+paladin	20	m	shoes	1072007	Brown High Boots	20	standard
+paladin	20	m	gloves	1082004	Venon	20	standard
+paladin	20	m	shield	1092006	Mithril Buckler	20	standard
+paladin	20	m	weapon	1302002	Viking Sword	20	standard
+paladin	20	f	hat	1002055	Bronze Football Helmet	20	standard
+paladin	20	f	earrings	1032000	Weighted Earrings	20	standard
+paladin	20	f	top	1041021	Brown Lamelle	20	standard
+paladin	20	f	bottom	1061018	Brown Ramel Skirt	20	standard
+paladin	20	f	shoes	1072007	Brown High Boots	20	standard
+paladin	20	f	gloves	1082004	Venon	20	standard
+paladin	20	f	shield	1092006	Mithril Buckler	20	standard
+paladin	20	f	weapon	1302002	Viking Sword	20	standard
+paladin	30	m	hat	1002023	Jousting Helmet	30	standard
+paladin	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+paladin	30	m	overall	1050011	Black Dragon Robe	30	standard
+paladin	30	m	shoes	1072168	Red Snowshoes	30	standard
+paladin	30	m	gloves	1082005	Steel Missel	30	standard
+paladin	30	m	shield	1092002	Red Cross Shield	30	standard
+paladin	30	m	weapon	1302008	Gladius	30	standard
+paladin	30	f	hat	1002023	Jousting Helmet	30	standard
+paladin	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+paladin	30	f	overall	1051010	Dark Engrit	30	standard
+paladin	30	f	shoes	1072168	Red Snowshoes	30	standard
+paladin	30	f	gloves	1082005	Steel Missel	30	standard
+paladin	30	f	shield	1092002	Red Cross Shield	30	standard
+paladin	30	f	weapon	1302008	Gladius	30	standard
+paladin	40	m	hat	1002025	Red Duke	40	standard
+paladin	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+paladin	40	m	top	1040000	Yellow Jangoon Armor	40	standard
+paladin	40	m	bottom	1060075	Brown Jangoon Pants	40	standard
+paladin	40	m	shoes	1072126	Maroon Jangoon Shoes	40	standard
+paladin	40	m	gloves	1082025	Dark Knuckle	40	standard
+paladin	40	m	shield	1092012	Steel Tower Shield	40	standard
+paladin	40	m	weapon	1302009	Traus	40	standard
+paladin	40	f	hat	1002025	Red Duke	40	standard
+paladin	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+paladin	40	f	top	1041084	Red Jangoon Armor	40	standard
+paladin	40	f	bottom	1061083	Red Jangoon Skirt	40	standard
+paladin	40	f	shoes	1072126	Maroon Jangoon Shoes	40	standard
+paladin	40	f	gloves	1082025	Dark Knuckle	40	standard
+paladin	40	f	shield	1092012	Steel Tower Shield	40	standard
+paladin	40	f	weapon	1302009	Traus	40	standard
+paladin	50	m	hat	1002085	Mithril Crusader Helm	50	standard
+paladin	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+paladin	50	m	top	1040089	Umber Shouldermail	50	standard
+paladin	50	m	bottom	1060078	Umber Shouldermail Pants	50	standard
+paladin	50	m	shoes	1072132	Emerald Hildon Boots	50	standard
+paladin	50	m	gloves	1082010	Mithril Brist	50	standard
+paladin	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+paladin	50	m	shield	1092004	Skull Shield	50	standard
+paladin	50	m	weapon	1302010	Jeweled Katar	50	standard
+paladin	50	f	hat	1002085	Mithril Crusader Helm	50	standard
+paladin	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+paladin	50	f	top	1041087	Red Shouldermail	50	standard
+paladin	50	f	bottom	1061086	Red Shouldermail Pants	50	standard
+paladin	50	f	shoes	1072132	Emerald Hildon Boots	50	standard
+paladin	50	f	gloves	1082010	Mithril Brist	50	standard
+paladin	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+paladin	50	f	shield	1092004	Skull Shield	50	standard
+paladin	50	f	weapon	1302010	Jeweled Katar	50	standard
+paladin	60	m	hat	1002029	Red Oriental Helmet	60	standard
+paladin	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+paladin	60	m	top	1040092	Blue Orientican	60	standard
+paladin	60	m	bottom	1060080	Red Orientican Pants	60	standard
+paladin	60	m	shoes	1072149	Blood Camel Boots	60	standard
+paladin	60	m	gloves	1082060	Sapphire Clench	60	standard
+paladin	60	m	cape	1102016	Red Magic Cape	60	standard
+paladin	60	m	shield	1092011	Adamantium Legend Shield	60	standard
+paladin	60	m	weapon	1302011	Neocora	60	standard
+paladin	60	f	hat	1002029	Red Oriental Helmet	60	standard
+paladin	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+paladin	60	f	top	1041091	Green Ice Queen	60	standard
+paladin	60	f	bottom	1061091	Red Ice Queen Skirt	60	standard
+paladin	60	f	shoes	1072149	Blood Camel Boots	60	standard
+paladin	60	f	gloves	1082060	Sapphire Clench	60	standard
+paladin	60	f	cape	1102016	Red Magic Cape	60	standard
+paladin	60	f	shield	1092011	Adamantium Legend Shield	60	standard
+paladin	60	f	weapon	1302011	Neocora	60	standard
+paladin	70	m	hat	1002095	Mithril Planet	70	standard
+paladin	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+paladin	70	m	top	1040104	Orihalcon Platine	70	standard
+paladin	70	m	bottom	1060092	Orihalcon Platine Pants	70	standard
+paladin	70	m	shoes	1072154	Blue Carzen Boots	70	standard
+paladin	70	m	gloves	1082105	Dark Husk	70	standard
+paladin	70	m	cape	1102022	Red Gaia Cape	65	standard
+paladin	70	m	shield	1092015	Steel Ancient Shield	70	standard
+paladin	70	m	weapon	1302012	Red Katana	70	standard
+paladin	70	f	hat	1002095	Mithril Planet	70	standard
+paladin	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+paladin	70	f	top	1041097	Aqua Platina	70	standard
+paladin	70	f	bottom	1061096	Aqua Platina Pants	70	standard
+paladin	70	f	shoes	1072154	Blue Carzen Boots	70	standard
+paladin	70	f	gloves	1082105	Dark Husk	70	standard
+paladin	70	f	cape	1102022	Red Gaia Cape	65	standard
+paladin	70	f	shield	1092015	Steel Ancient Shield	70	standard
+paladin	70	f	weapon	1302012	Red Katana	70	standard
+paladin	80	m	hat	1002338	Red Dragon Babuta	80	standard
+paladin	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+paladin	80	m	overall	1050083	Dark Battle Road	80	standard
+paladin	80	m	shoes	1072210	Red Rivers Boots	80	standard
+paladin	80	m	gloves	1082116	Blood Emperor	80	standard
+paladin	80	m	cape	1102029	White Seraph Cape	75	standard
+paladin	80	m	shield	1092025	Gold Aquila Shield	80	standard
+paladin	80	m	weapon	1302018	Khan	80	standard
+paladin	80	f	hat	1002338	Red Dragon Babuta	80	standard
+paladin	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+paladin	80	f	overall	1051078	Red Battle Empress	80	standard
+paladin	80	f	shoes	1072210	Red Rivers Boots	80	standard
+paladin	80	f	gloves	1082116	Blood Emperor	80	standard
+paladin	80	f	cape	1102029	White Seraph Cape	75	standard
+paladin	80	f	shield	1092025	Gold Aquila Shield	80	standard
+paladin	80	f	weapon	1302018	Khan	80	standard
+paladin	90	m	hat	1002532	Dark Grace Helmet	90	standard
+paladin	90	m	earrings	1032017	Rose Earrings	90	standard
+paladin	90	m	top	1040111	Green Commodore	90	standard
+paladin	90	m	bottom	1060100	Green Commodore Pants	90	standard
+paladin	90	m	shoes	1072197	Orihalcon War Greave	90	standard
+paladin	90	m	gloves	1082129	Purple Imperial	90	standard
+paladin	90	m	cape	1102031	Green Giles Cape	85	standard
+paladin	90	m	shield	1092026	Bronze Kalkan	90	standard
+paladin	90	m	weapon	1302023	Fraute	90	standard
+paladin	90	f	hat	1002532	Dark Grace Helmet	90	standard
+paladin	90	f	earrings	1032017	Rose Earrings	90	standard
+paladin	90	f	top	1041121	Dark Valkyrie	90	standard
+paladin	90	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+paladin	90	f	shoes	1072197	Orihalcon War Greave	90	standard
+paladin	90	f	gloves	1082129	Purple Imperial	90	standard
+paladin	90	f	cape	1102031	Green Giles Cape	85	standard
+paladin	90	f	shield	1092026	Bronze Kalkan	90	standard
+paladin	90	f	weapon	1302023	Fraute	90	standard
+paladin	100	m	hat	1002532	Dark Grace Helmet	90	standard
+paladin	100	m	earrings	1032030	Sword Earrings	100	standard
+paladin	100	m	top	1040121	Blue Neos	100	standard
+paladin	100	m	bottom	1060111	Black Neos Pants	100	standard
+paladin	100	m	shoes	1072221	Blue Crescent Boots	100	standard
+paladin	100	m	gloves	1082139	Green Korben	100	standard
+paladin	100	m	cape	1102031	Green Giles Cape	85	standard
+paladin	100	m	shield	1092026	Bronze Kalkan	90	standard
+paladin	100	m	weapon	1302056	Sparta	100	standard
+paladin	100	f	hat	1002532	Dark Grace Helmet	90	standard
+paladin	100	f	earrings	1032030	Sword Earrings	100	standard
+paladin	100	f	top	1041121	Dark Valkyrie	90	standard
+paladin	100	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+paladin	100	f	shoes	1072221	Blue Crescent Boots	100	standard
+paladin	100	f	gloves	1082139	Green Korben	100	standard
+paladin	100	f	cape	1102031	Green Giles Cape	85	standard
+paladin	100	f	shield	1092026	Bronze Kalkan	90	standard
+paladin	100	f	weapon	1302056	Sparta	100	standard
+darkknight	10	m	hat	1002043	Bronze Koif	10	standard
+darkknight	10	m	top	1040015	Brown Lolico Armor	10	standard
+darkknight	10	m	bottom	1060008	Brown Lolico Pants	10	standard
+darkknight	10	m	shoes	1072005	Leather Sandals	0	standard, any class
+darkknight	10	m	gloves	1082003	Juno	10	standard
+darkknight	10	m	weapon	1432000	Spear	10	standard
+darkknight	10	f	hat	1002043	Bronze Koif	10	standard
+darkknight	10	f	top	1041014	Orange Lolica Armor	10	standard
+darkknight	10	f	bottom	1061014	Rookie Pants	10	standard
+darkknight	10	f	shoes	1072005	Leather Sandals	0	standard, any class
+darkknight	10	f	gloves	1082003	Juno	10	standard
+darkknight	10	f	weapon	1432000	Spear	10	standard
+darkknight	20	m	hat	1002055	Bronze Football Helmet	20	standard
+darkknight	20	m	earrings	1032000	Weighted Earrings	20	standard
+darkknight	20	m	overall	1050006	Red Kendo Robe	20	standard
+darkknight	20	m	shoes	1072007	Brown High Boots	20	standard
+darkknight	20	m	gloves	1082004	Venon	20	standard
+darkknight	20	m	weapon	1432001	Fork on a Stick	15	standard
+darkknight	20	f	hat	1002055	Bronze Football Helmet	20	standard
+darkknight	20	f	earrings	1032000	Weighted Earrings	20	standard
+darkknight	20	f	top	1041021	Brown Lamelle	20	standard
+darkknight	20	f	bottom	1061018	Brown Ramel Skirt	20	standard
+darkknight	20	f	shoes	1072007	Brown High Boots	20	standard
+darkknight	20	f	gloves	1082004	Venon	20	standard
+darkknight	20	f	weapon	1432001	Fork on a Stick	15	standard
+darkknight	30	m	hat	1002023	Jousting Helmet	30	standard
+darkknight	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+darkknight	30	m	overall	1050011	Black Dragon Robe	30	standard
+darkknight	30	m	shoes	1072168	Red Snowshoes	30	standard
+darkknight	30	m	gloves	1082005	Steel Missel	30	standard
+darkknight	30	m	weapon	1432002	Forked Spear	30	standard
+darkknight	30	f	hat	1002023	Jousting Helmet	30	standard
+darkknight	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+darkknight	30	f	overall	1051010	Dark Engrit	30	standard
+darkknight	30	f	shoes	1072168	Red Snowshoes	30	standard
+darkknight	30	f	gloves	1082005	Steel Missel	30	standard
+darkknight	30	f	weapon	1432002	Forked Spear	30	standard
+darkknight	40	m	hat	1002025	Red Duke	40	standard
+darkknight	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+darkknight	40	m	top	1040000	Yellow Jangoon Armor	40	standard
+darkknight	40	m	bottom	1060075	Brown Jangoon Pants	40	standard
+darkknight	40	m	shoes	1072126	Maroon Jangoon Shoes	40	standard
+darkknight	40	m	gloves	1082025	Dark Knuckle	40	standard
+darkknight	40	m	weapon	1432005	Zeco	40	standard
+darkknight	40	f	hat	1002025	Red Duke	40	standard
+darkknight	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+darkknight	40	f	top	1041084	Red Jangoon Armor	40	standard
+darkknight	40	f	bottom	1061083	Red Jangoon Skirt	40	standard
+darkknight	40	f	shoes	1072126	Maroon Jangoon Shoes	40	standard
+darkknight	40	f	gloves	1082025	Dark Knuckle	40	standard
+darkknight	40	f	weapon	1432005	Zeco	40	standard
+darkknight	50	m	hat	1002085	Mithril Crusader Helm	50	standard
+darkknight	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+darkknight	50	m	top	1040089	Umber Shouldermail	50	standard
+darkknight	50	m	bottom	1060078	Umber Shouldermail Pants	50	standard
+darkknight	50	m	shoes	1072132	Emerald Hildon Boots	50	standard
+darkknight	50	m	gloves	1082010	Mithril Brist	50	standard
+darkknight	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+darkknight	50	m	weapon	1432004	Serpent's Tongue	50	standard
+darkknight	50	f	hat	1002085	Mithril Crusader Helm	50	standard
+darkknight	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+darkknight	50	f	top	1041087	Red Shouldermail	50	standard
+darkknight	50	f	bottom	1061086	Red Shouldermail Pants	50	standard
+darkknight	50	f	shoes	1072132	Emerald Hildon Boots	50	standard
+darkknight	50	f	gloves	1082010	Mithril Brist	50	standard
+darkknight	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+darkknight	50	f	weapon	1432004	Serpent's Tongue	50	standard
+darkknight	60	m	hat	1002029	Red Oriental Helmet	60	standard
+darkknight	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+darkknight	60	m	top	1040092	Blue Orientican	60	standard
+darkknight	60	m	bottom	1060080	Red Orientican Pants	60	standard
+darkknight	60	m	shoes	1072149	Blood Camel Boots	60	standard
+darkknight	60	m	gloves	1082060	Sapphire Clench	60	standard
+darkknight	60	m	cape	1102016	Red Magic Cape	60	standard
+darkknight	60	m	weapon	1432006	Holy Spear	60	standard
+darkknight	60	f	hat	1002029	Red Oriental Helmet	60	standard
+darkknight	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+darkknight	60	f	top	1041091	Green Ice Queen	60	standard
+darkknight	60	f	bottom	1061091	Red Ice Queen Skirt	60	standard
+darkknight	60	f	shoes	1072149	Blood Camel Boots	60	standard
+darkknight	60	f	gloves	1082060	Sapphire Clench	60	standard
+darkknight	60	f	cape	1102016	Red Magic Cape	60	standard
+darkknight	60	f	weapon	1432006	Holy Spear	60	standard
+darkknight	70	m	hat	1002095	Mithril Planet	70	standard
+darkknight	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+darkknight	70	m	top	1040104	Orihalcon Platine	70	standard
+darkknight	70	m	bottom	1060092	Orihalcon Platine Pants	70	standard
+darkknight	70	m	shoes	1072154	Blue Carzen Boots	70	standard
+darkknight	70	m	gloves	1082105	Dark Husk	70	standard
+darkknight	70	m	cape	1102022	Red Gaia Cape	65	standard
+darkknight	70	m	weapon	1432007	Redemption	70	standard
+darkknight	70	f	hat	1002095	Mithril Planet	70	standard
+darkknight	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+darkknight	70	f	top	1041097	Aqua Platina	70	standard
+darkknight	70	f	bottom	1061096	Aqua Platina Pants	70	standard
+darkknight	70	f	shoes	1072154	Blue Carzen Boots	70	standard
+darkknight	70	f	gloves	1082105	Dark Husk	70	standard
+darkknight	70	f	cape	1102022	Red Gaia Cape	65	standard
+darkknight	70	f	weapon	1432007	Redemption	70	standard
+darkknight	80	m	hat	1002338	Red Dragon Babuta	80	standard
+darkknight	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+darkknight	80	m	overall	1050083	Dark Battle Road	80	standard
+darkknight	80	m	shoes	1072210	Red Rivers Boots	80	standard
+darkknight	80	m	gloves	1082116	Blood Emperor	80	standard
+darkknight	80	m	cape	1102029	White Seraph Cape	75	standard
+darkknight	80	m	weapon	1432010	Omega Spear	80	standard
+darkknight	80	f	hat	1002338	Red Dragon Babuta	80	standard
+darkknight	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+darkknight	80	f	overall	1051078	Red Battle Empress	80	standard
+darkknight	80	f	shoes	1072210	Red Rivers Boots	80	standard
+darkknight	80	f	gloves	1082116	Blood Emperor	80	standard
+darkknight	80	f	cape	1102029	White Seraph Cape	75	standard
+darkknight	80	f	weapon	1432010	Omega Spear	80	standard
+darkknight	90	m	hat	1002532	Dark Grace Helmet	90	standard
+darkknight	90	m	earrings	1032017	Rose Earrings	90	standard
+darkknight	90	m	top	1040111	Green Commodore	90	standard
+darkknight	90	m	bottom	1060100	Green Commodore Pants	90	standard
+darkknight	90	m	shoes	1072197	Orihalcon War Greave	90	standard
+darkknight	90	m	gloves	1082129	Purple Imperial	90	standard
+darkknight	90	m	cape	1102031	Green Giles Cape	85	standard
+darkknight	90	m	weapon	1432011	Fairfrozen	90	standard
+darkknight	90	f	hat	1002532	Dark Grace Helmet	90	standard
+darkknight	90	f	earrings	1032017	Rose Earrings	90	standard
+darkknight	90	f	top	1041121	Dark Valkyrie	90	standard
+darkknight	90	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+darkknight	90	f	shoes	1072197	Orihalcon War Greave	90	standard
+darkknight	90	f	gloves	1082129	Purple Imperial	90	standard
+darkknight	90	f	cape	1102031	Green Giles Cape	85	standard
+darkknight	90	f	weapon	1432011	Fairfrozen	90	standard
+darkknight	100	m	hat	1002532	Dark Grace Helmet	90	standard
+darkknight	100	m	earrings	1032030	Sword Earrings	100	standard
+darkknight	100	m	top	1040121	Blue Neos	100	standard
+darkknight	100	m	bottom	1060111	Black Neos Pants	100	standard
+darkknight	100	m	shoes	1072221	Blue Crescent Boots	100	standard
+darkknight	100	m	gloves	1082139	Green Korben	100	standard
+darkknight	100	m	cape	1102031	Green Giles Cape	85	standard
+darkknight	100	m	weapon	1432030	Pinaka	100	standard
+darkknight	100	f	hat	1002532	Dark Grace Helmet	90	standard
+darkknight	100	f	earrings	1032030	Sword Earrings	100	standard
+darkknight	100	f	top	1041121	Dark Valkyrie	90	standard
+darkknight	100	f	bottom	1061120	Blood Valkyrie Skirt	90	standard
+darkknight	100	f	shoes	1072221	Blue Crescent Boots	100	standard
+darkknight	100	f	gloves	1082139	Green Korben	100	standard
+darkknight	100	f	cape	1102031	Green Giles Cape	85	standard
+darkknight	100	f	weapon	1432030	Pinaka	100	standard
+fp	10	m	hat	1002017	Brown Apprentice Hat	10	standard
+fp	10	m	top	1040017	Grey / Brown Training Shirt	8	standard
+fp	10	m	bottom	1060013	Grey / Brown Training Pants	8	standard
+fp	10	m	shoes	1072006	Brown Basic Boots	10	standard
+fp	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+fp	10	m	shield	1092008	Pan Lid	10	standard, any class
+fp	10	m	weapon	1382000	Wooden Staff	10	standard
+fp	10	f	hat	1002017	Brown Apprentice Hat	10	standard
+fp	10	f	top	1041015	Black Armine	8	standard
+fp	10	f	bottom	1061010	Black Armine Skirt	8	standard
+fp	10	f	shoes	1072006	Brown Basic Boots	10	standard
+fp	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+fp	10	f	shield	1092008	Pan Lid	10	standard, any class
+fp	10	f	weapon	1382000	Wooden Staff	10	standard
+fp	20	m	hat	1002016	Green Wizardry Hat	20	standard
+fp	20	m	earrings	1032000	Weighted Earrings	20	standard
+fp	20	m	top	1040018	Black Split Piece	18	standard
+fp	20	m	bottom	1060014	Black Split Pants	18	standard
+fp	20	m	shoes	1072023	Beige Nitty	15	standard
+fp	20	m	gloves	1082019	Lemona	15	standard
+fp	20	m	shield	1092008	Pan Lid	10	standard, any class
+fp	20	m	weapon	1382004	Old Wooden Staff	20	standard
+fp	20	f	hat	1002016	Green Wizardry Hat	20	standard
+fp	20	f	earrings	1032000	Weighted Earrings	20	standard
+fp	20	f	top	1041029	Black Split	18	standard
+fp	20	f	bottom	1061028	White Split Skirt	18	standard
+fp	20	f	shoes	1072023	Beige Nitty	15	standard
+fp	20	f	gloves	1082019	Lemona	15	standard
+fp	20	f	shield	1092008	Pan Lid	10	standard, any class
+fp	20	f	weapon	1382004	Old Wooden Staff	20	standard
+fp	30	m	hat	1002064	Bronze Pride	30	standard
+fp	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+fp	30	m	overall	1050003	Blue Wizard Robe	28	standard
+fp	30	m	shoes	1072169	Blue Snowshoes	30	standard
+fp	30	m	gloves	1082053	Black Lutia	30	standard
+fp	30	m	shield	1092021	Mystic Shield	22	standard
+fp	30	m	weapon	1382017	Circle-Winded Staff	30	standard
+fp	30	f	hat	1002064	Bronze Pride	30	standard
+fp	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+fp	30	f	top	1041042	Green Fairy Top	28	standard
+fp	30	f	bottom	1061035	Green Fairy Skirt	28	standard
+fp	30	f	shoes	1072169	Blue Snowshoes	30	standard
+fp	30	f	gloves	1082053	Black Lutia	30	standard
+fp	30	f	shield	1092021	Mystic Shield	22	standard
+fp	30	f	weapon	1382017	Circle-Winded Staff	30	standard
+fp	40	m	hat	1002155	White Guiltian	40	standard
+fp	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+fp	40	m	overall	1050035	Brown Starlight	38	standard
+fp	40	m	shoes	1072114	Red Moon Shoes	40	standard
+fp	40	m	gloves	1082062	Red Arten	40	standard
+fp	40	m	shield	1092029	Esther Shield	33	standard
+fp	40	m	weapon	1382019	Hall Staff	40	standard
+fp	40	f	hat	1002155	White Guiltian	40	standard
+fp	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+fp	40	f	overall	1051027	Brown Moonlight	38	standard
+fp	40	f	shoes	1072114	Red Moon Shoes	40	standard
+fp	40	f	gloves	1082062	Red Arten	40	standard
+fp	40	f	shield	1092029	Esther Shield	33	standard
+fp	40	f	weapon	1382019	Hall Staff	40	standard
+fp	50	m	hat	1002215	Flame Golden Circlet	50	standard
+fp	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+fp	50	m	overall	1050045	Blue Calas	48	standard
+fp	50	m	shoes	1072143	Green Goldwind Shoes	50	standard
+fp	50	m	gloves	1082082	Blue Pennance	50	standard
+fp	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+fp	50	m	shield	1092029	Esther Shield	33	standard
+fp	50	m	weapon	1372007	Cromi	48	standard
+fp	50	f	hat	1002215	Flame Golden Circlet	50	standard
+fp	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+fp	50	f	overall	1051031	White Calaf	48	standard
+fp	50	f	shoes	1072143	Green Goldwind Shoes	50	standard
+fp	50	f	gloves	1082082	Blue Pennance	50	standard
+fp	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+fp	50	f	shield	1092029	Esther Shield	33	standard
+fp	50	f	weapon	1372007	Cromi	48	standard
+fp	60	m	hat	1002246	Dark Seraphis	60	standard
+fp	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+fp	60	m	overall	1050055	White Anakamoon	58	standard
+fp	60	m	shoes	1072137	Green Goldrunners	60	standard
+fp	60	m	gloves	1082087	Gold Manute	60	standard
+fp	60	m	cape	1102016	Red Magic Cape	60	standard
+fp	60	m	shield	1092029	Esther Shield	33	standard
+fp	60	m	weapon	1372014	Evil Tale	58	standard
+fp	60	f	hat	1002246	Dark Seraphis	60	standard
+fp	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+fp	60	f	overall	1051046	White Anakarune	58	standard
+fp	60	f	shoes	1072137	Green Goldrunners	60	standard
+fp	60	f	gloves	1082087	Gold Manute	60	standard
+fp	60	f	cape	1102016	Red Magic Cape	60	standard
+fp	60	f	shield	1092029	Esther Shield	33	standard
+fp	60	f	weapon	1372014	Evil Tale	58	standard
+fp	70	m	hat	1002252	Red Infinium Circlet	70	standard
+fp	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+fp	70	m	overall	1050070	Dark Requiem	68	standard
+fp	70	m	shoes	1072158	Red Lapiz Sandals	70	standard
+fp	70	m	gloves	1082100	Dark Lorin	70	standard
+fp	70	m	cape	1102022	Red Gaia Cape	65	standard
+fp	70	m	shield	1092029	Esther Shield	33	standard
+fp	70	m	weapon	1372015	Angel Wings	68	standard
+fp	70	f	hat	1002252	Red Infinium Circlet	70	standard
+fp	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+fp	70	f	overall	1051054	Brown Requierre	68	standard
+fp	70	f	shoes	1072158	Red Lapiz Sandals	70	standard
+fp	70	f	gloves	1082100	Dark Lorin	70	standard
+fp	70	f	cape	1102022	Red Gaia Cape	65	standard
+fp	70	f	shield	1092029	Esther Shield	33	standard
+fp	70	f	weapon	1372015	Angel Wings	68	standard
+fp	80	m	hat	1002271	Green Galaxy	80	standard
+fp	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+fp	80	m	overall	1050074	Dark Enigmatic	78	standard
+fp	80	m	shoes	1072177	Green Enigma Shoes	80	standard
+fp	80	m	gloves	1082122	Blue Clarity	80	standard
+fp	80	m	cape	1102029	White Seraph Cape	75	standard
+fp	80	m	shield	1092029	Esther Shield	33	standard
+fp	80	m	weapon	1372016	Phoenix Wand	78	standard
+fp	80	f	hat	1002271	Green Galaxy	80	standard
+fp	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+fp	80	f	overall	1051057	Purple Enigma	78	standard
+fp	80	f	shoes	1072177	Green Enigma Shoes	80	standard
+fp	80	f	gloves	1082122	Blue Clarity	80	standard
+fp	80	f	cape	1102029	White Seraph Cape	75	standard
+fp	80	f	shield	1092029	Esther Shield	33	standard
+fp	80	f	weapon	1372016	Phoenix Wand	78	standard
+fp	90	m	hat	1002365	Red Oriental Fury Hat	90	standard
+fp	90	m	earrings	1032017	Rose Earrings	90	standard
+fp	90	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+fp	90	m	shoes	1072206	Blue Neli Shoes	90	standard
+fp	90	m	gloves	1082131	Blue Sage	90	standard
+fp	90	m	cape	1102031	Green Giles Cape	85	standard
+fp	90	m	shield	1092029	Esther Shield	33	standard
+fp	90	m	weapon	1372009	Magicodar	88	standard
+fp	90	f	hat	1002365	Red Oriental Fury Hat	90	standard
+fp	90	f	earrings	1032017	Rose Earrings	90	standard
+fp	90	f	overall	1051095	Blue Oriental Fury Coat	88	standard
+fp	90	f	shoes	1072206	Blue Neli Shoes	90	standard
+fp	90	f	gloves	1082131	Blue Sage	90	standard
+fp	90	f	cape	1102031	Green Giles Cape	85	standard
+fp	90	f	shield	1092029	Esther Shield	33	standard
+fp	90	f	weapon	1372009	Magicodar	88	standard
+fp	100	m	hat	1002365	Red Oriental Fury Hat	90	standard
+fp	100	m	earrings	1032030	Sword Earrings	100	standard
+fp	100	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+fp	100	m	shoes	1072225	Red Varr Shoes	100	standard
+fp	100	m	gloves	1082151	Green Ciara	100	standard
+fp	100	m	cape	1102031	Green Giles Cape	85	standard
+fp	100	m	shield	1092029	Esther Shield	33	standard
+fp	100	m	weapon	1372010	Dimon Wand	98	standard
+fp	100	f	hat	1002365	Red Oriental Fury Hat	90	standard
+fp	100	f	earrings	1032030	Sword Earrings	100	standard
+fp	100	f	overall	1051101	Green Bazura	98	standard
+fp	100	f	shoes	1072225	Red Varr Shoes	100	standard
+fp	100	f	gloves	1082151	Green Ciara	100	standard
+fp	100	f	cape	1102031	Green Giles Cape	85	standard
+fp	100	f	shield	1092029	Esther Shield	33	standard
+fp	100	f	weapon	1372010	Dimon Wand	98	standard
+il	10	m	hat	1002017	Brown Apprentice Hat	10	standard
+il	10	m	top	1040017	Grey / Brown Training Shirt	8	standard
+il	10	m	bottom	1060013	Grey / Brown Training Pants	8	standard
+il	10	m	shoes	1072006	Brown Basic Boots	10	standard
+il	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+il	10	m	shield	1092008	Pan Lid	10	standard, any class
+il	10	m	weapon	1382000	Wooden Staff	10	standard
+il	10	f	hat	1002017	Brown Apprentice Hat	10	standard
+il	10	f	top	1041015	Black Armine	8	standard
+il	10	f	bottom	1061010	Black Armine Skirt	8	standard
+il	10	f	shoes	1072006	Brown Basic Boots	10	standard
+il	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+il	10	f	shield	1092008	Pan Lid	10	standard, any class
+il	10	f	weapon	1382000	Wooden Staff	10	standard
+il	20	m	hat	1002016	Green Wizardry Hat	20	standard
+il	20	m	earrings	1032000	Weighted Earrings	20	standard
+il	20	m	top	1040018	Black Split Piece	18	standard
+il	20	m	bottom	1060014	Black Split Pants	18	standard
+il	20	m	shoes	1072023	Beige Nitty	15	standard
+il	20	m	gloves	1082019	Lemona	15	standard
+il	20	m	shield	1092008	Pan Lid	10	standard, any class
+il	20	m	weapon	1382004	Old Wooden Staff	20	standard
+il	20	f	hat	1002016	Green Wizardry Hat	20	standard
+il	20	f	earrings	1032000	Weighted Earrings	20	standard
+il	20	f	top	1041029	Black Split	18	standard
+il	20	f	bottom	1061028	White Split Skirt	18	standard
+il	20	f	shoes	1072023	Beige Nitty	15	standard
+il	20	f	gloves	1082019	Lemona	15	standard
+il	20	f	shield	1092008	Pan Lid	10	standard, any class
+il	20	f	weapon	1382004	Old Wooden Staff	20	standard
+il	30	m	hat	1002064	Bronze Pride	30	standard
+il	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+il	30	m	overall	1050003	Blue Wizard Robe	28	standard
+il	30	m	shoes	1072169	Blue Snowshoes	30	standard
+il	30	m	gloves	1082053	Black Lutia	30	standard
+il	30	m	shield	1092021	Mystic Shield	22	standard
+il	30	m	weapon	1382017	Circle-Winded Staff	30	standard
+il	30	f	hat	1002064	Bronze Pride	30	standard
+il	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+il	30	f	top	1041042	Green Fairy Top	28	standard
+il	30	f	bottom	1061035	Green Fairy Skirt	28	standard
+il	30	f	shoes	1072169	Blue Snowshoes	30	standard
+il	30	f	gloves	1082053	Black Lutia	30	standard
+il	30	f	shield	1092021	Mystic Shield	22	standard
+il	30	f	weapon	1382017	Circle-Winded Staff	30	standard
+il	40	m	hat	1002155	White Guiltian	40	standard
+il	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+il	40	m	overall	1050035	Brown Starlight	38	standard
+il	40	m	shoes	1072114	Red Moon Shoes	40	standard
+il	40	m	gloves	1082062	Red Arten	40	standard
+il	40	m	shield	1092029	Esther Shield	33	standard
+il	40	m	weapon	1382019	Hall Staff	40	standard
+il	40	f	hat	1002155	White Guiltian	40	standard
+il	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+il	40	f	overall	1051027	Brown Moonlight	38	standard
+il	40	f	shoes	1072114	Red Moon Shoes	40	standard
+il	40	f	gloves	1082062	Red Arten	40	standard
+il	40	f	shield	1092029	Esther Shield	33	standard
+il	40	f	weapon	1382019	Hall Staff	40	standard
+il	50	m	hat	1002215	Flame Golden Circlet	50	standard
+il	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+il	50	m	overall	1050045	Blue Calas	48	standard
+il	50	m	shoes	1072143	Green Goldwind Shoes	50	standard
+il	50	m	gloves	1082082	Blue Pennance	50	standard
+il	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+il	50	m	shield	1092029	Esther Shield	33	standard
+il	50	m	weapon	1372007	Cromi	48	standard
+il	50	f	hat	1002215	Flame Golden Circlet	50	standard
+il	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+il	50	f	overall	1051031	White Calaf	48	standard
+il	50	f	shoes	1072143	Green Goldwind Shoes	50	standard
+il	50	f	gloves	1082082	Blue Pennance	50	standard
+il	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+il	50	f	shield	1092029	Esther Shield	33	standard
+il	50	f	weapon	1372007	Cromi	48	standard
+il	60	m	hat	1002246	Dark Seraphis	60	standard
+il	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+il	60	m	overall	1050055	White Anakamoon	58	standard
+il	60	m	shoes	1072137	Green Goldrunners	60	standard
+il	60	m	gloves	1082087	Gold Manute	60	standard
+il	60	m	cape	1102016	Red Magic Cape	60	standard
+il	60	m	shield	1092029	Esther Shield	33	standard
+il	60	m	weapon	1372014	Evil Tale	58	standard
+il	60	f	hat	1002246	Dark Seraphis	60	standard
+il	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+il	60	f	overall	1051046	White Anakarune	58	standard
+il	60	f	shoes	1072137	Green Goldrunners	60	standard
+il	60	f	gloves	1082087	Gold Manute	60	standard
+il	60	f	cape	1102016	Red Magic Cape	60	standard
+il	60	f	shield	1092029	Esther Shield	33	standard
+il	60	f	weapon	1372014	Evil Tale	58	standard
+il	70	m	hat	1002252	Red Infinium Circlet	70	standard
+il	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+il	70	m	overall	1050070	Dark Requiem	68	standard
+il	70	m	shoes	1072158	Red Lapiz Sandals	70	standard
+il	70	m	gloves	1082100	Dark Lorin	70	standard
+il	70	m	cape	1102022	Red Gaia Cape	65	standard
+il	70	m	shield	1092029	Esther Shield	33	standard
+il	70	m	weapon	1372015	Angel Wings	68	standard
+il	70	f	hat	1002252	Red Infinium Circlet	70	standard
+il	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+il	70	f	overall	1051054	Brown Requierre	68	standard
+il	70	f	shoes	1072158	Red Lapiz Sandals	70	standard
+il	70	f	gloves	1082100	Dark Lorin	70	standard
+il	70	f	cape	1102022	Red Gaia Cape	65	standard
+il	70	f	shield	1092029	Esther Shield	33	standard
+il	70	f	weapon	1372015	Angel Wings	68	standard
+il	80	m	hat	1002271	Green Galaxy	80	standard
+il	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+il	80	m	overall	1050074	Dark Enigmatic	78	standard
+il	80	m	shoes	1072177	Green Enigma Shoes	80	standard
+il	80	m	gloves	1082122	Blue Clarity	80	standard
+il	80	m	cape	1102029	White Seraph Cape	75	standard
+il	80	m	shield	1092029	Esther Shield	33	standard
+il	80	m	weapon	1372016	Phoenix Wand	78	standard
+il	80	f	hat	1002271	Green Galaxy	80	standard
+il	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+il	80	f	overall	1051057	Purple Enigma	78	standard
+il	80	f	shoes	1072177	Green Enigma Shoes	80	standard
+il	80	f	gloves	1082122	Blue Clarity	80	standard
+il	80	f	cape	1102029	White Seraph Cape	75	standard
+il	80	f	shield	1092029	Esther Shield	33	standard
+il	80	f	weapon	1372016	Phoenix Wand	78	standard
+il	90	m	hat	1002365	Red Oriental Fury Hat	90	standard
+il	90	m	earrings	1032017	Rose Earrings	90	standard
+il	90	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+il	90	m	shoes	1072206	Blue Neli Shoes	90	standard
+il	90	m	gloves	1082131	Blue Sage	90	standard
+il	90	m	cape	1102031	Green Giles Cape	85	standard
+il	90	m	shield	1092029	Esther Shield	33	standard
+il	90	m	weapon	1372009	Magicodar	88	standard
+il	90	f	hat	1002365	Red Oriental Fury Hat	90	standard
+il	90	f	earrings	1032017	Rose Earrings	90	standard
+il	90	f	overall	1051095	Blue Oriental Fury Coat	88	standard
+il	90	f	shoes	1072206	Blue Neli Shoes	90	standard
+il	90	f	gloves	1082131	Blue Sage	90	standard
+il	90	f	cape	1102031	Green Giles Cape	85	standard
+il	90	f	shield	1092029	Esther Shield	33	standard
+il	90	f	weapon	1372009	Magicodar	88	standard
+il	100	m	hat	1002365	Red Oriental Fury Hat	90	standard
+il	100	m	earrings	1032030	Sword Earrings	100	standard
+il	100	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+il	100	m	shoes	1072225	Red Varr Shoes	100	standard
+il	100	m	gloves	1082151	Green Ciara	100	standard
+il	100	m	cape	1102031	Green Giles Cape	85	standard
+il	100	m	shield	1092029	Esther Shield	33	standard
+il	100	m	weapon	1372010	Dimon Wand	98	standard
+il	100	f	hat	1002365	Red Oriental Fury Hat	90	standard
+il	100	f	earrings	1032030	Sword Earrings	100	standard
+il	100	f	overall	1051101	Green Bazura	98	standard
+il	100	f	shoes	1072225	Red Varr Shoes	100	standard
+il	100	f	gloves	1082151	Green Ciara	100	standard
+il	100	f	cape	1102031	Green Giles Cape	85	standard
+il	100	f	shield	1092029	Esther Shield	33	standard
+il	100	f	weapon	1372010	Dimon Wand	98	standard
+cleric	10	m	hat	1002017	Brown Apprentice Hat	10	standard
+cleric	10	m	top	1040017	Grey / Brown Training Shirt	8	standard
+cleric	10	m	bottom	1060013	Grey / Brown Training Pants	8	standard
+cleric	10	m	shoes	1072006	Brown Basic Boots	10	standard
+cleric	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+cleric	10	m	shield	1092008	Pan Lid	10	standard, any class
+cleric	10	m	weapon	1382000	Wooden Staff	10	standard
+cleric	10	f	hat	1002017	Brown Apprentice Hat	10	standard
+cleric	10	f	top	1041015	Black Armine	8	standard
+cleric	10	f	bottom	1061010	Black Armine Skirt	8	standard
+cleric	10	f	shoes	1072006	Brown Basic Boots	10	standard
+cleric	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+cleric	10	f	shield	1092008	Pan Lid	10	standard, any class
+cleric	10	f	weapon	1382000	Wooden Staff	10	standard
+cleric	20	m	hat	1002016	Green Wizardry Hat	20	standard
+cleric	20	m	earrings	1032000	Weighted Earrings	20	standard
+cleric	20	m	top	1040018	Black Split Piece	18	standard
+cleric	20	m	bottom	1060014	Black Split Pants	18	standard
+cleric	20	m	shoes	1072023	Beige Nitty	15	standard
+cleric	20	m	gloves	1082019	Lemona	15	standard
+cleric	20	m	shield	1092008	Pan Lid	10	standard, any class
+cleric	20	m	weapon	1382004	Old Wooden Staff	20	standard
+cleric	20	f	hat	1002016	Green Wizardry Hat	20	standard
+cleric	20	f	earrings	1032000	Weighted Earrings	20	standard
+cleric	20	f	top	1041029	Black Split	18	standard
+cleric	20	f	bottom	1061028	White Split Skirt	18	standard
+cleric	20	f	shoes	1072023	Beige Nitty	15	standard
+cleric	20	f	gloves	1082019	Lemona	15	standard
+cleric	20	f	shield	1092008	Pan Lid	10	standard, any class
+cleric	20	f	weapon	1382004	Old Wooden Staff	20	standard
+cleric	30	m	hat	1002064	Bronze Pride	30	standard
+cleric	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+cleric	30	m	overall	1050003	Blue Wizard Robe	28	standard
+cleric	30	m	shoes	1072169	Blue Snowshoes	30	standard
+cleric	30	m	gloves	1082053	Black Lutia	30	standard
+cleric	30	m	shield	1092021	Mystic Shield	22	standard
+cleric	30	m	weapon	1382017	Circle-Winded Staff	30	standard
+cleric	30	f	hat	1002064	Bronze Pride	30	standard
+cleric	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+cleric	30	f	top	1041042	Green Fairy Top	28	standard
+cleric	30	f	bottom	1061035	Green Fairy Skirt	28	standard
+cleric	30	f	shoes	1072169	Blue Snowshoes	30	standard
+cleric	30	f	gloves	1082053	Black Lutia	30	standard
+cleric	30	f	shield	1092021	Mystic Shield	22	standard
+cleric	30	f	weapon	1382017	Circle-Winded Staff	30	standard
+cleric	40	m	hat	1002155	White Guiltian	40	standard
+cleric	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+cleric	40	m	overall	1050035	Brown Starlight	38	standard
+cleric	40	m	shoes	1072114	Red Moon Shoes	40	standard
+cleric	40	m	gloves	1082062	Red Arten	40	standard
+cleric	40	m	shield	1092029	Esther Shield	33	standard
+cleric	40	m	weapon	1382019	Hall Staff	40	standard
+cleric	40	f	hat	1002155	White Guiltian	40	standard
+cleric	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+cleric	40	f	overall	1051027	Brown Moonlight	38	standard
+cleric	40	f	shoes	1072114	Red Moon Shoes	40	standard
+cleric	40	f	gloves	1082062	Red Arten	40	standard
+cleric	40	f	shield	1092029	Esther Shield	33	standard
+cleric	40	f	weapon	1382019	Hall Staff	40	standard
+cleric	50	m	hat	1002215	Flame Golden Circlet	50	standard
+cleric	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+cleric	50	m	overall	1050045	Blue Calas	48	standard
+cleric	50	m	shoes	1072143	Green Goldwind Shoes	50	standard
+cleric	50	m	gloves	1082082	Blue Pennance	50	standard
+cleric	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+cleric	50	m	shield	1092029	Esther Shield	33	standard
+cleric	50	m	weapon	1372007	Cromi	48	standard
+cleric	50	f	hat	1002215	Flame Golden Circlet	50	standard
+cleric	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+cleric	50	f	overall	1051031	White Calaf	48	standard
+cleric	50	f	shoes	1072143	Green Goldwind Shoes	50	standard
+cleric	50	f	gloves	1082082	Blue Pennance	50	standard
+cleric	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+cleric	50	f	shield	1092029	Esther Shield	33	standard
+cleric	50	f	weapon	1372007	Cromi	48	standard
+cleric	60	m	hat	1002246	Dark Seraphis	60	standard
+cleric	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+cleric	60	m	overall	1050055	White Anakamoon	58	standard
+cleric	60	m	shoes	1072137	Green Goldrunners	60	standard
+cleric	60	m	gloves	1082087	Gold Manute	60	standard
+cleric	60	m	cape	1102016	Red Magic Cape	60	standard
+cleric	60	m	shield	1092029	Esther Shield	33	standard
+cleric	60	m	weapon	1372014	Evil Tale	58	standard
+cleric	60	f	hat	1002246	Dark Seraphis	60	standard
+cleric	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+cleric	60	f	overall	1051046	White Anakarune	58	standard
+cleric	60	f	shoes	1072137	Green Goldrunners	60	standard
+cleric	60	f	gloves	1082087	Gold Manute	60	standard
+cleric	60	f	cape	1102016	Red Magic Cape	60	standard
+cleric	60	f	shield	1092029	Esther Shield	33	standard
+cleric	60	f	weapon	1372014	Evil Tale	58	standard
+cleric	70	m	hat	1002252	Red Infinium Circlet	70	standard
+cleric	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+cleric	70	m	overall	1050070	Dark Requiem	68	standard
+cleric	70	m	shoes	1072158	Red Lapiz Sandals	70	standard
+cleric	70	m	gloves	1082100	Dark Lorin	70	standard
+cleric	70	m	cape	1102022	Red Gaia Cape	65	standard
+cleric	70	m	shield	1092029	Esther Shield	33	standard
+cleric	70	m	weapon	1372015	Angel Wings	68	standard
+cleric	70	f	hat	1002252	Red Infinium Circlet	70	standard
+cleric	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+cleric	70	f	overall	1051054	Brown Requierre	68	standard
+cleric	70	f	shoes	1072158	Red Lapiz Sandals	70	standard
+cleric	70	f	gloves	1082100	Dark Lorin	70	standard
+cleric	70	f	cape	1102022	Red Gaia Cape	65	standard
+cleric	70	f	shield	1092029	Esther Shield	33	standard
+cleric	70	f	weapon	1372015	Angel Wings	68	standard
+cleric	80	m	hat	1002271	Green Galaxy	80	standard
+cleric	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+cleric	80	m	overall	1050074	Dark Enigmatic	78	standard
+cleric	80	m	shoes	1072177	Green Enigma Shoes	80	standard
+cleric	80	m	gloves	1082122	Blue Clarity	80	standard
+cleric	80	m	cape	1102029	White Seraph Cape	75	standard
+cleric	80	m	shield	1092029	Esther Shield	33	standard
+cleric	80	m	weapon	1372016	Phoenix Wand	78	standard
+cleric	80	f	hat	1002271	Green Galaxy	80	standard
+cleric	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+cleric	80	f	overall	1051057	Purple Enigma	78	standard
+cleric	80	f	shoes	1072177	Green Enigma Shoes	80	standard
+cleric	80	f	gloves	1082122	Blue Clarity	80	standard
+cleric	80	f	cape	1102029	White Seraph Cape	75	standard
+cleric	80	f	shield	1092029	Esther Shield	33	standard
+cleric	80	f	weapon	1372016	Phoenix Wand	78	standard
+cleric	90	m	hat	1002365	Red Oriental Fury Hat	90	standard
+cleric	90	m	earrings	1032017	Rose Earrings	90	standard
+cleric	90	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+cleric	90	m	shoes	1072206	Blue Neli Shoes	90	standard
+cleric	90	m	gloves	1082131	Blue Sage	90	standard
+cleric	90	m	cape	1102031	Green Giles Cape	85	standard
+cleric	90	m	shield	1092029	Esther Shield	33	standard
+cleric	90	m	weapon	1372009	Magicodar	88	standard
+cleric	90	f	hat	1002365	Red Oriental Fury Hat	90	standard
+cleric	90	f	earrings	1032017	Rose Earrings	90	standard
+cleric	90	f	overall	1051095	Blue Oriental Fury Coat	88	standard
+cleric	90	f	shoes	1072206	Blue Neli Shoes	90	standard
+cleric	90	f	gloves	1082131	Blue Sage	90	standard
+cleric	90	f	cape	1102031	Green Giles Cape	85	standard
+cleric	90	f	shield	1092029	Esther Shield	33	standard
+cleric	90	f	weapon	1372009	Magicodar	88	standard
+cleric	100	m	hat	1002365	Red Oriental Fury Hat	90	standard
+cleric	100	m	earrings	1032030	Sword Earrings	100	standard
+cleric	100	m	overall	1050093	Blue Oriental Fury Coat	88	standard
+cleric	100	m	shoes	1072225	Red Varr Shoes	100	standard
+cleric	100	m	gloves	1082151	Green Ciara	100	standard
+cleric	100	m	cape	1102031	Green Giles Cape	85	standard
+cleric	100	m	shield	1092029	Esther Shield	33	standard
+cleric	100	m	weapon	1372010	Dimon Wand	98	standard
+cleric	100	f	hat	1002365	Red Oriental Fury Hat	90	standard
+cleric	100	f	earrings	1032030	Sword Earrings	100	standard
+cleric	100	f	overall	1051101	Green Bazura	98	standard
+cleric	100	f	shoes	1072225	Red Varr Shoes	100	standard
+cleric	100	f	gloves	1082151	Green Ciara	100	standard
+cleric	100	f	cape	1102031	Green Giles Cape	85	standard
+cleric	100	f	shield	1092029	Esther Shield	33	standard
+cleric	100	f	weapon	1372010	Dimon Wand	98	standard
+hunter	10	m	hat	1002010	Brown Winter Hat	10	standard
+hunter	10	m	top	1040008	Brown Archer Top	10	standard
+hunter	10	m	bottom	1062004	Archer Pants	10	standard
+hunter	10	m	shoes	1072015	Brown Hard Leather Boots	10	standard
+hunter	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+hunter	10	m	weapon	1452002	War Bow	10	standard
+hunter	10	f	hat	1002010	Brown Winter Hat	10	standard
+hunter	10	f	top	1041007	Green Avelin	10	standard
+hunter	10	f	bottom	1061009	Green Avelin Skirt	10	standard
+hunter	10	f	shoes	1072015	Brown Hard Leather Boots	10	standard
+hunter	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+hunter	10	f	weapon	1452002	War Bow	10	standard
+hunter	20	m	hat	1002119	Green Robin Hat	20	standard
+hunter	20	m	earrings	1032000	Weighted Earrings	20	standard
+hunter	20	m	top	1040003	Brown Hard Leather Top	20	standard
+hunter	20	m	bottom	1062002	Brown Hard Leather Pants	20	standard
+hunter	20	m	shoes	1072025	Deer Huntertop	20	standard
+hunter	20	m	gloves	1082012	Basic Archer Gloves	15	standard
+hunter	20	m	weapon	1452001	Hunter's Bow	20	standard
+hunter	20	f	hat	1002119	Green Robin Hat	20	standard
+hunter	20	f	earrings	1032000	Weighted Earrings	20	standard
+hunter	20	f	top	1041027	Red Shivermail	20	standard
+hunter	20	f	bottom	1062002	Brown Hard Leather Pants	20	standard
+hunter	20	f	shoes	1072025	Deer Huntertop	20	standard
+hunter	20	f	gloves	1082012	Basic Archer Gloves	15	standard
+hunter	20	f	weapon	1452001	Hunter's Bow	20	standard
+hunter	30	m	hat	1002163	Green Hawkeye	30	standard
+hunter	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+hunter	30	m	top	1040068	Dark Hunter's Armor	30	standard
+hunter	30	m	bottom	1060057	Dark Hunter's Pants	30	standard
+hunter	30	m	shoes	1072170	Green Snowshoes	30	standard
+hunter	30	m	gloves	1082049	Green Marker	30	standard
+hunter	30	m	weapon	1452005	Ryden	30	standard
+hunter	30	f	hat	1002163	Green Hawkeye	30	standard
+hunter	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+hunter	30	f	top	1041054	Green Huntress Armor	30	standard
+hunter	30	f	bottom	1061050	Green Huntress Pants	30	standard
+hunter	30	f	shoes	1072170	Green Snowshoes	30	standard
+hunter	30	f	gloves	1082049	Green Marker	30	standard
+hunter	30	f	weapon	1452005	Ryden	30	standard
+hunter	40	m	hat	1002170	Dark Distinction	40	standard
+hunter	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+hunter	40	m	top	1040079	Brown Piette	40	standard
+hunter	40	m	bottom	1060069	Brown Piette Pants	40	standard
+hunter	40	m	shoes	1072118	Red Pierre Shoes	40	standard
+hunter	40	m	gloves	1082072	Gold Brace	40	standard
+hunter	40	m	weapon	1452007	Vaulter 2000	40	standard
+hunter	40	f	hat	1002170	Dark Distinction	40	standard
+hunter	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+hunter	40	f	top	1041082	Brown Piettra	40	standard
+hunter	40	f	bottom	1061080	White Piettra Skirt	40	standard
+hunter	40	f	shoes	1072118	Red Pierre Shoes	40	standard
+hunter	40	f	gloves	1082072	Gold Brace	40	standard
+hunter	40	f	weapon	1452007	Vaulter 2000	40	standard
+hunter	50	m	hat	1002212	Red Maro	50	standard
+hunter	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+hunter	50	m	overall	1050052	Blue-Lined Kismet	50	standard
+hunter	50	m	shoes	1072122	Brown Steel-Tip Boots	50	standard
+hunter	50	m	gloves	1082083	Dark Willow	50	standard
+hunter	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+hunter	50	m	weapon	1452008	Olympus	50	standard
+hunter	50	f	hat	1002212	Red Maro	50	standard
+hunter	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+hunter	50	f	overall	1051038	Green Lumati	50	standard
+hunter	50	f	shoes	1072122	Brown Steel-Tip Boots	50	standard
+hunter	50	f	gloves	1082083	Dark Willow	50	standard
+hunter	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+hunter	50	f	weapon	1452008	Olympus	50	standard
+hunter	60	m	hat	1002269	White Polyfeather Hat	60	standard
+hunter	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+hunter	60	m	overall	1050059	Blue Tai	60	standard
+hunter	60	m	shoes	1072146	Green Gore Boots	60	standard
+hunter	60	m	gloves	1082091	Dark Garner	60	standard
+hunter	60	m	cape	1102016	Red Magic Cape	60	standard
+hunter	60	m	weapon	1452004	Asianic Bow	60	standard
+hunter	60	f	hat	1002269	White Polyfeather Hat	60	standard
+hunter	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+hunter	60	f	overall	1051041	Red Choro	60	standard
+hunter	60	f	shoes	1072146	Green Gore Boots	60	standard
+hunter	60	f	gloves	1082091	Dark Garner	60	standard
+hunter	60	f	cape	1102016	Red Magic Cape	60	standard
+hunter	60	f	weapon	1452004	Asianic Bow	60	standard
+hunter	70	m	hat	1002289	Dark Patriot	70	standard
+hunter	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+hunter	70	m	overall	1050061	Blue Linnex	70	standard
+hunter	70	m	shoes	1072167	Dark Elf Shoes	70	standard
+hunter	70	m	gloves	1082107	Gold Eyes	70	standard
+hunter	70	m	cape	1102022	Red Gaia Cape	65	standard
+hunter	70	m	weapon	1452011	Golden Hinkel	70	standard
+hunter	70	f	hat	1002289	Dark Patriot	70	standard
+hunter	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+hunter	70	f	overall	1051062	Blue Lineros	70	standard
+hunter	70	f	shoes	1072167	Dark Elf Shoes	70	standard
+hunter	70	f	gloves	1082107	Gold Eyes	70	standard
+hunter	70	f	cape	1102022	Red Gaia Cape	65	standard
+hunter	70	f	weapon	1452011	Golden Hinkel	70	standard
+hunter	80	m	hat	1002275	Blue Falcon	80	standard
+hunter	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+hunter	80	m	overall	1050077	Green Pris	80	standard
+hunter	80	m	shoes	1072182	Blue Wing Boots	80	standard
+hunter	80	m	gloves	1082112	Dark Cordon	80	standard
+hunter	80	m	cape	1102029	White Seraph Cape	75	standard
+hunter	80	m	weapon	1452013	Fire Arund	80	standard
+hunter	80	f	hat	1002275	Blue Falcon	80	standard
+hunter	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+hunter	80	f	overall	1051068	Green Pria	80	standard
+hunter	80	f	shoes	1072182	Blue Wing Boots	80	standard
+hunter	80	f	gloves	1082112	Dark Cordon	80	standard
+hunter	80	f	cape	1102029	White Seraph Cape	75	standard
+hunter	80	f	weapon	1452013	Fire Arund	80	standard
+hunter	90	m	hat	1002403	Blue Arlic Helmet	90	standard
+hunter	90	m	earrings	1032017	Rose Earrings	90	standard
+hunter	90	m	overall	1050088	Red Ades	90	standard
+hunter	90	m	shoes	1072203	Red Ades Shoes	90	standard
+hunter	90	m	gloves	1082125	Red Focus	90	standard
+hunter	90	m	cape	1102031	Green Giles Cape	85	standard
+hunter	90	m	weapon	1452017	Metus	90	standard
+hunter	90	f	hat	1002403	Blue Arlic Helmet	90	standard
+hunter	90	f	earrings	1032017	Rose Earrings	90	standard
+hunter	90	f	overall	1051082	Red Anes	90	standard
+hunter	90	f	shoes	1072203	Red Ades Shoes	90	standard
+hunter	90	f	gloves	1082125	Red Focus	90	standard
+hunter	90	f	cape	1102031	Green Giles Cape	85	standard
+hunter	90	f	weapon	1452017	Metus	90	standard
+hunter	100	m	hat	1002406	Red Arnah Cap	100	standard
+hunter	100	m	earrings	1032030	Sword Earrings	100	standard
+hunter	100	m	overall	1050088	Red Ades	90	standard
+hunter	100	m	shoes	1072227	Red Arnah Shoes	100	standard
+hunter	100	m	gloves	1082158	Red Arcina	100	standard
+hunter	100	m	cape	1102031	Green Giles Cape	85	standard
+hunter	100	m	weapon	1452019	White Nisrock	100	standard
+hunter	100	f	hat	1002406	Red Arnah Cap	100	standard
+hunter	100	f	earrings	1032030	Sword Earrings	100	standard
+hunter	100	f	overall	1051105	Green Armis	100	standard
+hunter	100	f	shoes	1072227	Red Arnah Shoes	100	standard
+hunter	100	f	gloves	1082158	Red Arcina	100	standard
+hunter	100	f	cape	1102031	Green Giles Cape	85	standard
+hunter	100	f	weapon	1452019	White Nisrock	100	standard
+crossbow	10	m	hat	1002010	Brown Winter Hat	10	standard
+crossbow	10	m	top	1040008	Brown Archer Top	10	standard
+crossbow	10	m	bottom	1062004	Archer Pants	10	standard
+crossbow	10	m	shoes	1072015	Brown Hard Leather Boots	10	standard
+crossbow	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+crossbow	10	m	weapon	1452002	War Bow	10	override
+crossbow	10	f	hat	1002010	Brown Winter Hat	10	standard
+crossbow	10	f	top	1041007	Green Avelin	10	standard
+crossbow	10	f	bottom	1061009	Green Avelin Skirt	10	standard
+crossbow	10	f	shoes	1072015	Brown Hard Leather Boots	10	standard
+crossbow	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+crossbow	10	f	weapon	1452002	War Bow	10	override
+crossbow	20	m	hat	1002119	Green Robin Hat	20	standard
+crossbow	20	m	earrings	1032000	Weighted Earrings	20	standard
+crossbow	20	m	top	1040003	Brown Hard Leather Top	20	standard
+crossbow	20	m	bottom	1062002	Brown Hard Leather Pants	20	standard
+crossbow	20	m	shoes	1072025	Deer Huntertop	20	standard
+crossbow	20	m	gloves	1082012	Basic Archer Gloves	15	standard
+crossbow	20	m	weapon	1462002	Battle Crossbow	18	standard
+crossbow	20	f	hat	1002119	Green Robin Hat	20	standard
+crossbow	20	f	earrings	1032000	Weighted Earrings	20	standard
+crossbow	20	f	top	1041027	Red Shivermail	20	standard
+crossbow	20	f	bottom	1062002	Brown Hard Leather Pants	20	standard
+crossbow	20	f	shoes	1072025	Deer Huntertop	20	standard
+crossbow	20	f	gloves	1082012	Basic Archer Gloves	15	standard
+crossbow	20	f	weapon	1462002	Battle Crossbow	18	standard
+crossbow	30	m	hat	1002163	Green Hawkeye	30	standard
+crossbow	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+crossbow	30	m	top	1040068	Dark Hunter's Armor	30	standard
+crossbow	30	m	bottom	1060057	Dark Hunter's Pants	30	standard
+crossbow	30	m	shoes	1072170	Green Snowshoes	30	standard
+crossbow	30	m	gloves	1082049	Green Marker	30	standard
+crossbow	30	m	weapon	1462000	Mountain Crossbow	28	standard
+crossbow	30	f	hat	1002163	Green Hawkeye	30	standard
+crossbow	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+crossbow	30	f	top	1041054	Green Huntress Armor	30	standard
+crossbow	30	f	bottom	1061050	Green Huntress Pants	30	standard
+crossbow	30	f	shoes	1072170	Green Snowshoes	30	standard
+crossbow	30	f	gloves	1082049	Green Marker	30	standard
+crossbow	30	f	weapon	1462000	Mountain Crossbow	28	standard
+crossbow	40	m	hat	1002170	Dark Distinction	40	standard
+crossbow	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+crossbow	40	m	top	1040079	Brown Piette	40	standard
+crossbow	40	m	bottom	1060069	Brown Piette Pants	40	standard
+crossbow	40	m	shoes	1072118	Red Pierre Shoes	40	standard
+crossbow	40	m	gloves	1082072	Gold Brace	40	standard
+crossbow	40	m	weapon	1462005	Heckler	38	standard
+crossbow	40	f	hat	1002170	Dark Distinction	40	standard
+crossbow	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+crossbow	40	f	top	1041082	Brown Piettra	40	standard
+crossbow	40	f	bottom	1061080	White Piettra Skirt	40	standard
+crossbow	40	f	shoes	1072118	Red Pierre Shoes	40	standard
+crossbow	40	f	gloves	1082072	Gold Brace	40	standard
+crossbow	40	f	weapon	1462005	Heckler	38	standard
+crossbow	50	m	hat	1002212	Red Maro	50	standard
+crossbow	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+crossbow	50	m	overall	1050052	Blue-Lined Kismet	50	standard
+crossbow	50	m	shoes	1072122	Brown Steel-Tip Boots	50	standard
+crossbow	50	m	gloves	1082083	Dark Willow	50	standard
+crossbow	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+crossbow	50	m	weapon	1462007	Rower	50	standard
+crossbow	50	f	hat	1002212	Red Maro	50	standard
+crossbow	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+crossbow	50	f	overall	1051038	Green Lumati	50	standard
+crossbow	50	f	shoes	1072122	Brown Steel-Tip Boots	50	standard
+crossbow	50	f	gloves	1082083	Dark Willow	50	standard
+crossbow	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+crossbow	50	f	weapon	1462007	Rower	50	standard
+crossbow	60	m	hat	1002269	White Polyfeather Hat	60	standard
+crossbow	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+crossbow	60	m	overall	1050059	Blue Tai	60	standard
+crossbow	60	m	shoes	1072146	Green Gore Boots	60	standard
+crossbow	60	m	gloves	1082091	Dark Garner	60	standard
+crossbow	60	m	cape	1102016	Red Magic Cape	60	standard
+crossbow	60	m	weapon	1462008	Golden Crow	60	standard
+crossbow	60	f	hat	1002269	White Polyfeather Hat	60	standard
+crossbow	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+crossbow	60	f	overall	1051041	Red Choro	60	standard
+crossbow	60	f	shoes	1072146	Green Gore Boots	60	standard
+crossbow	60	f	gloves	1082091	Dark Garner	60	standard
+crossbow	60	f	cape	1102016	Red Magic Cape	60	standard
+crossbow	60	f	weapon	1462008	Golden Crow	60	standard
+crossbow	70	m	hat	1002289	Dark Patriot	70	standard
+crossbow	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+crossbow	70	m	overall	1050061	Blue Linnex	70	standard
+crossbow	70	m	shoes	1072167	Dark Elf Shoes	70	standard
+crossbow	70	m	gloves	1082107	Gold Eyes	70	standard
+crossbow	70	m	cape	1102022	Red Gaia Cape	65	standard
+crossbow	70	m	weapon	1462009	Gross Jaeger	70	standard
+crossbow	70	f	hat	1002289	Dark Patriot	70	standard
+crossbow	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+crossbow	70	f	overall	1051062	Blue Lineros	70	standard
+crossbow	70	f	shoes	1072167	Dark Elf Shoes	70	standard
+crossbow	70	f	gloves	1082107	Gold Eyes	70	standard
+crossbow	70	f	cape	1102022	Red Gaia Cape	65	standard
+crossbow	70	f	weapon	1462009	Gross Jaeger	70	standard
+crossbow	80	m	hat	1002275	Blue Falcon	80	standard
+crossbow	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+crossbow	80	m	overall	1050077	Green Pris	80	standard
+crossbow	80	m	shoes	1072182	Blue Wing Boots	80	standard
+crossbow	80	m	gloves	1082112	Dark Cordon	80	standard
+crossbow	80	m	cape	1102029	White Seraph Cape	75	standard
+crossbow	80	m	weapon	1462009	Gross Jaeger	70	standard
+crossbow	80	f	hat	1002275	Blue Falcon	80	standard
+crossbow	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+crossbow	80	f	overall	1051068	Green Pria	80	standard
+crossbow	80	f	shoes	1072182	Blue Wing Boots	80	standard
+crossbow	80	f	gloves	1082112	Dark Cordon	80	standard
+crossbow	80	f	cape	1102029	White Seraph Cape	75	standard
+crossbow	80	f	weapon	1462009	Gross Jaeger	70	standard
+crossbow	90	m	hat	1002403	Blue Arlic Helmet	90	standard
+crossbow	90	m	earrings	1032017	Rose Earrings	90	standard
+crossbow	90	m	overall	1050088	Red Ades	90	standard
+crossbow	90	m	shoes	1072203	Red Ades Shoes	90	standard
+crossbow	90	m	gloves	1082125	Red Focus	90	standard
+crossbow	90	m	cape	1102031	Green Giles Cape	85	standard
+crossbow	90	m	weapon	1462018	Casa Crow	90	standard
+crossbow	90	f	hat	1002403	Blue Arlic Helmet	90	standard
+crossbow	90	f	earrings	1032017	Rose Earrings	90	standard
+crossbow	90	f	overall	1051082	Red Anes	90	standard
+crossbow	90	f	shoes	1072203	Red Ades Shoes	90	standard
+crossbow	90	f	gloves	1082125	Red Focus	90	standard
+crossbow	90	f	cape	1102031	Green Giles Cape	85	standard
+crossbow	90	f	weapon	1462018	Casa Crow	90	standard
+crossbow	100	m	hat	1002406	Red Arnah Cap	100	standard
+crossbow	100	m	earrings	1032030	Sword Earrings	100	standard
+crossbow	100	m	overall	1050088	Red Ades	90	standard
+crossbow	100	m	shoes	1072227	Red Arnah Shoes	100	standard
+crossbow	100	m	gloves	1082158	Red Arcina	100	standard
+crossbow	100	m	cape	1102031	Green Giles Cape	85	standard
+crossbow	100	m	weapon	1462015	White Neschere	100	standard
+crossbow	100	f	hat	1002406	Red Arnah Cap	100	standard
+crossbow	100	f	earrings	1032030	Sword Earrings	100	standard
+crossbow	100	f	overall	1051105	Green Armis	100	standard
+crossbow	100	f	shoes	1072227	Red Arnah Shoes	100	standard
+crossbow	100	f	gloves	1082158	Red Arcina	100	standard
+crossbow	100	f	cape	1102031	Green Giles Cape	85	standard
+crossbow	100	f	weapon	1462015	White Neschere	100	standard
+assassin	10	m	hat	1002122	Red Ghetto Beanie	10	standard
+assassin	10	m	top	1040031	Blue Cloth Vest	10	standard
+assassin	10	m	bottom	1060022	Red Cloth Pants	10	standard
+assassin	10	m	shoes	1072070	Blue Gidder Shoes	10	standard
+assassin	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+assassin	10	m	weapon	1472000	Garnier	10	standard
+assassin	10	f	hat	1002122	Red Ghetto Beanie	10	standard
+assassin	10	f	top	1041036	Red Cloth Vest	10	standard
+assassin	10	f	bottom	1061029	Red Cloth Pants	10	standard
+assassin	10	f	shoes	1072070	Blue Gidder Shoes	10	standard
+assassin	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+assassin	10	f	weapon	1472000	Garnier	10	standard
+assassin	20	m	hat	1002127	Red Loosecap	20	standard
+assassin	20	m	earrings	1032000	Weighted Earrings	20	standard
+assassin	20	m	top	1040044	Black Pao	20	standard
+assassin	20	m	bottom	1060033	Black Pao Bottom	20	standard
+assassin	20	m	shoes	1072066	Blue Enamel Boots	20	standard
+assassin	20	m	gloves	1082032	Bronze Mischief	20	standard
+assassin	20	m	weapon	1472004	Bronze Igor	20	standard
+assassin	20	f	hat	1002127	Red Loosecap	20	standard
+assassin	20	f	earrings	1032000	Weighted Earrings	20	standard
+assassin	20	f	top	1041040	Blue Qi Pao	20	standard
+assassin	20	f	bottom	1061033	Blue Qi Pao Pants	20	standard
+assassin	20	f	shoes	1072066	Blue Enamel Boots	20	standard
+assassin	20	f	gloves	1082032	Bronze Mischief	20	standard
+assassin	20	f	weapon	1472004	Bronze Igor	20	standard
+assassin	30	m	hat	1002172	Blue Guise	30	standard
+assassin	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+assassin	30	m	top	1040057	Dark Brown Stealer	30	standard
+assassin	30	m	bottom	1060045	Red / Gold Stealer Pants	30	standard
+assassin	30	m	shoes	1072171	Black Snowshoes	30	standard
+assassin	30	m	gloves	1082042	Steel Sylvia	30	standard
+assassin	30	m	weapon	1472008	Steel Guards	30	standard
+assassin	30	f	hat	1002172	Blue Guise	30	standard
+assassin	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+assassin	30	f	top	1041049	Blue Steal	30	standard
+assassin	30	f	bottom	1061045	Blue Steal Pants	30	standard
+assassin	30	f	shoes	1072171	Black Snowshoes	30	standard
+assassin	30	f	gloves	1082042	Steel Sylvia	30	standard
+assassin	30	f	weapon	1472008	Steel Guards	30	standard
+assassin	40	m	hat	1002184	Brown Pilfer	40	standard
+assassin	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+assassin	40	m	top	1040083	Marine Shadow	40	standard
+assassin	40	m	bottom	1060072	Marine Shadow Pants	40	standard
+assassin	40	m	shoes	1072110	Black Blue-Lines Shoes	40	standard
+assassin	40	m	gloves	1082074	Dark Cleave	40	standard
+assassin	40	m	weapon	1472014	Steel Avarice	40	standard
+assassin	40	f	hat	1002184	Brown Pilfer	40	standard
+assassin	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+assassin	40	f	top	1041074	Purple Shadow	40	standard
+assassin	40	f	bottom	1061070	Red Shadow Pants	40	standard
+assassin	40	f	shoes	1072110	Black Blue-Lines Shoes	40	standard
+assassin	40	f	gloves	1082074	Dark Cleave	40	standard
+assassin	40	f	weapon	1472014	Steel Avarice	40	standard
+assassin	50	m	hat	1002210	Brown Sonata	50	standard
+assassin	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+assassin	50	m	top	1040096	Brown China	50	standard
+assassin	50	m	bottom	1060085	Brown China Pants	50	standard
+assassin	50	m	shoes	1072130	Red Goni Shoes	50	standard
+assassin	50	m	gloves	1082066	Brown Moon Gloves	50	standard
+assassin	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+assassin	50	m	weapon	1472020	Sapphire Slain	50	standard
+assassin	50	f	hat	1002210	Brown Sonata	50	standard
+assassin	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+assassin	50	f	top	1041077	Maroon Moon	50	standard
+assassin	50	f	bottom	1061076	Maroon Moon Pants	50	standard
+assassin	50	f	shoes	1072130	Red Goni Shoes	50	standard
+assassin	50	f	gloves	1082066	Brown Moon Gloves	50	standard
+assassin	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+assassin	50	f	weapon	1472020	Sapphire Slain	50	standard
+assassin	60	m	hat	1002248	Silver Identity	60	standard
+assassin	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+assassin	60	m	top	1040099	Oaker Scorpio	60	standard
+assassin	60	m	bottom	1060088	Oaker Scorpio Pants	60	standard
+assassin	60	m	shoes	1072150	Blood Moss Boots	60	standard
+assassin	60	m	gloves	1082093	Steal Pow	60	standard
+assassin	60	m	cape	1102016	Red Magic Cape	60	standard
+assassin	60	m	weapon	1472024	Sapphire Gigantic	60	standard
+assassin	60	f	hat	1002248	Silver Identity	60	standard
+assassin	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+assassin	60	f	top	1041095	Bloody Mantis	60	standard
+assassin	60	f	bottom	1061094	Bloody Mantis Pants	60	standard
+assassin	60	f	shoes	1072150	Blood Moss Boots	60	standard
+assassin	60	f	gloves	1082093	Steal Pow	60	standard
+assassin	60	f	cape	1102016	Red Magic Cape	60	standard
+assassin	60	f	weapon	1472024	Sapphire Gigantic	60	standard
+assassin	70	m	hat	1002285	Blood Nightfox	70	standard
+assassin	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+assassin	70	m	top	1040107	Dark Studded Top	70	standard
+assassin	70	m	bottom	1060095	Dark Studded Pants	70	standard
+assassin	70	m	shoes	1072161	Purple Mystique Shoes	70	standard
+assassin	70	m	gloves	1082096	Silver Rover	70	standard
+assassin	70	m	cape	1102022	Red Gaia Cape	65	standard
+assassin	70	m	weapon	1472027	Green Scarab	70	standard
+assassin	70	f	hat	1002285	Blood Nightfox	70	standard
+assassin	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+assassin	70	f	top	1041102	Pink Mystique	70	standard
+assassin	70	f	bottom	1061101	Pink Mystique Pants	70	standard
+assassin	70	f	shoes	1072161	Purple Mystique Shoes	70	standard
+assassin	70	f	gloves	1082096	Silver Rover	70	standard
+assassin	70	f	cape	1102022	Red Gaia Cape	65	standard
+assassin	70	f	weapon	1472027	Green Scarab	70	standard
+assassin	80	m	hat	1002328	Green Pireta Hat	80	standard
+assassin	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+assassin	80	m	top	1040109	Red Pirate Top	80	standard
+assassin	80	m	bottom	1060098	Red Pirate Pants	80	standard
+assassin	80	m	shoes	1072173	Red Pirate Boots	80	standard
+assassin	80	m	gloves	1082118	Green Larceny	80	standard
+assassin	80	m	cape	1102029	White Seraph Cape	75	standard
+assassin	80	m	weapon	1472031	Black Mamba	80	standard
+assassin	80	f	hat	1002328	Green Pireta Hat	80	standard
+assassin	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+assassin	80	f	top	1041107	Dark Pirate Blouse	80	standard
+assassin	80	f	bottom	1061104	Green Pirate Skirt	80	standard
+assassin	80	f	shoes	1072173	Red Pirate Boots	80	standard
+assassin	80	f	gloves	1082118	Green Larceny	80	standard
+assassin	80	f	cape	1102029	White Seraph Cape	75	standard
+assassin	80	f	weapon	1472031	Black Mamba	80	standard
+assassin	90	m	hat	1002325	Purple Osfa Hat	90	standard
+assassin	90	m	earrings	1032017	Rose Earrings	90	standard
+assassin	90	m	top	1040115	Green Osfa Suit	90	standard
+assassin	90	m	bottom	1060104	Green Osfa Pants	90	standard
+assassin	90	m	shoes	1072193	Brown Osfa Boots	90	standard
+assassin	90	m	gloves	1082143	Purple Mystra	90	standard
+assassin	90	m	cape	1102031	Green Giles Cape	85	standard
+assassin	90	m	weapon	1472033	Casters	90	standard
+assassin	90	f	hat	1002325	Purple Osfa Hat	90	standard
+assassin	90	f	earrings	1032017	Rose Earrings	90	standard
+assassin	90	f	top	1041118	Red Osfa Suit	90	standard
+assassin	90	f	bottom	1061116	Purple Osfa Pants	90	standard
+assassin	90	f	shoes	1072193	Brown Osfa Boots	90	standard
+assassin	90	f	gloves	1082143	Purple Mystra	90	standard
+assassin	90	f	cape	1102031	Green Giles Cape	85	standard
+assassin	90	f	weapon	1472033	Casters	90	standard
+assassin	100	m	hat	1002325	Purple Osfa Hat	90	standard
+assassin	100	m	earrings	1032030	Sword Earrings	100	standard
+assassin	100	m	top	1040115	Green Osfa Suit	90	standard
+assassin	100	m	bottom	1060104	Green Osfa Pants	90	standard
+assassin	100	m	shoes	1072213	Green Katina Boots	100	standard
+assassin	100	m	gloves	1082135	Blue Anelin	100	standard
+assassin	100	m	cape	1102031	Green Giles Cape	85	standard
+assassin	100	m	weapon	1472033	Casters	90	standard
+assassin	100	f	hat	1002325	Purple Osfa Hat	90	standard
+assassin	100	f	earrings	1032030	Sword Earrings	100	standard
+assassin	100	f	overall	1051092	Red Katte	100	standard
+assassin	100	f	shoes	1072213	Green Katina Boots	100	standard
+assassin	100	f	gloves	1082135	Blue Anelin	100	standard
+assassin	100	f	cape	1102031	Green Giles Cape	85	standard
+assassin	100	f	weapon	1472033	Casters	90	standard
+bandit	10	m	hat	1002122	Red Ghetto Beanie	10	standard
+bandit	10	m	top	1040031	Blue Cloth Vest	10	standard
+bandit	10	m	bottom	1060022	Red Cloth Pants	10	standard
+bandit	10	m	shoes	1072070	Blue Gidder Shoes	10	standard
+bandit	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+bandit	10	m	shield	1092008	Pan Lid	10	standard, any class
+bandit	10	m	weapon	1332007	Fruit Knife	8	standard, any class
+bandit	10	f	hat	1002122	Red Ghetto Beanie	10	standard
+bandit	10	f	top	1041036	Red Cloth Vest	10	standard
+bandit	10	f	bottom	1061029	Red Cloth Pants	10	standard
+bandit	10	f	shoes	1072070	Blue Gidder Shoes	10	standard
+bandit	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+bandit	10	f	shield	1092008	Pan Lid	10	standard, any class
+bandit	10	f	weapon	1332007	Fruit Knife	8	standard, any class
+bandit	20	m	hat	1002127	Red Loosecap	20	standard
+bandit	20	m	earrings	1032000	Weighted Earrings	20	standard
+bandit	20	m	top	1040044	Black Pao	20	standard
+bandit	20	m	bottom	1060033	Black Pao Bottom	20	standard
+bandit	20	m	shoes	1072066	Blue Enamel Boots	20	standard
+bandit	20	m	gloves	1082032	Bronze Mischief	20	standard
+bandit	20	m	shield	1092008	Pan Lid	10	standard, any class
+bandit	20	m	weapon	1332008	Coconut Knife	20	standard
+bandit	20	f	hat	1002127	Red Loosecap	20	standard
+bandit	20	f	earrings	1032000	Weighted Earrings	20	standard
+bandit	20	f	top	1041040	Blue Qi Pao	20	standard
+bandit	20	f	bottom	1061033	Blue Qi Pao Pants	20	standard
+bandit	20	f	shoes	1072066	Blue Enamel Boots	20	standard
+bandit	20	f	gloves	1082032	Bronze Mischief	20	standard
+bandit	20	f	shield	1092008	Pan Lid	10	standard, any class
+bandit	20	f	weapon	1332008	Coconut Knife	20	standard
+bandit	30	m	hat	1002172	Blue Guise	30	standard
+bandit	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+bandit	30	m	top	1040057	Dark Brown Stealer	30	standard
+bandit	30	m	bottom	1060045	Red / Gold Stealer Pants	30	standard
+bandit	30	m	shoes	1072171	Black Snowshoes	30	standard
+bandit	30	m	gloves	1082042	Steel Sylvia	30	standard
+bandit	30	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	30	m	weapon	1332012	Reef Claw	30	standard
+bandit	30	f	hat	1002172	Blue Guise	30	standard
+bandit	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+bandit	30	f	top	1041049	Blue Steal	30	standard
+bandit	30	f	bottom	1061045	Blue Steal Pants	30	standard
+bandit	30	f	shoes	1072171	Black Snowshoes	30	standard
+bandit	30	f	gloves	1082042	Steel Sylvia	30	standard
+bandit	30	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	30	f	weapon	1332012	Reef Claw	30	standard
+bandit	40	m	hat	1002184	Brown Pilfer	40	standard
+bandit	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+bandit	40	m	top	1040083	Marine Shadow	40	standard
+bandit	40	m	bottom	1060072	Marine Shadow Pants	40	standard
+bandit	40	m	shoes	1072110	Black Blue-Lines Shoes	40	standard
+bandit	40	m	gloves	1082074	Dark Cleave	40	standard
+bandit	40	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	40	m	weapon	1332011	Bazlud	40	standard
+bandit	40	f	hat	1002184	Brown Pilfer	40	standard
+bandit	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+bandit	40	f	top	1041074	Purple Shadow	40	standard
+bandit	40	f	bottom	1061070	Red Shadow Pants	40	standard
+bandit	40	f	shoes	1072110	Black Blue-Lines Shoes	40	standard
+bandit	40	f	gloves	1082074	Dark Cleave	40	standard
+bandit	40	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	40	f	weapon	1332011	Bazlud	40	standard
+bandit	50	m	hat	1002210	Brown Sonata	50	standard
+bandit	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+bandit	50	m	top	1040096	Brown China	50	standard
+bandit	50	m	bottom	1060085	Brown China Pants	50	standard
+bandit	50	m	shoes	1072130	Red Goni Shoes	50	standard
+bandit	50	m	gloves	1082066	Brown Moon Gloves	50	standard
+bandit	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+bandit	50	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	50	m	weapon	1332003	Shinkita	50	standard
+bandit	50	f	hat	1002210	Brown Sonata	50	standard
+bandit	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+bandit	50	f	top	1041077	Maroon Moon	50	standard
+bandit	50	f	bottom	1061076	Maroon Moon Pants	50	standard
+bandit	50	f	shoes	1072130	Red Goni Shoes	50	standard
+bandit	50	f	gloves	1082066	Brown Moon Gloves	50	standard
+bandit	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+bandit	50	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	50	f	weapon	1332003	Shinkita	50	standard
+bandit	60	m	hat	1002248	Silver Identity	60	standard
+bandit	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+bandit	60	m	top	1040099	Oaker Scorpio	60	standard
+bandit	60	m	bottom	1060088	Oaker Scorpio Pants	60	standard
+bandit	60	m	shoes	1072150	Blood Moss Boots	60	standard
+bandit	60	m	gloves	1082093	Steal Pow	60	standard
+bandit	60	m	cape	1102016	Red Magic Cape	60	standard
+bandit	60	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	60	m	weapon	1332015	Deadly Fin	60	standard
+bandit	60	f	hat	1002248	Silver Identity	60	standard
+bandit	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+bandit	60	f	top	1041095	Bloody Mantis	60	standard
+bandit	60	f	bottom	1061094	Bloody Mantis Pants	60	standard
+bandit	60	f	shoes	1072150	Blood Moss Boots	60	standard
+bandit	60	f	gloves	1082093	Steal Pow	60	standard
+bandit	60	f	cape	1102016	Red Magic Cape	60	standard
+bandit	60	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	60	f	weapon	1332015	Deadly Fin	60	standard
+bandit	70	m	hat	1002285	Blood Nightfox	70	standard
+bandit	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+bandit	70	m	top	1040107	Dark Studded Top	70	standard
+bandit	70	m	bottom	1060095	Dark Studded Pants	70	standard
+bandit	70	m	shoes	1072161	Purple Mystique Shoes	70	standard
+bandit	70	m	gloves	1082096	Silver Rover	70	standard
+bandit	70	m	cape	1102022	Red Gaia Cape	65	standard
+bandit	70	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	70	m	weapon	1332018	Kandine	70	standard
+bandit	70	f	hat	1002285	Blood Nightfox	70	standard
+bandit	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+bandit	70	f	top	1041102	Pink Mystique	70	standard
+bandit	70	f	bottom	1061101	Pink Mystique Pants	70	standard
+bandit	70	f	shoes	1072161	Purple Mystique Shoes	70	standard
+bandit	70	f	gloves	1082096	Silver Rover	70	standard
+bandit	70	f	cape	1102022	Red Gaia Cape	65	standard
+bandit	70	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	70	f	weapon	1332018	Kandine	70	standard
+bandit	80	m	hat	1002328	Green Pireta Hat	80	standard
+bandit	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+bandit	80	m	top	1040109	Red Pirate Top	80	standard
+bandit	80	m	bottom	1060098	Red Pirate Pants	80	standard
+bandit	80	m	shoes	1072173	Red Pirate Boots	80	standard
+bandit	80	m	gloves	1082118	Green Larceny	80	standard
+bandit	80	m	cape	1102029	White Seraph Cape	75	standard
+bandit	80	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	80	m	weapon	1332023	Dragon's Tail	80	standard
+bandit	80	f	hat	1002328	Green Pireta Hat	80	standard
+bandit	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+bandit	80	f	top	1041107	Dark Pirate Blouse	80	standard
+bandit	80	f	bottom	1061104	Green Pirate Skirt	80	standard
+bandit	80	f	shoes	1072173	Red Pirate Boots	80	standard
+bandit	80	f	gloves	1082118	Green Larceny	80	standard
+bandit	80	f	cape	1102029	White Seraph Cape	75	standard
+bandit	80	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	80	f	weapon	1332023	Dragon's Tail	80	standard
+bandit	90	m	hat	1002325	Purple Osfa Hat	90	standard
+bandit	90	m	earrings	1032017	Rose Earrings	90	standard
+bandit	90	m	top	1040115	Green Osfa Suit	90	standard
+bandit	90	m	bottom	1060104	Green Osfa Pants	90	standard
+bandit	90	m	shoes	1072193	Brown Osfa Boots	90	standard
+bandit	90	m	gloves	1082143	Purple Mystra	90	standard
+bandit	90	m	cape	1102031	Green Giles Cape	85	standard
+bandit	90	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	90	m	weapon	1332027	Varkit	90	standard
+bandit	90	f	hat	1002325	Purple Osfa Hat	90	standard
+bandit	90	f	earrings	1032017	Rose Earrings	90	standard
+bandit	90	f	top	1041118	Red Osfa Suit	90	standard
+bandit	90	f	bottom	1061116	Purple Osfa Pants	90	standard
+bandit	90	f	shoes	1072193	Brown Osfa Boots	90	standard
+bandit	90	f	gloves	1082143	Purple Mystra	90	standard
+bandit	90	f	cape	1102031	Green Giles Cape	85	standard
+bandit	90	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	90	f	weapon	1332027	Varkit	90	standard
+bandit	100	m	hat	1002325	Purple Osfa Hat	90	standard
+bandit	100	m	earrings	1032030	Sword Earrings	100	standard
+bandit	100	m	top	1040115	Green Osfa Suit	90	standard
+bandit	100	m	bottom	1060104	Green Osfa Pants	90	standard
+bandit	100	m	shoes	1072213	Green Katina Boots	100	standard
+bandit	100	m	gloves	1082135	Blue Anelin	100	standard
+bandit	100	m	cape	1102031	Green Giles Cape	85	standard
+bandit	100	m	shield	1092019	Nimble Wristguard	22	standard
+bandit	100	m	weapon	1332052	Blood Dagger	100	standard
+bandit	100	f	hat	1002325	Purple Osfa Hat	90	standard
+bandit	100	f	earrings	1032030	Sword Earrings	100	standard
+bandit	100	f	overall	1051092	Red Katte	100	standard
+bandit	100	f	shoes	1072213	Green Katina Boots	100	standard
+bandit	100	f	gloves	1082135	Blue Anelin	100	standard
+bandit	100	f	cape	1102031	Green Giles Cape	85	standard
+bandit	100	f	shield	1092019	Nimble Wristguard	22	standard
+bandit	100	f	weapon	1332052	Blood Dagger	100	standard
+brawler	10	m	hat	1002610	Brown Rocky Bandana	10	standard
+brawler	10	m	overall	1052095	Brown Rocky Suit	10	standard
+brawler	10	m	shoes	1072005	Leather Sandals	0	standard, any class
+brawler	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+brawler	10	m	weapon	1482000	Steel Knuckler	10	standard
+brawler	10	f	hat	1002610	Brown Rocky Bandana	10	standard
+brawler	10	f	overall	1052095	Brown Rocky Suit	10	standard
+brawler	10	f	shoes	1072005	Leather Sandals	0	standard, any class
+brawler	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+brawler	10	f	weapon	1482000	Steel Knuckler	10	standard
+brawler	20	m	hat	1002616	Brown Double Marine	20	standard
+brawler	20	m	earrings	1032000	Weighted Earrings	20	standard
+brawler	20	m	overall	1052101	Beige Carribean	20	standard
+brawler	20	m	shoes	1072288	Brown Skeedy Sandals	20	standard
+brawler	20	m	gloves	1082183	Brown Leather Armor Glove	20	standard
+brawler	20	m	weapon	1482002	Double Tail Knuckler	20	standard
+brawler	20	f	hat	1002616	Brown Double Marine	20	standard
+brawler	20	f	earrings	1032000	Weighted Earrings	20	standard
+brawler	20	f	overall	1052101	Beige Carribean	20	standard
+brawler	20	f	shoes	1072288	Brown Skeedy Sandals	20	standard
+brawler	20	f	gloves	1082183	Brown Leather Armor Glove	20	standard
+brawler	20	f	weapon	1482002	Double Tail Knuckler	20	standard
+brawler	30	m	hat	1002622	White Oceania Cap	30	standard
+brawler	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+brawler	30	m	overall	1052107	Brown Pollard	30	standard
+brawler	30	m	shoes	1072338	Purple Snowshoes	30	standard
+brawler	30	m	gloves	1082189	Yellow Tartis	30	standard
+brawler	30	m	weapon	1482004	Prime Hands	30	standard
+brawler	30	f	hat	1002622	White Oceania Cap	30	standard
+brawler	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+brawler	30	f	overall	1052107	Brown Pollard	30	standard
+brawler	30	f	shoes	1072338	Purple Snowshoes	30	standard
+brawler	30	f	gloves	1082189	Yellow Tartis	30	standard
+brawler	30	f	weapon	1482004	Prime Hands	30	standard
+brawler	40	m	hat	1002628	Red Misty	40	standard
+brawler	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+brawler	40	m	overall	1052113	Red Barbay	40	standard
+brawler	40	m	shoes	1072300	Brown Leather Krag	40	standard
+brawler	40	m	gloves	1082195	Brown Barbee	40	standard
+brawler	40	m	weapon	1482006	Neozard	40	standard
+brawler	40	f	hat	1002628	Red Misty	40	standard
+brawler	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+brawler	40	f	overall	1052113	Red Barbay	40	standard
+brawler	40	f	shoes	1072300	Brown Leather Krag	40	standard
+brawler	40	f	gloves	1082195	Brown Barbee	40	standard
+brawler	40	f	weapon	1482006	Neozard	40	standard
+brawler	50	m	hat	1002631	Brown Leather Ocean Hat	50	standard
+brawler	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+brawler	50	m	overall	1052116	Green Plasteer	50	standard
+brawler	50	m	shoes	1072303	Brown Double Boots	50	standard
+brawler	50	m	gloves	1082198	Brown Royce	50	standard
+brawler	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+brawler	50	m	weapon	1482007	Fury Claw	50	standard
+brawler	50	f	hat	1002631	Brown Leather Ocean Hat	50	standard
+brawler	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+brawler	50	f	overall	1052116	Green Plasteer	50	standard
+brawler	50	f	shoes	1072303	Brown Double Boots	50	standard
+brawler	50	f	gloves	1082198	Brown Royce	50	standard
+brawler	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+brawler	50	f	weapon	1482007	Fury Claw	50	standard
+brawler	60	m	hat	1002634	Purple Cast Linen	60	standard
+brawler	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+brawler	60	m	overall	1052119	Black Royal Barone	60	standard
+brawler	60	m	shoes	1072306	Black Basile Boots	60	standard
+brawler	60	m	gloves	1082201	Black Schult	60	standard
+brawler	60	m	cape	1102016	Red Magic Cape	60	standard
+brawler	60	m	weapon	1482008	Psycho Claw	60	standard
+brawler	60	f	hat	1002634	Purple Cast Linen	60	standard
+brawler	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+brawler	60	f	overall	1052119	Black Royal Barone	60	standard
+brawler	60	f	shoes	1072306	Black Basile Boots	60	standard
+brawler	60	f	gloves	1082201	Black Schult	60	standard
+brawler	60	f	cape	1102016	Red Magic Cape	60	standard
+brawler	60	f	weapon	1482008	Psycho Claw	60	standard
+brawler	70	m	hat	1002637	Black Pirate's Bandana	70	standard
+brawler	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+brawler	70	m	overall	1052122	Red Viska	70	standard
+brawler	70	m	shoes	1072309	Black Voyson Shoes	70	standard
+brawler	70	m	gloves	1082204	Black Bisk	70	standard
+brawler	70	m	cape	1102022	Red Gaia Cape	65	standard
+brawler	70	m	weapon	1482009	Beia Crash	70	standard
+brawler	70	f	hat	1002637	Black Pirate's Bandana	70	standard
+brawler	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+brawler	70	f	overall	1052122	Red Viska	70	standard
+brawler	70	f	shoes	1072309	Black Voyson Shoes	70	standard
+brawler	70	f	gloves	1082204	Black Bisk	70	standard
+brawler	70	f	cape	1102022	Red Gaia Cape	65	standard
+brawler	70	f	weapon	1482009	Beia Crash	70	standard
+brawler	80	m	hat	1002640	Blue Sun Boat Hat	80	standard
+brawler	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+brawler	80	m	overall	1052125	White Pioneer	80	standard
+brawler	80	m	shoes	1072312	Blue Pageant	80	standard
+brawler	80	m	gloves	1082207	Blue Halfglove	80	standard
+brawler	80	m	cape	1102029	White Seraph Cape	75	standard
+brawler	80	m	weapon	1482010	Steelno	80	standard
+brawler	80	f	hat	1002640	Blue Sun Boat Hat	80	standard
+brawler	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+brawler	80	f	overall	1052125	White Pioneer	80	standard
+brawler	80	f	shoes	1072312	Blue Pageant	80	standard
+brawler	80	f	gloves	1082207	Blue Halfglove	80	standard
+brawler	80	f	cape	1102029	White Seraph Cape	75	standard
+brawler	80	f	weapon	1482010	Steelno	80	standard
+brawler	90	m	hat	1002643	Red Brave Hamal	90	standard
+brawler	90	m	earrings	1032017	Rose Earrings	90	standard
+brawler	90	m	overall	1052128	White Marquini	90	standard
+brawler	90	m	shoes	1072315	Black Markintz	90	standard
+brawler	90	m	gloves	1082210	Red Martier	90	standard
+brawler	90	m	cape	1102031	Green Giles Cape	85	standard
+brawler	90	m	weapon	1482011	White Fangz	90	standard
+brawler	90	f	hat	1002643	Red Brave Hamal	90	standard
+brawler	90	f	earrings	1032017	Rose Earrings	90	standard
+brawler	90	f	overall	1052128	White Marquini	90	standard
+brawler	90	f	shoes	1072315	Black Markintz	90	standard
+brawler	90	f	gloves	1082210	Red Martier	90	standard
+brawler	90	f	cape	1102031	Green Giles Cape	85	standard
+brawler	90	f	weapon	1482011	White Fangz	90	standard
+brawler	100	m	hat	1002646	Black Polax Hat	100	standard
+brawler	100	m	earrings	1032030	Sword Earrings	100	standard
+brawler	100	m	overall	1052131	Red Belly Duke	100	standard
+brawler	100	m	shoes	1072318	Black Duke Barkin Shoes	100	standard
+brawler	100	m	gloves	1082213	Black Skellduke	100	standard
+brawler	100	m	cape	1102031	Green Giles Cape	85	standard
+brawler	100	m	weapon	1482012	King Cent	100	standard
+brawler	100	f	hat	1002646	Black Polax Hat	100	standard
+brawler	100	f	earrings	1032030	Sword Earrings	100	standard
+brawler	100	f	overall	1052131	Red Belly Duke	100	standard
+brawler	100	f	shoes	1072318	Black Duke Barkin Shoes	100	standard
+brawler	100	f	gloves	1082213	Black Skellduke	100	standard
+brawler	100	f	cape	1102031	Green Giles Cape	85	standard
+brawler	100	f	weapon	1482012	King Cent	100	standard
+gunslinger	10	m	hat	1002610	Brown Rocky Bandana	10	standard
+gunslinger	10	m	overall	1052095	Brown Rocky Suit	10	standard
+gunslinger	10	m	shoes	1072005	Leather Sandals	0	standard, any class
+gunslinger	10	m	gloves	1082145	Yellow Work Gloves	10	standard, any class
+gunslinger	10	m	weapon	1492000	Pistol	10	standard
+gunslinger	10	f	hat	1002610	Brown Rocky Bandana	10	standard
+gunslinger	10	f	overall	1052095	Brown Rocky Suit	10	standard
+gunslinger	10	f	shoes	1072005	Leather Sandals	0	standard, any class
+gunslinger	10	f	gloves	1082145	Yellow Work Gloves	10	standard, any class
+gunslinger	10	f	weapon	1492000	Pistol	10	standard
+gunslinger	20	m	hat	1002616	Brown Double Marine	20	standard
+gunslinger	20	m	earrings	1032000	Weighted Earrings	20	standard
+gunslinger	20	m	overall	1052101	Beige Carribean	20	standard
+gunslinger	20	m	shoes	1072288	Brown Skeedy Sandals	20	standard
+gunslinger	20	m	gloves	1082183	Brown Leather Armor Glove	20	standard
+gunslinger	20	m	weapon	1492002	The Negotiator	20	standard
+gunslinger	20	f	hat	1002616	Brown Double Marine	20	standard
+gunslinger	20	f	earrings	1032000	Weighted Earrings	20	standard
+gunslinger	20	f	overall	1052101	Beige Carribean	20	standard
+gunslinger	20	f	shoes	1072288	Brown Skeedy Sandals	20	standard
+gunslinger	20	f	gloves	1082183	Brown Leather Armor Glove	20	standard
+gunslinger	20	f	weapon	1492002	The Negotiator	20	standard
+gunslinger	30	m	hat	1002622	White Oceania Cap	30	standard
+gunslinger	30	m	earrings	1032028	Red Emerald Earrings	30	standard
+gunslinger	30	m	overall	1052107	Brown Pollard	30	standard
+gunslinger	30	m	shoes	1072338	Purple Snowshoes	30	standard
+gunslinger	30	m	gloves	1082189	Yellow Tartis	30	standard
+gunslinger	30	m	weapon	1492004	Cold Mind	30	standard
+gunslinger	30	f	hat	1002622	White Oceania Cap	30	standard
+gunslinger	30	f	earrings	1032028	Red Emerald Earrings	30	standard
+gunslinger	30	f	overall	1052107	Brown Pollard	30	standard
+gunslinger	30	f	shoes	1072338	Purple Snowshoes	30	standard
+gunslinger	30	f	gloves	1082189	Yellow Tartis	30	standard
+gunslinger	30	f	weapon	1492004	Cold Mind	30	standard
+gunslinger	40	m	hat	1002628	Red Misty	40	standard
+gunslinger	40	m	earrings	1032048	Crystal Leaf Earrings	40	standard
+gunslinger	40	m	overall	1052113	Red Barbay	40	standard
+gunslinger	40	m	shoes	1072300	Brown Leather Krag	40	standard
+gunslinger	40	m	gloves	1082195	Brown Barbee	40	standard
+gunslinger	40	m	weapon	1492006	Lunar Shooter	40	standard
+gunslinger	40	f	hat	1002628	Red Misty	40	standard
+gunslinger	40	f	earrings	1032048	Crystal Leaf Earrings	40	standard
+gunslinger	40	f	overall	1052113	Red Barbay	40	standard
+gunslinger	40	f	shoes	1072300	Brown Leather Krag	40	standard
+gunslinger	40	f	gloves	1082195	Brown Barbee	40	standard
+gunslinger	40	f	weapon	1492006	Lunar Shooter	40	standard
+gunslinger	50	m	hat	1002631	Brown Leather Ocean Hat	50	standard
+gunslinger	50	m	earrings	1032027	Black Emerald Earrings	50	standard
+gunslinger	50	m	overall	1052116	Green Plasteer	50	standard
+gunslinger	50	m	shoes	1072303	Brown Double Boots	50	standard
+gunslinger	50	m	gloves	1082198	Brown Royce	50	standard
+gunslinger	50	m	cape	1102041	Pink Adventurer Cape	50	standard
+gunslinger	50	m	weapon	1492007	Mr. Rasfelt	50	standard
+gunslinger	50	f	hat	1002631	Brown Leather Ocean Hat	50	standard
+gunslinger	50	f	earrings	1032027	Black Emerald Earrings	50	standard
+gunslinger	50	f	overall	1052116	Green Plasteer	50	standard
+gunslinger	50	f	shoes	1072303	Brown Double Boots	50	standard
+gunslinger	50	f	gloves	1082198	Brown Royce	50	standard
+gunslinger	50	f	cape	1102041	Pink Adventurer Cape	50	standard
+gunslinger	50	f	weapon	1492007	Mr. Rasfelt	50	standard
+gunslinger	60	m	hat	1002634	Purple Cast Linen	60	standard
+gunslinger	60	m	earrings	1032014	Pink-Flowered Earrings	60	standard
+gunslinger	60	m	overall	1052119	Black Royal Barone	60	standard
+gunslinger	60	m	shoes	1072306	Black Basile Boots	60	standard
+gunslinger	60	m	gloves	1082201	Black Schult	60	standard
+gunslinger	60	m	cape	1102016	Red Magic Cape	60	standard
+gunslinger	60	m	weapon	1492008	Burning Hell	60	standard
+gunslinger	60	f	hat	1002634	Purple Cast Linen	60	standard
+gunslinger	60	f	earrings	1032014	Pink-Flowered Earrings	60	standard
+gunslinger	60	f	overall	1052119	Black Royal Barone	60	standard
+gunslinger	60	f	shoes	1072306	Black Basile Boots	60	standard
+gunslinger	60	f	gloves	1082201	Black Schult	60	standard
+gunslinger	60	f	cape	1102016	Red Magic Cape	60	standard
+gunslinger	60	f	weapon	1492008	Burning Hell	60	standard
+gunslinger	70	m	hat	1002637	Black Pirate's Bandana	70	standard
+gunslinger	70	m	earrings	1032015	Metal Silver Earrings	70	standard
+gunslinger	70	m	overall	1052122	Red Viska	70	standard
+gunslinger	70	m	shoes	1072309	Black Voyson Shoes	70	standard
+gunslinger	70	m	gloves	1082204	Black Bisk	70	standard
+gunslinger	70	m	cape	1102022	Red Gaia Cape	65	standard
+gunslinger	70	m	weapon	1492009	Abyss Shooter	70	standard
+gunslinger	70	f	hat	1002637	Black Pirate's Bandana	70	standard
+gunslinger	70	f	earrings	1032015	Metal Silver Earrings	70	standard
+gunslinger	70	f	overall	1052122	Red Viska	70	standard
+gunslinger	70	f	shoes	1072309	Black Voyson Shoes	70	standard
+gunslinger	70	f	gloves	1082204	Black Bisk	70	standard
+gunslinger	70	f	cape	1102022	Red Gaia Cape	65	standard
+gunslinger	70	f	weapon	1492009	Abyss Shooter	70	standard
+gunslinger	80	m	hat	1002640	Blue Sun Boat Hat	80	standard
+gunslinger	80	m	earrings	1032026	Gold Emerald Earrings	80	standard
+gunslinger	80	m	overall	1052125	White Pioneer	80	standard
+gunslinger	80	m	shoes	1072312	Blue Pageant	80	standard
+gunslinger	80	m	gloves	1082207	Blue Halfglove	80	standard
+gunslinger	80	m	cape	1102029	White Seraph Cape	75	standard
+gunslinger	80	m	weapon	1492010	Infinity's Wrath	80	standard
+gunslinger	80	f	hat	1002640	Blue Sun Boat Hat	80	standard
+gunslinger	80	f	earrings	1032026	Gold Emerald Earrings	80	standard
+gunslinger	80	f	overall	1052125	White Pioneer	80	standard
+gunslinger	80	f	shoes	1072312	Blue Pageant	80	standard
+gunslinger	80	f	gloves	1082207	Blue Halfglove	80	standard
+gunslinger	80	f	cape	1102029	White Seraph Cape	75	standard
+gunslinger	80	f	weapon	1492010	Infinity's Wrath	80	standard
+gunslinger	90	m	hat	1002643	Red Brave Hamal	90	standard
+gunslinger	90	m	earrings	1032017	Rose Earrings	90	standard
+gunslinger	90	m	overall	1052128	White Marquini	90	standard
+gunslinger	90	m	shoes	1072315	Black Markintz	90	standard
+gunslinger	90	m	gloves	1082210	Red Martier	90	standard
+gunslinger	90	m	cape	1102031	Green Giles Cape	85	standard
+gunslinger	90	m	weapon	1492011	The Peacemaker	90	standard
+gunslinger	90	f	hat	1002643	Red Brave Hamal	90	standard
+gunslinger	90	f	earrings	1032017	Rose Earrings	90	standard
+gunslinger	90	f	overall	1052128	White Marquini	90	standard
+gunslinger	90	f	shoes	1072315	Black Markintz	90	standard
+gunslinger	90	f	gloves	1082210	Red Martier	90	standard
+gunslinger	90	f	cape	1102031	Green Giles Cape	85	standard
+gunslinger	90	f	weapon	1492011	The Peacemaker	90	standard
+gunslinger	100	m	hat	1002646	Black Polax Hat	100	standard
+gunslinger	100	m	earrings	1032030	Sword Earrings	100	standard
+gunslinger	100	m	overall	1052131	Red Belly Duke	100	standard
+gunslinger	100	m	shoes	1072318	Black Duke Barkin Shoes	100	standard
+gunslinger	100	m	gloves	1082213	Black Skellduke	100	standard
+gunslinger	100	m	cape	1102031	Green Giles Cape	85	standard
+gunslinger	100	m	weapon	1492012	Concerto	100	standard
+gunslinger	100	f	hat	1002646	Black Polax Hat	100	standard
+gunslinger	100	f	earrings	1032030	Sword Earrings	100	standard
+gunslinger	100	f	overall	1052131	Red Belly Duke	100	standard
+gunslinger	100	f	shoes	1072318	Black Duke Barkin Shoes	100	standard
+gunslinger	100	f	gloves	1082213	Black Skellduke	100	standard
+gunslinger	100	f	cape	1102031	Green Giles Cape	85	standard
+gunslinger	100	f	weapon	1492012	Concerto	100	standard

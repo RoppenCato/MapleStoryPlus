@@ -1,0 +1,755 @@
+id	name	success_percent	destroy_percent	stats	other
+2040000	Scroll for Helmet for DEF	100		PDD+1	
+2040001	Scroll for Helmet for DEF	60		PDD+2 MDD+1	
+2040002	Scroll for Helmet for DEF	10		PDD+5 MDD+3 ACC+1	
+2040003	Scroll for Helmet for HP	100		MHP+5	
+2040004	Scroll for Helmet for HP	60		MHP+10	
+2040005	Scroll for Helmet for HP	10		MHP+30	
+2040006	Scroll for Helmet for DEF	100		PDD+5 MDD+3 ACC+1	
+2040007	Scroll for Helmet for HP	100		MHP+30	
+2040008	Dark scroll for Helmet for DEF	70	50	PDD+2 MDD+1	
+2040009	Dark Scroll for Helmet for DEF	30	50	PDD+5 MDD+3 ACC+1	
+2040010	Scroll for Helmet for HP	70	50	MHP+10	
+2040011	Dark Scroll for Helmet for HP	30	50	MHP+30	
+2040012	Dark Scroll for Helmet for INT	70	50	INT+2	
+2040013	Dark Scroll for Helmet for INT	30	50	INT+3	
+2040014	Dark Scroll for Helmet for Accuracy	70	50	DEX+1 ACC+2	
+2040015	Dark Scroll for Helmet for Accuracy	30	50	DEX+2 ACC+4	
+2040016	Scroll for Helmet for Accuracy	10		ACC+4 DEX+2	
+2040017	Scroll for Helmet for Accuracy	60		DEX+1 ACC+2	
+2040018	Scroll for Helmet for Accuracy	100		ACC+1	
+2040019	Scroll for Helmet for DEF	65		PDD+2 MDD+1	tradeBlock=1
+2040020	Scroll for Helmet for DEF	15		PDD+5 MDD+3 ACC+1	tradeBlock=1
+2040021	Scroll for Helmet for MaxHP	65		MHP+10	tradeBlock=1
+2040022	Scroll for Helmet for MaxHP	15		MHP+30	tradeBlock=1
+2040023	Scroll for Rudolph's Horn 60%	60		MAD+1 PAD+1	tradeBlock=1
+2040024	Scroll for Helmet for INT 100%	100		INT+1	
+2040025	Scroll for Helmet for INT 60%	60		INT+2	
+2040026	Scroll for Helmet for INT 10%	10		INT+3	
+2040027	Scroll for Helmet for DEX 100%	100		DEX+1	
+2040028	Scroll for Helmet for DEX 70%	70	50	DEX+2	
+2040029	Scroll for Helmet for DEX 60%	60		DEX+2	
+2040030	Scroll for Helmet for DEX 30%	30	50	DEX+3	
+2040031	Scroll for Helmet for DEX 10%	10		DEX+3	
+2040041	Scroll for Helmet for DEF 100%	100		PDD+2 MDD+3	
+2040042	Scroll for Helmet for HP 100%	100		MHP+15	
+2040045	Scroll for Helmet for DEF 50%	50		PDD+5 MDD+4	
+2040046	Scroll for Helmet for HP 50%	50		MHP+35	
+2040100	Scroll for Face Accessory for HP	10		MHP+30	
+2040101	Scroll for Face Accessory for HP	60		MHP+15	
+2040102	Scroll for Face Accessory for HP	100		MHP+5	
+2040103	Dark Scroll for Face Accessory for HP	30	50	MHP+30	
+2040104	Dark Scroll for Face Accessory for HP	70	50	MHP+15	
+2040105	Scroll for Face Accessory for Avoidability	10		EVA+2 DEX+2	
+2040106	Scroll for Face Accessory for Avoidability	60		EVA+1 DEX+1	
+2040107	Scroll for Face Accessory for Avoidability	100		EVA+1	
+2040108	Dark Scroll for Face Accessory for Avoidability	30	50	EVA+2 DEX+2	
+2040109	Dark Scroll for Face Accessory for Avoidability	70	50	EVA+1 DEX+1	
+2040110	Red-Nose STR Bandage 60%	60		STR+1	timeLimited=1 tradeBlock=1
+2040111	Red-Nose DEX Bandage 60%	60		DEX+1	timeLimited=1 tradeBlock=1
+2040112	Red-Nose INT Bandage 60%	60		INT+1	timeLimited=1 tradeBlock=1
+2040113	Red-Nose LUK Bandage 60%	60		LUK+1	timeLimited=1 tradeBlock=1
+2040114	Red-Nose ATT Bandage 60%	60		PAD+1	timeLimited=1 tradeBlock=1
+2040115	Red-Nose Weapon DEF Bandage 60%	60		PDD+1	timeLimited=1 tradeBlock=1
+2040116	Red-Nose MP Bandage 60%	60		MAD+1	timeLimited=1 tradeBlock=1
+2040117	Red-Nose Magic DEF Bandage 60%	60		MDD+1	timeLimited=1 tradeBlock=1
+2040118	Red-Nose Avoidability Bandage 60%	60		EVA+1	timeLimited=1 tradeBlock=1
+2040119	Red-Nose Accuracy Bandage 60%	60		ACC+1	timeLimited=1 tradeBlock=1
+2040200	Scroll for Eye Accessory for Accuracy	10		ACC+3 DEX+1	
+2040201	Scroll for Eye Accessory for Accuracy	60		ACC+2	
+2040202	Scroll for Eye Accessory for Accuracy	100		ACC+1	
+2040203	Dark Scroll for Eye Accessory for Accuracy	30	50	ACC+3 DEX+1	
+2040204	Dark Scroll for Eye Accessory for Accuracy	70	50	ACC+2	
+2040205	Scroll for Eye Accessory for INT	10		INT+3 MDD+2	
+2040206	Scroll for Eye Accessory for INT	60		INT+1 MDD+1	
+2040207	Scroll for Eye Accessory for INT	100		INT+1	
+2040208	Dark Scroll for Eye Accessory for INT	30	50	INT+3 MDD+2	
+2040209	Dark Scroll for Eye Accessory for INT	70	50	INT+1 MDD+1	
+2040300	Scroll for Earring for INT	100		MAD+1	
+2040301	Scroll for Earring for INT	60		MAD+2 INT+1	
+2040302	Scroll for Earring for INT	10		MAD+5 INT+3 MDD+1	
+2040303	Scroll for Earring for INT	100		MAD+5 INT+3 MDD+1	
+2040304	Dark scroll for Earring for INT	70	50	MAD+2 INT+1	
+2040305	Dark scroll for Earring for INT	30	50	MAD+5 INT+3 MDD+1	
+2040306	Dark scroll for Earring for DEX	70	50	DEX+2	
+2040307	Dark scroll for Earring for DEX	30	50	DEX+3	
+2040308	Dark Scroll for Earring for DEF	70	50	PDD+1 MDD+1	
+2040309	Dark Scroll for Earring for DEF	30	50	PDD+3 MDD+3 ACC+1	
+2040310	Scroll for Earring for DEF	10		PDD+3 MDD+3 ACC+1	
+2040311	Scroll for Earring for DEF	60		MDD+1 PDD+1	
+2040312	Scroll for Earring for DEF	100		PDD+1	
+2040313	Scroll for Earring for INT	65		MAD+2 INT+1	tradeBlock=1
+2040314	Scroll for Earring for INT	15		MDD+1 MAD+5 INT+3	tradeBlock=1
+2040315	[4yrAnniv]Scroll for Earring for INT	40	30	MAD+3 INT+2	tradeBlock=1
+2040316	Scroll for Earring for DEX 100%	100		DEX+1	
+2040317	Scroll for Earring for DEX 60%	60		DEX+2	
+2040318	Scroll for Earring for DEX 10%	10		DEX+3	
+2040319	Scroll for Earring for LUK 100%	100		LUK+1	
+2040320	Scroll for Earring for LUK 70%	70	50	LUK+2	
+2040321	Scroll for Earring for LUK 60%	60		LUK+2	
+2040322	Scroll for Earring for LUK 30%	30	50	LUK+3	
+2040323	Scroll for Earring for LUK 10%	10		LUK+3	
+2040324	Scroll for Earring for HP 100%	100		MHP+5	
+2040325	Scroll for Earring for HP 70%	70	50	MHP+15	
+2040326	Scroll for Earring for HP 60%	60		MHP+15	
+2040327	Scroll for Earring for HP 30%	30	50	MHP+30	
+2040328	Scroll for Earring for HP 10%	10		MHP+30	
+2040329	Scroll for Earring for DEX 10%	10		DEX+3	tradeBlock=1
+2040330	Scroll for Earring for INT 10%	10		INT+3 MAD+5 MDD+1	tradeBlock=1
+2040331	Scroll for Earring for LUK 10%	10		LUK+3	tradeBlock=1
+2040333	Scroll for Earring for INT 50%	50		MAD+5 INT+3 MDD+2	
+2040334	Scroll for Earring for INT 100%	100		MAD+2 INT+2	
+2040400	Scroll for Topwear for DEF	100		PDD+1	
+2040401	Scroll for Topwear for DEF	60		PDD+2 MDD+1	
+2040402	Scroll for Topwear for DEF	10		PDD+5 MDD+3 MHP+10	
+2040403	Scroll for Topwear for DEF	100		PDD+5 MDD+3 MHP+10	
+2040404	Dark scroll for Topwear for DEF	70	50	PDD+2 MDD+1	
+2040405	Dark scroll for Topwear for DEF	30	50	PDD+5 MDD+3 MHP+10	
+2040406	Dark scroll for Topwear for STR	70	50	STR+2	
+2040407	Dark scroll for Topwear for STR	30	50	STR+3	
+2040408	Dark scroll for Topwear for HP	70	50	MHP+15	
+2040409	Dark scroll for Topwear for HP	30	50	MHP+30	
+2040410	Dark Scroll for Topwear for LUK	70	50	LUK+2 EVA+1	
+2040411	Dark Scroll for Topwear for LUK	30	50	LUK+3 EVA+3	
+2040412	Scroll for Topwear for LUK	10		LUK+3 EVA+3	
+2040413	Scroll for Topwear for LUK	60		LUK+2 EVA+1	
+2040414	Scroll for Topwear for LUK	100		LUK+1	
+2040415	Scroll for Topwear for DEF	65		PDD+2 MDD+1	tradeBlock=1
+2040416	Scroll for Topwear for DEF	15		PDD+5 MDD+3 MHP+10	tradeBlock=1
+2040417	Scroll for Topwear for STR 100%	100		STR+1	
+2040418	Scroll for Topwear for STR 60%	60		STR+2	
+2040419	Scroll for Topwear for STR 10%	10		STR+3	
+2040420	Scroll for Topwear for HP 100%	100		MHP+5	
+2040421	Scroll for Topwear for HP 60%	60		MHP+15	
+2040422	Scroll for Topwear for HP 10%	10		MHP+30	
+2040423	Scroll for Topwear for LUK 100%	100		LUK+1	
+2040424	Scroll for Topwear for LUK 70%	70	50	LUK+2	
+2040425	Scroll for Topwear for LUK 60%	60		LUK+2	
+2040426	Scroll for Topwear for LUK 30%	30	50	LUK+3	
+2040427	Scroll for Topwear for LUK 10%	10		LUK+3	
+2040429	Scroll for Topwear for DEF 50%	50		PDD+5 MDD+4	
+2040430	Scroll for Topwear for DEF 100%	100		PDD+2 MDD+3	
+2040500	Scroll for Overall Armor for DEX	100		DEX+1	
+2040501	Scroll for Overall Armor for DEX	60		DEX+2 ACC+1	
+2040502	Scroll for Overall Armor for DEX	10		DEX+5 ACC+3 Speed+1	
+2040503	Scroll for Overall Armor for DEF	100		PDD+1	
+2040504	Scroll for Overall Armor for DEF	60		PDD+2 MDD+1	
+2040505	Scroll for Overall Armor for DEF	10		PDD+5 MDD+3 MHP+10	
+2040506	Scroll for Overall Armor for DEX	100		DEX+5 ACC+3 Speed+1	
+2040507	Scroll for Overall Armor for DEF	100		PDD+5 MDD+3 MHP+10	
+2040508	Dark scroll for Overall Armor for DEX	70	50	DEX+2 ACC+1	
+2040509	Dark scroll for Overall Armor for DEX	30	50	DEX+5 ACC+3 Speed+1	
+2040510	Dark scroll for Overall Armor for DEF	70	50	PDD+2 MDD+2	
+2040511	Dark scroll for Overall Armor for DEF	30	50	PDD+5 MDD+3 MHP+10	
+2040512	Scroll for Overall Armor for INT	100		INT+1	
+2040513	Scroll for Overall Armor for INT	60		INT+2 MDD+1	
+2040514	Scroll for Overall Armor for INT	10		INT+5 MDD+3 MMP+10	
+2040515	Scroll for Overall Armor for LUK	100		LUK+1	
+2040516	Scroll for Overall Armor for LUK	60		LUK+2 EVA+1	
+2040517	Scroll for Overall Armor for LUK	10		LUK+5 EVA+3 ACC+1	
+2040518	Dark scroll for Overall Armor for INT	70	50	INT+2 MDD+1	
+2040519	Dark scroll for Overall Armor for INT	30	50	INT+5 MDD+3 MMP+10	
+2040520	Dark scroll for Overall Armor for LUK	70	50	LUK+2 EVA+1	
+2040521	Dark scroll for Overall Armor for LUK	30	50	LUK+5 EVA+3 ACC+1	
+2040522	Scroll for Overall Armor for DEX	65		DEX+2 ACC+1	tradeBlock=1
+2040523	Scroll for Overall Armor for DEX	15		DEX+5 ACC+3 Speed+1	tradeBlock=1
+2040524	Overall Armor Scroll for DEF	65		PDD+2 MDD+1	tradeBlock=1
+2040525	Overall Armor Scroll for DEF	15		PDD+5 MDD+3 MHP+10	tradeBlock=1
+2040526	Scroll for Overall Armor for INT	65		INT+2 MDD+1	tradeBlock=1
+2040527	Scroll for Overall Armor for INT	15		INT+5 MDD+3 MMP+10	tradeBlock=1
+2040528	Scroll for Overall Armor for LUK	65		LUK+2 EVA+1	tradeBlock=1
+2040529	Scroll for Overall Armor for LUK	15		LUK+5 EVA+3 ACC+1	tradeBlock=1
+2040530	Scroll for Overall for STR 100%	100		STR+1	
+2040531	Scroll for Overall for STR 70%	70	50	STR+2 PDD+1	
+2040532	Scroll for Overall for STR 60%	60		STR+2 PDD+1	
+2040533	Scroll for Overall for STR 30%	30	50	STR+5 PDD+3 MHP+5	
+2040534	Scroll for Overall for STR 10%	10		STR+5 PDD+3 MHP+5	
+2040538	Scroll for Overall Armor for DEX 100%	100		DEX+2 ACC+3	
+2040539	Scroll for Overall Armor for DEF 100%	100		PDD+2 MDD+3	
+2040542	Scroll for Overall Armor for DEX 50%	50		DEX+5 Speed+1 EVA+1	
+2040543	Scroll for Overall Armor for DEF 50%	50		PDD+5 MDD+4	
+2040600	Scroll for Bottomwear for DEF	100		PDD+1	
+2040601	Scroll for Bottomwear for DEF	60		PDD+2 MDD+1	
+2040602	Scroll for Bottomwear for DEF	10		PDD+5 MDD+3 MHP+10	
+2040603	Scroll for Bottomwear for DEF	100		PDD+5 MDD+3 MHP+10	
+2040604	Dark scroll for Bottomwear for DEF	70	50	PDD+2 MDD+1	
+2040605	Dark scroll for Bottomwear for DEF	30	50	PDD+5 MDD+3 MHP+10	
+2040606	Dark scroll for Bottomwear for Jump	70	50	Jump+2 EVA+1	
+2040607	Dark scroll for Bottomwear for Jump	30	50	Jump+4 EVA+2	
+2040608	Dark scroll for Bottomwear for HP	70	50	MHP+15	
+2040609	Dark scroll for Bottomwear for HP	30	50	MHP+30	
+2040610	Dark Scroll for Bottomwear for DEX	70	50	DEX+2 Speed+1	
+2040611	Dark Scroll for Bottomwear for DEX	30	50	DEX+3 Speed+3	
+2040612	Scroll for Bottomwear for DEX	10		DEX+3 Speed+3	
+2040613	Scroll for Bottomwear for DEX	60		DEX+2 Speed+1	
+2040614	Scroll for Bottomwear for DEX	100		DEX+1	
+2040615	Scroll for Bottomwear for DEF	65		PDD+2 MDD+1	tradeBlock=1
+2040616	Scroll for Bottomwear for DEF	15		PDD+5 MDD+3 MHP+10	tradeBlock=1
+2040617	Scroll for Bottomwear for Jump 100%	100		Jump+1	
+2040618	Scroll for Bottomwear for Jump 60%	60		Jump+2 EVA+1	
+2040619	Scroll for Bottomwear for Jump 10%	10		Jump+4 EVA+2	
+2040620	Scroll for Bottomwear for HP 100%	100		MHP+5	
+2040621	Scroll for Bottomwear for HP 60%	60		MHP+15	
+2040622	Scroll for Bottomwear for HP 10%	10		MHP+30	
+2040623	Scroll for Bottomwear for DEX 100%	100		DEX+1	
+2040624	Scroll for Bottomwear for DEX 70%	70	50	DEX+2 ACC+1	
+2040625	Scroll for Bottomwear for DEX 60%	60		DEX+2 ACC+1	
+2040626	Scroll for Bottomwear for DEX 30%	30	50	DEX+3 ACC+2 Speed+1	
+2040627	Scroll for Bottomwear for DEX 10%	10		DEX+3 ACC+2 Speed+1	
+2040629	Scroll for Bottomwear for DEF 50%	50		PDD+5 MDD+4	
+2040630	Scroll for Bottomwear for DEF 100%	100		PDD+2 MDD+3	
+2040700	Scroll for Shoes for DEX	100		EVA+1	
+2040701	Scroll for Shoes for DEX	60		EVA+2 ACC+1	
+2040702	Scroll for Shoes for DEX	10		EVA+5 ACC+3 Speed+1	
+2040703	Scroll for Shoes for Jump	100		Jump+1	
+2040704	Scroll for Shoes for Jump	60		Jump+2 DEX+1	
+2040705	Scroll for Shoes for Jump	10		Jump+5 DEX+3 Speed+1	
+2040706	Scroll for Shoes for Speed	100		Speed+1	
+2040707	Scroll for Shoes for Speed	60		Speed+2	
+2040708	Scroll for Shoes for Speed	10		Speed+3	
+2040709	Scroll for Shoes for DEX	100		EVA+5 ACC+3 Speed+1	
+2040710	Scroll for Shoes for Jump	100		Jump+5 DEX+3 Speed+1	
+2040711	Scroll for Shoes for Speed	100		Speed+3	
+2040712	Dark scroll for Shoes for DEX	70	50	EVA+2 ACC+1	
+2040713	Dark scroll for Shoes for DEX	30	50	EVA+5 ACC+3 Speed+1	
+2040714	Dark scroll for Shoes for Jump	70	50	Jump+2 DEX+1	
+2040715	Dark scroll for Shoes for Jump	30	50	Jump+5 DEX+3 Speed+1	
+2040716	Dark scroll for Shoes for Speed	70	50	Speed+2	
+2040717	Dark scroll for Shoes for Speed	30	50	Speed+3	
+2040718	Scroll for Shoes for DEX	65		EVA+2 ACC+1	tradeBlock=1
+2040719	Scroll for Shoes for DEX	15		EVA+5 ACC+3 Speed+1	tradeBlock=1
+2040720	Scroll for Shoes for Jump	65		Jump+2 DEX+1	tradeBlock=1
+2040721	Scroll for Shoes for Jump	15		Jump+5 DEX+3 Speed+1	tradeBlock=1
+2040722	Scroll for Shoes for Speed	65		Speed+2	tradeBlock=1
+2040723	Scroll for Shoes for Speed	15		Speed+3	tradeBlock=1
+2040727	Scroll for Spikes on Shoes 10%	10			preventslip=1 tradeBlock=1
+2040728	Balrog's STR Scroll 30%	30		STR+2	tradeBlock=1
+2040729	Balrog's INT Scroll 30%	30		INT+2	tradeBlock=1
+2040730	Balrog's LUK Scroll 30%	30		LUK+2	tradeBlock=1
+2040731	Balrog's DEX Scroll 30%	30		DEX+2	tradeBlock=1
+2040732	Balrog's HP Scroll 30%	30		MHP+30	tradeBlock=1
+2040733	Balrog's MP Scroll 30%	30		MMP+30	tradeBlock=1
+2040734	Balrog's Speed Scroll 30%	30		Speed+3	tradeBlock=1
+2040735	Balrog's Jump Scroll 30%	30		Jump+5	tradeBlock=1
+2040736	Balrog's Accuracy Scroll 30%	30		ACC+5	tradeBlock=1
+2040737	Balrog's Avoidability Scroll 30%	30		EVA+5	tradeBlock=1
+2040738	Balrog's Defense Scroll 30%	30		PDD+10 MDD+10	tradeBlock=1
+2040739	Balrog's Twilight Scroll 5%	5		PDD+14 MDD+14 STR+4 INT+4 DEX+4 LUK+4 ACC+4 EVA+4 Speed+4 Jump+4 MHP+40 MMP+40	tradeBlock=1
+2040740	Scroll for Shoes for DEX 100%	100		EVA+2 ACC+3	
+2040741	Scroll for Shoes for Jump 100%	100		Jump+2 DEX+2	
+2040742	Scroll for Shoes for Speed 100%	100		Speed+2	
+2040755	Scroll for Shoes for DEX 50%	50		EVA+3 ACC+3 Speed+2	
+2040756	Scroll for Shoes for Jump 50%	50		Jump+6 Speed+1	
+2040757	Scroll for Shoes for Speed 50%	50		Speed+3 Jump+1	
+2040800	Scroll for Gloves for DEX	100		ACC+1	
+2040801	Scroll for Gloves for DEX	60		ACC+2 DEX+1	
+2040802	Scroll for Gloves for DEX	10		ACC+5 DEX+3 EVA+1	
+2040803	Scroll for Gloves for ATT	100		PAD+1	
+2040804	Scroll for Gloves for ATT	60		PAD+2	
+2040805	Scroll for Gloves for ATT	10		PAD+3	
+2040806	Scroll for Gloves for DEX	100		ACC+5 DEX+3 EVA+1	
+2040807	Scroll for Gloves for ATT	100		PAD+3	
+2040808	Dark scroll for Gloves for DEX	70	50	ACC+2 DEX+1	
+2040809	Dark scroll for Gloves for DEX	30	50	ACC+5 DEX+3 EVA+1	
+2040810	Dark scroll for Gloves for ATT	70	50	PAD+2	
+2040811	Dark scroll for Gloves for ATT	30	50	PAD+3	
+2040812	Dark scroll for Gloves for HP	70	50	MHP+15	
+2040813	Dark scroll for Gloves for HP	30	50	MHP+30	
+2040814	Dark Scroll for Gloves for Magic Att.	70	50	MAD+1 INT+1	
+2040815	Dark Scroll for Gloves for Magic Att.	30	50	MAD+3 INT+3 MDD+1	
+2040816	Scroll for Gloves for Magic Att.	10		INT+3 MAD+3 MDD+1	
+2040817	Scroll for Gloves for Magic Att.	60		MAD+1 INT+1	
+2040818	Scroll for Gloves for Magic Att.	100		MAD+1	
+2040819	Scroll for Gloves for DEX	65		ACC+2 DEX+1	tradeBlock=1
+2040820	Scroll for Gloves for DEX	15		ACC+5 DEX+3 EVA+1	tradeBlock=1
+2040821	Scroll for Gloves for ATT	65		PAD+2	tradeBlock=1
+2040822	Scroll for Gloves for ATT	15		PAD+3	tradeBlock=1
+2040823	Scroll for Gloves for HP 100%	100		MHP+5	
+2040824	Scroll for Gloves for HP 60%	60		MHP+15	
+2040825	Scroll for Gloves for HP 10%	10		MHP+30	
+2040826	Scroll for Gloves for ATT 60%	60		PAD+2	tradeBlock=1
+2040829	Scroll for Gloves for DEX 100%	100		ACC+2 DEX+2	
+2040830	Scroll for Gloves for ATT 100%	100		PAD+2	
+2040833	Scroll for Gloves for DEX 50%	50		ACC+3 DEX+3 EVA+3	
+2040834	Scroll for Gloves for ATT 50%	50		PAD+3	
+2040900	Scroll for Shield for DEF	100		PDD+1	
+2040901	Scroll for Shield for DEF	60		PDD+2 MDD+1	
+2040902	Scroll for Shield for DEF	10		PDD+5 MDD+3 MHP+10	
+2040903	Scroll for Shield for DEF	100		PDD+5 MDD+3 MHP+10	
+2040904	Dark scroll for Shield for DEF	70	50	PDD+2 MDD+1	
+2040905	Dark scroll for Shield for DEF	30	50	PDD+5 MDD+3 MHP+10	
+2040906	Dark scroll for Shield for LUK	70	50	LUK+2	
+2040907	Dark scroll for Shield for LUK	30	50	LUK+3	
+2040908	Dark scroll for Shield for HP	70	50	MHP+15	
+2040909	Dark scroll for Shield for HP	30	50	MHP+30	
+2040910	Scroll for Shield for DEF	65		PDD+2 MDD+1	tradeBlock=1
+2040911	Scroll for Shield for DEF	15		PDD+5 MDD+3 MHP+10	tradeBlock=1
+2040912	[4yrAnniv]Scroll for Shield for DEF	40	30	PDD+3 MDD+2	tradeBlock=1
+2040914	Scroll for Shield for Weapon Att.	60		PAD+2 STR+1	
+2040915	Scroll for Shield for Weapon Att.	10		PAD+3 STR+2	
+2040916	Dark Scroll for Shield for Weapon Att.	70	50	PAD+2 STR+1	
+2040917	Dark Scroll for Shield for Weapon Att.	30	50	PAD+3 STR+2	
+2040918	Scroll for Shield for Magic Att.	100		MAD+1	
+2040919	Scroll for Shield for Magic Att.	60		MAD+2 INT+1	
+2040920	Scroll for Shield for Magic Att.	10		MAD+3 INT+2	
+2040921	Dark Scroll for Shield for Magic Att.	70	50	MAD+2 INT+1	
+2040922	Dark Scroll for Shield for Magic Att.	30	50	MAD+3 INT+2	
+2040923	Scroll for Shield for LUK 100%	100		LUK+1	
+2040924	Scroll for Shield for LUK 60%	60		LUK+2	
+2040925	Scroll for Shield for LUK 10%	10		LUK+3	
+2040926	Scroll for Shield for HP 100%	100		MHP+5	
+2040927	Scroll for Shield for HP 60%	60		MHP+15	
+2040928	Scroll for Shield for HP 10%	10		MHP+30	
+2040929	Scroll for Shield for STR 100%	100		STR+1	
+2040930	Scroll for Shield for STR 70%	70	50	STR+2	
+2040931	Scroll for Shield for STR 60%	60		STR+2	
+2040932	Scroll for Shield for STR 30%	30	50	STR+3	
+2040933	Scroll for Shield for STR 10%	10		STR+3	
+2040936	Scroll for Shield for DEF 100%	100		PDD+2 MDD+3	
+2040943	Scroll for Shield for DEF 50%	50		PDD+5 MDD+4	
+2041000	Scroll for Cape for Magic Def.	100		MDD+1	
+2041001	Scroll for Cape for Magic Def.	60		MDD+3 PDD+1	
+2041002	Scroll for Cape for Magic Def.	10		MDD+5 PDD+3 MMP+10	
+2041003	Scroll for Cape for Weapon Def.	100		PDD+1	
+2041004	Scroll for Cape for Weapon Def.	60		PDD+3 MDD+1	
+2041005	Scroll for Cape for Weapon Def.	10		PDD+5 MDD+3 MHP+10	
+2041006	Scroll for Cape for HP	100		MHP+5	
+2041007	Scroll for Cape for HP	60		MHP+10	
+2041008	Scroll for Cape for HP	10		MHP+20	
+2041009	Scroll for Cape for MP	100		MMP+5	
+2041010	Scroll for Cape for MP	60		MMP+10	
+2041011	Scroll for Cape for MP	10		MMP+20	
+2041012	Scroll for Cape for STR	100		STR+1	
+2041013	Scroll for Cape for STR	60		STR+2	
+2041014	Scroll for Cape for STR	10		STR+3	
+2041015	Scroll for Cape for INT	100		INT+1	
+2041016	Scroll for Cape for INT	60		INT+2	
+2041017	Scroll for Cape for INT	10		INT+3	
+2041018	Scroll for Cape for DEX	100		DEX+1	
+2041019	Scroll for Cape for DEX	60		DEX+2	
+2041020	Scroll for Cape for DEX	10		DEX+3	
+2041021	Scroll for Cape for LUK	100		LUK+1	
+2041022	Scroll for Cape for LUK	60		LUK+2	
+2041023	Scroll for Cape for LUK	10		LUK+3	
+2041024	Scroll for Cape for Magic Def.	100		MDD+5 PDD+3 MMP+10	
+2041025	Scroll for Cape for Weapon Def.	100		PDD+5 MDD+3 MHP+10	
+2041026	Dark scroll for Cape for Magic Def.	70	50	MDD+2 PDD+1	
+2041027	Dark scroll for Cape for Magic Def.	30	50	MDD+5 PDD+3 MMP+10	
+2041028	Dark scroll for Cape for Weapon Def.	70	50	PDD+3 MDD+1	
+2041029	Dark scroll for Cape for Weapon Def.	30	50	PDD+5 MDD+3 MHP+10	
+2041030	Dark scroll for Cape for HP	70	50	MHP+10	
+2041031	Dark scroll for Cape for HP	30	50	MHP+20	
+2041032	Dark scroll for Cape for MP	70	50	MMP+10	
+2041033	Dark scroll for Cape for MP	30	50	MMP+20	
+2041034	Dark scroll for Cape for STR	70	50	STR+2	
+2041035	Dark scroll for Cape for STR	30	50	STR+3	
+2041036	Dark scroll for Cape for INT	70	50	INT+2	
+2041037	Dark scroll for Cape for INT	30	50	INT+3	
+2041038	Dark scroll for Cape for DEX	70	50	DEX+2	
+2041039	Dark scroll for Cape for DEX	30	50	DEX+3	
+2041040	Dark scroll for Cape for LUK	70	50	LUK+2	
+2041041	Dark scroll for Cape for LUK	30	50	LUK+3	
+2041042	Scroll for Cape for Magic DEF	65		MDD+3 PDD+1	tradeBlock=1
+2041043	Scroll for Cape for Magic DEF	15		MDD+5 PDD+3 MMP+10	tradeBlock=1
+2041044	Scroll for Cape for Weapon DEF	65		PDD+3 MDD+1	tradeBlock=1
+2041045	Scroll for Cape for Weapon DEF	15		PDD+5 MDD+3 MHP+10	tradeBlock=1
+2041046	Scroll for Cape for MaxHP	65		MHP+10	tradeBlock=1
+2041047	Scroll for Cape for MaxHP	15		MHP+20	tradeBlock=1
+2041048	Scroll for Cape for MP	65		MMP+10	tradeBlock=1
+2041049	Scroll for Cape for MP	15		MMP+20	tradeBlock=1
+2041050	Scroll for Cape for STR	65		STR+2	tradeBlock=1
+2041051	Scroll for Cape for STR	15		STR+3	tradeBlock=1
+2041052	Scroll for Cape for INT	65		INT+2	tradeBlock=1
+2041053	Scroll for Cape for INT	15		INT+3	tradeBlock=1
+2041054	Scroll for Cape for DEX	65		DEX+2	tradeBlock=1
+2041055	Scroll for Cape for DEX	15		DEX+3	tradeBlock=1
+2041056	Scroll for Cape for LUK	65		LUK+2	tradeBlock=1
+2041057	Scroll for Cape for LUK	15		LUK+3	tradeBlock=1
+2041058	Scroll for Cape for Cold Protection 10%	10			warmsupport=1 tradeBlock=1
+2041059	[4yrAnniv] Scroll for Cape for STR 20%	20	30	STR+3	tradeBlock=1
+2041060	[4yrAnniv] Scroll for Cape for INT 20%	20	30	INT+3	tradeBlock=1
+2041061	[4yrAnniv] Scroll for Cape for DEX 20%	20	30	DEX+3	tradeBlock=1
+2041062	[4yrAnniv] Scroll for Cape for LUK 20%	20	30	LUK+3	tradeBlock=1
+2041066	Scroll for Cape for Magic DEF 100%	100		MDD+3 PDD+2	
+2041067	Scroll for Cape for Weapon DEF 100%	100		PDD+3 MDD+2	
+2041068	Scroll for Cape for Magic Def. 50%	50		MDD+5 PDD+4	
+2041069	Scroll for Cape for Weapon Def. 50%	50		PDD+5 MDD+4	
+2041100	Scroll for Ring for STR 100%	100		STR+1	
+2041101	Scroll for Rings for STR 60%	60		STR+2	
+2041102	Scroll for Rings for STR 10%	10		STR+3	
+2041103	Scroll for Rings for INT 100%	100		INT+1	
+2041104	Scroll for Rings for INT 60%	60		INT+2	
+2041105	Scroll for Rings for INT 10%	10		INT+3	
+2041106	Scroll for Rings for DEX 100%	100		DEX+1	
+2041107	Scroll for Rings for DEX 60%	60		DEX+2	
+2041108	Scroll for Rings for DEX 10%	10		DEX+3	
+2041109	Scroll for Rings for LUK 100%	100		LUK+1	
+2041110	Scroll for Rings for LUK 60%	60		LUK+2	
+2041111	Scroll for Rings for LUK 10%	10		LUK+3	
+2041112	Dark Scroll for Rings for STR 70%	70	50	MHP+10	
+2041113	Dark Scroll for Rings for STR 30%	30	50	STR+3	
+2041114	Dark Scroll for Rings for INT 70%	70	50	INT+2	
+2041115	Dark Scroll for Rings for INT 30%	30	50	INT+3	
+2041116	Dark Scroll for Rings for DEX 70%	70	50	DEX+2	
+2041117	Dark Scroll for Rings for DEX 30%	30	50	DEX+3	
+2041118	Dark Scroll for Rings for LUK 70%	70	50	LUK+2	
+2041119	Dark Scroll for Rings for LUK 30%	30	50	LUK+3	
+2041200	Dragon Stone	100		PDD+140 MDD+140 EVA+15 STR+15 DEX+15 LUK+15 INT+15	only=1 tradeBlock=1 reqRUC=3
+2041211	Spiegelmann's Marble	60		MHP+30 MMP+30	tradeBlock=1
+2041212	Rock of Wisdom	60		MHP+70 MMP+70	tradeBlock=1
+2041300	Scroll for Belts for STR 100%	100		STR+1	
+2041301	Scroll for Belts for STR 60%	60		STR+2	
+2041302	Scroll for Belts for STR 10%	10		STR+3	
+2041303	Scroll for Belts for INT 100%	100		INT+1	
+2041304	Scroll for Belts for INT 60%	60		INT+2	
+2041305	Scroll for Belts for INT 10%	10		INT+3	
+2041306	Scroll for Belts for DEX 100%	100		DEX+1	
+2041307	Scroll for Belts for DEX 60%	60		DEX+2	
+2041308	Scroll for Belts for DEX 10%	10		DEX+3	
+2041309	Scroll for Belts for LUK 100%	100		LUK+1	
+2041310	Scroll for Belts for LUK 60%	60		LUK+2	
+2041311	Scroll for Belts for LUK 10%	10		LUK+3	
+2041312	Dark Scroll for Belts for STR 70%	70	50	STR+2	
+2041313	Dark Scroll for Belts for STR 30%	30	50	STR+3	
+2041314	Dark Scroll for Belts for INT 70%	70	50	INT+2	
+2041315	Dark Scroll for Belts for INT 30%	30	50	INT+3	
+2041316	Dark Scroll for Belts for DEX 70%	70	50	DEX+2	
+2041317	Dark Scroll for Belts for DEX 30%	30	50	DEX+3	
+2041318	Dark Scroll for Belts for LUK 70%	70	50	LUK+2	
+2041319	Dark Scroll for Belts for LUK 30%	30	50	LUK+3	
+2043000	Scroll for One-Handed Sword for ATT	100		PAD+1	
+2043001	Scroll for One-Handed Sword for ATT	60		PAD+2 STR+1	
+2043002	Scroll for One-Handed Sword for ATT	10		PAD+5 STR+3 PDD+1	
+2043003	Scroll for One-Handed Sword for ATT	100		PAD+5 STR+3 PDD+1	
+2043004	Dark scroll for One-Handed Sword for ATT	70	50	PAD+2 STR+1	
+2043005	Dark scroll for One-Handed Sword for ATT	30	50	PAD+5 STR+3 PDD+1	
+2043006	Dark Scroll for One-Handed Sword for Magic Att.	70	50	MAD+1 INT+1	
+2043007	Dark Scroll for One-Handed Sword for Magic Att.	30	50	MAD+2 INT+2 MDD+1	
+2043008	Scroll for One-Handed Sword for Magic Att.	10		MAD+2 INT+2 MDD+1	
+2043009	Scroll for One-Handed Sword for Magic Att.	60		MAD+1 INT+1	
+2043010	Scroll for One-Handed Sword for Magic Att.	100		MAD+1	
+2043011	Scroll for One-Handed Sword for ATT	65		PAD+2 STR+1	tradeBlock=1
+2043012	Scroll for One-Handed Sword for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2043013	[4yrAnniv]Scroll for One-Handed Sword for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2043015	Scroll for One-Handed Sword for Accuracy 100%	100		ACC+1	
+2043016	Scroll for One-Handed Sword for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2043017	Scroll for One-Handed Sword for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2043018	Scroll for One-Handed Sword for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2043019	Scroll for One-Handed Sword for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2043021	King Pepe's 60% Scroll for One-handed Sword Attacks	60		PAD+2 STR+1	tradeBlock=1
+2043022	Scroll for One-Handed Sword for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2043023	Scroll for One-Handed Sword for ATT 100%	100		PAD+2 STR+2	
+2043100	Scroll for One-Handed Axe for ATT	100		PAD+1	
+2043101	Scroll for One-Handed Axe for ATT	60		PAD+2 STR+1	
+2043102	Scroll for One-Handed Axe for ATT	10		PAD+5 STR+3 PDD+1	
+2043103	Scroll for One-Handed Axe for ATT	100		PAD+5 STR+3 PDD+1	
+2043104	Dark scroll for One-Handed Axe for ATT	70	50	PAD+2 STR+1	
+2043105	Dark scroll for One-Handed Axe for ATT	30	50	PAD+5 STR+3 PDD+1	
+2043106	Scroll for One-Handed Axe for ATT	65		PAD+2 STR+1	tradeBlock=1
+2043107	Scroll for One-Handed Axe for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2043108	[4yrAnniv]Scroll for One-Handed Axe for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2043110	Scroll for One-Handed Axe for Accuracy 100%	100		ACC+1	
+2043111	Scroll for One-Handed Axe for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2043112	Scroll for One-Handed Axe for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2043113	Scroll for One-Handed Axe for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2043114	Scroll for One-Handed Axe for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2043116	King Pepe's 60% Scroll for One-handed Axe Attacks	60		PAD+2 STR+1	tradeBlock=1
+2043117	Scroll for One-Handed Axe for ATT 100%	100		PAD+2 STR+2	
+2043120	Scroll for One-Handed Axe for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2043200	Scroll for One-Handed BW for ATT	100		PAD+1	
+2043201	Scroll for One-Handed BW for ATT	60		PAD+2 STR+1	
+2043202	Scroll for One-Handed BW for ATT	10		PAD+5 STR+3 PDD+1	
+2043203	Scroll for One-Handed BW for ATT	100		PAD+5 STR+3 PDD+1	
+2043204	Dark scroll for One-Handed BW for ATT	70	50	PAD+2 STR+1	
+2043205	Dark scroll for One-Handed BW for ATT	30	50	PAD+5 STR+3 PDD+1	
+2043206	Scroll for One-Handed BW for ATT	65		PAD+2 STR+1	tradeBlock=1
+2043207	Scroll for One-Handed BW for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2043208	[4yrAnniv]Scroll for One-Handed BW for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2043210	Scroll for One-Handed BW for Accuracy 100%	100		ACC+1	
+2043211	Scroll for One-Handed BW for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2043212	Scroll for One-Handed BW for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2043213	Scroll for One-Handed BW for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2043214	Scroll for One-Handed BW for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2043216	King Pepe's 60% Scroll for One-handed BW Attacks	60		PAD+2 STR+1	tradeBlock=1
+2043217	Scroll for One-Handed BW for ATT 100%	100		PAD+2 STR+2	
+2043220	Scroll for One-Handed BW for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2043300	Scroll for Dagger for ATT	100		PAD+1	
+2043301	Scroll for Dagger for ATT	60		PAD+2 LUK+1	
+2043302	Scroll for Dagger for ATT	10		PAD+5 LUK+3 PDD+1	
+2043303	Scroll for Dagger for ATT	100		PAD+5 LUK+3 PDD+1	
+2043304	Dark scroll for Dagger for ATT	70	50	PAD+2 LUK+1	
+2043305	Dark scroll for Dagger for ATT	30	50	PAD+5 LUK+3 PDD+1	
+2043306	Scroll for Dagger for ATT	65		PAD+2 LUK+1	tradeBlock=1
+2043307	Scroll for Dagger for ATT	15		PAD+5 LUK+3 PDD+1	tradeBlock=1
+2043308	[4yrAnniv]Scroll for Dagger for ATT	40	30	PAD+3 LUK+2	tradeBlock=1
+2043311	King Pepe's 60% Scroll for Dagger Attacks	60		PAD+2 LUK+1	tradeBlock=1
+2043312	Scroll for Dagger for ATT 100%	100		PAD+2 LUK+2	
+2043313	Scroll for Dagger for ATT 50%	50		PAD+5 LUK+3 DEX+1	
+2043700	Scroll for Wand for Magic Att.	100		MAD+1	
+2043701	Scroll for Wand for Magic Att.	60		MAD+2 INT+1	
+2043702	Scroll for Wand for Magic Att.	10		MAD+5 INT+3 MDD+1	
+2043703	Scroll for Wand for Magic Att.	100		MAD+5 INT+3 MDD+1	
+2043704	Dark scroll for Wand for Magic Att.	70	50	MAD+2 INT+1	
+2043705	Dark scroll for Wand for Magic Att.	30	50	MAD+5 INT+3 MDD+1	
+2043706	Scroll for Wand for Magic Att.	65		MAD+2 INT+1	tradeBlock=1
+2043707	Scroll for Wand for Magic Att.	15		MAD+5 INT+3 MDD+1	tradeBlock=1
+2043708	[4yrAnniv]Scroll for Wand for Magic Att.	40	30	MAD+3 INT+2	tradeBlock=1
+2043711	King Pepe's 60% Scroll for Wand Magic Attacks	60		MAD+2 INT+1	tradeBlock=1
+2043712	Scroll for Wand for Magic ATT 100%	100		MAD+2 INT+2	
+2043713	Scroll for Wand for Magic Att. 50%	50		MAD+5 INT+3 LUK+1	
+2043800	Scroll for Staff for Magic Att.	100		MAD+1	
+2043801	Scroll for Staff for Magic Att.	60		MAD+2 INT+1	
+2043802	Scroll for Staff for Magic Att.	10		MAD+5 INT+3 MDD+1	
+2043803	Scroll for Staff for Magic Att.	100		MAD+5 INT+3 MDD+1	
+2043804	Dark scroll for Staff for Magic Att.	70	50	MAD+2 INT+1	
+2043805	Dark scroll for Staff for Magic Att.	30	50	MAD+5 INT+3 MDD+1	
+2043806	Scroll for Staff for Magic Att.	65		MAD+2 INT+1	tradeBlock=1
+2043807	Scroll for Staff for Magic Att.	15		MAD+5 INT+3 MDD+1	tradeBlock=1
+2043808	[4yrAnniv]Scroll for Staff for Magic Att.	40	30	MAD+3 INT+2	tradeBlock=1
+2043811	King Pepe's 60% Scroll for Staff Magic Attacks	60		MAD+2 INT+1	tradeBlock=1
+2043812	Scroll for Staff for Magic ATT 100%	100		MAD+2 INT+2	
+2043813	Scroll for Staff for Magic Att. 50%	50		MAD+5 INT+3 LUK+1	
+2044000	Scroll for Two-handed Sword for ATT	100		PAD+1	
+2044001	Scroll for Two-handed Sword for ATT	60		PAD+2 STR+1	
+2044002	Scroll for Two-handed Sword for ATT	10		PAD+5 STR+3 PDD+1	
+2044003	Scroll for Two-handed Sword for ATT	100		PAD+5 STR+3 PDD+1	
+2044004	Dark scroll for Two-handed Sword for ATT	70	50	PAD+2 STR+1	
+2044005	Dark scroll for Two-handed Sword for ATT	30	50	PAD+5 STR+3 PDD+1	
+2044006	Scroll for Two-Handed Sword for ATT	65		PAD+2 STR+1	tradeBlock=1
+2044007	Scroll for Two-Handed Sword for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044008	[4yrAnniv]Scroll for Two-Handed Sword for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2044010	Scroll for Two-Handed Sword for Accuracy 100%	100		ACC+1	
+2044011	Scroll for Two-Handed Sword for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044012	Scroll for Two-Handed Sword for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044013	Scroll for Two-Handed Sword for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044014	Scroll for Two-Handed Sword for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044015	Scroll for Two-Handed Swords for ATT 10%	10		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044024	King Pepe's 60% Scroll for Two-handed Sword Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044025	Scroll for Two-handed Sword for ATT 100%	100		PAD+2 STR+2	
+2044028	Scroll for Two-handed Sword for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2044100	Scroll for Two-handed Axe for ATT	100		PAD+1	
+2044101	Scroll for Two-handed Axe for ATT	60		PAD+2 STR+1	
+2044102	Scroll for Two-handed Axe for ATT	10		PAD+5 STR+3 PDD+1	
+2044103	Scroll for Two-handed Axe for ATT	100		PAD+5 STR+3 PDD+1	
+2044104	Dark scroll for Two-handed Axe for ATT	70	50	PAD+2 STR+1	
+2044105	Dark scroll for Two-handed Axe for ATT	30	50	PAD+5 STR+3 PDD+1	
+2044106	Scroll for Two-Handed Axe for ATT	65		PAD+2 STR+1	tradeBlock=1
+2044107	Scroll for Two-Handed Axe for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044108	[4yrAnniv]Scroll for Two-Handed Axe for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2044110	Scroll for Two-Handed Axe for Accuracy 100%	100		ACC+1	
+2044111	Scroll for Two-Handed Axe for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044112	Scroll for Two-Handed Axe for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044113	Scroll for Two-Handed Axe for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044114	Scroll for Two-Handed Axe for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044116	King Pepe's 60% Scroll for Two-handed Axe Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044117	Scroll for Two-handed Axe for ATT 100%	100		PAD+2 STR+2	
+2044120	Scroll for Two-handed Axe for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2044200	Scroll for Two-handed BW for ATT	100		PAD+1	
+2044201	Scroll for Two-handed BW for ATT	60		PAD+2 STR+1	
+2044202	Scroll for Two-handed BW for ATT	10		PAD+5 STR+3 PDD+1	
+2044203	Scroll for Two-handed BW for ATT	100		PAD+5 STR+3 PDD+1	
+2044204	Dark scroll for Two-handed BW for ATT	70	50	PAD+2 STR+1	
+2044205	Dark scroll for Two-handed BW for ATT	30	50	PAD+5 STR+3 PDD+1	
+2044206	Scroll for Two-Handed BW for ATT	65		PAD+2 STR+1	tradeBlock=1
+2044207	Scroll for Two-Handed BW for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044208	[4yrAnniv]Scroll for Two-Handed BW for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2044210	Scroll for Two-Handed BW for Accuracy 100%	100		ACC+1	
+2044211	Scroll for Two-Handed BW for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044212	Scroll for Two-Handed BW for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044213	Scroll for Two-Handed BW for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044214	Scroll for Two-Handed BW for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044216	King Pepe's 60% Scroll for Two-handed BW Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044217	Scroll for Two-handed BW for ATT 100%	100		PAD+2 STR+2	
+2044220	Scroll for Two-handed BW for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2044300	Scroll for Spear for ATT	100		PAD+1	
+2044301	Scroll for Spear for ATT	60		PAD+2 STR+1	
+2044302	Scroll for Spear for ATT	10		PAD+5 STR+3 PDD+1	
+2044303	Scroll for Spear for ATT	100		PAD+5 STR+3 PDD+1	
+2044304	Dark scroll for Spear for ATT	70	50	PAD+2 STR+1	
+2044305	Dark scroll for Spear for ATT	30	50	PAD+5 STR+3 PDD+1	
+2044306	Scroll for Spear for ATT	65		PAD+2 STR+1	tradeBlock=1
+2044307	Scroll for Spear for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044308	[4yrAnniv]Scroll for Spear for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2044310	Scroll for Spear for Accuracy 100%	100		ACC+1	
+2044311	Scroll for Spear for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044312	Scroll for Spear for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044313	Scroll for Spear for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044314	Scroll for Spear for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044316	King Pepe's 60% Scroll for Spear Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044317	Scroll for Spear for ATT 100%	100		PAD+2 STR+2	
+2044320	Scroll for Spear for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2044400	Scroll for Pole Arm for ATT	100		PAD+1	
+2044401	Scroll for Pole Arm for ATT	60		PAD+2 STR+1	
+2044402	Scroll for Pole Arm for ATT	10		PAD+5 STR+3 PDD+1	
+2044403	Scroll for Pole Arm for ATT	100		PAD+5 STR+3 PDD+1	
+2044404	Dark scroll for Pole Arm for ATT	70	50	PAD+2 STR+1	
+2044405	Dark scroll for Pole Arm for ATT	30	50	PAD+5 STR+3 PDD+1	
+2044406	Scroll for Pole Arm for ATT	65		PAD+2 STR+1	tradeBlock=1
+2044408	[4yrAnniv]Scroll for Pole Arm for ATT	40	30	PAD+3 STR+2	tradeBlock=1
+2044410	Scroll for Pole-Arm for Accuracy 100%	100		ACC+1	
+2044411	Scroll for Pole-Arm for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044412	Scroll for Pole-Arm for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044413	Scroll for Pole-Arm for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044414	Scroll for Pole-Arm for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044416	King Pepe's 60% Scroll for Polearm Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044417	Scroll for Pole Arm for ATT 100%	100		PAD+2 STR+2	
+2044420	Scroll for Pole Arm for ATT 50%	50		PAD+5 STR+3 DEX+1	
+2044500	Scroll for Bow for ATT	100		PAD+1	
+2044501	Scroll for Bow for ATT	60		PAD+2 ACC+1	
+2044502	Scroll for Bow for ATT	10		PAD+5 ACC+3 DEX+1	
+2044503	Scroll for Bow for ATT	100		PAD+5 ACC+3 DEX+1	
+2044504	Dark scroll for Bow for ATT	70	50	PAD+2 ACC+1	
+2044505	Dark scroll for Bow for ATT	30	50	PAD+5 ACC+3 DEX+1	
+2044506	Scroll for Bow for ATT	65		PAD+2 ACC+1	tradeBlock=1
+2044507	Scroll for Bow for ATT	15		PAD+5 ACC+3 DEX+1	tradeBlock=1
+2044508	[4yrAnniv]Scroll for Bow for ATT	40	30	PAD+3 ACC+1	tradeBlock=1
+2044511	King Pepe's 60% Scroll for Bow Attacks	60		PAD+2 ACC+1	tradeBlock=1
+2044512	Scroll for Bow for ATT 100%	100		PAD+2 ACC+3	
+2044513	Scroll for Bow for ATT 50%	50		PAD+5 DEX+1 STR+1	
+2044600	Scroll for Crossbow for ATT	100		PAD+1	
+2044601	Scroll for Crossbow for ATT	60		PAD+2 ACC+1	
+2044602	Scroll for Crossbow for ATT	10		PAD+5 ACC+3 DEX+1	
+2044603	Scroll for Crossbow for ATT	100		PAD+5 ACC+3 DEX+1	
+2044604	Dark scroll for Crossbow for ATT	70	50	PAD+2 ACC+1	
+2044605	Dark scroll for Crossbow for ATT	30	50	PAD+5 ACC+3 DEX+1	
+2044606	Scroll for Crossbow for ATT	65		PAD+2 ACC+1	tradeBlock=1
+2044607	Scroll for Crossbow for ATT	15		PAD+5 ACC+3 DEX+1	tradeBlock=1
+2044608	[4yrAnniv]Scroll for Crossbow for ATT	40	30	PAD+3 ACC+2	tradeBlock=1
+2044611	King Pepe's 60% Scroll for Crossbow Attacks	60		PAD+2 ACC+1	tradeBlock=1
+2044612	Scroll for Crossbow for ATT 100%	100		PAD+2 ACC+3	
+2044613	Scroll for Crossbow for ATT 50%	50		PAD+5 DEX+1 STR+1	
+2044700	Scroll for Claw for ATT	100		PAD+1	
+2044701	Scroll for Claw for ATT	60		PAD+2 ACC+1	
+2044702	Scroll for Claw for ATT	10		PAD+5 ACC+3 LUK+1	
+2044703	Scroll for Claw for ATT	100		PAD+5 ACC+3 LUK+1	
+2044704	Dark Scroll for Claw for ATT	70	50	PAD+2 ACC+1	
+2044705	Dark scroll for Claw for ATT	30	50	PAD+5 ACC+3 LUK+1	
+2044706	Scroll for Claw for ATT	65		PAD+2 ACC+1	tradeBlock=1
+2044707	Scroll for Claw for ATT	15		PAD+5 ACC+3 LUK+1	tradeBlock=1
+2044708	[4yrAnniv]Scroll for Claw for ATT	40	30	PAD+3 ACC+2	tradeBlock=1
+2044711	King Pepe's 60% Scroll for Thief Attacks	60		PAD+2 ACC+1	tradeBlock=1
+2044712	Scroll for Claw for ATT 100%	100		PAD+2 ACC+3	
+2044713	Scroll for Claw for ATT 50%	50		PAD+5 LUK+1 DEX+1	
+2044800	Scroll for Knuckler for Attack 100%	100		PAD+1	
+2044801	Scroll for Knuckler for Attack 60%	60		PAD+2 STR+1	
+2044802	Scroll for Knuckler for ATT	10		PAD+5 STR+3 PDD+1	
+2044803	Scroll for Knuckler for Attack 70%	70	50	PAD+2 STR+1	
+2044804	Scroll for Knuckler for Attack 30%	30	50	PAD+5 STR+3 PDD+1	
+2044805	Scroll for Knuckle for Accuracy 100%	100		ACC+1	
+2044806	Scroll for Knuckle for Accuracy 70%	70	50	ACC+3 DEX+2 PAD+1	
+2044807	Scroll for Knuckle for Accuracy 60%	60		ACC+3 DEX+2 PAD+1	
+2044808	Scroll for Knuckle for Accuracy 30%	30	50	ACC+5 DEX+3 PAD+3	
+2044809	Scroll for Knuckle for Accuracy 10%	10		ACC+5 DEX+3 PAD+3	
+2044810	[4yrAnniv] Scroll for Knuckle for Attack 40%	40	30	PAD+3 STR+2	tradeBlock=1
+2044811	Scroll for Knuckles for ATT 65%	65		PAD+2 STR+1	tradeBlock=1
+2044812	Scroll for Knuckles for ATT 15%	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044813	Scroll for Knuckles for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2044814	Scroll for Knuckles for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2044816	King Pepe's 60% Scroll for Knuckle Attacks	60		PAD+2 STR+1	tradeBlock=1
+2044900	Scroll for Gun for Attack 100%	100		PAD+1	
+2044901	Scroll for Gun for Attack 60%	60		PAD+2 ACC+1	
+2044902	Scroll for Gun for ATT	10		PAD+5 ACC+3 DEX+1	
+2044903	Scroll for Gun for Attack 70%	70	50	PAD+2 ACC+1	
+2044904	Scroll for Gun for Attack 30%	30	50	PAD+5 ACC+3 DEX+1	
+2044905	[4yrAnniv] Gun for Attack 40%	40	30	PAD+3 ACC+2	tradeBlock=1
+2044906	Scroll for Gun for ATT 65%	65		PAD+2 ACC+1	tradeBlock=1
+2044907	Scroll for Gun for ATT 15%	15		PAD+5 ACC+3 DEX+1	tradeBlock=1
+2044909	King Pepe's 60% Scroll for Gun Attacks	60		PAD+2 ACC+1	tradeBlock=1
+2048000	Scroll for Pet Equip. for Speed	100		Speed+1	
+2048001	Scroll for Pet Equip. for Speed	60		Speed+2	
+2048002	Scroll for Pet Equip. for Speed	10		Speed+3	
+2048003	Scroll for Pet Equip. for Jump	100		Jump+1	
+2048004	Scroll for Pet Equip. for Jump	60		Jump+2	
+2048005	Scroll for Pet Equip. for Jump	10		Jump+3	
+2048006	Scroll for Pet Equip. for Speed	65		Speed+2	tradeBlock=1
+2048007	Scroll for Pet Equip. for Speed	15		Speed+3	tradeBlock=1
+2048008	Scroll for Pet Equip. for Jump	65		Jump+2	tradeBlock=1
+2048009	Scroll for Pet Equip. for Jump	15		Jump+3	tradeBlock=1
+2048010	Scroll for Pet Equip. for STR 60%	60		STR+1	
+2048011	Scroll for Pet Equip. for INT 60%	60		INT+1	
+2048012	Scroll for Pet Equip. for DEX 60%	60		DEX+1	
+2048013	Scroll for Pet Equip. for LUK 60%	60		LUK+1	
+2049000	Clean Slate Scroll 1%	1	2		recover=1
+2049001	Clean Slate Scroll 3%	3	6		recover=1
+2049002	Clean Slate Scroll 5%	5	10		recover=1
+2049003	Clean Slate Scroll 20%	20	50		recover=1
+2049100	Chaos Scroll 60%	60			randstat=1
+2049101	Liar Tree Sap 100%	100	100		randstat=1 timeLimited=1 tradeBlock=1
+2049102	Maple Syrup 100%	100	100		randstat=1 timeLimited=1 tradeBlock=1
+2049103	Beach Sandals Scroll 100%	100	100		randstat=1 tradeBlock=1 timeLimited=1
+2049104	Agent Equipment Scroll 100%	100	100		randstat=1 tradeBlock=1 timeLimited=1
+2049105	[6th Anniversary] Dark Scroll for Gloves for ATT 70%	70	50	PAD+1	tradeBlock=1
+2049106	[6th Anniversary] Dark Scroll for Gloves for ATT 30%	30	80	PAD+2	tradeBlock=1
+2049107	[6th Anniversary] Dark Scroll for Gloves for STR 70%	70	50	STR+1 ACC+2	tradeBlock=1
+2049108	[6th Anniversary] Dark Scroll for Gloves for LUK 70%	70	50	LUK+1 ACC+2	tradeBlock=1
+2049109	[6th Anniversary] Dark Scroll for Gloves for INT 70%	70	50	INT+1 ACC+2	tradeBlock=1
+2049110	[6th Anniversary] Dark Scroll for Gloves for DEX 70%	70	50	DEX+1 ACC+2	tradeBlock=1
+2049113	Normal Witch Scroll	100	100		randstat=1 timeLimited=1
+2049114	Witch's Belt Scroll	100	100		randstat=1 timeLimited=1
+2044908	Scroll for Gun for Attack 100%	100		PAD+2 ACC+1	
+2044815	Scroll for Knuckler for Attack 100%	100		PAD+2 STR+1	
+2044817	Scroll for Knuckler for Attack 50%	50		PAD+5 STR+3 DEX+1	
+2044910	Scroll for Gun for Attack 50%	50		PAD+5 DEX+1 LUK+1	
+2040758	Scroll for Shoes for ATT	100		PAD+1	
+2040759	Scroll for Shoes for ATT	60		PAD+2	
+2040760	Scroll for Shoes for ATT	10		PAD+3	
+2040043	Scroll for Helmet for DEX 65%	65		DEX+2	tradeBlock=1
+2040044	Scroll for Helmet for DEX 15%	15		DEX+3	tradeBlock=1
+2040335	Scroll for Earring for DEX 65%	65		DEX+2	tradeBlock=1
+2040336	Scroll for Earring for DEX 15%	15		DEX+3	tradeBlock=1
+2040337	Scroll for Earring for LUK 65%	65		LUK+2	tradeBlock=1
+2040338	Scroll for Earring for LUK 15%	15		LUK+3	tradeBlock=1
+2040339	Scroll for Earring for HP 65%	65		MHP+15	tradeBlock=1
+2040340	Scroll for Earring for HP 15%	15		MHP+30	tradeBlock=1
+2040431	Scroll for Topwear for STR 65%	65		STR+2	tradeBlock=1
+2040432	Scroll for Topwear for STR 15%	15		STR+3	tradeBlock=1
+2040433	Scroll for Topwear for HP 65%	65		MHP+15	tradeBlock=1
+2040434	Scroll for Topwear for HP 15%	15		MHP+30	tradeBlock=1
+2040435	Scroll for Topwear for LUK 65%	65		LUK+2	tradeBlock=1
+2040436	Scroll for Topwear for LUK 15%	15		LUK+3	tradeBlock=1
+2040540	Scroll for Overall Armor for STR 65%	65		STR+2 PDD+1	tradeBlock=1
+2040541	Scroll for Overall Armor for STR 15%	15		STR+5 PDD+3 MHP+5	tradeBlock=1
+2040631	Scroll for Bottomwear for Jump 65%	65		Jump+2 EVA+1	tradeBlock=1
+2040632	Scroll for Bottomwear for Jump 15%	15		Jump+4 EVA+2	tradeBlock=1
+2040633	Scroll for Bottomwear for HP 65%	65		MHP+15	tradeBlock=1
+2040634	Scroll for Bottomwear for HP 15%	15		MHP+30	tradeBlock=1
+2040635	Scroll for Bottomwear for DEX 65%	65		DEX+2 ACC+1	tradeBlock=1
+2040636	Scroll for Bottomwear for DEX 15%	15		DEX+3 ACC+2 Speed+1	tradeBlock=1
+2040831	Scroll for Gloves for HP 65%	65		MHP+15	tradeBlock=1
+2040832	Scroll for Gloves for HP 15%	15		MHP+30	tradeBlock=1
+2040937	Scroll for Shield for LUK 65%	65		LUK+2	tradeBlock=1
+2040938	Scroll for Shield for LUK 15%	15		LUK+3	tradeBlock=1
+2040939	Scroll for Shield for HP 65%	65		MHP+15	tradeBlock=1
+2040940	Scroll for Shield for HP 15%	15		MHP+30	tradeBlock=1
+2040941	Scroll for Shield for STR 65%	65		STR+2	tradeBlock=1
+2040942	Scroll for Shield for STR 15%	15		STR+3	tradeBlock=1
+2043024	Scroll for One-Handed Sword for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2043025	Scroll for One-Handed Sword for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2043118	Scroll for One-Handed Axe for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2043119	Scroll for One-Handed Axe for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2043218	Scroll for One-Handed BW for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	
+2043219	Scroll for One-Handed BW for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	
+2044026	Scroll for Two-Handed Sword for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2044027	Scroll for Two-Handed Sword for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2044118	Scroll for Two-Handed Axe for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2044119	Scroll for Two-Handed Axe for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2044218	Scroll for Two-Handed BW for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2044219	Scroll for Two-Handed BW for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2044318	Scroll for Spears for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	
+2044319	Scroll for Spears for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2044407	Scroll for Pole Arm for ATT	15		PAD+5 STR+3 PDD+1	tradeBlock=1
+2044418	Scroll for Polearm for Accuracy 65%	65		ACC+3 DEX+2 PAD+1	tradeBlock=1
+2044419	Scroll for Polearm for Accuracy 15%	15		ACC+5 DEX+3 PAD+3	tradeBlock=1
+2049112	King Pepe's 100% Scroll for Weapons	100	100		randstat=1 tradeBlock=1
+2049200	Dark Scroll for Accessory for STR 70%  	70	50	STR+2	
+2049201	Dark Scroll for Accessory for STR 30%	30	50	STR+3	
+2049202	Dark Scroll for Accessory for DEX 70%	70	50	DEX+2	
+2049203	Dark Scroll for Accessory for DEX 30%	30	50	DEX+3	
+2049204	Dark Scroll for Accessory for INT 70%	70	50	INT+2	
+2049205	Dark Scroll for Accessory for INT 30%	30	50	INT+3	
+2049206	Dark Scroll for Accessory for LUK 70%	70	50	LUK+2	
+2049207	Dark Scroll for Accessory for LUK 30%	30	50	LUK+3	
+2049208	Dark Scroll for Accessory for HP 70%	70	50	MHP+10	
+2049209	Dark Scroll for Accessory for HP 30%	30	50	MHP+30	
+2049210	Dark Scroll for Accessory for MP 70%	70	50	MMP+10	
+2049211	Dark Scroll for Accessory for MP 30%	30	50	MMP+30	

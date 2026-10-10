@@ -1,0 +1,200 @@
+line	job_id	skill	level
+hero	100	Improved MaxHP Increase	10
+hero	100	Improved HP Recovery	5
+hero	100	Power Strike	20
+hero	100	Slash Blast	20
+hero	100	Iron Body	6
+hero	110	Sword Mastery	20
+hero	110	Sword Booster	20
+hero	110	Final Attack : Sword	30
+hero	110	Rage	20
+hero	110	Power Guard	30
+hero	111	Combo Attack	30
+hero	111	Shout	30
+hero	111	Coma: Sword	30
+hero	111	Panic : Sword	30
+hero	111	Armor Crash	20
+hero	111	Improving MP Recovery	20
+paladin	100	Improved MaxHP Increase	10
+paladin	100	Improved HP Recovery	5
+paladin	100	Power Strike	20
+paladin	100	Slash Blast	20
+paladin	100	Iron Body	6
+paladin	120	Sword Mastery	20
+paladin	120	Sword Booster	20
+paladin	120	Final Attack : Sword	30
+paladin	120	Power Guard	30
+paladin	120	Threaten	20
+paladin	121	Charged Blow	30
+paladin	121	Fire Charge: Sword	30
+paladin	121	Ice Charge: Sword	30
+paladin	121	Thunder Charge: Sword	30
+paladin	121	Shield Mastery	20
+paladin	121	Improving MP Recovery	20
+darkknight	100	Improved MaxHP Increase	10
+darkknight	100	Improved HP Recovery	5
+darkknight	100	Power Strike	20
+darkknight	100	Slash Blast	20
+darkknight	100	Iron Body	6
+darkknight	130	Spear Mastery	20
+darkknight	130	Spear Booster	20
+darkknight	130	Hyper Body	30
+darkknight	130	Final Attack : Spear	30
+darkknight	130	Iron Will	20
+darkknight	131	Spear Crusher	30
+darkknight	131	Dragon Fury: Spear	30
+darkknight	131	Dragon Blood	20
+darkknight	131	Dragon Roar	30
+darkknight	131	Sacrifice	30
+darkknight	131	Elemental Resistance	20
+fp	200	Improved MaxMP Increase	10
+fp	200	Improved MP Recovery	5
+fp	200	Magic Guard	20
+fp	200	Magic Claw	20
+fp	200	Magic Armor	20
+fp	210	Fire Arrow	30
+fp	210	Meditation	20
+fp	210	Teleport	20
+fp	210	MP Eater	20
+fp	210	Poison Breath	30
+fp	210	Slow	20
+fp	211	Explosion	30
+fp	211	Element Amplification	30
+fp	211	Spell Booster	20
+fp	211	Poison Mist	30
+fp	211	Seal	20
+fp	211	Partial Resistance	20
+il	200	Improved MaxMP Increase	10
+il	200	Improved MP Recovery	5
+il	200	Magic Guard	20
+il	200	Magic Claw	20
+il	200	Magic Armor	20
+il	220	Cold Beam	30
+il	220	Meditation	20
+il	220	Teleport	20
+il	220	MP Eater	20
+il	220	Thunder Bolt	30
+il	220	Slow	20
+il	221	Ice Strike	30
+il	221	Element Amplification	30
+il	221	Spell Booster	20
+il	221	Thunder Spear	30
+il	221	Seal	20
+il	221	Partial Resistance	20
+cleric	200	Improved MaxMP Increase	10
+cleric	200	Improved MP Recovery	5
+cleric	200	Magic Guard	20
+cleric	200	Magic Claw	20
+cleric	200	Magic Armor	20
+cleric	230	Heal	30
+cleric	230	Teleport	20
+cleric	230	Invincible	20
+cleric	230	Bless	20
+cleric	230	MP Eater	20
+cleric	230	Holy Arrow	30
+cleric	231	Shining Ray	30
+cleric	231	Holy Symbol	30
+cleric	231	Mystic Door	20
+cleric	231	Dispel	20
+cleric	231	Summon Dragon	30
+cleric	231	Elemental Resistance	20
+hunter	300	Critical Shot	20
+hunter	300	The Eye of Amazon	8
+hunter	300	Double Shot	20
+hunter	300	The Blessing of Amazon	16
+hunter	310	Bow Mastery	20
+hunter	310	Bow Booster	20
+hunter	310	Soul Arrow : Bow	20
+hunter	310	Final Attack : Bow	30
+hunter	310	Arrow Bomb : Bow	30
+hunter	310	Power Knock-Back	20
+hunter	311	Strafe	30
+hunter	311	Arrow Rain	30
+hunter	311	Mortal Blow	20
+hunter	311	Puppet	20
+hunter	311	Silver Hawk	30
+hunter	311	Thrust	20
+crossbow	300	Critical Shot	20
+crossbow	300	The Eye of Amazon	8
+crossbow	300	Double Shot	20
+crossbow	300	The Blessing of Amazon	16
+crossbow	320	Crossbow Mastery	20
+crossbow	320	Crossbow Booster	20
+crossbow	320	Soul Arrow : Crossbow	20
+crossbow	320	Final Attack : Crossbow	30
+crossbow	320	Iron Arrow : Crossbow	30
+crossbow	320	Power Knock-Back	20
+crossbow	321	Strafe	30
+crossbow	321	Arrow Eruption	30
+crossbow	321	Mortal Blow	20
+crossbow	321	Puppet	20
+crossbow	321	Golden Eagle	30
+crossbow	321	Thrust	20
+assassin	400	Nimble Body	20
+assassin	400	Keen Eyes	8
+assassin	400	Lucky Seven	20
+assassin	400	Dark Sight	20
+assassin	410	Claw Mastery	20
+assassin	410	Critical Throw	30
+assassin	410	Claw Booster	20
+assassin	410	Haste	20
+assassin	410	Drain	30
+assassin	410	Endure	20
+assassin	411	Shadow Partner	30
+assassin	411	Flash Jump	20
+assassin	411	Avenger	30
+assassin	411	Meso Up	20
+assassin	411	Alchemist	20
+assassin	411	Shadow Web	20
+assassin	411	Shadow Meso	30
+bandit	400	Nimble Body	20
+bandit	400	Double Stab	20
+bandit	400	Dark Sight	20
+bandit	400	Disorder	20
+bandit	420	Dagger Mastery	20
+bandit	420	Dagger Booster	20
+bandit	420	Savage Blow	30
+bandit	420	Haste	20
+bandit	420	Steal	30
+bandit	420	Endure	20
+bandit	421	Assaulter	30
+bandit	421	Band of Thieves	30
+bandit	421	Meso Guard	20
+bandit	421	Chakra	30
+bandit	421	Pickpocket	20
+bandit	421	Meso Explosion	30
+brawler	500	Flash Fist	20
+brawler	500	Sommersault Kick	20
+brawler	500	Bullet Time	20
+brawler	500	Dash	10
+brawler	510	Improve MaxHP	10
+brawler	510	Knuckler Mastery	20
+brawler	510	Knuckler Booster	20
+brawler	510	Backspin Blow	20
+brawler	510	Double Uppercut	20
+brawler	510	Corkscrew Blow	20
+brawler	510	MP Recovery	10
+brawler	510	Oak Barrel	10
+brawler	511	Energy Charge	40
+brawler	511	Energy Blast	30
+brawler	511	Stun Mastery	20
+brawler	511	Transformation	20
+brawler	511	Energy Drain	20
+brawler	511	Shockwave	30
+gunslinger	500	Double Shot	20
+gunslinger	500	Sommersault Kick	20
+gunslinger	500	Bullet Time	20
+gunslinger	500	Dash	10
+gunslinger	520	Gun Mastery	20
+gunslinger	520	Gun Booster	20
+gunslinger	520	Invisible Shot	20
+gunslinger	520	Wings	10
+gunslinger	520	Recoil Shot	20
+gunslinger	520	Blank Shot	20
+gunslinger	520	Grenade	20
+gunslinger	521	Burst Fire	20
+gunslinger	521	Homing Beacon	30
+gunslinger	521	Octopus	30
+gunslinger	521	Gaviota	30
+gunslinger	521	Flamethrower	30
+gunslinger	521	Ice Splitter	30

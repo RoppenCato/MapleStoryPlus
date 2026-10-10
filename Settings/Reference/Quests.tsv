@@ -1,0 +1,2819 @@
+id	name	area	start_npc	min_level	max_level	kill_mobs	collect_items
+1000	Borrowing Sera's Mirror	20	2101				
+1001	Bringing a Mirror to Heena	20	2100				4031003x1
+1003	What Sen wants to eat	20	2102				
+1004	Returning to Nina	20	2001				
+1005	Letter for Lucas	20	2103				4031000x1
+1006	Lucas' Reply	20	12000				4031001x1
+1007	Bigg's Collection of Items	20	20002				4000000x5 4000001x1
+1008	Pio's Collecting Recycled Goods	20	10000				4031162x1 4031161x1
+1009	Rain's Maple Quiz 1	20	12101				
+1010	Rain's Maple Quiz 2	20	12101				
+1011	Rain's Maple Quiz 3	20	12101				
+1012	Rain's Maple Quiz 4	20	12101				
+1013	Rain's Maple Quiz 5	20	12101				
+1014	Rain's Maple Quiz 6	20	12101				
+1015	Rain's Maple Quiz 7	20	12101				
+1016	Mai's Training	20	12100		7	100100x5 100101x5 120100x3	
+1017	Mai's Final Training	20	12100			1210102x1	
+1018	Todd's How-to-Hunt	20	2004			9300018x1	4000142x1
+1019	Sam's Suggestion	20	2005		7	100100x10	
+1020	Pio and the Recycling	20	10000				
+1021	Roger's Apple	20	2000				2010007x
+1022	Lucas' Cute Daughter	20	12000		10	130101x7	
+1023	Here little Piggy...	20	20002		10	1210100x2	
+1024	Love Counseling ?!	20	2005		10		4000003x3
+1025	Maria's Nutritious Juice	20	2103		10		4000011x5 4000004x1
+1026	Delivering Nutritious Juice to Shanks	20	2103		10		4031556x1
+1027	Mai's Request	20	12100		10		
+1028	To Lith Harbor!	20	22000		10		
+1029	Sam's Advice	20	2005	2	3		
+1030	Maria's Map Reading	20	2103				
+1031	Heena and Sera	20	2101		10		
+1032	Nina's Brother Sen	20	2102		10		
+1033	What Sen Wants	20	2001		10		
+1034	Tasty Mushroom Candy	20	2102		10		4031792x10
+1035	Todd's Hunting Method	20	2004		10	9300018x1	4031802x1
+1036	Robin the Walking Encyclopedia	20	2003		10		
+1037	Help Hunt the Snails	20	2005		10	100100x10	
+1038	Maria's Letter	20	2103		10		4031800x1
+1039	Helping Out Yoona	20	20100		10	100101x10 120100x10	
+1040	Chief's Introduction	20	12000		10		
+1041	Mai's First Training	20	12100		10	130100x5	4000003x3
+1042	Mai's Second Training	20	12100		10	130101x5	
+1043	Mai's Third Training	20	12100		10	210100x3	4000004x1
+1044	Mai's Last Training	20	12100		10	9500102x2	
+1045	Bari's Test	20	20001		10	1210102x1	4000001x1
+1046	Biggs's Story on Victoria Island.	20	20002		10		
+1047	Designated Monster Effect	50	2006				
+1048	Job Recommendation	20	9010000	8	10		
+1049	Becoming a Warrior	20	9010000	10	20		
+1050	Becoming a Magician	20	9010000	8	20		
+1051	Becoming a Bowman	20	9010000	10	20		
+1052	Becoming a Thief	20	9010000	10	20		
+1053	Becoming a Pirate	20	9010000	10	20		
+1054	Cygnus Knights	10	1101002	20			
+1115	마야의 사랑의 증표	30	1012101				4000001x40
+1116	로웬의 사랑의 증표	30	1032101				4003005x20
+1117	이얀의 사랑의 증표	30	1022007				4000018x40
+1118	넬라의 사랑의 증표	30	1052103				4000015x40
+1119	에릭손의 사랑의 증표	33	2012018				4000070x20
+1120	티군의 사랑의 증표	37	2041022				4000106x20
+1121	뮤즈의 사랑의 증표	33	2060006				4000167x20
+1122	팜의 사랑의 증표	41	2081004				4000226x10
+1123	한태수의 사랑의 증표	44	2091003				4000278x30
+1124	지유르의 사랑의 증표	44	2101001				4000324x40
+1200	Moon Bunny's Rice Cake	47	1012112	10			
+1201	First Time Together	47	9020000	21	30		
+1202	The Crack of Dimension	47	2040034	35	50		
+1203	Remnants of Goddess	47	2013000	51	70		
+1204	Lord Pirate	47	2094000	55	100		
+1205	Romeo and Juliet	47	2112018	71	85		
+1206	Forest of Poison Haze	47	2133000	45	55		
+1300	Ariant Hunting Competition	47	2101014	21	30		
+1301	Monster Carnival	47	2042000	30	50		
+1302	The 2nd Monster Carnival	47	2042000	51	70		
+2000	Fixing Blackbull's House	30	1020000	10			4000018x50 4000003x30
+2001	Building a New House For "Blackbull"	30	1020000	30			4000022x100 4003000x30 4003001x30 4001004x1
+2002	Maya of Henesys	30	1012101	15			
+2003	Finding Sophia	30	1002001	15			
+2004	Making a Sparkling Rock	30	1022100	15			
+2005	Arcon's Blood?	30	1022002	15			4000008x40
+2006	Getting Arcon's Blood	30	1022002	15			4000006x20 4031005x1 4000004x50 4000005x50
+2007	Making Sparkling Rock	30	1022100	15			4031004x1
+2008	Delivering the Weird Medicine	30	1002001	15			4031006x1
+2009	Pia and the Blue Mushroom	30	1012102	20			4000009x40 4000012x40
+2010	Jane and the Wild Boar	30	1002100	25			4000015x100 4000020x80
+2011	Jane's First Challenge	30	1002100	40			2022000x1 4000041x20 4000036x30
+2012	Jane's Second Challenge	30	1002100	40			2012000x3 4000040x1 4000041x30 4000036x100
+2013	Jane's Final Challenge	30	1002100	40			4000030x20 4011007x1 2012002x10
+2014	Alex's Request	30	1052000	20			
+2015	Talking to Stan	30	1012003	20			4000007x30 4000002x60
+2016	Mother's Gold Watch	30	1012003	20			4031007x1
+2017	Arwen and the Glass Shoe	30	1032100	25			4001000x1
+2018	Luke the Security Guy	30	1040000	15			2020000x1 4000034x100 4000042x10
+2019	A Clue to the Secret Book	30	1061003	30			
+2020	Hungry Ronnie	30	1061004	30			4000029x50 4031014x1 4031015x1
+2021	Secret to Unagi Special	30	1010100	30			4000017x5 4000013x50
+2022	Cold Milk	30	1032101	30			4021007x1
+2023	Returned Secret Book	30	1061004	30			4031016x1
+2024	Collecting 100 Cursed Dolls	30	1032101	35			4000031x100
+2025	Collecting 200 Cursed Dolls	30	1032101	35			4000031x200
+2026	Collecting 400 Cursed Dolls	30	1032101	35			4000031x400
+2027	Collecting 600 Cursed Dolls	30	1032101	35			4000031x600
+2028	Collecting 1000 Cursed Dolls	30	1032101	35			4000031x1000
+2029	Don Hwang's Request	30	1052103	15			4000012x50 4000037x50
+2030	Shumi's Request	30	1052103	15			4003000x5 4003001x5
+2031	Andre's Request	30	1052103	15			4000006x100 2022000x1
+2032	Dr. Faymus's Request	30	1052103	25			4000015x100 4000034x50
+2033	Chris's Request	30	1052103	25			4003004x50 4000021x20
+2034	Cutthroat Manny's Request	30	1052103	25			4000007x150
+2035	Luke the Security Man's Wish to Travel	30	1040000	50			4011005x10 4000046x3 4000030x50 4003000x40 4031042x1
+2036	First Material for Building a New House	30	1061004	55			4000016x50 4000001x50 4000004x50 4000005x50
+2037	Second Material for Building a New House	30	1061004	55			4000006x50 4000008x50 4000020x50 4000013x50
+2038	Third Material for Building a New House	30	1061004	55			4000029x50 4000014x50 4000022x50 4000033x50
+2039	Last Material for Building a New House	30	1061004	55			4021007x1 4000025x50 4000027x50 4000036x50 4000028x50
+2040	Maya's First Collection	30	1012101	55			4000000x50 4000003x50 4000011x50 4000019x50
+2041	Maya's Second Collection	30	1012101	55			4000024x50 4000002x50 4000035x50 4000037x50
+2042	Maya's Third Collection	30	1012101	55			4000039x50 4000023x50 4000026x10 4000045x50
+2043	Maya's Last Collection	30	1012101	55			4021007x1 4000025x50 4000027x50 4000044x50 4000028x50
+2044	Looking for the Red Cape	30	1012102	55			
+2045	What Pia has Borrowed	30	1010100	55			4021008x1 4000028x30 4001005x1
+2046	Pia's Present For a Friend	30	1010100	55			4000030x50 4003000x40 4031043x1 4011004x15
+2047	Hero's Gladius	30	1022002	45			4031144x1
+2048	Rewakening the Gladius	30	1061000	45			4001006x1 1302014x1 4003002x1 4021009x1 4001005x1
+2049	"Mar" the Fairy and the Water of Life	30					
+2050	Sabitrama and the Diet Medicine	30	1061005	25			4031020x1
+2051	Sabitrama's Anti-Aging Medicine	30	1061005	50			4031032x1
+2052	John's Pink Flower Basket	30	20000	15			4031025x10
+2053	John's Present	30	20000	30			4031026x20
+2054	John's Last Present	30	20000	60			4031028x30
+2055	Shumi's Lost Coin	30	1052102	20			4031039x1
+2056	Shumi's Lost Bundle of Money	30	1052102	30			4031040x1
+2057	Shumi's Lost Sack of Money	30	1052102	40			4031041x1
+2058	Special Taste of Florina Beach	30	1081100	35			4000136x10
+2059	Special Taste of Florina Beach II	30	1081100	35			4000029x12 4000136x12 4000043x130
+2060	Special Taste of Florina Beach III	30	1081100	35			4000029x25 4000136x25 4000043x130 4000044x130
+2061	Special Taste of Florina Beach	30	1081100	35			4000029x10 4000136x10 4000043x10 4000044x10
+2062	Mrs. Ming Ming's First Worry	30	1012106	20			4000002x100 4000010x20 4000037x50
+2063	Mrs. Ming Ming's Second Worry	30	1012106	21			
+2064	Estelle's Request	30	1032105	21			4021000x1
+2065	Searching for Fossils	30	1022006	20			4031147x100 4031146x100
+2066	Delivering a Box of Fossil	30	1022006	20			4031148x1 4031149x1
+2067	Research on Plant Fossils	30	1032104	22			4031150x20
+2068	Research on Animal Fossils	30	1032104	22			
+2069	Transporting Drake's Skull	30	1012110	22			4031151x1
+2070	Progress on Fossil Research	30	1032104	23			1032000x1 4000018x50 4031152x1 4031153x1 4000005x100
+2071	Stranger's Request	30	1052105	25			4031155x20
+2072	Stranger's Identity	30	1052105	25			4000008x100
+2073	Camila's Gem	30	1012108	23			4031156x1
+2074	Find the Maple History Book	30	1012109	25			4031157x1 4031158x1 4031159x1
+2075	Find the Maple History Book 2	30	2041022	25			4031160x1
+2076	Estelle's Special Sauce	30	1032105	21			4000006x60 4000017x20 4031154x1
+2077	The Path of a Warrior	30	1002101				
+2078	The Path of a Bowman	30	1002101				
+2079	The Path of a Thief	30	1002101				
+2080	The Path of a Magician	30	1002101				
+2081	A Lesson on Job Advancement	30	1002101	8			
+2082	The Stump Horror Story	30	1022007	10		130100x50	
+2083	Icarus's Hang Glider	30	1052106	32			4003001x10 4000042x50 4003004x50
+2084	Icarus and the Balloon	30	1052106	37			4031164x10 4000035x100
+2085	In search of Wing the Fairy	30	1052106	42			
+2086	The Ingredients for the Flying Pill	30	1032106	42			4031165x20 4000036x50
+2087	Delivering the Flying Pill	30	1032106	42			4031163x1
+2088	The Reason Behind the Mushroom Studies	30	1012111	10			4000001x40 4000011x10
+2089	I Need Help on My Homework!	30	1032106	10			4000010x10 4000003x30 4000004x30
+2090	I'm Bored 1	30	1052106	10			
+2091	I'm Bored 2	30	1052106	10			4000003x40 4000004x40
+2092	I Need to Find My Daughter 1	30	1012111	10			4031174x1
+2093	I Need to Find My Daughter 2	30	1022007				4031173x1
+2094	Taking Out the Alligators 1	30	1022007	52		2130103x40 3110100x250	4000034x20
+2095	Taking Out the Alligators 2	30	1022007	52		5130103x120	4000033x50
+2096	A Spell that Seals Up a Critical Danger I	30	1061012	50			4031212x33
+2097	A Spell that Seals Up a Critical Danger II	30	1061012				4031213x33 4031214x18 4031215x18
+2099	Camila's Lost Letter	30	1012108	35			4031239x1
+2100	Two Ways to Get to Korean Folk Town	30	1012108	35			4031240x1
+2101	Korean Folk Town : Through the Sky	30	1012108	35			
+2102	Korean Folk Town : Through the Ocean	30	1012108	35			
+2103	Nella's Dream	30	1052103	10			
+2104	Fanzy's Red Furball	30	1040002				4031273x1
+2105	DANGER! <1-G. Mushroom>	30	1063003	15		9101000x99	
+2106	DANGER! <2-H. Mushroom>	30	1063008	20		2110200x99	
+2107	DANGER! <3-Z. Mushroom>	30	1063007	22		9101001x99	
+2108	POLLUTED! <1-Evil Eye>	30	1063005	25		2230100x99	
+2109	POLLUTED! <2-Curse Eye>	30	1063004	30		3230100x99	
+2110	POLLUTED! <3-Jr. Boogie>	30	1063009	33			4000067x10
+2111	DANGER! <1-G. Mushroom>	30	1063003		45	9101000x999	
+2112	DANGER! <2-H. Mushroom>	30	1063008		52	2110200x999	
+2113	DANGER! <3-Z. Mushroom>	30	1063007		54	9101001x999	
+2114	POLLUTED! <1-Evil Eye>	30	1063005		57	2230100x999	
+2115	POLLUTED! <2-Curse Eye>	30	1063004		65	3230100x999	
+2116	Planting Trees	30	1022006	20			4000195x54
+2117	Shawn the Excavator's Request	30	1022006	25			4000197x5 4000196x5
+2118	Eliminate Monsters from the Site	30	1022006			2230111x300 2230110x200	
+2119	Notice from the Excavation Team	30	1022102	60		6230602x100 7130103x40 5150001x200	4000206x60 4000207x40 4000208x20
+2120	The Messenger of the Fairy Forest 1	30	1032001	70			
+2121	The Messenger of the Fairy Forest 2	30	1032001				4031345x1
+2122	Manji and the Secret Group	30	1022002	18	29	2130100x10	
+2123	A Special Assignment	30	1022002	18	29		
+2124	A Supply from the Sand Crew	30	2012019				4031619x1
+2125	A Special Assignment!	30	1022002	30			
+2126	A Supply from the Sand Crew!	30	2012019				4031619x1
+2127	To the Desert...	30	1022002	18	29		
+2128	Beginner Warrior's First Training Session	10	1022000		40	130100x20	
+2129	Beginner Warrior's Second Training Session	10	1022000		40	130100x50	
+2130	Beginner Warrior's Third Training Session	10	1022000		40	130100x80	
+2131	Beginner Warrior's Last Training Session	10	1022000		40	1110101x15	
+2132	Beginner Magician's First Training Session	10	1032001		40	210100x8	
+2133	Beginner Magician's Second Training Session	10	1032001		40	210100x20	
+2134	Beginner Magician's Third Training Session	10	1032001		40	210100x35	
+2135	Beginner Magician's Last Training Session	10	1032001		40	1110101x10	
+2136	Beginner Bowman's First Training Session	10	1012100		40	210100x16	
+2137	Beginner Bowman's Second Training Session	10	1012100		40	210100x40	
+2138	Beginner Bowman's Third Training Session	10	1012100		40	210100x65	
+2139	Beginner Bowman's Last Training Session	10	1012100		40	1210101x15	
+2140	Beginner Thief's First Training Session	10	1052001		40	130100x20	
+2141	Beginner Thief's Second Training Session	10	1052001		40	130100x50	
+2142	Beginner Thief's Third Training Session	10	1052001		40	130100x80	
+2143	Beginner Thief's Last Training Session	10	1052001		40	1120100x10	
+2144	Truth of the Rumor	30	1022006	35			
+2145	Stump Research	30	1022006				4031773x100
+2146	Monstrous Tree Stumpy	30	1022006			3220000x1	
+2147	스텀피의 묘목 기르기	30	1022006				
+2148	Truth of the Rumor-Blackbull	30	1020000				
+2149	Truth of the Rumor-Manji	30	1022002				
+2150	Truth of the Rumor-Ayan	30	1022007				
+2151	Truth of the Rumor- Dances with Balrog	30	1022000				
+2152	Truth of the Rumor-Betty	30	1032104				
+2153	The Old Snail	30	1012102	20			4161035x1
+2154	Hero of the Story	30	1012106	20			
+2155	Snail Hunt	30	1032106	20			4000000x10 4000016x10 4000019x10
+2156	A rainbow snail shell that makes wishes come true!?	30	1012102	20			2210006x1
+2157	Sacrifice to King Clang	30	1081100	55			
+2158	Helping Riel	30	1081100	55		4230104x50	
+2159	Helping Roel	30	1081101	55		3230102x50	
+2160	Helping Rael	30	1081102	55		4130101x50	
+2161	A brave Warrior to defeat King Clang appears!	30	1081100	55		5220000x1	
+2162	The Half-written Letter	30	1092007	10			4031839x1
+2163	Athena Pierce's Smile	30	1012100	10			
+2164	Athena Pierce's Gift	30	1012100	10			4031840x1
+2165	The Prince's Request	30	1092003	10			2000006x1
+2166	Shining Stone	30	1092003	10			
+2167	Sea Firefly1	30	1092003	25			4031841x1
+2168	Sea Firefly2	30	2060006	25			4031842x1
+2169	The Large Pearl	30	1092003	25			4031843x1
+2170	Information for Dr. Kim	30	1092012	30			4031844x1
+2171	Can you please give Baine a helping hand?	30	1092002	10			
+2172	What is it that Bart saw?	30	1094000	10			4031845x1
+2173	The Truth Behind the Black Shadow	30	1092002	10		130101x20 1210100x20	4031846x1
+2174	Report to Muirhat	30	1092002	10			4031862x1 4031863x1
+2175	Disciples of the Black Magician	30	1092007	10		9300156x1	
+2176	Cleaning The Nautilus 1	30	1092009	15			4000002x50
+2177	Cleaning The Nautilus 2	30	1092009	25			4000095x50
+2178	Cleaning The Nautilus 3	30	1092009				2022000x1
+2179	Protect The Nautilus' Emergency Food Supply	30	1092000	15		1210100x30 1210101x30	
+2180	Find Fresh Milk	30	1092000	20			4031850x1
+2181	Porchay's Letter	30	1092013	20			4031858x1
+2182	Ingredients to Get for the Banquet	30	2060005	20			4000161x40
+2183	A Banquet for the Whalians	30	2060005	20			4031851x1
+2184	Black Bark's Worry	30	1092006	30			4000035x40
+2185	Dress for Kyrin	30	1012106				4031852x1
+2186	Help Me Find My Glasses	30	1094001	15			4031853x1
+2187	A Hole in The Nautilus	30	1092001	30			4000073x50
+2190	Unidentified Strangers	50	1012003	10			
+2191	How to become a Brawler	10	1090000	30			4031856x15
+2192	How to Become a Gunslinger	10	1090000	30			4031857x15
+2193	The Beginner Pirate's First Training Session	10	1090000		40	1210100x11	
+2194	The Beginner Pirate's Second Training Session	10	1090000		40	1210100x26	
+2195	Beginner Pirate's Third Training Session	10	1090000		40	1210100x43	
+2196	Beginner Pirate's Fourth Training Session	10	1090000		40	9101000x10	
+2197	Tienk, the Monster Book Salesman	30	2006		10		
+2198	Eliminate the Stone Golems	30	1092007	55		5130101x100	
+2199	Eliminate the Dark Stone Golems	30	1092007	58		5130102x100	
+2200	Eliminate the Mixed Golems	30	1092007	58		5150000x100	
+2201	Eliminate the Skeletons	30	1092007	60		5150001x50 6230602x50	
+2202	Eliminate the Drakes	30	1092007	64		6230600x50 5130100x50	
+2203	Eliminate the Tauromacis	30	1092007	70		7130100x30 4230100x100	
+2204	Strange Dish 1	30	1092000	25			4000007x40
+2205	Strange Dish 2	30	1092000	35			4000013x50
+2206	Strange Dish 3	30	1092000	40			4000023x50
+2207	Lazy Little Calico	30	1092011	25			4000007x10
+2208	Bartol's Requests	30	1092011	30			
+2209	Bring a Lemon for Shulynch	30	1092011				2010004x1
+2210	Take the Gold Pouch to Muirhat	30	1092011				4031891x1
+2211	Deliver the Tattered Map to Black Bark	30	1092011				4031892x1
+2212	The Path of Pirate	10	1002101				
+2213	JM's Request	30	1052002	65			4000032x50 4000033x50
+2214	The Run-down Huts in the Swamp	30	1052002				
+2215	Find the Crumpled Piece of Paper Again	30	1052002				
+2216	Information from Mr. Pickall	30	9000008				
+2217	Information from Shumi	30	1052102				
+2218	Information from Nella	30	1052103				
+2219	Information from Jake	30	1052006				
+2220	Gathering Information Completed	30	1052002				
+2221	Conclusion	30	1052002			6220000x1	
+2222	The Forest of Evil	30	1032100	50			
+2223	The Name He Calls	30	1040002				4031925x10
+2224	Rage, Resentment, and Revenge	30	1040002				
+2225	The Cause and Effect	30	1032107				
+2226	Arwen's Apology	30	1032100				4031924x1
+2227	Defeat Faust	30	1032001			5220002x1	
+2228	Reef's Gratitude	30	1032108				
+2229	A Way to Fight Off Sleep	30	1040001	23			2000000x1 2000001x1 2000002x1 2000003x1
+2230	A Mysterious Small Egg	30	1032102	15			4032086x1
+2231	Captain Al, Who Are You?	30	1002103	10			
+2232	Find a Junior!	30	1002103				
+2233	Raise the Rep!	30	1002103				
+2234	Enjoy the Entitlement!	30	1002103				
+2235	Manji's Request	30	1022002	50			
+2236	How to Shoo Away the Evil	30	1061000	50			4032263x
+2237	The Owner of the Mysterious Note	30	1063014	50			4032250x1
+2238	Who is the Owner of the Mysterious Note?	30	1061014	50			
+2239	Balrog and the Seal	30	1061014	50		8830003x1	
+2240	A Letter to the Master	30	1061014	50			4032262x1
+2241	A Request to His Apprentice	30	1022002	50			
+2242	Stay Away From Strangers	30	1061014	50			
+2243	This is something you can make with Balrog Skin.	30	1061016	50			4001261x20
+2244	Tristan's Successor	10	1061017	50		8830003x200	
+2245	To Tristan's Tomb	30	1061014	50			
+2246	Horny Mushroom Caps Research	30	1061011	24	34		4000015x30
+2247	Raging Horny Mushrooms	30	1061011			2110200x80	
+2248	Understanding the Horny Mushroom Signals	30	1061011				4032390x20
+2249	Zombie Mushroom Signal 1	30	1061011			2230101x80	
+2250	Zombie Mushroom Signal 2	30	1061011				4000008x100
+2251	Zombie Mushroom Signal 3	30	1061011				4032399x20
+2252	Studying the Mushroom Signals 1 (Repeatable)	30	1061011		26	2230101x30 2110200x20	
+2253	Studying the Mushroom Signals 2 (Repeatable)	30	1061011		25	2230131x20	
+2254	Karcasa of the Desert	30	1061011	25			
+2255	Karcasa's Memory	44	2101013	26	36		4000325x30
+2256	Karcasa's Memory 2	44	2101013				2022000x1
+2257	Karcasa Relents	44	2101013				
+2258	Meerkats Listen During the Day	44	2110005			2100108x40	
+2259	Scorpions Can't Listen at Night	44	2110005				
+2260	To the Mushroom Castle!	44	2110005				
+2261	Camel's Training Session 1 (Repeatable)	44	2110005		29		4032401x60
+2262	Camel's Training Session 2 (Repeatable)	44	2110005		29	2110300x50 2110301x50	
+2263	Camel's Training Session 3 (Repeatable)	44	2110005		29		4032402x80
+2264	Mr. Lim and the Subway	30	1052006	25	30		
+2270	My dream is to...	30	1052117	35	50		
+2271	Lana's Decision	30	1052121	35	50		
+2272	Convince Robby Fray	30	1052123	35	50		4000539x30 4000540x30 4000541x40
+2273	The Secret Recipe	30	1052123	35	50		4032508x1
+2274	Reception Party Preparation, Done!	30	1052121	35	50		
+2275	Tina's Proposition	30	1052122	35	50		4000542x50 4000543x50 4000544x20
+2276	Makeup Artist, Booked!	30	1052121	35	50		
+2277	Marshall's Refusal	30	1052121	35	50		4032506x1
+2278	Legendary Scissors	30	1052118	35	50		4032510x1
+2279	Hair Stylist, Booked!	30	1052121	35	50		
+2280	Costume Preparation	30	1052119	35	50		4000525x50 4000526x50 4000527x50
+2281	Costume Preparation, Done!	30	1052119	35	50		4000534x30 4000532x30 4000530x30
+2282	Rose Scent	30	1052119	35	50		
+2283	Freesia Scent	30	1052119	35	50		
+2284	Lavender Scent	30	1052119	35	50		
+2285	Music Preparation	30	1052121	35	50		4000528x50 4000529x50
+2286	Request for a New Song	30	1052120	35	50	4300011x50	4032509x1
+2287	Composition Fee	30	1052120	35	50		4000537x50
+2288	Say "NO" to Plagiarism	30	1052120	35	50	4300013x1	4000538x1
+2289	The New Song	30	1052120	35	50		4032507x1
+2290	Debut Preparations Completed	30	1052121	35	50		
+2291	Admission to the VIP Zone	30	1052125	35	50		4032521x10
+2292	Blake's Dream	30	1052006	35	50		
+2293	The Last Song	30	1052120	35	50		
+2300	Endangered Mushking Empire	30	1022000	30	38		4032375x1
+2301	Endangered Mushking Empire	30	1032001	30	38		4032375x1
+2302	Endangered Mushking Empire	30	1052001	30	38		4032375x1
+2303	Endangered Mushking Empire	30	1012100	30	38		4032375x1
+2304	Endangered Mushking Empire	30	1090000	30	38		4032375x1
+2305	Endangered Mushking Empire	30	1101003	30	38		4032375x1
+2306	Endangered Mushking Empire	30	1101004	30	38		4032375x1
+2307	Endangered Mushking Empire	30	1101005	30	38		4032375x1
+2308	Endangered Mushking Empire	30	1101006	30	38		4032375x1
+2309	Endangered Mushking Empire	30	1101007	30	38		4032375x1
+2310	Endangered Mushking Empire	30	1201000	30	38		4032375x1
+2312	The Test	30	1300005	30	38		4000499x50
+2313	The Story Behind the Case	30	1300005	30	38		
+2314	Exploring Mushroom Forest (1)	30	1300003	30	38		
+2315	Exploring Mushroom Forest (2)	30	1300003	30	38		
+2316	Exploring Mushroom Forest (3)	30	1300004	30	38		
+2317	Killer Mushroom Spores (1)	30	1300007	30	38		4000500x100
+2318	Killer Mushroom Spores (2)	30	1300007	30	38		4000499x50
+2319	Killer Mushroom Spores (3)	30	1300007	30	38		4032389x1
+2320	Friendship with Bruce	30	1300007	30	38		4032389x1
+2321	Over the Castle Walls (1)	30	1300004	30	38		
+2322	Over the Castle Walls (2)	30	1300003	30	38		
+2323	Over the Castle Walls (3)	30	1300003	30	38		4000501x100
+2324	Over the Castle Walls (4)	30	1300004	30	38		
+2325	James's Whereabouts (1)	30	1300005	30	38		
+2326	James's Whereabouts (2)	30	1300008	30	38		4001317x1
+2327	James's Whereabouts (3)	30	1300008	30	38		
+2328	Sending Provisions (1)	30	1300003	30	38		4000502x200
+2329	Sending Provisions (2)	30	1300005	30	38		4000503x200
+2330	Stop the Wedding	30	1300000	30	38	3300005x1 3300006x1 3300007x1	
+2331	The Seal of the Empire	30	1300003	30	38		4001318x1
+2332	Where's Violetta?	30	1300002	30	38		
+2333	The Story of Betrayal	30	1300002	30	38	3300008x1	
+2334	The Identity of the Princess	30	1300002	30	38		
+2335	Eliminating the Rest	30	1300002	30	38		
+2336	Truth Revealed	30	1300002	30	39		4032387x1 4032386x1
+2337	King Pepe's Scroll	30	1300005	30	38	3300000x200 3300001x200 3300002x300 3300003x400 3300004x400	
+2338	Killer Mushroom Spores, Again	30	1300007	30	38		
+2342	The Recovered Royal Seal	30	1300002	30	38		
+2400	Training Center for Beginner Warriors	10	1022000	10	19		
+2401	Training Center for Beginner Magicians	10	1032001	8	19		
+2402	Training Center for Beginner Thieves	10	1052001	10	19		
+2403	Training Center for Beginner Bowmen	10	1012100	10	19		
+2404	Training Center for Beginner Pirates	10	1090000	10	19		
+2405	The Lost Letter of Commendation	10	1022104	10	20		4032374x1
+2406	The Lost Letter of Commendation	10	1032113	10	20		4032376x1
+2407	The Lost Letter of Commendation	10	1012118	10	20		4032377x1
+2408	The Lost Letter of Commendation	10	1052113	10	20		4032378x1
+2409	The Lost Letter of Commendation	10	1095001	10	20		4032379x1
+2410	Regaining Confidence	10	1022104	12	20		4000003x10
+2411	Regaining Confidence	10	1032113	13	20		4000004x10
+2412	Regaining Confidence	10	1012118	13	20		4000004x10
+2413	Regaining Confidence	10	1052113	13	20		4000003x10
+2414	Regaining Confidence	10	1095001	13	20		4000021x5
+2415	Using Power Strike	10	1022104			130100x30	
+2416	Using Magic Claw	10	1032113			210100x30	
+2417	Using Arrow Blow	10	1012118			210100x30	
+2418	Using Double Stab	10	1052113			130100x30	
+2419	Using Flash Fist	10	1095001			1210100x30	
+2420	Using Lucky Seven	10	1052113			130100x30	
+2421	Using Double Shot	10	1095001			1210100x30	
+2422	Stump's Weakness	10	1022104		20	130100x80	
+2423	Slime's Weakness	10	1032113		20	210100x60	
+2424	Slime's Weakness	10	1012118		20	210100x60	
+2425	Stump's Weakness	10	1052113		20	130100x80	
+2426	Pig's Weakness	10	1095001		20	1210100x40	
+2427	Team Training is Fun! (Party)	10	1022104			130100x200	
+2428	Team Training is Fun! (Party)	10	1032113			210100x200	
+2429	Team Training is Fun! (Party)	10	1012118			210100x200	
+2430	Team Training is Fun! (Party)	10	1052113			130100x200	
+2431	Team Training is Fun! (Party)	10	1095001			1210100x200	
+3000	Missing Staff Sergeant Charlie	33	2020003	40			
+3001	Missing Sergeant Bravo	33	2010000	40			
+3002	Missing Corporal Easy	33	2030001	40			
+3003	Returning to Master Sergeant Fox	33	2030002	40			4031049x3
+3004	The Descendent of the Author of the Book of Ancient	33	2020005	55			
+3005	Hella's Missing	33	2012010	55			
+3006	Where's Hella?	33	2020006	55			
+3007	One Clue	33	2012010	55			
+3008	Looking For the Old Lady	33	2020006	55			
+3009	Spiruna's Black Crystal	33	2032001	55			
+3010	The Cracked Black Crystal	33	2030003	55			4031050x1
+3011	To Restore the Crystal	33	2032001	55			
+3012	A Word from the Assistant	33	2032000	55			
+3013	To Acquire the Fairy Dust	33	2012011	55			4000061x30 4000059x100 4000060x50
+3014	Acquiring the Fairy Dust	33	2012011	55			4031051x1
+3015	The Truth Comes Out...	33	2032001	55			
+3016	Hella is Found!	33	2032000	55			4031052x1
+3017	The Small Grave That's Hidden	33	2020006	55			
+3018	An Old Ring	33	2030004	55			
+3019	The Secrets Behind the Ring?	33	2020005	55			
+3020	Collecting Wolf Skin	33	2020007	55			4000051x80 4000052x80
+3021	Looking for the Wiseman in Perion	33	2020007	55			4031053x1
+3022	Dances with Balrog and His Recovery	33	1022000	55			4005000x2
+3023	Looking for the Wiseman in Ellinia	33	1022000	55			4031054x1
+3024	Grendel the Really Old and His Recovery	33	1032001	55			4005001x2
+3025	Looking for the Wiseman in Henesys	33	1032001	55			4031054x2
+3026	Athena Pierce and Her Recovery	33	1012100	55			4005002x2
+3027	Looking for the Wiseman in Kerning City	33	1012100	55			4031054x3
+3028	Dark Lord and His Recovery	33	1052001	55			4005003x2
+3029	All the Map Pieces in One Place	33	1052001	55			4031054x4
+3030	Restoring the Map	33	2020005	55			
+3031	Acquiring the Memory Powder	33	2030002	55			4000053x3
+3032	The Map is in One Piece	33	2030002	55			4031055x1
+3033	The Secrets Behind the Statue	33	2020005	55			
+3034	The Book of Ancient is Back!	33	2030005	55			4031056x1
+3035	Alcaster and the Dark Crystal	33	2020005	60			4021009x1 4005004x1
+3036	Traces of Nick	33	2020007	65			
+3037	Nick's Ring	33	2030007	65			4031060x1 4000079x80
+3038	Collecting Huckle's Magic Ingredients	33	2030012	20			4000085x20 4000083x45 4000084x20
+3039	A Request from Staff Sergeant Charlie	33	2010000	40			4011005x2
+3040	A Request from Sergeant Bravo	33	2030001	40			4011003x2
+3041	A Request from Corporal Easy	33	2030002	40			4021005x2
+3042	Delivering a Mysterious Item	30	1032106	40			4031197x1
+3043	Helping Kriel Out	33	2012011				4000073x200 4031198x20 4000058x50
+3044	The Nependeath Juice	33	2012020	40			
+3045	Ericsson Loves Cats	33	2012018				4031199x1
+3046	A Present for Nero	33	2012010				4000059x100 4000060x80
+3047	Ericsson's Reward	33	2012018				4000062x80 4000058x150
+3048	Elma's Nependeath Juice	33	2012010				2022039x1 4000136x20 4031201x1
+3049	Estelle and the Syrup	30	1032105				4000029x60 4000017x10 2012002x30
+3050	Alfonse's Smile	33	2012010				4031202x1
+3051	Lisa's Letter of Recommendation	33	2012012	60			4031204x1
+3052	Acquiring Materials for the Fur Coat	33	2020007				4020005x50 4000049x80 4000051x250 4000052x250
+3053	Moppie the Lone Dawg	33	2012019	30			
+3054	Fairy's Horn Flute	33	2012012	30			4000073x80 4003004x15 4000021x5
+3055	Fairy's Horn Flute II	33	2012012	30			4031190x1
+3056	Lisa's Special Medicine	33	2012019	30			
+3057	Lisa's Special Medicine II	33	2012012	30			2000001x40 2000003x20 2050000x1 4000068x1
+3058	Lisa's Special Medicine III	33	2012012	30			4031205x1
+3059	A Request from Moppie	33	2012019	30			
+3060	Food-Hunting for Moppie	33	2030012	30			4000088x100
+3061	Food-Hunting for Moppie II	33	2030012	30			4000088x200
+3062	Food-Hunting for Moppie III	33	2030012	30			4000088x300
+3063	Nero's Necklace	33	2012018	20			4031191x1 4031192x1
+3064	Protect Nero!	33	2012018	35		3210200x50 3210201x50 3210202x50	4000073x50
+3065	Hughes's Hobby	33	2012017	35		3210450x50	4000154x10
+3066	Hughes's Weird Invention	33	2012017	35			4003000x30 2022040x50 4011001x5 4000153x50
+3067	A Healthy Snack for the Huskies	33	2060000	40			4000157x50
+3068	Hughes's Research Material	33	2012017	35			4000156x20 4000155x20
+3069	The Lost Sap of Nependeath	33	2012018				
+3070	Shammos's Request	33	2022003	55			
+3071	The Secrets Behind the Contract of Darkness	33	1022002				4031218x1
+3072	The Bottled-up Letter	33	2060001	35			2022000x1
+3073	Robinson's ID	33	2060001	35			4031210x1
+3074	Sending Relief	33	2051001	35			4031221x1
+3075	Carta the Sea Witch	33	2060006	90			
+3076	Carta's Demand	33	2060100				4031251x10 4031253x1 4031256x3
+3077	Carta's Fortune-Telling	33	2060100				
+3078	The Blocked Path of the Ocean	33	2060101	90			4031252x1 4031254x1 4031255x1
+3079	The Lost Nependeath Juice	33	2012010				
+3080	Kenta's Research 1	33	2060005	17			4031259x1 4031260x1 4031261x1
+3081	Kenta's Research 2	33	2060005				4031262x1 4031263x1 4031264x1
+3082	Kenta's Research 3	33	2060005				4031266x1 4031267x1 4031265x1
+3083	Kenta's Advice	33	2060005	30			4031274x1 4031275x1 4031276x1 4031277x1 4031278x1
+3084	Nanuke's Ingredients	33	2060000	95			4000181x80 4000183x150
+3085	Muse is Cooking	33	2060006				4031281x1
+3086	Spiruna's Prophecy	33	2032001	30			
+3087	Lightening Up Orbis	33	2032000	30		3210200x80 3210201x80 3210202x80	
+3088	Pixies' Cloud Pieces	33	2032000	30			4031309x25
+3089	The Sprayer Elma Borrowed 1	33	2032000	30			
+3090	The Sprayer Elma Borrowed 2	33	2012010	30			4031308x1
+3091	The Ocean View : Kriel's Offer	33	2012011	30			4031310x1
+3092	Aqua Road Photo Album	33	2060006				
+3093	Snow Crystal 1	33	2020005				4031311x100
+3094	Snow Crystal 2	33	2020005				4031312x1
+3095	The Lost Photo Album	33	2060006	30			4031310x
+3096	Kenta's Advice	33	2060005	30			
+3097	Spiruna's concern	33	2032001	51	70	3230200x20 4230106x20 5120000x20	4000061x10 4000059x10 4000060x10
+3098	The legend of Papa Pixie	33	2032001	51	70	9300039x1	
+3099	The record of Goddess Minerva	33	2040052	51	70		4161014x1
+3100	Delivering Food to Spiruna	33	2012011	30			2010000x20 2010002x20 2010003x20
+3101	Hughes's New Experiement	33	2060006	42			4000158x100 4000159x100
+3102	Master Sergeant Fox's Secret	33	2020003	33			2010000x10 4000088x40 2022001x10 2010002x10
+3103	Alcaster's Cape	33	2020005				4000087x40 4006000x2 4021000x4 4000051x2
+3104	Finding Horn Flute	33	2012012				4000073x50 4003004x10 4000021x10
+3105	Huge Creature of the Snowfield	33	2020006	90			
+3106	Snowman Legend	33	2020007				
+3107	Snowman's Rage	33	2020007				
+3108	Snowman's Rage-Found a clue	33	2020012				
+3109	Holding Back the Snowman	33	2020007			8220001x1	
+3110	Restoring the Spirit of the Snow Sculpture	33	2020005				4031791x1
+3111	Eliza's Rage	33	2032001	83		3230200x50 4230106x100 5120000x150	
+3112	Eliza's Garden	33	2032001	83			
+3113	Talk with Eliza	33	2012026	83		8220000x1	
+3114	Eliza's Eternal Sleep	33	2012026	83			
+3115	A Strange Development	33	2012012	10			
+3200	Cleaning up Eos Tower	37	2041004	30		3110102x50	
+3201	Cleaning Up the Inner Parts of Eos Tower	37	2041004	30		2230103x40 3210205x40	
+3202	Cleaning Up the Outer Parts of Eos Tower	37	2041004	30		3230303x25 3230308x25	
+3203	Eos Tower Threatened!	37	2041004	35		4230110x12 4230109x20	
+3204	Peace at Eos Tower	37	2041004	40		4130103x1	
+3205	The Lost Guard	37	2040023	20			4000103x15 4000123x15
+3206	Nemi's Lunchbox Delivery	37	2041005	20			2020021x1
+3207	Nemi's First Ingredient	37	2041005	28			4031129x10
+3208	Nemi's Second Ingredient	37	2041005	28			4000116x15
+3209	Nemi's Dilemma	37	2041005				4000095x45
+3210	Just Another Day at Work	37	2040015				4031078x1
+3211	Roly-Poly 1	37	2040004				4031079x1
+3212	Roly-Poly 2	37	2040005				4031080x1
+3213	Roly-Poly 3	37	2040006				4031081x1
+3214	Roly-Poly 4	37	2040007				4031082x1
+3215	Roly-Poly 5	37	2040008				4031083x1
+3216	Roly-Poly 6	37	2040009				4031084x1
+3217	Roly-Poly 7	37	2040010				4031085x1
+3218	Roly-Poly 8	37	2040011				4031086x1
+3219	Roly-Poly 9	37	2040012				4031087x1
+3220	Roly-Poly 10	37	2040013				4031088x1
+3221	The Drumming Bunny	37	2040008	31			4000127x100
+3222	Eliminating the Drumming Bunny	37	2040008	31			4000127x1000
+3223	Roly-Poly 6's Tool	37	2040009				4031089x1
+3224	Helping Fix Eos Tower	37	2040011	35		3230103x25	4000100x20
+3225	Fixing Eos Tower	37	2040013	40			4000101x30 4000102x15
+3226	The Girl Who Lost Her Memory	37	2041015	25			
+3227	The Man in the Black Suit	37	2050012	25			4031090x5
+3228	The Recovered Memory	37	2050012	25			4031091x1
+3229	Toy Soldier's Walnut	37	2040001	25			4031093x20
+3230	Dollhouse	37	2040001	25			
+3231	The Broken Clocktower	37	2040002	33			4031094x1
+3232	Grandpa Clock's Crisis	37	2040029	33			4031098x1
+3233	Delivering the #t4031094#	37	2040029	33			
+3234	The Clocktower Headache	37	2040029	34		3210207x80	
+3235	The Clock Workers' Batteries	37	2040029	39			4000111x200
+3236	Assembling a Toy	37	2041018	36			4000111x20 4000112x20 4000115x30
+3237	Rocky's Parts	37	2041019	34			4003000x30 4000115x50
+3238	Mac the Mechanic's Maintenance Manual	37	2041020	40			4031130x1
+3239	The Missing Mechanical Parts	37	2040003	30			4031092x10
+3240	Scroll of Life	37					
+3241	Cleaning Up Helios Tower	37	2041004	35		3210208x20	
+3242	The Messenger of the Toy Palace  1	37	2041004	70		3110102x10 3210205x10 3210208x10	
+3243	The Messenger of the Toy Palace  2	37	2041004				4031347x1
+3244	Disgruntled Roly-Poly Worker	37	2040013	20		3210205x20	4000096x5
+3245	Spider's Out at Eos Tower	37	2041022	28		2230103x20 2230104x20	
+3246	A Mysterious Letter	50	2041004	10			
+3247	Rightful Donation Culture	37	2041022	36			4021005x1
+3248	Operation Strategy 1 : Collect All the Eggs	37	2041026	59			2022354x10 2022355x10 4031991x10
+3249	Operation Strategy 2 : Defeat the Monsters	37	2041026			4230113x20 3230306x30 4230114x40 4230115x50 5220003x1	
+3250	Operation Strategy 3: A Cute Baby Bird	37	2041026				4220046x1
+3300	A Deal with the Broker	44	2111007	30			
+3301	Test from the Head of Zenumist Society	44	2111007	30			
+3302	Zenumist Cape	44	2111007	30			4031703x1
+3303	Test from the Head of Alcadno Society	44	2111007	30			
+3304	Alcadno Cape	44	2111007	30			4031704x1
+3305	Re-acquiring Zenumist Cape	44	2111000	30			4021003x5 4000021x10
+3306	Re-acquiring Alcadno Cape	44	2111001	30			4021006x5 4000021x10
+3307	Helping Out Bedin	44	2111008	35			4000352x50 4010004x5
+3308	Getting in the Way of Alcadno	44	2111008	52		5110300x200	
+3309	An Incident, and the Missing Alchemist	44	2111008	52			4031708x1
+3310	Carson's Experiment	44	2111000	70			4031709x1
+3311	Clue	44	2111000	70			
+3312	Russellon's Items for Experiment	44	2111009	35			4031694x10
+3313	Destroy the Roid	44	2111009	52		5110301x80	
+3314	Life Alchemy, and the Missing Alchemist	44	2111009	52			
+3315	Maed's Experiment	44	2111001	70		7110301x100	
+3316	Han the Broker's Info	44	2111001	70			
+3317	Dr. De Lang's Friend	44	2111007	70			
+3318	Parwen the Ghost	44	2111006	52			
+3319	Parwen's Lab	44	2111006	70		6110301x200	
+3320	What Parwen Knows	44	2111006	70			
+3321	Dr. De Lang, the Missing Alchemist	44	2111002	70			
+3322	Phyllia's Pendant	44	2111004	70			4031697x1
+3323	Phyllia's Concern	44	2111004	45			4031706x1
+3324	Ericsson's Ingredients	44	2012018	45			4000068x10 4000060x100
+3325	A Sip of the Moon	44	2012018	45			4031707x1 4031700x1
+3326	Keeny's Secret	44	2111004	52			
+3327	Ericsson's Ingredients for Medicine 2	44	2012018	52			4000061x100 4000068x10
+3328	A Sip of the Sun	44	2012018	52			4031699x1
+3329	Keeny's Research on Roid	44	2111005	55			4000364x80
+3330	Keeny's Research on Neo Huroid!	44	2111005	60			4000365x160
+3331	Keeny's Research on D.Roid!!	44	2111005	70			4000362x1
+3332	Keeny's Pal Humanoid A	44	2111003	45			4000357x100 4000358x100
+3333	A Present for Keeny	44	2111003	45			4031693x1
+3334	Humanoid A	44	2111003	65			4031696x1 4000359x100 4000353x50
+3335	A Rose from the Snowfield	44	2111003	65			4031695x1
+3336	Acquiring the Seed for the Snowfield Rose	33	2020005	65		5300000x100	
+3337	The Importance of Life Alchemy	44	2111009	29		2110301x80	4000351x40
+3338	The Problems with Life Alchemy	44	2111008	24		2110300x150	
+3339	Dr. De Lang's Underground Study	44	2111004	75			
+3340	The Key to the Secret Book	44	2111004	75			4031744x1
+3341	Dr. De Lang's Secret Notes	44	2111016	75			4161031x1
+3342	The Truth About Dr. De Lang	44	2040050	75			4161032x1
+3343	The Hidden Words	44	2020005	75			4031737x1
+3344	The Secrets of Magatia	44	2020005	75			4161033x1
+3345	The Black Magician's Magic Pentagram	44	2020005	75			
+3346	The Brutal Truth	44	2020005	75			
+3347	For Zenumist	44	2111000	75			4161034x1 1102135x1
+3348	For Alcadno	44	2111001	75			1102136x1 4161034x1
+3349	For Phyllia	44	2111004	75			4161034x1
+3350	Re-acquiring Dr. De Lang's Notes	44	2020005	75			
+3351	Re-acquiring Dr. De Lang's Notes 	44	2020005	75			
+3352	Re-acquiring Dr. De Lang's Notes  	44	2020005	75			
+3353	What De Lang Wants	44	2111006	75			
+3354	De Lang's Potion	44	2111002	75			
+3355	The Memories of Humanoid A	44	2111001	75			
+3356	Who is De Lang?	44	2111003	75			4031743x1
+3357	De Lang and Humanoid A	44	2111001	75			4031738x1
+3358	Parwen's Pass	44	2111006	70			4031745x1
+3359	Searching for the Master Key	44	2111006	70			4000363x100
+3360	Verifying the Password	44	2111006	70			
+3361	Zenumist and the Ostracized Research	44	2111008	70	85		4031774x1
+3362	Alcadno and the Ostracized Research	44	2111009	70	85		4031796x1
+3363	Studying Frankenroid 1	44	2111005	70	85		
+3364	Studying Frankenroid 2	44	2112014				4031775x1
+3365	Yulete's Request	44	2112014	70			
+3366	Making the Reagent	44	2112014	70			4031798x1
+3367	Organizing the Lab Report	44	2112014	70			4031797x20
+3368	Eliminating Obstacles	44	2112014	70		9300153x100	
+3369	Romeo's Present	44	2112004	70			4000361x20
+3370	Romeo's Flowers	44	2112004	70			4031799x1
+3371	Juliet's Feelings	44	2112003	70			
+3372	Sirin's Tailoring Methods	44	2101000	70			4031776x1
+3373	Juliet's Response	44	2112003	70			4031777x1
+3374	Writing Romeo's Letter	44	2112004	70			
+3375	Romeo's Love Letter	44	2112004	70			4031778x1
+3376	Juliet is Impressed	44	2112003	70			4031785x1
+3377	Han the Broker's Recipe	44	2111007	70			
+3378	Juliet's Lunchbox	44	2112003	70			4031779x1
+3379	Romeo Proposes	44	2112004	70			4031806x1
+3380	Allegro, the Master of the Rings	44	9201000				4021007x2 4011004x2
+3381	The Unidentified Group	44	2111007	10			
+3382	Yulete's Reward	44	2112014	70	85		
+3383	Moren's Upset	44	2110004	50			
+3384	Gordon's Magic Iron	44	2020002				4000048x50
+3385	Gordon's Warm Heart	44	2020002				
+3400	Chief Stan's Letter	30	1012003	30			4031099x1
+3401	Dr. Kim's Comments : Blueprint for New Robot	37	2050001	30			4031100x1
+3402	Dr. Kim's Comments : A Meeting with Chury	37	2050005	30			4000117x20
+3403	Dr. Kim's Comments : A Meeting with Hoony	37	2050006	30			4031101x1
+3404	Dr. Kim's Comments : A Meeting with Gunny	37	2050007	30			
+3405	An Important Robotic Part	37	2050001	30			
+3406	Delivering the Robotic Parts	37	2040003	30			4031095x1 4031096x1 4031097x1
+3407	Retrieving the Robotic Parts	37	2050001	30			4031141x1 4031142x1 4031143x1
+3408	Eliminating Aliens	37	2050001	40		5120100x5	
+3409	Where is Dogon's HQ?	37	2050005	35			4031107x1
+3410	Hoony's Toothache	37	2050006	31			2002011x1
+3411	Chief Gray's Sign	37	2050007	47			4000125x5
+3412	Eliminating Grays	37	2040018	37		4230116x25	
+3413	Eliminating Chief Gray	37	2040018	43			4031102x3
+3414	The History of Zeta Leticulan	37	2040018	45			4031103x1 4031104x1 4031105x1 4031106x1
+3415	The Alarm Clock	37	2041012	38			4000114x20
+3416	Assembling the Alarm Clock	37	2041012	38			4031115x2 4000114x10 4000115x10
+3417	A Sleeping Monster	37	2041012	38			
+3418	The Completion of the Alarm Clock	37	2050011	38			4031108x1
+3419	Trading with Alien Gray	37	2050002	44			4031116x3
+3420	The Effort to Make-up	37	2041011	44		4230118x120	
+3421	Collecting Meteorite Samples	37	2041011	44			4031117x6
+3422	Fuel for MT-09	37	2051001	50			4000126x5
+3423	The New Control Program	37	2051001	50			
+3424	Porter the Undependable	37	2050013	50			4000124x3
+3425	Porter's Mistake	37	2050013	50			4000124x1
+3426	The Brilliant Assistant	37	2050013	50			4031118x3
+3427	Porter's Secret Letter	37	2050013	50			4031126x1
+3428	Where is the Dropship?	37	2051001	50			
+3429	The Pilot's Whereabouts...	37	2050020	50			4031127x1
+3430	Collecting 100 Mateon Tentacles	37	2050010	40			4000120x100
+3431	Collecting 200 Mateon Tentacles	37	2050010	40			4000120x200
+3432	Collecting 300 Mateon Tentacles	37	2050010	40			4000120x300
+3433	Collecting 400 Mateon Tentacles	37	2050010	40			4000120x400
+3434	Collecting 500 Mateon Tentacles	37	2050010	40			4000120x500
+3435	Eliminating Mateon	37	2040017	41		4230119x100	
+3436	Eliminating Plateon	37	2040017	41			4000121x80
+3437	Eliminating Plateon and Mecateon	37	2040017	41		4230120x150	4000122x120
+3438	The Ore of Dark Crystal	37	2050008	31			4031135x20
+3439	Where's the Power of Origin?	37	2050008	31			4031136x1
+3440	Terminating the Dark Force.	37	2050008	31			4031140x30 4004004x10
+3441	Help Kevin the Soldier's Vacation Plans	37	2050011	30			4000120x25 4031206x1
+3442	A Chat with Nara the Tour Guide	37	2040048	30			
+3443	Recovering VIP Ticket to Florina Beach	37	2010005	30			4031243x1 4021007x3 4031207x1 4000059x50 4000060x30
+3444	The Binding	37	2041026	84			4000148x20
+3445	Free Spirit	37	2041026	62			4000144x80
+3446	The Soul Collector	37	2041026	85		8141000x20	4031193x1
+3447	Destroying the Power of Evil	37	2032004	105			4031196x1
+3448	Mason the Collector	37	2041027	60			4031189x1
+3449	Mason the Collector Ⅱ	37	2041027				4031195x10 4000129x50
+3450	The Lost Piece of the VIP Ticket	37	2050011				
+3451	The Lost Piece of the VIP Ticket	37	2050011				
+3452	Blocktopus is an Alien?	37	2050001	35			4000099x1
+3453	Zeno, the Formidable Enemy	37	2050001	65			
+3454	Wave Translator	37	2050001				4000119x30 4000118x30 4000125x1 4031926x10
+3455	The Endangered Lives of Grays	37	2050002				
+3456	The Endangered Lives of Grays	37	2050002				
+3457	The Battle Against Zeno	37	2050001			6220001x1	
+3458	Revolutionary Defensive Wall Construction Plan	37	2050009	40			4000101x20
+3500	Path to the Past	46	2140000	90			
+3501	The One Who Walks Down Memory Lane1	46	2140000	91		8200001x999	
+3502	The One Who Walks Down Memory Lane2	46	2140000	94		8200002x999	
+3503	The One Who Walks Down Memory Lane3	46	2140000	98		8200003x999	
+3504	The One Who Walks Down Memory Lane4	46	2140000	101		8200004x999	
+3505	The One Who Walks Down Memory Lane5	46	2140000	103		8220004x1	
+3506	Lost Memory	46	2140000	103			
+3507	Memory Keeper	46	2140001	103			
+3508	The One Who Walks Down the Road of Regrets1	46	2140000	106		8200005x999	
+3509	The One Who Walks Down the Road of Regrets2	46	2140000	109		8200006x999	
+3510	The One Who Walks Down the Road of Regrets3	46	2140000	113		8200007x999	
+3511	The One Who Walks Down the Road of Regrets4	46	2140000	116		8200008x999	
+3512	The One Who Walks Down the Road of Regrets5	46	2140000	120		8220005x1	
+3513	Frozen Emotions	46	2140000	120			
+3514	The Sorcerer Who Sells Emotions	46	2140002	120			2022337x
+3515	The One Who Walks Through the Road to Oblivion1	46	2140000	121		8200009x999	
+3516	The One Who Walks Through the Road to Oblivion2	46	2140000	124		8200010x999	
+3517	The One Who Walks Through the Road to Oblivion3	46	2140000	128		8200011x999	
+3518	The One Who Walks Through the Road to Oblivion4	46	2140000	131		8200012x999	
+3519	The One Who Walks Through the Road to Oblivion5	46	2140000	135		8220006x1	
+3520	The Goddess' Blessing	46	2140000	135			
+3521	Force Field	46	2140000	135			4000446x10 4000451x10 4000456x10 4000460x1 4000461x1 4000462x1
+3522	Beyond the Ruins	46	2140000	140		8820001x1	
+3523	In Search for the Lost Memory	46	1022000				
+3524	In Search for the Lost Memory	46	1032001				
+3525	In Search for the Lost Memory	46	1012100				
+3526	In Search for the Lost Memory	46	1052001				
+3527	In Search for the Lost Memory	46	1090000				
+3528	Breaking the Force Field	46	2140000				4000446x10 4000451x10 4000456x10 4000460x1 4000461x1 4000462x1
+3529	In Search for the Lost Memory	46	1101002				
+3530	The One Who Walks Through the Road to Oblivion1	46	2140000	120		8200009x999	
+3531	The One Who Walks Through the Road to Oblivion2	46	2140000	120		8200010x999	
+3532	The One Who Walks Through the Road to Oblivion3	46	2140000	120		8200011x999	
+3533	The One Who Walks Through the Road to Oblivion4	46	2140000	120		8200012x999	
+3534	There's no reason to believe that yet, but we should check just in case.  Go visit #b#p2140003##k and ask what happened to the Goddess' promise.  He is the Record Keeper of everything, so he is the only one who would be able to tell you.	46	2140000	120		8220006x1	
+3535	The Goddess' Blessing	46	2140000	120			
+3536	Force Field	46	2140000	120			4000446x10 4000451x10 4000456x10 4000460x1 4000461x1 4000462x1
+3537	Breaking the Force Field	46	2140000				4000446x10 4000451x10 4000456x10 4000460x1 4000461x1 4000462x1
+3538	Beyond the Ruins	46	2140000	120			
+3539	Searching for Lost Memories	46	1201000				
+3600	Tae Gong's Love For His Wife	33	2060002	35			4000166x20
+3601	The Brothers' Stack of Rice 1	37	2071005	37			4031229x1
+3602	The Brothers' Stack of Rice 2	37	2071003				4031246x1
+3603	The Brothers' Stack of Rice 3	37	2071005				4031247x1
+3604	The Brothers' Stack of Rice 4	37	2071003				4031248x1
+3605	Brotherly Love	37	2071005				
+3606	The Lost Seed	37	2071006	37			4031241x1
+3607	Opening Nolbu's Gourd	37	2071002	37			4031224x1
+3608	Opening Hongbu's Gourd	37	2071001	37			4031223x1
+3609	The Seed That Swallow Lost	37	2071006				
+3610	Preparing to Eliminate Goblins	37	2071000	60			2022050x1 2022051x1 2022052x1
+3611	Eliminate Goblins	37	2071000	60		7130401x1 7130402x1 7130400x1	4031234x1 4031232x1 4031233x1
+3612	Chil Sung's Roasted Pork	37	2071005	37			4000169x5
+3613	Chil Nam's Buckwheat Paste	37	2071003	37			4000170x4
+3614	Kong Ji's Rice Wine	37	2071004	37			4000172x3
+3615	Retrieving the Storybook : Hongbu and Nolbu	37	2040052	37			4031235x1
+3616	Retrieving the Storybook : Kong Ji and Pat Ji	37	2040052	37			4031236x1
+3617	Retrieving the Storybook : Brotherly Love	37	2040052	37			4031237x1
+3618	Retrieving the Storybook : The Goblin Tale	37	2040052	60			4031238x1
+3619	Pot with a Hole	37	2071004	37			4031230x1
+3620	Extracting Artemesia	37	2071004				4031231x12
+3621	The Wooden Hoe That Snapped	37	2071004				4031222x1
+3622	Tiger-Hunting	37	2071000	55		5100005x8	4000171x8
+3623	Grandma Yeon's Pot	37	2071007				
+3624	The Storybook on Brotherly Love	37	2071003				4000095x5
+3625	The Storybook on Kong Ji and Pat Ji	37	2071004				4000166x5
+3626	The Storybook on Hongbu and Nolbu (Hongbu)	37	2071001				4000168x10
+3627	The Storybook on Hongbu and Nolbu (Nolbu)	37	2071002				4000100x2
+3628	The Storybook on the Goblin Story	37	2071000				4000173x10
+3629	The Kids That Became the Sun and the Moon	37	2071008	37			4031268x20 4031269x1
+3630	Retrieving the Storybook : The Kids That Became the Sun and the Moon	37	2040052	37			4031270x1
+3631	The Storybook on The Kids That Became the Sun and the Moon storybook	37	2071008				2020001x5
+3632	Mr. Shim's Request	37	2071009	35			4031279x300
+3633	Retrieving the Storybook : Shim Chung	37	2040052	35			4031280x1
+3634	The Storybook on Shim Chung	37	2071009				4000165x10
+3635	The Fox Hunt	37	2071000	57			4000172x333
+3636	The Story of Axes	37	2071010	45			4031315x1
+3637	Judging the Axe	37	2071010	45			
+3639	Retrieving the Storybook : The Story of Axes	37	2040052	45			4031298x1
+3640	The Storybook on the Story of Axes	37	2071010				4010006x1 4010004x1
+3641	Young Man Possessed by a Fox	37	2071005	70			
+3642	Chil Sung's Request	37	2071005	70			4031790x1
+3643	Fox's Threat	37	2071010	70			
+3644	What the Blue King Goblin Wants	37	2071014	70			2022052x1
+3645	What the Yellow King Goblin Wants	37	2071013	70			2022050x1
+3646	What the Green King Goblin Wants	37	2071015	70			2022051x1
+3647	Retrieve a Soul	37	2071005	70		7220001x1	4031793x1
+3648	Secret Love Affair with Seal Meat	37	2071007	43			4000157x15
+3700	Ito's Request	41	2081002	70			4000229x75 4000226x55
+3701	Kumo's Request	41	2081001	75			4000236x48 4000237x28
+3702	Yaku's Request	41	2081003	80			4000238x50 4000239x30
+3703	Pam's Request	41	2081004	78			4000231x50
+3704	Recipe for the Medicine	41	2081004	85			4000241x80
+3705	Hero's Mark	41	2081001	80			
+3706	Dragon Squad's Mission	41	2081007	80			
+3707	 The Last Hour of Horntail	41	2081006	80		8810018x1	
+3708	Red Tree	41	2081003	85			
+3709	Getting Advice from Grendel the Really Old  1	41	2081000	85			4031411x1
+3710	Getting Advice from Grendel the Really Old 2	41	1032001	85			4031410x1 4000232x5 4000233x5 4000234x5
+3711	Wyvern's Sudden Attack	41	2081007	100		8150300x18 8150301x18 8150302x18	
+3712	Recovering the Black Spirit	41	2081007	100			4031412x1 4031413x1 4031414x1 4031415x1
+3713	A New Force Emerging	50	2081000	10			
+3714	The Remnants of Horned Tail...	41	2081011				
+3715	The Suspicious Wanderer	41	2111007	70			
+3716	The Wanderer's Whereabouts 1	41	2102002	70			
+3717	The Wanderer's Whereabouts 2	41	2012006	70			
+3718	Andy the Time Traveler	41	2082004	70			4032511x1
+3719	Nex the Time Guard	41	2082004	70		7120100x1	
+3720	The First Clue	41	2082004	70			4032512x1
+3721	Dangerous Slimes	41	2082005	71		7120103x50 7120104x50 7120105x50	4000545x30 4000546x30 4000547x30
+3722	The Crying Girl's Sketchbook	41	2082006	72			4032513x20
+3723	The Boy and the Girl	41	2082005	72			
+3724	Nex the Time Guard	41	2082004	73		7120101x1	
+3725	The Hidden Truth about the Past	41	2082004	73		7220005x1	
+3726	Policeman in Danger	41	2082007	73		7120106x50 7120107x40	
+3727	The Shelter Key	41	2082007	74			4032514x1
+3728	Temporary Relief	41	2082008	75			4000548x20 4000549x40
+3730	Nex the Time Guard	41	2082004	77		7120102x1	
+3731	Identity of the Missile	41	2082004	77		8220010x1	
+3732	Rambunctious Robots	41	2082009	77		7120108x50	
+3733	Survivor Search	41	2082009	78			
+3734	The Dangerous Android	41	2082010	79		7120109x50	
+3735	The Wreckage of the Missile	41	2082010	80			4032516x1
+3736	Nex the Time Guard	41	2082004	81		8120100x1	
+3737	Central Robot Aufheben	41	2082004	81		8220011x1	
+3738	Disturbing the Army of Robots	41	2082017	81		8120102x50 8120103x40	
+3739	Isabella's Search	41	2082017	82			
+3740	What Was That I Saw?	41	2082016	82			4032517x1
+3742	Nex the Time Guard	41	2082004	85		8120101x1	
+3743	The New and Improved, Oberon	41	2082004	85		8220012x1	4032518x1
+3744	Defeat the Mavericks	41	2082011	85		8120104x30 8120105x30 8120106x30	
+3748	Nex the Time Guard	41	2082004	90		8140510x1	
+3749	Nibelung's Song	41	2082004	90		8220015x1	
+3800	No Gong's Teaching 1	44	2091000	50		5120503x10	
+3801	No Gong's Teaching2	44	2091000	50		5120503x20	
+3802	No Gong's Teaching3	44	2091000	50		5120503x40	
+3803	The Lost Document	44	2091001	55			4000299x10
+3804	Eliminating the Spirited Cats	44	2091001	55		6130209x20	4031433x5
+3805	Eliminating the Spirited Monkeys	44	2091002	60		6130207x50	
+3806	Collecting Peach Seeds	44	2091002	60			4000282x100
+3807	Intruder - The Herb Farm 1	44	2092000	50		5120501x80	
+3808	Intruder - The Herb Farm 2	44	2092000	50		7130104x80 6130208x80	
+3809	The Legendary Being's Scroll 1	44	2071010	55			4031430x1
+3810	The Legendary Being's Scroll 2	44	2091001	55			4031432x1
+3811	The Legendary Being's Scroll 3	44	2091001	55			4031431x1
+3812	Eliminating the Pirates	44	2094000	55	100	9300117x200 9300118x200	
+3813	The Outlaw in the Sea	44	2094000	55	100	9300119x1 9300105x1 9300106x1	
+3814	Pirate's Map	44	9000009	55	100		4001118x6
+3815	Finding the Ingredients for Tae Sang	44	2091002	55			2022132x50 2022131x100
+3816	Making the Body & Physics Medicine 1	44	2091000	45			4000281x10
+3817	Making Body & Physics Medicine2	44	2091002				4031552x1
+3818	Making Mind & Heart Medicine1	44	2091001	55			4000283x8
+3819	Making Mind & Heart Medicine2	44	2091002				4031553x1
+3820	Making Mastery Medicine	44	2091002	60			4000283x4 4000292x10 4000294x10 4000288x10 4000281x6
+3821	Tae Soo Protecting the Peach Tree	44	2091003	55			4031554x1
+3822	Do Gong's Swallow	44	2091001	50			
+3823	Swallow's Memory	44	2071006				2022116x1
+3824	Tell Do Gong I Said Hi	44	2071006				
+3825	Swallow's Medicine	44	2091002				4000292x20 4000276x50 4000279x50
+3826	Swallow Isn't Alone	44	2091002				4031555x1
+3827	Tae Sang's Request	44	2091002	70			
+3828	An Evidence of Slaying the Captain	44	2092001				4031436x20
+3829	Captain Lord Pirate	44	2092001	55	100		4031551x1
+3830	Mr. Do's Book on Herbal Medicine	44	2090004	40			4000298x25
+3831	No Gong's Test	44	2091000	60		5120500x100 6130203x100	
+3832	Do Gong's Test	44	2091001	65		5120506x100 6130209x100	
+3833	Gathering Up the Lacking Ingredients	44	2092000	56			4000294x1
+3834	Eliminating the Escaped Pot	44	2092001	49		4230505x400	
+3835	Tae Soo's Account	44	2091003	71			
+3836	No Gong's Student	44	2091000	71			
+3837	Do Gong's Spell	44	2091001	71			4000288x10 4000298x10 4000282x50
+3838	Defeat Tae Roon	44	2091000	71		7220000x1	
+3839	Tae Soo's Reward	44	2091003	71			2022252x1
+3840	Weakening King Sage Cat	44	2091001	77			4000289x100
+3841	Master Goblin's Call	44	2091004	77			
+3842	Do Gong's in Trouble	44	2091004	77			4031788x1
+3843	Master Goblin's Questions	44	2091001	77			
+3844	Eliminating King Sage Cat	49	2091001	77		7220002x1	4031789x1
+3845	The Rumor in the Sea of Fog	44	2092001	60	80		
+3900	Learning the Culture of Ariant	44	2101005	15			
+3901	Tigun the Guard at the Palace	44	2101004	10			
+3902	Queen's Make-up Kit	44	2101007	41			4000332x20
+3903	Queen's Tea 1	44	2101007	23			
+3904	Queen's Tea 2	44	2012012	23		5200000x30	
+3905	Queen's Tea 3	44	2012012	23			4031577x1
+3906	Jiyur's Sister	44	2101001	28			
+3907	A Letter From the Sister	44	2101008	28			4031589x1
+3908	A Present for His Sister	44	2101001	28			4000331x20
+3909	Dancer's Ringing	44	2101000	24			4000328x20
+3910	Sword Dance	44	2101000	32			
+3911	Making the Fancy Sword	44	2100001	32			4031568x4 4000335x30
+3912	Deliver the Fancy Sword	44	2100001	32			4031569x1
+3913	Schegerazade's Fear	44	2101008	36			
+3914	Borrowing the Book from Wiz	44	2040052	36			
+3915	Schegerazade's Storybook	44	2101008	36			4031572x1
+3916	Schegerazade the Storyteller	44	2040052	36			4031573x1
+3917	The Little Prince that Loves Roses	44	2101006	32			2022155x5
+3918	The Little Prince that Loves the Stars	44	2101006	32			4000333x20
+3919	Recovering the Book The Little Prince 1	44	2040052	32			
+3920	Recovering the Book The Little Prince 2	44	2101006	32			4031591x1
+3921	A Request from a Member of the Sand Bandits?! 1	44	2101012	27			4000329x30
+3922	A Request from a Member of the Sand Bandits?! 2	44	2101012	27			4000330x50
+3923	A Request from a Member of the Sand Bandits?! 3	44	2101012	27			4031578x1
+3924	Sirin Speaks	44	2101012	27			
+3925	True or False	44	2101000	27			
+3926	Screwing the Red Scorpions	44	2103007	27			4031579x
+3927	The Existence of the Secret Organization	44	2101000	29			
+3928	The Man with a Bow	44	2101011	29			4000325x50 2010000x10 2010002x10
+3929	Sejan's Test	44	2101011	29			4031580x
+3930	Sejan's Sand Bandits	44	2101011	29			
+3931	The Man with the Iron Hammer	44	2101003	29		2100105x100	
+3932	Ardin's Test	44	2101003	29		2100106x30 2100107x30	4000326x20 4000327x20
+3933	Ardin's Sand Bandits	44	2101003	29		9100013x1	
+3934	The Lady with the Dagger	44	2101002	29			
+3935	Eleska's Test	44	2101008	29			4031574x1
+3936	Eleska's Sand Bandits	44	2101002	29			4011008x2
+3937	The True Identity of Sand Bandits	44	2101010	29			
+3938	First Mission	44	2101010	29			4031570x1
+3939	Tigun's Hair	44	2101004	29			4010007x1
+3940	Mission Complete!	44	2101010	29			4031571x1
+3941	Stealing Queen's Order of Silk	44	2101013	29			
+3942	Byron's Recommendation Letter	44	2101005	30			4031620x1
+3943	Byron's Recommendation Letter!	44	2101005	30			4031621x1
+3944	Byron's Recommendation Letter!!	44	2101005	30			4031622x1
+3945	Byron's Recommendation Letter!!!	44	2101005	30			4031623x1
+3946	A Proper Reward for a Good Deed	44	2101000				
+3947	Byron's Recommendation!	44	2101005	30			4031893x1
+3948	Sejan's Good Habit	44	2101011	53			2060001x10000
+3949	Jiyur's Palace Entry Pass	44	2101001	48			4031582x1
+3950	Dealing with Tigun	44	2101001				
+3951	The Tree Cutter's Test	37	2071011	53		5100003x50	
+3952	The Bounty Hunt	44	2101000	38			
+3953	Convince Muhamad	44	2100001				4011008x1
+3954	Defeat Deo	44	2101010			3220001x1	
+3955	In Search of the Long Lost Pyramid	44	2101005	40	60		
+4000	아종의 취미생활 1	48	9330016	45			4000257x50
+4001	아종의 취미생활 2	48	9330016	45			4000258x50
+4002	할머니가 아파요	48	9330017	35			
+4003	오씨의 버블티 사업	48	9330018	35			4000254x30 4000255x30 4000256x30
+4004	죽 요리 배달	48	9330018	35			4031355x1
+4005	껌팔이 소녀의 핑크예티	48	9330017	45			4031352x1
+4006	연인의 마법선물	48	9330003	42			4031291x1 4031292x1 4031293x1
+4007	완벽한 상자	48	9330005	42			4031303x1
+4008	보관함의 열쇠	48	1012101	42			4000001x50
+4009	영웅의 북	48	9330006	42			4000202x100
+4010	영원의 눈물	48	9330004	42			4031296x1
+4011	주걸균의 음악상자	48	9330003	80			4031353x1
+4012	목걸이를 찾아서 1	48	9330019	80			
+4013	목걸이를 찾아서 2	48	9330020	80			4031354x1
+4014	자격의 시험	48	9330028				4000259x50
+4100	난폭해진 가축	48	9310010	45			4000189x100 4000190x100
+4101	양씨 아저씨의 소개	48	9310010	45			4031288x1
+4102	자격의 증명	48	9310008	45			4000191x100 4000192x100
+4103	비밀임무	48	9310008	45			4031227x1
+4104	사진기사 조씨의 부탁	48	9310012	30			4031290x1
+4105	양씨 아저씨의 농사일 돕기	48	9310010	30			4000193x100
+4106	잃어버린 사진기용 삼각대	48	9310010	30			4000192x50
+4107	노점상 주인 여씨와 물물교환 1	48	9310011	10			4000187x100
+4108	노점상 주인 여씨와 물물교환 2	48	9310011	10			4000188x100
+4109	정경찰의 부탁	48	9310005	45			4000194x50
+4200	폰라의 부탁	48	9250000	25			
+4201	리사의 복수	48	2012012	25			4031391x1
+4202	휴즈의 가짜 설계도 연구재료	48	2012017	25			4000085x30 4000063x30 4000068x5 4000084x30
+4203	휴즈의 엉터리 실험	48	2012017	25			
+4204	폰라를 위한 마법의 화장품	48	2012012	25			4031392x1
+4205	폰라의 파티복과 유리구두	48	9250000	25			
+4206	장로의 조건	48	9250014	25		9420000x50	
+4207	완성된 파티복과 유리구두	48	9250014	25			4031405x1 4031382x1
+4208	아픈 뱀을 위한 영양식 I	48	9250001	10			4000252x50 4000253x50
+4209	아픈 뱀을 위한 영양식 I I	48	9250001	10			4000252x50
+4210	뱀을 무서워하는 지트 아저씨	48	9250004	55		9420002x50	4000248x30
+4211	플로팅마켓 수호대 가입하기1	48	9250012	10			
+4212	플로팅마켓 수호대 가입하기2	48	9250003	10			4031383x1
+4213	플로팅마켓 수호대 가입하기3	48	9250005	10			4031384x1
+4214	플로팅마켓 수호대 가입하기4	48	9250013	10			4031385x1
+4215	플로팅마켓 수호대 가입하기5	48	9250014	10			4031386x1
+4216	플로팅마켓 수호대 가입완료	48	9250004	10			4031387x1
+4217	수호대의 첫 번째 임무	48	9250012	20		2130103x40 9420000x40	
+4218	수호대의 두 번째 임무	48	9250012	20			4031388x1
+4300	Kino Konoko's Concern	30	9110002	20			4000064x100
+4301	Kino Konoko vs Fire Raccoon	30	9110002	25		9400001x80	
+4302	Hanako's Foxtail Muffler 1	30	9120001	25			4000066x100
+4303	Hanako's Foxtail Muffler 2	30	9120001	25			4000066x200
+4304	Hanako's Foxtail Coat	30	9120001	25			4000066x400
+4305	Eliminating Dark Cloud Fox	30	9120001	40		9400004x80	
+4306	The Lantern at Mushroom Shrine	30	9120003	35		9400011x100	4000222x50
+4307	Eliminating Ghosts	30	9120003	55		9400003x80	
+4308	Water Goblin's Cucumber	30	9120003	55		9400012x80	4000223x40
+4309	Eliminating Blue Mushmom	30	9120003	85		9400205x1	
+4437	Rooney's Breaking News	50	9250052				4031876x1
+4477	News Special Report	50	9250052	25			
+4478	Disappeared Santa Encyclopedia  	50	1022101	25			4161043x1 4161038x1 4161039x1 4161040x1 4161041x1 4161042x1
+4479	Santa Grandmother Finding	50	9250051	25			
+4480	Common Sense Of Santa 	50	9250051	25			
+4481	Socks Creation Recipes	50	9250051	25			4161039x1
+4482	Socks Actual Creation Action	50	9250051	25			4220022x1
+4483	Socks Hanging	50	9250053	25			4031885x4
+4484	Cliff's Request	50	2001000	25			4031881x1
+4485	Torr's Whereabouts	50	2001000	25			
+4486	Santa Cat's request	50	9201030	25			
+4487	Delivery of Rina cleaning device	50	1010100	25			4031882x1 4031883x1
+4488	Warm Milk Delivery	50	9220005				4031884x1
+4489	Delivery the word Thank 	50	1052106	25			
+4490	Bicho's snowman	50	9250054	25			
+4503	Clear the Rubbish	48	9270039	15			4000366x20 4000367x20
+4504	Stop'em!	48	9270028	25			4000369x100 4000370x100
+4505	Stop the Speeder!	48	9270028	30			4000371x100 4000370x100
+4506	Technical Assignment	48	9270029	45			4000374x2 4000375x6 4000376x1
+4507	Angie's Beloved Costume 1	48	9270032	25			4000035x20 4000021x20
+4508	Angie's Beloved Costume 2	48	9270032	25			4000035x25 4021003x5 4000021x25
+4509	Angie's Beloved Costume 3	48	9270032	25			4000035x50 4021003x10 4000021x50
+4510	The secret of the past	48	9270030	58		9420509x100 9420510x100	
+4511	Making the path to the sea	48	9270030	63		9420510x120 9420511x120	
+4512	The great secret reveals	48	9270030			9420512x300	
+4513	Fight for the future	48	9270030			9420513x1	4000384x1
+4522	The Lost White Essence	48	9270030			9420512x300	4000383x300
+4523	Return of Capt. Latanica	48	9270030			9420512x100 9420511x100 9420510x100	
+4541	A Bright and Sunny Day	49	9270061	50			4000465x50
+4542	Too Hot!	49	9270061	50			4000465x100
+4543	I am Bored!	49	9270061	50			4000466x100
+4544	All taken away!	49	9270061	50			4000466x150
+4545	Poor Blondie	49	9270060	57		9420529x100	4000467x100
+4546	Running out of Wigs!	49	9270060	57		9420529x200	4000467x200
+4547	Tires are missing!	49	9270060	57		9420530x50	4000468x50
+4548	Oly Oly is back!	49	9270060	57		9420530x100	4000468x100
+4549	Hunger calls	49	9270059	60			2022203x10
+4550	I need Vitamin C	49	9270059	60			2010000x5 2010003x5
+4551	My Lovely Scarf	49	9270059	60			4000469x50
+4552	My Scarfs are Stolen!	49	9270059	60			4000469x100
+4553	Gift for Dear Daddy	49	9270058	70		9420534x100	4000472x100
+4554	Daddy's Birthday Party	49	9270058	70		9420532x50	4000470x50
+4555	Unexpected Guest	49	9270058	70		9420536x100	4000474x100
+4556	Grand Finale	49	9270058	85		9420535x200	4000473x200
+4557	Lam wants to see the world	49	9270062	85			4000475x100
+4558	Off to the City	49	9270062	85		9420539x200	4000477x200
+4559	Gift for Brother	49	9270062	85		9420538x200	4000476x200
+4560	Merry-go-round in Kampung	49	9270062	85		9420540x200	4000478x200
+4576	Off to the Fantasy Theme Park	49	9270062	90			4000471x10
+4646	Pet Instructor Test	30	1012006				4031921x1
+4647	The Secret Method	30	1012006				
+4659	Robo Upgrade!	50	9102001				5380000x1 4000111x50
+4660	Educating Smart Pets (Pet Summon)	50	1012006				4031993x1
+4661	Educating Smart Pets (Speech by Itself)	50	1012006				4031993x1
+4675	Naomi's Invitation 1	50	9105002				
+4676	Naomi's Invitation 2	50	9105002				4032056x100
+4900	Welcome to New Leaf City Quiz 1	45	9201050	100200			
+4901	Welcome to New Leaf City Quiz 2	45	9201050				
+4902	Welcome to New Leaf City Quiz 3	45	9201050				
+4903	Welcome to New Leaf City Quiz 4	45	9201050				
+4904	Welcome to New Leaf City Quiz 5	45	9201050				
+4905	Welcome to New Leaf City Quiz 6	45	9201050				
+4906	Welcome to New Leaf City Quiz 7	45	9201050				
+4907	Welcome to New Leaf City Quiz 8	45	9201050				
+4908	Welcome to New Leaf City Quiz 9	45	9201050				
+4909	Welcome to New Leaf City Quiz 10	45	9201050				
+4910	Welcome to New Leaf City Quiz 11	45	9201050				
+4911	Welcome to New Leaf City Quiz 12	45	9201050				
+4912	Urban Jungle 	45	9201053	80		9400545x100	
+4913	Subani's Legacy - Discovery	45	9201051	36		9400540x50 9400548x30 9400542x40	
+4914	Subani's Legacy - Transgression	45	9201051	38			4031680x50
+4915	Subani's Legacy - Deliverance	45	9201051	44			4031681x50
+4916	Lost!	45	9201055	40			4031674x30
+4917	ReVersal	45	9201055	40			4031675x60
+4918	Featherweights	45	9201050	50		9400544x100	4000391x150
+4919	Cleaning Up The Streets 	45	9201054	50		9400544x200 9400543x200	
+4920	Urban Warrior	45	9201050	50			
+4921	Urban Jungle - Continued	45	9201053	80		9400545x100	
+4922	Cleaning Up The Streets - Continued	45	9201054	50		9400544x200 9400543x200	
+4923	Welcome to New Leaf City Quiz - END	45	9201050				
+4924	Brand Materia	50	9201083	10			4031760x1 4021008x7
+4925	Brand Materia Continued	50	9201083				4031760x1 4021008x7
+4926	Interstellar Relics	30	9201052				1002140x1000
+4927	Ancient Artifacts	30	9201051				1002140x1000
+4928	Jay's Curiosity	30	1012109	35			4031447x1
+4929	Gwin's Thanks	30	1061013	35			4031447x1
+4930	The Rememberer's Passion Part 1	30	1061011	35			4031447x1
+4931	The Rememberer's Passion Part 2	30	1061011	35			4000019x1 4031447x1
+4932	Grendel The Really Old's Glorious Days	30	1032001	35			4031447x1
+4933	Cody's Confession	30	9200000	35			4031447x1
+4934	Manji's Approval	30	1022002	35			4031447x1
+4935	Blackbull's Mistake	30	1020000	35			4031447x1
+4936	Bruce's Research	30	1012111	35			4031447x1
+4937	Dances with Balrog's Barbarism Part 1	30	1022000	35			
+4938	Dances with Balrog's Barbarism Part 2	30	1022000	35			4031447x1
+4939	Winston's Scheme Part 1	30	1022006	35			4031447x1
+4940	Winston's Scheme Part 2	30	1022006	35			4031447x1
+4941	A Word to the Wise	50	9201079	15			
+4942	The Past in the Present	50	9201079	15			4031772x1
+4943	A Cold Hearth	50	9201080	15			4000018x60
+4944	Eat This!	50	9201080	15			2022247x20 2022248x20 2022249x20 2022250x20
+4945	Special Delivery	50	9201076	15			2022190x5
+4946	Family Jewels	50	9201076	15			4031769x20 4031770x10
+4947	A Lost Girl	50	9201078	15			4031767x1
+4948	A Father's Love	50	9201078	15			4031811x1
+4949	The M-Files	50	9201075	15			4031764x50
+4950	File Under Incomplete	50	9201075	15			4031812x100
+4951	The File Thickens Part 1	50	9201075	15			4031765x1
+4952	The Infernal Toy Machine	50	9201077	15			4003000x25 4000018x50 4000399x25
+4953	In Her Likeness	50	9201077	15			2022245x10 2022246x10 4000400x30 2022251x10
+4954	Reparations	50	9201077	15			
+4955	Psycho Jack	50	9201077	15		9400558x50	
+4956	Sophilia Doll	50	9201077	15		9400560x50	
+4957	Nightmare	50	9201077	15		9400563x50	
+4958	Halloween : Entering the house	50	9201079				1002140x1000
+4959	The File Thickens Part 2	50	9201077	15			4031766x1
+4960	Eat This!	50	9201080				2022247x20 2022248x20 2022249x20 2022250x20
+4962	Smores No More	45	9201075	25			2022244x25
+4963	Dinner Fixins'	50	9201003	20			2020029x1 2022261x1 2022262x1 2022263x1 2022264x1
+4964	Game On! <CVS>	50	9201085	20			4031864x1
+4965	Game On! <Target>	50	9201086	20			4031864x1
+4966	Game On! <Duane Reade>	50	9201087	20			4031864x1
+4967	Game On! <7-Eleven>	50	9201088	20			4031864x1
+4968	Game On! <Rite Aid>	50	9201089	20			4031864x1
+4969	Game On! <Best Buy>	50	9201090	20			4031864x1
+4970	Game On! <CVS> 2	50	9201085	20			4031864x1
+4971	Game On! <CVS> 3	50	9201085	20			4031864x1
+4972	Game On! <CVS> 4	50	9201085	20			4031864x1
+4973	Game On! <CVS> 5	50	9201085	20			4031864x1
+4974	Game On! <Target> 2	50	9201086	20			4031864x1
+4975	Game On! <Target> 3	50	9201086	20			4031864x1
+4976	Game On! <Target> 4	50	9201086	20			4031864x1
+4977	Game On! <Target> 5	50	9201086	20			4031864x1
+4978	Game On! <7-Eleven> 2	50	9201088	20			4031864x1
+4979	Game On! <7-Eleven> 3	50	9201088	20			4031864x1
+4980	Game On! <7-Eleven> 4	50	9201088	20			4031864x1
+4981	Game On! <7-Eleven> 5	50	9201088	20			4031864x1
+4982	Game On! <Rite Aid> 2	50	9201089	20			4031864x1
+4983	Game On! <Rite Aid> 3	50	9201089	20			4031864x1
+4984	Game On! <Rite Aid> 4	50	9201089	20			4031864x1
+4985	Game On! <Rite Aid> 5	50	9201089	20			4031864x1
+4986	Game On! <Best Buy> 2	50	9201090	20			4031864x1
+4987	Game On! <Best Buy> 3	50	9201090	20			4031864x1
+4988	Game On! <Best Buy> 4	50	9201090	20			4031864x1
+4989	Game On! <Best Buy> 5	50	9201090	20			4031864x1
+4990	Game On! <Duane Reade> 2	50	9201087	20			4031864x1
+4991	Game On! <Duane Reade> 3	50	9201087	20			4031864x1
+4992	Game On! <Duane Reade> 4	50	9201087	20			4031864x1
+4993	Game On! <Duane Reade> 5	50	9201087	20			4031864x1
+4994	Little Suzy's X-Mas Dilemma	50	9201093	10			
+4995	The Spirit of Maplemas	50	9201030	10			
+4996	A Versal Tradition	50	9201091	10			
+4997	A Very Merry Maplemas	50	9201030	10			4031877x1
+4998	Happy Versalmas to You	50	9201091	10			4031877x1
+4999	Elpam's Gift	50	9201055	10			
+5009	Giant Swowman's Purple box	50	9220006				4000425x1
+5010	Giant Snowman's Blue Box	50	9220006				4000424x1
+5011	Giant Snowman's Red Box	50	9220006				4000423x1
+5012	Giant Snowman's White Box	50	9220006				4000422x1
+5069	Easter : Mad Bunny's Easter(Red)	50	9200001	70			4031283x1 2022538x10
+6000	The Wandering Alchemist Eurek's New Skill	30	2040050	13			2040600x1 1302013x1 2040000x1 2043000x1 2040400x1
+6002	Monster Riding	10	2060005	70			4031507x5 4031508x5
+6003	Pheromone Perfume	10	2060005				4031509x1
+6004	Lost Saddle	10	2060005				4000030x200 4000055x200 4000171x200
+6005	Lost Perfume	10	2060005				4031509x1
+6006	Silver Mane	10	2060005				1902000x1 4000264x600 4000266x400 4000267x400
+6007	Dragon's Perfume Bottle	10	2081000				
+6008	Dragon Rider	10	2081100	200			1902001x1
+6009	Dragon Rider	10	2081200	200			1902001x1
+6010	Dragon Rider	10	2081300	200			1902001x1
+6011	Dragon Rider	10	2081400	200			1902001x1
+6012	Kyrin's Teaching	30	1090000	120	200		
+6013	Dragon Rider	10	2081500	200			1902001x1
+6014	Ramain's Amazing Skills	10	2110003	45			4260000x1
+6015	Keol's Order #1	10	2110002	45			4001174x1
+6016	Keol's Order #2	10	2110002	50			4001175x1
+6017	Keol's Order #3	10	2110002	55			4001176x10
+6018	Keol's Order #4	10	2110002	60			4001177x100
+6019	Keol's Order #5	10	2110002	65			4001178x5
+6020	Keol's Order #6	10	2110002	70			4001179x7
+6021	Keol's Order #7	10	2110002	75			4001180x1
+6022	Keol's Order #8	10	2110002	80			4001181x1
+6023	Keol's Order #9	10	2110002	85			4001182x6
+6024	Keol's Order #10	10	2110002	90			4001183x30
+6025	Keol's Order #11	10	2110002	95			4001184x2
+6026	Keol's Order #12	10	2110002	100			4001185x1
+6027	Keol's Special Order	10	2110002	105			4001186x1
+6028	Abdullah VIII's Statement	10	2101009	105			
+6029	Meren's New Discovery	10	2110004	45			
+6030	Carson's Fundamentals of Alchemy	10	2110004	45			
+6031	Hughes the Fuse's Basic Theory of Science	10	2110004	45			
+6032	Meren's Class on the Actual Practice	10	2110004	45			
+6033	Meren's Second Round of Teaching	10	2110004	75			4260003x1
+6034	What Meren Dropped	10	2110004	105			
+6035	The Owner of the Note	10	2112017	105			4031979x1
+6036	A Surprise Outcome	10	2110004	105			4031980x1
+6100	The Book of Invisible Ink	10	2040052				2022000x10 4006000x30 4000183x50 4161018x1
+6101	The Ancient Book	10	2040052				4161024x1
+6102	The Bowman's Ultimate Skill	10	1012100				4161025x1
+6103	Shammos's Advice	10	2020010				4161026x1
+6104	New Guess	10	2022003				4161027x1
+6105	The One Who Remembers...	10	2020010				4161028x1
+6106	 Insignificant Being	10	1061011				4161029x1
+6107	Spiritual Stone of Darkness	10	1061012				4031466x50
+6108	Junior Balrog in a Different World	10	1061012			9300085x300	
+6110	Manji's Test	10	1022002			9300087x200	
+6120	The Dragon's Guardian	10	2081007				4031449x20
+6121	Bahamut's Power 1	10	2081007				4031482x25
+6122	Bahamut's Power 2	10	2081007				4031483x30
+6123	Bahamut's Power 3	10	2081007				4031484x35
+6124	Bahamut's Completion	10	2081007				4031485x40
+6130	Black Book	10	2081200				4001107x1
+6131	Method of Contradiction	10	2060100				4000150x100 4000008x5 4000081x50
+6132	Cold Flame	10	2060100				4161017x1
+6133	Caron's Note	10	2060100				4161017x1
+6134	Resurrection	10	1061011				4031448x1
+6140	Return of the Dark Lord	10	2081400				
+6141	 The Night Warrior	10	1052001			9300088x6	
+6150	The Great Warrior, Sayram	10	2040052				4161019x1
+6151	Griffey's Necklace	10	2081000				4031479x1
+6152	Singing Shield	10	2081000				4031467x1
+6153	Sayram's Skill	10	1061012				4031475x1 4031471x1
+6160	Robeira's Book	10	2020009				
+6161	A Magician's Story	10	2040052				4161020x1
+6162	 Another Crazy Genius?!	10	1032001				
+6163	Shammos!	10	2022003				
+6164	Grendel the Really Old's Apology	10	1032001				
+6165	Robeira's Intentions	10	2022003				
+6166	Robeira and Shammos	10	2020009				
+6167	Meteo Shower	10	2022003				4001017x1
+6168	Blizzard	10	2022003				4031460x1
+6169	Genesis	10	2022003				4031461x1
+6180	A Shield's True Power	10	2081009			9300096x200	1092041x1
+6190	The Plot to Kidnap Tylus!	10	2081100				4001111x1
+6191	Spiruna's advice	10	2032001				4031477x1
+6192	Protecting Tylus	10	2020008				4031495x1
+6200	A Peculiar Request	10	2020011				
+6201	Shawn's  fear	10	9040002				4031452x1
+6202	Arec and Shadower	10	9040002				
+6210	Black Clouds...	10	2012017				4000133x10 4003000x50 4000183x100 4011001x20 4031462x1 4000115x50 4031478x1
+6211	 Building a Ventilation Fan	10	2051001				4000103x100 4011001x1
+6212	Porter's Durable Battery	10	2050013				4001084x1
+6220	The End of Attributes...?	10	2020005				4000181x30 4000150x40 4000185x30
+6221	 Inverse Attributes	10	2020005				
+6222	Theory on Inverse Attributes of Summoned Beings (Familiars)	10	2012017				4011005x10 4031468x1 4011002x5 4011003x5
+6223	 The Summoned Being's Structure	10	2012017				4031451x1
+6224	Huckle's Spirit Pouch	10	2030012				4000144x50 4006001x30 4000146x50 4000148x30
+6225	 Switching Attributes	10	2020005				4031470x1
+6226	Key to a Different World	10	2041023				4031473x1
+6230	Maple marble	10	2041028				4031456x1
+6231	Three winds	10	2041028				4031457x1 4031458x1 4031459x1
+6240	Flame Bird	10	2081001				4001113x1
+6241	Phoenix	10	2081001			9300089x1	
+6242	Frostprey	10	2081003				4001114x1
+6243	Frostprey	10	2081003			9300090x1	
+6250	The Bowman's Inner Eye	10	2081300				4031465x1
+6251	The Bowman's Inner Eye	10	2081300				4031487x1
+6260	The Book of Ice	10	2081200	120			4161016x1
+6261	A Mysterious Sentence	10	1032001	120			4161023x1
+6262	The Snow Mountain's Ice Stone	10	2020009	120			
+6263	 The Ultimate Icepick	10	2020000	120			4011005x2 4000150x30 4011007x1
+6270	A Book of Fire	10	2081200	120			4161015x1
+6271	 A Mysterious Sentence	10	1032001	120			4161022x1
+6272	 Lava of the Abandoned Mine	10	2020009	120			
+6273	The Lava Mug	10	2020000				4021007x2 4000081x30 4021009x1
+6280	 The Holy Knight's Sword	10	2081100				4031455x1
+6281	Whereabouts of the Grail	10	2060101				4000180x10
+6290	The Forgotten Healing Power	10	2081100				
+6291	Magic of the Spirit	10	2041021				4031453x1
+6292	Black Spirit's Healing Power1	10	2041021				4000148x200
+6293	Black Spirit's Healing Power2	10	2041021				4000148x500
+6294	The Forgotten Blessing Power	10	2081100				
+6295	 Contract of the Spirit	10	2041023				4031474x1
+6296	The Black Spirit's Blessing Power 1	10	2041023				4000134x200
+6297	The Black Spirit's Blessing Power 2	10	2041023				4000134x500
+6300	Carta's sin	10	2081000				
+6301	 A Piece of Will	10	2060100				4031472x40
+6302	Carta's Worn Bracelet	10	2060100				
+6303	Making a Mithril Bracelet	10	2040050				4031464x1 4011002x10
+6304	Regained Will Power	10	2040050				4031463x1
+6310	End of Attributes	10	2020005				4000081x50 4000232x10 4000240x10
+6311	Inverse Attributes	10	2020005				
+6312	Theory on Inverse Attributes of Summoned Beings (Familiars)	10	2012017				4031488x1 4011005x10 4011002x5 4011003x5
+6313	 The Summoned Being's Structure	10	2012017				4031497x1
+6314	Huckle's Spirit Pouch	10	2030012				4000144x50 4006001x30 4000146x50 4000148x30
+6315	Switching Attributes	10	2020005				4031469x1
+6316	Key to a Different World	10	2041023				4031496x1
+6320	 Maple Warrior Skill Book	10	2081100				
+6321	Maple Warrior Skill Book	10	2081200				
+6322	Maple Warrior Skill Book	10	2081300				
+6323	 Maple Warrior Skill Book	10	2081400				
+6324	Maple Warrior Skill Book	10	2081500				
+6325	Maple Warrior Skill Book	10	1201002				
+6330	How to Improve Your Strength	10	1090000	120			
+6340	Presence of Mind	10	1090000	120		8140701x150	4031872x50
+6350	Body of Steel	10	1090000	120		8140700x150	4031871x50
+6360	The Study of Space-Time Transformation	10	1092012	120			4031869x1
+6361	Papulatus' Key	10	1092012	120			4031870x1
+6362	Papulatus in the Past	10	2043000	120			
+6363	A New Revelation	10	2043000	120			
+6370	How to Improve Your Strength	10	1090000	120			
+6380	Observe the Spirit Vikings	10	1090000	120		8141000x150	4031873x50
+6390	Observe the Gigantic Spirit Vikings	10	1090000	120		8141100x150	4031874x50
+6400	Jonathan's Court	10	1094000	120			
+6410	Mission Free the Monsters	10	1092008	120			
+6700	The Bowman's Road	10	1012100	10	30		
+6800	An Arrangement from the Goddess.	10	2030005	200			
+6900	Tylus' introduction letter	10	2020008	120			4031342x1
+6901	Harmonia's first story	10	2081100	120			
+6902	Harmonia's second truth	10	2081100	120			
+6903	Harmonia's third story	10	2081100	120			
+6904	 Hero's Quality	10	2081100	120			4031343x1 4031344x1
+6905	Tatamo's Suggestion	10	2081000	120			4031348x1
+6910	Robeira's introduction letter	10	2020009	120			4031510x1
+6911	Gritto's first story	10	2081200	120			
+6912	 Gritto's Second Story	10	2081200	120			
+6913	Gritto's Third Story	10	2081200	120			
+6914	A Hero's Quality	10	2081200	120			4031512x1 4031511x1
+6915	Tatamo's Suggestion	10	2081000	120			4031348x1
+6920	 Rene's Introduction Letter	10	2020010	120			4031513x1
+6921	Legor's First Story	10	2081300	120			
+6922	Legor's Second Truth	10	2081300	120			
+6923	Legor's Third Story	10	2081300	120			
+6924	Hero's Quality	10	2081300	120			4031514x1 4031515x1
+6925	Tatamo's Suggestion	10	2081000	120			4031348x1
+6930	Arec's Letter of Introduction	10	2020011	120			4031516x1
+6931	Helin's First Story	10	2081400	120			
+6932	 Helin's Second Truth	10	2081400	120			
+6933	Hellin's Third Story	10	2081400	120			
+6934	 Hero's Quality	10	2081400	120			4031517x1 4031518x1
+6935	Tatamo's Suggestion	10	2081000	120			4031348x1
+6940	Pedro's Introduction	10	2020013	120			4031859x1
+6941	Samuel's Revelation of the First Truth	10	2081500	120			
+6942	Samuel's Revelation of the Second Truth	10	2081500	120			
+6943	Samuel's Revelation of the Third Truth	10	2081500	120			
+6944	Attributes of a Hero	10	2081500	120			4031860x1 4031861x1
+6945	Tatamo's Suggestion	10	2081000	120			4031348x1
+7100	Protect Ludibrium	37	2041021	60			4031170x10
+7101	The Replacement Time Energy	37	2041021				4031171x100 4031175x300
+7102	The Time Sphere	37	2041021				4031179x1
+7103	Papulatus	37	2041021	80		8500002x1	4031172x1
+7104	A Piece of Crack	37	2041023				4031176x1 4031177x1 4031178x1
+7105	The Lost Piece of Crack	37	2041021				
+7106	The Lost Medal	37	2041021				
+7107	The Lost Piece of Crack	37	2041021				
+7109	Papulatus's counterattack	37	2041021				
+7300	Moira's Whereabouts	41	2081000	80			
+7301	Secret Medicine for Transformation	41	2081006				4001077x10 4001078x1 4001075x1 4001076x1 4000267x1
+7302	 Badge of a Squad Member	41	2081006				4001085x1 4001080x1 4001081x1 4001082x1 4001083x1 4001084x1
+7303	Making the Secret Medicine for Transformation	41	2081006	80			4001078x1 4001103x1 4001104x1 4001105x10 4000267x1
+7778	Konpei's Gambit	48	9120015	100			4000140x1 4000141x1 4000139x1
+8000	New Life	20	12100				4000016x10 4000011x10 4000019x10
+8002	Grako's Request	48	9120018	45			2022002x1
+8003	Grako's Request 2	48	9120018	45			
+8004	Mariwaka's Request	48	9120016	45			
+8005	Mariwaka's Purse	48	9120016				4031139x1
+8007	The Scarred Kitty	48	9120012	40			2120000x1
+8008	Sakura's Request	48	9120011	40			
+8009	Learning to Speak the Kitty Language	30	9120013				
+8010	Dealing with Boss Kitty	30	9120013				
+8012	Sakura, the Kitty, and the Orange Marble	30	9120013				4031064x1
+8013	Upgrading Zakum Armor	30	9120008	201		9400200x20 9400201x20	
+8018	Sakura's Crying	30	9120012				
+8019	I should talk to the Boss Kitty in kitty language.	30	9120012				
+8020	Yoona's Quiz on Shopping : Start	20	20100				4031180x1
+8021	Yoona's Quiz on Shopping 1	20	20100				
+8022	Yoona's Quiz on Shopping 2	20	20100				
+8023	Yoona's Quiz on Shopping 3	20	20100				
+8024	Yoona's Quiz on Shopping 4	20	20100				
+8025	Yoona's Quiz on Shopping 5	20	20100				
+8027	Read the Newspaper!	48	9120008	25			1002418x1
+8028	Veggies are Awesome	48	9120005	85			4000080x200
+8029	Actor Training	48	9120016	40		9400110x10 9400111x10	
+8030	Movie Star	48	9120007		40	6130101x1	
+8031	Protect Lucas's Farm	20	12000			100100x5 100101x5 130101x5	
+8032	War of Pang Pang	48	9120017	35			4000110x30
+8033	Youthful Mariwaka	48	9120016	85			4000149x50
+8034	Maya's Concerns 1	30	1012101	40			4000086x20 4000023x20 2050003x50
+8035	Maya's Concerns 2	30	1012101	40			2050000x50 4000058x30 4000076x30
+8036	Maya's Concerns 3	30	1012101	40			4000088x100
+8037	Lionel's Necklace 1	30	1012101	40			
+8038	Lionel's Necklace 2	30	1002001	40			4000061x7 4000030x50 4000033x50
+8039	Lionel's Necklace 3	30	1002001	40			
+8040	Lionel's Journey	30	1012101	50			4000051x100
+8041	Monster Rumor Mill	33	2020007	80			
+8042	Fox So Foxy	48	2020003	80			4000129x50
+8043	Lycanthrope	10	2050008	80			4000054x50
+8047	Tsuri & the Gourmet Dish	48	9120008	35			4000157x100
+8048	Arwen and Ellinia	30	1032100	15		9101000x100	
+8049	Sakura and the Seal	48	9120011	35			4000154x100
+8050	Today's Schedule	30	1032104	35			4000115x100
+8051	An Unknown Love	30	1052105	85			4000148x100
+8052	Umi's Spiced Veggies	48	9120005	75			4000131x80
+8053	Traveling Around Maple 1	30	1002101		1		
+8054	Traveling Around Maple 2	30	1081100				
+8055	Traveling Around Maple 3	40	9120006				
+8056	Traveling Around Maple 4	40	2012010				
+8057	Traveling Around Maple 5	40	2041004				
+8058	Traveling Around Maple 6	40	2020007				
+8059	Traveling Around Maple 7	30	2050009				
+8060	Sakura and the Teddy Bear	48	9120011	30			4000106x50
+8061	Doll in the Dark 1	30	1012109	55			
+8062	Doll in the Dark 2	30	2041022	55			4000143x50
+8064	Soul in the Dark	48	1012109	70			4000144x50
+8065	The Ghost Whereabout	30	1012109	90			
+8066	A Puppet	30	9120011	90			
+8067	The Man of Convention	48	1012109	90			4000147x50 4000148x50
+8068	Ray of Light	48	9120011	90			
+8069	Tsuri's Special Seafood 1	48	9120008	35			4000153x1
+8070	Tsuri's Special Seafood 2	48	9120008	35			4000158x100
+8072	An Old Code	48	9110002	69			
+8073	2nd Code	30	1061006	69			
+8074	The Meaning of the Code	30	2030004	69			
+8075	Sabitrama's Life Work	30	1061005	85			4000022x100 4000025x100 4000147x100
+8076	The Committee Challenges	48	1061005	85			4000129x200
+8077	The Father of Modern Science	48	2050001	85			4000133x500
+8078	Open Sesami	48	1061005	85			
+8079	Umi Needs Money	48	9120005	50			
+8080	Lazy Alien Grey	48	9120005	50			
+8081	The Arrogant Alien Gray	48	2050002	50			4000117x400
+8082	Good Luck	48	9120005	50			4011005x10
+8083	Porter's Challenge	37	2050013	50			4000102x200 4000078x200
+8084	Sophia's Snack	30	1022100	18			2012002x20
+8142	Todd's How-to-Hunt	20	9101002			9409000x1 9409001x1	4000300x1 4000301x1
+8184	Pet's Evolution1	50	9102001				4000029x50 4000023x50
+8185	Pet's Evolution2	50	9102001				5380000x1
+8189	Pet's Re-Evolution	50	9102001				5380000x1
+8206	Ace of Heart's Secret Ability	50	2041017	50			4032474x5 4000046x50 4000054x50 4000135x50 4000080x50 4000151x5 4000152x5 4031906x5 4000040x2 4000176x2 4000175x2 4000138x2 4011007x2 4021009x2 4005000x5 4005001x5 4005002x5 4005003x5 4005004x5 4011000x5 4011001x5 4011002x5 4011003x5 4011004x5 4011005x5 4011006x5 4021000x5 4021001x5 4021002x5 4021003x5 4021004x5 4021005x5 4021006x5 4021007x5 4021008x5 1442030x1 1002033x1 1050132x1 1082002x1 1072169x1 4000413x2 4000414x2 4031901x2 4000224x2 4000235x2 4000243x2
+8207	Valentine's Day : Chocolate Basket	50	2041017	8			4140100x1 4031109x1 4031110x1 4031113x1 4031114x1
+8213	Ancient Artifacts	45	9201051				1002140x1000
+8218	Summer Break: Cody's BBQ - Start	50	9200000	8			4031664x10 4031665x10 4031666x10
+8219	Finding Jack	45	9201051	50			
+8220	Translated Communique	45	9201055				4032018x0
+8221	The Mark of Heroism	45	9201051	70			4032005x4 4010006x10 4004000x1
+8222	The Brewing Storm	45	9201098	70			4032006x10
+8223	Storming the Castle	45	9201098	70		9400576x75 9400578x75 9400579x75	
+8224	The Fallen Woods	45	9201100	40			4032003x50
+8225	The Right Path	45	9201100	70			3992040x1
+8226	The Fallen Warriors	45	9201100	80			4032010x50
+8227	Lost in Translation 1	45	9201096	70			4032032x1
+8228	Lost in Translation 2	45	9201051				4032032x1
+8229	Lost in Translation 3	45	9201051				4032018x1
+8230	Stemming the Tide	45	9201096	70			3992041x1
+8231	Fool's Gold	45	9201054	40			4032031x30
+8232	Fool's Gold.	45	9201054	40			4032031x30
+8233	Rags to Riches	45	9201054	70			4032011x30
+8234	Rags to Riches.	45	9201054	70			4032011x30
+8235	One Step A-Head	45	9201054	75			4031903x1
+8236	One Step A-Head.	45	9201054	75			4031903x1
+8237	Catch a Bigfoot by the Toe	45	9201054	80			4032013x1
+8238	Catch a Bigfoot by the Toe.	45	9201054	80			4032013x1
+8239	Bounty Master	45	9201054	80			
+8245	Attendance Check	50	9010000	10			4032057x1
+8246	Attendance Check	50	9200000	10			4032058x14 4032059x14 4032060x14 4032061x14 4032062x14
+8247	Donate Your Notebook	50	9010000				
+8248	Maple 7th Day Market omok festival!	50	9209001	30			4030000x16 4030001x16 4030010x32 4030011x32 4030013x32 4030014x32 4030015x32 4030016x32 4030009x8 3010001x16
+8249	Maple 7th Day Market card-game convention!	50	9209001	30			4000035x10 4000114x10 4030009x10 3010001x20 4030012x250
+8251	Assembling the toy-armada!	50	9209008	50			4000099x100 4000104x100 4000105x100 4000118x100 4000122x100 4000124x10 4000125x10 4000126x10
+8254	Collection skills	50	9010000				4031017x1 4011007x5 4021009x5 4003002x5 4003001x5 4003000x30
+8255	Lost Spirits	50	9201106	50			4032133x1
+8256	Lost Spirits.	50	9201106	50		8800002x1	
+8257	Dinner Fixins'	50	9201003	20			2020029x1 2022261x1 2022262x1 2022263x1 2022264x1
+8258	Game On! <CVS>	50	9201085	20			4031864x1
+8259	Game On! <Target>	50	9201086	20			4031864x1
+8260	Game On! <Duane Reade>	50	9201087	20			4031864x1
+8261	Game On! <7-Eleven>	50	9201088	20			4031864x1
+8262	Game On! <Rite Aid>	50	9201089	20			4031864x1
+8263	Game On! <Best Buy>	50	9201090	20			4031864x1
+8264	Game On! <CVS> 2	50	9201085	20			4031864x1
+8265	Game On! <CVS> 3	50	9201085	20			4031864x1
+8266	Game On! <CVS> 4	50	9201085	20			4031864x1
+8267	Game On! <CVS> 5	50	9201085	20			4031864x1
+8268	Game On! <Target> 2	50	9201086	20			4031864x1
+8269	Game On! <Target> 3	50	9201086	20			4031864x1
+8270	Game On! <Target> 4	50	9201086	20			4031864x1
+8271	Game On! <Target> 5	50	9201086	20			4031864x1
+8272	Game On! <7-Eleven> 2	50	9201088	20			4031864x1
+8273	Game On! <7-Eleven> 3	50	9201088	20			4031864x1
+8274	Game On! <7-Eleven> 4	50	9201088	20			4031864x1
+8275	Game On! <7-Eleven> 5	50	9201088	20			4031864x1
+8276	Game On! <Rite Aid> 2	50	9201089	20			4031864x1
+8277	Game On! <Rite Aid> 3	50	9201089	20			4031864x1
+8278	Game On! <Rite Aid> 4	50	9201089	20			4031864x1
+8279	Game On! <Rite Aid> 5	50	9201089	20			4031864x1
+8280	Game On! <Best Buy> 2	50	9201090	20			4031864x1
+8281	Game On! <Best Buy> 3	50	9201090	20			4031864x1
+8282	Game On! <Best Buy> 4	50	9201090	20			4031864x1
+8283	Game On! <Best Buy> 5	50	9201090	20			4031864x1
+8284	Game On! <Duane Reade> 2	50	9201087	20			4031864x1
+8285	Game On! <Duane Reade> 3	50	9201087	20			4031864x1
+8286	Game On! <Duane Reade> 4	50	9201087	20			4031864x1
+8287	Game On! <Duane Reade> 5	50	9201087	20			4031864x1
+8289	Little Suzy's X-Mas Dilemma	50	9201093	10			
+8290	The Spirit of Maplemas	50	9201030	10			
+8291	A Versal Tradition	50	9201091	10			
+8292	A Very Merry Maplemas	50	9201030	10			4031877x1
+8293	Happy Versalmas to You	50	9201091	10			4031877x1
+8295	Festival of Lights - Building the Altar	30	9201031	23			4031445x25
+8297	A secret that Mr. Moneybags knows.	50	9300010	10			
+8298	In search of the Mind of Maple	50	9300010	10			4032233x1 4032239x1
+8299	Chief Stan's Piece of Mind of Maple	50	1012003	10			4032234x20 4032235x20 4032236x20 4032237x20 4032238x20
+8569	Find the Ghost-scaring Chinese Firecrackers	50	9300010				4001128x30
+8570	Finding the Ghost	50	9300010			9500197x1	
+8700	2006 Easter : Easter Basket	30	9010000	8			4000003x100 4000004x100
+8701	2006 Easter : Mad Bunny's Easter(Yellow)	30	9200001	8	29		4031283x1 2022065x10
+8713	2006 Easter : Mad Bunny's Easter(Green)	30	9200001	30			4031283x1 2022066x10
+8800	Anniversary : Birthday Present (Red)	30	9010000		30		4031306x1
+8801	Anniversary : Cody's Quest	30	9200000				4031305x10
+8802	Anniversary : Birthday Present (Blue)	30	9010000	31			4031307x1
+8804	Independence Day : Cody's Barbecue Party	30	9200000				4000017x50 4000003x50 4000021x50
+8805	Independence Day : Alien Invasion	30	2050012				4000121x100
+8806	Nanuke and the Chair	30	2060000				
+8821	Thanksgiving : Turkey Yellow Egg hunt	30	9200000	15	29		4031416x1
+8822	Thanksgiving : Turkey Green Egg hunt	30	9200000	30			4031417x1
+8823	Thanksgiving : Pumpkin Pie	50	9201029	15			4031418x1 4031419x1 4031420x1 4031421x1
+8829	Festival of Lights - Building the Altar	30	9201031	23			
+8830	Festival of Lights - Blessing the Festival 	30	9201031				4031444x9
+8832	Graham Cracked	30	9201032				4031446x50
+8833	New Year's Wishes 1	30	9010000				
+8834	New Year's Wishes 2	30	9010000				
+8843	Festival of Lights - Blessing the Festival reward	30	9201031				
+8848	Amoria : The Sakura Garden 1	30	9201035	35			4031523x25 4031524x10 4000021x10
+8849	Amoria : The Sakura Garden 2 - Finishing Touches	30	9201035	37			4000026x10 4000154x10 4031527x20
+8850	Amoria : Cupid's Courier - Beginner	30	9201036	35			4003004x25
+8851	Amoria : Cupid's Courier - Warrior	30	9201036	35			4000098x15
+8852	Amoria : Cupid's Courier - Magician	30	9201036	35			4000060x1
+8853	Amoria : Cupid's Courier - Bowman	30	9201036	35			4000109x20
+8854	Amoria : Cupid's Courier - Thief	30	9201036	35			4000095x20
+8855	Amoria : Cupid's Courier  - Beginner	30	9201038	35			4031563x1
+8856	Amoria : Cupid's Courier - Warrior	30	9201038	35			4031564x1
+8857	Amoria : Cupid's Courier - Magician	30	9201038	35			4031565x1
+8858	Amoria : Cupid's Courier - Bowman	30	9201038	35			4031566x1
+8859	Amoria : Cupid's Courier - Thief	30	9201038	35			4031567x1
+8860	Amoria : Beauty or Beast!	30	9201039	13			4000004x25
+8862	Amoria : Marriage	30	9201004	10020			1002140x1
+8863	Amoria : Red Dahlia - Warrior	30	9201034	20			4020007x3 4003004x30
+8864	Amoria : Red Dahlia - Magician	30	9201034	20			4020007x3 4003004x30
+8865	Amoria : Red Dahlia - Bowman	30	9201034	20			4020007x3 4003004x30
+8866	Amoria : Red Dahlia -  Thief	30	9201034	20			4020007x3 4003004x30
+8867	Amoria : Circle of Trust 1 (The Unmarried Couple)	30	9201037	35			4031526x1
+8868	Amoria : Circle of Trust 2 (A Bond is Forged)	30	9201000	35			4031525x20
+8869	Spot On : An Interesting Chore	30	9201003	1			4031542x1
+8870	Spot On : Go See Mr. Spot	30	9201040	1			4031529x1
+8871	Circle of Trust - Repaired Ring	30	9201000				
+8873	Easter : Easter Basket	50	9010000	8			4000003x100 4000004x100
+8874	Easter : Mad Bunny's Easter(Yellow)	50	9200001	8	29		4031283x1 2022065x10
+8875	Easter : Mad Bunny's Easter(Green)	50	9200001	30	69		4031283x1 2022066x10
+8879	2nd Anniversary : Birthday Present (Red)	50	9010000		30		4031306x1
+8880	2nd Anniversary : Birthday Present (Blue)	50	9010000	31			4031307x1
+8881	2nd Anniversary : Cody's Quest	50	9200000				4031590x10
+8882	About the Amorian Challenge!	30	9201004	40			
+8885	Summer Break: Cody's BBQ - Start	50	9200000	8			
+8886	Summer Break: Cody's BBQ.	50	9200000	8	29		4031659x30
+8887	Summer Break: Cody's BBQ..	50	9200000	30	69		4031658x30
+8888	Summer Break: Cody's BBQ...	50	9200000	70	200		4031660x30
+9004	Deciphering the Scroll of Secrets	50	9000014				4031072x1 4031017x1
+9011	Teo's reminiscence	50	1002001	10			4000016x50 4000004x30
+9012	테오의 옛날 추억 회상	50	1002001	10			4000016x50 4000004x30
+9051	Beat the Heat <Easy> - 1st Stage	50	9010000	1	25	1210102x20 130101x50	
+9052	Beat the Heat <Easy> - 2nd Stage	50	9010000				4031167x10
+9053	Beat the Heat <Easy> - 3rd Stage	50	9010000			2220100x25 1130100x25	4000037x30
+9054	Beat the Heat <Medium>-1st Stage	50	9010000	26	45	3000000x20 5200000x50	
+9055	Beat the Heat <Medium> - 2nd Stage	50	9010000				4031168x10
+9056	Beat the Heat <Medium> - 3rd Stage	50	9010000			3210201x25 5300001x25	4000086x30
+9057	Beat the Heat <Hard>-1st Stage	50	9010000	46		4230118x20 4230120x50	
+9058	Beat the Heat <Hard> - 2nd Stage	50	9010000				4031169x15
+9059	Beat the Heat <Hard> - 3rd Stage	50	9010000			5120000x25 5120002x25	4000072x30
+9100	추석이벤트 : MapleStory	50	9010000	8			3994006x1 3994007x1 3994000x1 3994008x1 3994001x1 3994010x1 3994003x1 3994012x1 3994005x1 3994013x1
+9101	Back to School Event : MapleStory 	50	9010000	13			3994012x1 3994000x1 3994006x1 3994003x1 3994001x1 3994013x1 3994008x1 3994005x1 3994007x1 3994010x1
+9110	추석이벤트 : Wizet	50	9010000	8			3994014x1 3994008x1 3994001x1 3994002x1 3994011x1
+9111	Back to School Event : Wizet 	50	9010000	13			3994014x1 3994002x1 3994011x1 3994001x1 3994008x1
+9120	추석이벤트 : Nexon	50	9010000	8			3994001x1 3994009x1 3994004x2 3994005x1
+9121	Back to School Event : Nexon 	50	9010000	13			3994004x2 3994001x1 3994009x1 3994005x1
+9130	깜짝이벤트 : 스페셜 알파벳?	50	9010000	13			
+9140	추석 송편 만들기	50	9010000	13	25		4031181x1 4031182x1 4031183x1
+9141	추석 금송편 만들기	50	9010000	13			2022037x10
+9142	풍요로운 추석	50	9010000				4031187x1
+9143	월묘와 함께하는 풍요로운 추석	50	9010000	13			4031187x1
+9150	추석 한과(유과) 만들기	50	9010000	26	50		4031186x1 4031184x1 4031185x1
+9151	추석 한과세트 만들기	50	9010000	26			2022038x20
+9152	풍요로운 한가위	50	9010000				4031188x1
+9153	월묘와 함께하는 풍요로운 한가위	50	9010000	26			4031188x1
+9154	추석 화양적 만들기	50	9010000	51			4032037x1 4032038x1 4032039x1
+9155	추석 화양적 한 접시 만들기	50	9010000	51			2022352x30
+9156	월묘와 함께하는 풍요로운 명절	50	9010000	51			4032040x1
+9160	추석 상식 1. 한국의 명절 추석	50	9010000	8			
+9161	추석 상식 2. 추석 명절 음식 송편	50	9010000				
+9162	추석 상식 3. 추석의 명칭	50	9010000				
+9163	추석 상식 4. 우리나라의 명절	50	9010000				
+9164	추석 상식 5. 음력 추석	50	9010000				
+9165	추석 상식 6. 추석의 한자 표기법	50	9010000				
+9166	추석 상식 7. 추석 명절 놀이	50	9010000				
+9167	추석 상식 8. 홍동백서	50	9010000				
+9168	추석 상식 9. 조상의 묘	50	9010000				
+9169	추석 상식 10. 차례상	50	9010000				
+9170	넬라의 추석	50	9010000	8	25		
+9171	넬라의 한복	50	9010000				
+9172	넬라의 일 돕기	50	1052103			1210102x20	
+9173	넬라의 보름달	50	1052103			9500000x1	
+9180	이얀의 추석	50	9010000	26	40		
+9181	이얀에게 추석 안부를..	50	9010000				
+9182	이얀의 일 돕기	50	1022007			2230102x30	
+9183	이얀의 보름달	50	1022007			9500001x1	
+9190	엘마의 추석	50	9010000	41			
+9191	엘마의 트집	50	9010000				4000058x30
+9192	엘마의 일 돕기	50	2012010				4000060x20
+9193	엘마의 보름달	50	2012010			9500002x1	
+9210	사랑의 초코스틱	50	2041017	13			4031220x1 2020028x1
+9220	수능 끝! 행복 시작!	50	9010000	8	24		
+9230	수능 끝! 행복 시작!!	50	9010000	25	49		
+9240	수능 끝! 행복 시작!!!	50	9010000	50			
+9260	Torr's Horn	50	2002002	13			4031063x1
+9261	앤의 편지	50	1012110	8			4031426x1
+9262	클리프가 주는 선물	50	2001000	8			4031427x1
+9263	케빈의 빙수 재료	50	2050011	8			
+9264	클리프가 준 빙수 재료	50	2001000	8			4031428x1
+9265	행복한 마을의 겨울 준비	50	1022101	8			2120008x1
+9270	새해이벤트 : HappyNewYear	50	9010000	13			3994022x1 3994023x1 3994024x2 3994017x2 3994018x2 3994019x1 3994020x1 3994021x2
+9280	메이플 상식 : 새로운 이동수단	50	9010000	8			
+9281	메이플 상식 : 공식 홈페이지	50	9010000	8			
+9282	메이플 상식 : 길드	50	9010000	8			
+9283	메이플 상식 : 세계여행	50	9010000	8			
+9284	메이플 상식 : 4차 전직	50	9010000	8			
+9290	태공의 아내사랑	50	2060002	35			4000166x20
+9291	호랑이 사냥	50	2071000	55		5100005x10	4000171x10
+9292	연이 할머니의 항아리	50	2071007				
+9300	'주먹펴고 일어서'님께 인사드리기	50	9010000	10			
+9301	'하인즈'님께 인사드리기	50	1022000				4031075x1
+9302	'헬레나'님께 인사드리기	50	1032001				4031076x1
+9303	'다크로드'님께 인사드리기	50	1012100				4031077x1
+9304	복주머니 배달	50	1090000				4031669x1
+9305	대나무 복조리와 복주머니	50	9010000				3993000x5
+9306	'카이린'님께 인사드리기	50	1052001				4031668x1
+9310	Valentine's Day : Heart Chocolate	50	2041017	8			4031109x1 4031110x1 4031111x1 4031112x1
+9311	Valentine's Day : Chocolate Basket	50	2041017	8			4140100x1 4031109x1 4031110x1 4031113x1 4031114x1
+9320	바람에 실려온 이야기	50	20000	8			
+9321	그의 가방	50	1022002				4031226x1
+9322	영웅의 행방	50	1061013				2000004x1
+9323	메이플스토리 1000일 기념 깃발	50	1061013				1302035x1
+9324	존의 영웅 그윈	50	20000				
+9325	잃어버린 그윈의 일기장	50	1022002				
+9330	밍밍부인의 차례상	50	9010000	15	40		2022053x13 2022054x5 2010000x5 2022055x7 2022056x9
+9331	페리온으로 만두배달하기	50	9010000	15	40		2022058x3
+9332	박첨지의 차례상	50	9010000	41			4000088x10 2010002x10 2022057x10
+9333	지구방위본부로 만두배달하기	50	9010000	41			2022058x3
+9340	화이트데이:딸기사탕	50	2041017	8			4031124x3 4031125x1 4031122x1
+9341	화이트데이:사탕바구니	50	2041017	8			4140102x1 4031113x1 4031114x1
+9350	새마음 새출발	50	9010010	8	29		4000004x10 4031257x5
+9351	새마음 새출발!	50	9010010	30	69		4031258x5 4031271x7
+9352	새마음 새출발!!	50	9010010	70			4000241x5 4031272x10
+9360	원숭이 펫 명령어	50	9010000				
+9370	몬스터의 습격	50	9010000	8			4031282x1
+9371	악의 기운 봉인	50	1061011				4031282x1 4011001x1
+9372	기억하고 있는 자를 찾아서...	50	9010000	8			
+9380	바이킨의 보물상자	50	9000009	20	34	2110200x100 9101001x100	
+9381	에릭손에게 보내는 선물	50	9000009	35	49		4031285x1 4000021x50
+9382	이얀에게 보내는 선물	50	9000009	50	59	4230400x100	4031286x1
+9383	바이킨의 검은색 보물상자	50	9000009	60	69		4000022x30 4000025x30 4000177x10
+9384	바이킨의 파란색 보물상자	50	9000009	70			4000185x100
+9385	바이킨의 귀환소식	50	9010000	20			
+9386	MapleStory 3rd Anniversary Bonanza	50	9010000	8			4031297x1
+9387	Jane's Permission	50	1002100	8	30		1002508x1 4000015x20 4000009x5 4000011x5 4000012x20
+9388	Jane's Errands	50	1002100	31	70	2230100x50 3230100x50	1002508x1
+9389	Party with Jane	50	1002100	71		7130100x30 7130101x30	4000046x3 1002508x1 4000028x3
+9390	The Lost Maple Hat	50	9010000	8			1002508x
+9391	이카루스의 잃어버린 초대권	50	9010000	10			4031301x1
+9392	로니의 잃어버린 초대권	50	1052106				4031304x1
+9393	어린이들을 위한 몬스터 퇴치	50	9010000	10	24	210100x30 130100x20 130101x40	
+9394	켄타의 부탁	50	9010000	25	70		
+9395	동물들을 위한 특식	50	2060005	25	39		4000029x30 4000166x50 2010003x3
+9396	아쿠아로드 청소하기	50	2060005	40		4230201x80 4230123x80 4230124x80	
+9397	햇님이에게 선물을	50	9010000	71			4000109x50 4000143x50 4000147x10 4000108x50
+9398	The Secrets Behind the Mundane Statue	50	9010000	8			
+9399	The Mysterious Monster Crystal Statue	50	2040050	8			4020005x3 4020000x3 4020001x3
+9400	Maple GM's Congrats on the 3 year Anniversary	50	9010000	8			
+9401	하인즈의 첫번째 선물	50	9010000	8			4161002x1
+9402	하인즈의 두번째 선물	50	9010000	8			4161003x1
+9403	하인즈의 세번째 선물	50	9010000	8			4161004x1
+9404	하인즈의 네번째 선물	50	9010000	8			4161005x1
+9405	하인즈의 다섯번째 선물	50	9010000	8			4161006x1
+9406	하인즈의 여섯번째 선물	50	9010000	8			4161007x1
+9407	하인즈의 일곱번째 선물	50	9010000	8			4161008x1
+9408	하인즈의 여덟번째 선물	50	9010000	8			4161009x1
+9409	하인즈의 아홉번째 선물	50	9010000	8			4161010x1
+9410	하인즈의 마지막 선물	50	9010000	8			4161011x1
+9411	하인즈의 특별한 선물	50	1032001	8			
+9412	Hughes Needs the Eraser	33	2012017	10			4001038x1 4001039x1 4001040x1 4001041x1 4001042x1 4001043x1
+9413	A Revenge on Gray the Alien	37	2050002				4001038x1 4001039x1 4001040x1 4001041x1 4001042x1 4001043x1
+9414	An Immovable Sword	30	1022008				4001038x1 4001039x1 4001040x1 4001041x1 4001042x1 4001043x1 4001115x1
+9415	Hectagon Crystal Necklace and the Seal Cushion	30	1032100				4001038x1 4001039x1 4001040x1 4001041x1 4001042x1 4001043x1 4001116x1
+9416	브로커 한과 신비한 광석	44	2111007				4001197x1 4001038x1 4001039x1 4001040x1 4001041x1 4001042x1 4001043x1
+9421	비밀의 코카-콜라 원액만들기	50	9001005	8			4031322x1 4031323x1 4031324x1
+9422	맛있는 코카-콜라	50	9001002	8			2022000x1 4031325x1
+9423	북극곰 로로의 반짝이는 별	50	9001001	8			4000214x100
+9424	북극곰 로로의 하늘 구경	50	9001001	15			4000221x200
+9425	북극곰 로로의 하늘로 가는 사다리 1	50	9001001	30			4000216x100 4000217x100
+9426	북극곰 로로의 하늘로 가는 사다리 2	50	9001001	30			4000212x100 4000211x100
+9427	북극곰 포치의 썰매 만들기	50	9001002	20			4000216x30 4000209x10 4000217x30 4000210x10
+9428	동생을 아끼는 북극곰 푸치	50	9001005	20		9500145x100 9500146x100	
+9429	북극곰 형제의 이글루 짓기	50	9001005	50			4000220x40 4000218x100 4000219x50
+9430	심심한 북극곰 포치	50	9001002	60			4000213x100
+9431	북극곰 포치의 코카-콜라	50	9001002				4031322x1 4031323x1 4031324x1
+9432	북극곰 포치의 부탁	50	9001002				4031322x1 4031323x1 4000216x50
+9440	더위 탈출 프로젝트 초급 1단계	50	9010000	8	29		4000004x100
+9441	더위 탈출 프로젝트 초급 2단계	50	9010000	8	29	1210100x100 1120100x80	
+9442	더위 탈출 프로젝트 중급 1단계	50	9010000	30	69		4000086x100
+9443	더위 탈출 프로젝트 중급 2단계	50	9010000	30	69	3210450x50 4230201x50	
+9444	더위 탈출 프로젝트 상급 1단계	50	9010000	70			4000185x100
+9445	더위 탈출 프로젝트 상급 2단계	50	9010000	70		7130200x60 8140000x10	
+9450	테오의 옛날 추억 회상 1	50	1002001				4000016x100 4000004x50
+9451	테오의 옛날 추억 회상 2	50	1002001				4000024x80 4000020x100
+9470	견우 직녀를 위한 오작교!	50	2012012	10	40		4003005x20 4003004x50
+9471	견우 직녀를 위한 오작교!!	50	2012012	41			4000051x70 4000052x10
+9472	삼미호 이야기	50	2040050	8	29	1210100x60	4000017x1
+9473	삼미호 이야기 	50	2040050	8	29	1210100x60	4000017x1
+9474	커닝시티의 유령 소동	50	2040050	30	69	4230102x100 3230101x100	4000035x20
+9475	커닝시티의 유령 소동 	50	2040050	30	69	4230102x100 3230101x100	4000035x20
+9476	까막산 도깨비 소동	50	2040050	70			4000206x30 4000207x30 4000208x70
+9477	까막산 도깨비 소동 	50	2040050	70			4000206x30 4000207x30 4000208x70
+9490	신나는 세계여행	50	9010000	10			
+9491	맛있는 당고	50	9110002	10			2022014x1
+9492	맛있는 어묵(꼬치)	50	9110002	10			2022021x1
+9493	까마귀 사냥	50	9110002	10		9400000x100	
+9494	키노코노코의 마지막 부탁	50	9110002	10			
+9495	노점상 주인 여씨의 새 메뉴	50	9310011	10			4000187x100
+9496	사진기사 조씨의 중국 안내	50	9310011	10			
+9497	양씨 아저씨의 일손 돕기	50	9310012	10		9600002x50 9600003x50	
+9498	양씨 아저씨의 부탁	50	9310010	10			
+9499	손연주의 대만소개	50	9330005	10			
+9503	깨끗한 바다 만들기!	50	9010000	8	40		4031302x10
+9504	깨끗한 바다 만들기!!	50	9010000	41			4031321x20
+9505	바다의 날 퀴즈 1	50	9010000	8			
+9506	바다의 날 퀴즈 2	50	9010000	8			
+9507	바다의 날 퀴즈 3	50	9010000	8			
+9508	바다의 날 퀴즈 4	50	9010000	8			
+9509	바다의 날 퀴즈 5	50	9010000	8			
+9510	서문정 거리구경	50	9330004	10		9410000x100	
+9511	주걸균의 대만명소	50	9330003	10			4000199x50
+9512	야시장의 요리사 아종 	50	9330003	10			
+9513	요리사 아종의 부탁	50	9330016	10			
+9514	요리사 아종의 맛있는 춘권	50	9010000	10			
+9520	할로윈 데이 사탕포장!	50	9010000	10	29		4000002x100
+9521	할로윈 데이 사탕포장!!	50	1012003	10	29		4000002x100
+9522	유령 옷 만들기!	50	9010000	30	45		4000035x100
+9523	유령 옷 만들기!!	50	1012106	30	45		4000035x100
+9524	미라 의상 만들기!	50	9010000	46			4000205x100
+9525	미라 의상 만들기!!	50	1022006	46			4000205x100
+9526	할로윈 사탕배달! 	50	1012003	10	29		2022043x30
+9527	할로윈 사탕 배달!!	50	1012106	30	45		2022043x50
+9528	할로윈 사탕배달!!!	50	1022006	46			2022043x100
+9600	초성퀴즈 (11월 23일)	50	9010000	10			
+9601	초성퀴즈 (11월 24일)	50	9010000	10			
+9602	초성퀴즈 (11월 25일)	50	9010000	10			
+9603	초성퀴즈 (11월 26일)	50	9010000	10			
+9604	초성퀴즈 (11월 27일)	50	9010000	10			
+9605	초성퀴즈 (11월 28일)	50	9010000	10			
+9606	초성퀴즈 (11월 29일)	50	9010000	10			
+9607	초성퀴즈 (11월 30일)	50	9010000	10			
+9608	초성퀴즈 (12월 1일)	50	9010000	10			
+9609	초성퀴즈 (12월 2일)	50	9010000	10			
+9610	초성퀴즈 (12월 3일)	50	9010000	10			
+9611	초성퀴즈 (12월 4일)	50	9010000	10			
+9612	초성퀴즈 (12월 5일)	50	9010000	10			
+9613	초성퀴즈 (12월 6일)	50	9010000	10			
+9614	초성퀴즈 (12월 7일)	50	9010000	10			
+9615	초성퀴즈 (12월 8일)	50	9010000	10			
+9616	초성퀴즈 (12월 9일)	50	9010000	10			
+9617	초성퀴즈 (12월 10일)	50	9010000	10			
+9618	초성퀴즈 (12월 11일)	50	9010000	10			
+9619	초성퀴즈 (12월 12일)	50	9010000	10			
+9620	초성퀴즈 (12월 13일)	50	9010000	10			
+9621	초성퀴즈 (12월 14일)	50	9010000	10			
+9622	초성퀴즈 (12월 15일)	50	9010000	10			
+9623	초성퀴즈 (12월 16일)	50	9010000	10			
+9624	초성퀴즈 (12월 17일)	50	9010000	10			
+9625	초성퀴즈	50	9010000	200			
+9630	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+9631	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+9632	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+9633	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+9635	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+9636	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+9637	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+9638	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+9640	산타 고양이의 선물준비	50	9201030	13	29		4031504x25
+9641	착한 고양이에게 선물을	50	9201030	30	49		4031505x25
+9642	고양이들의 크리스마스	50	9201030	50			4031506x25
+9650	북극곰 푸치의 슈퍼 스노우보드	50	9001006	13			1442012x1 1442013x1 1442014x1 1442015x1 1442016x1 1442017x1
+9651	북극곰 푸치의 골든 스노우보드	50	9001006	13			1442012x1 1442013x1 1442014x1
+9652	주인없는 스노우보드	50	9001006	45			
+9660	달을 부르는 자:월묘의 떡	50	9010010	10			
+9661	협동하는 법:첫번째 동행	50	9010010	21	30		
+9662	수정구의 균열:차원의 균열	50	9010010	35	50		
+9663	여신의 슬픔을 위로할 자:여신의 흔적	50	9010010	51	70		
+9664	카산드라의 복수:해적 데비존 	50	9010010	55	100		
+9670	Cody's Valentine	50	9200000	8			4140100x1
+9671	외로운 에스텔	50	9010010	8			4140102x1
+9672	외로운 가가	50	9010010	8			4140100x1
+9680	카산드라의 마법	50	9010010				
+9682	매일매일 이벤트 3월 5일	50	9010010	10			
+9683	매일매일 이벤트 3월 12일	50	9010010	10			
+9684	매일매일 이벤트 3월 19일	50	9010010	10			
+9685	매일매일 이벤트 3월 26일	50	9010010	10			
+9690	초성퀴즈 2월 13일	50	9010010	10			
+9691	초성퀴즈 2월 14일	50	9010010	10			
+9692	초성퀴즈 2월 15일	50	9010010	10			
+9693	초성퀴즈 2월 16일	50	9010010	10			
+9694	초성퀴즈 2월 17일	50	9010010	10			
+9695	초성퀴즈 2월 18일	50	9010010	10			
+9696	초성퀴즈 2월 19일	50	9010010	10			
+9697	초성퀴즈 2월 20일	50	9010010	10			
+9698	초성퀴즈 2월 21일	50	9010010	10			
+9699	초성퀴즈 2월 22일	50	9010010	10			
+9700	초성퀴즈 2월 23일	50	9010010	10			
+9701	초성퀴즈 2월 24일	50	9010010	10			
+9702	초성퀴즈 2월 25일	50	9010010	10			
+9703	초성퀴즈 2월 26일	50	9010010	10			
+9704	황금돼지를 잡아라!	50	9010010	8			4000313x1
+9705	정해년맞이 돼지변신	50	9010010	8			
+9706	카산드라의 황금돼지	50	9010010	10			4030012x200
+9710	카산드라의 휴대폰	50	9010010	10			4031557x1
+9711	전사학교 입학통지서	50	9010010				4031558x10
+9712	마법사학교 입학통지서	50	9010010				4031559x10
+9713	도적학교 입학통지서	50	9010010				4031560x10
+9714	궁수학교 입학통지서	50	9010010				4031561x10
+9720	매일매일 이벤트 3월 6일	50	9010010	10			
+9721	매일매일 이벤트 3월 13일	50	9010010	10			
+9722	매일매일 이벤트 3월 20일	50	9010010	10			
+9723	매일매일 이벤트 3월 27일	50	9010010	10			
+9724	매일매일 이벤트 3월 1일	50	9010010	10			
+9725	매일매일 이벤트 3월 8일	50	9010010	10			
+9726	매일매일 이벤트 3월 15일	50	9010010	10			
+9727	매일매일 이벤트 3월 22일	50	9010010	10			
+9728	매일매일 이벤트 3월 29일	50	9010010	10			
+9730	To Fool a Liar	50	9010010	10	30		4031583x10
+9731	To Fool a Liar	50	9010010	31	70		4031584x10
+9732	To Fool a Liar	50	9010010	71			4031585x10
+9733	Help out Gordon!	50	9010010	10	30		4031933x30
+9734	Help out Gordon!!	50	9010010	31	70		4031934x30
+9735	Help out Gordon!!!	50	9010010	71			4031935x30
+9740	카산드라의 자장면	50	9010010	10	30		4031586x10
+9741	카산드라가 만든 자장면	50	9010010	31	70		4031587x10
+9742	카산드라의 솔로를 위한 자장면	50	9010010	71			4031588x10
+9743	체프의 선물	50	1002006				
+9744	에스텔의 선물	50	1032105				
+9745	커플을 위한 다크 초콜릿	50	1012102	10	30		4031938x10
+9746	커플을 위한 다크 초콜릿!	50	9000007	31	70		4031939x10
+9747	커플을 위한 다크 초콜릿!!	50	2012010	71			4031940x10
+9748	가가의 선물	50	9000021				
+9800	4주년 기념 레벨업 이벤트 	50					
+9801	상자 속의 단풍잎	50	1002101	10			4031606x1
+9802	주인 잃은 단풍잎	50	1032001				4031607x1
+9803	변해버린 단풍잎	50	1012109	10	30		4031608x1 4031613x1
+9804	변해버린 단풍잎 	50	1012109	31	70		4031611x1 4031614x1
+9805	변해버린 단풍잎   	50	1012109	71			4031615x1 4031612x1
+9806	새로운 역사의 주인공	50	2012023				4031610x1
+9807	새로운 역사의 주인공 	50	2012023				4031616x1
+9808	새로운 역사의 주인공   	50	2012023				4031617x1
+9809	카산드라의 점치기	50					
+9810	매일매일 이벤트 4월 27일	50					
+9811	매일매일 이벤트 4월 29일	50					
+9812	매일매일 이벤트 5월 4일	50					
+9813	매일매일 이벤트 5월 6일	50					
+9814	매일매일 이벤트 5월 11일	50					
+9815	매일매일 이벤트 5월 13일	50					
+9816	매일매일 이벤트 5월 18일	50					
+9817	매일매일 이벤트 5월 20일	50					
+9818	단풍잎에 내리는 요정의 축복	50	2012011			3230200x50	1032040x1 4000059x30
+9819	단풍잎의 숨겨진 힘	50	2032001	60		7130000x30	1032041x1
+9820	카산드라의 어린이날 선물	50					
+9821	어린이들을 위한 몬스터 퇴치	50	9010010	10	24	210100x30 130100x20 130101x40	
+9822	켄타의 부탁	50	9010010	25	70		
+9823	동물들을 위한 특식	50	2060005	25	39		4000029x30 4000166x50 2010003x3
+9824	아쿠아로드 청소하기	50	2060005	40		4230201x80 4230123x80 4230124x80	
+9825	햇님이에게 선물을	50	9010010	71			4000109x50 4000143x50 4000147x10 4000108x50
+9830	카산드라의 첫번째 퀴즈!	50	9010010	10			
+9831	카산드라의 두번째 퀴즈!	50	9010010				
+9832	카산드라의 세번째 퀴즈!	50	9010010				
+9833	카산드라의 네번째 퀴즈!	50	9010010				
+9834	카산드라의 다섯번째 퀴즈! 	50	9010010				
+9835	카산드라의 여섯번째 퀴즈!	50	9010010				
+9836	카산드라의 일곱번째 퀴즈!	50	9010010				
+9837	카산드라의 여덟번째 퀴즈!	50	9010010				
+9838	카산드라의 아홉번째 퀴즈!	50	9010010				
+9839	카산드라의 열번째 퀴즈!	50	9010010				
+9840	Dr. Winston's Research	50	9010010			130100x30 1110101x20	
+9841	Violent Monkeys	50	9010010	30		3210800x50 4230101x40 5300100x10	
+9842	Icarus's Mushroom Bites	50	9010010			2220100x50 1120100x50	4000006x20 4000009x20
+9843	Garden of Three Shades	50	9010010				
+9844	Regulate the Star Pixies	50	9010010	30		3230200x100	
+9845	The Wailing White Fang	50	2030001	50		5140000x100	
+9846	The Clocktower	50	9010010	35		4230113x50 4230114x50	
+9847	Guard the Omega Sector	50	9010010	30		4230118x100	
+9848	A Small Pond	50	9010010				
+9849	No Gong's Test	50	2091000	60		5120500x100 6130203x100	
+9850	Do Gong's Test	50	2091001	65		6130209x100 5120506x100	
+9851	Snake Pit in the Swamp	50	1052000	25		2130103x50	
+9852	서쪽바다 갈림길	50	9010010				
+9860	Cassandra's Magic	50	9010010				
+9861	오래된 깃발에 담긴 것	50	9010010				1302036x1 4031661x10
+9862	그는 아직 그 자리에 있다	50	9010010				
+9863	오래된 깃발에 담긴 것 	50	9010010				4031667x10 1302035x1
+9864	그는 아직 그 자리에 있다 	50	9010010				
+9865	친구의 선물	50	1061013				4000003x10 4000021x2
+9866	소녀의 낡은 철검	50	1022007				4031662x1
+9867	만지와 이얀	50	1022002				
+9868	밍밍부인의 치료약	50	1012106				4000015x15 4000001x15 4000012x15 4000021x5
+9869	다정한 모험가 그윈	50	1012106				4031663x1
+9870	아르미의 1500일 기념폭죽	50	9010014	10			4001127x5 4001128x5
+9871	시원한 수박	50	9010010	10			4031701x5
+9872	박첨지의 수박 되찾기	50	9010010	10			4031701x1
+9873	수박이 먹고 싶은 밍밍부인	50	9010010	10			4031701x5
+9875	Growing a Sprout	50	9010010	10			
+9878	Magatia, the City of Alchemy	50	9010010				
+9879	매드의 선물	50	2111007				
+9880	현상수배 : 마노	50	9010010	15	30	2220000x1	
+9881	현상수배 : 스텀피	50	9010010	31	40	3220000x1	
+9882	현상수배 : 킹크랑	50	9010010	41	65	5220000x1	
+9883	현상수배 : 태륜	50	9010010	66	80	7220000x1	
+9884	현상수배 : 엘리쟈	50	9010010	81	89	8220000x1	
+9885	현상수배 : 스노우맨	50	9010010	90		8220001x1	
+9887	카산드라의 선물	50	9010010	10			
+9889	조각난 주문서	50	9010010	10			4001136x30
+9890	카산드라의 마법	50	9010010				
+9891	카산드라의 마법	50	9010010				
+9892	카산드라의 마법	50	9010010				
+9893	카산드라의 마법	50	9010010				
+9900	즐거운 한가위	50	9010010	10			
+9901	추석맞이 초성퀴즈	50	9010010	10			
+9902	마노 퇴치하기	50	9010010			2220000x1	
+9903	스텀피 퇴치하기	50	9010010			3220000x1	
+9904	킹크랑 퇴치하기	50	9010010			5220000x1	
+9905	구미호 퇴치하기	50	9010010			7220001x1	
+9906	태륜 퇴치하기	50	9010010			7220000x1	
+9907	요괴선사 퇴치하기	50	9010010			7220002x1	
+9908	엘리쟈 퇴치하기	50	9010010			8220000x1	
+9909	스노우맨 퇴치하기	50	9010010			8220001x1	
+9920	가면신사의 초대	50	9010010	10			
+9921	끝나지 않은 파티	50	9010010	10			
+9922	고양이의 충고	50	2121000	10			
+9923	Collect Pumpkin Pieces	50	2120003	10			2022255x50
+9924	사탕주지 않으면 장난칠 테야!	50	2121012	10	20		
+9925	사탕주지 않으면 장난칠 테야!!	50	2121012	21	40		
+9926	사탕주지 않으면 장난칠 테야!!!	50	2121012	41			
+9927	가면신사와의 대화	50	2120000	10			
+9928	이상한 소녀	50	2120005	10			2022256x5
+9929	인형장인 조나스	50	2120004	10			4220021x1
+9930	완벽한 연장	50	2120004	10			4031834x1
+9931	소필리아의 초상화	50	2120004	10			4031832x1
+9932	루드밀라의 귀고리	50	2120006	10			4031835x1
+9933	좋은 음악	50	2120006	10			
+9934	향기로운 음식	50	2120006	10			4031833x1
+9935	소필리아의 눈물	50	2120005	10			
+9936	새로운 기회	50	2120000	10			
+9937	다른 쪽으로 가고 싶어졌어	50	2120005				
+9938	결정을 번복하고 싶다 	50	2120004				
+9939	잘못 대답한 것 같다	50	2120006				
+9940	숨겨진 방	50	2120000	10			
+9941	창백한 소년	50	2120007	10			
+9942	인형놀이	50	2120000	10			4031837x1
+9943	잊혀진 이름	50	2120000	10			
+9944	버려진 인형	50	2120008	10			
+9945	인형찾기	50	2120008	10			2022256x10
+9946	호박주스 만들기	50	2120003	10			2022255x10
+9947	인형을 돌려드리겠어요.	50	2120004				
+9950	해적 레벨업 이벤트 	50	9010010	11			
+9951	...Pirates!?	50	9010010	10			
+9952	거대 눈사람의 습격	50	9010010	10		9500319x1	
+9953	눈사람의 나뭇가지	50	2001001	10			4001141x1
+9954	카산드라의 건망증	50	9010010	20	30		
+9955	아리안트 투기대회	50	2101018				
+9960	카산드라의 새해선물	50	9010010	13			
+9961	새해 운세보기	50	9010010	10			4220023x1
+9962	화이트 마우스 머리띠	50	9010010	10			4031895x20
+9963	화이트 마우스 분장	50	9010010	10			4031895x20
+9965	별도장 받기	50	9010000				
+9970	페티트의 수리부품	50	9010010	10			4031923x30
+9975	카산드라의 어린이날선물	50	9010010	13			
+9980	Tienk's Monster Card	50	2006	10			
+9981	4 Year Anniversary Level Up event	50	9010000	2			
+9982	5개의 촛불	50	9000021	10			
+9983	5주년 축하 케이크	50	9000021	10			
+9984	Putting the Maple Leaf in my mouth...	50	9010010	10			4001126x50
+9985	Making Maple Syrup	50	9010010	10			4001126x25
+9986	Cassandra's Latest Information	50	9010010	10			
+9987	Materials for the Mysterious Fabric	50	1022006	10			4001166x10
+9988	Francois' Latest Work	50	1032002	10			4001126x50
+9990	Gaga's Maple Leaf	50	9000021	10			
+9991	스피드 퀴즈	50	9010010	13			
+9992	Vanished Mysterious Fabric	50	1032100				4001166x12
+9994	Repairing the Maple Cape	50	1032002	35			4001166x10 1102166x1
+9996	Alcaster's Advice	50	2012012	65			4001166x10 4001126x10 1102167x1
+9997	작전명MS-07	50	9000032	10			
+9999	개발테스트용	10	9010017				
+10000	Suspicious Offer?!	50	9000021	10			
+10001	Co-op with Special Agent O	50	9000021	10			
+10002	Number of Special Agent Badges 	50	9000034	10			4031988x1
+10005	Agent W's Watermelon Investigation	50	9010000	10			4031701x5
+10007	Agent C's Intelligence Activity	50	9000021	10			4001192x5
+10008	Information on Master M	50	9000033	10			
+10010	Special Order: Find Master M's Orders!	50	9000036	10	30		4031999x20
+10011	Special Order: Find Master M's Orders!	50	9000036	31	50		4032000x20
+10012	Special Order: Find Master M's Orders!	50	9000036	51			4032001x20
+10014	Today's Mission!	50	9000036	10			
+10015	Obtain the Special Agent Badge!	50	9000036	10			
+10016	우수요원뱃지를 획득하라!	50	9000036	10			
+10017	요원특별강화프로그램에 참여하라!	50	9000036	10			
+10018	Earn 50 points on the Speed Quiz!	50	9000036	10			
+10019	Invade the Watermelon Field!	50	9000036	10			
+10020	Help Agent E!	50	9000036	10			
+10021	You are a True Special Agent!	50	9000021				
+10023	Long and Dangerous Road of an Agent	50	9000021				
+10030	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+10031	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+10032	테오의 옛날 추억 회상 I	50	1002001				4000016x100 4000004x50
+10033	테오의 옛날 추억 회상 II	50	1002001				4000024x80 4000020x100
+10034	추석맞이 달나라 여행	50	9010000	13			
+10035	The Great Maple Book Drive	50	9010014	13			
+10036	달은 어떻게 생겼나요	50	9001102	13			4220067x1
+10037	카산드라의 도움	50	9010010				
+10039	Surprise Event : Special Alphabets	50	9010010	13			
+10043	달꽃떡 받기	50	9001101	13			
+10046	아기새를 부탁해	50	9000021	13			
+10048	길 잃은 도요새	50	9000043	13			
+10050	아기새의 깃털	50	9000042	13			4032066x1
+10051	카산드라의 부탁	50	9010010	13			
+10052	메이플 2000일의 이야기	50	9010000	13			
+10053	만지의 모험담	50	9010000	13			
+10054	그윈의 모험담	50	9010000	50			2012000x1
+10055	에릭손의 모험담	50	9010000	30			2120008x1
+10056	카산드라의 메이플 스카프	50	9010010	13			2022422x100
+10059	Gaga's Favorite Song	50	9000021	13			
+10060	카산드라의 특별한 선물	50	9010010				2210021x
+10062	가면신사의 조언1	50	2120000				
+10063	사진첩이 필요해1	50	2120005				
+10064	루드밀라의 사진첩	50	2120006				4031838x20
+10065	사진첩이 필요해	50	2120006				4032083x1
+10066	과거의 기억	50	2120005				2022256x20
+10067	가면신사의 조언2	50	2120000				
+10068	집사의 시달림	50	2120002				
+10069	유령 T는 누구일까?	50	2120008				
+10070	저택의 비밀- 페토의 과거	50	2120008				
+10071	페토의 후회	50	2120002				
+10072	페토인형 만들기	50	2120008				4031838x20
+10073	페토 변신 준비	50	2120008				4032085x1
+10074	페토 변신	50	2120000				
+10075	조나스의 뉘우침	50	2120004				
+10076	소필리아의 뉘우침	50	2120004				4032084x1
+10077	루드밀라의 뉘우침	50	2120005				4032088x1
+10078	집사의 뉘우침	50	2120002				
+10079	조이의 뉘우침	50	2120007				
+10080	가가의 푸념	50	9000021	13			
+10081	카산드라의 진심은?!	50	9010010	13			4032087x10
+10082	메이플스토리 그린 캠페인	50	9010000	13			
+10083	장로스탄의 응원	50	1012003	13			
+10084	피아의 응원	50	1012102	13			
+10085	에스텔의 응원	50	1032105	13			
+10086	요정 윙의 응원	50	1032106	13			
+10087	천지의 응원	50	9000007	13			
+10088	이카루스의 응원	50	1052106	13			
+10089	만지의 응원	50	1022002	13			
+10090	돼지와 함께 춤을의 응원	50	1020000	13			
+10091	리드의 응원	50	1092009	13			
+10092	베인의 응원	50	1092002	13			
+10093	기억하고 있는 자의 응원	50	1061011	13			
+10094	찰리중사의 응원	50	2010000	13			
+10095	스카두르의 응원	50	2020007	13			
+10096	티건의 응원	50	2101004	13			
+10097	세쟌의 응원	50	2101011	13			
+10098	필리아의 응원	50	2111004	13			
+10099	노공의 응원	50	2091000	13			
+10100	도공의 응원	50	2091001	13			
+10101	구영감의 응원	50	2092000	13			
+10102	촌장 타타모의 응원	50	2081000	13			
+10103	지니의 응원	50	9000014	13			
+10104	Book of Cygnus Vol. 1	50	9010010	13			2430000x20
+10105	Book of Cygnus Vol. 2	50	9010010	13			2430001x20
+10106	Book of Cygnus Vol. 3	50	9010010	13			2430002x20
+10107	시그너스 퀴즈 퀴즈	50					
+10108	그린 캠페인 훈장 바꾸기	50	9010000	13			
+10109	해킹자료 분석	50	9010000	13			4032178x1
+10110	골드리치의 초대	50	2084001				
+10111	테오의 옛날 추억 회상 I	50	1002001	10			4000016x100 4000004x50
+10112	테오의 옛날 추억 회상 II	50	1002001	30			4000024x80 4000020x100
+10113	테오의 옛날 추억 회상 I	50	1002001	10			4000016x100 4000004x50
+10114	테오의 옛날 추억 회상 II	50	1002001	30			4000024x80 4000020x100
+10200	Richie Gold is Here	50	2084001	20			
+10205	Pendant of the Spirit	50	9010010	13			
+10206	Remnants of Black Mage	50	9010000	13	30		4001237x20
+10207	Remnants of Black Mage	50	9010000	31	60		4001238x20
+10208	Remnants of Black Mage	50	9010000	61	90		4001239x20
+10209	Remnants of Black Mage	50	9010000	91			4001240x20
+10210	Gaga's Analysis	50	9000021	13	30		
+10211	Gaga's Analysis	50	9000021	31	60		
+10212	Gaga's Analysis	50	9000021	61	90		
+10213	Gaga's Analysis	50	9000021	91			
+10214	Cassandra's Analysis	50	9010010	13	30		
+10215	Gaga's Analysis	50	9010010	31	60		
+10216	Gaga's Analysis	50	9010010	61	90		
+10217	Gaga's Analysis	50	9010010	91			
+10218	가가의 크리스마스 추억	50	9000021				
+10219	카산드라의 두번째 새해선물	50	9010010	13			
+10220	스피드 퀴즈	50	9010010	13			
+10222	두근두근 메이플!두근두근 나의 펫!	50	9010000				
+10224	Starlight Festival	50	9010010	15			
+10230	Gold Richie's Compass	50	9010010	13			
+10231	Golden Pig's Egg	50	2084002				
+10240	카산드라의 봄꽃축제	50	9010010	10	39		4032264x10 4032266x10
+10241	카산드라의 봄꽃축제	50	9010010	40	200		4032265x10 4032270x10
+10242	베티의 봄꽃연구1	50	9010010	10	29		2022526x3
+10243	베티의 봄꽃연구2	50	9010010	10	29		2022527x3
+10244	베티의 봄꽃연구3	50	9010010	10	29		2022528x3
+10245	리사의 봄꽃연구1	50	9010010	30	49		2022526x3
+10246	리사의 봄꽃연구2	50	9010010	30	49		2022527x3
+10247	리사의 봄꽃연구3	50	9010010	30	49		2022528x3
+10248	콩쥐의 봄꽃연구1	50	9010010	50	89		2022526x3
+10249	콩쥐의 봄꽃연구2	50	9010010	50	89		2022527x3
+10250	콩쥐의 봄꽃연구3	50	9010010	50	89		2022528x3
+10251	키니의 봄꽃연구1	50	9010010	90	119		2022526x3
+10252	키니의 봄꽃연구2	50	9010010	90	119		2022527x3
+10253	키니의 봄꽃연구3	50	9010010	90	119		2022528x3
+10254	촌장 타타모의 봄꽃연구1	50	9010010	120	200		2022526x3
+10255	촌장 타타모의 봄꽃연구2	50	9010010	120	200		2022527x3
+10256	촌장 타타모의 봄꽃연구3	50	9010010	120	200		2022528x3
+10260	순결한 향수 만들기1	50	9010010	10	25		4032271x30
+10261	순결한 향수 만들기2	50	9010010	26	50		4032275x30
+10262	순결한 향수 만들기3	50	9010010	51	80		4032276x30
+10263	순결한 향수 만들기4	50	9010010	81	200		4032277x30
+10264	숨어있는 몬스터 퇴치	50	9010010	10	25		4032284x1
+10265	숨어있는 몬스터 퇴치	50	9010010	26	50		4032285x1
+10266	숨어있는 몬스터 퇴치	50	9010010	51	80		4032286x1
+10267	숨어있는 몬스터 퇴치	50	9010010	81	200		4032287x1
+10268	가가의 사랑 편지1	50	9000021	10	25		4032272x10 4032273x10
+10270	가가의 사랑 편지2	50	9000021	26	50		4032278x10 4032281x10
+10271	가가의 사랑 편지3	50	9000021	51	80		4032279x10 4032282x10
+10272	가가의 사랑 편지4	50	9000021	81	200		4032280x10 4032283x10
+10273	우리는 메이플 패밀리	50	9010000	13	200		
+10274	메이플 6주년 파티준비	50	9010010	13	25		4032298x20
+10275	메이플 6주년 파티준비!	50	9010010	26	40		4032299x20
+10276	메이플 6주년 파티준비!!	50	9010010	41	70		4032300x20
+10277	메이플 6주년 파티준비!!!	50	9010010	71	200		4032301x20
+10278	메이플 6주년 축하해	50	9010010	13	25		
+10279	메이플 6주년 축하해!	50	9010010	26	40		
+10280	메이플 6주년 축하해!!	50	9010010	41	70		
+10281	메이플 6주년 축하해!!!	50	9010010	71	200		
+10282	인기 몬스터의 초상화 : 주황버섯	50	9010010	13	30		4220148x1
+10283	인기 몬스터의 초상화 : 옥토퍼스	50	9010010	31	70		4220149x1
+10284	인기 몬스터의 초상화 : 예티	50	9010010	71	200		4220150x1
+10285	You are a True Maple Lover ♥	50	9010000	15			1142099x1
+10286	Cassandra's Gift	50	9010010	13			4001126x800
+10287	아르미의 황금 단풍잎	50	9000055	10			
+10300	Making the Witch's Secure Broomstick	50	9010020	13	30		4032348x20
+10301	Making the Witch's Solid Broomstick	50	9010020	31	70		4032349x20
+10302	Making the Witch's Sturdy Broomstick	50	9010020	71			4032350x20
+10303	The Witch's Treasure Chest	50	9000059	13			
+10311	A Petrified Mouse	50	9040000	13			
+10312	Gaga's Glasses	50	9040000	13			
+10313	Cassandra's Crystal Ball	50	9040000	13			
+10314	A Shiny Watch	50	9040000	13			
+10315	A Nice Cleat	50	9040000	13			
+10316	Quest Completion Book	50	9040000	13			
+10317	A Pretty Hair-Tie	50	9040000	13			
+10318	An Old Shoe	50	9040000	13			
+10319	Artifact Hunt 1000 points acquired!	50	9000021				
+10320	Artifact Hunt 2500 points acquired!	50	9000021				
+10321	Artifact Hunt 4000 points acquired!	50	9000021				
+10322	Artifact Hunt Participation Prize	50	9000021				
+10324	Vaughn Lee's Cleat	50					4001307x1
+10325	Stan's Cleat	50					4001307x1
+10326	Louie's Cleat	50					4001307x1
+10327	Corba's Watch	50					4001306x1
+10328	8 Mystical Treasures	50	9040000				
+10329	Start the Artifact Hunt	50	9000021	13			
+10330	Challenge! Honorable Mesoranger	50	9000061	10			
+10331	Special Order! Find Agent E!	50	9000063				
+10332	Special Order! Find Agent S!	50	9000064				
+10333	Special Order! Find Agent O!	50	9000065				
+10340	The Return!	50	9010010	13			
+10341	Aran's Revival	50	9010010				
+10342	Vague Aran Memories	50	9010010	13			4032366x20
+10343	Cassandra's Album	50	9010010				
+10344	Dim Aran Memories	50	9010010				4032367x20
+10345	Signs of the Revival	50	9010010				
+10346	Faint Aran Memories	50	9010010				4032368x20
+10347	The Wolf In Waiting	50	9010010				
+10348	Cloudy Aran Memories	50	9010010				4032369x20
+10349	Preparing for the Arrival	50	9010010				1442000x1
+10350	Lingering Aran Memories	50	9010010				4032370x20
+10351	The Hero's Memory	50	9010010				
+10352	Flickering Aran Memories	50	9010010				4032371x20
+10353	The Truth About Memory Fragments	50	9010010				
+10354	To Whom Should Cassandra's Album Go?	50	9040000				
+10355	Delivering Cassandra's Album	50	9000021				4001316x1
+10356	Delivering Cassandra's Album	50	9010010				4001316x1
+10360	Aran Welcome Celebration	50	9010010	13			3994139x1
+10370	Find the Master of Combos	50	9010010	15			
+10380	Aran's Return	50	9010000	20			
+10381	Lilin's Present 3	50	9010000	70			1112414x1
+10390	Teo's Nostaligic Reminiscing I	50	1002001	10			4000016x100 4000004x50
+10391	Teo's Nostalgic Reminscing II	50	1002001	30			4000024x80 4000020x100
+10392	Teo's Nostalgic Reminscing I	50	1002001	10			4000016x100 4000004x50
+10393	Teo's Nostalgic Reminscing II	50	1002001	30			4000024x80 4000020x100
+10394	Perfect Pitch - Level Up Event	50	9010000	2			
+10395	류호의 이주민	50	9010010	13			
+10396	류호의 도전자	50	9010010	1			
+10397	류호의 정착자	50	9010010	1			
+10398	류호의 개척자	50	9010010	1			
+10400	The 2010 Winter King / Winter Queen Event!	50	9010010	13			
+10401	The True Winter King / Winter Queen Event of 2010!	50	9010010	13			
+10405	2009 Pink Flower Floatie!	50	9010010	13			4001320x1
+10410	Hunter's Luck - Week 1	50	2020007	13			
+10411	Hunter's Luck - Week 2	50	2020007	13			
+10412	Hunter's Luck - Week 3	50	2020007	13			
+10413	Hunter's Luck - Week 4	50	2020007	13			
+10414	Hunter's Luck - Week 5	50	2020007	13			
+10415	Winter Bingo	50	9010010	13	30		4032418x20
+10417	Winter Bingo	50	9010010	31	50		4032419x20
+10418	Winter Bingo	50	9010010	51	70		4032420x20
+10419	Winter Bingo	50	9010010	71	90		4032421x20
+10420	Winter Bingo	50	9010010	91			4032422x20
+10425	달은 어떻게 생겼죠?	50	9001102	13			4032433x1
+10426	폴라로이드가 필요해요.	50	9001102				
+10430	무지개가 있는 풍경	50	9010010	13			4220152x1
+10431	가가의 남색 크레파스	50	9000021				4001334x1
+10432	가가의 보라색 크레파스	50	9000021				4001334x1
+10433	가가의 빨간색 크레파스	50	9000021				4001334x1
+10434	가가의 주황색 크레파스	50	9000021				4001334x1
+10435	가가의 노란색 크레파스	50	9000021				4001334x1
+10436	가가의 초록색 크레파스	50	9000021				4001334x1
+10437	가가의 파란색 크레파스	50	9000021				4001334x1
+10438	가가의 남색 크레파스	50	9000021				4001334x1
+10439	가가의 보라색 크레파스	50	9000021				4001334x1
+10440	가가의 빨간색 크레파스	50	9000021				4001334x1
+10441	가가의 주황색 크레파스	50	9000021				4001334x1
+10442	가가의 노란색 크레파스	50	9000021				4001334x1
+10443	가가의 초록색 크레파스	50	9000021				4001334x1
+10444	가가의 파란색 크레파스	50	9000021				4001334x1
+10445	가가의 크레파스	50	9000021				4001334x1
+10450	레인보우 위크:빨간색의 마법	50	9010010	13			
+10451	레인보우 위크:빨간색의 마법	50	9010010	13			
+10452	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10453	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10454	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10455	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10456	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10457	레인보우 위크:노란색의 마법	50	9010010	13			4032434x10
+10458	골드리치의 나침반	50	9010010	13			
+10459	골드리치의 나침반	50	9010010	13			
+10470	별별 페스티발	50	9010010	15			
+19000	Honorable Mesoranger	51	9010000				
+19001	Maple Nut	51	9010000				
+19002	The 2nd Honorable Mesoranger	51	9010000				
+19005	Top 10 in Artifact Hunt	51	9000066				
+19006	Mystical Artifact Discoverer	51	9000066				
+19007	Combo Maniac	51	9000066	15			
+19008	Combo Master	51	9000066	15			
+19009	Combo King	51	9000066	15			
+19010	류호 개척자	51	9000066				
+20000	Greetings from the Young Empress.	15	1101000				
+20001	Neinheart the Tactician	15	1101002				
+20002	Kiku the Training Instructor	15	1102000				
+20003	Kiku's First Training Session	15	1102000			100120x5	
+20004	Kiku's Second Training Session	15	1102000			100121x10	
+20005	Kiku's Third Training Session	15	1102000			100122x15	
+20006	Kiku's Fourth Training Session	15	1102000			100123x20	
+20007	Kiku's Last Training Session	15	1102000			100124x3	
+20008	The Path of a Knight	15	1102000				
+20010	Welcome to Ereve	15	1102004		10		
+20011	I'll Show You How to Hunt	15	1102005			9300328x1	
+20012	How Well Do You Know Your Skills?	15	1102006			100121x3	4000483x1
+20013	A Box with Goodies Inside	15	1102007				4032267x1 4032268x1
+20014	The Empress is Waiting	15	1102008				4032269x1
+20015	Greetings From the Young Empress	15	1101000	6	10		
+20016	Do You Know the Black Mage?	15	1101002				
+20017	The First Knight Training	15	1102000			100122x15	
+20018	The Second Knight Training	15	1102000			100123x20	
+20019	The Last Knight Training	15	1102000			100124x5	
+20020	5 Different Paths of Cygnus Knights	15	1101002	10			
+20100	Time to Choose	15	1101002	10			
+20101	Path of a Dawn Warrior	15	1101003	10			
+20102	Path of a Blaze Wizard	15	1101004	10			
+20103	Path of a Wind Archer	15	1101005	10			
+20104	Path of a Night Walker	15	1101006	10			
+20105	Path of a Thunder Breaker	15	1101007	10			
+20200	The End of Knight-in-Training	15	1101002	30			
+20201	Knighthood Exam: Dawn Warrior	15	1101003	30			4032096x30
+20202	Knighthood Exam: Blaze Wizard	15	1101004	30			4032097x30
+20203	Knighthood Exam: Wind Archer	15	1101005	30			4032098x30
+20204	Knighthood Exam: Night Walker	15	1101006	30			4032099x30
+20205	Knighthood Exam: Thunder Breaker	15	1101007	30			4032100x30
+20300	The Lost Treasure	15	1101002	70			
+20301	The Master of Disguise	15	1101003	70		9001009x1	4032101x1
+20302	The Master of Disguise	15	1101004	70		9001009x1	4032102x1
+20303	The Master of Disguise	15	1101005	70		9001009x1	4032103x1
+20304	The Master of Disguise	15	1101006	70		9001009x1	4032104x1
+20305	The Master of Disguise	15	1101007	70		9001009x1	4032105x1
+20306	Ereve Investigation Permit	15	1101002				4005004x1
+20307	Ereve Investigation Permit	15	1101002				4005004x1
+20308	Ereve Investigation Permit	15	1101002				4005004x1
+20309	Ereve Investigation Permit	15	1101002				4005004x1
+20310	Ereve Investigation Permit	15	1101002				4005004x1
+20311	Shinsoo's Teardrop	15	1101003	70			
+20312	Shinsoo's Teardrop	15	1101004	70			
+20313	Shinsoo's Teardrop	15	1101005	70			
+20314	Shinsoo's Teardrop	15	1101006	70			
+20315	Shinsoo's Teardrop	15	1101007	70			
+20400	Chasing the Knight's Target	15	1101002	120			
+20401	Hunting the Zombies	15	2020006	120			
+20402	Black Scale	15	2032001	120			4001207x1
+20403	Dragon Outcasts	15	2081000	120			
+20404	The Stolen Egg	15	2081012	120		8180000x1 8180001x1	
+20405	The Cave of the Black Witch	15	2081013	120			
+20406	The Knight That Disappeared	15	1101002	120			
+20407	The Curse of the Black Witch	15	1104208	120		9001010x1	
+20408	Chief Knight of the Empress	15	1101000	120			
+20500	기사의 품위	15	1101002	50			
+20501	나인하트의 소개장	15	1101002	50			4032115x1
+20502	티티아나의 알	15	1102002	50			4220137x1
+20503	키리두의 소개장	15	1102002	50			4032116x1
+20504	안장 만들기	15	2060005	50			
+20505	기사의 라이딩	15	1102002	50			
+20506	티티아나를 잃어버렸어요!	15	1102002	50			4220139x1
+20507	기사의 품격	15	1101002	100			
+20508	티티아나의 탈피	15	1102002	100			1902005x1
+20509	유리온실 돌보기	15	1102002	100			4220138x1
+20510	티티오의 탄생	15	1102002	100			4032117x1
+20511	켄타의 영양제	15	2060005	100			
+20512	티티아나를 탈피시키고 싶어요!	15	1102002	90			4000232x500 4000234x500 4000233x30 1902005x1 1902006x
+20520	Knight's Dignity	15	1101002	50			
+20521	Mounts for Knights	15	1101002	50			4032208x1
+20522	Raising Mimiana	15	1102002	50			
+20523	Riding Mimiana	15	1102002	50			4032117x1
+20524	Supplements for Mimiana	15	2060005	50			
+20525	Making a Saddle	15	1102002	50			4000030x200 4000055x200 4000171x200
+20526	Re-raising Mimiana	15	1102002	50			
+20527	A Knight's Pride	15	1101002	100			
+20528	Raising Mimio	15	1102002	100			4032196x3 4032197x3 4032198x3 1902005x1
+20531	Kiridu's Calling	15	1101002	120			1902006x1
+20532	The Mount in Danger	15	1102002				1902006x1
+20533	The Birth of Shinjo	15	1102002	120			1902006x1
+20534	The Rebirth of Shinjo	15	1102002	120			
+20600	Training Never Ends 	15	1101002	100			
+20601	A New Skill for Dawn Warriors	15	1101003	100			4032120x1
+20602	A New Skill for Blaze Wizards	15	1101004	100			4032121x1
+20603	A New Skill for Wind Archer	15	1101005	100			4032122x1
+20604	A New Skill for Night Walkers	15	1101006	100			4032123x1
+20605	A New Skill for Thunder Breaker	15	1101007	100			4032124x1
+20610	Training Still Never Ends 	15	1101002	110			
+20611	Another New Skill for Dawn Warriors	15	1101003	110			4032125x1
+20612	Another New Skill for Blaze Wizards	15	1101004	110			4032126x1
+20613	Another New Skill for Wind Archers	15	1101005	110			4032127x1
+20614	Another New Skill for Night Walker	15	1101006	110			4032128x1
+20615	Another New Skill for Thunder Breakers	15	1101007	110			4032129x1
+20700	Are You Sure You Can Leave?	15	1101002	10	15		
+20701	1st Acclimation Training	15	1102000	10	15	9300271x30	
+20702	2nd Acclimation Training	15	1102000	10	15	9300272x30	
+20703	3rd Acclimation Training	15	1102000	10	15	9300273x30	
+20704	A Mission in Henesys	15	1101002	13			
+20705	A Cynical Orange Mushroom	15	1103001	13		9300274x50	4032190x1
+20706	A Black Shadow in the Pig Farm	15	1103001	14			
+20707	Revolt of the Pigs	15	1103001	14		1210100x100 1210101x50	4032130x1
+20708	Mission in Henesys Complete	15	1103001	14			4032132x1 4032131x1
+20709	Mission in Kerning City	15	1101002	16			
+20710	Hidden Inside the Trash Can	15	1103002	16			4032136x1
+20711	Fake Doll	15	1103002	16		1210103x100	4032137x30
+20712	I Shall Pick 'Em All!	15	1103002	17			4032138x1
+20713	A Deal With Mr. Pickall	15	9000008				4032139x10
+20714	Mission in Kerning City Complete	15	1103002	17			4032140x1 4032141x1
+20715	Mission in Ellinia	15	1101002	18			
+20716	Maybe it's Arwen!	15	1103003	18			4032142x1
+20717	The Plants are Suspicious!	15	1103003	18			4032143x10
+20718	Maybe it's Grendel!	15	1103003	19			
+20719	Mission in Ellinia Complete	15	1103003	19			4032144x1
+20720	Before the Mission in Perion Begins	15	1101002	25			
+20721	Mission in Perion	15	1101002	25			4032145x1
+20722	Wooden Mask	15	1103004	25		2230110x200	4032146x1
+20723	Stone Mask	15	1103004	26		2230111x200	4032147x1
+20724	Mission in Perion Complete	15	1103004	26			4032149x1 4032148x1
+20725	Mission in Sleepywood	15	1101002	28			
+20726	Information From Those Who Remember	15	1061011	28		9101001x250	
+20727	Sabitrama's Information	15	1061005	28		2230100x200	
+20728	Chrishrama's Information	15	1061000	28			4000015x100
+20729	Mysterious Statue's Information	15	1061006	28			
+20730	Find the Puppeteer!	15	1101002	28		9300285x1	
+21000	Find the Missing Kid 1	6	1209000				
+21001	Find the Missing Kid 2	6	1209006				4001271x1
+21010	The Return of the Hero	6	1202001				2000022x
+21011	The Missing Weapon	6	1202002				
+21012	Abilities Lost	6	1202004			9300383x3	
+21013	A Gift for the Hero	6	1202005				4032309x1 4032310x1
+21014	Lilin's Account	6	1201000	5			
+21015	Basic Fitness Training 1	6	1201000			100131x10	
+21016	Basic Fitness Training 2	6	1201000			100132x15	
+21017	Basic Fitness Training 3	6	1201000			100133x20	
+21018	Basic Fitness Test	6	1201000			100134x5	
+21100	The Five Heroes	6	1201000	10			
+21101	The Polearm-Wielding Hero	6	1201001	10			
+21200	In Search of Its Rightful Owner	6	1201000	30			
+21201	The Mirror of Desire	6	1201000	30			
+21202	In Search of the Ultimate Weapon	6	1203000	30			4032311x30
+21300	A Weapon Never Leaves Its Owner	6	1201000	70			
+21301	Catch that Thief!	6	1201002	70		9001013x1	
+21302	Making Red Jade	6	1201000	70			4032312x1
+21303	Friendship with Yeti	6	1203001	70		9001013x1	4032339x1
+21400	Weapon Starts a Fight… with His Owner?	6	1201000	120			
+21401	Taming the Polearm	6	1201002	120		9001014x1	
+21500	Weapon Acknowledges Its Owner	6	1201002	200			
+21600	Pucci's Request	6	1202007	50			
+21601	Formula for Your Wolf Pup	6	2060000	50			4000157x50 4032331x1
+21602	Kenta's Wolf Pup Formula	6	2060005	50			
+21603	Ryko the Wolf Pup	6	2060000	50			4032332x1
+21604	Wolf Mount	6	2020007				4000048x50
+21605	The Missing Wolf	6	1202007	50			
+21606	The Missing Saddle	6	2020007	50			4000048x50
+21607	The Adolescent Wolf	6	1202007	100			1902015x1
+21608	Nanuke's Advice	6	2060000	100			4000182x200 4000183x200 4000184x200 4032333x1
+21609	Kenta's Adolescent Wolf Vitamins	6	2060005	100			
+21610	Scadur's Advice	6	2020007	100			4001193x1
+21611	Rebellious Wolf	6	1202007	100			1902015x1
+21612	A Visit from the Wolf Herd	6	1202007	150			
+21613	The Wolves' Test	6	1202008	150			4001193x1
+21614	A Wolf's Heart	6	1202008	150			4032334x1 1902016x1
+21615	Gathering Ingredients for the Wolf's Life Water	6	2060005	150			
+21616	The Chief Wolf's Rage	6	1202008	150			4032334x1
+21617	Reacquiring the Life Water Ingredients	6	2060005	150			
+21618	The Wolf's Evolution	6	1201002	200			1902017x1
+21700	New Beginnings	6	1201000	10			
+21701	Train or Die! 1	6	1202006	10		9300341x30	
+21702	Train or Die! 2	6	1202006	10		9300342x30	
+21703	Train or Die! 3	6	1202006	10		9300343x30	
+21704	Baby Steps	6	1201000	10			
+21705	To Victoria Island	6	1201000	13			4032338x1
+21706	An Information Dealer's Work	6	1002104	13			
+21707	Teo's Information	6	1002001	13			4000019x10 4000000x10 4000016x10
+21708	Your First Informant Assignment	6	1002104	13			
+21709	Check Out the Orange Mushroom	6	1012111	13			4032314x30
+21710	A Monster War?	6	1012111	14			4032340x50
+21711	Enter the Cynical Orange Mushrooms!	6	1012111	15		9300274x50	4032315x1
+21712	First Assignment, Completed!	6	1012111	15			
+21713	Your Second Informant Assignment	6	1002104	18			
+21714	Green Mushrooms	6	1032101	18		1110130x25	4032316x1
+21715	Tree Witness	6	1032101	18			
+21716	Second Assignment, Completed!	6	1032101	18			
+21717	Rowen's Request 1	6	1032101	19		9101000x100	4032317x1
+21718	Rowen's Request 2	6	1032101	20		9101000x100	4032318x1
+21719	The Puppeteer's Invitation	6	1204000	22			
+21720	The Puppeteer's Warning	6	1002104	22			
+21721	Your Third Informant Assignment	6	1002104	23			
+21722	Ghost Stumps	6	1103004	23		9101002x100	
+21723	Find the Puppet	6	1103004	24			4032319x5
+21724	Third Assignment, Completed!	6	1103004	25			
+21725	10 Boogies's Request	6	1103004	25			4032320x1
+21726	Your Fourth Informant Assignment	6	1002104	28			
+21727	Zombie Mushrooms	6	1061019	28		9101001x300	4032321x1
+21728	The Puppeteer's Cave	6	1061019	28			
+21729	4th Assignment Completed	6	1061019	28			
+21730	The Cave's Password	6	1061006	28			4000007x100
+21731	Eliminate the Puppeteer!	6	1002104	29		9300344x1	4032322x1
+21732	The Black Wings' Conspiracy	6	1002104	29			4032341x1
+21733	Gathering Some Strange Information	6	1204007	31		9300345x1	
+21734	Traces of the Puppeteer	6	1002104	37		9300346x1	
+21735	The Seal Stone of Victoria Island	6	1002104	37			4032323x1
+21736	Orbis	6	1002104	45			
+21737	The Giant Nependeaths Appear	6	2012012	45			4032324x5
+21738	Sealed Garden	6	2032001	45			
+21739	To the Sealed Garden	6	2032001	45		9300348x1	
+21740	The Stolen Seal Stone of Orbis	6	1002104	45			
+21741	Investigating Mu Lung	6	1002104	54			
+21742	The Black Scroll	6	2090004	54			4220151x1 4032342x8
+21743	The Special Ink	6	2091008	54			4000286x50 4000287x50 4000291x100
+21744	The Shadow Knight's Letter	6	2090004	54			4032343x1
+21745	How to Meet Mu Gong	6	2091005	54			4000293x100
+21746	Mu Gong's Test	6	2091007	54		9300350x1	
+21747	Catch the Shadow Knight!	6	2091007	54		9300351x1	
+21748	The Stolen Seal Stone of Mu Lung	6	1002104	54			
+21749	Back to the Past	6	1002104	63			
+21750	She Remembers Me	6	2131002	63			
+21751	Seal Stone of Ellin Forest	6	2131000	63			4032325x1
+21752	Find the Key	6	2132000	63			4032326x10
+21753	The Lost Seal Stone of Ellin Forest	6	2131000	63			
+21754	Info on Another Seal Stone	6	1012100	63			4032328x1
+21755	Decoding the Letter	6	1002104	63			4032329x1
+21756	A Letter to the Queen	6	1002104	68			
+21757	Neinheart the Strategist	6	1201000	68			4032330x1
+21758	Neinheart's Thanks	6	1101002	70			
+21766	Suspicious John	6	1002001	13			
+21767	Secrets of the Wooden Box	6	1204033	13			4032423x1
+28000	Maplemas Surprise Party!	50	9250052				
+28001	In Preparation for the Party	50	2001000				4032176x50
+28002	A Secret Note	50	9105003	21	51		4032091x1
+28003	Alcaster's Reply	50	2020005				4032093x1
+28004	Save the Snowman!	50	9105003	21	51		
+28102	Amoria : Red Dahlia - Pirate	30	9201034	20			4020007x3 4003004x30
+28103	Amoria : Cupid's Courier - Pirate	30	9201036	35			4003005x25
+28104	Amoria : Cupid's Courier - Pirate	30	9201038	35			4032247x1
+28105	Cleaning Up The Streets 	45	9201054	50		9400544x200 9400543x200	
+28106	Cleaning Up The Streets  	45	9201054	50		9400544x200 9400543x200	
+28107	Discovering Secrets	50	9200000	10			4032248x1 4032118x7
+28108	Demise of a Madman	50	9220018	10		9400589x1	
+28109	MV's Treasure	50	9220016				4032119x1
+28110	A Headache for Treasure Hunters	50	9220016			9400741x50 9400742x30 9400743x10	
+28114	Cool as Ice	50	9201050	90			
+28115	Urban Warrior	45	9201050	50			
+28116	Urban Warrior	45	9201050	50			
+28117	4 Candles	50	9000021	10			
+28118	4 Year Anniversary Cake	50	9000021	10			
+28120	Preparing for Cody's 4 Year Anniversary Party!	50	9200000	15	39		4032306x4
+28121	Preparing for Cody's 4 Year Anniversary Party!	50	9200000	40	59		4032307x4
+28122	Preparing for Cody's 4 Year Anniversary Party!	50	9200000	60			4032308x4
+28124	Cleaning Up The Streets - Continued 	45	9201054	50		9400544x200 9400543x200	
+28125	Cleaning Up The Streets - Continued  	45	9201054	50		9400544x200 9400543x200	
+28128	In Search of the Miwok Artifact	50	9201116	12			4032404x1
+28129	The Legendary Tribal Ring: Circle of Ancient Thought	50	9201116				4000509x1 4000510x3 4000511x2
+28130	The Legendary Tribal Ring: Circle of Ancient Strength	50	9201116	15			4000512x1 4000513x3 4000514x2
+28131	Soft and Cozy Chief's Chair	50	9201116				
+28136	The Wandering Alchemist Eurek's New Skill	30	2040050				
+28137	Spirit Week Event - September 29th	50	9010010	10			
+28138	Spirit Week Event - October 6th	50	9010010	10			
+28139	Spirit Week Event - October 13th	50	9010010	10			
+28140	Spirit Week Event - October 20th	50	9010010	10			
+28141	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28142	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28143	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28144	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28145	Spirit Week Event - September 24th	50	9010010	10			
+28146	Spirit Week Event - October 1st	50	9010010	10			
+28147	Spirit Week Event - October 8th	50	9010010	10			
+28148	Spirit Week Event - October 15th	50	9010010	10			
+28149	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28150	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28151	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28152	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28153	Spirit Week Event - October 27th	50	9010010	10			
+28154	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28155	Spirit Week Event - October 22nd	50	9010010	10			
+28156	Spirit Week Event - Cassandra's Candle 	50	9010010				
+28157	Spirit Week Event - September 28th	50	9010010	10			
+28158	Spirit Week Event - October 5th	50	9010010	10			
+28159	Spirit Week Event - October 12th	50	9010010	10			
+28160	Spirit Week Event - October 19th	50	9010010	10			
+28161	Spirit Week Event - October 26th	50	9010010	10			
+28162	Meeting the Training Instructor	10	1022000				
+28163	Advanced Training-1	10	9201119			1110101x30	
+28164	Advanced Training-2	10	9201119				4000005x20
+28165	Reporting the Training Results	10	9201119				
+28166	Meeting Ervine	10	1022000				
+28167	Inspecting the Water Pipe	10	9201120				4001340x3
+28168	Sticky Slimes!	10	9201120			210100x30	
+28169	Visiting Henesys	10	9201120				
+28170	What Does Chief Stan Like?	10	1012106				4001343x15 4001344x10 4001345x1
+28171	The Reason Why Chief Stan is Livid	10	1012003				
+28172	Searching for Clues	10	1012003				4001341x1
+28173	Heading Over to The Nautilus!	10	1012003				
+28174	Investigation in Progress	10	1092012				
+28175	A Special Wine	10	1092002				4000001x20 4001342x1 4000002x1
+28176	Solving the Mystery	10	1032001				
+28177	Catching the Suspect	10	1012003				4032479x1
+28178	Who Changed Him?	10	1012003				4032479x1
+28179	Dances with Andras!	10	1022000			9400609x1	4032491x1
+28180	The First Encounter with Lucci	10	1032001				
+28181	Rigorous Training-1	10	9201121			210100x30	
+28182	Rigorous Training-2	10	9201121				4000004x20
+28183	Rigorous Training-3	10	9201121			130100x30	
+28184	Rigorous Training-4	10	9201121				4000003x20
+28185	Reporting the Training Results to Grendel the Really Old	10	9201121				
+28186	The Journey of the Nautilus	10	1032001				
+28187	Show Kyrin What You've Got!	10	1090000			1210100x30 1210101x20	
+28188	Finding Chief Stan in Henesys	10	1090000				
+28189	Ingredients for the Cold Medicine	10	1012003				4000001x20 4000002x10 4000010x2
+28190	Delivering the Cold Medicine	10	1012003				4032490x1
+28191	The Coughing Dark Lord	10	1012100				4032490x1
+28192	Virus Sample Research	10	1052001			1120100x30 1210102x30	4001364x1 4001365x1
+28193	Virus is Spreading Via the Water?	10	1052001				
+28194	Find the Clues!	10	9201120				4001366x1
+28195	To Perion!	10	9201120				
+28196	The Demon Behind It All	10	1022000			1110101x30 1130100x30	
+28197	Returning to Ellinia	10	1022000				
+28198	Marbas the Demon!	10	1032001			9400612x1	4032495x1
+28199	First Encounter with Ervine	10	1052001				
+28200	Even More Challenging Training-1	10	9201120			1210102x30	
+28201	Even More Challenging Training-2	10	9201120				4000001x20
+28202	Reporting the Training Results to Dark Lord	10	9201120				
+28203	Meeting Jay	10	1052001				
+28204	Find the Lost Book	10	1012109				
+28205	Searching for the Lost Book	10	9201118				4001352x1
+28206	Returning the Book to Jay	10	9201118				
+28207	Meeting Kyrin of The Nautilus	10	1012109				
+28208	Kyrin's Request	10	1090000			1210101x30	
+28209	Baine Likes...	10	1090000				4001343x15 4001344x10 4001354x1
+28210	Commotion on the Ship, No More!	10	1092002				4032484x1
+28211	Next Stop, Ellinia	10	1092002				
+28212	The Clue to Ellinia's Burglary Case	10	1032001				4001355x1
+28213	This Feather, For Some Reason, Seems To Be Related to Perion...	10	1032104				
+28214	The Secret of the Golden Feather	10	9201119				4001356x20 4000005x20
+28215	A Burglar Demon	10	9201119				
+28216	Returning to Kerning City	10	1032001				
+28217	The Demon Likes...	10	1052001				
+28218	Shumi, the Coin Mania	10	1052102			1210103x20	
+28219	Catch Valefor!	10	1052001			9400613x1	4032493x1
+28220	Encounter with Hill, the Antique Collector	10	1012100				
+28221	Show Me What You're Made Of-1	10	9201118			1210102x30	
+28222	Show Me What You're Made Of-2	10	9201118				4000001x20
+28223	Reporting the Training Results to Athena Pierce	10	9201118				
+28224	Delivering the Antique	10	9201118				
+28225	Antique Search	10	1090000				4001346x1
+28226	Back to Hill	10	1090000			1210101x30	
+28227	The Cost of Delivery	10	9201118				
+28228	The Legend Has It That...	10	9201118				
+28229	The Fairies Like...	10	1012003				4001347x1 4000003x10
+28230	Solomon's Bow	10	1032101				
+28231	Restoring the Memory of the Ancient Bow	10	9201122				4001348x20
+28232	Another Storyteller	10	1020000				
+28233	Putting the Legend to a Test	10	1022000			130100x30	
+28234	Revival of the Demon	10	1022000				
+28235	So the Demons Like Noise?	10	1052001				4001349x2 4001350x1 4000001x15
+28236	Catching the Demon	10	1052001				
+28237	The Legendary Revival	10	1012100				4001351x1
+28238	The Final Battle with Amdusias	10	1012100			9400610x1	4032492x1
+28239	Finding Muirhat	10	1090000				
+28240	Rigorous Training!-1	10	1092007			1210101x30	
+28241	Rigorous Training!-2	10	1092007				4000002x20
+28242	Reporting the Training Results to Kyrin	10	1092007				
+28243	The Mystery of the Green Portion	10	1032104				4000004x20
+28244	Grendel the Really Tipsy	10	1032001				4001357x20
+28245	You Can't Teach an Old Dog New Tricks	10	1020000			1110101x30	
+28246	The Mystery of the Red Portion	10	1020000				4001356x2
+28247	Something's Lacking	10	1020000				
+28248	Calming the Soul with Music	10	1022007				4001358x15 4001359x10 4001360x1
+28249	To Kerning City	10	1022007				
+28250	The Mystery of the White Portion	10	1052001				4001361x20
+28251	The Completed Treasure Map	10	1052001				
+28252	Searching for the Treasures	10	1012003				4001363x1 4001362x1
+28253	Where Are the Treasures?	10	1012003				
+28254	There Are No Treasures?!	10	1090000				
+28255	Searching for the Demon	10	1090000				4032494x1
+28256	Treasure, and Crocell the Demon	10	1090000			9400611x1	4032494x1
+28257	Who Broke the Seal of Andras?	30	1022000				4001367x1
+28258	Who Broke the Seal of Valefor?	30	1052001				4001368x1
+28259	Who Broke the Seal of Amdusias?	30	1012100				4001369x1
+28260	Who Broke the Seal of Crocell?	30	1090000				4001370x1
+28261	Who Broke the Seal of Marbas?	30	1032001				4001371x1
+28262	Revealed Identity	30	1061011				4001371x1 4001367x1 4001368x1 4001369x1 4001370x1
+28263	The Rememberer's Training-1	30	1061011	25		2110200x50	
+28264	The Rememberer's Training-2	30	1061011	25		2230101x50	
+28265	The Rememberer's Training-3	30	1061011	25		2230100x50	
+28266	Secret of Astaroth	30	1061011	25			
+28267	[Collect] I Need an Umbrella!	30	1010100	14			4000012x20
+28268	[Hunt] The Pigs Are Ruining the Produce!	30	1012108			1210100x30	
+28269	[Hunt] The Terrorizing Red Ribbon Pigs	30	1012109	12		1210101x40	
+28270	[Hunt] Pigs at the Corner	30	1052103			1210100x30	
+28271	[Hunt] That Red Isn't For Everyone!	30	1052000	12		1210101x30	
+28272	[Hunt] Intimidating Octopuses	30	1052106	12		1120100x30	
+28273	[Collect] Eww, It's Slimy!	30	1032106				4000004x20
+28274	[Hunt] Why Are Dark Stumps So Dark?	30	1032101	12		1110101x40	
+28275	[Hunt] You Were Bitten by a Green Mushroom?	30	1032104	14		9101000x40	
+28276	[Hunt] Drowsiness from the Orange Mushrooms?	30	1092004			1210102x30	
+28277	[Hunt] Camouflaging Slimes	30	1092011			210100x30	
+28278	[Hunt] Destructively Strong Pigs	30	1092001			1210100x30	
+28279	[Collect] Red Ribbons Around the Pig's Neck	30	1092012	12			4000002x20
+28280	[Hunt] Sweep the Snails!	30	1022007			100101x10 130101x10	
+28281	[Collect] Preparations for the Traditional Ceremony	30	1020000	12			4000005x20
+28282	How to Avoid the Stink	30	1061011	25			4001372x30 4000008x30 4001373x30
+28283	For the peace of Victoria Island...	30	1061011	25		9400633x1	
+28284	Cassandra's Trick or Treat	50	9010010	11	30		4032444x31
+28285	Cassandra's Trick or Treat	50	9010010	31	50		4032445x31
+28286	Cassandra's Trick or Treat	50	9010010	51			4032446x31
+28287	Witch Malady's Secret Mission	50	9201142	11			
+28288	Stinky Seasoned Cursed Frog Eggs and Mushrooms	50	9201028				
+28289	Dreamy Bloody Mushroom Wine	50	9201028				
+28290	The Highlight of a Witch Party! Slimy Canape	50	9201028				
+28291	Really Zingy Kabab	50	9201028				
+28292	Stinky Swamp Wrap	50	9201028				
+28293	Chew on it if you can! Rough Leather Steak	50	9201028				
+28294	Witch's Special Stew	50	9201028				
+28295	Witch's Dark Token	50	9201142	11			
+28296	Butler: "The Trap"	50	9201143				4000521x20
+28297	Butler: "The Trap"	50	9201143				4000521x20
+28298	Butler: "The Trap"	50	9201143				4000521x20
+28302	Olivia: "Help Me"	50	9201136	15	40	9400638x100	
+28303	Olivia: "Find My Daddy"	50	9201136				4000518x25 4000519x25 4000520x25
+28304	Olivia: "Bring My Daddy"	50	9201136				4032441x1
+28305	Joe: "Clear the Way"	50	9201137			9400558x1 9400556x100	
+28306	Father: "Dirty House"	50	9201137				
+28307	Steward: "I'm a Butler, Not a Maid!"	50	9201143				4032435x10
+28308	Jonas: "Jonas' Presence" 1	50	9201138				4000517x1
+28309	Olivia: "Help Me"	50	9201136	41	60	9400639x100	
+28310	Olivia: "Find My Daddy"	50	9201136				4000518x25 4000519x25 4000520x25
+28311	Olivia: "Bring My Daddy"	50	9201136				4032442x1
+28312	Joe: "Clear the Way"	50	9201137			9400558x100 9400560x1	
+28313	Father: "Dirty House"	50	9201137				
+28314	Steward: "I'm a Butler, Not a Maid!"	50	9201143				4032436x10
+28315	Jonas: "Jonas' Presence" 2	50	9201138				4000517x1
+28316	Olivia: "Help Me"	50	9201136	61		9400640x100	
+28317	Olivia: "Find My Daddy"	50	9201136				4000518x25 4000519x25 4000520x25
+28318	Olivia: "Bring My Daddy"	50	9201136				4032443x1
+28319	Joe: "Clear the Way"	50	9201137			9400560x100 9400561x1	
+28320	Father: "Dirty House"	50	9201137				
+28321	Steward: "I'm a Butler, Not a Maid!"	50	9201143				4032437x10
+28322	Jonas: "Jonas' Presence" 3	50	9201138				4000517x1
+28325	Dirty Treasure Map	10	1090000				
+28326	Yellow Turkey Egg Hunt	50	9200000	10	30		4032522x5
+28327	Green Turkey Egg Hunt	50	9200000	31	60		4032523x10
+28328	Blue Turkey Egg Hunt	50	9200000	61			4032524x20
+28329	The Object of Professor Foxwit's Interest	50	9201052	10			4032525x1
+28331	Festival of Lights - Building the Altar	30	9201031	23			4031445x25
+28333	New Year's Presents from Cassandra	50	9010010	13			
+28335	Lilin's Present 1	50	9010000	30			
+28336	Lilin's Present 2	50	9010000	50			1112413x1
+28337	Cupid's Lost Arrows	50	9010010	8			
+28338	Mardi Gras Throws	50	9000021	8			4001429x10
+28339	Mardi Gras Green Masks	50	9000021	8			4032576x10
+28340	Mardi Gras Purple Masks	50	9000021	8			4032577x10
+28341	Mardi Gras Red Masks	50	9000021	8			4032578x10
+28344	Hunter's Profission	50	2020007	70			4000021x60 4000264x30 4000281x30 4000295x30 4000030x15 4032475x10
+29000	Title Challenge - PQ Mania	51	9000040	15			
+29001	Title Challenge - Quest Specialist	51	9000040	30			
+29002	Title Challenge - Celebrity!	51	9000040	20			
+29003	Title Challenge - Diligent Explorer	51	9000040	20			
+29004	One Who's Touched the Sky	51	9000066	20			
+29005	Beginner Explorer	51	9000066	15			
+29006	El Nath Mts. Explorer	51	9000066	30			
+29007	Ludus Lake Explorer	51	9000066	20			
+29008	Undersea Explorer	51	9000066	20			
+29009	Mu Lung Explorer	51	9000066	30			
+29010	Nihal Desert Explorer	51	9000066	25			
+29011	Minar Forest Explorer	51	9000066	60			
+29012	Ossyria Explorer	51	9000066	60			
+29013	Maple Explorer	51	9000066	60			
+29014	Sleepywood Explorer	51	9000066	40			
+29015	Victoria Explorer	51	9000066	40			
+29016	Title - Spirit Diviner	51	1061011	40		4230101x444 4230114x444 4230115x444 4230126x444 4230102x444	
+29017	Title - Soul Conjurer	51	1061011	57		5150001x444 6230602x444 5130107x444 5130108x444 6300005x44	
+29018	Title - Soul Guardian	51	1061011	67		6230400x444 6230500x444 6110301x444 8140300x444 7130300x444	
+29019	Title - Saint Exorcist	51	1061011	92		8140600x444 8142000x444 8143000x444 8190003x444 8190004x444	
+29020	Title - Dynamic Hair	51	9000066	13			
+29300	Title Challenge - Ultimate Warrior	10	9000040	180			
+29301	Title Challenge - Ultimate Magician	10	9000040	180			
+29302	Title Challenge - Ultimate Archer	10	9000040	180			
+29303	Title Challenge - Ultimate Thief	10	9000040	180			
+29304	Title Challenge - Ultimate Pirate	10	9000040	180			
+29400	Title Challenge - Veteran Hunter	51	9000040	10			
+29500	Title Challenge - Maple Idol Star	51	9000040				
+29501	Title Challenge - Horned Tail Slayer	51	9000040				
+29502	Title Challenge - Pink Bean Slayer	51	9000040				
+29503	Title Challenge - Donation King	51	9000040	30			
+29505	The Carnivalian of Absolute Victory	10	2042005	51			
+29506	The Gifted Carnivalian	10	2042005	51			
+29507	Wonderful Pet Owner	51	9000040	10			
+29508	Outstanding Citizen	51	9000040	10			
+29509	Persevering Challenger	51	9000040	10			
+29510	Foxwit's Research	45	9201052	130			4032133x1 4021010x1
+29512	Monster Expert	51	9000040	10			
+29900	Beginner Adventurer	51	9000040	8			
+29901	Junior Adventurer	51	9000040	30			
+29902	Veteran Adventurer	51	9000040	70			
+29903	Master Adventurer	51	9000040	120			
+29904	Noblesse	51	1101000				
+29905	Noblesse	51	1101000				
+29906	Knight-in-Training	51	1101000	10			
+29907	Official Knight	51	1101000	30			
+29908	Advanced Knight	51	1101000	70			
+29909	Chief Knight	51	1101000	120			
+29910	Gallant Warrior	51	9000066	180			
+29911	Wiseman	51	9000066	180			
+29912	Lord Sniper	51	9000066	180			
+29913	Legendary Thief	51	9000066	180			
+29914	King Pirate	51	9000066	180			
+29915	Mu Lung Dojo Vanquisher	51	2091005	25			
+29916	Henesys Donor Medal	51	9000066				
+29917	Ellinia Donor Medal	51	9000066				
+29918	Perion Donor Medal	51	9000066				
+29919	Kerning City Donor Medal	51	9000066				
+29920	Sleepywood Donor Medal	51	9000066				
+29921	Nautilus Donor Medal	51	9000066				
+29922	Veteran Hunter	51	9000066	10			
+29923	Legendary Hunter	51	9000066	10			
+29924	The Revived Aran	51	9000066	10			
+29925	Aran and Memory	51	9000066	30			
+29926	Aran in Agony	51	9000066	70			
+29927	Aran of Hope	51	9000066	120			
+29928	Aran the Hero	51	9000066	200			
+29929	2010 Winter King	51	9000066	13			
+29930	2010 Winter Queen	51	9000066	13			
+29931	Honorary Subway Worker	51	9000066	25			
+29932	Protector of Pharaoh	51	9000066	40			
+29933	Lith Harbor Donor	51	9000066				
