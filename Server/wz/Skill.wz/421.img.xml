@@ -125,7 +125,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="660"/>
+          <int name="damage" value="561"/>
           <int name="prop" value="22"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -135,7 +135,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="666"/>
+          <int name="damage" value="566"/>
           <int name="prop" value="24"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -145,7 +145,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="671"/>
+          <int name="damage" value="571"/>
           <int name="prop" value="26"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -155,7 +155,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="677"/>
+          <int name="damage" value="575"/>
           <int name="prop" value="28"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -165,7 +165,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="683"/>
+          <int name="damage" value="580"/>
           <int name="prop" value="30"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -175,7 +175,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="688"/>
+          <int name="damage" value="585"/>
           <int name="prop" value="32"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -185,7 +185,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="694"/>
+          <int name="damage" value="590"/>
           <int name="prop" value="34"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -195,7 +195,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="700"/>
+          <int name="damage" value="595"/>
           <int name="prop" value="36"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -205,7 +205,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="706"/>
+          <int name="damage" value="600"/>
           <int name="prop" value="38"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -215,7 +215,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="12"/>
-          <int name="damage" value="711"/>
+          <int name="damage" value="604"/>
           <int name="prop" value="40"/>
           <int name="time" value="2"/>
         </imgdir>
@@ -225,7 +225,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="717"/>
+          <int name="damage" value="609"/>
           <int name="prop" value="42"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -235,7 +235,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="723"/>
+          <int name="damage" value="614"/>
           <int name="prop" value="44"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -245,7 +245,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="728"/>
+          <int name="damage" value="619"/>
           <int name="prop" value="46"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -255,7 +255,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="734"/>
+          <int name="damage" value="624"/>
           <int name="prop" value="48"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -265,7 +265,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="740"/>
+          <int name="damage" value="629"/>
           <int name="prop" value="50"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -275,7 +275,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="745"/>
+          <int name="damage" value="633"/>
           <int name="prop" value="52"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -285,7 +285,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="751"/>
+          <int name="damage" value="638"/>
           <int name="prop" value="54"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -295,7 +295,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="757"/>
+          <int name="damage" value="643"/>
           <int name="prop" value="56"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -305,7 +305,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="762"/>
+          <int name="damage" value="648"/>
           <int name="prop" value="58"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -315,7 +315,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="19"/>
-          <int name="damage" value="768"/>
+          <int name="damage" value="653"/>
           <int name="prop" value="60"/>
           <int name="time" value="3"/>
         </imgdir>
@@ -325,7 +325,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="774"/>
+          <int name="damage" value="658"/>
           <int name="prop" value="62"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -335,7 +335,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="779"/>
+          <int name="damage" value="662"/>
           <int name="prop" value="64"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -345,7 +345,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="785"/>
+          <int name="damage" value="667"/>
           <int name="prop" value="66"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -355,7 +355,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="791"/>
+          <int name="damage" value="672"/>
           <int name="prop" value="68"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -365,7 +365,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="797"/>
+          <int name="damage" value="677"/>
           <int name="prop" value="70"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -375,7 +375,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="802"/>
+          <int name="damage" value="682"/>
           <int name="prop" value="72"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -385,7 +385,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="808"/>
+          <int name="damage" value="687"/>
           <int name="prop" value="74"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -395,7 +395,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="814"/>
+          <int name="damage" value="691"/>
           <int name="prop" value="76"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -405,7 +405,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="819"/>
+          <int name="damage" value="696"/>
           <int name="prop" value="78"/>
           <int name="time" value="4"/>
         </imgdir>
@@ -415,7 +415,7 @@
           <vector name="rb" x="0" y="0"/>
           <int name="mobCount" value="3"/>
           <int name="mpCon" value="26"/>
-          <int name="damage" value="825"/>
+          <int name="damage" value="701"/>
           <int name="prop" value="80"/>
           <int name="time" value="4"/>
         </imgdir>

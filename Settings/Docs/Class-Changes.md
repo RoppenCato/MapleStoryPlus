@@ -17,14 +17,15 @@ Building started the same day. Every number change lives in `Settings/Scripts/Sk
 - **Nimble Feet is a travel dash**, see the speed section below.
 - **A simulator, not a meter:** `Settings/Scripts/Simulate-Damage.py` estimates damage per use and per second for every class at set levels, and `--rules` checks rule 2. First results (corrected the same day, after Meditation and Element Amplification were added to the simulator): magicians are level with the others in 1st job, at about 70% of a Hero on one monster in 2nd job and 55 to 65% in 3rd, before elemental weakness, which the simulator does not count; the cleric is the outlier, with Holy Arrow still its single-target attack at level 100; the assassin is low before 4th job; the Dark Knight's Crusher is the strongest single-target attack in 3rd job. Nothing has been changed on the strength of this yet.
 
-### Agreed 2026-10-11, waiting to be built (second review pass)
+### Second review pass, agreed and built 2026-10-11 (Round 5 in `Skill-Changes.tsv`; not tested in game yet)
 
 - The magician spells listed in each magician job's table below.
 - **Assassin, 2nd job: no changes.** At level 50 it does about 90% of a Hunter on one monster, from range, with Haste and Drain. Its low group damage is its known trade until Avenger.
 - **Savage Blow comes down to six hits of 85% at max** (59% at level 1), 510% in total (600% now, 480% originally). The simulator showed the bandit 40% ahead of a Fighter on one monster in 2nd job: the six hit lines gain the most from the flat crit. Assaulter follows down through the new-beats-old rule: 561% at level 1, 701% at max.
 - **Hermit: Shadow Partner's shadow repeats a skill at 45% of its damage at level 1 rising to 70% at max** (21% to 50% now). Lifts the Hermit from 76% to about 86% of a Ranger on one monster at levels 70 to 100. The share for plain attacks is unchanged. It carries into Night Lord.
 - **Avenger comes down to 175% at max** (105% at level 1; 200% now), which cancels out what the stronger shadow adds to the Hermit's group damage. That was already the best of the ranged classes.
-- Still to look at: the Brawler, the strongest 2nd job on one monster and on groups.
+- **Night Lord: no changes.** Triple Throw already follows both rules and the stronger Shadow Partner carries over.
+- Still to look at: the Brawler, the strongest 2nd job on one monster and on groups; and 4th job in the character tool and the simulator, so the 4th job numbers can be checked.
 
 ### Built
 
@@ -288,7 +289,7 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 2 | Poison Breath hits up to 4 monsters (now 1) and always poisons at max level (now 60%). It is the branch's group attack: weaker upfront than Thunder Bolt, but the poison keeps working. | agreed | Server and client skill data |
 | 3 | Teleport costs less MP: 30 MP at level 1 falling to 5 at max (now 60 falling to 13). Applies to all three magician branches. | agreed | Server and client skill data |
 | 4 | MP Eater and Slow stay as they are. | agreed | Nothing |
-| 5 | Fire Arrow does 115 at level 1 rising to 155 at max (88 to 120 after the damage rules; originally 33 to 120). Raises the wizard to about 83% of a Hunter on one monster at level 50, from 65%; group damage is left alone. If it turns out magicians land critical hits, trim by about a tenth. | agreed 2026-10-11, not built | Server and client skill data |
+| 5 | Fire Arrow does 115 at level 1 rising to 155 at max (88 to 120 after the damage rules; originally 33 to 120). Raises the wizard to about 83% of a Hunter on one monster at level 50, from 65%; group damage is left alone. If it turns out magicians land critical hits, trim by about a tenth. | built 2026-10-11, not tested | Server and client skill data |
 
 ### Ice/Lightning Wizard (2nd job)
 
@@ -298,7 +299,7 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 2 | Teleport costs less MP, as for the Fire/Poison Wizard. | agreed | Server and client skill data |
 | 3 | Cold Beam freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
 | 4 | Thunder Bolt, MP Eater and Slow stay as they are. | agreed | Nothing |
-| 5 | Cold Beam does 105 at level 1 rising to 140 at max (88 to 110 after the damage rules; originally 13 to 100). About 90% of the new Fire Arrow, and it freezes. Thunder Bolt is left alone: on six monsters it already matches a Hunter's group damage. | agreed 2026-10-11, not built | Server and client skill data |
+| 5 | Cold Beam does 105 at level 1 rising to 140 at max (88 to 110 after the damage rules; originally 13 to 100). About 90% of the new Fire Arrow, and it freezes. Thunder Bolt is left alone: on six monsters it already matches a Hunter's group damage. | built 2026-10-11, not tested | Server and client skill data |
 
 ### Cleric (2nd job)
 
@@ -309,7 +310,7 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 3 | Invincible lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
 | 4 | Teleport costs less MP, as for the wizards. | agreed | Server and client skill data |
 | 5 | Heal and MP Eater stay as they are. | agreed | Nothing |
-| 6 | Holy Arrow does 100 at level 1 rising to 135 at max (88 to 120 after the damage rules). Kept below the wizards on purpose: the same spell is the cleric's single-target and group attack, and the cleric is the sturdiest 2nd job. About two thirds of a Hunter on one monster at level 50. | agreed 2026-10-11, not built | Server and client skill data |
+| 6 | Holy Arrow does 100 at level 1 rising to 135 at max (88 to 120 after the damage rules). Kept below the wizards on purpose: the same spell is the cleric's single-target and group attack, and the cleric is the sturdiest 2nd job. About two thirds of a Hunter on one monster at level 50. | built 2026-10-11, not tested | Server and client skill data |
 
 To measure once built: Bless, Invincible, Magic Guard and a full self-heal together make the cleric the sturdiest 2nd job by a distance.
 
@@ -323,7 +324,7 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 | 4 | Poison Mist always poisons at max level (now 70%). | agreed | Server and client skill data |
 | 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
 | 6 | Explosion and Partial Resistance stay as they are. | agreed | Nothing |
-| 7 | Element Composition does 175 at level 1 rising to 215 at max (132 to 165 after the damage rules; originally 80 to 150). About 80% of a Ranger on one monster at level 100, from 60%; more against a monster weak to fire or poison. Explosion is left alone: it already beats the bowmen on groups. | agreed 2026-10-11, not built | Server and client skill data |
+| 7 | Element Composition does 175 at level 1 rising to 215 at max (132 to 165 after the damage rules; originally 80 to 150). About 80% of a Ranger on one monster at level 100, from 60%; more against a monster weak to fire or poison. Explosion is left alone: it already beats the bowmen on groups. | built 2026-10-11, not tested | Server and client skill data |
 
 ### Ice/Lightning Mage (3rd job)
 
@@ -335,7 +336,7 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 | 4 | Ice Strike freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
 | 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
 | 6 | Partial Resistance stays as it is. | agreed | Nothing |
-| 7 | Thunder Spear does 165 at level 1 rising to 210 at max (121 to 170 after the damage rules), and Element Composition 155 rising to 195 (121 to 151). Thunder Spear is the pure damage spell; Element Composition is a little weaker but carries two elements. About 78% of a Ranger on one monster at level 100, from 63%. Ice Strike is left alone. | agreed 2026-10-11, not built | Server and client skill data |
+| 7 | Thunder Spear does 165 at level 1 rising to 210 at max (121 to 170 after the damage rules), and Element Composition 155 rising to 195 (121 to 151). Thunder Spear is the pure damage spell; Element Composition is a little weaker but carries two elements. About 78% of a Ranger on one monster at level 100, from 63%. Ice Strike is left alone. | built 2026-10-11, not tested | Server and client skill data |
 
 To measure once built: Ice Strike can keep a whole group frozen almost permanently. It is the safest group attack in the game.
 
@@ -348,7 +349,7 @@ To measure once built: Ice Strike can keep a whole group frozen almost permanent
 | 3 | Doom always succeeds at max level (now 90%). | agreed | Server and client skill data |
 | 4 | Mystic Door lasts 10 minutes (now 3). | agreed | Server and client skill data |
 | 5 | Dispel and Elemental Resistance stay as they are. | agreed | Nothing |
-| 6 | Shining Ray does 160 at level 1 rising to 200 at max (132 to 165 after the damage rules; originally 60 to 105). It is the priest's attack for everything. About half a Ranger on one monster at level 100, or three quarters for levelling once Holy Symbol's experience is counted; the strongest mage on groups. Not higher, because every point counts six times in a group. Bosses stay slow for a priest until 4th job. | agreed 2026-10-11, not built | Server and client skill data |
+| 6 | Shining Ray does 160 at level 1 rising to 200 at max (132 to 165 after the damage rules; originally 60 to 105). It is the priest's attack for everything. About half a Ranger on one monster at level 100, or three quarters for levelling once Holy Symbol's experience is counted; the strongest mage on groups. Not higher, because every point counts six times in a group. Bosses stay slow for a priest until 4th job. | built 2026-10-11, not tested | Server and client skill data |
 
 To measure once built: a permanent +50% exp makes the priest level half again as fast as every other class. +25% is the fallback if that proves too much.
 
@@ -362,7 +363,7 @@ Maple Warrior at 30 minutes is covered by the rule for all classes.
 | 2 | Elquines lasts 30 minutes (now 160 seconds). | agreed | Server and client skill data |
 | 3 | Infinity lasts 120 seconds (now 40). The 10-minute cooldown stays. | agreed | Server and client skill data |
 | 4 | Meteor Shower costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
-| 5 | Paralyze does 240 at level 1 rising to 300 at max (182 to 240 after the damage rules; originally 152 to 210). The step up from Element Composition at 215 is about what other classes get from 3rd to 4th job. Not checked in the simulator, which stops before 4th job. | agreed 2026-10-11, not built | Server and client skill data |
+| 5 | Paralyze does 240 at level 1 rising to 300 at max (182 to 240 after the damage rules; originally 152 to 210). The step up from Element Composition at 215 is about what other classes get from 3rd to 4th job. Not checked in the simulator, which stops before 4th job. | built 2026-10-11, not tested | Server and client skill data |
 | 6 | Big Bang, Fire Demon and Hero's Will stay as they are. | agreed | Nothing |
 
 To measure once built: longer Infinity and a cheaper Meteor Shower make the strongest area attack in the game much easier to spam. Idea for later: Fire Demon weakens monsters to ice, which helps a party member, not the Fire/Poison mage; it could weaken them to fire instead.
@@ -375,7 +376,7 @@ To measure once built: longer Infinity and a cheaper Meteor Shower make the stro
 | 2 | Ifrit lasts 30 minutes (now 160 seconds). | agreed | Server and client skill data |
 | 3 | Infinity lasts 120 seconds (now 40). The 10-minute cooldown stays. | agreed | Server and client skill data |
 | 4 | Blizzard costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
-| 5 | Chain Lightning does 235 at level 1 rising to 280 at max, on up to six monsters (187 to 234 after the damage rules; originally 120 to 180). Kept below Paralyze's 300 because it does that damage to six monsters with no charging. If it proves too strong on groups, lower the number of monsters it jumps to, not the damage. Not checked in the simulator. | agreed 2026-10-11, not built | Server and client skill data |
+| 5 | Chain Lightning does 235 at level 1 rising to 280 at max, on up to six monsters (187 to 234 after the damage rules; originally 120 to 180). Kept below Paralyze's 300 because it does that damage to six monsters with no charging. If it proves too strong on groups, lower the number of monsters it jumps to, not the damage. Not checked in the simulator. | built 2026-10-11, not tested | Server and client skill data |
 | 6 | Big Bang, Ice Demon and Hero's Will stay as they are. | agreed | Nothing |
 
 To measure once built: a cheaper Blizzard with a longer Infinity freezes and damages 15 monsters on every cast. It is the safest ultimate in the game.
@@ -390,7 +391,7 @@ To measure once built: a cheaper Blizzard with a longer Infinity freezes and dam
 | 4 | Genesis costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
 | 5 | Resurrection works on yourself: when you would die, you are revived on the spot instead. Same 30-minute cooldown. Today it does nothing for a solo player. | agreed | To be tested: whether the server can stop a death as it happens |
 | 6 | Holy Shield, Big Bang and Hero's Will stay as they are. | agreed | Nothing |
-| 7 | Angel Ray does 250 at level 1 rising to 320 at max (144 to 240 after the damage rules). Higher than the arch mages' spells on paper because the Bishop has no Element Amplification: it lands at about three quarters of an arch mage on one monster. The gap is kept on purpose (full self-heal, self-revive, the strongest ultimate). Not checked in the simulator. | agreed 2026-10-11, not built | Server and client skill data |
+| 7 | Angel Ray does 250 at level 1 rising to 320 at max (144 to 240 after the damage rules). Higher than the arch mages' spells on paper because the Bishop has no Element Amplification: it lands at about three quarters of an arch mage on one monster. The gap is kept on purpose (full self-heal, self-revive, the strongest ultimate). Not checked in the simulator. | built 2026-10-11, not tested | Server and client skill data |
 
 **Changes:** none yet.
 

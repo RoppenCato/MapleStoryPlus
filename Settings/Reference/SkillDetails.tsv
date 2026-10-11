@@ -2467,36 +2467,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2101003	Slow	FP_WIZARD	18	16						6	36		-36								
 2101003	Slow	FP_WIZARD	19	16						6	38		-38								
 2101003	Slow	FP_WIZARD	20	16						6	40		-40								
-2101004	Fire Arrow	FP_WIZARD	1	14				88									1				
-2101004	Fire Arrow	FP_WIZARD	2	14				89									1				
-2101004	Fire Arrow	FP_WIZARD	3	14				90									1				
-2101004	Fire Arrow	FP_WIZARD	4	14				91									2				
-2101004	Fire Arrow	FP_WIZARD	5	14				92									2				
-2101004	Fire Arrow	FP_WIZARD	6	14				94									2				
-2101004	Fire Arrow	FP_WIZARD	7	14				95									3				
-2101004	Fire Arrow	FP_WIZARD	8	14				96									3				
-2101004	Fire Arrow	FP_WIZARD	9	14				97									3				
-2101004	Fire Arrow	FP_WIZARD	10	14				98									4				
-2101004	Fire Arrow	FP_WIZARD	11	14				99									4				
-2101004	Fire Arrow	FP_WIZARD	12	14				100									4				
-2101004	Fire Arrow	FP_WIZARD	13	14				101									5				
-2101004	Fire Arrow	FP_WIZARD	14	14				102									5				
-2101004	Fire Arrow	FP_WIZARD	15	14				103									5				
-2101004	Fire Arrow	FP_WIZARD	16	28				105									6				
-2101004	Fire Arrow	FP_WIZARD	17	28				106									6				
-2101004	Fire Arrow	FP_WIZARD	18	28				107									6				
-2101004	Fire Arrow	FP_WIZARD	19	28				108									7				
-2101004	Fire Arrow	FP_WIZARD	20	28				109									7				
-2101004	Fire Arrow	FP_WIZARD	21	28				110									7				
-2101004	Fire Arrow	FP_WIZARD	22	28				111									8				
-2101004	Fire Arrow	FP_WIZARD	23	28				112									8				
-2101004	Fire Arrow	FP_WIZARD	24	28				113									8				
-2101004	Fire Arrow	FP_WIZARD	25	28				114									9				
-2101004	Fire Arrow	FP_WIZARD	26	28				116									9				
-2101004	Fire Arrow	FP_WIZARD	27	28				117									9				
-2101004	Fire Arrow	FP_WIZARD	28	28				118									10				
-2101004	Fire Arrow	FP_WIZARD	29	28				119									10				
-2101004	Fire Arrow	FP_WIZARD	30	28				120									10				
+2101004	Fire Arrow	FP_WIZARD	1	14				115									1				
+2101004	Fire Arrow	FP_WIZARD	2	14				116									1				
+2101004	Fire Arrow	FP_WIZARD	3	14				118									1				
+2101004	Fire Arrow	FP_WIZARD	4	14				119									2				
+2101004	Fire Arrow	FP_WIZARD	5	14				121									2				
+2101004	Fire Arrow	FP_WIZARD	6	14				122									2				
+2101004	Fire Arrow	FP_WIZARD	7	14				123									3				
+2101004	Fire Arrow	FP_WIZARD	8	14				125									3				
+2101004	Fire Arrow	FP_WIZARD	9	14				126									3				
+2101004	Fire Arrow	FP_WIZARD	10	14				127									4				
+2101004	Fire Arrow	FP_WIZARD	11	14				129									4				
+2101004	Fire Arrow	FP_WIZARD	12	14				130									4				
+2101004	Fire Arrow	FP_WIZARD	13	14				132									5				
+2101004	Fire Arrow	FP_WIZARD	14	14				133									5				
+2101004	Fire Arrow	FP_WIZARD	15	14				134									5				
+2101004	Fire Arrow	FP_WIZARD	16	28				136									6				
+2101004	Fire Arrow	FP_WIZARD	17	28				137									6				
+2101004	Fire Arrow	FP_WIZARD	18	28				138									6				
+2101004	Fire Arrow	FP_WIZARD	19	28				140									7				
+2101004	Fire Arrow	FP_WIZARD	20	28				141									7				
+2101004	Fire Arrow	FP_WIZARD	21	28				143									7				
+2101004	Fire Arrow	FP_WIZARD	22	28				144									8				
+2101004	Fire Arrow	FP_WIZARD	23	28				145									8				
+2101004	Fire Arrow	FP_WIZARD	24	28				147									8				
+2101004	Fire Arrow	FP_WIZARD	25	28				148									9				
+2101004	Fire Arrow	FP_WIZARD	26	28				149									9				
+2101004	Fire Arrow	FP_WIZARD	27	28				151									9				
+2101004	Fire Arrow	FP_WIZARD	28	28				152									10				
+2101004	Fire Arrow	FP_WIZARD	29	28				154									10				
+2101004	Fire Arrow	FP_WIZARD	30	28				155									10				
 2101005	Poison Breath	FP_WIZARD	1	10				61		4	4					31	1				
 2101005	Poison Breath	FP_WIZARD	2	10				62		4	4					32	1				
 2101005	Poison Breath	FP_WIZARD	3	10				62		4	4					33	1				
@@ -2677,36 +2677,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2111005	Spell Booster	FP_MAGE	18	27	0						1620		-2								
 2111005	Spell Booster	FP_MAGE	19	26	0						1710		-2								
 2111005	Spell Booster	FP_MAGE	20	25	0						1800		-2								
-2111006	Element Composition	FP_MAGE	1	14				132			4					41	1				
-2111006	Element Composition	FP_MAGE	2	14				133			4					42	1				
-2111006	Element Composition	FP_MAGE	3	14				134			4					43	1				
-2111006	Element Composition	FP_MAGE	4	14				135			8					44	2				
-2111006	Element Composition	FP_MAGE	5	14				137			8					45	2				
-2111006	Element Composition	FP_MAGE	6	14				138			8					46	2				
-2111006	Element Composition	FP_MAGE	7	14				139			12					47	3				
-2111006	Element Composition	FP_MAGE	8	14				140			12					48	3				
-2111006	Element Composition	FP_MAGE	9	14				141			12					49	3				
-2111006	Element Composition	FP_MAGE	10	14				142			16					50	4				
-2111006	Element Composition	FP_MAGE	11	18				143			16					51	4				
-2111006	Element Composition	FP_MAGE	12	18				145			16					52	4				
-2111006	Element Composition	FP_MAGE	13	18				146			20					53	5				
-2111006	Element Composition	FP_MAGE	14	18				147			20					54	5				
-2111006	Element Composition	FP_MAGE	15	18				148			20					55	5				
-2111006	Element Composition	FP_MAGE	16	18				149			24					56	6				
-2111006	Element Composition	FP_MAGE	17	18				150			24					57	6				
-2111006	Element Composition	FP_MAGE	18	18				151			24					58	6				
-2111006	Element Composition	FP_MAGE	19	18				152			28					59	7				
-2111006	Element Composition	FP_MAGE	20	18				154			28					60	7				
-2111006	Element Composition	FP_MAGE	21	22				155			28					61	7				
-2111006	Element Composition	FP_MAGE	22	22				156			32					62	8				
-2111006	Element Composition	FP_MAGE	23	22				157			32					63	8				
-2111006	Element Composition	FP_MAGE	24	22				158			32					64	8				
-2111006	Element Composition	FP_MAGE	25	22				159			36					65	9				
-2111006	Element Composition	FP_MAGE	26	22				160			36					66	9				
-2111006	Element Composition	FP_MAGE	27	22				162			36					67	9				
-2111006	Element Composition	FP_MAGE	28	22				163			40					68	10				
-2111006	Element Composition	FP_MAGE	29	22				164			40					69	10				
-2111006	Element Composition	FP_MAGE	30	22				165			40					70	10				
+2111006	Element Composition	FP_MAGE	1	14				175			4					41	1				
+2111006	Element Composition	FP_MAGE	2	14				176			4					42	1				
+2111006	Element Composition	FP_MAGE	3	14				178			4					43	1				
+2111006	Element Composition	FP_MAGE	4	14				179			8					44	2				
+2111006	Element Composition	FP_MAGE	5	14				181			8					45	2				
+2111006	Element Composition	FP_MAGE	6	14				182			8					46	2				
+2111006	Element Composition	FP_MAGE	7	14				183			12					47	3				
+2111006	Element Composition	FP_MAGE	8	14				185			12					48	3				
+2111006	Element Composition	FP_MAGE	9	14				186			12					49	3				
+2111006	Element Composition	FP_MAGE	10	14				187			16					50	4				
+2111006	Element Composition	FP_MAGE	11	18				189			16					51	4				
+2111006	Element Composition	FP_MAGE	12	18				190			16					52	4				
+2111006	Element Composition	FP_MAGE	13	18				192			20					53	5				
+2111006	Element Composition	FP_MAGE	14	18				193			20					54	5				
+2111006	Element Composition	FP_MAGE	15	18				194			20					55	5				
+2111006	Element Composition	FP_MAGE	16	18				196			24					56	6				
+2111006	Element Composition	FP_MAGE	17	18				197			24					57	6				
+2111006	Element Composition	FP_MAGE	18	18				198			24					58	6				
+2111006	Element Composition	FP_MAGE	19	18				200			28					59	7				
+2111006	Element Composition	FP_MAGE	20	18				201			28					60	7				
+2111006	Element Composition	FP_MAGE	21	22				203			28					61	7				
+2111006	Element Composition	FP_MAGE	22	22				204			32					62	8				
+2111006	Element Composition	FP_MAGE	23	22				205			32					63	8				
+2111006	Element Composition	FP_MAGE	24	22				207			32					64	8				
+2111006	Element Composition	FP_MAGE	25	22				208			36					65	9				
+2111006	Element Composition	FP_MAGE	26	22				209			36					66	9				
+2111006	Element Composition	FP_MAGE	27	22				211			36					67	9				
+2111006	Element Composition	FP_MAGE	28	22				212			40					68	10				
+2111006	Element Composition	FP_MAGE	29	22				214			40					69	10				
+2111006	Element Composition	FP_MAGE	30	22				215			40					70	10				
 2121000	Maple Warrior	FP_ARCHMAGE	1	10							60		1								
 2121000	Maple Warrior	FP_ARCHMAGE	2	10							120		1								
 2121000	Maple Warrior	FP_ARCHMAGE	3	10							180		2								
@@ -2887,36 +2887,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2121005	Elquines	FP_ARCHMAGE	28	94				260			1680		3				10				
 2121005	Elquines	FP_ARCHMAGE	29	97				265			1740		3				10				
 2121005	Elquines	FP_ARCHMAGE	30	100				270			1800		3				10				
-2121006	Paralyze	FP_ARCHMAGE	1	16				182			5					100	1				
-2121006	Paralyze	FP_ARCHMAGE	2	16				184			5					100	1				
-2121006	Paralyze	FP_ARCHMAGE	3	16				186			5					100	1				
-2121006	Paralyze	FP_ARCHMAGE	4	16				188			5					100	2				
-2121006	Paralyze	FP_ARCHMAGE	5	16				190			5					100	2				
-2121006	Paralyze	FP_ARCHMAGE	6	16				192			5					100	2				
-2121006	Paralyze	FP_ARCHMAGE	7	16				194			5					100	3				
-2121006	Paralyze	FP_ARCHMAGE	8	16				196			5					100	3				
-2121006	Paralyze	FP_ARCHMAGE	9	16				198			5					100	3				
-2121006	Paralyze	FP_ARCHMAGE	10	16				200			5					100	4				
-2121006	Paralyze	FP_ARCHMAGE	11	24				202			10					100	4				
-2121006	Paralyze	FP_ARCHMAGE	12	24				204			10					100	4				
-2121006	Paralyze	FP_ARCHMAGE	13	24				206			10					100	5				
-2121006	Paralyze	FP_ARCHMAGE	14	24				208			10					100	5				
-2121006	Paralyze	FP_ARCHMAGE	15	24				210			10					100	5				
-2121006	Paralyze	FP_ARCHMAGE	16	24				212			10					100	6				
-2121006	Paralyze	FP_ARCHMAGE	17	24				214			10					100	6				
-2121006	Paralyze	FP_ARCHMAGE	18	24				216			10					100	6				
-2121006	Paralyze	FP_ARCHMAGE	19	24				218			10					100	7				
-2121006	Paralyze	FP_ARCHMAGE	20	24				220			10					100	7				
-2121006	Paralyze	FP_ARCHMAGE	21	30				222			15					100	7				
-2121006	Paralyze	FP_ARCHMAGE	22	30				224			15					100	8				
-2121006	Paralyze	FP_ARCHMAGE	23	30				226			15					100	8				
-2121006	Paralyze	FP_ARCHMAGE	24	30				228			15					100	8				
-2121006	Paralyze	FP_ARCHMAGE	25	30				230			15					100	9				
-2121006	Paralyze	FP_ARCHMAGE	26	29				232			15					100	9				
-2121006	Paralyze	FP_ARCHMAGE	27	28				234			15					100	9				
-2121006	Paralyze	FP_ARCHMAGE	28	27				236			15					100	10				
-2121006	Paralyze	FP_ARCHMAGE	29	26				238			15					100	10				
-2121006	Paralyze	FP_ARCHMAGE	30	25				240			15					100	10				
+2121006	Paralyze	FP_ARCHMAGE	1	16				240			5					100	1				
+2121006	Paralyze	FP_ARCHMAGE	2	16				242			5					100	1				
+2121006	Paralyze	FP_ARCHMAGE	3	16				244			5					100	1				
+2121006	Paralyze	FP_ARCHMAGE	4	16				246			5					100	2				
+2121006	Paralyze	FP_ARCHMAGE	5	16				248			5					100	2				
+2121006	Paralyze	FP_ARCHMAGE	6	16				250			5					100	2				
+2121006	Paralyze	FP_ARCHMAGE	7	16				252			5					100	3				
+2121006	Paralyze	FP_ARCHMAGE	8	16				254			5					100	3				
+2121006	Paralyze	FP_ARCHMAGE	9	16				257			5					100	3				
+2121006	Paralyze	FP_ARCHMAGE	10	16				259			5					100	4				
+2121006	Paralyze	FP_ARCHMAGE	11	24				261			10					100	4				
+2121006	Paralyze	FP_ARCHMAGE	12	24				263			10					100	4				
+2121006	Paralyze	FP_ARCHMAGE	13	24				265			10					100	5				
+2121006	Paralyze	FP_ARCHMAGE	14	24				267			10					100	5				
+2121006	Paralyze	FP_ARCHMAGE	15	24				269			10					100	5				
+2121006	Paralyze	FP_ARCHMAGE	16	24				271			10					100	6				
+2121006	Paralyze	FP_ARCHMAGE	17	24				273			10					100	6				
+2121006	Paralyze	FP_ARCHMAGE	18	24				275			10					100	6				
+2121006	Paralyze	FP_ARCHMAGE	19	24				277			10					100	7				
+2121006	Paralyze	FP_ARCHMAGE	20	24				279			10					100	7				
+2121006	Paralyze	FP_ARCHMAGE	21	30				281			15					100	7				
+2121006	Paralyze	FP_ARCHMAGE	22	30				283			15					100	8				
+2121006	Paralyze	FP_ARCHMAGE	23	30				286			15					100	8				
+2121006	Paralyze	FP_ARCHMAGE	24	30				288			15					100	8				
+2121006	Paralyze	FP_ARCHMAGE	25	30				290			15					100	9				
+2121006	Paralyze	FP_ARCHMAGE	26	29				292			15					100	9				
+2121006	Paralyze	FP_ARCHMAGE	27	28				294			15					100	9				
+2121006	Paralyze	FP_ARCHMAGE	28	27				296			15					100	10				
+2121006	Paralyze	FP_ARCHMAGE	29	26				298			15					100	10				
+2121006	Paralyze	FP_ARCHMAGE	30	25				300			15					100	10				
 2121007	Meteor Shower	FP_ARCHMAGE	1	2100				330		15							10				
 2121007	Meteor Shower	FP_ARCHMAGE	2	2200				340		15							10				
 2121007	Meteor Shower	FP_ARCHMAGE	3	2300				350		15							10				
@@ -3032,36 +3032,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2201003	Slow	IL_WIZARD	18	16						6	36		-36								
 2201003	Slow	IL_WIZARD	19	16						6	38		-38								
 2201003	Slow	IL_WIZARD	20	16						6	40		-40								
-2201004	Cold Beam	IL_WIZARD	1	12				88			3		-100				1				
-2201004	Cold Beam	IL_WIZARD	2	12				89			3		-100				1				
-2201004	Cold Beam	IL_WIZARD	3	12				90			3		-100				1				
-2201004	Cold Beam	IL_WIZARD	4	12				90			3		-100				2				
-2201004	Cold Beam	IL_WIZARD	5	12				91			3		-100				2				
-2201004	Cold Beam	IL_WIZARD	6	12				92			3		-100				2				
-2201004	Cold Beam	IL_WIZARD	7	12				93			3		-100				3				
-2201004	Cold Beam	IL_WIZARD	8	12				93			3		-100				3				
-2201004	Cold Beam	IL_WIZARD	9	12				94			3		-100				3				
-2201004	Cold Beam	IL_WIZARD	10	12				95			3		-100				4				
-2201004	Cold Beam	IL_WIZARD	11	12				96			3		-100				4				
-2201004	Cold Beam	IL_WIZARD	12	12				96			3		-100				4				
-2201004	Cold Beam	IL_WIZARD	13	12				97			3		-100				5				
-2201004	Cold Beam	IL_WIZARD	14	12				98			3		-100				5				
-2201004	Cold Beam	IL_WIZARD	15	12				99			3		-100				5				
-2201004	Cold Beam	IL_WIZARD	16	24				99			3		-100				6				
-2201004	Cold Beam	IL_WIZARD	17	24				100			3		-100				6				
-2201004	Cold Beam	IL_WIZARD	18	24				101			3		-100				6				
-2201004	Cold Beam	IL_WIZARD	19	24				102			3		-100				7				
-2201004	Cold Beam	IL_WIZARD	20	24				102			3		-100				7				
-2201004	Cold Beam	IL_WIZARD	21	24				103			3		-100				7				
-2201004	Cold Beam	IL_WIZARD	22	24				104			3		-100				8				
-2201004	Cold Beam	IL_WIZARD	23	24				105			3		-100				8				
-2201004	Cold Beam	IL_WIZARD	24	24				105			3		-100				8				
-2201004	Cold Beam	IL_WIZARD	25	24				106			3		-100				9				
-2201004	Cold Beam	IL_WIZARD	26	24				107			3		-100				9				
-2201004	Cold Beam	IL_WIZARD	27	24				108			3		-100				9				
-2201004	Cold Beam	IL_WIZARD	28	24				108			3		-100				10				
-2201004	Cold Beam	IL_WIZARD	29	24				109			3		-100				10				
-2201004	Cold Beam	IL_WIZARD	30	24				110			3		-100				10				
+2201004	Cold Beam	IL_WIZARD	1	12				105			3		-100				1				
+2201004	Cold Beam	IL_WIZARD	2	12				106			3		-100				1				
+2201004	Cold Beam	IL_WIZARD	3	12				107			3		-100				1				
+2201004	Cold Beam	IL_WIZARD	4	12				109			3		-100				2				
+2201004	Cold Beam	IL_WIZARD	5	12				110			3		-100				2				
+2201004	Cold Beam	IL_WIZARD	6	12				111			3		-100				2				
+2201004	Cold Beam	IL_WIZARD	7	12				112			3		-100				3				
+2201004	Cold Beam	IL_WIZARD	8	12				113			3		-100				3				
+2201004	Cold Beam	IL_WIZARD	9	12				115			3		-100				3				
+2201004	Cold Beam	IL_WIZARD	10	12				116			3		-100				4				
+2201004	Cold Beam	IL_WIZARD	11	12				117			3		-100				4				
+2201004	Cold Beam	IL_WIZARD	12	12				118			3		-100				4				
+2201004	Cold Beam	IL_WIZARD	13	12				119			3		-100				5				
+2201004	Cold Beam	IL_WIZARD	14	12				121			3		-100				5				
+2201004	Cold Beam	IL_WIZARD	15	12				122			3		-100				5				
+2201004	Cold Beam	IL_WIZARD	16	24				123			3		-100				6				
+2201004	Cold Beam	IL_WIZARD	17	24				124			3		-100				6				
+2201004	Cold Beam	IL_WIZARD	18	24				126			3		-100				6				
+2201004	Cold Beam	IL_WIZARD	19	24				127			3		-100				7				
+2201004	Cold Beam	IL_WIZARD	20	24				128			3		-100				7				
+2201004	Cold Beam	IL_WIZARD	21	24				129			3		-100				7				
+2201004	Cold Beam	IL_WIZARD	22	24				130			3		-100				8				
+2201004	Cold Beam	IL_WIZARD	23	24				132			3		-100				8				
+2201004	Cold Beam	IL_WIZARD	24	24				133			3		-100				8				
+2201004	Cold Beam	IL_WIZARD	25	24				134			3		-100				9				
+2201004	Cold Beam	IL_WIZARD	26	24				135			3		-100				9				
+2201004	Cold Beam	IL_WIZARD	27	24				136			3		-100				9				
+2201004	Cold Beam	IL_WIZARD	28	24				138			3		-100				10				
+2201004	Cold Beam	IL_WIZARD	29	24				139			3		-100				10				
+2201004	Cold Beam	IL_WIZARD	30	24				140			3		-100				10				
 2201005	Thunder Bolt	IL_WIZARD	1	20				61		6							1				
 2201005	Thunder Bolt	IL_WIZARD	2	20				62		6							1				
 2201005	Thunder Bolt	IL_WIZARD	3	20				62		6							1				
@@ -3172,36 +3172,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2211002	Ice Strike	IL_MAGE	28	48				103		6	3						10				
 2211002	Ice Strike	IL_MAGE	29	49				103		6	3						10				
 2211002	Ice Strike	IL_MAGE	30	50				104		6	3						10				
-2211003	Thunder Spear	IL_MAGE	1	10				121									1				
-2211003	Thunder Spear	IL_MAGE	2	10				123									1				
-2211003	Thunder Spear	IL_MAGE	3	11				124									1				
-2211003	Thunder Spear	IL_MAGE	4	11				126									2				
-2211003	Thunder Spear	IL_MAGE	5	12				128									2				
-2211003	Thunder Spear	IL_MAGE	6	12				129									2				
-2211003	Thunder Spear	IL_MAGE	7	13				131									3				
-2211003	Thunder Spear	IL_MAGE	8	13				133									3				
-2211003	Thunder Spear	IL_MAGE	9	14				135									3				
-2211003	Thunder Spear	IL_MAGE	10	14				136									4				
-2211003	Thunder Spear	IL_MAGE	11	15				138									4				
-2211003	Thunder Spear	IL_MAGE	12	15				140									4				
-2211003	Thunder Spear	IL_MAGE	13	16				141									5				
-2211003	Thunder Spear	IL_MAGE	14	16				143									5				
-2211003	Thunder Spear	IL_MAGE	15	17				145									5				
-2211003	Thunder Spear	IL_MAGE	16	17				146									6				
-2211003	Thunder Spear	IL_MAGE	17	18				148									6				
-2211003	Thunder Spear	IL_MAGE	18	18				150									6				
-2211003	Thunder Spear	IL_MAGE	19	19				151									7				
-2211003	Thunder Spear	IL_MAGE	20	19				153									7				
-2211003	Thunder Spear	IL_MAGE	21	20				155									7				
-2211003	Thunder Spear	IL_MAGE	22	20				156									8				
-2211003	Thunder Spear	IL_MAGE	23	21				158									8				
-2211003	Thunder Spear	IL_MAGE	24	21				160									8				
-2211003	Thunder Spear	IL_MAGE	25	22				162									9				
-2211003	Thunder Spear	IL_MAGE	26	22				163									9				
-2211003	Thunder Spear	IL_MAGE	27	23				165									9				
-2211003	Thunder Spear	IL_MAGE	28	23				167									10				
-2211003	Thunder Spear	IL_MAGE	29	24				168									10				
-2211003	Thunder Spear	IL_MAGE	30	24				170									10				
+2211003	Thunder Spear	IL_MAGE	1	10				165									1				
+2211003	Thunder Spear	IL_MAGE	2	10				167									1				
+2211003	Thunder Spear	IL_MAGE	3	11				168									1				
+2211003	Thunder Spear	IL_MAGE	4	11				170									2				
+2211003	Thunder Spear	IL_MAGE	5	12				171									2				
+2211003	Thunder Spear	IL_MAGE	6	12				173									2				
+2211003	Thunder Spear	IL_MAGE	7	13				174									3				
+2211003	Thunder Spear	IL_MAGE	8	13				176									3				
+2211003	Thunder Spear	IL_MAGE	9	14				177									3				
+2211003	Thunder Spear	IL_MAGE	10	14				179									4				
+2211003	Thunder Spear	IL_MAGE	11	15				181									4				
+2211003	Thunder Spear	IL_MAGE	12	15				182									4				
+2211003	Thunder Spear	IL_MAGE	13	16				184									5				
+2211003	Thunder Spear	IL_MAGE	14	16				185									5				
+2211003	Thunder Spear	IL_MAGE	15	17				187									5				
+2211003	Thunder Spear	IL_MAGE	16	17				188									6				
+2211003	Thunder Spear	IL_MAGE	17	18				190									6				
+2211003	Thunder Spear	IL_MAGE	18	18				191									6				
+2211003	Thunder Spear	IL_MAGE	19	19				193									7				
+2211003	Thunder Spear	IL_MAGE	20	19				194									7				
+2211003	Thunder Spear	IL_MAGE	21	20				196									7				
+2211003	Thunder Spear	IL_MAGE	22	20				198									8				
+2211003	Thunder Spear	IL_MAGE	23	21				199									8				
+2211003	Thunder Spear	IL_MAGE	24	21				201									8				
+2211003	Thunder Spear	IL_MAGE	25	22				202									9				
+2211003	Thunder Spear	IL_MAGE	26	22				204									9				
+2211003	Thunder Spear	IL_MAGE	27	23				205									9				
+2211003	Thunder Spear	IL_MAGE	28	23				207									10				
+2211003	Thunder Spear	IL_MAGE	29	24				208									10				
+2211003	Thunder Spear	IL_MAGE	30	24				210									10				
 2211004	Seal	IL_MAGE	1	12						6	10					38					
 2211004	Seal	IL_MAGE	2	12						6	11					41					
 2211004	Seal	IL_MAGE	3	12						6	11					44					
@@ -3242,36 +3242,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2211005	Spell Booster	IL_MAGE	18	27	0						1620		-2								
 2211005	Spell Booster	IL_MAGE	19	26	0						1710		-2								
 2211005	Spell Booster	IL_MAGE	20	25	0						1800		-2								
-2211006	Element Composition	IL_MAGE	1	14				121			1		1				1				
-2211006	Element Composition	IL_MAGE	2	14				122			1		1				1				
-2211006	Element Composition	IL_MAGE	3	14				123			1		1				1				
-2211006	Element Composition	IL_MAGE	4	14				124			1		1				2				
-2211006	Element Composition	IL_MAGE	5	14				125			1		1				2				
-2211006	Element Composition	IL_MAGE	6	14				126			1		1				2				
-2211006	Element Composition	IL_MAGE	7	14				127			1		1				3				
-2211006	Element Composition	IL_MAGE	8	14				128			1		1				3				
-2211006	Element Composition	IL_MAGE	9	14				129			1		1				3				
-2211006	Element Composition	IL_MAGE	10	14				130			1		1				4				
-2211006	Element Composition	IL_MAGE	11	18				131			1		1				4				
-2211006	Element Composition	IL_MAGE	12	18				132			1		1				4				
-2211006	Element Composition	IL_MAGE	13	18				133			1		1				5				
-2211006	Element Composition	IL_MAGE	14	18				134			1		1				5				
-2211006	Element Composition	IL_MAGE	15	18				135			1		1				5				
-2211006	Element Composition	IL_MAGE	16	18				137			2		1				6				
-2211006	Element Composition	IL_MAGE	17	18				138			2		1				6				
-2211006	Element Composition	IL_MAGE	18	18				139			2		1				6				
-2211006	Element Composition	IL_MAGE	19	18				140			2		1				7				
-2211006	Element Composition	IL_MAGE	20	18				141			2		1				7				
-2211006	Element Composition	IL_MAGE	21	22				142			2		1				7				
-2211006	Element Composition	IL_MAGE	22	22				143			2		1				8				
-2211006	Element Composition	IL_MAGE	23	22				144			2		1				8				
-2211006	Element Composition	IL_MAGE	24	22				145			2		1				8				
-2211006	Element Composition	IL_MAGE	25	22				146			2		1				9				
-2211006	Element Composition	IL_MAGE	26	22				147			2		1				9				
-2211006	Element Composition	IL_MAGE	27	22				148			2		1				9				
-2211006	Element Composition	IL_MAGE	28	22				149			2		1				10				
-2211006	Element Composition	IL_MAGE	29	22				150			2		1				10				
-2211006	Element Composition	IL_MAGE	30	22				151			2		1				10				
+2211006	Element Composition	IL_MAGE	1	14				155			1		1				1				
+2211006	Element Composition	IL_MAGE	2	14				156			1		1				1				
+2211006	Element Composition	IL_MAGE	3	14				158			1		1				1				
+2211006	Element Composition	IL_MAGE	4	14				159			1		1				2				
+2211006	Element Composition	IL_MAGE	5	14				161			1		1				2				
+2211006	Element Composition	IL_MAGE	6	14				162			1		1				2				
+2211006	Element Composition	IL_MAGE	7	14				163			1		1				3				
+2211006	Element Composition	IL_MAGE	8	14				165			1		1				3				
+2211006	Element Composition	IL_MAGE	9	14				166			1		1				3				
+2211006	Element Composition	IL_MAGE	10	14				167			1		1				4				
+2211006	Element Composition	IL_MAGE	11	18				169			1		1				4				
+2211006	Element Composition	IL_MAGE	12	18				170			1		1				4				
+2211006	Element Composition	IL_MAGE	13	18				172			1		1				5				
+2211006	Element Composition	IL_MAGE	14	18				173			1		1				5				
+2211006	Element Composition	IL_MAGE	15	18				174			1		1				5				
+2211006	Element Composition	IL_MAGE	16	18				176			2		1				6				
+2211006	Element Composition	IL_MAGE	17	18				177			2		1				6				
+2211006	Element Composition	IL_MAGE	18	18				178			2		1				6				
+2211006	Element Composition	IL_MAGE	19	18				180			2		1				7				
+2211006	Element Composition	IL_MAGE	20	18				181			2		1				7				
+2211006	Element Composition	IL_MAGE	21	22				183			2		1				7				
+2211006	Element Composition	IL_MAGE	22	22				184			2		1				8				
+2211006	Element Composition	IL_MAGE	23	22				185			2		1				8				
+2211006	Element Composition	IL_MAGE	24	22				187			2		1				8				
+2211006	Element Composition	IL_MAGE	25	22				188			2		1				9				
+2211006	Element Composition	IL_MAGE	26	22				189			2		1				9				
+2211006	Element Composition	IL_MAGE	27	22				191			2		1				9				
+2211006	Element Composition	IL_MAGE	28	22				192			2		1				10				
+2211006	Element Composition	IL_MAGE	29	22				194			2		1				10				
+2211006	Element Composition	IL_MAGE	30	22				195			2		1				10				
 2221000	Maple Warrior	IL_ARCHMAGE	1	10							60		1								
 2221000	Maple Warrior	IL_ARCHMAGE	2	10							120		1								
 2221000	Maple Warrior	IL_ARCHMAGE	3	10							180		2								
@@ -3452,36 +3452,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2221005	Ifrit	IL_ARCHMAGE	28	94				290			1680						10				
 2221005	Ifrit	IL_ARCHMAGE	29	97				295			1740						10				
 2221005	Ifrit	IL_ARCHMAGE	30	100				300			1800						10				
-2221006	Chain Lightning	IL_ARCHMAGE	1	16				187		2							1				
-2221006	Chain Lightning	IL_ARCHMAGE	2	16				189		2							1				
-2221006	Chain Lightning	IL_ARCHMAGE	3	16				190		2							1				
-2221006	Chain Lightning	IL_ARCHMAGE	4	16				192		2							2				
-2221006	Chain Lightning	IL_ARCHMAGE	5	16				193		2							2				
-2221006	Chain Lightning	IL_ARCHMAGE	6	16				195		2							2				
-2221006	Chain Lightning	IL_ARCHMAGE	7	16				197		3							3				
-2221006	Chain Lightning	IL_ARCHMAGE	8	16				198		3							3				
-2221006	Chain Lightning	IL_ARCHMAGE	9	16				200		3							3				
-2221006	Chain Lightning	IL_ARCHMAGE	10	16				202		3							4				
-2221006	Chain Lightning	IL_ARCHMAGE	11	24				203		3							4				
-2221006	Chain Lightning	IL_ARCHMAGE	12	24				205		3							4				
-2221006	Chain Lightning	IL_ARCHMAGE	13	24				206		4							5				
-2221006	Chain Lightning	IL_ARCHMAGE	14	24				208		4							5				
-2221006	Chain Lightning	IL_ARCHMAGE	15	24				210		4							5				
-2221006	Chain Lightning	IL_ARCHMAGE	16	24				211		4							6				
-2221006	Chain Lightning	IL_ARCHMAGE	17	24				213		4							6				
-2221006	Chain Lightning	IL_ARCHMAGE	18	24				215		4							6				
-2221006	Chain Lightning	IL_ARCHMAGE	19	24				216		5							7				
-2221006	Chain Lightning	IL_ARCHMAGE	20	24				218		5							7				
-2221006	Chain Lightning	IL_ARCHMAGE	21	30				219		5							7				
-2221006	Chain Lightning	IL_ARCHMAGE	22	30				221		5							8				
-2221006	Chain Lightning	IL_ARCHMAGE	23	30				223		5							8				
-2221006	Chain Lightning	IL_ARCHMAGE	24	30				224		5							8				
-2221006	Chain Lightning	IL_ARCHMAGE	25	30				226		6							9				
-2221006	Chain Lightning	IL_ARCHMAGE	26	29				228		6							9				
-2221006	Chain Lightning	IL_ARCHMAGE	27	28				229		6							9				
-2221006	Chain Lightning	IL_ARCHMAGE	28	27				231		6							10				
-2221006	Chain Lightning	IL_ARCHMAGE	29	26				232		6							10				
-2221006	Chain Lightning	IL_ARCHMAGE	30	25				234		6							10				
+2221006	Chain Lightning	IL_ARCHMAGE	1	16				235		2							1				
+2221006	Chain Lightning	IL_ARCHMAGE	2	16				237		2							1				
+2221006	Chain Lightning	IL_ARCHMAGE	3	16				238		2							1				
+2221006	Chain Lightning	IL_ARCHMAGE	4	16				240		2							2				
+2221006	Chain Lightning	IL_ARCHMAGE	5	16				241		2							2				
+2221006	Chain Lightning	IL_ARCHMAGE	6	16				243		2							2				
+2221006	Chain Lightning	IL_ARCHMAGE	7	16				244		3							3				
+2221006	Chain Lightning	IL_ARCHMAGE	8	16				246		3							3				
+2221006	Chain Lightning	IL_ARCHMAGE	9	16				247		3							3				
+2221006	Chain Lightning	IL_ARCHMAGE	10	16				249		3							4				
+2221006	Chain Lightning	IL_ARCHMAGE	11	24				251		3							4				
+2221006	Chain Lightning	IL_ARCHMAGE	12	24				252		3							4				
+2221006	Chain Lightning	IL_ARCHMAGE	13	24				254		4							5				
+2221006	Chain Lightning	IL_ARCHMAGE	14	24				255		4							5				
+2221006	Chain Lightning	IL_ARCHMAGE	15	24				257		4							5				
+2221006	Chain Lightning	IL_ARCHMAGE	16	24				258		4							6				
+2221006	Chain Lightning	IL_ARCHMAGE	17	24				260		4							6				
+2221006	Chain Lightning	IL_ARCHMAGE	18	24				261		4							6				
+2221006	Chain Lightning	IL_ARCHMAGE	19	24				263		5							7				
+2221006	Chain Lightning	IL_ARCHMAGE	20	24				264		5							7				
+2221006	Chain Lightning	IL_ARCHMAGE	21	30				266		5							7				
+2221006	Chain Lightning	IL_ARCHMAGE	22	30				268		5							8				
+2221006	Chain Lightning	IL_ARCHMAGE	23	30				269		5							8				
+2221006	Chain Lightning	IL_ARCHMAGE	24	30				271		5							8				
+2221006	Chain Lightning	IL_ARCHMAGE	25	30				272		6							9				
+2221006	Chain Lightning	IL_ARCHMAGE	26	29				274		6							9				
+2221006	Chain Lightning	IL_ARCHMAGE	27	28				275		6							9				
+2221006	Chain Lightning	IL_ARCHMAGE	28	27				277		6							10				
+2221006	Chain Lightning	IL_ARCHMAGE	29	26				278		6							10				
+2221006	Chain Lightning	IL_ARCHMAGE	30	25				280		6							10				
 2221007	Blizzard	IL_ARCHMAGE	1	2100				330		15	1						10				
 2221007	Blizzard	IL_ARCHMAGE	2	2200				340		15	1						10				
 2221007	Blizzard	IL_ARCHMAGE	3	2300				350		15	1						10				
@@ -3627,36 +3627,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2301004	Bless	CLERIC	18	24							1620										acc=18 eva=18 pdd=18 mdd=18
 2301004	Bless	CLERIC	19	24							1710										acc=19 eva=19 pdd=19 mdd=19
 2301004	Bless	CLERIC	20	24							1800										acc=20 eva=20 pdd=20 mdd=20
-2301005	Holy Arrow	CLERIC	1	12				88		3							1				
-2301005	Holy Arrow	CLERIC	2	12				89		3							1				
-2301005	Holy Arrow	CLERIC	3	12				90		3							1				
-2301005	Holy Arrow	CLERIC	4	12				91		3							2				
-2301005	Holy Arrow	CLERIC	5	12				92		3							2				
-2301005	Holy Arrow	CLERIC	6	12				94		3							2				
-2301005	Holy Arrow	CLERIC	7	12				95		3							3				
-2301005	Holy Arrow	CLERIC	8	12				96		3							3				
-2301005	Holy Arrow	CLERIC	9	12				97		3							3				
-2301005	Holy Arrow	CLERIC	10	12				98		3							4				
-2301005	Holy Arrow	CLERIC	11	12				99		3							4				
-2301005	Holy Arrow	CLERIC	12	12				100		3							4				
-2301005	Holy Arrow	CLERIC	13	12				101		3							5				
-2301005	Holy Arrow	CLERIC	14	12				102		3							5				
-2301005	Holy Arrow	CLERIC	15	12				103		3							5				
-2301005	Holy Arrow	CLERIC	16	24				105		3							6				
-2301005	Holy Arrow	CLERIC	17	24				106		3							6				
-2301005	Holy Arrow	CLERIC	18	24				107		3							6				
-2301005	Holy Arrow	CLERIC	19	24				108		3							7				
-2301005	Holy Arrow	CLERIC	20	24				109		3							7				
-2301005	Holy Arrow	CLERIC	21	24				110		3							7				
-2301005	Holy Arrow	CLERIC	22	24				111		3							8				
-2301005	Holy Arrow	CLERIC	23	24				112		3							8				
-2301005	Holy Arrow	CLERIC	24	24				113		3							8				
-2301005	Holy Arrow	CLERIC	25	24				114		3							9				
-2301005	Holy Arrow	CLERIC	26	24				116		3							9				
-2301005	Holy Arrow	CLERIC	27	24				117		3							9				
-2301005	Holy Arrow	CLERIC	28	24				118		3							10				
-2301005	Holy Arrow	CLERIC	29	24				119		3							10				
-2301005	Holy Arrow	CLERIC	30	24				120		3							10				
+2301005	Holy Arrow	CLERIC	1	12				100		3							1				
+2301005	Holy Arrow	CLERIC	2	12				101		3							1				
+2301005	Holy Arrow	CLERIC	3	12				102		3							1				
+2301005	Holy Arrow	CLERIC	4	12				104		3							2				
+2301005	Holy Arrow	CLERIC	5	12				105		3							2				
+2301005	Holy Arrow	CLERIC	6	12				106		3							2				
+2301005	Holy Arrow	CLERIC	7	12				107		3							3				
+2301005	Holy Arrow	CLERIC	8	12				108		3							3				
+2301005	Holy Arrow	CLERIC	9	12				110		3							3				
+2301005	Holy Arrow	CLERIC	10	12				111		3							4				
+2301005	Holy Arrow	CLERIC	11	12				112		3							4				
+2301005	Holy Arrow	CLERIC	12	12				113		3							4				
+2301005	Holy Arrow	CLERIC	13	12				114		3							5				
+2301005	Holy Arrow	CLERIC	14	12				116		3							5				
+2301005	Holy Arrow	CLERIC	15	12				117		3							5				
+2301005	Holy Arrow	CLERIC	16	24				118		3							6				
+2301005	Holy Arrow	CLERIC	17	24				119		3							6				
+2301005	Holy Arrow	CLERIC	18	24				121		3							6				
+2301005	Holy Arrow	CLERIC	19	24				122		3							7				
+2301005	Holy Arrow	CLERIC	20	24				123		3							7				
+2301005	Holy Arrow	CLERIC	21	24				124		3							7				
+2301005	Holy Arrow	CLERIC	22	24				125		3							8				
+2301005	Holy Arrow	CLERIC	23	24				127		3							8				
+2301005	Holy Arrow	CLERIC	24	24				128		3							8				
+2301005	Holy Arrow	CLERIC	25	24				129		3							9				
+2301005	Holy Arrow	CLERIC	26	24				130		3							9				
+2301005	Holy Arrow	CLERIC	27	24				131		3							9				
+2301005	Holy Arrow	CLERIC	28	24				133		3							10				
+2301005	Holy Arrow	CLERIC	29	24				134		3							10				
+2301005	Holy Arrow	CLERIC	30	24				135		3							10				
 2310000	Elemental Resistance	PRIEST	1										12								
 2310000	Elemental Resistance	PRIEST	2										14								
 2310000	Elemental Resistance	PRIEST	3										16								
@@ -3747,36 +3747,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2311003	Holy Symbol	PRIEST	28	78							1680		48								
 2311003	Holy Symbol	PRIEST	29	79							1740		49								
 2311003	Holy Symbol	PRIEST	30	80							1800		50								
-2311004	Shining Ray	PRIEST	1	21				132		6							1				
-2311004	Shining Ray	PRIEST	2	22				133		6							1				
-2311004	Shining Ray	PRIEST	3	23				134		6							1				
-2311004	Shining Ray	PRIEST	4	24				135		6							2				
-2311004	Shining Ray	PRIEST	5	25				137		6							2				
-2311004	Shining Ray	PRIEST	6	26				138		6							2				
-2311004	Shining Ray	PRIEST	7	27				139		6							3				
-2311004	Shining Ray	PRIEST	8	28				140		6							3				
-2311004	Shining Ray	PRIEST	9	29				141		6							3				
-2311004	Shining Ray	PRIEST	10	30				142		6							4				
-2311004	Shining Ray	PRIEST	11	31				143		6							4				
-2311004	Shining Ray	PRIEST	12	32				145		6							4				
-2311004	Shining Ray	PRIEST	13	33				146		6							5				
-2311004	Shining Ray	PRIEST	14	34				147		6							5				
-2311004	Shining Ray	PRIEST	15	35				148		6							5				
-2311004	Shining Ray	PRIEST	16	36				149		6							6				
-2311004	Shining Ray	PRIEST	17	37				150		6							6				
-2311004	Shining Ray	PRIEST	18	38				151		6							6				
-2311004	Shining Ray	PRIEST	19	39				152		6							7				
-2311004	Shining Ray	PRIEST	20	40				154		6							7				
-2311004	Shining Ray	PRIEST	21	41				155		6							7				
-2311004	Shining Ray	PRIEST	22	42				156		6							8				
-2311004	Shining Ray	PRIEST	23	43				157		6							8				
-2311004	Shining Ray	PRIEST	24	44				158		6							8				
-2311004	Shining Ray	PRIEST	25	45				159		6							9				
-2311004	Shining Ray	PRIEST	26	46				160		6							9				
-2311004	Shining Ray	PRIEST	27	47				162		6							9				
-2311004	Shining Ray	PRIEST	28	48				163		6							10				
-2311004	Shining Ray	PRIEST	29	49				164		6							10				
-2311004	Shining Ray	PRIEST	30	50				165		6							10				
+2311004	Shining Ray	PRIEST	1	21				160		6							1				
+2311004	Shining Ray	PRIEST	2	22				161		6							1				
+2311004	Shining Ray	PRIEST	3	23				163		6							1				
+2311004	Shining Ray	PRIEST	4	24				164		6							2				
+2311004	Shining Ray	PRIEST	5	25				166		6							2				
+2311004	Shining Ray	PRIEST	6	26				167		6							2				
+2311004	Shining Ray	PRIEST	7	27				168		6							3				
+2311004	Shining Ray	PRIEST	8	28				170		6							3				
+2311004	Shining Ray	PRIEST	9	29				171		6							3				
+2311004	Shining Ray	PRIEST	10	30				172		6							4				
+2311004	Shining Ray	PRIEST	11	31				174		6							4				
+2311004	Shining Ray	PRIEST	12	32				175		6							4				
+2311004	Shining Ray	PRIEST	13	33				177		6							5				
+2311004	Shining Ray	PRIEST	14	34				178		6							5				
+2311004	Shining Ray	PRIEST	15	35				179		6							5				
+2311004	Shining Ray	PRIEST	16	36				181		6							6				
+2311004	Shining Ray	PRIEST	17	37				182		6							6				
+2311004	Shining Ray	PRIEST	18	38				183		6							6				
+2311004	Shining Ray	PRIEST	19	39				185		6							7				
+2311004	Shining Ray	PRIEST	20	40				186		6							7				
+2311004	Shining Ray	PRIEST	21	41				188		6							7				
+2311004	Shining Ray	PRIEST	22	42				189		6							8				
+2311004	Shining Ray	PRIEST	23	43				190		6							8				
+2311004	Shining Ray	PRIEST	24	44				192		6							8				
+2311004	Shining Ray	PRIEST	25	45				193		6							9				
+2311004	Shining Ray	PRIEST	26	46				194		6							9				
+2311004	Shining Ray	PRIEST	27	47				196		6							9				
+2311004	Shining Ray	PRIEST	28	48				197		6							10				
+2311004	Shining Ray	PRIEST	29	49				199		6							10				
+2311004	Shining Ray	PRIEST	30	50				200		6							10				
 2311005	Doom	PRIEST	1	88						6	5					52					itemCon=4006000 itemConNo=1
 2311005	Doom	PRIEST	2	86						6	6					54					itemCon=4006000 itemConNo=1
 2311005	Doom	PRIEST	3	84						6	6					56					itemCon=4006000 itemConNo=1
@@ -4027,36 +4027,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 2321006	Resurrection	BISHOP	8	50								2160									
 2321006	Resurrection	BISHOP	9	45								1980									
 2321006	Resurrection	BISHOP	10	40								1800									
-2321007	Angel Ray	BISHOP	1	16				144									1				
-2321007	Angel Ray	BISHOP	2	16				147									1				
-2321007	Angel Ray	BISHOP	3	16				151									1				
-2321007	Angel Ray	BISHOP	4	16				154									2				
-2321007	Angel Ray	BISHOP	5	16				157									2				
-2321007	Angel Ray	BISHOP	6	16				161									2				
-2321007	Angel Ray	BISHOP	7	16				164									3				
-2321007	Angel Ray	BISHOP	8	16				167									3				
-2321007	Angel Ray	BISHOP	9	16				170									3				
-2321007	Angel Ray	BISHOP	10	16				174									4				
-2321007	Angel Ray	BISHOP	11	24				177									4				
-2321007	Angel Ray	BISHOP	12	24				180									4				
-2321007	Angel Ray	BISHOP	13	24				184									5				
-2321007	Angel Ray	BISHOP	14	24				187									5				
-2321007	Angel Ray	BISHOP	15	24				190									5				
-2321007	Angel Ray	BISHOP	16	24				194									6				
-2321007	Angel Ray	BISHOP	17	24				197									6				
-2321007	Angel Ray	BISHOP	18	24				200									6				
-2321007	Angel Ray	BISHOP	19	24				204									7				
-2321007	Angel Ray	BISHOP	20	24				207									7				
-2321007	Angel Ray	BISHOP	21	30				210									7				
-2321007	Angel Ray	BISHOP	22	30				214									8				
-2321007	Angel Ray	BISHOP	23	30				217									8				
-2321007	Angel Ray	BISHOP	24	30				220									8				
-2321007	Angel Ray	BISHOP	25	30				223									9				
-2321007	Angel Ray	BISHOP	26	29				227									9				
-2321007	Angel Ray	BISHOP	27	28				230									9				
-2321007	Angel Ray	BISHOP	28	27				233									10				
-2321007	Angel Ray	BISHOP	29	26				237									10				
-2321007	Angel Ray	BISHOP	30	25				240									10				
+2321007	Angel Ray	BISHOP	1	16				250									1				
+2321007	Angel Ray	BISHOP	2	16				252									1				
+2321007	Angel Ray	BISHOP	3	16				255									1				
+2321007	Angel Ray	BISHOP	4	16				257									2				
+2321007	Angel Ray	BISHOP	5	16				260									2				
+2321007	Angel Ray	BISHOP	6	16				262									2				
+2321007	Angel Ray	BISHOP	7	16				264									3				
+2321007	Angel Ray	BISHOP	8	16				267									3				
+2321007	Angel Ray	BISHOP	9	16				269									3				
+2321007	Angel Ray	BISHOP	10	16				272									4				
+2321007	Angel Ray	BISHOP	11	24				274									4				
+2321007	Angel Ray	BISHOP	12	24				277									4				
+2321007	Angel Ray	BISHOP	13	24				279									5				
+2321007	Angel Ray	BISHOP	14	24				281									5				
+2321007	Angel Ray	BISHOP	15	24				284									5				
+2321007	Angel Ray	BISHOP	16	24				286									6				
+2321007	Angel Ray	BISHOP	17	24				289									6				
+2321007	Angel Ray	BISHOP	18	24				291									6				
+2321007	Angel Ray	BISHOP	19	24				293									7				
+2321007	Angel Ray	BISHOP	20	24				296									7				
+2321007	Angel Ray	BISHOP	21	30				298									7				
+2321007	Angel Ray	BISHOP	22	30				301									8				
+2321007	Angel Ray	BISHOP	23	30				303									8				
+2321007	Angel Ray	BISHOP	24	30				306									8				
+2321007	Angel Ray	BISHOP	25	30				308									9				
+2321007	Angel Ray	BISHOP	26	29				310									9				
+2321007	Angel Ray	BISHOP	27	28				313									9				
+2321007	Angel Ray	BISHOP	28	27				315									10				
+2321007	Angel Ray	BISHOP	29	26				318									10				
+2321007	Angel Ray	BISHOP	30	25				320									10				
 2321008	Genesis	BISHOP	1	2100				430		15							10				
 2321008	Genesis	BISHOP	2	2200				440		15							10				
 2321008	Genesis	BISHOP	3	2300				450		15							10				
@@ -5614,36 +5614,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 4111001	Meso Up	HERMIT	18	60							1620		146								
 4111001	Meso Up	HERMIT	19	60							1710		148								
 4111001	Meso Up	HERMIT	20	60							1800		150								
-4111002	Shadow Partner	HERMIT	1	200							60		20	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	2	195							120		24	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	3	190							180		28	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	4	185							240		31	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	5	180							300		34	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	6	175							360		37	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	7	170							420		40	21							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	8	165							480		43	22							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	9	160							540		46	23							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	10	155							600		49	24							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	11	150							660		52	25							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	12	145							720		54	26							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	13	140							780		56	27							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	14	135							840		58	28							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	15	130							900		60	29							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	16	125							960		62	30							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	17	120							1020		64	31							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	18	115							1080		66	32							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	19	110							1140		68	33							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	20	105							1200		70	34							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	21	100							1260		71	35							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	22	95							1320		72	36							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	23	90							1380		73	37							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	24	85							1440		74	38							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	25	80							1500		75	40							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	26	75							1560		76	42							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	27	70							1620		77	44							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	28	65							1680		78	46							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	29	60							1740		79	48							itemCon=4006001 itemConNo=1
-4111002	Shadow Partner	HERMIT	30	55							1800		80	50							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	1	200							60		20	45							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	2	195							120		24	46							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	3	190							180		28	47							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	4	185							240		31	48							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	5	180							300		34	48							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	6	175							360		37	49							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	7	170							420		40	50							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	8	165							480		43	51							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	9	160							540		46	52							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	10	155							600		49	53							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	11	150							660		52	54							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	12	145							720		54	54							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	13	140							780		56	55							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	14	135							840		58	56							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	15	130							900		60	57							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	16	125							960		62	58							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	17	120							1020		64	59							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	18	115							1080		66	60							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	19	110							1140		68	61							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	20	105							1200		70	61							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	21	100							1260		71	62							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	22	95							1320		72	63							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	23	90							1380		73	64							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	24	85							1440		74	65							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	25	80							1500		75	66							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	26	75							1560		76	67							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	27	70							1620		77	67							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	28	65							1680		78	68							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	29	60							1740		79	69							itemCon=4006001 itemConNo=1
+4111002	Shadow Partner	HERMIT	30	55							1800		80	70							itemCon=4006001 itemConNo=1
 4111003	Shadow Web	HERMIT	1	10						6	5					42					
 4111003	Shadow Web	HERMIT	2	10						6	5					44					
 4111003	Shadow Web	HERMIT	3	10						6	5					46					
@@ -5694,36 +5694,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 4111004	Shadow Meso	HERMIT	28										50			10					moneyCon=540
 4111004	Shadow Meso	HERMIT	29										50			10					moneyCon=555
 4111004	Shadow Meso	HERMIT	30										50			10					moneyCon=570
-4111005	Avenger	HERMIT	1	16		120				4											bulletConsume=3
-4111005	Avenger	HERMIT	2	16		123				4											bulletConsume=3
-4111005	Avenger	HERMIT	3	16		126				4											bulletConsume=3
-4111005	Avenger	HERMIT	4	16		128				4											bulletConsume=3
-4111005	Avenger	HERMIT	5	16		131				4											bulletConsume=3
-4111005	Avenger	HERMIT	6	16		134				4											bulletConsume=3
-4111005	Avenger	HERMIT	7	16		137				4											bulletConsume=3
-4111005	Avenger	HERMIT	8	16		139				4											bulletConsume=3
-4111005	Avenger	HERMIT	9	16		142				4											bulletConsume=3
-4111005	Avenger	HERMIT	10	16		145				4											bulletConsume=3
-4111005	Avenger	HERMIT	11	23		148				5											bulletConsume=3
-4111005	Avenger	HERMIT	12	23		150				5											bulletConsume=3
-4111005	Avenger	HERMIT	13	23		153				5											bulletConsume=3
-4111005	Avenger	HERMIT	14	23		156				5											bulletConsume=3
-4111005	Avenger	HERMIT	15	23		159				5											bulletConsume=3
-4111005	Avenger	HERMIT	16	23		161				5											bulletConsume=3
-4111005	Avenger	HERMIT	17	23		164				5											bulletConsume=3
-4111005	Avenger	HERMIT	18	23		167				5											bulletConsume=3
-4111005	Avenger	HERMIT	19	23		170				5											bulletConsume=3
-4111005	Avenger	HERMIT	20	23		172				5											bulletConsume=3
-4111005	Avenger	HERMIT	21	30		175				6											bulletConsume=3
-4111005	Avenger	HERMIT	22	30		178				6											bulletConsume=3
-4111005	Avenger	HERMIT	23	30		181				6											bulletConsume=3
-4111005	Avenger	HERMIT	24	30		183				6											bulletConsume=3
-4111005	Avenger	HERMIT	25	30		186				6											bulletConsume=3
-4111005	Avenger	HERMIT	26	30		189				6											bulletConsume=3
-4111005	Avenger	HERMIT	27	30		192				6											bulletConsume=3
-4111005	Avenger	HERMIT	28	30		194				6											bulletConsume=3
-4111005	Avenger	HERMIT	29	30		197				6											bulletConsume=3
-4111005	Avenger	HERMIT	30	30		200				6											bulletConsume=3
+4111005	Avenger	HERMIT	1	16		105				4											bulletConsume=3
+4111005	Avenger	HERMIT	2	16		107				4											bulletConsume=3
+4111005	Avenger	HERMIT	3	16		110				4											bulletConsume=3
+4111005	Avenger	HERMIT	4	16		112				4											bulletConsume=3
+4111005	Avenger	HERMIT	5	16		115				4											bulletConsume=3
+4111005	Avenger	HERMIT	6	16		117				4											bulletConsume=3
+4111005	Avenger	HERMIT	7	16		119				4											bulletConsume=3
+4111005	Avenger	HERMIT	8	16		122				4											bulletConsume=3
+4111005	Avenger	HERMIT	9	16		124				4											bulletConsume=3
+4111005	Avenger	HERMIT	10	16		127				4											bulletConsume=3
+4111005	Avenger	HERMIT	11	23		129				5											bulletConsume=3
+4111005	Avenger	HERMIT	12	23		132				5											bulletConsume=3
+4111005	Avenger	HERMIT	13	23		134				5											bulletConsume=3
+4111005	Avenger	HERMIT	14	23		136				5											bulletConsume=3
+4111005	Avenger	HERMIT	15	23		139				5											bulletConsume=3
+4111005	Avenger	HERMIT	16	23		141				5											bulletConsume=3
+4111005	Avenger	HERMIT	17	23		144				5											bulletConsume=3
+4111005	Avenger	HERMIT	18	23		146				5											bulletConsume=3
+4111005	Avenger	HERMIT	19	23		148				5											bulletConsume=3
+4111005	Avenger	HERMIT	20	23		151				5											bulletConsume=3
+4111005	Avenger	HERMIT	21	30		153				6											bulletConsume=3
+4111005	Avenger	HERMIT	22	30		156				6											bulletConsume=3
+4111005	Avenger	HERMIT	23	30		158				6											bulletConsume=3
+4111005	Avenger	HERMIT	24	30		161				6											bulletConsume=3
+4111005	Avenger	HERMIT	25	30		163				6											bulletConsume=3
+4111005	Avenger	HERMIT	26	30		165				6											bulletConsume=3
+4111005	Avenger	HERMIT	27	30		168				6											bulletConsume=3
+4111005	Avenger	HERMIT	28	30		170				6											bulletConsume=3
+4111005	Avenger	HERMIT	29	30		173				6											bulletConsume=3
+4111005	Avenger	HERMIT	30	30		175				6											bulletConsume=3
 4111006	Flash Jump	HERMIT	1	60																	
 4111006	Flash Jump	HERMIT	2	57																	
 4111006	Flash Jump	HERMIT	3	54																	
@@ -6099,36 +6099,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 4201004	Steal	BANDIT	28	24		97				5						38					
 4201004	Steal	BANDIT	29	24		99				5						39					
 4201004	Steal	BANDIT	30	24		100				6						40					
-4201005	Savage Blow	BANDIT	1	15		60			6												
-4201005	Savage Blow	BANDIT	2	15		61			6												
-4201005	Savage Blow	BANDIT	3	15		63			6												
-4201005	Savage Blow	BANDIT	4	15		64			6												
-4201005	Savage Blow	BANDIT	5	15		66			6												
-4201005	Savage Blow	BANDIT	6	15		67			6												
-4201005	Savage Blow	BANDIT	7	15		68			6												
-4201005	Savage Blow	BANDIT	8	15		70			6												
-4201005	Savage Blow	BANDIT	9	15		71			6												
-4201005	Savage Blow	BANDIT	10	15		72			6												
-4201005	Savage Blow	BANDIT	11	18		74			6												
-4201005	Savage Blow	BANDIT	12	18		75			6												
-4201005	Savage Blow	BANDIT	13	18		77			6												
-4201005	Savage Blow	BANDIT	14	18		78			6												
-4201005	Savage Blow	BANDIT	15	18		79			6												
-4201005	Savage Blow	BANDIT	16	18		81			6												
-4201005	Savage Blow	BANDIT	17	18		82			6												
-4201005	Savage Blow	BANDIT	18	18		83			6												
-4201005	Savage Blow	BANDIT	19	18		85			6												
-4201005	Savage Blow	BANDIT	20	18		86			6												
-4201005	Savage Blow	BANDIT	21	27		88			6												
-4201005	Savage Blow	BANDIT	22	27		89			6												
-4201005	Savage Blow	BANDIT	23	27		90			6												
-4201005	Savage Blow	BANDIT	24	27		92			6												
-4201005	Savage Blow	BANDIT	25	27		93			6												
-4201005	Savage Blow	BANDIT	26	27		94			6												
-4201005	Savage Blow	BANDIT	27	27		96			6												
-4201005	Savage Blow	BANDIT	28	27		97			6												
-4201005	Savage Blow	BANDIT	29	27		99			6												
-4201005	Savage Blow	BANDIT	30	27		100			6												
+4201005	Savage Blow	BANDIT	1	15		59			6												
+4201005	Savage Blow	BANDIT	2	15		60			6												
+4201005	Savage Blow	BANDIT	3	15		61			6												
+4201005	Savage Blow	BANDIT	4	15		62			6												
+4201005	Savage Blow	BANDIT	5	15		63			6												
+4201005	Savage Blow	BANDIT	6	15		63			6												
+4201005	Savage Blow	BANDIT	7	15		64			6												
+4201005	Savage Blow	BANDIT	8	15		65			6												
+4201005	Savage Blow	BANDIT	9	15		66			6												
+4201005	Savage Blow	BANDIT	10	15		67			6												
+4201005	Savage Blow	BANDIT	11	18		68			6												
+4201005	Savage Blow	BANDIT	12	18		69			6												
+4201005	Savage Blow	BANDIT	13	18		70			6												
+4201005	Savage Blow	BANDIT	14	18		71			6												
+4201005	Savage Blow	BANDIT	15	18		72			6												
+4201005	Savage Blow	BANDIT	16	18		72			6												
+4201005	Savage Blow	BANDIT	17	18		73			6												
+4201005	Savage Blow	BANDIT	18	18		74			6												
+4201005	Savage Blow	BANDIT	19	18		75			6												
+4201005	Savage Blow	BANDIT	20	18		76			6												
+4201005	Savage Blow	BANDIT	21	27		77			6												
+4201005	Savage Blow	BANDIT	22	27		78			6												
+4201005	Savage Blow	BANDIT	23	27		79			6												
+4201005	Savage Blow	BANDIT	24	27		80			6												
+4201005	Savage Blow	BANDIT	25	27		81			6												
+4201005	Savage Blow	BANDIT	26	27		81			6												
+4201005	Savage Blow	BANDIT	27	27		82			6												
+4201005	Savage Blow	BANDIT	28	27		83			6												
+4201005	Savage Blow	BANDIT	29	27		84			6												
+4201005	Savage Blow	BANDIT	30	27		85			6												
 4210000	Shield Mastery	CHIEFBANDIT	1										105								
 4210000	Shield Mastery	CHIEFBANDIT	2										110								
 4210000	Shield Mastery	CHIEFBANDIT	3										115								
@@ -6179,36 +6179,36 @@ skill_id	skill	job	level	mpCon	hpCon	damage	pad	mad	attackCount	mobCount	time	co
 4211001	Chakra	CHIEFBANDIT	28	27							1		72	284							
 4211001	Chakra	CHIEFBANDIT	29	27							1		71	292							
 4211001	Chakra	CHIEFBANDIT	30	27							1		70	300							
-4211002	Assaulter	CHIEFBANDIT	1	12		660				3	2					22					
-4211002	Assaulter	CHIEFBANDIT	2	12		666				3	2					24					
-4211002	Assaulter	CHIEFBANDIT	3	12		671				3	2					26					
-4211002	Assaulter	CHIEFBANDIT	4	12		677				3	2					28					
-4211002	Assaulter	CHIEFBANDIT	5	12		683				3	2					30					
-4211002	Assaulter	CHIEFBANDIT	6	12		688				3	2					32					
-4211002	Assaulter	CHIEFBANDIT	7	12		694				3	2					34					
-4211002	Assaulter	CHIEFBANDIT	8	12		700				3	2					36					
-4211002	Assaulter	CHIEFBANDIT	9	12		706				3	2					38					
-4211002	Assaulter	CHIEFBANDIT	10	12		711				3	2					40					
-4211002	Assaulter	CHIEFBANDIT	11	19		717				3	3					42					
-4211002	Assaulter	CHIEFBANDIT	12	19		723				3	3					44					
-4211002	Assaulter	CHIEFBANDIT	13	19		728				3	3					46					
-4211002	Assaulter	CHIEFBANDIT	14	19		734				3	3					48					
-4211002	Assaulter	CHIEFBANDIT	15	19		740				3	3					50					
-4211002	Assaulter	CHIEFBANDIT	16	19		745				3	3					52					
-4211002	Assaulter	CHIEFBANDIT	17	19		751				3	3					54					
-4211002	Assaulter	CHIEFBANDIT	18	19		757				3	3					56					
-4211002	Assaulter	CHIEFBANDIT	19	19		762				3	3					58					
-4211002	Assaulter	CHIEFBANDIT	20	19		768				3	3					60					
-4211002	Assaulter	CHIEFBANDIT	21	26		774				3	4					62					
-4211002	Assaulter	CHIEFBANDIT	22	26		779				3	4					64					
-4211002	Assaulter	CHIEFBANDIT	23	26		785				3	4					66					
-4211002	Assaulter	CHIEFBANDIT	24	26		791				3	4					68					
-4211002	Assaulter	CHIEFBANDIT	25	26		797				3	4					70					
-4211002	Assaulter	CHIEFBANDIT	26	26		802				3	4					72					
-4211002	Assaulter	CHIEFBANDIT	27	26		808				3	4					74					
-4211002	Assaulter	CHIEFBANDIT	28	26		814				3	4					76					
-4211002	Assaulter	CHIEFBANDIT	29	26		819				3	4					78					
-4211002	Assaulter	CHIEFBANDIT	30	26		825				3	4					80					
+4211002	Assaulter	CHIEFBANDIT	1	12		561				3	2					22					
+4211002	Assaulter	CHIEFBANDIT	2	12		566				3	2					24					
+4211002	Assaulter	CHIEFBANDIT	3	12		571				3	2					26					
+4211002	Assaulter	CHIEFBANDIT	4	12		575				3	2					28					
+4211002	Assaulter	CHIEFBANDIT	5	12		580				3	2					30					
+4211002	Assaulter	CHIEFBANDIT	6	12		585				3	2					32					
+4211002	Assaulter	CHIEFBANDIT	7	12		590				3	2					34					
+4211002	Assaulter	CHIEFBANDIT	8	12		595				3	2					36					
+4211002	Assaulter	CHIEFBANDIT	9	12		600				3	2					38					
+4211002	Assaulter	CHIEFBANDIT	10	12		604				3	2					40					
+4211002	Assaulter	CHIEFBANDIT	11	19		609				3	3					42					
+4211002	Assaulter	CHIEFBANDIT	12	19		614				3	3					44					
+4211002	Assaulter	CHIEFBANDIT	13	19		619				3	3					46					
+4211002	Assaulter	CHIEFBANDIT	14	19		624				3	3					48					
+4211002	Assaulter	CHIEFBANDIT	15	19		629				3	3					50					
+4211002	Assaulter	CHIEFBANDIT	16	19		633				3	3					52					
+4211002	Assaulter	CHIEFBANDIT	17	19		638				3	3					54					
+4211002	Assaulter	CHIEFBANDIT	18	19		643				3	3					56					
+4211002	Assaulter	CHIEFBANDIT	19	19		648				3	3					58					
+4211002	Assaulter	CHIEFBANDIT	20	19		653				3	3					60					
+4211002	Assaulter	CHIEFBANDIT	21	26		658				3	4					62					
+4211002	Assaulter	CHIEFBANDIT	22	26		662				3	4					64					
+4211002	Assaulter	CHIEFBANDIT	23	26		667				3	4					66					
+4211002	Assaulter	CHIEFBANDIT	24	26		672				3	4					68					
+4211002	Assaulter	CHIEFBANDIT	25	26		677				3	4					70					
+4211002	Assaulter	CHIEFBANDIT	26	26		682				3	4					72					
+4211002	Assaulter	CHIEFBANDIT	27	26		687				3	4					74					
+4211002	Assaulter	CHIEFBANDIT	28	26		691				3	4					76					
+4211002	Assaulter	CHIEFBANDIT	29	26		696				3	4					78					
+4211002	Assaulter	CHIEFBANDIT	30	26		701				3	4					80					
 4211003	Pickpocket	CHIEFBANDIT	1	31							90		105			22					
 4211003	Pickpocket	CHIEFBANDIT	2	32							180		110			24					
 4211003	Pickpocket	CHIEFBANDIT	3	33							270		115			26					

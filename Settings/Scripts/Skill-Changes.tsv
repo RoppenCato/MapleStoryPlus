@@ -237,26 +237,16 @@ skill_id	skill	field	value	why
 1321003	Rush (Darkknight)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
 2001004	Energy Bolt (Magician)	mad	round(33 + 22*(L-1)/(M-1))	Damage rules: 33 at level 1 to 55 at max (was 20 to 55)
 2001005	Magic Claw (Magician)	mad	round(24 + 16*(L-1)/(M-1))	Damage rules: 24 at level 1 to 40 at max per hit (was 11 to 40)
-2101004	Fire Arrow (FpWizard)	mad	round(88 + 32*(L-1)/(M-1))	Damage rules: 88 at level 1 to 120 at max (was 33 to 120)
 2101005	Poison Breath (FpWizard)	mad	round(61 + 15*(L-1)/(M-1))	Damage rules: 61 at level 1 to 76 at max (was 12 to 70)
 2111002	Explosion (FpMage)	mad	round(84 + 36*(L-1)/(M-1))	Damage rules: 84 at level 1 to 120 at max (was 60 to 120)
 2111003	Poison Mist (FpMage)	mad	round(54 + 36*(L-1)/(M-1))	Damage rules: 54 at level 1 to 90 at max (was 32 to 90)
-2111006	Element Composition (FpMage)	mad	round(132 + 33*(L-1)/(M-1))	Damage rules: 132 at level 1 to 165 at max (was 80 to 150)
 2121001	Big Bang (FpArchmage)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
 2121003	Fire Demon (FpArchmage)	mad	round(72 + 48*(L-1)/(M-1))	Damage rules: 72 at level 1 to 120 at max (was 62 to 120)
-2121006	Paralyze (FpArchmage)	mad	round(182 + 58*(L-1)/(M-1))	Damage rules: 182 at level 1 to 240 at max (was 152 to 240)
-2201004	Cold Beam (IlWizard)	mad	round(88 + 22*(L-1)/(M-1))	Damage rules: 88 at level 1 to 110 at max (was 13 to 100)
 2201005	Thunder Bolt (IlWizard)	mad	round(61 + 15*(L-1)/(M-1))	Damage rules: 61 at level 1 to 76 at max (was 2 to 60)
 2211002	Ice Strike (IlMage)	mad	round(84 + 20*(L-1)/(M-1))	Damage rules: 84 at level 1 to 104 at max (was 32 to 90)
-2211003	Thunder Spear (IlMage)	mad	round(121 + 49*(L-1)/(M-1))	Damage rules: 121 at level 1 to 170 at max (was 80 to 170)
-2211006	Element Composition (IlMage)	mad	round(121 + 30*(L-1)/(M-1))	Damage rules: 121 at level 1 to 151 at max (was 80 to 140)
 2221001	Big Bang (IlArchmage)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
 2221003	Ice Demon (IlArchmage)	mad	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
-2221006	Chain Lightning (IlArchmage)	mad	round(187 + 47*(L-1)/(M-1))	Damage rules: 187 at level 1 to 234 at max (was 120 to 210)
-2301005	Holy Arrow (Cleric)	mad	round(88 + 32*(L-1)/(M-1))	Damage rules: 88 at level 1 to 120 at max (was 33 to 120)
-2311004	Shining Ray (Priest)	mad	round(132 + 33*(L-1)/(M-1))	Damage rules: 132 at level 1 to 165 at max (was 60 to 105)
 2321001	Big Bang (Bishop)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
-2321007	Angel Ray (Bishop)	mad	round(144 + 96*(L-1)/(M-1))	Damage rules: 144 at level 1 to 240 at max (was 123 to 240)
 3101003	Power Knock-Back (Hunter)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 105 to 200)
 3111003	Inferno (Ranger)	damage	round(90 + 60*(L-1)/(M-1))	Damage rules: 90 at level 1 to 150 at max (was 50 to 150)
 3111004	Arrow Rain (Ranger)	damage	round(96 + 64*(L-1)/(M-1))	Damage rules: 96 at level 1 to 160 at max (was 60 to 160)
@@ -268,12 +258,9 @@ skill_id	skill	field	value	why
 3221001	Piercing Arrow (Marksman)	damage	round(510 + 340*(L-1)/(M-1))	Damage rules: 510 at level 1 to 850 at max (was 320 to 850)
 3221003	Dragon's Breath (Marksman)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
 4001344	Lucky Seven (Thief)	damage	round(90 + 60*(L-1)/(M-1))	Damage rules: 90 at level 1 to 150 at max per hit (was 58 to 150)
-4111005	Avenger (Hermit)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 72 to 200)
 4121007	Triple Throw (Nightlord)	damage	round(110 + 40*(L-1)/(M-1))	Damage rules: 110 at level 1 to 150 at max per hit (was 102 to 150)
 4121008	Ninja Storm (Nightlord)	damage	round(48 + 32*(L-1)/(M-1))	Damage rules: 48 at level 1 to 80 at max (was 42 to 80)
 4201004	Steal (Bandit)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
-4201005	Savage Blow (Bandit)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max per hit (was 55 to 100)
-4211002	Assaulter (Chiefbandit)	damage	round(660 + 165*(L-1)/(M-1))	Damage rules: 660 at level 1 to 825 at max (was 210 to 450)
 4211004	Band of Thieves (Chiefbandit)	damage	round(150 + 100*(L-1)/(M-1))	Damage rules: 150 at level 1 to 250 at max (was 131 to 250)
 4221001	Assassinate (Shadower)	damage	round(360 + 240*(L-1)/(M-1))	Damage rules: 360 at level 1 to 600 at max per hit (was 170 to 600)
 4221007	Boomerang Step (Shadower)	damage	round(300 + 200*(L-1)/(M-1))	Damage rules: 300 at level 1 to 500 at max per hit (was 260 to 500)
@@ -301,3 +288,18 @@ skill_id	skill	field	value	why
 5221008	Battleship Torpedo (Corsair)	damage	round(468 + 312*(L-1)/(M-1))	Damage rules: 468 at level 1 to 780 at max (was 390 to 780)
 # Round 4: critical hits. Every class without its own crit gets a flat 40% for 150% (server code); the bowman's Critical Shot goes to 50% so bowmen stay ahead.
 3000001	Critical Shot (Bowman)	prop	max(V, 50*L//M)	Critical Shot: 50% chance at max (was 40%)
+# Round 5 (2026-10-11): the second review pass, after the damage simulator. Magician single-target spells up, Savage Blow and Assaulter down, Shadow Partner up and Avenger down. These rows replace the Round 4 rows for the same skills.
+2101004	Fire Arrow (FpWizard)	mad	round(115 + 40*(L-1)/(M-1))	Second pass: 115 to 155; the wizard was at 65% of a Hunter on one monster
+2201004	Cold Beam (IlWizard)	mad	round(105 + 35*(L-1)/(M-1))	Second pass: 105 to 140; about 90% of Fire Arrow, and it freezes
+2301005	Holy Arrow (Cleric)	mad	round(100 + 35*(L-1)/(M-1))	Second pass: 100 to 135; kept below the wizards
+2111006	Element Composition (FpMage)	mad	round(175 + 40*(L-1)/(M-1))	Second pass: 175 to 215
+2211003	Thunder Spear (IlMage)	mad	round(165 + 45*(L-1)/(M-1))	Second pass: 165 to 210; the pure damage spell
+2211006	Element Composition (IlMage)	mad	round(155 + 40*(L-1)/(M-1))	Second pass: 155 to 195; weaker but two elements
+2311004	Shining Ray (Priest)	mad	round(160 + 40*(L-1)/(M-1))	Second pass: 160 to 200; the priest's attack for everything
+2121006	Paralyze (FpArchmage)	mad	round(240 + 60*(L-1)/(M-1))	Second pass: 240 to 300
+2221006	Chain Lightning (IlArchmage)	mad	round(235 + 45*(L-1)/(M-1))	Second pass: 235 to 280; below Paralyze because it hits six
+2321007	Angel Ray (Bishop)	mad	round(250 + 70*(L-1)/(M-1))	Second pass: 250 to 320; the Bishop has no Element Amplification
+4201005	Savage Blow (Bandit)	damage	round(59 + 26*(L-1)/(M-1))	Second pass: six hits of 59% to 85%; the bandit was 40% ahead of a Fighter
+4211002	Assaulter (Chiefbandit)	damage	round(561 + 140*(L-1)/(M-1))	Second pass: follows Savage Blow down through the new-beats-old rule
+4111005	Avenger (Hermit)	damage	round(105 + 70*(L-1)/(M-1))	Second pass: 175% at max, cancels out the stronger Shadow Partner on groups
+4111002	Shadow Partner (Hermit)	y	round(45 + 25*(L-1)/(M-1))	Second pass: the shadow repeats a skill at 45% to 70% of its damage (was 21% to 50%)

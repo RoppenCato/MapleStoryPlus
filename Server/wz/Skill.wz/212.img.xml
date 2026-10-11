@@ -2578,7 +2578,7 @@
         <imgdir name="1">
           <string name="hs" value="h1"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="182"/>
+          <int name="mad" value="240"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2586,7 +2586,7 @@
         <imgdir name="2">
           <string name="hs" value="h2"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="184"/>
+          <int name="mad" value="242"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2594,7 +2594,7 @@
         <imgdir name="3">
           <string name="hs" value="h3"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="186"/>
+          <int name="mad" value="244"/>
           <int name="mastery" value="1"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2602,7 +2602,7 @@
         <imgdir name="4">
           <string name="hs" value="h4"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="188"/>
+          <int name="mad" value="246"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2610,7 +2610,7 @@
         <imgdir name="5">
           <string name="hs" value="h5"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="190"/>
+          <int name="mad" value="248"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2618,7 +2618,7 @@
         <imgdir name="6">
           <string name="hs" value="h6"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="192"/>
+          <int name="mad" value="250"/>
           <int name="mastery" value="2"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2626,7 +2626,7 @@
         <imgdir name="7">
           <string name="hs" value="h7"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="194"/>
+          <int name="mad" value="252"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2634,7 +2634,7 @@
         <imgdir name="8">
           <string name="hs" value="h8"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="196"/>
+          <int name="mad" value="254"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2642,7 +2642,7 @@
         <imgdir name="9">
           <string name="hs" value="h9"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="198"/>
+          <int name="mad" value="257"/>
           <int name="mastery" value="3"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2650,7 +2650,7 @@
         <imgdir name="10">
           <string name="hs" value="h10"/>
           <int name="mpCon" value="16"/>
-          <int name="mad" value="200"/>
+          <int name="mad" value="259"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="100"/>
           <int name="time" value="5"/>
@@ -2658,7 +2658,7 @@
         <imgdir name="11">
           <string name="hs" value="h11"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="202"/>
+          <int name="mad" value="261"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2666,7 +2666,7 @@
         <imgdir name="12">
           <string name="hs" value="h12"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="204"/>
+          <int name="mad" value="263"/>
           <int name="mastery" value="4"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2674,7 +2674,7 @@
         <imgdir name="13">
           <string name="hs" value="h13"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="206"/>
+          <int name="mad" value="265"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2682,7 +2682,7 @@
         <imgdir name="14">
           <string name="hs" value="h14"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="208"/>
+          <int name="mad" value="267"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2690,7 +2690,7 @@
         <imgdir name="15">
           <string name="hs" value="h15"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="210"/>
+          <int name="mad" value="269"/>
           <int name="mastery" value="5"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2698,7 +2698,7 @@
         <imgdir name="16">
           <string name="hs" value="h16"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="212"/>
+          <int name="mad" value="271"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2706,7 +2706,7 @@
         <imgdir name="17">
           <string name="hs" value="h17"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="214"/>
+          <int name="mad" value="273"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2714,7 +2714,7 @@
         <imgdir name="18">
           <string name="hs" value="h18"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="216"/>
+          <int name="mad" value="275"/>
           <int name="mastery" value="6"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2722,7 +2722,7 @@
         <imgdir name="19">
           <string name="hs" value="h19"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="218"/>
+          <int name="mad" value="277"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2730,7 +2730,7 @@
         <imgdir name="20">
           <string name="hs" value="h20"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="220"/>
+          <int name="mad" value="279"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="100"/>
           <int name="time" value="10"/>
@@ -2738,7 +2738,7 @@
         <imgdir name="21">
           <string name="hs" value="h21"/>
           <int name="mpCon" value="30"/>
-          <int name="mad" value="222"/>
+          <int name="mad" value="281"/>
           <int name="mastery" value="7"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2746,7 +2746,7 @@
         <imgdir name="22">
           <string name="hs" value="h22"/>
           <int name="mpCon" value="30"/>
-          <int name="mad" value="224"/>
+          <int name="mad" value="283"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2754,7 +2754,7 @@
         <imgdir name="23">
           <string name="hs" value="h23"/>
           <int name="mpCon" value="30"/>
-          <int name="mad" value="226"/>
+          <int name="mad" value="286"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2762,7 +2762,7 @@
         <imgdir name="24">
           <string name="hs" value="h24"/>
           <int name="mpCon" value="30"/>
-          <int name="mad" value="228"/>
+          <int name="mad" value="288"/>
           <int name="mastery" value="8"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2770,7 +2770,7 @@
         <imgdir name="25">
           <string name="hs" value="h25"/>
           <int name="mpCon" value="30"/>
-          <int name="mad" value="230"/>
+          <int name="mad" value="290"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2778,7 +2778,7 @@
         <imgdir name="26">
           <string name="hs" value="h26"/>
           <int name="mpCon" value="29"/>
-          <int name="mad" value="232"/>
+          <int name="mad" value="292"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2786,7 +2786,7 @@
         <imgdir name="27">
           <string name="hs" value="h27"/>
           <int name="mpCon" value="28"/>
-          <int name="mad" value="234"/>
+          <int name="mad" value="294"/>
           <int name="mastery" value="9"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2794,7 +2794,7 @@
         <imgdir name="28">
           <string name="hs" value="h28"/>
           <int name="mpCon" value="27"/>
-          <int name="mad" value="236"/>
+          <int name="mad" value="296"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2802,7 +2802,7 @@
         <imgdir name="29">
           <string name="hs" value="h29"/>
           <int name="mpCon" value="26"/>
-          <int name="mad" value="238"/>
+          <int name="mad" value="298"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
@@ -2810,7 +2810,7 @@
         <imgdir name="30">
           <string name="hs" value="h30"/>
           <int name="mpCon" value="25"/>
-          <int name="mad" value="240"/>
+          <int name="mad" value="300"/>
           <int name="mastery" value="10"/>
           <int name="prop" value="100"/>
           <int name="time" value="15"/>
