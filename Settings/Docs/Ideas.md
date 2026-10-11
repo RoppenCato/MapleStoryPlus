@@ -64,7 +64,18 @@ One Free Market room has set shops that always sell what a player needs, so scro
 - Paid in mesos. No tokens: bosses give more mesos instead, plus their chance at good drops.
 - Stock is always there and prices are fixed in a list we control.
 
-To settle: which room, the price level, whether chaos, clean slate and white scrolls are sold, and what else the room sells besides scrolls.
+Other shops in the room (agreed 2026-10-11):
+
+| Shop | Sells | Not sold |
+|------|-------|----------|
+| Special scrolls | Chaos, clean slate and white scrolls, at a steep price. | |
+| Throwing stars and ammo | Some middle stars at a high price; arrows, bullets and capsules. | The best stars (Ilbi, Steely and the like). Those come from killing monsters. |
+| Potions | Elixirs, cures and attack potions. | |
+| Scrolling bases | The handful of standard items people scroll (Work Gloves, capes, earrings, shields). | |
+
+4th job skill books and mastery books are not sold for mesos. They are bought with a token that bosses give; see [Progression design](Progression-Design.md).
+
+To settle: which room, the price level, which stars count as middle, and where the token is spent.
 
 ## Movement and travel
 

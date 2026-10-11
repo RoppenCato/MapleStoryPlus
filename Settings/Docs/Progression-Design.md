@@ -4,7 +4,7 @@ How a solo player moves through the game: trials, tokens, job advancement and sk
 
 Related: [Bosses and party quests](Bosses-and-Party-Quests.md), [Class changes](Class-Changes.md), [Implementation list](Implementation-List.md) sections 5, 8 and 10.
 
-> **Changed 2026-10-11:** tokens are dropped. Bosses pay in mesos (more than now) and their normal drops, and mesos buy scrolls in a fixed Free Market room (see [Ideas](Ideas.md)). The token rows and the Tokens section below are kept for the record but no longer apply. Open: how 4th job skill books and mastery books are earned now that the mastery token is gone.
+> **Changed 2026-10-11:** the trial token is dropped. Scrolls and other supplies are bought with mesos in a fixed Free Market room (see [Ideas](Ideas.md)), and bosses pay more mesos than now, next to their normal drops. One token is kept, for 4th job skill books and mastery books only. Every boss on the way up gives some, and the hardest bosses give the most, so getting good enough for them pays off. Where the rows and the Tokens section below speak of a trial token or of tokens buying scrolls, they no longer apply.
 
 ## Decided
 
