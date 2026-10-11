@@ -2,7 +2,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2000		4031161	Rusty Screw	1	1	100	1008
 2000		4031162	Old Wooden Board	1	1	100	1008
 100100	Snail	4000019	Snail Shell	1	1	60	
-100100	Snail	0	(meso)	4	6	40	
+100100	Snail	0	(meso)	8	12	40	
 100100	Snail	2060000	Arrow for Bow	1	2	3	
 100100	Snail	2061000	Arrow for Crossbow	1	2	3	
 100100	Snail	2000000	Red Potion	1	1	2	
@@ -19,7 +19,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100100	Snail	2040002	Scroll for Helmet for DEF	1	1	0.03	
 100100	Snail	2041001	Scroll for Cape for Magic Def.	1	1	0.03	
 100101	Blue Snail	4000000	Blue Snail Shell	1	1	60	
-100101	Blue Snail	0	(meso)	8	12	40	
+100101	Blue Snail	0	(meso)	16	24	40	
 100101	Blue Snail	4030012	Monster Card	1	1	12.5	
 100101	Blue Snail	2060000	Arrow for Bow	2	3	3	
 100101	Blue Snail	2061000	Arrow for Crossbow	2	3	3	
@@ -38,29 +38,29 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100101	Blue Snail	2041043	Scroll for Cape for Magic DEF	1	1	0.075	
 100101	Blue Snail	1040006	Undershirt	1	1	0.07	
 100101	Blue Snail	2041006	Scroll for Cape for HP	1	1	0.03	
-100120	Tino	0	(meso)	1	5	40	
+100120	Tino	0	(meso)	2	10	40	
 100120	Tino	2061000	Arrow for Crossbow	1	2	1	
 100120	Tino	2060000	Arrow for Bow	1	2	1	
 100120	Tino	4003004	Stiff Feather	1	1	0.7	
 100120	Tino	4020000	Garnet Ore	1	1	0.7	
 100120	Tino	2010000	Apple	1	1	0.3	
-100121	Tiv	0	(meso)	10	14	40	
+100121	Tiv	0	(meso)	20	28	40	
 100121	Tiv	4000483	Tiv's Feather	1	1	40	
 100121	Tiv	2000000	Red Potion	1	1	4	
 100121	Tiv	2060000	Arrow for Bow	4	5	1	
 100121	Tiv	4003004	Stiff Feather	1	1	0.7	
-100122	Timu	0	(meso)	35	52	40	
+100122	Timu	0	(meso)	70	104	40	
 100122	Timu	2000000	Red Potion	1	1	4	
 100122	Timu	4003004	Stiff Feather	1	1	0.7	
 100122	Timu	4020002	AquaMarine Ore	1	1	0.7	
 100122	Timu	4010002	Mithril Ore	1	1	0.7	
 100122	Timu	1452002	War Bow	1	1	0.07	
-100123	Tiru	0	(meso)	38	55	40	
+100123	Tiru	0	(meso)	76	110	40	
 100123	Tiru	2000000	Red Potion	1	1	4	
 100123	Tiru	2061000	Arrow for Crossbow	9	12	1	
 100123	Tiru	4003004	Stiff Feather	1	1	0.7	
 100123	Tiru	4010003	Adamantium Ore	1	1	0.7	
-100124	Tiguru	0	(meso)	40	59	40	
+100124	Tiguru	0	(meso)	80	118	40	
 100124	Tiguru	2000000	Red Potion	1	1	4	
 100124	Tiguru	2060000	Arrow for Bow	11	14	1	
 100124	Tiguru	2061000	Arrow for Crossbow	11	14	1	
@@ -69,7 +69,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100124	Tiguru	4020004	Opal Ore	1	1	0.7	
 100124	Tiguru	2010009	Green Apple	1	1	0.3	
 100130	Muru	4000493	Muru's Furball	1	1	60	
-100130	Muru	0	(meso)	31	45	40	
+100130	Muru	0	(meso)	62	90	40	
 100130	Muru	2010000	Apple	1	1	2	
 100130	Muru	2010009	Green Apple	1	1	2	
 100130	Muru	4010005	Orihalcon Ore	1	1	0.9	
@@ -81,7 +81,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100130	Muru	1060007	Jean Capris	1	1	0.08	
 100130	Muru	2040003	Scroll for Helmet for HP	1	1	0.03	
 100131	Murupa	4000494	Murupa's Furball	1	1	60	
-100131	Murupa	0	(meso)	33	49	40	
+100131	Murupa	0	(meso)	66	98	40	
 100131	Murupa	2000000	Red Potion	1	1	2	
 100131	Murupa	2010009	Green Apple	1	1	2	
 100131	Murupa	4010006	Gold Ore	1	1	0.9	
@@ -97,7 +97,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100131	Murupa	2040400	Scroll for Topwear for DEF	1	1	0.03	
 100131	Murupa	2040618	Scroll for Bottomwear for Jump 60%	1	1	0.03	
 100132	Murupia	4000495	Murupia's Furball	1	1	60	
-100132	Murupia	0	(meso)	35	52	40	
+100132	Murupia	0	(meso)	70	104	40	
 100132	Murupia	2000000	Red Potion	1	1	2	
 100132	Murupia	2010009	Green Apple	1	1	2	
 100132	Murupia	4010000	Bronze Ore	1	1	0.9	
@@ -116,7 +116,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100132	Murupia	2040823	Scroll for Gloves for HP 100%	1	1	0.03	
 100132	Murupia	2041018	Scroll for Cape for DEX	1	1	0.03	
 100133	Murumuru	4000496	Murumuru's Furball	1	1	60	
-100133	Murumuru	0	(meso)	38	55	40	
+100133	Murumuru	0	(meso)	76	110	40	
 100133	Murumuru	2000000	Red Potion	1	1	2	
 100133	Murumuru	2010009	Green Apple	1	1	2	
 100133	Murumuru	4010001	Steel Ore	1	1	0.9	
@@ -136,7 +136,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100133	Murumuru	2048000	Scroll for Pet Equip. for Speed	1	1	0.03	
 100133	Murumuru	2041004	Scroll for Cape for Weapon Def.	1	1	0.03	
 100134	Murukun	4000497	Murukun's Furball	1	1	60	
-100134	Murukun	0	(meso)	40	59	40	
+100134	Murukun	0	(meso)	80	118	40	
 100134	Murukun	2000000	Red Potion	1	1	2	
 100134	Murukun	2010009	Green Apple	1	1	2	
 100134	Murukun	4010002	Mithril Ore	1	1	0.9	
@@ -152,7 +152,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100134	Murukun	2040500	Scroll for Overall Armor for DEX	1	1	0.03	
 100134	Murukun	2044400	Scroll for Pole Arm for ATT	1	1	0.03	
 120100	Shroom	4000011	Mushroom Spore	1	1	60	
-120100	Shroom	0	(meso)	8	12	40	
+120100	Shroom	0	(meso)	16	24	40	
 120100	Shroom	2060000	Arrow for Bow	2	3	3	
 120100	Shroom	2061000	Arrow for Crossbow	2	3	3	
 120100	Shroom	2000000	Red Potion	1	1	2	
@@ -168,7 +168,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 120100	Shroom	1332006	Field Dagger	1	1	0.05	
 120100	Shroom	2041007	Scroll for Cape for HP	1	1	0.03	
 130100	Stump	4000003	Tree Branch	1	1	60	
-130100	Stump	0	(meso)	12	18	40	
+130100	Stump	0	(meso)	24	36	40	
 130100	Stump	4031773	Dry Branch	1	1	8	2145
 130100	Stump	4032374	Letter of Commendation - Warrior Adventurer	1	1	8	2405
 130100	Stump	4032378	Letter of Commendation - Thief Adventurer	1	1	8	2408
@@ -194,7 +194,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 130100	Stump	2041008	Scroll for Cape for HP	1	1	0.03	
 130100	Stump	2040402	Scroll for Topwear for DEF	1	1	0.03	
 130101	Red Snail	4000016	Red Snail Shell	1	1	60	
-130101	Red Snail	0	(meso)	12	18	40	
+130101	Red Snail	0	(meso)	24	36	40	
 130101	Red Snail	4031846	Black Magician's Token	1	1	5	2173
 130101	Red Snail	2060000	Arrow for Bow	5	7	3	
 130101	Red Snail	2061000	Arrow for Crossbow	5	7	3	
@@ -221,7 +221,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 210100	Slime	4000004	Squishy Liquid	1	1	60	
 210100	Slime	4000010	Slime Bubble	1	1	60	
 210100	Slime	4031273	Red Ball of Yarn	1	1	50	2104
-210100	Slime	0	(meso)	12	18	40	
+210100	Slime	0	(meso)	24	36	40	
 210100	Slime	4032376	Letter of Commendation - Magician Adventurer	1	1	8	2406
 210100	Slime	4032377	Letter of Commendation - Bowman Adventurer	1	1	8	2407
 210100	Slime	2060000	Arrow for Bow	7	9	3	
@@ -253,7 +253,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110100	Green Mushroom	4031146	Animal Fossil	1	1	100	2065
 1110100	Green Mushroom	4001348	Memory Fragment	1	1	80	28231
 1110100	Green Mushroom	4000012	Green Mushroom Cap	1	1	60	
-1110100	Green Mushroom	0	(meso)	28	42	40	
+1110100	Green Mushroom	0	(meso)	56	84	40	
 1110100	Green Mushroom	4032379	Letter of Commendation - Pirate Adventurer	1	1	8	2409
 1110100	Green Mushroom	4001369	Ripped Paper-3	1	1	4	28259
 1110100	Green Mushroom	4001370	Ripped Paper-4	1	1	4	28262
@@ -304,7 +304,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110100	Green Mushroom	2043102	Scroll for One-Handed Axe for ATT	1	1	0.03	
 1110100	Green Mushroom	2048000	Scroll for Pet Equip. for Speed	1	1	0.03	
 1110101	Dark Stump	4000005	Leaf	1	1	60	
-1110101	Dark Stump	0	(meso)	20	30	40	
+1110101	Dark Stump	0	(meso)	40	60	40	
 1110101	Dark Stump	4001347	Ellinia Tree Barrel	1	1	16	28229
 1110101	Dark Stump	4001360	Piece of White Pants	1	1	12	28248
 1110101	Dark Stump	4032374	Letter of Commendation - Warrior Adventurer	1	1	8	2405
@@ -338,7 +338,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110101	Dark Stump	1482000	Steel Knuckler	1	1	0.05	
 1110101	Dark Stump	2040802	Scroll for Gloves for DEX	1	1	0.03	
 1110130	Dejected Green Mushroom	4000012	Green Mushroom Cap	1	1	60	
-1110130	Dejected Green Mushroom	0	(meso)	49	72	40	
+1110130	Dejected Green Mushroom	0	(meso)	98	144	40	
 1110130	Dejected Green Mushroom	4032316	Dejected Green Mushroom Puppet	1	1	5	21714
 1110130	Dejected Green Mushroom	4032317	Dejected Green Mushroom Puppet	1	1	4	21717
 1110130	Dejected Green Mushroom	4032318	Dejected Green Mushroom Puppet	1	1	4	21718
@@ -374,7 +374,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110130	Dejected Green Mushroom	2043102	Scroll for One-Handed Axe for ATT	1	1	0.03	
 1110130	Dejected Green Mushroom	2048000	Scroll for Pet Equip. for Speed	1	1	0.03	
 1120100	Octopus	4000006	Octopus Leg	1	1	60	
-1120100	Octopus	0	(meso)	24	36	40	
+1120100	Octopus	0	(meso)	48	72	40	
 1120100	Octopus	4001349	Octopus Leg Stick	1	1	20	28235
 1120100	Octopus	4030012	Monster Card	1	1	12.5	
 1120100	Octopus	4001365	Octopus Sample	1	1	8	28192
@@ -402,7 +402,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1120100	Octopus	2043002	Scroll for One-Handed Sword for ATT	1	1	0.03	
 1130100	Axe Stump	4031147	Plant Fossil	1	1	100	2065
 1130100	Axe Stump	4000018	Firewood	1	1	60	
-1130100	Axe Stump	0	(meso)	32	48	40	
+1130100	Axe Stump	0	(meso)	64	96	40	
 1130100	Axe Stump	4031773	Dry Branch	1	1	8	2145
 1130100	Axe Stump	2060000	Arrow for Bow	22	28	3	
 1130100	Axe Stump	2061000	Arrow for Crossbow	22	28	3	
@@ -431,7 +431,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1130100	Axe Stump	2070009	Wooden Top	1	1	0.04	
 1130100	Axe Stump	2043202	Scroll for One-Handed BW for ATT	1	1	0.03	
 1140100	Ghost Stump	4000195	Seedling	1	1	60	
-1140100	Ghost Stump	0	(meso)	34	47	40	
+1140100	Ghost Stump	0	(meso)	68	94	40	
 1140100	Ghost Stump	4030012	Monster Card	1	1	12.5	
 1140100	Ghost Stump	4031773	Dry Branch	1	1	8	2145
 1140100	Ghost Stump	2060000	Arrow for Bow	24	30	3	
@@ -467,7 +467,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1140100	Ghost Stump	2048001	Scroll for Pet Equip. for Speed	1	1	0.03	
 1140100	Ghost Stump	2044802	Scroll for Knuckler for ATT	1	1	0.03	
 1140130	Smirking Ghost Stump	4000195	Seedling	1	1	60	
-1140130	Smirking Ghost Stump	0	(meso)	56	83	40	
+1140130	Smirking Ghost Stump	0	(meso)	112	166	40	
 1140130	Smirking Ghost Stump	4032319	Smirking Ghost Stump Puppet	1	1	10	21723
 1140130	Smirking Ghost Stump	4031773	Dry Branch	1	1	8	2145
 1140130	Smirking Ghost Stump	2060000	Arrow for Bow	24	30	3	
@@ -497,7 +497,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1140130	Smirking Ghost Stump	2040801	Scroll for Gloves for DEX	1	1	0.03	
 1140130	Smirking Ghost Stump	2048001	Scroll for Pet Equip. for Speed	1	1	0.03	
 1140130	Smirking Ghost Stump	2044802	Scroll for Knuckler for ATT	1	1	0.03	
-1210100	Pig	0	(meso)	14	21	40	
+1210100	Pig	0	(meso)	28	42	40	
 1210100	Pig	4032340	Pig Tail	1	1	20	21710
 1210100	Pig	4030012	Monster Card	1	1	12.5	
 1210100	Pig	4032379	Letter of Commendation - Pirate Adventurer	1	1	8	2409
@@ -526,7 +526,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210100	Pig	2041021	Scroll for Cape for LUK	1	1	0.03	
 1210100	Pig	2040702	Scroll for Shoes for DEX	1	1	0.03	
 1210101	Ribbon Pig	4000002	Pig's Ribbon	1	1	60	
-1210101	Ribbon Pig	0	(meso)	20	30	40	
+1210101	Ribbon Pig	0	(meso)	40	60	40	
 1210101	Ribbon Pig	4001350	Pumpkin Head	1	1	20	28235
 1210101	Ribbon Pig	4003004	Stiff Feather	1	1	20	
 1210101	Ribbon Pig	4030012	Monster Card	1	1	12.5	
@@ -557,7 +557,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210101	Ribbon Pig	1492000	Pistol	1	1	0.05	
 1210101	Ribbon Pig	2040902	Scroll for Shield for DEF	1	1	0.03	
 1210102	Orange Mushroom	4000001	Orange Mushroom Cap	1	1	60	
-1210102	Orange Mushroom	0	(meso)	16	24	40	
+1210102	Orange Mushroom	0	(meso)	32	48	40	
 1210102	Orange Mushroom	4032314	Orange Mushroom Horn	1	1	15	21709
 1210102	Orange Mushroom	4001354	Young Soul	1	1	8	28209
 1210102	Orange Mushroom	4001364	Orange Mushroom Sample	1	1	8	28192
@@ -582,7 +582,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210102	Orange Mushroom	2330000	Bullet	1	1	0.05	
 1210102	Orange Mushroom	2040705	Scroll for Shoes for Jump	1	1	0.03	
 1210103	Bubbling	4000037	Bubbling's Huge Bubble	1	1	60	
-1210103	Bubbling	0	(meso)	24	36	40	
+1210103	Bubbling	0	(meso)	48	72	40	
 1210103	Bubbling	4032137	Bubbling Doll	1	1	4	20711
 1210103	Bubbling	4032139	Old Key	1	1	4	20713
 1210103	Bubbling	2060000	Arrow for Bow	19	24	3	
@@ -618,7 +618,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210103	Bubbling	2048001	Scroll for Pet Equip. for Speed	1	1	0.03	
 2070010		0	(meso)	44	66	40	
 2100100	Desert Rabbit (F)	4000324	Clover	1	1	60	
-2100100	Desert Rabbit (F)	0	(meso)	58	85	40	
+2100100	Desert Rabbit (F)	0	(meso)	116	170	40	
 2100100	Desert Rabbit (F)	4003004	Stiff Feather	1	1	20	
 2100100	Desert Rabbit (F)	2060000	Arrow for Bow	26	33	3	
 2100100	Desert Rabbit (F)	2061000	Arrow for Crossbow	26	33	3	
@@ -641,7 +641,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100100	Desert Rabbit (F)	2040420	Scroll for Topwear for HP 100%	1	1	0.03	
 2100100	Desert Rabbit (F)	2049000	Clean Slate Scroll 1%	1	1	0.015	
 2100101	Desert Rabbit (M)	4000325	Carrot	1	1	60	
-2100101	Desert Rabbit (M)	0	(meso)	60	88	40	
+2100101	Desert Rabbit (M)	0	(meso)	120	176	40	
 2100101	Desert Rabbit (M)	4003004	Stiff Feather	1	1	20	
 2100101	Desert Rabbit (M)	2060000	Arrow for Bow	27	34	3	
 2100101	Desert Rabbit (M)	2061000	Arrow for Crossbow	27	34	3	
@@ -663,7 +663,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100101	Desert Rabbit (M)	2044602	Scroll for Crossbow for ATT	1	1	0.03	
 2100101	Desert Rabbit (M)	2044210	Scroll for Two-Handed BW for Accuracy 100%	1	1	0.03	
 2100102	Jr. Cactus	4000329	Cactus Stem	1	1	60	
-2100102	Jr. Cactus	0	(meso)	40	60	40	
+2100102	Jr. Cactus	0	(meso)	80	120	40	
 2100102	Jr. Cactus	2060000	Arrow for Bow	28	35	3	
 2100102	Jr. Cactus	2061000	Arrow for Crossbow	28	35	3	
 2100102	Jr. Cactus	2000001	Orange Potion	1	1	2	
@@ -688,7 +688,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100102	Jr. Cactus	2044901	Scroll for Gun for Attack 60%	1	1	0.03	
 2100102	Jr. Cactus	2043212	Scroll for One-Handed BW for Accuracy 60%	1	1	0.03	
 2100103	Cactus	4000330	Cactus Thorn	1	1	60	
-2100103	Cactus	0	(meso)	49	66	40	
+2100103	Cactus	0	(meso)	98	132	40	
 2100103	Cactus	4030012	Monster Card	1	1	12.5	
 2100103	Cactus	2060000	Arrow for Bow	32	40	3	
 2100103	Cactus	2061000	Arrow for Crossbow	32	40	3	
@@ -713,7 +713,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100103	Cactus	2040501	Scroll for Overall Armor for DEX	1	1	0.03	
 2100103	Cactus	2044314	Scroll for Spear for Accuracy 10%	1	1	0.03	
 2100104	Royal Cactus	4000331	Cactus' Flower	1	1	60	
-2100104	Royal Cactus	0	(meso)	52	77	40	
+2100104	Royal Cactus	0	(meso)	104	154	40	
 2100104	Royal Cactus	2060000	Arrow for Bow	36	45	3	
 2100104	Royal Cactus	2061000	Arrow for Crossbow	36	45	3	
 2100104	Royal Cactus	2000001	Orange Potion	1	1	2	
@@ -740,7 +740,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100104	Royal Cactus	2041002	Scroll for Cape for Magic Def.	1	1	0.03	
 2100104	Royal Cactus	2043214	Scroll for One-Handed BW for Accuracy 10%	1	1	0.03	
 2100105	Bellamoa	4000328	Snake Rattle	1	1	60	
-2100105	Bellamoa	0	(meso)	44	63	40	
+2100105	Bellamoa	0	(meso)	88	126	40	
 2100105	Bellamoa	2060000	Arrow for Bow	30	38	3	
 2100105	Bellamoa	2061000	Arrow for Crossbow	30	38	3	
 2100105	Bellamoa	2000001	Orange Potion	1	1	2	
@@ -766,7 +766,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100105	Bellamoa	2040319	Scroll for Earring for LUK 100%	1	1	0.03	
 2100105	Bellamoa	2044412	Scroll for Pole-Arm for Accuracy 60%	1	1	0.03	
 2100106	Ear Plug Plead	4000326	Earmuff	1	1	60	
-2100106	Ear Plug Plead	0	(meso)	66	97	40	
+2100106	Ear Plug Plead	0	(meso)	132	194	40	
 2100106	Ear Plug Plead	2060000	Arrow for Bow	31	39	3	
 2100106	Ear Plug Plead	2061000	Arrow for Crossbow	31	39	3	
 2100106	Ear Plug Plead	2000001	Orange Potion	1	1	2	
@@ -789,7 +789,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100106	Ear Plug Plead	2044501	Scroll for Bow for ATT	1	1	0.03	
 2100106	Ear Plug Plead	2040926	Scroll for Shield for HP 100%	1	1	0.03	
 2100107	Scarf Plead	4000327	Ragged Scarf	1	1	60	
-2100107	Scarf Plead	0	(meso)	73	108	40	
+2100107	Scarf Plead	0	(meso)	146	216	40	
 2100107	Scarf Plead	2060000	Arrow for Bow	35	44	3	
 2100107	Scarf Plead	2061000	Arrow for Crossbow	35	44	3	
 2100107	Scarf Plead	2000001	Orange Potion	1	1	2	
@@ -811,7 +811,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100107	Scarf Plead	1492003	Golden Hook	1	1	0.05	
 2100107	Scarf Plead	2048001	Scroll for Pet Equip. for Speed	1	1	0.03	
 2100108	Meerkat	4000333	Telescope	1	1	60	
-2100108	Meerkat	0	(meso)	78	115	40	
+2100108	Meerkat	0	(meso)	156	230	40	
 2100108	Meerkat	4003004	Stiff Feather	1	1	20	
 2100108	Meerkat	4031568	Cat's Eye	1	1	8	3911
 2100108	Meerkat	2060000	Arrow for Bow	37	47	3	
@@ -838,7 +838,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100108	Meerkat	2044014	Scroll for Two-Handed Sword for Accuracy 10%	1	1	0.03	
 2100108	Meerkat	2044214	Scroll for Two-Handed BW for Accuracy 10%	1	1	0.03	
 2110200	Horny Mushroom	4000015	Horny Mushroom Cap	1	1	60	
-2110200	Horny Mushroom	0	(meso)	36	54	40	
+2110200	Horny Mushroom	0	(meso)	72	108	40	
 2110200	Horny Mushroom	4032390	Tainted Horny Mushroom Cap	1	1	20	2248
 2110200	Horny Mushroom	4030012	Monster Card	1	1	12.5	
 2110200	Horny Mushroom	4001368	Ripped Paper-2	1	1	4	28258
@@ -881,7 +881,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2110200	Horny Mushroom	2044102	Scroll for Two-handed Axe for ATT	1	1	0.03	
 2110200	Horny Mushroom	2043214	Scroll for One-Handed BW for Accuracy 10%	1	1	0.03	
 2110300	Sand Rat	4000350	Wooden Hammer	1	1	60	
-2110300	Sand Rat	0	(meso)	66	97	40	
+2110300	Sand Rat	0	(meso)	132	194	40	
 2110300	Sand Rat	4032402	Sand Mole Hat	1	1	10	2263
 2110300	Sand Rat	2060000	Arrow for Bow	31	39	3	
 2110300	Sand Rat	2061000	Arrow for Crossbow	31	39	3	
@@ -904,7 +904,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2110300	Sand Rat	2044501	Scroll for Bow for ATT	1	1	0.03	
 2110300	Sand Rat	2043214	Scroll for One-Handed BW for Accuracy 10%	1	1	0.03	
 2110301	Scorpion	4000351	Scorpion Sting	1	1	60	
-2110301	Scorpion	0	(meso)	78	115	40	
+2110301	Scorpion	0	(meso)	156	230	40	
 2110301	Scorpion	4032401	Gold Poison Sting	1	1	10	2261
 2110301	Scorpion	2060000	Arrow for Bow	37	47	3	
 2110301	Scorpion	2061000	Arrow for Crossbow	37	47	3	
@@ -930,7 +930,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2110301	Scorpion	2043114	Scroll for One-Handed Axe for Accuracy 10%	1	1	0.03	
 2130100	Dark Axe Stump	4000018	Firewood	1	1	60	
 2130100	Dark Axe Stump	4000215	Axe	1	1	60	
-2130100	Dark Axe Stump	0	(meso)	40	60	40	
+2130100	Dark Axe Stump	0	(meso)	80	120	40	
 2130100	Dark Axe Stump	4031773	Dry Branch	1	1	20	2145
 2130100	Dark Axe Stump	4001344	Dark Wooden Board	1	1	7	
 2130100	Dark Axe Stump	4001367	Ripped Paper-1	1	1	4	28257
@@ -962,7 +962,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2130100	Dark Axe Stump	2044012	Scroll for Two-Handed Sword for Accuracy 60%	1	1	0.03	
 2130100	Dark Axe Stump	2044210	Scroll for Two-Handed BW for Accuracy 100%	1	1	0.03	
 2130103	Jr. Necki	4000034	Jr. Necki Skin	1	1	60	
-2130103	Jr. Necki	0	(meso)	33	49	40	
+2130103	Jr. Necki	0	(meso)	66	98	40	
 2130103	Jr. Necki	2000001	Orange Potion	1	1	2	
 2130103	Jr. Necki	2010003	Orange	1	1	2	
 2130103	Jr. Necki	4010002	Mithril Ore	1	1	0.9	
@@ -986,7 +986,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2220000	Mano 	4000000	Blue Snail Shell	1	1	60	
 2220000	Mano 	4000016	Red Snail Shell	1	1	60	
 2220000	Mano 	4000019	Snail Shell	1	1	60	
-2220000	Mano 	0	(meso)	30	70	40	
+2220000	Mano 	0	(meso)	60	140	40	
 2220000	Mano 	2060000	Arrow for Bow	36	45	30	
 2220000	Mano 	2061000	Arrow for Crossbow	36	45	30	
 2220000	Mano 	2000000	Red Potion	1	1	20	
@@ -1044,7 +1044,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2220000	Mano 	2043114	Scroll for One-Handed Axe for Accuracy 10%	1	1	0.3	
 2220000	Mano 	2044414	Scroll for Pole-Arm for Accuracy 10%	1	1	0.3	
 2220100	Blue Mushroom	4000009	Blue Mushroom Cap	1	1	60	
-2220100	Blue Mushroom	0	(meso)	36	54	40	
+2220100	Blue Mushroom	0	(meso)	72	108	40	
 2220100	Blue Mushroom	4001351	Devil Hunting Scroll	1	1	20	28237
 2220100	Blue Mushroom	4030012	Monster Card	1	1	12.5	
 2220100	Blue Mushroom	2022016	Maple Special Bento	1	1	10	8164
@@ -1081,7 +1081,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2220100	Blue Mushroom	1332001	Halfmoon Zamadar	1	1	0.05	
 2220100	Blue Mushroom	2044002	Scroll for Two-handed Sword for ATT	1	1	0.03	
 2230100	Evil Eye	4000007	Evil Eye Tail	1	1	60	
-2230100	Evil Eye	0	(meso)	48	72	40	
+2230100	Evil Eye	0	(meso)	96	144	40	
 2230100	Evil Eye	4001373	Evil Eye Eyeball	1	1	20	28282
 2230100	Evil Eye	4030012	Monster Card	1	1	12.5	
 2230100	Evil Eye	2060000	Arrow for Bow	35	44	3	
@@ -1118,7 +1118,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230100	Evil Eye	2040823	Scroll for Gloves for HP 100%	1	1	0.03	
 2230100	Evil Eye	2044010	Scroll for Two-Handed Sword for Accuracy 100%	1	1	0.03	
 2230101	Zombie Mushroom	4000008	Charm of the Undead	1	1	60	
-2230101	Zombie Mushroom	0	(meso)	44	66	40	
+2230101	Zombie Mushroom	0	(meso)	88	132	40	
 2230101	Zombie Mushroom	4032399	Recording Charm	1	1	20	2251
 2230101	Zombie Mushroom	2060000	Arrow for Bow	31	39	3	
 2230101	Zombie Mushroom	2061000	Arrow for Crossbow	31	39	3	
@@ -1159,7 +1159,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230101	Zombie Mushroom	2049100	Chaos Scroll 60%	1	1	0.015	
 2230102	Wild Boar	4031155	Broken Mirror Glass	1	1	100	2071
 2230102	Wild Boar	4000020	Wild Boar Tooth	1	1	60	
-2230102	Wild Boar	0	(meso)	44	66	40	
+2230102	Wild Boar	0	(meso)	88	132	40	
 2230102	Wild Boar	4001372	Wild Boar Leather	1	1	20	28282
 2230102	Wild Boar	4003004	Stiff Feather	1	1	20	
 2230102	Wild Boar	4000021	Leather	1	1	5	
@@ -1209,7 +1209,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230102	Wild Boar	1462004	Eagle Crow	1	1	0.05	
 2230102	Wild Boar	2330001	Split Bullet	1	1	0.05	
 2230103	Trixter	4000097	Spiderweb	1	1	60	
-2230103	Trixter	0	(meso)	47	62	40	
+2230103	Trixter	0	(meso)	94	124	40	
 2230103	Trixter	4030012	Monster Card	1	1	12.5	
 2230103	Trixter	4030016	Omok Piece : Trixter	1	1	7.7	
 2230103	Trixter	2000000	Red Potion	1	1	4	
@@ -1242,7 +1242,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230103	Trixter	2040319	Scroll for Earring for LUK 100%	1	1	0.03	
 2230103	Trixter	2044114	Scroll for Two-Handed Axe for Accuracy 10%	1	1	0.03	
 2230104	Green Trixter	4000098	Sticky Spiderweb	1	1	60	
-2230104	Green Trixter	0	(meso)	56	78	40	
+2230104	Green Trixter	0	(meso)	112	156	40	
 2230104	Green Trixter	2060000	Arrow for Bow	36	45	3	
 2230104	Green Trixter	2061000	Arrow for Crossbow	36	45	3	
 2230104	Green Trixter	2002007	Magic Pill	1	1	2	
@@ -1269,7 +1269,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230104	Green Trixter	2040929	Scroll for Shield for STR 100%	1	1	0.03	
 2230104	Green Trixter	2043112	Scroll for One-Handed Axe for Accuracy 60%	1	1	0.03	
 2230105	Seacle	4000161	Sea Horse Tail	1	1	60	
-2230105	Seacle	0	(meso)	64	94	40	
+2230105	Seacle	0	(meso)	128	188	40	
 2230105	Seacle	4030012	Monster Card	1	1	12.5	
 2230105	Seacle	4031259	Seacle's DNA Sample	1	1	3	3080
 2230105	Seacle	2060000	Arrow for Bow	30	38	3	
@@ -1298,7 +1298,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230105	Seacle	2043015	Scroll for One-Handed Sword for Accuracy 100%	1	1	0.03	
 2230106	Cico	4031269	Slippery Oil	1	1	100	3629
 2230106	Cico	4000163	Sea Horse Horn	1	1	60	
-2230106	Cico	0	(meso)	44	66	40	
+2230106	Cico	0	(meso)	88	132	40	
 2230106	Cico	4031260	Cico's DNA Sample	1	1	3	3080
 2230106	Cico	2060000	Arrow for Bow	32	40	3	
 2230106	Cico	2061000	Arrow for Crossbow	32	40	3	
@@ -1328,7 +1328,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230106	Cico	2040401	Scroll for Topwear for DEF	1	1	0.03	
 2230106	Cico	2040417	Scroll for Topwear for STR 100%	1	1	0.03	
 2230107	Krappy	4000162	Flamboyant Scale Skin	1	1	60	
-2230107	Krappy	0	(meso)	66	97	40	
+2230107	Krappy	0	(meso)	132	194	40	
 2230107	Krappy	2060000	Arrow for Bow	31	39	3	
 2230107	Krappy	2061000	Arrow for Crossbow	31	39	3	
 2230107	Krappy	2000001	Orange Potion	1	1	2	
@@ -1356,7 +1356,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230107	Krappy	2041004	Scroll for Cape for Weapon Def.	1	1	0.03	
 2230107	Krappy	2043110	Scroll for One-Handed Axe for Accuracy 100%	1	1	0.03	
 2230108	Pinboom	4000160	Needle	1	1	60	
-2230108	Pinboom	0	(meso)	40	60	40	
+2230108	Pinboom	0	(meso)	80	120	40	
 2230108	Pinboom	4031261	Pin Boom's DNA Sample	1	1	3	3080
 2230108	Pinboom	2060000	Arrow for Bow	28	35	3	
 2230108	Pinboom	2061000	Arrow for Crossbow	28	35	3	
@@ -1382,7 +1382,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230108	Pinboom	2040623	Scroll for Bottomwear for DEX 100%	1	1	0.03	
 2230109	Bubble Fish	4000164	Bubble Fish's Thoughts	1	1	60	
 2230109	Bubble Fish	4031209	SOS Letter	1	1	50	3072
-2230109	Bubble Fish	0	(meso)	52	78	40	
+2230109	Bubble Fish	0	(meso)	104	156	40	
 2230109	Bubble Fish	4031264	Bubble Fish's DNA Sample	1	1	3	3081
 2230109	Bubble Fish	2060000	Arrow for Bow	36	45	3	
 2230109	Bubble Fish	2061000	Arrow for Crossbow	36	45	3	
@@ -1415,7 +1415,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230109	Bubble Fish	2070002	Mokbi Throwing-Stars	1	1	0.05	
 2230109	Bubble Fish	2040701	Scroll for Shoes for DEX	1	1	0.03	
 2230110	Wooden Mask	4000196	Wooden Board	1	1	60	
-2230110	Wooden Mask	0	(meso)	64	94	40	
+2230110	Wooden Mask	0	(meso)	128	188	40	
 2230110	Wooden Mask	4030012	Monster Card	1	1	12.5	
 2230110	Wooden Mask	4032146	Wooden Mask Doll	1	1	4	20722
 2230110	Wooden Mask	2060000	Arrow for Bow	30	38	3	
@@ -1448,7 +1448,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230110	Wooden Mask	2044312	Scroll for Spear for Accuracy 60%	1	1	0.03	
 2230110	Wooden Mask	2044805	Scroll for Knuckle for Accuracy 100%	1	1	0.03	
 2230111	Rocky Mask	4000197	Slate	1	1	60	
-2230111	Rocky Mask	0	(meso)	66	97	40	
+2230111	Rocky Mask	0	(meso)	132	194	40	
 2230111	Rocky Mask	4032147	Rocky Mask Doll	1	1	4	20723
 2230111	Rocky Mask	2060000	Arrow for Bow	31	39	3	
 2230111	Rocky Mask	2061000	Arrow for Crossbow	31	39	3	
@@ -1507,7 +1507,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230112	Terrified Wild Boar	1082186	Hard Leather Glove	1	1	0.07	
 2230112	Terrified Wild Boar	2330001	Split Bullet	1	1	0.04	
 2230131	Annoyed Zombie Mushroom	4000008	Charm of the Undead	1	1	60	
-2230131	Annoyed Zombie Mushroom	0	(meso)	66	97	40	
+2230131	Annoyed Zombie Mushroom	0	(meso)	132	194	40	
 2230131	Annoyed Zombie Mushroom	4032399	Recording Charm	1	1	20	2251
 2230131	Annoyed Zombie Mushroom	2060000	Arrow for Bow	31	39	3	
 2230131	Annoyed Zombie Mushroom	2061000	Arrow for Crossbow	31	39	3	
@@ -1543,7 +1543,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230131	Annoyed Zombie Mushroom	2049100	Chaos Scroll 60%	1	1	0.03	
 2230200	Flower Fish	4000165	Flamboyant Petal	1	1	60	
 2230200	Flower Fish	4031209	SOS Letter	1	1	50	3072
-2230200	Flower Fish	0	(meso)	52	78	40	
+2230200	Flower Fish	0	(meso)	104	156	40	
 2230200	Flower Fish	4031262	Flower Fish's DNA Sample	1	1	3	3081
 2230200	Flower Fish	2061000	Arrow for Crossbow	37	47	3	
 2230200	Flower Fish	2060000	Arrow for Bow	37	47	3	
@@ -1569,7 +1569,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230200	Flower Fish	2044601	Scroll for Crossbow for ATT	1	1	0.03	
 2230200	Flower Fish	2040501	Scroll for Overall Armor for DEX	1	1	0.03	
 2300100	Stirge	4000042	Stirge Wing	1	1	60	
-2300100	Stirge	0	(meso)	32	48	40	
+2300100	Stirge	0	(meso)	64	96	40	
 2300100	Stirge	4003004	Stiff Feather	1	1	20	
 2300100	Stirge	2060000	Arrow for Bow	26	33	3	
 2300100	Stirge	2061000	Arrow for Crossbow	26	33	3	
@@ -6871,7 +6871,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 5150001	Skeleton Soldier	2043210	Scroll for One-Handed BW for Accuracy 100%	1	1	0.03	
 5150001	Skeleton Soldier	2044312	Scroll for Spear for Accuracy 60%	1	1	0.03	
 5200000	Jr. Sentinel	4000083	Jr. Sentinel Shellpiece	1	1	60	
-5200000	Jr. Sentinel	0	(meso)	60	90	40	
+5200000	Jr. Sentinel	0	(meso)	120	180	40	
 5200000	Jr. Sentinel	2060001	Bronze Arrow for Bow	15	19	3	
 5200000	Jr. Sentinel	2061001	Bronze Arrow for Crossbow	15	19	3	
 5200000	Jr. Sentinel	2000001	Orange Potion	1	1	2	
@@ -14012,7 +14012,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300047	Luster Pixie in Tower of Goddess	4001050	1st Small Piece	1	1	99.9999	
 9300048	Nependeath in Tower of Goddess	4001053	Strange Seed	1	1	99.9999	
 9300049	Royal Nependeath in Tower of Goddess	4001074	Transparent Item	1	1	99.9999	
-9300058	Pig	0	(meso)	38	55	40	
+9300058	Pig	0	(meso)	76	110	40	
 9300058	Pig	4000021	Leather	1	1	20	
 9300058	Pig	4030012	Monster Card	1	1	12.5	
 9300058	Pig	4030011	Omok Piece : Pig	1	1	7.7	
@@ -14032,7 +14032,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300058	Pig	1040034	Dark Nightshift	1	1	0.07	
 9300058	Pig	1472000	Garnier	1	1	0.07	
 9300058	Pig	1002610	Brown Rocky Bandana	1	1	0.07	
-9300059	Ribbon Pig	0	(meso)	42	61	40	
+9300059	Ribbon Pig	0	(meso)	84	122	40	
 9300059	Ribbon Pig	4000021	Leather	1	1	20	
 9300059	Ribbon Pig	4030012	Monster Card	1	1	12.5	
 9300059	Ribbon Pig	4003004	Stiff Feather	1	1	7	
@@ -14426,7 +14426,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300140	Angry Frankenroid	2388014	Frankenroid Card	1	4	2.4	
 9300147	Homunculus	4001132	Suspicious Liquid	1	1	40	
 9300148	Neo Huroid	4001133	Card Key	1	1	10	
-9300155	Pig	0	(meso)	38	55	40	
+9300155	Pig	0	(meso)	76	110	40	
 9300155	Pig	4000021	Leather	1	1	20	
 9300155	Pig	4030012	Monster Card	1	1	12.5	
 9300155	Pig	4030011	Omok Piece : Pig	1	1	7.7	
@@ -14897,37 +14897,37 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300215	Mu Gong Merits	2022420	Increases Max HP	1	1	20	
 9300215	Mu Gong Merits	2022421	Increases Max MP	1	1	20	
 9300215	Mu Gong Merits	2388046	Mu Gong Card	1	1	2.4	
-9300217	Blue Snail	0	(meso)	32	47	40	
+9300217	Blue Snail	0	(meso)	64	94	40	
 9300217	Blue Snail	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300217	Blue Snail	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300217	Blue Snail	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300217	Blue Snail	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300218	Red Snail	0	(meso)	34	50	40	
+9300218	Red Snail	0	(meso)	68	100	40	
 9300218	Red Snail	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300218	Red Snail	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300218	Red Snail	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300218	Red Snail	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300219	Stump	0	(meso)	34	50	40	
+9300219	Stump	0	(meso)	68	100	40	
 9300219	Stump	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300219	Stump	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300219	Stump	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300219	Stump	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300220	Axe Stump	0	(meso)	52	77	40	
+9300220	Axe Stump	0	(meso)	104	154	40	
 9300220	Axe Stump	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300220	Axe Stump	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300220	Axe Stump	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300220	Axe Stump	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300221	Cactus	0	(meso)	68	101	40	
+9300221	Cactus	0	(meso)	136	202	40	
 9300221	Cactus	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300221	Cactus	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300221	Cactus	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300221	Cactus	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300222	Royal Cactus	0	(meso)	75	111	40	
+9300222	Royal Cactus	0	(meso)	150	222	40	
 9300222	Royal Cactus	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300222	Royal Cactus	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300222	Royal Cactus	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300222	Royal Cactus	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300223	Slime	0	(meso)	36	54	40	
+9300223	Slime	0	(meso)	72	108	40	
 9300223	Slime	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300223	Slime	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300223	Slime	2022432	Mu Lung Dojo Power Elixir	1	1	20	
@@ -14957,7 +14957,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300228	Clang	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300228	Clang	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300228	Clang	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300229	Orange Mushroom	0	(meso)	39	57	40	
+9300229	Orange Mushroom	0	(meso)	78	114	40	
 9300229	Orange Mushroom	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300229	Orange Mushroom	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300229	Orange Mushroom	2022432	Mu Lung Dojo Power Elixir	1	1	20	
@@ -15002,7 +15002,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300237	Ghost Pixie	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300237	Ghost Pixie	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300237	Ghost Pixie	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300238	Zombie Mushroom	0	(meso)	66	97	40	
+9300238	Zombie Mushroom	0	(meso)	132	194	40	
 9300238	Zombie Mushroom	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300238	Zombie Mushroom	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300238	Zombie Mushroom	2022432	Mu Lung Dojo Power Elixir	1	1	20	
@@ -15107,7 +15107,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300258	Yeti	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300258	Yeti	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300258	Yeti	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300259	Blue Mushroom	0	(meso)	58	85	40	
+9300259	Blue Mushroom	0	(meso)	116	170	40	
 9300259	Blue Mushroom	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300259	Blue Mushroom	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300259	Blue Mushroom	2022432	Mu Lung Dojo Power Elixir	1	1	20	
@@ -15157,7 +15157,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300268	Tae Roon	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300268	Tae Roon	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300268	Tae Roon	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
-9300269	So Gong	0	(meso)	174	850	40	
+9300269	So Gong	0	(meso)	348	1700	40	
 9300269	So Gong	2022430	Mu Lung Dojo Mana Elixir	1	1	20	
 9300269	So Gong	2022431	Mu Lung Dojo Elixir	1	1	20	
 9300269	So Gong	2022432	Mu Lung Dojo Power Elixir	1	1	20	
@@ -15168,7 +15168,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300270	Mingu	2022432	Mu Lung Dojo Power Elixir	1	1	20	
 9300270	Mingu	2022433	Mu Lung Dojo Cure-All Medicine	1	1	20	
 9300274	Cynical Orange Mushroom	4000001	Orange Mushroom Cap	1	1	60	
-9300274	Cynical Orange Mushroom	0	(meso)	39	57	40	
+9300274	Cynical Orange Mushroom	0	(meso)	78	114	40	
 9300274	Cynical Orange Mushroom	4032314	Orange Mushroom Horn	1	1	15	21709
 9300274	Cynical Orange Mushroom	4032190	Orange Mushroom Doll	1	1	5	20705
 9300274	Cynical Orange Mushroom	4032315	Cynical Orange Mushroom Puppet	1	1	5	21711
@@ -15367,7 +15367,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300324	Viking	2022177	Mana Elixir	1	1	20	
 9300324	Viking	2022178	All-Cure Potion	1	1	20	
 9300324	Viking	4001129	Maple Coin	1	1	1.2987	
-9300328	Tutorial Tino	0	(meso)	4	6	40	
+9300328	Tutorial Tino	0	(meso)	8	12	40	
 9300332	Barnard Gray	0	(meso)	112	165	40	
 9300332	Barnard Gray	4000117	Space Food	1	1	20	
 9300332	Barnard Gray	4030012	Monster Card	1	1	12.5	
@@ -15524,7 +15524,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300341	Target Slime	4000004	Squishy Liquid	1	1	60	
 9300341	Target Slime	4000010	Slime Bubble	1	1	60	
 9300341	Target Slime	4031273	Red Ball of Yarn	1	1	50	2104
-9300341	Target Slime	0	(meso)	12	18	40	
+9300341	Target Slime	0	(meso)	24	36	40	
 9300341	Target Slime	2060000	Arrow for Bow	7	9	3	
 9300341	Target Slime	2061000	Arrow for Crossbow	7	9	3	
 9300341	Target Slime	2000000	Red Potion	1	1	2	
@@ -15552,7 +15552,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300341	Target Slime	2040602	Scroll for Bottomwear for DEF	1	1	0.03	
 9300341	Target Slime	2041018	Scroll for Cape for DEX	1	1	0.03	
 9300342	Target Orange Mushroom	4000001	Orange Mushroom Cap	1	1	60	
-9300342	Target Orange Mushroom	0	(meso)	16	24	40	
+9300342	Target Orange Mushroom	0	(meso)	32	48	40	
 9300342	Target Orange Mushroom	4032314	Orange Mushroom Horn	1	1	15	21709
 9300342	Target Orange Mushroom	4001354	Young Soul	1	1	8	28209
 9300342	Target Orange Mushroom	4001364	Orange Mushroom Sample	1	1	8	28192
@@ -15576,7 +15576,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300342	Target Orange Mushroom	1432000	Spear	1	1	0.05	
 9300342	Target Orange Mushroom	2330000	Bullet	1	1	0.05	
 9300342	Target Orange Mushroom	2040705	Scroll for Shoes for Jump	1	1	0.03	
-9300343	Target Pig	0	(meso)	14	21	40	
+9300343	Target Pig	0	(meso)	28	42	40	
 9300343	Target Pig	4032340	Pig Tail	1	1	20	21710
 9300343	Target Pig	4030012	Monster Card	1	1	12.5	
 9300343	Target Pig	4030011	Omok Piece : Pig	1	1	7.7	
@@ -15606,12 +15606,12 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9300344	Puppeteer	4032322	Puppeteer Document	1	1	99.9999	21731
 9300347	Giant Nependeath	4001272	Giant Nependeath Seed  	1	1	40	
 9300347	Giant Nependeath	4032324	Rapid Growth Stimulator	1	1	4	21737
-9300367	Witch Bear	0	(meso)	126	610	40	
+9300367	Witch Bear	0	(meso)	252	1220	40	
 9300367	Witch Bear	2022179	Onyx Apple	1	1	30	
 9300367	Witch Bear	1002971	Pink Bean Hat 	1	1	4	
 9300367	Witch Bear	1442057	Purple Surfboard	1	1	4	
 9300367	Witch Bear	1442046	Super Snowboard	1	1	3	
-9300368	Witch Bear	0	(meso)	174	850	40	
+9300368	Witch Bear	0	(meso)	348	1700	40	
 9300368	Witch Bear	2022179	Onyx Apple	1	1	30	
 9300368	Witch Bear	1002971	Pink Bean Hat 	1	1	4	
 9300368	Witch Bear	1442057	Purple Surfboard	1	1	4	
@@ -15778,7 +15778,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9301004	Ghost Pirate	1082118	Green Larceny	1	1	0.07	
 9301004	Ghost Pirate	1002640	Blue Sun Boat Hat	1	1	0.07	
 9302010	Golden Pig	2022524	Golden Pig's Dazzling Egg	1	1	10	
-9303000	Mano	0	(meso)	42	61	40	
+9303000	Mano	0	(meso)	84	122	40	
 9303000	Mano	4000016	Red Snail Shell	1	1	20	
 9303000	Mano	4000000	Blue Snail Shell	1	1	20	
 9303000	Mano	2388000	Mano Card	1	1	2.4	
@@ -15806,7 +15806,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303000	Mano	1040025	Red Bennis Chainmail	1	1	0.07	
 9303000	Mano	2070000	Subi Throwing-Stars	1	1	0.04	
 9303000	Mano	2330000	Bullet	1	1	0.04	
-9303001	Stumpy	0	(meso)	42	61	40	
+9303001	Stumpy	0	(meso)	84	122	40	
 9303001	Stumpy	4000003	Tree Branch	1	1	20	
 9303001	Stumpy	4000018	Firewood	1	1	20	
 9303001	Stumpy	4000195	Seedling	1	1	20	
@@ -15841,7 +15841,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303001	Stumpy	1072087	Black Lappy Boots	1	1	0.07	
 9303002	King Slime	2388001	King Slime Card	1	1	2.4	
 9303002	King Slime	1072369	Squishy Shoes	1	1	0.07	
-9303003	Deo	0	(meso)	42	61	40	
+9303003	Deo	0	(meso)	84	122	40	
 9303003	Deo	4000329	Cactus Stem	1	1	20	
 9303003	Deo	4000330	Cactus Thorn	1	1	20	
 9303003	Deo	4000331	Cactus' Flower	1	1	20	
@@ -15871,7 +15871,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303003	Deo	1082073	Dark Brace	1	1	0.07	
 9303003	Deo	1082074	Dark Cleave	1	1	0.07	
 9303003	Deo	1082195	Brown Barbee	1	1	0.07	
-9303004	Mushmom	0	(meso)	42	61	40	
+9303004	Mushmom	0	(meso)	84	122	40	
 9303004	Mushmom	4000040	Mushmom Spore	1	1	20	
 9303004	Mushmom	2388006	Mushmom Card	1	1	2.4	
 9303004	Mushmom	4030001	Omok Piece : Mushroom	1	1	1	
@@ -15896,7 +15896,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303004	Mushmom	1092012	Steel Tower Shield	1	1	0.07	
 9303004	Mushmom	1372000	Fairy Wand	1	1	0.07	
 9303004	Mushmom	2070006	Ilbi Throwing-Stars	1	1	0.04	
-9303005	Tae Roon	0	(meso)	71	104	40	
+9303005	Tae Roon	0	(meso)	142	208	40	
 9303005	Tae Roon	4000283	Bear Foot	1	1	20	
 9303005	Tae Roon	4000021	Leather	1	1	20	
 9303005	Tae Roon	2000002	White Potion	1	1	4	
@@ -15942,7 +15942,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303005	Tae Roon	1332018	Kandine	1	1	0.07	
 9303005	Tae Roon	1482009	Beia Crash	1	1	0.07	
 9303005	Tae Roon	2070004	Tobi Throwing-Stars	1	1	0.04	
-9303006	Rombot	0	(meso)	71	104	40	
+9303006	Rombot	0	(meso)	142	208	40	
 9303006	Rombot	4030012	Monster Card	1	1	12.5	
 9303006	Rombot	2000002	White Potion	1	1	4	
 9303006	Rombot	2000004	Elixir	1	1	4	
@@ -15963,7 +15963,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303006	Rombot	1072129	Green Goni Shoes	1	1	0.07	
 9303006	Rombot	1040063	Black Knucklevest	1	1	0.07	
 9303006	Rombot	1472019	Blood Slain	1	1	0.07	
-9303007	Zeno	0	(meso)	71	104	40	
+9303007	Zeno	0	(meso)	142	208	40	
 9303007	Zeno	4000117	Space Food	1	1	20	
 9303007	Zeno	4000118	Small Spaceship	1	1	20	
 9303007	Zeno	4000119	Receiving Apparatus	1	1	20	
@@ -15994,7 +15994,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303007	Zeno	2049000	Clean Slate Scroll 1%	1	1	0.04	
 9303007	Zeno	2330003	Vital Bullet	1	1	0.04	
 9303007	Zeno	2070004	Tobi Throwing-Stars	1	1	0.04	
-9303008	Nine-Tailed Fox	0	(meso)	71	104	40	
+9303008	Nine-Tailed Fox	0	(meso)	142	208	40	
 9303008	Nine-Tailed Fox	4000172	Three-Tailed Foxtail	1	1	20	
 9303008	Nine-Tailed Fox	2000003	Blue Potion	1	1	4	
 9303008	Nine-Tailed Fox	2000002	White Potion	1	1	4	
@@ -16224,7 +16224,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9303016	Leviathan	2290076	[Mastery Book] Shadow Shifter	1	1	0.05	
 9303016	Leviathan	2290104	[Mastery Book] Snatch	1	1	0.05	
 9303016	Leviathan	2290117	[Mastery Book] Rapid Fire	1	1	0.05	
-9400000	Crow	0	(meso)	40	60	40	
+9400000	Crow	0	(meso)	80	120	40	
 9400000	Crow	4000064	Crow Feather	1	1	20	
 9400000	Crow	2000006	Mana Elixir	1	1	4	
 9400000	Crow	2060001	Bronze Arrow for Bow	16	20	1	
@@ -16870,7 +16870,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400238	Drumming Bunny	1061045	Blue Steal Pants	1	1	0.07	
 9400238	Drumming Bunny	1492004	Cold Mind	1	1	0.07	
 9400238	Drumming Bunny	2070002	Mokbi Throwing-Stars	1	1	0.04	
-9400239	Sand Rat	0	(meso)	66	97	40	
+9400239	Sand Rat	0	(meso)	132	194	40	
 9400239	Sand Rat	4000350	Wooden Hammer	1	1	20	
 9400239	Sand Rat	2000001	Orange Potion	1	1	4	
 9400239	Sand Rat	2000003	Blue Potion	1	1	4	
@@ -16891,7 +16891,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400239	Sand Rat	1060037	Dark Brown Sneak Pants	1	1	0.07	
 9400239	Sand Rat	1040049	Blue Sneak	1	1	0.07	
 9400239	Sand Rat	1002619	Brown Pitz Bandana	1	1	0.07	
-9400241	Pig	0	(meso)	38	55	40	
+9400241	Pig	0	(meso)	76	110	40	
 9400241	Pig	4000021	Leather	1	1	20	
 9400241	Pig	4030012	Monster Card	1	1	12.5	
 9400241	Pig	4030011	Omok Piece : Pig	1	1	7.7	
@@ -16911,7 +16911,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400241	Pig	1040034	Dark Nightshift	1	1	0.07	
 9400241	Pig	1472000	Garnier	1	1	0.07	
 9400241	Pig	1002610	Brown Rocky Bandana	1	1	0.07	
-9400242	Ribbon Pig	0	(meso)	42	61	40	
+9400242	Ribbon Pig	0	(meso)	84	122	40	
 9400242	Ribbon Pig	4000021	Leather	1	1	20	
 9400242	Ribbon Pig	4030012	Monster Card	1	1	12.5	
 9400242	Ribbon Pig	4003004	Stiff Feather	1	1	7	
@@ -16988,7 +16988,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400244	Mixed Golem	1061093	Light Mantis Pants	1	1	0.07	
 9400244	Mixed Golem	1072306	Black Basile Boots	1	1	0.07	
 9400244	Mixed Golem	2070004	Tobi Throwing-Stars	1	1	0.04	
-9400245	Zombie Mushroom	0	(meso)	66	97	40	
+9400245	Zombie Mushroom	0	(meso)	132	194	40	
 9400245	Zombie Mushroom	2000001	Orange Potion	1	1	4	
 9400245	Zombie Mushroom	2000003	Blue Potion	1	1	4	
 9400245	Zombie Mushroom	2002000	Dexterity Potion	1	1	1	
@@ -17013,7 +17013,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400245	Zombie Mushroom	1040044	Black Pao	1	1	0.07	
 9400245	Zombie Mushroom	1082183	Brown Leather Armor Glove	1	1	0.07	
 9400245	Zombie Mushroom	1492003	Golden Hook	1	1	0.07	
-9400246	Horny Mushroom	0	(meso)	62	91	40	
+9400246	Horny Mushroom	0	(meso)	124	182	40	
 9400246	Horny Mushroom	4000015	Horny Mushroom Cap	1	1	20	
 9400246	Horny Mushroom	4030012	Monster Card	1	1	12.5	
 9400246	Horny Mushroom	2000003	Blue Potion	1	1	4	
@@ -17084,7 +17084,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400247	Drumming Bunny	1061045	Blue Steal Pants	1	1	0.07	
 9400247	Drumming Bunny	1492004	Cold Mind	1	1	0.07	
 9400247	Drumming Bunny	2070002	Mokbi Throwing-Stars	1	1	0.04	
-9400248	Sand Rat	0	(meso)	66	97	40	
+9400248	Sand Rat	0	(meso)	132	194	40	
 9400248	Sand Rat	4000350	Wooden Hammer	1	1	20	
 9400248	Sand Rat	2000001	Orange Potion	1	1	4	
 9400248	Sand Rat	2000003	Blue Potion	1	1	4	
@@ -17124,7 +17124,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400300	The Boss	2041030	Dark scroll for Cape for HP	1	1	0.3	
 9400300	The Boss	2041040	Dark scroll for Cape for LUK	1	1	0.3	
 9400409		0	(meso)	10000	20000	40	
-9400500	Malady	0	(meso)	93	450	40	
+9400500	Malady	0	(meso)	186	900	40	
 9400500	Malady	4030012	Monster Card	1	1	12.5	
 9400500	Malady	2000002	White Potion	1	4	4	
 9400500	Malady	2000003	Blue Potion	1	4	4	
@@ -17153,7 +17153,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400500	Malady	4010006	Gold Ore	1	1	0.7	
 9400500	Malady	4020008	Black Crystal Ore	1	1	0.7	
 9400500	Malady	4004004	Dark Crystal Ore	1	1	0.3	
-9400501	Jr. Wraith	0	(meso)	35	52	40	
+9400501	Jr. Wraith	0	(meso)	70	104	40	
 9400501	Jr. Wraith	4000035	Tablecloth	1	1	20	
 9400501	Jr. Wraith	2000002	White Potion	1	1	4	
 9400501	Jr. Wraith	2382019	Jr. Wraith Card	1	1	0.8	
@@ -17180,7 +17180,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400501	Jr. Wraith	1051008	Blue Avenger	1	1	0.07	
 9400501	Jr. Wraith	1492005	Shooting Star	1	1	0.07	
 9400501	Jr. Wraith	2070002	Mokbi Throwing-Stars	1	1	0.04	
-9400502	Wraith	0	(meso)	105	520	40	
+9400502	Wraith	0	(meso)	210	1040	40	
 9400502	Wraith	4000036	Medicine With Weird Vibes	1	1	20	
 9400502	Wraith	4030012	Monster Card	1	1	12.5	
 9400502	Wraith	2000003	Blue Potion	1	4	4	
@@ -17210,7 +17210,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400502	Wraith	2020028	Chocolate	1	4	0.3	
 9400502	Wraith	4004004	Dark Crystal Ore	1	1	0.3	
 9400502	Wraith	2330002	Mighty Bullet	1	4	0.25	
-9400503	Stirge	0	(meso)	105	520	40	
+9400503	Stirge	0	(meso)	210	1040	40	
 9400503	Stirge	4000042	Stirge Wing	1	1	20	
 9400503	Stirge	2000001	Orange Potion	1	4	4	
 9400503	Stirge	2000003	Blue Potion	1	4	4	
@@ -17235,7 +17235,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400503	Stirge	4010001	Steel Ore	1	1	0.7	
 9400503	Stirge	4020000	Garnet Ore	1	1	0.7	
 9400503	Stirge	2010004	Lemon	1	4	0.3	
-9400504	Coolie Zombie	0	(meso)	31	45	40	
+9400504	Coolie Zombie	0	(meso)	62	90	40	
 9400504	Coolie Zombie	2000002	White Potion	1	1	4	
 9400504	Coolie Zombie	2000003	Blue Potion	1	1	4	
 9400504	Coolie Zombie	2000004	Elixir	1	1	4	
@@ -17320,7 +17320,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400532	King Slime GL	4031597	Cupid Code Piece	1	1	99.9999	
 9400533	Indigo Eye PQ	4031597	Cupid Code Piece	1	1	99.9999	
 9400534	Crystal Boar PQ	4031597	Cupid Code Piece	1	1	99.9999	
-9400538	Street Slime	0	(meso)	56	83	40	
+9400538	Street Slime	0	(meso)	112	166	40	
 9400538	Street Slime	4030012	Monster Card	1	1	12.5	
 9400538	Street Slime	2000000	Red Potion	1	1	4	
 9400538	Street Slime	2000003	Blue Potion	1	1	4	
@@ -17337,7 +17337,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400538	Street Slime	1412002	Iron Axe	1	1	0.07	
 9400538	Street Slime	1382018	Petal Staff	1	1	0.07	
 9400538	Street Slime	1050035	Brown Starlight	1	1	0.07	
-9400539	Urban Fungus	0	(meso)	60	88	40	
+9400539	Urban Fungus	0	(meso)	120	176	40	
 9400539	Urban Fungus	4030012	Monster Card	1	1	12.5	
 9400539	Urban Fungus	2000001	Orange Potion	1	1	4	
 9400539	Urban Fungus	2002002	Magic Potion	1	1	1	
@@ -17350,7 +17350,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400539	Urban Fungus	1060010	Steel Sergeant Kilt	1	1	0.07	
 9400539	Urban Fungus	1041027	Red Shivermail	1	1	0.07	
 9400539	Urban Fungus	1002127	Red Loosecap	1	1	0.07	
-9400540	Killa Bee	0	(meso)	68	101	40	
+9400540	Killa Bee	0	(meso)	136	202	40	
 9400540	Killa Bee	4032023	Sparkplug	1	1	20	
 9400540	Killa Bee	2000001	Orange Potion	1	1	4	
 9400540	Killa Bee	2060004	Diamond Arrow for Bow	6	8	1	
@@ -17364,7 +17364,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400540	Killa Bee	1002047	Great Red Helmet	1	1	0.07	
 9400540	Killa Bee	1062006	Bennis Chainpants	1	1	0.07	
 9400540	Killa Bee	1060050	Blue Knucklevest Pants	1	1	0.07	
-9400541	Killa Bee	0	(meso)	68	101	40	
+9400541	Killa Bee	0	(meso)	136	202	40	
 9400541	Killa Bee	4032023	Sparkplug	1	1	20	
 9400541	Killa Bee	2000001	Orange Potion	1	1	4	
 9400541	Killa Bee	2060004	Diamond Arrow for Bow	6	8	1	
@@ -17509,7 +17509,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400546	I.AM.ROBOT	1040097	Green China	1	1	0.07	
 9400546	I.AM.ROBOT	1060086	Green China Pants	1	1	0.07	
 9400546	I.AM.ROBOT	1072110	Black Blue-Lines Shoes	1	1	0.07	
-9400547	Boomer	0	(meso)	73	108	40	
+9400547	Boomer	0	(meso)	146	216	40	
 9400547	Boomer	4000391	Boomer Core	1	1	20	
 9400547	Boomer	4030012	Monster Card	1	1	12.5	
 9400547	Boomer	2000002	White Potion	1	1	4	
@@ -17567,7 +17567,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400549	Headless Horseman	2290057	[Mastery Book] Bow Expert	1	1	1	
 9400549	Headless Horseman	2290086	[Mastery Book] Ninja Storm	1	1	1	
 9400549	Headless Horseman	2020014	Sunrise Dew	1	4	0.3	
-9400550	Boomer	0	(meso)	73	108	40	
+9400550	Boomer	0	(meso)	146	216	40	
 9400550	Boomer	4000391	Boomer Core	1	1	20	
 9400550	Boomer	4030012	Monster Card	1	1	12.5	
 9400550	Boomer	2000002	White Potion	1	1	4	
@@ -17591,7 +17591,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400550	Boomer	1472018	Steel Slain	1	1	0.07	
 9400550	Boomer	2070002	Mokbi Throwing-Stars	1	1	0.04	
 9400551	Bob	4031447	Bob's Snail Shell	1	1	99.9999	
-9400551	Bob	0	(meso)	1000	5000	40	
+9400551	Bob	0	(meso)	2000	10000	40	
 9400551	Bob	2060000	Arrow for Bow	1	1	3	
 9400551	Bob	2061000	Arrow for Crossbow	1	1	3	
 9400551	Bob	2000000	Red Potion	1	1	2	
@@ -17607,7 +17607,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400551	Bob	1052095	Brown Rocky Suit	1	1	0.07	
 9400551	Bob	2040002	Scroll for Helmet for DEF	1	1	0.03	
 9400551	Bob	2041001	Scroll for Cape for Magic Def.	1	1	0.03	
-9400556	Glutton Ghoul	0	(meso)	60	88	40	
+9400556	Glutton Ghoul	0	(meso)	120	176	40	
 9400556	Glutton Ghoul	4032027	Coat Hanger	1	1	20	
 9400556	Glutton Ghoul	4032029	Duct Tape	1	1	20	
 9400556	Glutton Ghoul	4032030	Stretchy Material	1	1	20	
@@ -17727,7 +17727,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400563	Nightmare	1060065	Brown Legolier Pants	1	1	0.07	
 9400563	Nightmare	1002176	Red Burgler	1	1	0.07	
 9400563	Nightmare	1082074	Dark Cleave	1	1	0.07	
-9400565	Glutton Ghoul	0	(meso)	60	88	40	
+9400565	Glutton Ghoul	0	(meso)	120	176	40	
 9400565	Glutton Ghoul	4032027	Coat Hanger	1	1	20	
 9400565	Glutton Ghoul	4032029	Duct Tape	1	1	20	
 9400565	Glutton Ghoul	4032030	Stretchy Material	1	1	20	
@@ -17756,7 +17756,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400569	Big Puff Daddy	2002005	Sniper Potion	1	4	70	
 9400569	Big Puff Daddy	2002003	Wizard Potion	1	4	70	
 9400569	Big Puff Daddy	0	(meso)	500	800	40	
-9400570	Anniversary Cake	0	(meso)	49	72	40	
+9400570	Anniversary Cake	0	(meso)	98	144	40	
 9400570	Anniversary Cake	1452016	Maple Bow	1	1	0.07	
 9400570	Anniversary Cake	1452022	Maple Soul Searcher	1	1	0.07	
 9400570	Anniversary Cake	1472030	Maple Claw	1	1	0.07	
@@ -18098,7 +18098,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400606	Giant Cake	2101110	Monster Summoning Sack(Leviathan)	1	2	12	
 9400606	Giant Cake	3010025	Under the Maple Tree...	1	1	12	
 9400606	Giant Cake	4031348	Secret Spell Scroll	1	1	10	
-9400609	Andras	0	(meso)	204	1010	40	
+9400609	Andras	0	(meso)	408	2020	40	
 9400609	Andras	2000002	White Potion	1	1	4	
 9400609	Andras	2000003	Blue Potion	1	1	4	
 9400609	Andras	2000004	Elixir	1	1	1	
@@ -18108,7 +18108,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400609	Andras	4020006	Topaz Ore	1	1	0.7	
 9400609	Andras	1082256	Andras Gloves	1	1	0.5	
 9400609	Andras	1072419	Andras Shoes	1	1	0.5	
-9400610	Amdusias	0	(meso)	204	1010	40	
+9400610	Amdusias	0	(meso)	408	2020	40	
 9400610	Amdusias	2000002	White Potion	1	1	4	
 9400610	Amdusias	2000003	Blue Potion	1	1	4	
 9400610	Amdusias	2000004	Elixir	1	1	1	
@@ -18119,7 +18119,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400610	Amdusias	4020008	Black Crystal Ore	1	1	0.7	
 9400610	Amdusias	1082259	Amdusias Gloves	1	1	0.5	
 9400610	Amdusias	1072422	Amdusias Shoes	1	1	0.5	
-9400611	Crocell	0	(meso)	204	1010	40	
+9400611	Crocell	0	(meso)	408	2020	40	
 9400611	Crocell	2000002	White Potion	1	1	4	
 9400611	Crocell	2000003	Blue Potion	1	1	4	
 9400611	Crocell	2000004	Elixir	1	1	1	
@@ -18129,7 +18129,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400611	Crocell	4020007	Diamond Ore	1	1	0.7	
 9400611	Crocell	1082260	Crocell Gloves	1	1	0.5	
 9400611	Crocell	1072423	Crocell Shoes	1	1	0.5	
-9400612	Marbas	0	(meso)	204	1010	40	
+9400612	Marbas	0	(meso)	408	2020	40	
 9400612	Marbas	2000002	White Potion	1	1	4	
 9400612	Marbas	2000003	Blue Potion	1	1	4	
 9400612	Marbas	2000004	Elixir	1	1	1	
@@ -18139,7 +18139,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400612	Marbas	4020001	Amethyst Ore	1	1	0.7	
 9400612	Marbas	1082257	Marbas Gloves	1	1	0.5	
 9400612	Marbas	1072420	Marbas Shoes	1	1	0.5	
-9400613	Valefor	0	(meso)	204	1010	40	
+9400613	Valefor	0	(meso)	408	2020	40	
 9400613	Valefor	2000002	White Potion	1	1	4	
 9400613	Valefor	2000003	Blue Potion	1	1	4	
 9400613	Valefor	2000004	Elixir	1	1	1	
@@ -18158,7 +18158,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400617	Strange Pig	4001352	Lost Book	1	1	8	28205
 9400617	Strange Pig	4001362	Old Worn-out Paper	1	1	8	28252
 9400617	Strange Pig	4001363	Old Key	1	1	8	28252
-9400623	Amdusias	0	(meso)	204	1010	40	
+9400623	Amdusias	0	(meso)	408	2020	40	
 9400623	Amdusias	2000002	White Potion	1	1	4	
 9400623	Amdusias	2000003	Blue Potion	1	1	4	
 9400623	Amdusias	2000004	Elixir	1	1	1	
@@ -18183,7 +18183,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400633	Astaroth	1482046	Astaroth Knuckles	1	1	4	
 9400633	Astaroth	2022113	Pumpkin Pie	1	4	0.3	
 9400633	Astaroth	2020016	Cheesecake	1	4	0.3	
-9400638	Rotting Skeleton	0	(meso)	100	200	40	
+9400638	Rotting Skeleton	0	(meso)	200	400	40	
 9400638	Rotting Skeleton	2000001	Orange Potion	1	1	4	
 9400638	Rotting Skeleton	2022244	Smore	1	1	4	
 9400638	Rotting Skeleton	2010003	Orange	1	1	4	
@@ -18227,7 +18227,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400640	Twisted Jester	1002210	Brown Sonata	1	1	0.2	
 9400640	Twisted Jester	1002281	Brown Nightfox	1	1	0.1287	
 9400640	Twisted Jester	1002285	Blood Nightfox	1	1	0.1287	
-9400644	Malady	0	(meso)	42	61	40	
+9400644	Malady	0	(meso)	84	122	40	
 9400644	Malady	4030012	Monster Card	1	1	12.5	
 9400644	Malady	2000002	White Potion	1	1	4	
 9400644	Malady	2000003	Blue Potion	1	1	4	
@@ -18421,7 +18421,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9420015	NooNoo	2022042	Cookie	1	1	70	
 9420015	NooNoo	4032176	Rascal Snowpiece	1	1	70	
 9420015	NooNoo	4000421	Qualified Knitting Ball	1	1	70	
-9420500	Stopnow	0	(meso)	36	54	40	
+9420500	Stopnow	0	(meso)	72	108	40	
 9420500	Stopnow	2002002	Magic Potion	1	1	33.3333	
 9420500	Stopnow	4000369	Stop Sign	1	1	30	
 9420500	Stopnow	4000370	Metal Pole	1	1	30	
@@ -18470,7 +18470,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9420501	Freezer	2043301	Scroll for Dagger for ATT	1	1	0.1	
 9420501	Freezer	2048005	Scroll for Pet Equip. for Jump	1	1	0.1	
 9420501	Freezer	4010005	Orihalcon Ore	1	1	0.03	
-9420502	Biner	0	(meso)	30	42	40	
+9420502	Biner	0	(meso)	60	84	40	
 9420502	Biner	4000366	Waste Paper	1	1	30	
 9420502	Biner	4000367	Recycle Water Bottle	1	1	30	
 9420502	Biner	2000000	Red Potion	1	1	4	
@@ -18571,7 +18571,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9420505	Tippo Blue	2070003	Kumbi Throwing-Stars	1	1	0.05	
 9420505	Tippo Blue	4010006	Gold Ore	1	1	0.03	
 9420505	Tippo Blue	4020007	Diamond Ore	1	1	0.03	
-9420506	Batoo	0	(meso)	56	69	40	
+9420506	Batoo	0	(meso)	112	138	40	
 9420506	Batoo	4000368	Broken Wing	1	1	30	
 9420506	Batoo	2000001	Orange Potion	1	1	4	
 9420506	Batoo	2000003	Blue Potion	1	1	4	
@@ -19363,7 +19363,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9420550	Scaredy Scarlion	2000002	White Potion	1	1	4	
 9420550	Scaredy Scarlion	4003005	Soft Feather	1	1	0.7	
 9420550	Scaredy Scarlion	1092012	Steel Tower Shield	1	1	0.07	
-9500101	Pig	0	(meso)	38	55	40	
+9500101	Pig	0	(meso)	76	110	40	
 9500101	Pig	4000021	Leather	1	1	20	
 9500101	Pig	4030012	Monster Card	1	1	12.5	
 9500101	Pig	4030011	Omok Piece : Pig	1	1	7.7	
@@ -19383,7 +19383,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500101	Pig	1040034	Dark Nightshift	1	1	0.07	
 9500101	Pig	1472000	Garnier	1	1	0.07	
 9500101	Pig	1002610	Brown Rocky Bandana	1	1	0.07	
-9500102	Orange Mushroom	0	(meso)	39	57	40	
+9500102	Orange Mushroom	0	(meso)	78	114	40	
 9500102	Orange Mushroom	4000001	Orange Mushroom Cap	1	1	20	
 9500102	Orange Mushroom	4001345	Sunglasses	1	1	7	28170
 9500102	Orange Mushroom	2000000	Red Potion	1	1	4	
@@ -19402,7 +19402,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500102	Orange Mushroom	1072031	Red Ninja Sandals	1	1	0.07	
 9500102	Orange Mushroom	1052095	Brown Rocky Suit	1	1	0.07	
 9500102	Orange Mushroom	2330000	Bullet	1	1	0.04	
-9500103	Bubbling	0	(meso)	49	72	40	
+9500103	Bubbling	0	(meso)	98	144	40	
 9500103	Bubbling	2000000	Red Potion	1	1	4	
 9500103	Bubbling	2000003	Blue Potion	1	1	4	
 9500103	Bubbling	2380012	Bubbling Card	1	1	0.8	
@@ -19429,7 +19429,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500103	Bubbling	1082180	Green Lagger Halfglove	1	1	0.07	
 9500103	Bubbling	1492001	Dellinger Special	1	1	0.07	
 9500103	Bubbling	2330000	Bullet	1	1	0.04	
-9500104	Octopus	0	(meso)	44	65	40	
+9500104	Octopus	0	(meso)	88	130	40	
 9500104	Octopus	4000006	Octopus Leg	1	1	20	
 9500104	Octopus	4030012	Monster Card	1	1	12.5	
 9500104	Octopus	4030010	Omok Piece : Octopus	1	1	7.7	
@@ -19447,7 +19447,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500104	Octopus	1092007	Battle Shield	1	1	0.07	
 9500104	Octopus	1092000	Steel Shield	1	1	0.07	
 9500104	Octopus	1061022	Yellow Arianne Skirt	1	1	0.07	
-9500105	Green Mushroom	0	(meso)	49	72	40	
+9500105	Green Mushroom	0	(meso)	98	144	40	
 9500105	Green Mushroom	4000012	Green Mushroom Cap	1	1	20	
 9500105	Green Mushroom	2000000	Red Potion	1	1	4	
 9500105	Green Mushroom	2000003	Blue Potion	1	1	4	
@@ -19484,7 +19484,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500105	Green Mushroom	1060031	Blue Pao Bottom	1	1	0.07	
 9500105	Green Mushroom	1072285	Brown Lagger Slipper	1	1	0.07	
 9500105	Green Mushroom	1482001	Leather Arms	1	1	0.07	
-9500106	Horny Mushroom	0	(meso)	62	91	40	
+9500106	Horny Mushroom	0	(meso)	124	182	40	
 9500106	Horny Mushroom	4000015	Horny Mushroom Cap	1	1	20	
 9500106	Horny Mushroom	4030012	Monster Card	1	1	12.5	
 9500106	Horny Mushroom	2000003	Blue Potion	1	1	4	
@@ -20698,7 +20698,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500168	King Slime	2002001	Speed Potion	1	4	70	
 9500168	King Slime	2002005	Sniper Potion	1	4	70	
 9500168	King Slime	2002003	Wizard Potion	1	4	70	
-9500168	King Slime	0	(meso)	500	800	40	
+9500168	King Slime	0	(meso)	1000	1600	40	
 9500168	King Slime	1072369	Squishy Shoes	1	1	4	
 9500168	King Slime	2388001	King Slime Card	1	4	2.4	
 9500169	Jr. Balrog	2022311	Big Cream Puff	1	4	70	
@@ -21101,7 +21101,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500181	Papulatus	4001084	Papulatus Certificate	1	1	0.7	
 9500181	Papulatus	2020013	Reindeer Milk	1	4	0.3	
 9500181	Papulatus	2020015	Sunset Dew	1	4	0.3	
-9500306	Mano	0	(meso)	174	850	40	
+9500306	Mano	0	(meso)	348	1700	40	
 9500306	Mano	4000016	Red Snail Shell	1	1	20	
 9500306	Mano	4000000	Blue Snail Shell	1	1	20	
 9500306	Mano	1002049	Gold Burgernet Helm	1	1	4	
@@ -21463,7 +21463,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500314	King Sage Cat	4004004	Dark Crystal Ore	1	1	0.3	
 9500314	King Sage Cat	2049000	Clean Slate Scroll 1%	1	4	0.25	
 9500317	Kid Snowman	4001141	Snowman Branch	1	1	60	
-9500317	Kid Snowman	0	(meso)	126	610	40	
+9500317	Kid Snowman	0	(meso)	252	1220	40	
 9500317	Kid Snowman	2022279	Snow Cake Piece	1	1	20	
 9500317	Kid Snowman	4003000	Screw	5	20	4	
 9500317	Kid Snowman	4003001	Processed Wood	5	20	4	
@@ -21656,7 +21656,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500319	Giant Snowman	1432046	Maplemas Tree	1	1	0.4	
 9500319	Giant Snowman	1332030	Fan	1	1	0.4	
 9500320	Lost Rudolph	2388027	Rudolph Card	1	1	2.4	
-9500321	Snowman	0	(meso)	42	61	40	
+9500321	Snowman	0	(meso)	84	122	40	
 9500321	Snowman	4000051	Hector Tail	1	1	20	
 9500321	Snowman	4000048	Jr. Yeti Skin	1	1	20	
 9500321	Snowman	4000049	Yeti Horn	1	1	20	
@@ -21966,7 +21966,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500361	Leviathan	2388033	Leviathan Card	1	4	2.4	
 9500362	Papulatus	2388022	Papulatus Card	1	4	2.4	
 9500363	Pianus	2388020	Pianus Card	1	4	2.4	
-9500366	Barnard Gray	0	(meso)	49	72	40	
+9500366	Barnard Gray	0	(meso)	98	144	40	
 9500366	Barnard Gray	4000117	Space Food	1	1	20	
 9500366	Barnard Gray	4030012	Monster Card	1	1	12.5	
 9500366	Barnard Gray	2000002	White Potion	1	1	4	
@@ -21992,7 +21992,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500366	Barnard Gray	1040084	Dark Shadow	1	1	0.07	
 9500366	Barnard Gray	1060073	Dark Shadow Pants	1	1	0.07	
 9500366	Barnard Gray	1082195	Brown Barbee	1	1	0.07	
-9500367	Zeta Gray	0	(meso)	49	72	40	
+9500367	Zeta Gray	0	(meso)	98	144	40	
 9500367	Zeta Gray	4000118	Small Spaceship	1	1	20	
 9500367	Zeta Gray	2000002	White Potion	1	1	4	
 9500367	Zeta Gray	2000003	Blue Potion	1	1	4	
@@ -22014,7 +22014,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500367	Zeta Gray	1082047	Orihalcon Arbion	1	1	0.07	
 9500367	Zeta Gray	1492006	Lunar Shooter	1	1	0.07	
 9500367	Zeta Gray	2070002	Mokbi Throwing-Stars	1	1	0.04	
-9500368	Ultra Gray	0	(meso)	49	72	40	
+9500368	Ultra Gray	0	(meso)	98	144	40	
 9500368	Ultra Gray	4000119	Receiving Apparatus	1	1	20	
 9500368	Ultra Gray	2000002	White Potion	1	1	4	
 9500368	Ultra Gray	2000004	Elixir	1	1	4	
@@ -22036,7 +22036,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500368	Ultra Gray	1332003	Shinkita	1	1	0.07	
 9500368	Ultra Gray	1072300	Brown Leather Krag	1	1	0.07	
 9500368	Ultra Gray	2070004	Tobi Throwing-Stars	1	1	0.04	
-9500369	Chief Gray	0	(meso)	49	72	40	
+9500369	Chief Gray	0	(meso)	98	144	40	
 9500369	Chief Gray	2000002	White Potion	1	1	4	
 9500369	Chief Gray	2000004	Elixir	1	1	4	
 9500369	Chief Gray	2002008	Sniper Pill	1	1	1	
@@ -22058,7 +22058,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500369	Chief Gray	1072125	Purple Steel-Tip Boots	1	1	0.07	
 9500369	Chief Gray	1072130	Red Goni Shoes	1	1	0.07	
 9500369	Chief Gray	1041074	Purple Shadow	1	1	0.07	
-9500370	Mecateon	0	(meso)	49	72	40	
+9500370	Mecateon	0	(meso)	98	144	40	
 9500370	Mecateon	4030012	Monster Card	1	1	12.5	
 9500370	Mecateon	2000002	White Potion	1	1	4	
 9500370	Mecateon	2000004	Elixir	1	1	4	
@@ -22086,7 +22086,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500370	Mecateon	1061076	Maroon Moon Pants	1	1	0.07	
 9500370	Mecateon	1002184	Brown Pilfer	1	1	0.07	
 9500370	Mecateon	1082198	Brown Royce	1	1	0.07	
-9500371	Mateon	0	(meso)	49	72	40	
+9500371	Mateon	0	(meso)	98	144	40	
 9500371	Mateon	2000002	White Potion	1	1	4	
 9500371	Mateon	2000003	Blue Potion	1	1	4	
 9500371	Mateon	2002006	Warrior Pill	1	1	1	
@@ -22114,7 +22114,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500371	Mateon	1072131	Purple Goni Shoes	1	1	0.07	
 9500371	Mateon	1092019	Nimble Wristguard	1	1	0.07	
 9500371	Mateon	2330001	Split Bullet	1	1	0.04	
-9500372	Plateon	0	(meso)	49	72	40	
+9500372	Plateon	0	(meso)	98	144	40	
 9500372	Plateon	4030012	Monster Card	1	1	12.5	
 9500372	Plateon	2000002	White Potion	1	1	4	
 9500372	Plateon	2000004	Elixir	1	1	4	
@@ -22144,9 +22144,9 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9500400	Gourd	4031223	Box of Jewelry	1	1	100	3608
 9600001	Rooster	4000187	Chicken Feet	1	1	100	
 9600002	Duck	4000188	Duck Egg	1	1	100	
-9600002	Duck	0	(meso)	43	65	40	
+9600002	Duck	0	(meso)	86	130	40	
 9600003	Sheep	4000189	Sheep Skin	1	1	100	
-9600003	Sheep	0	(meso)	58	81	40	
+9600003	Sheep	0	(meso)	116	162	40	
 9600004	Goat	4000190	White Horn	1	1	100	
 9600004	Goat	0	(meso)	64	99	40	
 9600005	Black Goat	4000191	Black Horn	1	1	100	

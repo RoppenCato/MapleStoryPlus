@@ -4,6 +4,7 @@
     python Settings/Scripts/Simulate-Economy.py --levels        one row per level
     python Settings/Scripts/Simulate-Economy.py --meso-rate 3   try other rates than the ones in config.yaml
     python Settings/Scripts/Simulate-Economy.py --potion-price 0.5   potions at half price
+    python Settings/Scripts/Simulate-Economy.py --equip-sell 0.25    vendors pay a quarter for equipment
 
 The database must be running (it holds the drop tables). Nothing is changed.
 
@@ -133,6 +134,7 @@ def main():
     p.add_argument("--drop-rate", type=float)
     p.add_argument("--potion-price", type=float, default=1.0, help="multiply potion shop prices by this")
     p.add_argument("--early-meso", type=float, default=1.0, help="multiply mesos dropped by monsters under level 30 by this")
+    p.add_argument("--equip-sell", type=float, default=1.0, help="multiply what vendors pay for equipment by this")
     p.add_argument("--to", type=int, default=120)
     a = p.parse_args()
     exp_rate = a.exp_rate or config_rate("exp_rate")
@@ -174,7 +176,7 @@ def main():
             if item == 0:
                 meso += odds * amount * meso_rate * early
             elif not quest:
-                items += odds * amount * prices.get(item, 0)
+                items += odds * amount * prices.get(item, 0) * (a.equip_sell if item < 2000000 else 1.0)
         mobs.append({"level": int(r["level"]), "exp": int(r["exp"]), "meso": meso, "items": items,
                      "touch": touch_damage(r["id"]), "name": r["name"]})
 

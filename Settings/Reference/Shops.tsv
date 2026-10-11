@@ -91,9 +91,9 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 11000	11000	Sid	1302000	Sword	50	
 11100	11100	Lucy	2010002	Egg	50	
 11100	11100	Lucy	2010000	Apple	30	
-11100	11100	Lucy	2000002	White Potion	320	
-11100	11100	Lucy	2000001	Orange Potion	160	
-11100	11100	Lucy	2000000	Red Potion	50	
+11100	11100	Lucy	2000002	White Potion	160	
+11100	11100	Lucy	2000001	Orange Potion	80	
+11100	11100	Lucy	2000000	Red Potion	25	
 21000	21000	Pan	1072005	Leather Sandals	50	
 21000	21000	Pan	1072001	Red Rubber Boots	50	
 21000	21000	Pan	1061008	Indigo Miniskirt	50	
@@ -161,11 +161,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1001100	1001100	Mina	2002002	Magic Potion	500	
 1001100	1001100	Mina	2002001	Speed Potion	400	
 1001100	1001100	Mina	2002000	Dexterity Potion	500	
-1001100	1001100	Mina	2000006	Mana Elixir	620	
-1001100	1001100	Mina	2000003	Blue Potion	200	
-1001100	1001100	Mina	2000002	White Potion	320	
-1001100	1001100	Mina	2000001	Orange Potion	160	
-1001100	1001100	Mina	2000000	Red Potion	50	
+1001100	1001100	Mina	2000006	Mana Elixir	310	
+1001100	1001100	Mina	2000003	Blue Potion	100	
+1001100	1001100	Mina	2000002	White Potion	160	
+1001100	1001100	Mina	2000001	Orange Potion	80	
+1001100	1001100	Mina	2000000	Red Potion	25	
 1011000	1011000	Karl	1442004	Janitor's Mop	24000	
 1011000	1011000	Karl	1422004	Monkey Wrench	20000	
 1011000	1011000	Karl	1322008	Hard Briefcase	12000	
@@ -292,11 +292,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1011100	1011100	Luna	2002002	Magic Potion	500	
 1011100	1011100	Luna	2002001	Speed Potion	400	
 1011100	1011100	Luna	2002000	Dexterity Potion	500	
-1011100	1011100	Luna	2000006	Mana Elixir	620	
-1011100	1011100	Luna	2000003	Blue Potion	200	
-1011100	1011100	Luna	2000002	White Potion	320	
-1011100	1011100	Luna	2000001	Orange Potion	160	
-1011100	1011100	Luna	2000000	Red Potion	50	
+1011100	1011100	Luna	2000006	Mana Elixir	310	
+1011100	1011100	Luna	2000003	Blue Potion	100	
+1011100	1011100	Luna	2000002	White Potion	160	
+1011100	1011100	Luna	2000001	Orange Potion	80	
+1011100	1011100	Luna	2000000	Red Potion	25	
 1012004	1012004	Doofus	4160019	Pet Command Guide : Sun Wu Kong	1000	
 1012004	1012004	Doofus	4160039	Pet Command Guide : White Duck	1000	
 1012004	1012004	Doofus	4160037	Pet Command Guide : Crystal Rudolph	1000	
@@ -445,11 +445,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1021100	1021100	Arturo	2002002	Magic Potion	500	
 1021100	1021100	Arturo	2002001	Speed Potion	400	
 1021100	1021100	Arturo	2002000	Dexterity Potion	500	
-1021100	1021100	Arturo	2000006	Mana Elixir	620	
-1021100	1021100	Arturo	2000003	Blue Potion	200	
-1021100	1021100	Arturo	2000002	White Potion	320	
-1021100	1021100	Arturo	2000001	Orange Potion	160	
-1021100	1021100	Arturo	2000000	Red Potion	50	
+1021100	1021100	Arturo	2000006	Mana Elixir	310	
+1021100	1021100	Arturo	2000003	Blue Potion	100	
+1021100	1021100	Arturo	2000002	White Potion	160	
+1021100	1021100	Arturo	2000001	Orange Potion	80	
+1021100	1021100	Arturo	2000000	Red Potion	25	
 1031000	1031000	Flora the Fairy	1322002	Iron Mace	10000	
 1031000	1031000	Flora the Fairy	1382002	Wizard Staff	20000	
 1031000	1031000	Flora the Fairy	1382004	Old Wooden Staff	10000	
@@ -539,11 +539,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1031100	1031100	Len the Fairy	2002002	Magic Potion	500	
 1031100	1031100	Len the Fairy	2002001	Speed Potion	400	
 1031100	1031100	Len the Fairy	2002000	Dexterity Potion	500	
-1031100	1031100	Len the Fairy	2000006	Mana Elixir	604	
-1031100	1031100	Len the Fairy	2000003	Blue Potion	192	
-1031100	1031100	Len the Fairy	2000002	White Potion	320	
-1031100	1031100	Len the Fairy	2000001	Orange Potion	160	
-1031100	1031100	Len the Fairy	2000000	Red Potion	50	
+1031100	1031100	Len the Fairy	2000006	Mana Elixir	310	
+1031100	1031100	Len the Fairy	2000003	Blue Potion	100	
+1031100	1031100	Len the Fairy	2000002	White Potion	160	
+1031100	1031100	Len the Fairy	2000001	Orange Potion	80	
+1031100	1031100	Len the Fairy	2000000	Red Potion	25	
 1032103	1032103	El Moth	2044900	Scroll for Gun for Attack 100%	70000	
 1032103	1032103	El Moth	2044800	Scroll for Knuckler for Attack 100%	70000	
 1032103	1032103	El Moth	2043800	Scroll for Staff for Magic Att.	70000	
@@ -698,11 +698,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1051002	1051002	Dr. Faymus	2002002	Magic Potion	500	
 1051002	1051002	Dr. Faymus	2002001	Speed Potion	400	
 1051002	1051002	Dr. Faymus	2002000	Dexterity Potion	500	
-1051002	1051002	Dr. Faymus	2000006	Mana Elixir	620	
-1051002	1051002	Dr. Faymus	2000003	Blue Potion	200	
-1051002	1051002	Dr. Faymus	2000002	White Potion	320	
-1051002	1051002	Dr. Faymus	2000001	Orange Potion	160	
-1051002	1051002	Dr. Faymus	2000000	Red Potion	50	
+1051002	1051002	Dr. Faymus	2000006	Mana Elixir	310	
+1051002	1051002	Dr. Faymus	2000003	Blue Potion	100	
+1051002	1051002	Dr. Faymus	2000002	White Potion	160	
+1051002	1051002	Dr. Faymus	2000001	Orange Potion	80	
+1051002	1051002	Dr. Faymus	2000000	Red Potion	25	
 1052104	1052104	Tulcus	2044700	Scroll for Claw for ATT	70000	
 1052104	1052104	Tulcus	2043300	Scroll for Dagger for ATT	70000	
 1052104	1052104	Tulcus	2044400	Scroll for Pole Arm for ATT	70000	
@@ -744,11 +744,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1052116	1052116	Thompson	2002002	Magic Potion	500	
 1052116	1052116	Thompson	2002001	Speed Potion	400	
 1052116	1052116	Thompson	2002000	Dexterity Potion	500	
-1052116	1052116	Thompson	2000006	Mana Elixir	620	
-1052116	1052116	Thompson	2000003	Blue Potion	200	
-1052116	1052116	Thompson	2000002	White Potion	320	
-1052116	1052116	Thompson	2000001	Orange Potion	160	
-1052116	1052116	Thompson	2000000	Red Potion	50	
+1052116	1052116	Thompson	2000006	Mana Elixir	310	
+1052116	1052116	Thompson	2000003	Blue Potion	100	
+1052116	1052116	Thompson	2000002	White Potion	160	
+1052116	1052116	Thompson	2000001	Orange Potion	80	
+1052116	1052116	Thompson	2000000	Red Potion	25	
 1061001	1061001	24 Hr Mobile Store	2330000	Bullet	600	
 1061001	1061001	24 Hr Mobile Store	2070000	Subi Throwing-Stars	500	
 1061001	1061001	24 Hr Mobile Store	2061001	Bronze Arrow for Crossbow	2800	
@@ -778,11 +778,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1061002	1061002	Mr. Sweatbottom	2010001	Meat	106	
 1061002	1061002	Mr. Sweatbottom	2010002	Egg	50	
 1061002	1061002	Mr. Sweatbottom	2010000	Apple	30	
-1061002	1061002	Mr. Sweatbottom	2000006	Mana Elixir	620	
-1061002	1061002	Mr. Sweatbottom	2000003	Blue Potion	200	
-1061002	1061002	Mr. Sweatbottom	2000002	White Potion	320	
-1061002	1061002	Mr. Sweatbottom	2000001	Orange Potion	160	
-1061002	1061002	Mr. Sweatbottom	2000000	Red Potion	50	
+1061002	1061002	Mr. Sweatbottom	2000006	Mana Elixir	310	
+1061002	1061002	Mr. Sweatbottom	2000003	Blue Potion	100	
+1061002	1061002	Mr. Sweatbottom	2000002	White Potion	160	
+1061002	1061002	Mr. Sweatbottom	2000001	Orange Potion	80	
+1061002	1061002	Mr. Sweatbottom	2000000	Red Potion	25	
 1081000	1081000	Valen	2330000	Bullet	600	
 1081000	1081000	Valen	2070000	Subi Throwing-Stars	500	
 1081000	1081000	Valen	2001002	Red Bean Sundae	4000	
@@ -802,10 +802,10 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1081000	1081000	Valen	2010001	Meat	106	
 1081000	1081000	Valen	2010002	Egg	50	
 1081000	1081000	Valen	2010000	Apple	30	
-1081000	1081000	Valen	2000003	Blue Potion	200	
-1081000	1081000	Valen	2000002	White Potion	320	
-1081000	1081000	Valen	2000001	Orange Potion	160	
-1081000	1081000	Valen	2000000	Red Potion	50	
+1081000	1081000	Valen	2000003	Blue Potion	100	
+1081000	1081000	Valen	2000002	White Potion	160	
+1081000	1081000	Valen	2000001	Orange Potion	80	
+1081000	1081000	Valen	2000000	Red Potion	25	
 1091000	1091000	Morgan	1322007	Leather Purse	6000	
 1091000	1091000	Morgan	1302007	Long Sword	3000	
 1091000	1091000	Morgan	1442004	Janitor's Mop	24000	
@@ -847,11 +847,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1091002	1091002	Gali	2002002	Magic Potion	500	
 1091002	1091002	Gali	2002001	Speed Potion	400	
 1091002	1091002	Gali	2002000	Dexterity Potion	500	
-1091002	1091002	Gali	2000006	Mana Elixir	620	
-1091002	1091002	Gali	2000003	Blue Potion	200	
-1091002	1091002	Gali	2000002	White Potion	320	
-1091002	1091002	Gali	2000001	Orange Potion	160	
-1091002	1091002	Gali	2000000	Red Potion	50	
+1091002	1091002	Gali	2000006	Mana Elixir	310	
+1091002	1091002	Gali	2000003	Blue Potion	100	
+1091002	1091002	Gali	2000002	White Potion	160	
+1091002	1091002	Gali	2000001	Orange Potion	80	
+1091002	1091002	Gali	2000000	Red Potion	25	
 1093000	1093000	Pupa	2022258	Coconut Juice	105	
 1100001	1100001	Kiriyu	1072005	Leather Sandals	50	
 1100001	1100001	Kiriyu	1072001	Red Rubber Boots	50	
@@ -889,11 +889,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1100002	1100002	Kiriwing	2002002	Magic Potion	500	
 1100002	1100002	Kiriwing	2002001	Speed Potion	400	
 1100002	1100002	Kiriwing	2002000	Dexterity Potion	500	
-1100002	1100002	Kiriwing	2000006	Mana Elixir	620	
-1100002	1100002	Kiriwing	2000003	Blue Potion	200	
-1100002	1100002	Kiriwing	2000002	White Potion	320	
-1100002	1100002	Kiriwing	2000001	Orange Potion	160	
-1100002	1100002	Kiriwing	2000000	Red Potion	50	
+1100002	1100002	Kiriwing	2000006	Mana Elixir	310	
+1100002	1100002	Kiriwing	2000003	Blue Potion	100	
+1100002	1100002	Kiriwing	2000002	White Potion	160	
+1100002	1100002	Kiriwing	2000001	Orange Potion	80	
+1100002	1100002	Kiriwing	2000000	Red Potion	25	
 1200001	1200001	Puno	3010001	Sky-blue Wooden Chair	1000	
 1200001	1200001	Puno	1092003	Stolen Fence	2000	
 1200001	1200001	Puno	1072063	Brown Ankle-strap Sandals	10000	
@@ -947,11 +947,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1200002	1200002	Puri Puri	2002002	Magic Potion	500	
 1200002	1200002	Puri Puri	2002001	Speed Potion	400	
 1200002	1200002	Puri Puri	2002000	Dexterity Potion	500	
-1200002	1200002	Puri Puri	2000006	Mana Elixir	620	
-1200002	1200002	Puri Puri	2000003	Blue Potion	200	
-1200002	1200002	Puri Puri	2000002	White Potion	320	
-1200002	1200002	Puri Puri	2000001	Orange Potion	160	
-1200002	1200002	Puri Puri	2000000	Red Potion	50	
+1200002	1200002	Puri Puri	2000006	Mana Elixir	310	
+1200002	1200002	Puri Puri	2000003	Blue Potion	100	
+1200002	1200002	Puri Puri	2000002	White Potion	160	
+1200002	1200002	Puri Puri	2000001	Orange Potion	80	
+1200002	1200002	Puri Puri	2000000	Red Potion	25	
 1301000	1301000	Thorr	2330000	Bullet	600	
 1301000	1301000	Thorr	2070000	Subi Throwing-Stars	500	
 1301000	1301000	Thorr	2061000	Arrow for Crossbow	1	
@@ -964,11 +964,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 1301000	1301000	Thorr	2002002	Magic Potion	500	
 1301000	1301000	Thorr	2002001	Speed Potion	400	
 1301000	1301000	Thorr	2002000	Dexterity Potion	500	
-1301000	1301000	Thorr	2000006	Mana Elixir	620	
-1301000	1301000	Thorr	2000003	Blue Potion	200	
-1301000	1301000	Thorr	2000002	White Potion	320	
-1301000	1301000	Thorr	2000001	Orange Potion	160	
-1301000	1301000	Thorr	2000000	Red Potion	50	
+1301000	1301000	Thorr	2000006	Mana Elixir	310	
+1301000	1301000	Thorr	2000003	Blue Potion	100	
+1301000	1301000	Thorr	2000002	White Potion	160	
+1301000	1301000	Thorr	2000001	Orange Potion	80	
+1301000	1301000	Thorr	2000000	Red Potion	25	
 57	2002001	Rudi	3990000	Red No. 1	500	
 57	2002001	Rudi	3990001	Red No. 2	500	
 57	2002001	Rudi	3990002	Red No. 3	500	
@@ -1222,11 +1222,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2012005	2012005	Edel the Fairy	2002002	Magic Potion	500	
 2012005	2012005	Edel the Fairy	2002001	Speed Potion	400	
 2012005	2012005	Edel the Fairy	2002000	Dexterity Potion	500	
-2012005	2012005	Edel the Fairy	2000006	Mana Elixir	620	
-2012005	2012005	Edel the Fairy	2000003	Blue Potion	200	
-2012005	2012005	Edel the Fairy	2000002	White Potion	320	
-2012005	2012005	Edel the Fairy	2000001	Orange Potion	160	
-2012005	2012005	Edel the Fairy	2000000	Red Potion	50	
+2012005	2012005	Edel the Fairy	2000006	Mana Elixir	310	
+2012005	2012005	Edel the Fairy	2000003	Blue Potion	100	
+2012005	2012005	Edel the Fairy	2000002	White Potion	160	
+2012005	2012005	Edel the Fairy	2000001	Orange Potion	80	
+2012005	2012005	Edel the Fairy	2000000	Red Potion	25	
 2020001	2020001	Scott	1492006	Lunar Shooter	160000	
 2020001	2020001	Scott	1492005	Shooting Star	100000	
 2020001	2020001	Scott	1482006	Neozard	150000	
@@ -1376,11 +1376,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2022001	2022001	Hana	2002002	Magic Potion	500	
 2022001	2022001	Hana	2002001	Speed Potion	400	
 2022001	2022001	Hana	2002000	Dexterity Potion	500	
-2022001	2022001	Hana	2000006	Mana Elixir	620	
-2022001	2022001	Hana	2000003	Blue Potion	200	
-2022001	2022001	Hana	2000002	White Potion	320	
-2022001	2022001	Hana	2000001	Orange Potion	160	
-2022001	2022001	Hana	2000000	Red Potion	50	
+2022001	2022001	Hana	2000006	Mana Elixir	310	
+2022001	2022001	Hana	2000003	Blue Potion	100	
+2022001	2022001	Hana	2000002	White Potion	160	
+2022001	2022001	Hana	2000001	Orange Potion	80	
+2022001	2022001	Hana	2000000	Red Potion	25	
 2022001	2022001	Hana	2022186	Soft White Bun	2400	
 2022001	2022001	Hana	2022001	Red Bean Porridge	400	
 2022002	2022002	Barun	2044900	Scroll for Gun for Attack 100%	70000	
@@ -1435,10 +1435,10 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2030009	2030009	Glibber	2002002	Magic Potion	520	
 2030009	2030009	Glibber	2002001	Speed Potion	416	
 2030009	2030009	Glibber	2002000	Dexterity Potion	520	
-2030009	2030009	Glibber	2000006	Mana Elixir	644	
-2030009	2030009	Glibber	2000003	Blue Potion	208	
-2030009	2030009	Glibber	2000002	White Potion	332	
-2030009	2030009	Glibber	2000001	Orange Potion	166	
+2030009	2030009	Glibber	2000006	Mana Elixir	322	
+2030009	2030009	Glibber	2000003	Blue Potion	104	
+2030009	2030009	Glibber	2000002	White Potion	166	
+2030009	2030009	Glibber	2000001	Orange Potion	83	
 2040049	2040049	Gumball Machine	2061001	Bronze Arrow for Crossbow	10	
 2040049	2040049	Gumball Machine	2060001	Bronze Arrow for Bow	10	
 2040049	2040049	Gumball Machine	2061000	Arrow for Crossbow	1	
@@ -1465,15 +1465,15 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2040049	2040049	Gumball Machine	2002006	Warrior Pill	570	
 2040049	2040049	Gumball Machine	2001002	Red Bean Sundae	3800	
 2040049	2040049	Gumball Machine	2001001	Ice Cream Pop	2185	
-2040049	2040049	Gumball Machine	2000006	Mana Elixir	589	
+2040049	2040049	Gumball Machine	2000006	Mana Elixir	310	
 2040049	2040049	Gumball Machine	2000011	Mana Elixir Pill	620	
-2040049	2040049	Gumball Machine	2000003	Blue Potion	190	
+2040049	2040049	Gumball Machine	2000003	Blue Potion	100	
 2040049	2040049	Gumball Machine	2000010	Blue Pill	200	
-2040049	2040049	Gumball Machine	2000002	White Potion	304	
+2040049	2040049	Gumball Machine	2000002	White Potion	160	
 2040049	2040049	Gumball Machine	2000009	White Pill	320	
-2040049	2040049	Gumball Machine	2000001	Orange Potion	152	
+2040049	2040049	Gumball Machine	2000001	Orange Potion	80	
 2040049	2040049	Gumball Machine	2000008	Orange Pill	160	
-2040049	2040049	Gumball Machine	2000000	Red Potion	47	
+2040049	2040049	Gumball Machine	2000000	Red Potion	25	
 2040049	2040049	Gumball Machine	2000007	Red Pill	50	
 2040051	2040051	Toly	2030000	Return Scroll - Nearest Town	400	
 2040051	2040051	Toly	2061001	Bronze Arrow for Crossbow	10	
@@ -1484,15 +1484,15 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2040051	2040051	Toly	2050002	Tonic	300	
 2040051	2040051	Toly	2050001	Eyedrop	200	
 2040051	2040051	Toly	2050000	Antidote	200	
-2040051	2040051	Toly	2000006	Mana Elixir	620	
+2040051	2040051	Toly	2000006	Mana Elixir	310	
 2040051	2040051	Toly	2000011	Mana Elixir Pill	620	
-2040051	2040051	Toly	2000003	Blue Potion	200	
+2040051	2040051	Toly	2000003	Blue Potion	100	
 2040051	2040051	Toly	2000010	Blue Pill	200	
-2040051	2040051	Toly	2000002	White Potion	320	
+2040051	2040051	Toly	2000002	White Potion	160	
 2040051	2040051	Toly	2000009	White Pill	320	
-2040051	2040051	Toly	2000001	Orange Potion	160	
+2040051	2040051	Toly	2000001	Orange Potion	80	
 2040051	2040051	Toly	2000008	Orange Pill	160	
-2040051	2040051	Toly	2000000	Red Potion	50	
+2040051	2040051	Toly	2000000	Red Potion	25	
 2040051	2040051	Toly	2000007	Red Pill	50	
 2040051	2040051	Toly	2020015	Sunset Dew	10200	
 2040051	2040051	Toly	2020014	Sunrise Dew	8100	
@@ -1664,15 +1664,15 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2041006	2041006	Misky	2002006	Warrior Pill	500	
 2041006	2041006	Misky	2001002	Red Bean Sundae	3800	
 2041006	2041006	Misky	2001001	Ice Cream Pop	2185	
-2041006	2041006	Misky	2000006	Mana Elixir	589	
+2041006	2041006	Misky	2000006	Mana Elixir	310	
 2041006	2041006	Misky	2000011	Mana Elixir Pill	620	
-2041006	2041006	Misky	2000003	Blue Potion	190	
+2041006	2041006	Misky	2000003	Blue Potion	100	
 2041006	2041006	Misky	2000010	Blue Pill	200	
-2041006	2041006	Misky	2000002	White Potion	304	
+2041006	2041006	Misky	2000002	White Potion	160	
 2041006	2041006	Misky	2000009	White Pill	320	
-2041006	2041006	Misky	2000001	Orange Potion	152	
+2041006	2041006	Misky	2000001	Orange Potion	80	
 2041006	2041006	Misky	2000008	Orange Pill	160	
-2041006	2041006	Misky	2000000	Red Potion	47	
+2041006	2041006	Misky	2000000	Red Potion	25	
 2041006	2041006	Misky	2000007	Red Pill	50	
 2041014	2041014	Patricia	4160019	Pet Command Guide : Sun Wu Kong	1000	
 2041014	2041014	Patricia	4160039	Pet Command Guide : White Duck	1000	
@@ -1878,11 +1878,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2051000	2051000	Dr. Pepper	2002002	Magic Potion	475	
 2051000	2051000	Dr. Pepper	2002001	Speed Potion	380	
 2051000	2051000	Dr. Pepper	2002000	Dexterity Potion	475	
-2051000	2051000	Dr. Pepper	2000006	Mana Elixir	589	
-2051000	2051000	Dr. Pepper	2000003	Blue Potion	190	
-2051000	2051000	Dr. Pepper	2000002	White Potion	304	
-2051000	2051000	Dr. Pepper	2000001	Orange Potion	152	
-2051000	2051000	Dr. Pepper	2000000	Red Potion	47	
+2051000	2051000	Dr. Pepper	2000006	Mana Elixir	310	
+2051000	2051000	Dr. Pepper	2000003	Blue Potion	100	
+2051000	2051000	Dr. Pepper	2000002	White Potion	160	
+2051000	2051000	Dr. Pepper	2000001	Orange Potion	80	
+2051000	2051000	Dr. Pepper	2000000	Red Potion	25	
 2060003	2060003	Melias	1002625	Blue Den Marine	75000	
 2060003	2060003	Melias	1052113	Red Barbay	120000	
 2060003	2060003	Melias	1052110	Blue Brace Look	100000	
@@ -2020,11 +2020,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2060004	2060004	Oannes	2002002	Magic Potion	500	
 2060004	2060004	Oannes	2002001	Speed Potion	400	
 2060004	2060004	Oannes	2002000	Dexterity Potion	500	
-2060004	2060004	Oannes	2000006	Mana Elixir	620	
-2060004	2060004	Oannes	2000003	Blue Potion	200	
-2060004	2060004	Oannes	2000002	White Potion	320	
-2060004	2060004	Oannes	2000001	Orange Potion	160	
-2060004	2060004	Oannes	2000000	Red Potion	50	
+2060004	2060004	Oannes	2000006	Mana Elixir	310	
+2060004	2060004	Oannes	2000003	Blue Potion	100	
+2060004	2060004	Oannes	2000002	White Potion	160	
+2060004	2060004	Oannes	2000001	Orange Potion	80	
+2060004	2060004	Oannes	2000000	Red Potion	25	
 2060007	2060007	Calypso	1492006	Lunar Shooter	160000	
 2060007	2060007	Calypso	1492005	Shooting Star	100000	
 2060007	2060007	Calypso	1492004	Cold Mind	75000	
@@ -2106,11 +2106,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2070001	2070001	Bung's Mama	2002002	Magic Potion	500	
 2070001	2070001	Bung's Mama	2002001	Speed Potion	400	
 2070001	2070001	Bung's Mama	2002000	Dexterity Potion	500	
-2070001	2070001	Bung's Mama	2000006	Mana Elixir	620	
-2070001	2070001	Bung's Mama	2000003	Blue Potion	200	
-2070001	2070001	Bung's Mama	2000002	White Potion	320	
-2070001	2070001	Bung's Mama	2000001	Orange Potion	160	
-2070001	2070001	Bung's Mama	2000000	Red Potion	50	
+2070001	2070001	Bung's Mama	2000006	Mana Elixir	310	
+2070001	2070001	Bung's Mama	2000003	Blue Potion	100	
+2070001	2070001	Bung's Mama	2000002	White Potion	160	
+2070001	2070001	Bung's Mama	2000001	Orange Potion	80	
+2070001	2070001	Bung's Mama	2000000	Red Potion	25	
 2070002	2070002	Moki	1492006	Lunar Shooter	160000	
 2070002	2070002	Moki	1492005	Shooting Star	100000	
 2070002	2070002	Moki	1482006	Neozard	150000	
@@ -2254,11 +2254,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2080001	2080001	Sly	2002002	Magic Potion	500	
 2080001	2080001	Sly	2002001	Speed Potion	400	
 2080001	2080001	Sly	2002000	Dexterity Potion	500	
-2080001	2080001	Sly	2000006	Mana Elixir	620	
-2080001	2080001	Sly	2000003	Blue Potion	200	
-2080001	2080001	Sly	2000002	White Potion	320	
-2080001	2080001	Sly	2000001	Orange Potion	160	
-2080001	2080001	Sly	2000000	Red Potion	50	
+2080001	2080001	Sly	2000006	Mana Elixir	310	
+2080001	2080001	Sly	2000003	Blue Potion	100	
+2080001	2080001	Sly	2000002	White Potion	160	
+2080001	2080001	Sly	2000001	Orange Potion	80	
+2080001	2080001	Sly	2000000	Red Potion	25	
 2080002	2080002	Max	1002625	Blue Den Marine	75000	
 2080002	2080002	Max	1052113	Red Barbay	120000	
 2080002	2080002	Max	1052110	Blue Brace Look	100000	
@@ -2560,11 +2560,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2090003	2090003	Dalsuk	2002002	Magic Potion	500	
 2090003	2090003	Dalsuk	2002001	Speed Potion	400	
 2090003	2090003	Dalsuk	2002000	Dexterity Potion	500	
-2090003	2090003	Dalsuk	2000006	Mana Elixir	620	
-2090003	2090003	Dalsuk	2000003	Blue Potion	200	
-2090003	2090003	Dalsuk	2000002	White Potion	320	
-2090003	2090003	Dalsuk	2000001	Orange Potion	160	
-2090003	2090003	Dalsuk	2000000	Red Potion	50	
+2090003	2090003	Dalsuk	2000006	Mana Elixir	310	
+2090003	2090003	Dalsuk	2000003	Blue Potion	100	
+2090003	2090003	Dalsuk	2000002	White Potion	160	
+2090003	2090003	Dalsuk	2000001	Orange Potion	80	
+2090003	2090003	Dalsuk	2000000	Red Potion	25	
 2090006	2090006	Laya	4160019	Pet Command Guide : Sun Wu Kong	1000	
 2090006	2090006	Laya	4160039	Pet Command Guide : White Duck	1000	
 2090006	2090006	Laya	4160037	Pet Command Guide : Crystal Rudolph	1000	
@@ -2703,11 +2703,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2093002	2093002	Lan Ming	2002002	Magic Potion	500	
 2093002	2093002	Lan Ming	2002001	Speed Potion	400	
 2093002	2093002	Lan Ming	2002000	Dexterity Potion	500	
-2093002	2093002	Lan Ming	2000006	Mana Elixir	620	
-2093002	2093002	Lan Ming	2000003	Blue Potion	200	
-2093002	2093002	Lan Ming	2000002	White Potion	320	
-2093002	2093002	Lan Ming	2000001	Orange Potion	160	
-2093002	2093002	Lan Ming	2000000	Red Potion	50	
+2093002	2093002	Lan Ming	2000006	Mana Elixir	310	
+2093002	2093002	Lan Ming	2000003	Blue Potion	100	
+2093002	2093002	Lan Ming	2000002	White Potion	160	
+2093002	2093002	Lan Ming	2000001	Orange Potion	80	
+2093002	2093002	Lan Ming	2000000	Red Potion	25	
 2100002	2100002	Zaid	1492004	Cold Mind	75000	
 2100002	2100002	Zaid	1482004	Prime Hands	75000	
 2100002	2100002	Zaid	1472001	Steel Titans	20000	
@@ -2817,11 +2817,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2100004	2100004	SagaT	2002002	Magic Potion	500	
 2100004	2100004	SagaT	2002001	Speed Potion	400	
 2100004	2100004	SagaT	2002000	Dexterity Potion	500	
-2100004	2100004	SagaT	2000006	Mana Elixir	620	
-2100004	2100004	SagaT	2000003	Blue Potion	200	
-2100004	2100004	SagaT	2000002	White Potion	320	
-2100004	2100004	SagaT	2000001	Orange Potion	160	
-2100004	2100004	SagaT	2000000	Red Potion	50	
+2100004	2100004	SagaT	2000006	Mana Elixir	310	
+2100004	2100004	SagaT	2000003	Blue Potion	100	
+2100004	2100004	SagaT	2000002	White Potion	160	
+2100004	2100004	SagaT	2000001	Orange Potion	80	
+2100004	2100004	SagaT	2000000	Red Potion	25	
 2110001	2110001	Jerry	2330000	Bullet	600	
 2110001	2110001	Jerry	2070000	Subi Throwing-Stars	500	
 2110001	2110001	Jerry	2120000	Pet Food	30	
@@ -2848,11 +2848,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2110001	2110001	Jerry	2002002	Magic Potion	500	
 2110001	2110001	Jerry	2002001	Speed Potion	400	
 2110001	2110001	Jerry	2002000	Dexterity Potion	500	
-2110001	2110001	Jerry	2000006	Mana Elixir	620	
-2110001	2110001	Jerry	2000003	Blue Potion	200	
-2110001	2110001	Jerry	2000002	White Potion	320	
-2110001	2110001	Jerry	2000001	Orange Potion	160	
-2110001	2110001	Jerry	2000000	Red Potion	50	
+2110001	2110001	Jerry	2000006	Mana Elixir	310	
+2110001	2110001	Jerry	2000003	Blue Potion	100	
+2110001	2110001	Jerry	2000002	White Potion	160	
+2110001	2110001	Jerry	2000001	Orange Potion	80	
+2110001	2110001	Jerry	2000000	Red Potion	25	
 2130000	2130000	Mayoren	2330000	Bullet	600	
 2130000	2130000	Mayoren	2070000	Subi Throwing-Stars	500	
 2130000	2130000	Mayoren	2061000	Arrow for Crossbow	1	
@@ -2880,11 +2880,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 2130000	2130000	Mayoren	2002002	Magic Potion	500	
 2130000	2130000	Mayoren	2002001	Speed Potion	400	
 2130000	2130000	Mayoren	2002000	Dexterity Potion	500	
-2130000	2130000	Mayoren	2000006	Mana Elixir	620	
-2130000	2130000	Mayoren	2000003	Blue Potion	200	
-2130000	2130000	Mayoren	2000002	White Potion	320	
-2130000	2130000	Mayoren	2000001	Orange Potion	160	
-2130000	2130000	Mayoren	2000000	Red Potion	50	
+2130000	2130000	Mayoren	2000006	Mana Elixir	310	
+2130000	2130000	Mayoren	2000003	Blue Potion	100	
+2130000	2130000	Mayoren	2000002	White Potion	160	
+2130000	2130000	Mayoren	2000001	Orange Potion	80	
+2130000	2130000	Mayoren	2000000	Red Potion	25	
 9999001	9000055	Aramia 	4002003	Slime Stamp	1000000	
 9999001	9000055	Aramia 	4002002	Stump Stamp	250000	
 9999001	9000055	Aramia 	4002001	Blue Snail Stamp	50000	
@@ -3331,12 +3331,12 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 9120002	9120002	Doran	2020014	Sunrise Dew	8100	
 9120002	9120002	Doran	2022002	Cider	1000	
 9120002	9120002	Doran	2001002	Red Bean Sundae	4000	
-9120002	9120002	Doran	2000006	Mana Elixir	620	
-9120002	9120002	Doran	2000003	Blue Potion	200	
+9120002	9120002	Doran	2000006	Mana Elixir	310	
+9120002	9120002	Doran	2000003	Blue Potion	100	
 9120002	9120002	Doran	2020012	Melting Cheese	4500	
 9120002	9120002	Doran	2001001	Ice Cream Pop	2300	
-9120002	9120002	Doran	2000002	White Potion	320	
-9120002	9120002	Doran	2000001	Orange Potion	160	
+9120002	9120002	Doran	2000002	White Potion	160	
+9120002	9120002	Doran	2000001	Orange Potion	80	
 9120004	9120004	Momoyo	2070000	Subi Throwing-Stars	500	
 9120004	9120004	Momoyo	2030010	Fruit Milk	500	
 9120004	9120004	Momoyo	2030009	Strawberry Milk	500	
@@ -3466,11 +3466,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 9201060	9201060	Miki	2002018	Wizard Elixir	5000	
 9201060	9201060	Miki	2002017	Warrior Elixir	5000	
 9201060	9201060	Miki	2002016	Thief Elixir	5000	
-9201060	9201060	Miki	2000006	Mana Elixir	620	
-9201060	9201060	Miki	2000003	Blue Potion	200	
-9201060	9201060	Miki	2000002	White Potion	320	
-9201060	9201060	Miki	2000001	Orange Potion	160	
-9201060	9201060	Miki	2000000	Red Potion	50	
+9201060	9201060	Miki	2000006	Mana Elixir	310	
+9201060	9201060	Miki	2000003	Blue Potion	100	
+9201060	9201060	Miki	2000002	White Potion	160	
+9201060	9201060	Miki	2000001	Orange Potion	80	
+9201060	9201060	Miki	2000000	Red Potion	25	
 9201099	9201099	Mo	2030020	Return Scroll to New Leaf City	400	
 9201099	9201099	Mo	2022002	Cider	1000	
 9201099	9201099	Mo	2000018	Mana Elixir	620	
@@ -3648,11 +3648,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 9270021	9270021	Wendy	2002002	Magic Potion	500	
 9270021	9270021	Wendy	2002001	Speed Potion	400	
 9270021	9270021	Wendy	2002000	Dexterity Potion	500	
-9270021	9270021	Wendy	2000006	Mana Elixir	620	
-9270021	9270021	Wendy	2000003	Blue Potion	200	
-9270021	9270021	Wendy	2000002	White Potion	320	
-9270021	9270021	Wendy	2000001	Orange Potion	160	
-9270021	9270021	Wendy	2000000	Red Potion	50	
+9270021	9270021	Wendy	2000006	Mana Elixir	310	
+9270021	9270021	Wendy	2000003	Blue Potion	100	
+9270021	9270021	Wendy	2000002	White Potion	160	
+9270021	9270021	Wendy	2000001	Orange Potion	80	
+9270021	9270021	Wendy	2000000	Red Potion	25	
 9270022	9270022	Candy	2070000	Subi Throwing-Stars	500	
 9270022	9270022	Candy	2061000	Arrow for Crossbow	1	
 9270022	9270022	Candy	2060000	Arrow for Bow	1	
@@ -3677,11 +3677,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 9270022	9270022	Candy	2002002	Magic Potion	500	
 9270022	9270022	Candy	2002001	Speed Potion	400	
 9270022	9270022	Candy	2002000	Dexterity Potion	500	
-9270022	9270022	Candy	2000006	Mana Elixir	620	
-9270022	9270022	Candy	2000003	Blue Potion	200	
-9270022	9270022	Candy	2000002	White Potion	320	
-9270022	9270022	Candy	2000001	Orange Potion	160	
-9270022	9270022	Candy	2000000	Red Potion	50	
+9270022	9270022	Candy	2000006	Mana Elixir	310	
+9270022	9270022	Candy	2000003	Blue Potion	100	
+9270022	9270022	Candy	2000002	White Potion	160	
+9270022	9270022	Candy	2000001	Orange Potion	80	
+9270022	9270022	Candy	2000000	Red Potion	25	
 9270027	9270027	Alwyn	2022213	Roti Prata	6800	
 9270027	9270027	Alwyn	2022212	Nasi Lemak	3200	
 9270027	9270027	Alwyn	2022215	Chili Crab	6800	
@@ -3855,11 +3855,11 @@ shop_id	npc_id	npc	item_id	item	price_meso	price_perfect_pitch
 9270057	9270057	Kok Hua	2002002	Magic Potion	500	
 9270057	9270057	Kok Hua	2002001	Speed Potion	400	
 9270057	9270057	Kok Hua	2002000	Dexterity Potion	500	
-9270057	9270057	Kok Hua	2000006	Mana Elixir	620	
-9270057	9270057	Kok Hua	2000003	Blue Potion	200	
-9270057	9270057	Kok Hua	2000002	White Potion	320	
-9270057	9270057	Kok Hua	2000001	Orange Potion	160	
-9270057	9270057	Kok Hua	2000000	Red Potion	50	
+9270057	9270057	Kok Hua	2000006	Mana Elixir	310	
+9270057	9270057	Kok Hua	2000003	Blue Potion	100	
+9270057	9270057	Kok Hua	2000002	White Potion	160	
+9270057	9270057	Kok Hua	2000001	Orange Potion	80	
+9270057	9270057	Kok Hua	2000000	Red Potion	25	
 9270065	9270065	Ali	2061000	Arrow for Crossbow	1	
 9270065	9270065	Ali	2060000	Arrow for Bow	1	
 9270065	9270065	Ali	2030000	Return Scroll - Nearest Town	400	

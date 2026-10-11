@@ -19,6 +19,10 @@ python Settings/Scripts/Simulate-Economy.py --levels --to 31
 
 The assumptions (how often a player is hit, MP per attack, how much is picked up) are a block of numbers at the top of the script.
 
+## Apply-Economy-Changes.py
+
+Applies our price and meso changes to the database, each one once (remembered in the table `plus_changes`). Stop the game server first; a backup is saved before anything changes. `--check` shows what is applied and what is not.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

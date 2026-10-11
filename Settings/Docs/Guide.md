@@ -244,6 +244,13 @@ Travel knowledge comes from `Settings/Reference/TravelLinks.tsv`, `MapLinks.tsv`
 
 ### 5.9 Prices and the economy
 
+Price and meso changes in the database are made through `Settings/Scripts/Apply-Economy-Changes.py`, not by hand, so they can be repeated on a fresh database. Each change is a small function in that script and is applied once; the table `plus_changes` remembers which ones are in. Stop the game server first. It saves a backup before changing anything. Afterwards run `python Settings/Reference/Build-Reference.py` so the reference lists match.
+
+```
+python Settings/Scripts/Apply-Economy-Changes.py --check
+python Settings/Scripts/Apply-Economy-Changes.py
+```
+
 Before changing a price, a meso drop or a rate, run the economy estimate. It needs the database running and changes nothing.
 
 ```

@@ -45,6 +45,15 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-10 | T-2 | Tower teleport stones cost mesos | Orbis Tower and Eos Tower stones each used up a rock scroll, which could not be bought or found | 5,000 mesos per jump |
 | 2026-10-10 | T-4 (part) | Bots answer whispers and give directions | Bots ignored whispers | Whisper any bot: it chats, knows which monsters drop an item, where monsters live, and the quickest way there from your map. Needs the bot chat window running. |
 
+## Economy
+
+| Date | Change | Before | After | Tested in game |
+|------|--------|--------|-------|----------------|
+| 2026-10-11 | Basic potions cost half: Red, Orange, White and Blue Potion, Mana Elixir | 50, 160, 320, 200 and 620 mesos | 25, 80, 160, 100 and 310 mesos (never below what a vendor pays for one) | No |
+| 2026-10-11 | Monsters under level 30 drop twice the mesos | For example Snail 4 to 6 | Snail 8 to 12. 381 monsters. | No |
+
+Why: the estimate in `Simulate-Economy.py` showed that between level 10 and 20 monsters paid about 53,000 mesos while potions cost about 78,000. Now it is about 106,000 against 41,000.
+
 ## The Hub
 
 | Date | ID | Change | Before | After |
