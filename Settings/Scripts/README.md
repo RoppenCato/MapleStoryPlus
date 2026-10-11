@@ -39,6 +39,10 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 `--rules` checks, per class, that a new job's attack at level 1 beats the old job's attack at max. The assumptions (attacks per second per weapon, which skill a class uses, throwing star attack) are a block at the top of the script. Monster defence, elemental weakness and scrolled gear are not counted, so use it to compare classes with each other. Run `python Settings/Reference/Build-Reference.py` first if skill numbers changed.
 
+## Bot chat: Bot-Chat-Bridge.py, bot_minds.py, Test-Bot-Voices.py, Make-Bot-Backgrounds.py
+
+`Bot-Chat-Bridge.py` answers whispers to bots (started by `Start-Bot-Chat.bat`). `bot_minds.py` holds who the bots are and is shared, unchanged, with the WowPlus project. `Test-Bot-Voices.py` puts the same lines to six people so you can hear whether they sound different. `Make-Bot-Backgrounds.py` writes people in full. All of it is described in [Settings/Bots/README.md](../Bots/README.md).
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

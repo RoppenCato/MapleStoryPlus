@@ -227,24 +227,33 @@ Edit `Client/MapleStory/config.ini`: resolution, windowed or fullscreen, damage 
 
 ### 5.8 The bot chat
 
-The code is in `Settings/Scripts/Bot-Chat-Bridge.py`: what the bots know (drops, where monsters live, routes), the rules they follow, and the filter on what they may say.
+Two files do the work:
 
-Who the bots are is in `Settings/Bots/` (see its [README](../Bots/README.md)): 300 made-up people in `People.json`, the lists they are built from in `Traits.json`, and how MapleStory chat sounds in `Styles/maplestory.md`. A bot gets a person the first time it is whispered and keeps that person; the pairing is saved in `Database/BotChat/Assignments.json`. Conversations themselves are not saved.
+- `Settings/Scripts/bot_minds.py` knows who the bots are: the people, their backgrounds, their typing habits, and how Claude is asked. It is shared with the WowPlus project and must stay identical in both; do not change it for MapleStory alone.
+- `Settings/Scripts/Bot-Chat-Bridge.py` is the MapleStory part: what drops where, where monsters live, where to train at a level, the quickest way between maps, and the rules for how a whisper is answered.
+
+The people themselves are in `Settings/Bots/` (see its [README](../Bots/README.md) and the [character sheet](../Bots/Character-Sheet.md)). A bot gets a person the first time it is whispered and keeps them; that pairing is in `Database/BotChat/Assignments.json`. Conversations are not saved.
 
 | I want to | Do this |
 |-----------|---------|
-| Change one person | Edit their line in `People.json`, restart the bridge. |
-| Add more people or new traits | Edit `Traits.json`, run `python Settings/Scripts/Make-Bot-People.py`. |
-| Change how chat sounds | Edit `Styles/maplestory.md`. Works at once. |
+| Change how one person talks | Edit their file in `Settings/Bots/Backgrounds/`, above all the sample lines. |
+| Change who a person is | Edit their line in `People.json`, restart the bridge. |
+| Change how MapleStory chat sounds | Edit `Settings/Bots/Styles/maplestory.md`. Works at once. |
+| Make bots chattier or quieter | The chances at the top of the bridge (`QUESTION_CHANCE`, `JOKE_CHANCE`, `PERSONAL_CHANCE`). |
+| Stop bots typing a phrase | The "player, not a guide" rule in the bridge's `system_prompt`. |
 | Give a bot a particular person | Put the person's `id` under `maplestory` in `Database/BotChat/Assignments.json`. |
+| Write more people in full | `python Settings/Scripts/Make-Bot-Backgrounds.py --count 20` |
 
-Test without the game:
+After any such change, listen before playing:
 
 ```
-python Settings/Scripts/Bot-Chat-Bridge.py --say "where do I find slimes?"
+python Settings/Scripts/Test-Bot-Voices.py
+python Settings/Scripts/Bot-Chat-Bridge.py --say "hey" --say "where do i find steelies" --say "gtg"
 ```
 
-Travel knowledge comes from `Settings/Reference/TravelLinks.tsv`, `MapLinks.tsv` and `Places.tsv`.
+The first puts the same eight lines to six people side by side. Read down each column: could you tell who said what with the names covered, is anyone giving advice nobody asked for, are the lengths uneven. The full list of what to listen for is in the character sheet.
+
+Game knowledge comes from the reference lists: `Drops.tsv`, `Mobs.tsv`, `MobSpawns.tsv`, `TravelLinks.tsv`, `MapLinks.tsv` and `Places.tsv`.
 
 ### 5.9 Prices and the economy
 

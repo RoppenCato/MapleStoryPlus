@@ -89,6 +89,14 @@ What the tests answer: whether buff durations and speed are decided by the serve
 
 **Round 3, installed but not tested in game:** the rest of the number changes from the class design (55 more rows: damage, target counts and hit boxes), plus the code changes listed at the end of this document. `Apply-Skill-Changes.py` can now scale from a skill's original values (`O` and `OM` in formulas), read from git, so scaled changes stay repeatable. What is built and what is not is tracked at the top of [Class-Changes.md](Class-Changes.md).
 
+## 2026-10-11: Bot chat rebuilt on the shared bot_minds.py
+
+- WowPlus reworked how bots talk (full backgrounds, fixed typing habits, rules found by listening) and copied the result here. `Bot-Chat-Bridge.py` now uses `bot_minds.py` for everything about who a bot is, and keeps only the MapleStory parts. `bot_minds.py` was not changed.
+- Game facts are handed to the bot as something it knows, so it says them in its own voice.
+- New from this project: training suggestions by level from the monster data, and `Test-Bot-Voices.py` adapted for MapleStory. What listening changed is listed in `Settings/Bots/README.md`.
+- Tested outside the game only. The server side is unchanged: it still sends whispers to port 8585.
+- Not taken over: memory and bots speaking first. Waiting for Robin's decision.
+
 ## Changes to the server code
 
 Every change we make to the original code, so we know what to check when pulling updates from `upstream`.
