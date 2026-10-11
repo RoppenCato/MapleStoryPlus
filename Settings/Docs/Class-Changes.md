@@ -17,6 +17,13 @@ Building started the same day. Every number change lives in `Settings/Scripts/Sk
 - **Nimble Feet is a travel dash**, see the speed section below.
 - **A simulator, not a meter:** `Settings/Scripts/Simulate-Damage.py` estimates damage per use and per second for every class at set levels, and `--rules` checks rule 2. First results (corrected the same day, after Meditation and Element Amplification were added to the simulator): magicians are level with the others in 1st job, at about 70% of a Hero on one monster in 2nd job and 55 to 65% in 3rd, before elemental weakness, which the simulator does not count; the cleric is the outlier, with Holy Arrow still its single-target attack at level 100; the assassin is low before 4th job; the Dark Knight's Crusher is the strongest single-target attack in 3rd job. Nothing has been changed on the strength of this yet.
 
+### Agreed 2026-10-11, waiting to be built (second review pass)
+
+- The magician spells listed in each magician job's table below.
+- **Assassin, 2nd job: no changes.** At level 50 it does about 90% of a Hunter on one monster, from range, with Haste and Drain. Its low group damage is its known trade until Avenger.
+- **Savage Blow comes down to six hits of 85% at max** (59% at level 1), 510% in total (600% now, 480% originally). The simulator showed the bandit 40% ahead of a Fighter on one monster in 2nd job: the six hit lines gain the most from the flat crit. Assaulter follows down through the new-beats-old rule: 561% at level 1, 701% at max.
+- Still to look at: the Brawler, the strongest 2nd job on one monster and on groups.
+
 ### Built
 
 | What | Tested in game |
