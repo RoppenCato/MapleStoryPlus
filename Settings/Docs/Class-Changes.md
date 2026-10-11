@@ -22,6 +22,8 @@ Building started the same day. Every number change lives in `Settings/Scripts/Sk
 - The magician spells listed in each magician job's table below.
 - **Assassin, 2nd job: no changes.** At level 50 it does about 90% of a Hunter on one monster, from range, with Haste and Drain. Its low group damage is its known trade until Avenger.
 - **Savage Blow comes down to six hits of 85% at max** (59% at level 1), 510% in total (600% now, 480% originally). The simulator showed the bandit 40% ahead of a Fighter on one monster in 2nd job: the six hit lines gain the most from the flat crit. Assaulter follows down through the new-beats-old rule: 561% at level 1, 701% at max.
+- **Hermit: Shadow Partner's shadow repeats a skill at 45% of its damage at level 1 rising to 70% at max** (21% to 50% now). Lifts the Hermit from 76% to about 86% of a Ranger on one monster at levels 70 to 100. The share for plain attacks is unchanged. It carries into Night Lord.
+- **Avenger comes down to 175% at max** (105% at level 1; 200% now), which cancels out what the stronger shadow adds to the Hermit's group damage. That was already the best of the ranged classes.
 - Still to look at: the Brawler, the strongest 2nd job on one monster and on groups.
 
 ### Built
