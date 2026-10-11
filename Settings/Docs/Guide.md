@@ -305,11 +305,17 @@ Useful when testing: the GM commands in `Settings/Reference/Commands.tsv`.
 
 Commit after each working step, with a message that says what changed.
 
-### The changes page
+### The features page
 
-`docs/index.html` is a web page listing everything this project changes in the game, written for a player. Its content is `docs/changes.js`; `index.html` is a template shared with the WowPlus project and is not edited here.
+`docs/index.html` is a web page listing everything this server has that the original game does not, written for a player. Its content is `docs/changes.js`; `index.html` is a template shared with the WowPlus project and is not edited here.
 
-Whenever something a player would notice is added, changed, fixed or removed, update `docs/changes.js` in the same commit: add or edit the entry, set its `status` (`confirmed` only when it has been seen working in play, otherwise `built`, or `planned`), and change `updated` at the top. How the entries are written is described in `Settings/Changes-Page/README.md`.
+Whenever something a player would notice is added, changed or removed, update `docs/changes.js` in the same commit and change `updated` at the top. The page shows what the game has right now:
+
+- No ideas or plans; an entry is added when the thing exists.
+- No entries for bugs of our own that were fixed.
+- When something changes again or is removed, rewrite or delete its entry. Never two entries for one thing.
+- Titles say what the player gets ("Any monster can drop something rare"), sentences are short, and the details carry the real numbers from the settings and data, not guesses.
+- No file, table or setting names.
 
 To look at it, double-click `docs/index.html`. A missing comma or quote in `changes.js` makes the page come up empty.
 
