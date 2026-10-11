@@ -353,7 +353,7 @@ Maple Warrior at 30 minutes is covered by the rule for all classes.
 | 2 | Elquines lasts 30 minutes (now 160 seconds). | agreed | Server and client skill data |
 | 3 | Infinity lasts 120 seconds (now 40). The 10-minute cooldown stays. | agreed | Server and client skill data |
 | 4 | Meteor Shower costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
-| 5 | Paralyze does 240 magic attack (now 210). | agreed | Server and client skill data |
+| 5 | Paralyze does 240 at level 1 rising to 300 at max (182 to 240 after the damage rules; originally 152 to 210). The step up from Element Composition at 215 is about what other classes get from 3rd to 4th job. Not checked in the simulator, which stops before 4th job. | agreed 2026-10-11, not built | Server and client skill data |
 | 6 | Big Bang, Fire Demon and Hero's Will stay as they are. | agreed | Nothing |
 
 To measure once built: longer Infinity and a cheaper Meteor Shower make the strongest area attack in the game much easier to spam. Idea for later: Fire Demon weakens monsters to ice, which helps a party member, not the Fire/Poison mage; it could weaken them to fire instead.
