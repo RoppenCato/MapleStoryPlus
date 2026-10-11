@@ -305,6 +305,14 @@ Useful when testing: the GM commands in `Settings/Reference/Commands.tsv`.
 
 Commit after each working step, with a message that says what changed.
 
+### The changes page
+
+`docs/index.html` is a web page listing everything this project changes in the game, written for a player. Its content is `docs/changes.js`; `index.html` is a template shared with the WowPlus project and is not edited here.
+
+Whenever something a player would notice is added, changed, fixed or removed, update `docs/changes.js` in the same commit: add or edit the entry, set its `status` (`confirmed` only when it has been seen working in play, otherwise `built`, or `planned`), and change `updated` at the top. How the entries are written is described in `Settings/Changes-Page/README.md`.
+
+To look at it, double-click `docs/index.html`. A missing comma or quote in `changes.js` makes the page come up empty.
+
 ## 8. Pitfalls we already hit
 
 | Problem | Cause and fix |
