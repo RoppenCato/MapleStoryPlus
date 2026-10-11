@@ -313,7 +313,8 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 | 3 | Spell Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
 | 4 | Poison Mist always poisons at max level (now 70%). | agreed | Server and client skill data |
 | 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
-| 6 | Explosion, Element Composition and Partial Resistance stay as they are. | agreed | Nothing |
+| 6 | Explosion and Partial Resistance stay as they are. | agreed | Nothing |
+| 7 | Element Composition does 175 at level 1 rising to 215 at max (132 to 165 after the damage rules; originally 80 to 150). About 80% of a Ranger on one monster at level 100, from 60%; more against a monster weak to fire or poison. Explosion is left alone: it already beats the bowmen on groups. | agreed 2026-10-11, not built | Server and client skill data |
 
 ### Ice/Lightning Mage (3rd job)
 
