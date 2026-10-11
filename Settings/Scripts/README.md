@@ -1,5 +1,24 @@
 # Scripts
 
+## Simulate-Economy.py
+
+Estimates what a solo player earns and spends from level 1 to 120: mesos dropped, vendor value of dropped items, potions and shop gear, for a warrior, a mage and a thief. Reads the drop tables from the database (which must be running) and changes nothing.
+
+```
+python Settings/Scripts/Simulate-Economy.py
+python Settings/Scripts/Simulate-Economy.py --levels --to 31
+```
+
+| Option | What it does |
+|--------|--------------|
+| `--levels` | One row per level instead of per ten levels. |
+| `--to N` | Stop at level N. |
+| `--exp-rate`, `--meso-rate`, `--drop-rate` | Try other rates than the ones in `config.yaml`. |
+| `--potion-price X` | Multiply potion prices by X. |
+| `--early-meso X` | Multiply the mesos dropped by monsters under level 30 by X. |
+
+The assumptions (how often a player is hit, MP per attack, how much is picked up) are a block of numbers at the top of the script.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

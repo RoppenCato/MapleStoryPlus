@@ -242,6 +242,18 @@ python Settings/Scripts/Bot-Chat-Bridge.py --say "where do I find slimes?"
 
 Travel knowledge comes from `Settings/Reference/TravelLinks.tsv`, `MapLinks.tsv` and `Places.tsv`.
 
+### 5.9 Prices and the economy
+
+Before changing a price, a meso drop or a rate, run the economy estimate. It needs the database running and changes nothing.
+
+```
+python Settings/Scripts/Simulate-Economy.py
+python Settings/Scripts/Simulate-Economy.py --levels --to 31
+python Settings/Scripts/Simulate-Economy.py --potion-price 0.5 --early-meso 2
+```
+
+It shows, per ten levels (or per level), how many monsters a player kills, the mesos they drop, what the dropped items sell for at a vendor, and what a warrior, a mage and a thief spend on potions and shop gear. What is real data and what is assumed is described at the top of the script; the assumptions are a block of numbers there.
+
 ## 6. Test accounts and characters
 
 Accounts and their characters are listed in [Test-Accounts.md](Test-Accounts.md).
