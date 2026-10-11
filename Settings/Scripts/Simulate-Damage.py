@@ -65,7 +65,9 @@ ATTACKS = {
 }
 # Things that multiply every attack once the class has them: (line, from level, factor, what)
 MULTIPLIERS = [("hero", 70, 1.2, "Combo Attack"), ("paladin", 70, 1.3, "element charge"),
-               ("assassin", 70, 1.5, "Shadow Partner")]
+               ("assassin", 70, 1.5, "Shadow Partner"), ("fp", 70, 1.4, "Element Amplification"),
+               ("il", 70, 1.4, "Element Amplification")]
+MEDITATION = 20                 # magic attack from the Fire/Poison and Ice/Lightning wizard's buff, from level 30
 
 
 def step(steps, level):
@@ -110,6 +112,8 @@ def character(data, line, level):
         attack += step(STAR_ATTACK, level)
     if line in ("hunter", "crossbow"):
         attack += step(ARROW_ATTACK, level)
+    if line in ("fp", "il") and level >= 30:
+        magic += MEDITATION
     return stats, attack, magic
 
 
