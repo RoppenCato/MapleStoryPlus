@@ -289,6 +289,7 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 2 | Teleport costs less MP, as for the Fire/Poison Wizard. | agreed | Server and client skill data |
 | 3 | Cold Beam freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
 | 4 | Thunder Bolt, MP Eater and Slow stay as they are. | agreed | Nothing |
+| 5 | Cold Beam does 105 at level 1 rising to 140 at max (88 to 110 after the damage rules; originally 13 to 100). About 90% of the new Fire Arrow, and it freezes. Thunder Bolt is left alone: on six monsters it already matches a Hunter's group damage. | agreed 2026-10-11, not built | Server and client skill data |
 
 ### Cleric (2nd job)
 
