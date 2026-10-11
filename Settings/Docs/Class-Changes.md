@@ -278,7 +278,8 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 1 | Meditation lasts 30 minutes (now 200 seconds). | agreed | Server and client skill data |
 | 2 | Poison Breath hits up to 4 monsters (now 1) and always poisons at max level (now 60%). It is the branch's group attack: weaker upfront than Thunder Bolt, but the poison keeps working. | agreed | Server and client skill data |
 | 3 | Teleport costs less MP: 30 MP at level 1 falling to 5 at max (now 60 falling to 13). Applies to all three magician branches. | agreed | Server and client skill data |
-| 4 | Fire Arrow, MP Eater and Slow stay as they are. | agreed | Nothing |
+| 4 | MP Eater and Slow stay as they are. | agreed | Nothing |
+| 5 | Fire Arrow does 115 at level 1 rising to 155 at max (88 to 120 after the damage rules; originally 33 to 120). Raises the wizard to about 83% of a Hunter on one monster at level 50, from 65%; group damage is left alone. If it turns out magicians land critical hits, trim by about a tenth. | agreed 2026-10-11, not built | Server and client skill data |
 
 ### Ice/Lightning Wizard (2nd job)
 
