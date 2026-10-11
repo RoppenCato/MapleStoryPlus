@@ -12,8 +12,10 @@ Prototype rules:
 Test without the game:   python Settings/Scripts/Bot-Chat-Bridge.py --say "hey, how's the hunt?"
 """
 import argparse
+import datetime
 import glob
 import io
+import json
 import os
 import random
 import re
@@ -21,6 +23,7 @@ import subprocess
 import sys
 import threading
 import time
+import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs
 
@@ -35,16 +38,15 @@ MAX_LINE_LENGTH = 70            # characters per chat line
 REPLY_TIMEOUT = 75
 MAX_AT_ONCE = 3                 # conversations answered at the same time
 
-AGES = ["16", "19", "22", "24", "27", "31", "35", "42"]
+GAME = "maplestory"
+BOTS_DIR = os.path.join(ROOT, "Settings", "Bots")             # the people behind the bots; shared with WowPlus
+STATE_DIR = os.path.join(ROOT, "Database", "BotChat")         # what is personal to this PC; not in git
+ASSIGNMENTS_FILE = os.path.join(STATE_DIR, "Assignments.json")
 MOODS = ["cheerful", "tired after a long day", "a bit bored", "excited about a recent drop", "grumpy about bad luck",
-         "relaxed", "restless", "in a silly mood"]
-HUMOURS = ["dry and sarcastic", "goofy", "dad jokes", "teasing", "deadpan", "barely jokes at all"]
-JOBS_IRL = ["student", "warehouse worker", "nurse", "barista", "programmer", "electrician", "between jobs",
-            "night-shift security guard", "delivery driver", "art school dropout"]
-HOBBIES = ["fishing", "football", "anime", "cooking", "guitar", "skateboarding", "old RPGs", "hiking", "drawing",
-           "collecting sneakers"]
-STYLES = ["warm and chatty", "brief and to the point", "likes to ask a question back", "a little formal and polite",
-          "enthusiastic", "calm and matter-of-fact"]
+         "relaxed", "restless", "in a silly mood", "focused", "content", "a little stressed", "sleepy"]
+SCANDINAVIAN = ("Swedish", "Norwegian", "Danish")
+people = []
+assignments = {}
 
 # Words that do not identify an item or monster on their own.
 COMMON_WORDS = set("""the and for from with where can could find get got drop drops dropped dropping does did who what
@@ -389,29 +391,112 @@ knowledge = None
 routes = None
 
 
-def persona(bot):
-    """A personality made up from the bot's name. Same name gives the same person while nothing is saved."""
-    r = random.Random(bot.lower())
-    return (f"Age {r.choice(AGES)}. Works as: {r.choice(JOBS_IRL)}. Mood today: {r.choice(MOODS)}. "
-            f"Humour: {r.choice(HUMOURS)}. Hobby outside the game: {r.choice(HOBBIES)}. "
-            f"Way of talking: {r.choice(STYLES)}.")
+def read_lines(path):
+    """The lines of a notes file, without comments and headings."""
+    if not os.path.exists(path):
+        return []
+    with io.open(path, encoding="utf-8") as f:
+        return [line.strip() for line in f if line.strip() and not line.strip().startswith("#")]
+
+
+def load_people():
+    """The people who play the bots (Settings/Bots/People.json) and who already plays which bot."""
+    global people, assignments
+    path = os.path.join(BOTS_DIR, "People.json")
+    if os.path.exists(path):
+        with io.open(path, encoding="utf-8") as f:
+            people = json.load(f)
+    try:
+        with io.open(ASSIGNMENTS_FILE, encoding="utf-8") as f:
+            assignments = json.load(f)
+    except (OSError, ValueError):
+        assignments = {}
+
+
+def person_for(bot):
+    """The person who plays this bot. Chosen from the bot's name the first time, then kept for good."""
+    if not people:
+        return None
+    by_id = {p["id"]: p for p in people}
+    with lock:
+        mine = assignments.setdefault(GAME, {})
+        known = by_id.get(mine.get(bot.lower()))
+        if known:
+            return known
+        chosen = people[zlib.crc32(("mapleplus:" + bot.lower()).encode()) % len(people)]
+        mine[bot.lower()] = chosen["id"]
+        os.makedirs(STATE_DIR, exist_ok=True)
+        with io.open(ASSIGNMENTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(assignments, f, indent=1, sort_keys=True)
+        return chosen
+
+
+def describe(person):
+    if not person:
+        return "an ordinary person who likes games"
+    woman = person["gender"] == "female"
+    country = person.get("country", "")
+    where = person["home"] if not country or country.replace("the ", "") in person["home"] else f"{person['home']} in {country}"
+    return (f"{person['first_name']}, a {person['age']}-year-old {'woman' if woman else 'man'} from {where}. "
+            f"Work: {person['occupation']}. Home life: {person['living']}. "
+            f"Temper: {person['temper']}. Humour: {person['humour']}. Outside games: {' and '.join(person['hobbies'])}. "
+            f"Way of talking: {person['style']}; {person['typing_habit']}. Games: {person['gaming']}; "
+            f"{person.get('experience', 'knows the game reasonably well')}. "
+            f"Going on in your life: {person['life_now']}. Things you like to talk about: {', '.join(person['topics'])}.")
+
+
+def local_time(person):
+    """What the clock says where this person lives, in words Claude can use."""
+    if not person or "utc" not in person:
+        return ""
+    now = datetime.datetime.now(datetime.timezone.utc)
+    summer = person.get("summer")
+    # Clocks go forward an hour in summer: April to October in the north, October to March in the south
+    forward = (summer == "north" and 4 <= now.month <= 10) or (summer == "south" and (now.month >= 10 or now.month <= 3))
+    there = now + datetime.timedelta(hours=person["utc"] + (1 if forward else 0))
+    hour = there.hour
+    part = ("the middle of the night" if hour < 5 else "early morning" if hour < 8 else "morning" if hour < 12 else
+            "afternoon" if hour < 17 else "evening" if hour < 22 else "late evening")
+    return (f"Where you live it is {there.strftime('%H:%M')} on {there.strftime('%A')}, {part}. Players here are spread "
+            "over the world, so for others it may be another time of day; you know that, and it can come up "
+            "naturally (being up late, just out of bed, on a lunch break), but do not mention the time in every line.")
+
+
+def mood_today(bot):
+    r = random.Random(f"mapleplus:{bot.lower()}:{datetime.date.today().isoformat()}")
+    return r.choice(MOODS)
 
 
 def system_prompt(bot, level, job, map_id, player):
     job_name = job.replace("_", " ").title() if job else "Beginner"
     place = map_names.get(str(map_id), "") or "somewhere in Maple World"
+    person = person_for(bot)
+    style = " ".join(read_lines(os.path.join(BOTS_DIR, "Styles", GAME + ".md")))
+    if person and person.get("language") in SCANDINAVIAN:
+        language = (f"- Write English. Only if {player} writes to you in Swedish, Norwegian or Danish, answer in "
+                    f"{person['language']} instead, the way Scandinavians answer each other in their own languages.\n")
+    else:
+        language = "- Write English, whatever your own language is. You may let a word of it slip very rarely.\n"
     return (
-        f"You are {bot}, a person playing the old 2D MMORPG MapleStory (version 83, around 2009). "
-        f"Your character is a level {level} {job_name} and you are in {place} right now. "
-        f"About you: {persona(bot)}\n"
-        f"Another player called {player} is whispering you in the game. Answer the way a real player would "
-        "in game chat.\n"
+        f"You are the person who plays {bot} in the old 2D MMORPG MapleStory (version 83, around 2009), on a small "
+        f"private server. Your character {bot} is a level {level} {job_name} and is in {place} right now.\n"
+        f"About you, the person: {describe(person)} Mood today: {mood_today(bot)}.\n"
+        f"{local_time(person)}\n"
+        f"Another player called {player} is whispering you in the game. You do not know {player} well. Answer the "
+        "way a real player would in game chat.\n"
+        + (f"How chat sounds in this game: {style}\n" if style else "") +
         "Rules:\n"
         f"- At most {MAX_LINES} short lines, each under {MAX_LINE_LENGTH} characters, and under "
         f"{MAX_LINES * MAX_LINE_LENGTH - 30} characters in total. Usually one line is enough. Finish your sentence.\n"
-        "- Write proper, correctly spelled English with normal capital letters and punctuation. No text-speak "
-        "and no strings of 'lol' or 'haha'. Do use the words MapleStory players use, where they fit: mesos, pots, "
-        "mobs, grinding, training spot, drops, scrolling, PQ, FM, CC, KS, job advancement, party.\n"
+        + language +
+        "- Write like a person typing in a game: relaxed, correctly spelled, with normal capital letters and "
+        "punctuation. No text-speak, no strings of 'lol' or 'haha', and do not start every line the same way. "
+        "Do use the words MapleStory players use, where they fit.\n"
+        "- You are a whole person, not only a player: you can talk about your day, your work, your hobbies and what "
+        "you think, and ask about theirs. Let your temper and humour show. Do not recite facts about yourself "
+        "unasked; let them come up naturally, one at a time, and not the same one every time.\n"
+        "- Your first name is your own; in the game people call you by your character's name.\n"
+        "- Do not ask the other player how to do things in the game; if you are new, you find out by yourself.\n"
         "- A message may end with a [Game knowledge] note. Those are true facts about this server. If the player "
         "asks about them, answer from the note in your own words and name the one to three most useful monsters or "
         "places, not the whole list. Never mention the note itself. Use the note only when it answers what the "
@@ -540,7 +625,7 @@ def reply_to(player, bot, level, job, map_id, text, player_map=""):
         convo["last"] = now
         turns = list(convo["turns"][-MAX_TURNS_KEPT:])
     if new:
-        log(f"--- {player} started talking to {bot} (level {level} {job}). {persona(bot)}")
+        log(f"--- {player} started talking to {bot} (level {level} {job}). Played by {describe(person_for(bot))}")
     log(f"{player} -> {bot}: {text}")
     with lock:
         notes = game_notes(convo, text, player_map)
@@ -591,6 +676,7 @@ def main():
     p.add_argument("--bot", default="Lunaria", help="bot name for --say")
     a = p.parse_args()
     load_map_names()
+    load_people()
     global knowledge, routes
     routes = Routes()
     knowledge = Knowledge(routes.reachable_from("100000000"))     # reachable from Henesys
@@ -600,7 +686,7 @@ def main():
         return
     log(f"Bot chat bridge listening on 127.0.0.1:{PORT}, model {MODEL}")
     log(f"Using {CLAUDE}")
-    log("Whisper any bot in the game. Nothing is saved. Close this window to stop.")
+    log("Whisper any bot in the game. Conversations are not saved; only which person plays which bot is. Close this window to stop.")
     ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
 
 

@@ -4,7 +4,7 @@ This is the practical guide. It covers how the project was set up from nothing, 
 
 For what was decided and why, see the [Development log](Development-Log.md). For the class design, see [Class changes](Class-Changes.md).
 
-Last updated: 2026-10-10.
+Last updated: 2026-10-11.
 
 ## Contents
 
@@ -101,7 +101,7 @@ Bots answer whispers through Claude Haiku, using a Claude subscription through C
 1. Run `Login-Bot-Chat.bat` once to sign in.
 2. Run `Start-Bot-Chat.bat` and leave the window open while playing.
 
-The bridge (`Settings/Scripts/Bot-Chat-Bridge.py`) listens on `127.0.0.1:8585`. The server sends it each whisper to a bot. Each reply is a fresh Claude Code run with no tools, no memory and no access to anything else on the PC.
+The bridge (`Settings/Scripts/Bot-Chat-Bridge.py`) listens on `127.0.0.1:8585`. The people who play the bots come from `Settings/Bots/`, which was copied from the WowPlus project. The server sends it each whisper to a bot. Each reply is a fresh Claude Code run with no tools, no memory and no access to anything else on the PC.
 
 ## 3. Running it day to day
 
@@ -223,7 +223,18 @@ Edit `Client/MapleStory/config.ini`: resolution, windowed or fullscreen, damage 
 
 ### 5.8 The bot chat
 
-Everything is in `Settings/Scripts/Bot-Chat-Bridge.py`: the persona, what the bots know (drops, where monsters live, routes), and the filter on what they may say. Test without the game:
+The code is in `Settings/Scripts/Bot-Chat-Bridge.py`: what the bots know (drops, where monsters live, routes), the rules they follow, and the filter on what they may say.
+
+Who the bots are is in `Settings/Bots/` (see its [README](../Bots/README.md)): 300 made-up people in `People.json`, the lists they are built from in `Traits.json`, and how MapleStory chat sounds in `Styles/maplestory.md`. A bot gets a person the first time it is whispered and keeps that person; the pairing is saved in `Database/BotChat/Assignments.json`. Conversations themselves are not saved.
+
+| I want to | Do this |
+|-----------|---------|
+| Change one person | Edit their line in `People.json`, restart the bridge. |
+| Add more people or new traits | Edit `Traits.json`, run `python Settings/Scripts/Make-Bot-People.py`. |
+| Change how chat sounds | Edit `Styles/maplestory.md`. Works at once. |
+| Give a bot a particular person | Put the person's `id` under `maplestory` in `Database/BotChat/Assignments.json`. |
+
+Test without the game:
 
 ```
 python Settings/Scripts/Bot-Chat-Bridge.py --say "where do I find slimes?"
