@@ -167,37 +167,37 @@
         </imgdir>
         <imgdir name="14">
           <string name="hs" value="h14"/>
-          <int name="prop" value="34"/>
+          <int name="prop" value="35"/>
           <int name="damage" value="170"/>
         </imgdir>
         <imgdir name="15">
           <string name="hs" value="h15"/>
-          <int name="prop" value="35"/>
+          <int name="prop" value="37"/>
           <int name="damage" value="175"/>
         </imgdir>
         <imgdir name="16">
           <string name="hs" value="h16"/>
-          <int name="prop" value="36"/>
+          <int name="prop" value="40"/>
           <int name="damage" value="180"/>
         </imgdir>
         <imgdir name="17">
           <string name="hs" value="h17"/>
-          <int name="prop" value="37"/>
+          <int name="prop" value="42"/>
           <int name="damage" value="185"/>
         </imgdir>
         <imgdir name="18">
           <string name="hs" value="h18"/>
-          <int name="prop" value="38"/>
+          <int name="prop" value="45"/>
           <int name="damage" value="190"/>
         </imgdir>
         <imgdir name="19">
           <string name="hs" value="h19"/>
-          <int name="prop" value="39"/>
+          <int name="prop" value="47"/>
           <int name="damage" value="195"/>
         </imgdir>
         <imgdir name="20">
           <string name="hs" value="h20"/>
-          <int name="prop" value="40"/>
+          <int name="prop" value="50"/>
           <int name="damage" value="200"/>
         </imgdir>
       </imgdir>

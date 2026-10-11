@@ -161,7 +161,6 @@ skill_id	skill	field	value	why
 5001005	Dash (Pirate)	x	min(V, 20)	Dash: +20 speed, speed budget
 # Round 2 (2026-10-10): values the client works out (damage, hits, targets). These need the client's skill file patched too.
 4001334	Double Stab (Thief)	damage	112 + 48*(L-1)//(M-1)	160% per hit at max (was 140%)
-4201005	Savage Blow (Bandit)	damage	55 + 45*(L-1)//(M-1)	55% per hit at level 1 up to 100% at max
 4201005	Savage Blow (Bandit)	attackCount	6	6 hits at every level
 4201004	Steal (Bandit)	mobCount	4 + 2*(L-1)//(M-1)	Hits 4 monsters from level 1, 6 at max
 4201004	Steal (Bandit)	lt	-170,-70	Wider hit box, so nearby monsters are caught (the original only reaches one spot)
@@ -172,26 +171,21 @@ skill_id	skill	field	value	why
 4001002	Disorder (Thief)	mobCount	6	Disorder affects up to 6 monsters
 4001002	Disorder (Thief)	lt	-200,-100	Disorder: area around you, as Threaten has
 4001002	Disorder (Thief)	rb	200,100	Disorder: area around you, as Threaten has
-4211004	Band of Thieves (Chiefbandit)	damage	round(O*250/OM)	Band of Thieves: 250% at max (was 210%)
 4211002	Assaulter (Chiefbandit)	mobCount	3	Assaulter hits up to 3 monsters in its path
 4211002	Assaulter (Chiefbandit)	lt	-300,-120	Assaulter reaches 50% further
 4221007	Boomerang Step (Shadower)	mobCount	O + 2	Boomerang Step: 6 monsters at max (was 4)
 4101005	Drain (Assassin)	mobCount	3	Drain hits up to 3 monsters
 4101005	Drain (Assassin)	lt	-350,-80	Drain: hit box for more than one target
 4101005	Drain (Assassin)	rb	-10,40	Drain: hit box for more than one target
-4111005	Avenger (Hermit)	damage	round(O*200/OM)	Avenger: 200% at max (was 180%)
 2001004	Energy Bolt (Magician)	mobCount	3	Energy Bolt hits up to 3 monsters
 2001004	Energy Bolt (Magician)	lt	-300,-80	Energy Bolt: hit box for more than one target
 2001004	Energy Bolt (Magician)	rb	-10,40	Energy Bolt: hit box for more than one target
 2101005	Poison Breath (Fp Wizard)	mobCount	4	Poison Breath hits up to 4 monsters
 2101005	Poison Breath (Fp Wizard)	lt	-300,-80	Poison Breath: hit box for more than one target
 2101005	Poison Breath (Fp Wizard)	rb	-10,40	Poison Breath: hit box for more than one target
-2301005	Holy Arrow (Cleric)	mad	round(O*120/OM)	Holy Arrow: 120 magic attack at max (was 80)
 2301005	Holy Arrow (Cleric)	mobCount	3	Holy Arrow hits up to 3 monsters
 2301005	Holy Arrow (Cleric)	lt	-300,-80	Holy Arrow: hit box for more than one target
 2301005	Holy Arrow (Cleric)	rb	-10,40	Holy Arrow: hit box for more than one target
-2121006	Paralyze (Fp Archmage)	mad	round(O*240/OM)	Paralyze: 240 at max (was 210)
-2221006	Chain Lightning (Il Archmage)	mad	round(O*210/OM)	Chain Lightning: 210 at max (was 180)
 1211003	Fire Charge: Sword (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
 1211004	Flame Charge: BW (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
 1211005	Ice Charge: Sword (Whiteknight)	damage	round(O*130/OM)	Element charges: 130% at max
@@ -215,10 +209,95 @@ skill_id	skill	field	value	why
 5001003	Double Shot (Pirate)	damage	round(O*130/OM)	Pirate's Double Shot: 130% per bullet at max (was 80%)
 5101004	Corkscrew Blow (Brawler)	mobCount	6	Hits up to 6 monsters (was 3)
 5101002	Backspin Blow (Brawler)	mobCount	6	Hits up to 6 monsters (was 3)
-5201001	Invisible Shot (Gunslinger)	damage	round(O*200/OM)	Invisible Shot: 200% at max (was 170%)
 5201001	Invisible Shot (Gunslinger)	mobCount	6	Hits up to 6 monsters (was 3)
 5201004	Blank Shot (Gunslinger)	mobCount	6	Hits up to 6 monsters (was 3)
-5201002	Grenade (Gunslinger)	damage	round(O*200/OM)	Grenade: 200% at max (was 140%)
 5111002	Energy Blast (Marauder)	mobCount	6	Energy Blast hits up to 6 monsters (was 4)
 5221004	Rapid Fire (Corsair)	damage	round(O*200/OM)	Rapid Fire: 200% at max (was 170%)
 1311008	Dragon Blood (Dragonknight)	x	0	No HP drain while active (was 20 HP every 4 seconds at max)
+# Round 4 (2026-10-11): the two damage rules, for every attack skill. Level 1 is at least 60% of max, and a new job's main attack starts at least 10% above the old one's max. These rows replace the earlier damage rows for the same skills.
+1001005	Slash Blast (Warrior)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
+1111003	Panic : Sword (Crusader)	damage	round(286 + 64*(L-1)/(M-1))	Damage rules: 286 at level 1 to 350 at max (was 150 to 350)
+1111004	Panic : Axe (Crusader)	damage	round(286 + 64*(L-1)/(M-1))	Damage rules: 286 at level 1 to 350 at max (was 150 to 350)
+1111005	Coma: Sword (Crusader)	damage	round(143 + 57*(L-1)/(M-1))	Damage rules: 143 at level 1 to 200 at max (was 84 to 200)
+1111006	Coma: Axe (Crusader)	damage	round(143 + 57*(L-1)/(M-1))	Damage rules: 143 at level 1 to 200 at max (was 84 to 200)
+1121006	Rush (Hero)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
+1121008	Brandish (Hero)	damage	round(192 + 68*(L-1)/(M-1))	Damage rules: 192 at level 1 to 260 at max per hit (was 135 to 260)
+1211002	Charged Blow (Whiteknight)	damage	round(286 + 72*(L-1)/(M-1))	Damage rules: 286 at level 1 to 358 at max (was 162 to 250)
+1221007	Rush (Paladin)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
+1221009	Blast (Paladin)	damage	round(394 + 156*(L-1)/(M-1))	Damage rules: 394 at level 1 to 550 at max (was 170 to 550)
+1221011	Heaven's Hammer (Paladin)	damage	round(540 + 360*(L-1)/(M-1))	Damage rules: 540 at level 1 to 900 at max (was 420 to 900)
+1311001	Spear Crusher (Dragonknight)	damage	round(102 + 68*(L-1)/(M-1))	Damage rules: 102 at level 1 to 170 at max per hit (was 37 to 170)
+1311001	Spear Crusher (Dragonknight)	attackCount	3	Damage rules: 3 hits at every level
+1311002	Pole Arm Crusher (Dragonknight)	damage	round(102 + 68*(L-1)/(M-1))	Damage rules: 102 at level 1 to 170 at max per hit (was 37 to 170)
+1311002	Pole Arm Crusher (Dragonknight)	attackCount	3	Damage rules: 3 hits at every level
+1311003	Dragon Fury: Spear (Dragonknight)	damage	round(150 + 100*(L-1)/(M-1))	Damage rules: 150 at level 1 to 250 at max (was 80 to 250)
+1311004	Dragon Fury: Pole Arm (Dragonknight)	damage	round(150 + 100*(L-1)/(M-1))	Damage rules: 150 at level 1 to 250 at max (was 80 to 250)
+1311005	Sacrifice (Dragonknight)	damage	round(210 + 140*(L-1)/(M-1))	Damage rules: 210 at level 1 to 350 at max (was 205 to 350)
+1311006	Dragon Roar (Dragonknight)	damage	round(144 + 96*(L-1)/(M-1))	Damage rules: 144 at level 1 to 240 at max (was 96 to 240)
+1321003	Rush (Darkknight)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
+2001004	Energy Bolt (Magician)	mad	round(33 + 22*(L-1)/(M-1))	Damage rules: 33 at level 1 to 55 at max (was 20 to 55)
+2001005	Magic Claw (Magician)	mad	round(24 + 16*(L-1)/(M-1))	Damage rules: 24 at level 1 to 40 at max per hit (was 11 to 40)
+2101004	Fire Arrow (FpWizard)	mad	round(88 + 32*(L-1)/(M-1))	Damage rules: 88 at level 1 to 120 at max (was 33 to 120)
+2101005	Poison Breath (FpWizard)	mad	round(61 + 15*(L-1)/(M-1))	Damage rules: 61 at level 1 to 76 at max (was 12 to 70)
+2111002	Explosion (FpMage)	mad	round(84 + 36*(L-1)/(M-1))	Damage rules: 84 at level 1 to 120 at max (was 60 to 120)
+2111003	Poison Mist (FpMage)	mad	round(54 + 36*(L-1)/(M-1))	Damage rules: 54 at level 1 to 90 at max (was 32 to 90)
+2111006	Element Composition (FpMage)	mad	round(132 + 33*(L-1)/(M-1))	Damage rules: 132 at level 1 to 165 at max (was 80 to 150)
+2121001	Big Bang (FpArchmage)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
+2121003	Fire Demon (FpArchmage)	mad	round(72 + 48*(L-1)/(M-1))	Damage rules: 72 at level 1 to 120 at max (was 62 to 120)
+2121006	Paralyze (FpArchmage)	mad	round(182 + 58*(L-1)/(M-1))	Damage rules: 182 at level 1 to 240 at max (was 152 to 240)
+2201004	Cold Beam (IlWizard)	mad	round(88 + 22*(L-1)/(M-1))	Damage rules: 88 at level 1 to 110 at max (was 13 to 100)
+2201005	Thunder Bolt (IlWizard)	mad	round(61 + 15*(L-1)/(M-1))	Damage rules: 61 at level 1 to 76 at max (was 2 to 60)
+2211002	Ice Strike (IlMage)	mad	round(84 + 20*(L-1)/(M-1))	Damage rules: 84 at level 1 to 104 at max (was 32 to 90)
+2211003	Thunder Spear (IlMage)	mad	round(121 + 49*(L-1)/(M-1))	Damage rules: 121 at level 1 to 170 at max (was 80 to 170)
+2211006	Element Composition (IlMage)	mad	round(121 + 30*(L-1)/(M-1))	Damage rules: 121 at level 1 to 151 at max (was 80 to 140)
+2221001	Big Bang (IlArchmage)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
+2221003	Ice Demon (IlArchmage)	mad	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
+2221006	Chain Lightning (IlArchmage)	mad	round(187 + 47*(L-1)/(M-1))	Damage rules: 187 at level 1 to 234 at max (was 120 to 210)
+2301005	Holy Arrow (Cleric)	mad	round(88 + 32*(L-1)/(M-1))	Damage rules: 88 at level 1 to 120 at max (was 33 to 120)
+2311004	Shining Ray (Priest)	mad	round(132 + 33*(L-1)/(M-1))	Damage rules: 132 at level 1 to 165 at max (was 60 to 105)
+2321001	Big Bang (Bishop)	mad	round(270 + 180*(L-1)/(M-1))	Damage rules: 270 at level 1 to 450 at max (was 160 to 450)
+2321007	Angel Ray (Bishop)	mad	round(144 + 96*(L-1)/(M-1))	Damage rules: 144 at level 1 to 240 at max (was 123 to 240)
+3101003	Power Knock-Back (Hunter)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 105 to 200)
+3111003	Inferno (Ranger)	damage	round(90 + 60*(L-1)/(M-1))	Damage rules: 90 at level 1 to 150 at max (was 50 to 150)
+3111004	Arrow Rain (Ranger)	damage	round(96 + 64*(L-1)/(M-1))	Damage rules: 96 at level 1 to 160 at max (was 60 to 160)
+3111006	Strafe (Ranger)	damage	round(72 + 28*(L-1)/(M-1))	Damage rules: 72 at level 1 to 100 at max per hit (was 71 to 100)
+3121003	Dragon's Breath (Bowmaster)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
+3121004	Hurricane (Bowmaster)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 51 to 100)
+3201003	Power Knock-Back (Crossbowman)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 105 to 200)
+3211004	Arrow Eruption (Sniper)	damage	round(96 + 64*(L-1)/(M-1))	Damage rules: 96 at level 1 to 160 at max (was 60 to 160)
+3221001	Piercing Arrow (Marksman)	damage	round(510 + 340*(L-1)/(M-1))	Damage rules: 510 at level 1 to 850 at max (was 320 to 850)
+3221003	Dragon's Breath (Marksman)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
+4001344	Lucky Seven (Thief)	damage	round(90 + 60*(L-1)/(M-1))	Damage rules: 90 at level 1 to 150 at max per hit (was 58 to 150)
+4111005	Avenger (Hermit)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 72 to 200)
+4121007	Triple Throw (Nightlord)	damage	round(110 + 40*(L-1)/(M-1))	Damage rules: 110 at level 1 to 150 at max per hit (was 102 to 150)
+4121008	Ninja Storm (Nightlord)	damage	round(48 + 32*(L-1)/(M-1))	Damage rules: 48 at level 1 to 80 at max (was 42 to 80)
+4201004	Steal (Bandit)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max (was 42 to 100)
+4201005	Savage Blow (Bandit)	damage	round(60 + 40*(L-1)/(M-1))	Damage rules: 60 at level 1 to 100 at max per hit (was 55 to 100)
+4211002	Assaulter (Chiefbandit)	damage	round(660 + 165*(L-1)/(M-1))	Damage rules: 660 at level 1 to 825 at max (was 210 to 450)
+4211004	Band of Thieves (Chiefbandit)	damage	round(150 + 100*(L-1)/(M-1))	Damage rules: 150 at level 1 to 250 at max (was 131 to 250)
+4221001	Assassinate (Shadower)	damage	round(360 + 240*(L-1)/(M-1))	Damage rules: 360 at level 1 to 600 at max per hit (was 170 to 600)
+4221007	Boomerang Step (Shadower)	damage	round(300 + 200*(L-1)/(M-1))	Damage rules: 300 at level 1 to 500 at max per hit (was 260 to 500)
+5001001	Flash Fist (Pirate)	damage	round(162 + 108*(L-1)/(M-1))	Damage rules: 162 at level 1 to 270 at max (was 156 to 270)
+5101002	Backspin Blow (Brawler)	damage	round(144 + 96*(L-1)/(M-1))	Damage rules: 144 at level 1 to 240 at max (was 88 to 240)
+5101003	Double Uppercut (Brawler)	damage	round(174 + 116*(L-1)/(M-1))	Damage rules: 174 at level 1 to 290 at max per hit (was 100 to 290)
+5101004	Corkscrew Blow (Brawler)	damage	round(252 + 168*(L-1)/(M-1))	Damage rules: 252 at level 1 to 420 at max (was 135 to 420)
+5111002	Energy Blast (Marauder)	damage	round(252 + 168*(L-1)/(M-1))	Damage rules: 252 at level 1 to 420 at max (was 246 to 420)
+5111006	Shockwave (Marauder)	damage	round(420 + 280*(L-1)/(M-1))	Damage rules: 420 at level 1 to 700 at max (was 265 to 700)
+5121001	Dragon Strike (Buccaneer)	damage	round(486 + 324*(L-1)/(M-1))	Damage rules: 486 at level 1 to 810 at max (was 275 to 810)
+5121002	Energy Orb (Buccaneer)	damage	round(540 + 360*(L-1)/(M-1))	Damage rules: 540 at level 1 to 900 at max (was 300 to 900)
+5121004	Demolition (Buccaneer)	damage	round(240 + 160*(L-1)/(M-1))	Damage rules: 240 at level 1 to 400 at max per hit (was 90 to 400)
+5121005	Snatch (Buccaneer)	damage	round(360 + 240*(L-1)/(M-1))	Damage rules: 360 at level 1 to 600 at max (was 210 to 600)
+5121007	Barrage (Buccaneer)	damage	round(138 + 92*(L-1)/(M-1))	Damage rules: 138 at level 1 to 230 at max per hit (was 94 to 230)
+5201001	Invisible Shot (Gunslinger)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 88 to 200)
+5201002	Grenade (Gunslinger)	damage	round(120 + 80*(L-1)/(M-1))	Damage rules: 120 at level 1 to 200 at max (was 64 to 200)
+5201004	Blank Shot (Gunslinger)	damage	round(72 + 48*(L-1)/(M-1))	Damage rules: 72 at level 1 to 120 at max (was 63 to 120)
+5201006	Recoil Shot (Gunslinger)	damage	round(156 + 104*(L-1)/(M-1))	Damage rules: 156 at level 1 to 260 at max (was 70 to 260)
+5210000	Burst Fire (Outlaw)	damage	round(126 + 84*(L-1)/(M-1))	Damage rules: 126 at level 1 to 210 at max per hit (was 115 to 210)
+5211004	Flamethrower (Outlaw)	damage	round(96 + 64*(L-1)/(M-1))	Damage rules: 96 at level 1 to 160 at max (was 73 to 160)
+5211005	Ice Splitter (Outlaw)	damage	round(78 + 52*(L-1)/(M-1))	Damage rules: 78 at level 1 to 130 at max (was 72 to 130)
+5211006	Homing Beacon (Outlaw)	damage	round(228 + 152*(L-1)/(M-1))	Damage rules: 228 at level 1 to 380 at max (was 148 to 380)
+5221003	Aerial Strike (Corsair)	damage	round(720 + 480*(L-1)/(M-1))	Damage rules: 720 at level 1 to 1200 at max (was 520 to 1200)
+5221007	Battleship Cannon (Corsair)	damage	round(228 + 152*(L-1)/(M-1))	Damage rules: 228 at level 1 to 380 at max per hit (was 205 to 380)
+5221008	Battleship Torpedo (Corsair)	damage	round(468 + 312*(L-1)/(M-1))	Damage rules: 468 at level 1 to 780 at max (was 390 to 780)
+# Round 4: critical hits. Every class without its own crit gets a flat 40% for 150% (server code); the bowman's Critical Shot goes to 50% so bowmen stay ahead.
+3000001	Critical Shot (Bowman)	prop	max(V, 50*L//M)	Critical Shot: 50% chance at max (was 40%)

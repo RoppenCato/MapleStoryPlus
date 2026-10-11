@@ -177,6 +177,10 @@ All skill number changes live in one list: `Settings/Scripts/Skill-Changes.tsv`.
 
 Step 4 can be skipped when the change is only a duration, cooldown, cost or buff strength; the game then works correctly but the tooltip shows the old number.
 
+To see what a change does to the balance between classes, run `python Settings/Reference/Build-Reference.py` and then `python Settings/Scripts/Simulate-Damage.py`. It lists every class's damage per use and per second at levels 30, 50, 70 and 100; `--rules` checks that a new job's attack beats the old one from its first point.
+
+Two rules every attack skill follows (Round 4 in the list): level 1 is at least 60% of max, and a new job's main attack starts at least 10% above the old job's max.
+
 ### 5.3 A skill's behaviour (not just numbers)
 
 Rules that the data cannot express are in our own package, `Server/src/main/java/plus/`:

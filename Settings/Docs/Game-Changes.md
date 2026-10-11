@@ -37,6 +37,8 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-10 | Tooltips | Showed the original numbers | Rewritten to show the new numbers for every changed skill. 244 values have no place in their text and are not shown. | Yes |
 
 | 2026-10-10 | The rest of the agreed number changes (about 45 skills), weapon pairs for warriors, Flash Jump for the bandit line, Drain's heal rule, Dragon Blood without drain | See Class-Changes.md | Installed | No |
+| 2026-10-11 | Critical hits for every class, flat | 10% for 150% in 1st job rising to 25% for 170% in 4th (our own earlier version) | 40% for 150% in every job. The bowman's Critical Shot goes from 40% to 50% so bowmen and assassins stay ahead. | No |
+| 2026-10-11 | Damage rules for every attack skill (82 skills) | Many skills were close to useless at level 1 (Thunder Bolt: 2 at level 1, 60 at max), and a new job's attack often started below the old one | Level 1 is at least 60% of max. A new job's main attack starts at least 10% above the old job's max; where needed the max was raised (Charged Blow 358%, Assaulter 825%, Cold Beam 110, Thunder Bolt 76, Ice Strike 104, Poison Breath 76, Element Composition 165 and 151, Chain Lightning 234, Shining Ray 165). Crusher hits 3 times at every level. | No |
 
 ## Travel and guidance
 

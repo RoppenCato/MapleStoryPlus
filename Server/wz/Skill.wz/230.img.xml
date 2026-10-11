@@ -1182,7 +1182,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h1"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="33"/>
+          <int name="mad" value="88"/>
           <int name="mastery" value="1"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1191,7 +1191,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h2"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="36"/>
+          <int name="mad" value="89"/>
           <int name="mastery" value="1"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1200,7 +1200,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h3"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="39"/>
+          <int name="mad" value="90"/>
           <int name="mastery" value="1"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1209,7 +1209,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h4"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="42"/>
+          <int name="mad" value="91"/>
           <int name="mastery" value="2"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1218,7 +1218,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h5"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="45"/>
+          <int name="mad" value="92"/>
           <int name="mastery" value="2"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1227,7 +1227,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h6"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="48"/>
+          <int name="mad" value="94"/>
           <int name="mastery" value="2"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1236,7 +1236,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h7"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="51"/>
+          <int name="mad" value="95"/>
           <int name="mastery" value="3"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1245,7 +1245,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h8"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="54"/>
+          <int name="mad" value="96"/>
           <int name="mastery" value="3"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1254,7 +1254,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h9"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="57"/>
+          <int name="mad" value="97"/>
           <int name="mastery" value="3"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1263,7 +1263,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h10"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="60"/>
+          <int name="mad" value="98"/>
           <int name="mastery" value="4"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1272,7 +1272,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h11"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="63"/>
+          <int name="mad" value="99"/>
           <int name="mastery" value="4"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1281,7 +1281,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h12"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="66"/>
+          <int name="mad" value="100"/>
           <int name="mastery" value="4"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1290,7 +1290,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h13"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="69"/>
+          <int name="mad" value="101"/>
           <int name="mastery" value="5"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1299,7 +1299,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h14"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="72"/>
+          <int name="mad" value="102"/>
           <int name="mastery" value="5"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1308,7 +1308,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h15"/>
           <int name="mpCon" value="12"/>
-          <int name="mad" value="75"/>
+          <int name="mad" value="103"/>
           <int name="mastery" value="5"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1317,7 +1317,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h16"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="78"/>
+          <int name="mad" value="105"/>
           <int name="mastery" value="6"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1326,7 +1326,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h17"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="81"/>
+          <int name="mad" value="106"/>
           <int name="mastery" value="6"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1335,7 +1335,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h18"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="84"/>
+          <int name="mad" value="107"/>
           <int name="mastery" value="6"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1344,7 +1344,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h19"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="87"/>
+          <int name="mad" value="108"/>
           <int name="mastery" value="7"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1353,7 +1353,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h20"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="90"/>
+          <int name="mad" value="109"/>
           <int name="mastery" value="7"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1362,7 +1362,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h21"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="93"/>
+          <int name="mad" value="110"/>
           <int name="mastery" value="7"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1371,7 +1371,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h22"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="96"/>
+          <int name="mad" value="111"/>
           <int name="mastery" value="8"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1380,7 +1380,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h23"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="99"/>
+          <int name="mad" value="112"/>
           <int name="mastery" value="8"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1389,7 +1389,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h24"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="102"/>
+          <int name="mad" value="113"/>
           <int name="mastery" value="8"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1398,7 +1398,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h25"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="105"/>
+          <int name="mad" value="114"/>
           <int name="mastery" value="9"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1407,7 +1407,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h26"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="108"/>
+          <int name="mad" value="116"/>
           <int name="mastery" value="9"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1416,7 +1416,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h27"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="111"/>
+          <int name="mad" value="117"/>
           <int name="mastery" value="9"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1425,7 +1425,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h28"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="114"/>
+          <int name="mad" value="118"/>
           <int name="mastery" value="10"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>
@@ -1434,7 +1434,7 @@
           <int name="mobCount" value="3"/>
           <string name="hs" value="h29"/>
           <int name="mpCon" value="24"/>
-          <int name="mad" value="117"/>
+          <int name="mad" value="119"/>
           <int name="mastery" value="10"/>
           <vector name="lt" x="-300" y="-80"/>
           <vector name="rb" x="-10" y="40"/>

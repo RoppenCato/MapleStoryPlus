@@ -14,14 +14,15 @@ import java.util.Collections;
  * <p>
  * In the original game only bowmen and assassins can crit, through their own skills. The client can show
  * critical hits for any class while it is under the Bowmaster's Sharp Eyes buff, so every other class is
- * given that effect permanently, with a chance and damage that grow at each job advancement.
+ * given that effect permanently, with the same chance and damage in every job: 40% for 150%. (Until 2026-10-11 it grew per job.)
  * <p>
  * The effect lives in the client only (the client works out damage). It is sent whenever a character
  * enters a map, which covers login, changing channel and respawning after death, and on job change.
  */
 public class ClassCrit {
-    // {critical chance in %, damage of a critical hit in %} for 1st, 2nd, 3rd and 4th job
-    private static final int[][] TIERS = {{10, 150}, {15, 150}, {20, 160}, {25, 170}};
+    // {critical chance in %, damage of a critical hit in %} for 1st, 2nd, 3rd and 4th job. Flat on purpose:
+    // bowmen (50% for 200% with Critical Shot) and assassins (50% for 200%) stay ahead.
+    private static final int[][] TIERS = {{40, 150}, {40, 150}, {40, 150}, {40, 150}};
 
     public static void send(Character chr) {
         int[] tier = tierFor(chr.getJob());

@@ -27,6 +27,18 @@ Applies our price and meso changes to the database, each one once (remembered in
 
 Writes `Settings/Fixed-Shops.tsv`, the set shops in Free Market rooms 1 and 2 (scrolls, potions, stars, gear for scrolling). Prices and layout are tables at the top of the script. Run it after changing them, then restart the server.
 
+## Simulate-Damage.py
+
+Estimates each class's damage at set levels from the real skill numbers, the gear `Make-Character.py` gives out and the game's damage formulas. Changes nothing and does not need the database.
+
+```
+python Settings/Scripts/Simulate-Damage.py
+python Settings/Scripts/Simulate-Damage.py --levels 70 119
+python Settings/Scripts/Simulate-Damage.py --rules
+```
+
+`--rules` checks, per class, that a new job's attack at level 1 beats the old job's attack at max. The assumptions (attacks per second per weapon, which skill a class uses, throwing star attack) are a block at the top of the script. Monster defence, elemental weakness and scrolled gear are not counted, so use it to compare classes with each other. Run `python Settings/Reference/Build-Reference.py` first if skill numbers changed.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

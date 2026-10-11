@@ -76,6 +76,7 @@ foreach ($row in $rows) {
         if ($old -eq $value) { $same++; continue }
         if ($prop -is [MapleLib.WzLib.WzProperties.WzIntProperty]) { $prop.Value = $value }
         elseif ($prop -is [MapleLib.WzLib.WzProperties.WzShortProperty]) { $prop.Value = [int16]$value }
+        elseif ($prop -is [MapleLib.WzLib.WzProperties.WzStringProperty]) { $prop.Value = [string]$value }   # a few skills store numbers as text
         else { throw "Skill $id level $($row.level) field $($row.field) has an unexpected type: $($prop.GetType().Name)" }
         $changed++
         [void]$edits.Add([pscustomobject]@{ id = $id; level = $row.level; field = $row.field; old = $old; new = $value })

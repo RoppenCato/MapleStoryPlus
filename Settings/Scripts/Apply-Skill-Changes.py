@@ -72,7 +72,7 @@ def original_values(skill_id, field):
     values = {}
     if span:
         for m in LEVEL_BLOCK.finditer(text[span[0]:span[1]]):
-            found = re.search(rf'<int name="{field}" value="(-?\d+)"/>', m.group("body"))
+            found = re.search(rf'<(?:int|string) name="{field}" value="(-?\d+)"/>', m.group("body"))
             if found:
                 values[int(m.group("level"))] = int(found.group(1))
     return values
@@ -108,7 +108,7 @@ def apply_change(text, skill_id, field, formula):
             changed += 1
             head = m.group(0)[:m.group(0).index(m.group("body"))]
             return head + body + m.group("indent") + "</imgdir>"
-        existing = re.search(rf'<int name="{field}" value="(-?\d+)"/>', body)
+        existing = re.search(rf'<(?:int|string) name="{field}" value="(-?\d+)"/>', body)
         current = int(existing.group(1)) if existing else 0
         value = int(eval(formula, {"__builtins__": {}},
                          {"L": level, "M": top, "V": current, "O": original.get(level, 0),
@@ -116,7 +116,9 @@ def apply_change(text, skill_id, field, formula):
         if existing:
             if int(existing.group(1)) == value:
                 return m.group(0)
-            body = body[:existing.start()] + f'<int name="{field}" value="{value}"/>' + body[existing.end():]
+            # Keep the tag the game data uses: a few skills store numbers as text
+            tag = existing.group(0).split(" ", 1)[0]
+            body = body[:existing.start()] + f'{tag} name="{field}" value="{value}"/>' + body[existing.end():]
         else:
             newline = "\r\n" if "\r\n" in m.group(0) else "\n"
             body = f'{m.group("indent")}  <int name="{field}" value="{value}"/>{newline}' + body
@@ -149,7 +151,7 @@ def export(path):
                 if value:
                     rows.append(f"{skill_id}\t{m.group('level')}\t{field}\t{value.group(1)},{value.group(2)}")
                 continue
-            value = re.search(rf'<int name="{field}" value="(-?\d+)"/>', m.group("body"))
+            value = re.search(rf'<(?:int|string) name="{field}" value="(-?\d+)"/>', m.group("body"))
             if value:
                 rows.append(f"{skill_id}\t{m.group('level')}\t{field}\t{value.group(1)}")
     with io.open(path, "w", encoding="utf-8", newline="\n") as f:

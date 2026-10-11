@@ -8,6 +8,15 @@ The design pass over the five explorer classes is done and agreed. Cygnus Knight
 
 Building started the same day. Every number change lives in `Settings/Scripts/Skill-Changes.tsv` and is applied to the server and the client by the two tools described in [Scripts](../Scripts/README.md).
 
+### Review of 2026-10-11 (Robin's decisions)
+
+- **Crit is flat:** every class without its own crit has 40% for 150% from 1st job (was 10/150, 15/150, 20/160, 25/170 by job). Critical Shot goes to 50% at max. Reason: 50% for 200% for all, which Robin first proposed, would match the assassin and beat the bowman, and would favour skills with many weak hit lines (a crit adds a fixed amount per line).
+- **Rule 1, good right away:** every attack skill does at least 60% of its max at level 1 and grows evenly.
+- **Rule 2, new beats old:** the first point of a new job's main attack does at least 10% more than the old job's attack at max. Single-target attacks are compared with single-target, group with group (for warriors and magicians; other classes' group attacks trade damage for targets and only follow rule 1). Where the old max was too low, it was raised.
+- Both rules are Round 4 in `Skill-Changes.tsv`, 82 skills. Not tested in game yet.
+- **Nimble Feet is a travel dash**, see the speed section below.
+- **A simulator, not a meter:** `Settings/Scripts/Simulate-Damage.py` estimates damage per use and per second for every class at set levels, and `--rules` checks rule 2. First results: the three magician branches do well under half the single-target damage of the other classes at every level; the assassin is low before 4th job; the Dark Knight's Crusher is the strongest single-target attack in 3rd job. Nothing has been changed on the strength of this yet.
+
 ### Built
 
 | What | Tested in game |
