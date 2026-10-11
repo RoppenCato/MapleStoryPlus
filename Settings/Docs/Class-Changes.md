@@ -325,7 +325,8 @@ To measure once built: Bless, Invincible, Magic Guard and a full self-heal toget
 | 3 | Spell Booster lasts 30 minutes (now 200 seconds) and has no HP cost. | agreed | Server and client skill data |
 | 4 | Ice Strike freezes for 3 seconds at every level (now 1 second at level 1, 2 at max). | agreed | Server and client skill data |
 | 5 | Seal always succeeds at max level (now 95%). | agreed | Server and client skill data |
-| 6 | Thunder Spear, Element Composition and Partial Resistance stay as they are. | agreed | Nothing |
+| 6 | Partial Resistance stays as it is. | agreed | Nothing |
+| 7 | Thunder Spear does 165 at level 1 rising to 210 at max (121 to 170 after the damage rules), and Element Composition 155 rising to 195 (121 to 151). Thunder Spear is the pure damage spell; Element Composition is a little weaker but carries two elements. About 78% of a Ranger on one monster at level 100, from 63%. Ice Strike is left alone. | agreed 2026-10-11, not built | Server and client skill data |
 
 To measure once built: Ice Strike can keep a whole group frozen almost permanently. It is the safest group attack in the game.
 
