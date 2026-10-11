@@ -53,6 +53,19 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 
 ---
 
+## Shops and economy
+
+### A fixed room in the Free Market (Robin, 2026-10-11)
+
+One Free Market room has set shops that always sell what a player needs, so scrolling does not depend on luck in the random shops. The other rooms stay random.
+
+- Each spot is a shop of its own with a plain title: weapon scrolls, overall scrolls, top and bottom scrolls, and so on.
+- Both normal scrolls (10%, 60%, 100%) and dark scrolls (30%, 70%) are sold. Dark scrolls cost more.
+- Paid in mesos. No tokens: bosses give more mesos instead, plus their chance at good drops.
+- Stock is always there and prices are fixed in a list we control.
+
+To settle: which room, the price level, whether chaos, clean slate and white scrolls are sold, and what else the room sells besides scrolls.
+
 ## Movement and travel
 
 | Idea | Status | Notes |
