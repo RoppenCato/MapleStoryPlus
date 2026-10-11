@@ -366,7 +366,7 @@ To measure once built: longer Infinity and a cheaper Meteor Shower make the stro
 | 2 | Ifrit lasts 30 minutes (now 160 seconds). | agreed | Server and client skill data |
 | 3 | Infinity lasts 120 seconds (now 40). The 10-minute cooldown stays. | agreed | Server and client skill data |
 | 4 | Blizzard costs 2,500 MP (now 3,500). | agreed | Server and client skill data |
-| 5 | Chain Lightning does 210 magic attack (now 180). | agreed | Server and client skill data |
+| 5 | Chain Lightning does 235 at level 1 rising to 280 at max, on up to six monsters (187 to 234 after the damage rules; originally 120 to 180). Kept below Paralyze's 300 because it does that damage to six monsters with no charging. If it proves too strong on groups, lower the number of monsters it jumps to, not the damage. Not checked in the simulator. | agreed 2026-10-11, not built | Server and client skill data |
 | 6 | Big Bang, Ice Demon and Hero's Will stay as they are. | agreed | Nothing |
 
 To measure once built: a cheaper Blizzard with a longer Infinity freezes and damages 15 monsters on every cast. It is the safest ultimate in the game.
