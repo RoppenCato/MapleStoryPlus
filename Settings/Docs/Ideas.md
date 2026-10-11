@@ -75,7 +75,9 @@ Other shops in the room (agreed 2026-10-11):
 
 4th job skill books and mastery books are not sold for mesos. They are bought with a token that bosses give; see [Progression design](Progression-Design.md).
 
-To settle: which room, the price level, which stars count as middle, and where the token is spent.
+Decided 2026-10-11: it is the first room, and the token for 4th job books is spent at an NPC in the Free Market.
+
+To settle: the price level (worked out with `Settings/Scripts/Simulate-Economy.py`) and which stars count as middle.
 
 ## Movement and travel
 
