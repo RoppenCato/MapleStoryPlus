@@ -57,6 +57,8 @@ Class and skill ideas live in [Class-Changes.md](Class-Changes.md).
 
 ### A fixed room in the Free Market (Robin, 2026-10-11)
 
+**Built 2026-10-11**, as two rooms: one room cannot hold all the scrolls. See [Game changes](Game-Changes.md) and the [Guide](Guide.md). Still open: the token NPC for 4th job books.
+
 One Free Market room has set shops that always sell what a player needs, so scrolling does not depend on luck in the random shops. The other rooms stay random.
 
 - Each spot is a shop of its own with a plain title: weapon scrolls, overall scrolls, top and bottom scrolls, and so on.

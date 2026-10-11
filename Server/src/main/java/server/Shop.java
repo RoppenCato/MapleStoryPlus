@@ -211,6 +211,9 @@ public class Shop {
             } else {
                 ItemInformationProvider ii = ItemInformationProvider.getInstance();
                 recvMesos = ii.getPrice(item.getItemId(), quantity);
+                if (type == InventoryType.EQUIP && recvMesos > 1) {
+                    recvMesos = Math.max(1, recvMesos / 4);   // MapleStoryPlus: vendors pay a quarter for equipment
+                }
             }
             if (recvMesos > 0) {
                 c.getPlayer().gainMeso(recvMesos, false);

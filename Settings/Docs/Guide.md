@@ -261,6 +261,18 @@ python Settings/Scripts/Simulate-Economy.py --potion-price 0.5 --early-meso 2
 
 It shows, per ten levels (or per level), how many monsters a player kills, the mesos they drop, what the dropped items sell for at a vendor, and what a warrior, a mage and a thief spend on potions and shop gear. What is real data and what is assumed is described at the top of the script; the assumptions are a block of numbers there.
 
+### 5.10 The set shops in the Free Market
+
+Free Market rooms 1 and 2 have set shops that always sell scrolls and supplies. What they sell and for how much is `Settings/Fixed-Shops.tsv`, which the server reads when it fills the Free Market at start. That file is written by a script; the prices and the layout are tables at the top of the script.
+
+1. Edit the tables in `Settings/Scripts/Make-Fixed-Shops.py` (`SCROLL_PRICE`, the shop lists, `OTHER_SHOPS`).
+2. Run `python Settings/Scripts/Make-Fixed-Shops.py`. It says how many shops each room got.
+3. Restart the server. The log says `Fixed shops: opened 23 of 23 in Free Market room 1`.
+
+Limits: a shop holds 16 items and a room has 23 shop spots, which is why the scrolls are spread over two rooms. A room not named in the file keeps its random shops.
+
+What vendors pay for equipment (a quarter of the item's data price) is one line in `Server/src/main/java/server/Shop.java`, marked `MapleStoryPlus`.
+
 ## 6. Test accounts and characters
 
 Accounts and their characters are listed in [Test-Accounts.md](Test-Accounts.md).

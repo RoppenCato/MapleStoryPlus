@@ -51,6 +51,8 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 |------|--------|--------|-------|----------------|
 | 2026-10-11 | Basic potions cost half: Red, Orange, White and Blue Potion, Mana Elixir | 50, 160, 320, 200 and 620 mesos | 25, 80, 160, 100 and 310 mesos (never below what a vendor pays for one) | No |
 | 2026-10-11 | Monsters under level 30 drop twice the mesos | For example Snail 4 to 6 | Snail 8 to 12. 381 monsters. | No |
+| 2026-10-11 | Vendors pay a quarter for equipment | 40% of the shop price | 10% of the shop price. Potions, ores and other items are unchanged. | No |
+| 2026-10-11 | Set shops in Free Market rooms 1 and 2 | Every room had random shops; a scroll you needed might not be for sale | Room 1: weapon and accessory scrolls, special scrolls (clean slate, chaos, white), potions, middle throwing stars and bullets, gear for scrolling. Room 2: armour scrolls. Stock never runs out. Scrolls cost 100,000 (100%), 300,000 (60%), 150,000 (10%), 1 million (dark 70%), 2 million (dark 30%); chaos 10 million, white 25 million. | No. The server reports all 41 shops opened. |
 
 Why: the estimate in `Simulate-Economy.py` showed that between level 10 and 20 monsters paid about 53,000 mesos while potions cost about 78,000. Now it is about 106,000 against 41,000.
 

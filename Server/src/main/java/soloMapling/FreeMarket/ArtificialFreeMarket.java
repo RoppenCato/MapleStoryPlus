@@ -83,6 +83,9 @@ public class ArtificialFreeMarket {
         debugprint("Populating room: ", mapId);
 
         List<Point> positions = fmInfo.getRegionFMSpots(region);
+        if (plus.FixedShops.fill(mapId, positions)) {   // MapleStoryPlus: this room has set shops
+            return;
+        }
         AtomicInteger delayCounter = new AtomicInteger(0);
 
         double hiredMerchantChance = getHiredMerchantChance(mapId);

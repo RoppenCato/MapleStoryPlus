@@ -23,6 +23,10 @@ The assumptions (how often a player is hit, MP per attack, how much is picked up
 
 Applies our price and meso changes to the database, each one once (remembered in the table `plus_changes`). Stop the game server first; a backup is saved before anything changes. `--check` shows what is applied and what is not.
 
+## Make-Fixed-Shops.py
+
+Writes `Settings/Fixed-Shops.tsv`, the set shops in Free Market rooms 1 and 2 (scrolls, potions, stars, gear for scrolling). Prices and layout are tables at the top of the script. Run it after changing them, then restart the server.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.
