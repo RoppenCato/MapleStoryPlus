@@ -300,6 +300,7 @@ Fire/Poison, Ice/Lightning, Bishop. Under discussion since 2026-10-10, one job a
 | 3 | Invincible lasts 30 minutes (now 300 seconds). | agreed | Server and client skill data |
 | 4 | Teleport costs less MP, as for the wizards. | agreed | Server and client skill data |
 | 5 | Heal and MP Eater stay as they are. | agreed | Nothing |
+| 6 | Holy Arrow does 100 at level 1 rising to 135 at max (88 to 120 after the damage rules). Kept below the wizards on purpose: the same spell is the cleric's single-target and group attack, and the cleric is the sturdiest 2nd job. About two thirds of a Hunter on one monster at level 50. | agreed 2026-10-11, not built | Server and client skill data |
 
 To measure once built: Bless, Invincible, Magic Guard and a full self-heal together make the cleric the sturdiest 2nd job by a distance.
 
