@@ -338,7 +338,8 @@ To measure once built: Ice Strike can keep a whole group frozen almost permanent
 | 2 | Summon Dragon lasts 30 minutes (now 140 seconds). It still uses one Summoning Rock per cast. | agreed | Server and client skill data |
 | 3 | Doom always succeeds at max level (now 90%). | agreed | Server and client skill data |
 | 4 | Mystic Door lasts 10 minutes (now 3). | agreed | Server and client skill data |
-| 5 | Shining Ray, Dispel and Elemental Resistance stay as they are. | agreed | Nothing |
+| 5 | Dispel and Elemental Resistance stay as they are. | agreed | Nothing |
+| 6 | Shining Ray does 160 at level 1 rising to 200 at max (132 to 165 after the damage rules; originally 60 to 105). It is the priest's attack for everything. About half a Ranger on one monster at level 100, or three quarters for levelling once Holy Symbol's experience is counted; the strongest mage on groups. Not higher, because every point counts six times in a group. Bosses stay slow for a priest until 4th job. | agreed 2026-10-11, not built | Server and client skill data |
 
 To measure once built: a permanent +50% exp makes the priest level half again as fast as every other class. +25% is the fallback if that proves too much.
 
