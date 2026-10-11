@@ -18,7 +18,7 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 
 | Date | Change | Before | After | Tested in game |
 |------|--------|--------|-------|----------------|
-| 2026-10-10 | Sprint: the beginner skill Nimble Feet | +10 to +20 speed for 4 to 12 seconds, 60-second cooldown, costs MP | +20 speed for 10 seconds, 20-second cooldown, no MP cost. Adds to Haste and other speed buffs. | Yes |
+| 2026-10-11 | Travel dash: the beginner skill Nimble Feet (was a short sprint from 2026-10-10 to 2026-10-11) | +10 to +20 speed for 4 to 12 seconds, 60-second cooldown, costs MP | +10 speed and 10 seconds per level, so +30 for 30 seconds at level 3; 5-minute cooldown; original MP cost. Adds to Haste and other speed buffs. | No (the sprint version was) |
 | 2026-10-10 | Speed cap | 140 | 160 | Yes |
 | 2026-10-10 | Haste (bandit and assassin) | 200 seconds at max | 30 minutes at max | Yes |
 | 2026-10-10 | Every other booster, class buff, Maple Warrior and summon | 2 to 20 minutes | 30 minutes at max (a few shorter by design, listed in the Development log) | Yes, spot-checked: buffs last far longer than before. Not timed to the full 30 minutes, and not every one of the 85 skills was tried. |

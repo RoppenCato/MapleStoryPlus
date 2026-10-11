@@ -12,7 +12,8 @@ Building started the same day. Every number change lives in `Settings/Scripts/Sk
 
 | What | Tested in game |
 |------|----------------|
-| Sprint, speed cap 160 | Yes |
+| Speed cap 160 | Yes |
+| Travel dash (Nimble Feet: +30 speed, 30 seconds, 5-minute cooldown), replacing the sprint that was tested on 2026-10-10 | No |
 | All durations and cooldowns (85 skills) | Spot-checked |
 | Buff strength, HP and MP costs, success chances, freezes (48 skills) | Yes, on six skills |
 | Critical hits for every class | Yes, on a warrior. Not checked on a magician. |
@@ -71,6 +72,7 @@ Change table columns:
 - Review damage and MP/HP costs of all skills.
 - **Agreed 2026-10-10: long buffs for every class.** Weapon boosters, Haste and similar self-buffs last 30 minutes at max level (every booster lasts 200 seconds today). Which buffs count as "similar" is settled class by class.
 - **Agreed 2026-10-10: Maple Warrior lasts 30 minutes** for every 4th job (now 15).
+- **Changed 2026-10-11 (Robin): the sprint is replaced by a travel dash.** Nimble Feet gives +10 speed and 10 seconds per level (+30 for 30 seconds at level 3), with a 5-minute cooldown and its original MP cost. It is for covering distance, not for use in every fight. It still adds to Haste and other speed buffs, and the speed cap stays at 160. The sprint numbers below are kept for the record. Not tested in game yet.
 - **Agreed 2026-10-10: sprint and the speed budget (Robin's numbers).**
   - Sprint: the beginner skill Nimble Feet gives +20 speed for 10 seconds, with a 20-second cooldown and no MP cost, at every level (originally +10 to +20 for 4 to 12 seconds, 60-second cooldown, costs MP). Bound to Shift by the player. Every class has it. First tried at +10, which was barely noticeable in play.
   - The speed cap goes from 140 to 160 (Ezorsia's `speedMovementCap` in the client's `config.ini`).

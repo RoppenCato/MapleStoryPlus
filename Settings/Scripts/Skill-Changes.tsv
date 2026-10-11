@@ -2,10 +2,10 @@ skill_id	skill	field	value	why
 # Round 1 tests (2026-10-10). See Settings/Docs/Class-Changes.md.
 4201003	Haste (Bandit)	time	90*L	30 minutes at max, buff rule
 4101004	Haste (Assassin)	time	90*L	30 minutes at max, buff rule
-1002	Nimble Feet	speed	20	Sprint: +20 speed at every level
-1002	Nimble Feet	time	10	Sprint: lasts 10 seconds
-1002	Nimble Feet	cooltime	20	Sprint: 20 second cooldown
-1002	Nimble Feet	mpCon	0	Sprint: no MP cost
+1002	Nimble Feet	speed	10*L	Travel dash: +30 speed at max (10 per level)
+1002	Nimble Feet	time	10*L	Travel dash: 30 seconds at max (10 per level)
+1002	Nimble Feet	cooltime	300	Travel dash: 5 minute cooldown
+1002	Nimble Feet	mpCon	O	Travel dash: the original MP cost
 # Round 1b (2026-10-10): durations and cooldowns. These are sent by the server, so no client edit is needed.
 4201002	Dagger Booster (Bandit)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
 4101003	Claw Booster (Assassin)	time	max(V, 1800*L//M)	30 minutes at max, buff rule
@@ -97,14 +97,14 @@ skill_id	skill	field	value	why
 5220002	Wrath of the Octopi (Corsair)	time	max(V, 120*L//M)	Lasts 2 minutes
 2311002	Mystic Door (Priest)	time	max(V, 600*L//M)	Lasts 10 minutes
 4221006	Smokescreen (Shadower)	cooltime	300	5 minute cooldown (was 10)
-10001002	Nimble Feet (Noblesse)	speed	20	Sprint: +20 speed
-10001002	Nimble Feet (Noblesse)	time	10	Sprint: lasts 10 seconds
-10001002	Nimble Feet (Noblesse)	cooltime	20	Sprint: 20 second cooldown
-10001002	Nimble Feet (Noblesse)	mpCon	0	Sprint: no MP cost
-20001002	Agile Body (Aran)	speed	20	Sprint: +20 speed
-20001002	Agile Body (Aran)	time	10	Sprint: lasts 10 seconds
-20001002	Agile Body (Aran)	cooltime	20	Sprint: 20 second cooldown
-20001002	Agile Body (Aran)	mpCon	0	Sprint: no MP cost
+10001002	Nimble Feet (Noblesse)	speed	10*L	Travel dash: +30 speed at max (10 per level)
+10001002	Nimble Feet (Noblesse)	time	10*L	Travel dash: 30 seconds at max (10 per level)
+10001002	Nimble Feet (Noblesse)	cooltime	300	Travel dash: 5 minute cooldown
+10001002	Nimble Feet (Noblesse)	mpCon	O	Travel dash: the original MP cost
+20001002	Agile Body (Aran)	speed	10*L	Travel dash: +30 speed at max (10 per level)
+20001002	Agile Body (Aran)	time	10*L	Travel dash: 30 seconds at max (10 per level)
+20001002	Agile Body (Aran)	cooltime	300	Travel dash: 5 minute cooldown
+20001002	Agile Body (Aran)	mpCon	O	Travel dash: the original MP cost
 # Round 1c (2026-10-10): other values the server is believed to control (buff strength, HP and MP costs, success chances). To be confirmed in game.
 1001003	Iron Body (Warrior)	pdd	max(V, 80*L//M)	+80 weapon defence at max
 2001003	Magic Armor (Magician)	pdd	max(V, 80*L//M)	+80 weapon defence at max
