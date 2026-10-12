@@ -28,9 +28,9 @@ band	mob_id	boss	where	tokens	gear_level
 3	8180000	Manon	Manon's Forest, Leafre	5	105
 3	8510000	Pianus	The Cave of Pianus, Aqua Road	10	110
 3	9400575	Bigfoot	The twisted paths of Crimsonwood	10	110
-3	9400014	Black Crow	Encounter with the Buddha, Zipangu	10	115
-4	8220003	Leviathan	Leviathan's Canyon, Leafre	15	100
-4	8500002	Papulatus	The Origin of Clocktower, Ludibrium	20	100
-4	8800002	Zakum	Zakum's Altar, El Nath	40	100
-4	8810018	Horntail	Horntail's Cave, Leafre	60	100
-4	8820001	Pink Bean	Twilight of the Gods, Temple of Time	80	100
+3	9400014	Black Crow	Encounter with the Buddha, Zipangu	10	110
+4	8220003	Leviathan	Leviathan's Canyon, Leafre	15	110
+4	8500002	Papulatus	The Origin of Clocktower, Ludibrium	20	120
+4	8800002	Zakum	Zakum's Altar, El Nath	40	120
+4	8810018	Horntail	Horntail's Cave, Leafre	60	120
+4	8820001	Pink Bean	Twilight of the Gods, Temple of Time	80	120

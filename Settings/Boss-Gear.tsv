@@ -1480,3 +1480,118 @@ item_id	item	req_level	classes	kind
 1492012	Concerto	100	pirate	weapon
 1052076	Blue Czar	108	magician	armour
 1092042	Gellerhead Shield	120	warrior	armour
+1372032	Dragon Wand	108	magician	weapon
+1002547	Red Hunter	110	bowman	armour
+1002550	Black Garina Hood	110	thief	armour
+1002551	Blue Dragon Helmet	110	warrior	armour
+1002649	Canopus Hat	110	pirate	armour
+1002773	Gold Dragon Crown	110	magician	armour
+1052071	Red Mantle	110	bowman	armour
+1052072	Black Garina	110	thief	armour
+1052075	Blue Dragon Armor	110	warrior	armour
+1052134	Canopus Suit	110	pirate	armour
+1072268	Blue Elemental Shoes	110	magician	armour
+1072269	Red Hunter Shoes	110	bowman	armour
+1072272	Black Garina Shoes	110	thief	armour
+1072273	Blue Dragon Boots	110	warrior	armour
+1072321	Canopus Boots	110	pirate	armour
+1082163	Red Hunter Gloves	110	bowman	armour
+1082164	Blue Elemental Gloves	110	magician	armour
+1082167	Black Garina Gloves	110	thief	armour
+1082168	Blue Dragon Gauntlet	110	warrior	armour
+1082216	Canopus Glove	110	pirate	armour
+1092060	Blue Dragon Shield	110	warrior	armour
+1302059	Dragon Carabella	110	warrior	weapon
+1312031	Dragon Axe	110	warrior	weapon
+1322052	Dragon Mace	110	warrior	weapon
+1332049	Dragon Kanzir	110	warrior/thief	weapon
+1332050	Dragon Kreda	110	thief	weapon
+1382036	Dragon Staff	110	magician	weapon
+1402036	Dragon Claymore	110	warrior	weapon
+1412026	Dragon Battle Axe	110	warrior	weapon
+1422028	Dragon Flame	110	warrior	weapon
+1432038	Dragon Faltizan	110	warrior	weapon
+1442045	Dragon Chelbird	110	warrior	weapon
+1452044	Dragon Shiner Bow	110	bowman	weapon
+1462039	Dragon Shiner Cross	110	bowman	weapon
+1472051	Dragon Green Sleve	110	thief	weapon
+1472052	Dragon Purple Sleve	110	thief	weapon
+1482013	Dragon Slash Claw	110	pirate	weapon
+1492013	Dragonfire Revolver	110	pirate	weapon
+1052156	Timeless Myst Blue	118	magician	armour
+1052161	Reverse Myst Blue	118	magician	armour
+1372044	Timeless Enreal Tear	118	magician	weapon
+1372045	Reverse Enreal Tear	118	magician	weapon
+1002776	Timeless Fennel	120	warrior	armour
+1002777	Timeless Coral	120	magician	armour
+1002778	Timeless Rapido	120	bowman	armour
+1002779	Timeless Chive	120	thief	armour
+1002780	Timeless Conrad Henkel	120	pirate	armour
+1002790	Reverse Fennel	120	warrior	armour
+1002791	Reverse Coral	120	magician	armour
+1002792	Reverse Rapido	120	bowman	armour
+1002793	Reverse Chive	120	thief	armour
+1002794	Reverse Conrad Henkel	120	pirate	armour
+1052155	Timeless Taragon	120	warrior	armour
+1052157	Timeless Evernew	120	bowman	armour
+1052158	Timeless Prinsid	120	thief	armour
+1052159	Timeless Burgunt	120	pirate	armour
+1052160	Reverse Taragon	120	warrior	armour
+1052162	Reverse Evernew	120	bowman	armour
+1052163	Reverse Prinsid	120	thief	armour
+1052164	Reverse Burgunt	120	pirate	armour
+1072355	Timeless Grabbe	120	warrior	armour
+1072356	Timeless Cabatina	120	magician	armour
+1072357	Timeless Rontano	120	bowman	armour
+1072358	Timeless Moonsteed	120	thief	armour
+1072359	Timeless Faraon	120	pirate	armour
+1072361	Reverse Grabbe	120	warrior	armour
+1072362	Reverse Cabatina	120	magician	armour
+1072363	Reverse Rontano	120	bowman	armour
+1072364	Reverse Moonsteed	120	thief	armour
+1072365	Reverse Faraon	120	pirate	armour
+1082234	Timeless Bergamot	120	warrior	armour
+1082235	Timeless Hermosa	120	magician	armour
+1082236	Timeless Presto	120	bowman	armour
+1082237	Timeless Lubav	120	thief	armour
+1082238	Timeless Charlston	120	pirate	armour
+1082239	Reverse Bergamot	120	warrior	armour
+1082240	Reverse Hermosa	120	magician	armour
+1082241	Reverse Presto	120	bowman	armour
+1082242	Reverse Lubav	120	thief	armour
+1082243	Reverse Charlston	120	pirate	armour
+1092057	Timeless Prelude	120	magician	armour
+1092058	Timeless Kite Shield	120	warrior	armour
+1092059	Timeless List	120	thief	armour
+1302081	Timeless Executioners	120	warrior	weapon
+1302086	Reverse Executioners	120	warrior	weapon
+1312037	Timeless Bardiche	120	warrior	weapon
+1312038	Reverse Bardiche	120	warrior	weapon
+1322060	Timeless Allargando	120	warrior	weapon
+1322061	Reverse Allargando	120	warrior	weapon
+1332073	Timeless Pescas	120	warrior/thief	weapon
+1332074	Timeless Killic	120	thief	weapon
+1332075	Reverse Pescas	120	warrior/thief	weapon
+1332076	Reverse Killic	120	thief	weapon
+1382057	Timeless Aeas Hand	120	magician	weapon
+1382059	Reverse Aeas Hand	120	magician	weapon
+1402046	Timeless Nibleheim	120	warrior	weapon
+1402047	Reverse Nibleheim	120	warrior	weapon
+1412033	Timeless Tabarzin	120	warrior	weapon
+1412034	Reverse Tabarzin	120	warrior	weapon
+1422037	Timeless Bellocce	120	warrior	weapon
+1422038	Reverse Bellocce	120	warrior	weapon
+1432047	Timeless Alchupiz	120	warrior	weapon
+1432049	Reverse Alchupiz	120	warrior	weapon
+1442063	Timeless Diesra	120	warrior	weapon
+1442067	Reverse Diesra	120	warrior	weapon
+1452057	Timeless Engaw	120	bowman	weapon
+1452059	Reverse Engaw	120	bowman	weapon
+1462050	Timeless Black Beauty	120	bowman	weapon
+1462051	Reverse Black Beauty	120	bowman	weapon
+1472068	Timeless Lampion	120	thief	weapon
+1472071	Reverse Lampion	120	thief	weapon
+1482023	Timeless Equinox	120	pirate	weapon
+1482024	Reverse Equinox	120	pirate	weapon
+1492023	Timeless Blindness	120	pirate	weapon
+1492025	Reverse Blindness	120	pirate	weapon

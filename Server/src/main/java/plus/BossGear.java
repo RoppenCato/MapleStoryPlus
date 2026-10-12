@@ -25,13 +25,19 @@ import java.util.concurrent.ThreadLocalRandom;
  * the same item from an ordinary monster: no stat rolls below the item's standard value.
  * <p>
  * The level is the boss's "gear level" in {@code Trials.tsv}: its own level, but never above what the
- * job it leads to needs, and level 100 for the bosses beyond 4th job, since nothing higher exists.
+ * job it leads to needs.
+ * <p>
+ * Two tiers are boss loot only: level 110 (the Dragon weapons and the class sets of that level) from
+ * Pianus, Bigfoot, Black Crow and Leviathan, and level 120 (Reverse and Timeless) from Papulatus, Zakum,
+ * Horntail and Pink Bean. For those the roll is two pieces for any class, with none aimed at the killer:
+ * the gear is meant to be rare, and the roll is the fun of it.
  */
 public class BossGear {
     private static final Logger log = LoggerFactory.getLogger(BossGear.class);
     private static final String[] CLASSES = {"warrior", "magician", "bowman", "thief", "pirate"};
     private static final int WINDOW = 5;            // gear needing a level within this of the boss's gear level
     private static final int WEAPON_ONE_IN = 4;     // one piece in four is a weapon, the rest armour
+    private static final int RARE_TIER = 105;       // from this gear level up: two pieces for any class, none aimed
 
     private record Gear(int itemId, int level, String jobs, boolean weapon) {}
 
@@ -165,7 +171,7 @@ public class BossGear {
             if (cls == null) {
                 cls = CLASSES[ThreadLocalRandom.current().nextInt(CLASSES.length)];
             }
-            Gear own = pick(cls, weaponsOf(job), level);
+            Gear own = level >= RARE_TIER ? pick(null, new int[0], level) : pick(cls, weaponsOf(job), level);
             Gear any = pick(null, new int[0], level);
             if (own != null) {
                 drops.add(better(own.itemId()));

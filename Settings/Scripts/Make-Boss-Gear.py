@@ -5,8 +5,14 @@
 
 Run it after Rebalance-Drops.py, because the list is taken from the drop table: every weapon and piece
 of armour that an ordinary monster drops. So whatever counts as ordinary gear for monsters is what
-bosses roll on, and event items stay out. The server reads the file when the first boss dies after a
-start; which level a boss rolls on is the gear_level column of Settings/Trials.tsv.
+bosses roll on, and event items stay out.
+
+Two tiers above that are boss loot only and are added here by name and level:
+  level 110   the Dragon weapons and the class sets of that level (Blue Dragon, Garina, Canopus, Red Hunter ...)
+  level 120   the Reverse and Timeless weapons and armour
+
+The server reads the file when the first boss dies after a start; which level a boss rolls on is the
+gear_level column of Settings/Trials.tsv.
 """
 import io
 import os
@@ -40,6 +46,19 @@ def main():
             continue
         classes = "warrior/magician/bowman/thief/pirate" if e["job"] == "all" else e["job"]
         lines.append(f"{item}\t{e['name']}\t{e['req_level']}\t{classes}\t{'weapon' if e['type'] == 'Weapon' else 'armour'}")
+    listed = {line.split("\t")[0] for line in lines[1:]}
+    tiers = 0
+    for item, e in sorted(equips.items(), key=lambda kv: (int(kv[1]["req_level"]), int(kv[0]))):
+        level = int(e["req_level"])
+        dragon = 108 <= level <= 110
+        timeless = 118 <= level <= 120 and (e["name"].startswith("Reverse ") or e["name"].startswith("Timeless "))
+        if item in listed or not (dragon or timeless) or (e["type"] != "Weapon" and e["type"] not in ARMOUR) or e["type"] == "Accessory":
+            continue
+        if not e["name"].strip() or e["name"].startswith("MISSING") or e["job"] == "all":
+            continue
+        lines.append(f"{item}\t{e['name']}\t{e['req_level']}\t{e['job']}\t{'weapon' if e['type'] == 'Weapon' else 'armour'}")
+        tiers += 1
+    print(f"{tiers} of them are the level 110 and level 120 boss tiers")
     with io.open(os.path.join(ROOT, "Settings", "Boss-Gear.tsv"), "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines) + "\n")
     print(f"{len(lines) - 1} items written to Settings/Boss-Gear.tsv")

@@ -316,6 +316,7 @@ Explorers advance by level and by beating bosses, through the Guide that the Tra
 | Change how long a boss fight takes | `SECONDS`, `SECONDS_HARDEST`, `SECONDS_BAND_1` in `Settings/Scripts/Tune-Bosses.py`, then run it (`--check` first) and restart. It asks the damage simulator what a player does per second at the boss's level. Run it again after changing skills. |
 | Change how many tokens a boss gives | The `tokens` column of `Settings/Trials.tsv`. Band 4 rows give tokens only. |
 | Change the level of gear a boss drops | The `gear_level` column of `Settings/Trials.tsv`. Every boss in that file drops two pieces on every kill: one for the killer's class, one for any class. |
+| Change which bosses drop the level 110 and 120 tiers | Set `gear_level` to 110 or 120 in `Settings/Trials.tsv`. From 105 up (`RARE_TIER` in `BossGear.java`) a boss drops two pieces for any class instead of one for the killer's class and one for any. Which items the tiers hold is decided by name and level in `Make-Boss-Gear.py`. |
 | Change what boss gear can be | `python Settings/Scripts/Make-Boss-Gear.py` rewrites `Settings/Boss-Gear.tsv` from the drop table (run it after `Rebalance-Drops.py` and `Build-Reference.py`). How a piece is picked and how its stats are rolled is `Server/src/main/java/plus/BossGear.java`. |
 | Change what 4th job skills cost | `SKILL_STEP_COST` and `FIRST_KILL_TIMES` in `plus/Trials.java`. |
 | Give a test character tokens | `INSERT INTO plus_tokens VALUES (<character id>, 500) ON DUPLICATE KEY UPDATE tokens = 500` |

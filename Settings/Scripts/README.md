@@ -55,7 +55,7 @@ Estimates how much equipment a player picks up while levelling and how much of i
 
 ## Make-Boss-Gear.py
 
-Writes `Settings/Boss-Gear.tsv`, the gear the trial bosses roll their two guaranteed pieces from: every weapon and piece of armour an ordinary monster drops. Run it after `Rebalance-Drops.py` and `Build-Reference.py`; restart the server afterwards.
+Writes `Settings/Boss-Gear.tsv`, the gear the trial bosses roll their two guaranteed pieces from: every weapon and piece of armour an ordinary monster drops, plus the two boss-only tiers (level 110 Dragon weapons and class sets, level 120 Reverse and Timeless). Run it after `Rebalance-Drops.py` and `Build-Reference.py`; restart the server afterwards.
 
 ## Tune-Bosses.py
 

@@ -47,6 +47,7 @@ Most important: this replaces how every explorer advances.
 - [ ] At level 30 and up, gear drops clearly more rarely than before (about 1 kill in 100 to 400) and feels like an event, not a flood.
 - [ ] A popular hunting spot (Wild Boars, Jr. Wraiths, Wolf Spiders ...) drops gear of about your own level.
 - [ ] **Boss gear:** a boss on the trials list (Mano, Stumpy ...) drops two pieces of gear every time, of about its own level: one your class can wear, with the kind of weapon your job uses, and one for any class. Compare a piece with the same item in a shop or from a monster: no stat is lower.
+- [ ] **Level 110 and 120 gear:** Pianus, Bigfoot, Black Crow or Leviathan drops two pieces of level 110 gear (Dragon weapons, Blue Dragon / Garina / Canopus / Red Hunter sets); Papulatus, Zakum, Horntail or Pink Bean drops two Reverse or Timeless pieces. For any class, not aimed at yours. Check the items look and equip right: the Reverse and Timeless ones come from a later version of the game.
 - [ ] **A boss that is not on the list always drops at least one item.**
 - [ ] The drop site (`docs/drops.html`) matches what a monster drops in the game: pick one monster and compare.
 - [ ] **NX cards:** on a low character an NX card drops about every other kill; around level 50 about 1 kill in 40. Picking it up adds NX (check in the Cash Shop). A level gives roughly 5,000 NX. A boss always drops one.
