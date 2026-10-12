@@ -9,6 +9,7 @@ gm_level	command	description
 0	@equiplv	Show levels of all equipped items.
 0	@gacha	Show gachapon rewards.
 0	@gm	Send a message to the game masters.
+0	@goals	Show what you need for your next job advancement.
 0	@help @commands	Show available commands.
 0	@int	Assign AP into INT.
 0	@joinevent	Join active event.

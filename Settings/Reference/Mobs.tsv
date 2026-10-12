@@ -40,7 +40,7 @@ id	name	level	hp	exp	boss
 2110301	Scorpion	29	780	58	
 2130100	Dark Axe Stump	22	550	38	
 2130103	Jr. Necki	21	285	38	
-2220000	Mano 	20	2000	120	boss
+2220000	Mano 	20	18400	120	boss
 2220100	Blue Mushroom	20	350	32	
 2230100	Evil Eye	27	720	50	
 2230101	Zombie Mushroom	24	500	42	
@@ -85,8 +85,8 @@ id	name	level	hp	exp	boss
 3210208	Retz	36	1400	78	
 3210450	Scuba Pepe	36	1430	80	
 3210800	Lupin	37	1500	77	
-3220000	Stumpy	35	7000	405	boss
-3220001	Deo	38	7700	445	boss
+3220000	Stumpy	35	91800	405	boss
+3220001	Deo	38	104000	445	boss
 3230100	Curse Eye	35	1250	70	
 3230101	Jr. Wraith	35	1200	70	
 3230102	Lorang	37	1950	80	
@@ -129,10 +129,10 @@ id	name	level	hp	exp	boss
 4130100	Copper Drake	45	2700	105	
 4130101	Tortie	46	2550	110	
 4130102	Dark Nependeath	47	2700	115	
-4130103	Rombot	47	11000	720	boss
+4130103	Rombot	47	135000	720	boss
 4130104	Dark Nependeath	47	2700	115	
 4220000	Seruf	45	7800	330	boss
-4220001	Seruf	45	2550	0	boss
+4220001	Seruf	45	129000	0	boss
 4230100	Cold Eye	40	2000	85	
 4230101	Zombie Lupin	40	1800	90	
 4230102	Wraith	48	2800	120	
@@ -193,7 +193,7 @@ id	name	level	hp	exp	boss
 4300015	Cheap Amplifier	48	2800	180	
 4300016	Fancy Amplifier 	49	3000	190	
 4300017	Spirit of Rock's Soul	40	1		boss
-5090000	Shade	56	30000	5600	boss
+5090000	Shade	56	195000	5600	boss
 5090001	Master Dummy	128	15375000	114200	boss
 5100000	Jr. Yeti	50	3700	135	
 5100001	Transforming Jr. Yeti	50	3700	0	
@@ -232,10 +232,10 @@ id	name	level	hp	exp	boss
 5200001	Ice Sentinel	30	900	55	
 5200002	Fire Sentinel	30	900	55	
 5220000	King Clang	55	25000	1210	boss
-5220001	King Clang	55	4000	0	boss
-5220002	Faust	50	9800	410	boss
-5220003	Timer	59	21000	650	boss
-5220004	Giant Centipede	50	15000	425	boss
+5220001	King Clang	55	191000	0	boss
+5220002	Faust	50	169000	410	boss
+5220003	Timer	59	206000	650	boss
+5220004	Giant Centipede	50	169000	425	boss
 5250000	Mossy Mushroom	55	4400	175	
 5250001	Stone Bug	51	3600	142	
 5250002	Primitive Boar	57	4500	200	
@@ -243,7 +243,7 @@ id	name	level	hp	exp	boss
 5300001	Dark Leatty	33	1100	65	
 5300100	Malady	55	4000	175	
 5400000	Jr. Pepe	35	1400	75	
-6090000	Riche	74	11000	25000	boss
+6090000	Riche	74	515000	25000	boss
 6090001	Snow Witch	64	7700	10320	boss
 6090002	Bamboo Warrior	68	86890	17000	boss
 6090003	Scholar Ghost	62	6000	3984	boss
@@ -251,7 +251,7 @@ id	name	level	hp	exp	boss
 6110300	Homun	65	11000	255	
 6110301	Saitie	68	13000	265	
 6130100	Red Drake	60	6000	220	
-6130101	Mushmom	60	20000	1200	boss
+6130101	Mushmom	60	227000	1200	boss
 6130102	Separated Pepe	60	7200	420	
 6130103	Pepe	60	7200	220	
 6130104	Boogie	35	14800	400	
@@ -263,8 +263,8 @@ id	name	level	hp	exp	boss
 6130207	Peach Monkey	62	7500	240	
 6130208	Kru	68	12500	265	
 6130209	Sage Cat	66	9000	255	
-6220000	Dyle	65	31000	810	boss
-6220001	Zeno	65	36000	940	boss
+6220000	Dyle	65	741000	810	boss
+6220001	Zeno	65	741000	940	boss
 6230100	Wild Kargo	62	5500	240	
 6230101	Puco	63	20000	190	
 6230200	Dark Pepe	64	7800	250	
@@ -281,7 +281,7 @@ id	name	level	hp	exp	boss
 6300002	Separated Yeti	65	11000	455	
 6300003	Punco	67	40000	210	
 6300004	Pachu	66	38000	200	boss
-6300005	Zombie Mushmom	65	35000	1500	boss
+6300005	Zombie Mushmom	65	741000	1500	boss
 6300100	Buffoon	74	16000	340	
 6400000	Dark Yeti	68	13000	265	
 6400001	Transformed Dark Yeti	68	13000	445	
@@ -331,9 +331,9 @@ id	name	level	hp	exp	boss
 7130602	Thorny Vine	76	8000	0	boss
 7140000	Ghost Pirate	83	30000	1100	
 7160000	Dual Ghost Pirate	87	35000	1500	
-7220000	Tae Roon	71	93000	1580	boss
-7220001	Nine-Tailed Fox	70	89000	1300	boss
-7220002	King Sage Cat	77	108000	2280	boss
+7220000	Tae Roon	71	492000	1580	boss
+7220001	Nine-Tailed Fox	70	485000	1300	boss
+7220002	King Sage Cat	77	538000	2280	boss
 7220003	Bergamot	77	40000	0	boss
 7220004	Bergamot	77	65000	0	boss
 7220005	Bergamot	77	40000	3000	boss
@@ -347,7 +347,7 @@ id	name	level	hp	exp	boss
 8120105	Maverick Type S	88	37000	1920	
 8120106	Maverick Type D	89	40000	2064	
 8120107	Maverick Type D	89	25000	2064	
-8130100	Jr. Balrog	80	50000	2000	boss
+8130100	Jr. Balrog	80	605000	2000	boss
 8140000	Lycanthrope	80	27000	850	
 8140001	Harp	80	27000	850	
 8140002	Blood Harp	83	30000	1100	
@@ -385,8 +385,8 @@ id	name	level	hp	exp	boss
 8150302	Dark Wyvern	103	60000	3150	
 8160000	Gatekeeper	108	78000	4300	
 8170000	Thanatos	108	70000	4100	
-8180000	Manon	105	3700000	13500	boss
-8180001	Griffey	105	3700000	13500	boss
+8180000	Manon	105	884000	13500	boss
+8180001	Griffey	105	884000	13500	boss
 8190000	Jr. Newtie	105	68000	3800	
 8190001	Jr. Newtie	105	68000	0	
 8190002	Nest Golem	110	80000	8050	
@@ -406,9 +406,9 @@ id	name	level	hp	exp	boss
 8200010	Oblivion Monk Trainee	124	123000	6150	
 8200011	Oblivion Guardian	128	133000	6670	
 8200012	Chief Oblivion Guardian	131	141000	7060	
-8220000	Eliza	83	87000	2800	boss
-8220001	Snowman	90	120000	5200	boss
-8220002	Chimera	85	96000	3000	boss
+8220000	Eliza	83	630000	2800	boss
+8220001	Snowman	90	705000	5200	boss
+8220002	Chimera	85	644000	3000	boss
 8220003	Leviathan	120	13400000	47355	boss
 8220004	Dodo	121	5900000	20850	boss
 8220005	Lilynouch	131	7600000	26850	boss
@@ -427,7 +427,7 @@ id	name	level	hp	exp	boss
 8500002	Papulatus	125	1590000	970000	boss
 8500003	High Darkstar	71	10000	0	boss
 8500004	Low Darkstar	80	10000	0	boss
-8510000	Pianus	110	30000000	1300000	boss
+8510000	Pianus	110	2897000	1300000	boss
 8510100	Bloody Boom	75	10000	0	boss
 8520000	Pianus	110	24000000	900000	boss
 8800000	Zakum1	140	66000000	0	boss
@@ -575,7 +575,7 @@ id	name	level	hp	exp	boss
 9300000	Jr. Necki (PC)	21	320	240	
 9300001	Ligator (PC)	32	1000	120	
 9300002	Curse Eye (PC)	35	2000	280	
-9300003	King Slime	40	8000	800	boss
+9300003	King Slime	40	28600	800	boss
 9300004	Mimic	54	4100	165	
 9300005	Ratz from Another Dimension	32	3700	260	
 9300006	Black Ratz from Another Dimension	34	4300	280	
@@ -996,7 +996,7 @@ id	name	level	hp	exp	boss
 9400011	Paper Lantern Ghost	40	1920	93	
 9400012	Water Goblin	60	7100	220	
 9400013	Dreamy Ghost	100	68000	3200	
-9400014	Black Crow	115	35000000	1780000	boss
+9400014	Black Crow	115	3042000	1780000	boss
 9400100	Extra A	45	2800	130	
 9400101	Extra B	47	2800	139	
 9400102	Extra C	50	3100	148	
@@ -1006,7 +1006,7 @@ id	name	level	hp	exp	boss
 9400112	Bodyguard A	152	400000000	13800000	boss
 9400113	Bodyguard B	155	500000000	10500000	boss
 9400114	Slot Machine	50	50000	1500	
-9400120	Male Boss	95	85000	5500	boss
+9400120	Male Boss	95	748000	5500	boss
 9400121	Female Boss	130	75000000	3900000	boss
 9400122	Male Boss	95	85000	5500	boss
 9400200	Malady	55	4200	1	
@@ -1113,7 +1113,7 @@ id	name	level	hp	exp	boss
 9400546	I.AM.ROBOT	44	2490	120	
 9400547	Boomer	27	700	55	
 9400548	Mighty Maple Eater	30	950	65	
-9400549	Headless Horseman	101	3500000	300000	boss
+9400549	Headless Horseman	101	847000	300000	boss
 9400550	Boomer	27	700	55	
 9400551	Bob	2	777	7	
 9400552	Zoo Snail	2	777	7	
@@ -1139,7 +1139,7 @@ id	name	level	hp	exp	boss
 9400572	Geist Balrog	60	7000	230	boss
 9400573	Baby typhon	40	100	10	
 9400574	Typhon	100	56000	3200	
-9400575	Bigfoot	110	32000000	2660000	boss
+9400575	Bigfoot	110	2897000	2660000	boss
 9400576	Windraider	70	16000	800	
 9400577	Firebrand	90	21000	910	
 9400578	Firebrand	90	45000	2350	

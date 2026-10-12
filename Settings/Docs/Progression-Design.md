@@ -34,7 +34,11 @@ Robin's answers to the questionnaire, and what was built from them. Not tested i
 
 Built: the Guide, the kill record, advancement, `@goals`, King Slime in the swamp, the 4th job basics.
 
-Not built yet: the tokens and the 4th job skill shop; boss tuning for one player (several band 3 bosses have tens of millions of HP); a first-kill reward.
+Also built the same day: boss HP for one player (`Tune-Bosses.py`), boss tokens and the 4th job skill shop in the Guide (a first kill pays five times), and 4th job characters in the character tool and the damage simulator.
+
+Not built yet: making the expedition bosses (Zakum, Horntail, Pink Bean) possible alone; Cygnus Knights and Aran.
+
+Open questions for Robin are in [To-Test.md](To-Test.md).
 
 Where it lives: `Settings/Trials.tsv` (the bosses per band), `Server/src/main/java/plus/Trials.java` (the rules and every text), `Server/scripts/npc/plusGuide.js` (the window), table `plus_trials` (who has beaten what).
 

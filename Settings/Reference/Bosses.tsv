@@ -8,45 +8,45 @@ Zoo Pig	area boss	7	10000	10	Zoo	Aquarium	normal respawn	9500203	230000003
 Zoo Ribbon Pig	area boss	10	10000	10	Zoo	Aquarium	normal respawn	9500204	230000003
 NooNoo	instanced, summoned or quest boss	15	500000	1500				9420015	
 Cross (Easy)	instanced, summoned or quest boss	20	2500	300				9400319	
-Mano	area boss	20	2000	120	Thicket Around the Beach III	Victoria Road	checked every 3 hours	2220000	104000400
-Amdusias	area boss	25	2500	60	Amdusias Hiding Place	Mini Dungeon	checked every 3 hours	9400610	677000003
-Andras	area boss	25	2500	60	Andras Hiding Place	Mini Dungeon	checked every 3 hours	9400609	677000005
-Crocell	area boss	25	2500	60	Crocell Hiding Place	Mini Dungeon	checked every 3 hours	9400611	677000007
-Marbas	area boss	25	2500	60	Marbas Hiding Place	Mini Dungeon	checked every 3 hours	9400612	677000001
-Valefor	area boss	25	2500	60	Valefor Hiding Place	Mini Dungeon	checked every 3 hours	9400613	677000009
-Astaroth	area boss	32	180000	5250	Astaroth Hiding Place	Mini Dungeon	checked every 3 hours	9400633	677000012
+Mano	area boss	20	18400	120	Thicket Around the Beach III	Victoria Road	kept alive by a script	2220000	104000400
+Amdusias	area boss	25	2500	60	Amdusias Hiding Place	Mini Dungeon	kept alive by a script	9400610	677000003
+Andras	area boss	25	2500	60	Andras Hiding Place	Mini Dungeon	kept alive by a script	9400609	677000005
+Crocell	area boss	25	2500	60	Crocell Hiding Place	Mini Dungeon	kept alive by a script	9400611	677000007
+Marbas	area boss	25	2500	60	Marbas Hiding Place	Mini Dungeon	kept alive by a script	9400612	677000001
+Valefor	area boss	25	2500	60	Valefor Hiding Place	Mini Dungeon	kept alive by a script	9400613	677000009
+Astaroth	area boss	32	180000	5250	Astaroth Hiding Place	Mini Dungeon	kept alive by a script	9400633	677000012
 Cursed Black Cat	instanced, summoned or quest boss	35	14000000	5000				9400637	
 Cursed Frog	instanced, summoned or quest boss	35	14000000	5000				9400635	
 Gold Yeti and King Pepe	instanced, summoned or quest boss	35	120000	210				3300006	
 Grey Yeti and King Pepe	instanced, summoned or quest boss	35	120000	210				3300005	
-Stumpy	area boss	35	7000	405	East Rocky Mountain V	Victoria Road	checked every 3 hours	3220000	101030404
+Stumpy	area boss	35	91800	405	East Rocky Mountain V	Victoria Road	kept alive by a script	3220000	101030404
 White Yeti and King Pepe	instanced, summoned or quest boss	35	120000	210				3300007	
-Deo	area boss	38	7700	445	Royal Catthus Desert	Hidden Street	checked every 3 hours	3220001	260010201
+Deo	area boss	38	104000	445	Royal Catthus Desert	Hidden Street	kept alive by a script	3220001	260010201
 Prime Minister	instanced, summoned or quest boss	38	12500	800				3300008	
-King Slime	area boss	40	8000	800	1st Accompaniment <Last Stage>	Hidden Street	normal respawn	9300003	103000804
+King Slime	area boss	40	28600	800	1st Accompaniment <Last Stage>	Hidden Street	normal respawn	9300003	103000804
 Spirit of Rock's Soul	instanced, summoned or quest boss	40	1					4300017	
 Cross (Medium)	instanced, summoned or quest boss	45	7500	1000				9400320	
-Seruf	area boss	45	2550	0	The Seaweed Tower	Aqua Road	checked every 3 hours	4220001	230020100
-Rombot	area boss	47	11000	720	Hidden Tower	Hidden Street	30 minutes	4130103	221020701
+Seruf	area boss	45	129000	0	The Seaweed Tower	Aqua Road	kept alive by a script	4220001	230020100
+Rombot	area boss	47	135000	720	Hidden Tower	Hidden Street	30 minutes	4130103	221020701
 Baby Balrog	instanced, summoned or quest boss	48	2800	10				6400007	
 Spirit of Rock	area boss	49	250000	1700	7th Floor 8th Floor Area D	Kerning Square 	normal respawn	4300013	103040430
 Spirit of Rock	area boss	49	250000	1700	VIP Zone Area C	Kerning Square 	normal respawn	4300013	103040460
-Faust	area boss	50	9800	410	The Forest of Evil I	Hidden Street	checked every 3 hours	5220002	100040105
-Faust	area boss	50	9800	410	The Forest of Evil II	Hidden Street	checked every 3 hours	5220002	100040106
-Giant Centipede	area boss	50	15000	425	80-Year-Old Herb Garden	Herb Town	checked every 3 hours	5220004	251010102
+Faust	area boss	50	169000	410	The Forest of Evil I	Hidden Street	kept alive by a script	5220002	100040105
+Faust	area boss	50	169000	410	The Forest of Evil II	Hidden Street	kept alive by a script	5220002	100040106
+Giant Centipede	area boss	50	169000	425	80-Year-Old Herb Garden	Herb Town	kept alive by a script	5220004	251010102
 MT-09	area boss	54	13500	980	Defeat Monsters	Hidden Street	33 minutes	5120100	221030601
-King Clang	area boss	55	4000	0	Hot Sand	Florina Road	checked every 3 hours	5220001	110040000
-Shade	area boss	56	30000	5600	Line 1 <Area 4>	Kerning City Subway	60 minutes	5090000	103000105
-Shade	area boss	56	30000	5600	Line 2 <Area 3>	Kerning City Subway	60 minutes	5090000	103000202
+King Clang	area boss	55	191000	0	Hot Sand	Florina Road	kept alive by a script	5220001	110040000
+Shade	area boss	56	195000	5600	Line 1 <Area 4>	Kerning City Subway	60 minutes	5090000	103000105
+Shade	area boss	56	195000	5600	Line 2 <Area 3>	Kerning City Subway	60 minutes	5090000	103000202
 Zoo White Fang	area boss	58	10000	10	Zoo	Aquarium	normal respawn	9500202	230000003
-Timer	area boss	59	21000	650	Whirlpool of Time	Ludibrium	checked every 3 hours	5220003	220050100
-Timer	area boss	59	21000	650	Lost Time <1>	Ludibrium	checked every 3 hours	5220003	220050000
-Timer	area boss	59	21000	650	Lost Time <2>	Ludibrium	checked every 3 hours	5220003	220050200
+Timer	area boss	59	206000	650	Whirlpool of Time	Ludibrium	kept alive by a script	5220003	220050100
+Timer	area boss	59	206000	650	Lost Time <1>	Ludibrium	kept alive by a script	5220003	220050000
+Timer	area boss	59	206000	650	Lost Time <2>	Ludibrium	kept alive by a script	5220003	220050200
 Big Puff Daddy	instanced, summoned or quest boss	60	50000000	5200				9400569	
 Event Horntail's Left Head	instanced, summoned or quest boss	60	1000000	10000				9400630	
 Event Horntail's Right Head	instanced, summoned or quest boss	60	1000000	10000				9400631	
 Geist Balrog	instanced, summoned or quest boss	60	7000	230				9400572	
-Mushmom	area boss	60	20000	1200	Someone Else's House	Hidden Street	30 minutes	6130101	100000005
+Mushmom	area boss	60	227000	1200	Someone Else's House	Hidden Street	30 minutes	6130101	100000005
 Scholar Ghost	area boss	62	6000	3984	Fox Ridge	Korean Folk Town	60 minutes	6090003	222010300
 Rurumo	area boss	63	7600000	245	Lab - Area B-1	Alcadno Research Institute	40 minutes	6090004	261020200
 Rurumo	area boss	63	7600000	245	Lab - Area C-2	Alcadno Research Institute	40 minutes	6090004	261020400
@@ -54,41 +54,41 @@ Rurumo	area boss	63	7600000	245	Lab - Area B-3	Alcadno Research Institute	40 min
 Snow Witch	area boss	64	7700	10320	Watch Out for Icy Path I	El Nath	60 minutes	6090001	211010000
 Snow Witch	area boss	64	7700	10320	Watch Out for Icy Path II	El Nath	60 minutes	6090001	211020000
 Snow Witch	area boss	64	7700	10320	Icy Cold Field	El Nath	60 minutes	6090001	211050000
-Dyle	area boss	65	31000	810	Dangerous Croko I	Warning Street	checked every 3 hours	6220000	107000300
-Zeno	area boss	65	36000	940	Gray's Prairie	Hidden Street	checked every 3 hours	6220001	221040301
-Zombie Mushmom	area boss	65	35000	1500	The Grave of Mushmom	Dungeon	30 minutes	6300005	105070002
+Dyle	area boss	65	741000	810	Dangerous Croko I	Warning Street	kept alive by a script	6220000	107000300
+Zeno	area boss	65	741000	940	Gray's Prairie	Hidden Street	kept alive by a script	6220001	221040301
+Zombie Mushmom	area boss	65	741000	1500	The Grave of Mushmom	Dungeon	30 minutes	6300005	105070002
 Zoo Yeti	area boss	65	11000	10	Zoo	Aquarium	normal respawn	9500201	230000003
 Pachu	instanced, summoned or quest boss	66	38000	200				6300004	
-Bamboo Warrior	area boss	68	86890	17000	Vanished Village	Zipangu	checked every 3 hours	6090002	800020120
+Bamboo Warrior	area boss	68	86890	17000	Vanished Village	Zipangu	kept alive by a script	6090002	800020120
 Blue King Goblin	instanced, summoned or quest boss	70	25000	400				7130401	
 Cross (Hard)	instanced, summoned or quest boss	70	89000	1500				9400321	
 Event Pink Bean	instanced, summoned or quest boss	70	150000000	30000				9400654	
 Gatekeeper Nex	area boss	70	90000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	7120100	240070010
 Giant Cake	area boss	70	13000	280	Sweet Cake Hill 3	Mini Dungeon	normal respawn	9400606	683000120
 Green King Goblin	instanced, summoned or quest boss	70	25000	400				7130402	
-Nine-Tailed Fox	area boss	70	89000	1300	Moon Ridge	Hidden Street	checked every 3 hours	7220001	222010310
+Nine-Tailed Fox	area boss	70	485000	1300	Moon Ridge	Hidden Street	kept alive by a script	7220001	222010310
 Olivia	instanced, summoned or quest boss	70	810000	11200				9400643	
 Opachu	instanced, summoned or quest boss	70	80000	250				6400004	
 Yellow King Goblin	instanced, summoned or quest boss	70	25000	400				7130400	
 High Darkstar	instanced, summoned or quest boss	71	10000	0				8500003	
-Tae Roon	area boss	71	93000	1580	Territory of Wandering Bear	Mu Lung	checked every 3 hours	7220000	250010304
+Tae Roon	area boss	71	492000	1580	Territory of Wandering Bear	Mu Lung	kept alive by a script	7220000	250010304
 Gatekeeper Nex	area boss	73	102000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	7120101	240070020
-Riche	area boss	74	11000	25000	Forest of Dead Trees I	El Nath	60 minutes	6090000	211041100
-Riche	area boss	74	11000	25000	Forest of Dead Trees II	El Nath	60 minutes	6090000	211041200
-Riche	area boss	74	11000	25000	Forest of Dead Trees III	El Nath	60 minutes	6090000	211041300
-Riche	area boss	74	11000	25000	Forest of Dead Trees IV	El Nath	60 minutes	6090000	211041400
+Riche	area boss	74	515000	25000	Forest of Dead Trees I	El Nath	60 minutes	6090000	211041100
+Riche	area boss	74	515000	25000	Forest of Dead Trees II	El Nath	60 minutes	6090000	211041200
+Riche	area boss	74	515000	25000	Forest of Dead Trees III	El Nath	60 minutes	6090000	211041300
+Riche	area boss	74	515000	25000	Forest of Dead Trees IV	El Nath	60 minutes	6090000	211041400
 Bloody Boom	instanced, summoned or quest boss	75	10000	0				8510100	
 Security Camera	area boss	75	150000	350	Authorized Personnel Only	Hidden Street	60 minutes	7090000	261020401
 Thorny Vine	instanced, summoned or quest boss	76	8000	0				7130602	
 Bergamot	area boss	77	40000	0	<Year 2009> Midnight Harbor Pier	Neo City	normal respawn	7220003	240070203
 Gatekeeper Nex	area boss	77	114000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	7120102	240070030
-King Sage Cat	area boss	77	108000	2280	Goblin Forest 2	Mu Lung	checked every 3 hours	7220002	250010504
+King Sage Cat	area boss	77	538000	2280	Goblin Forest 2	Mu Lung	kept alive by a script	7220002	250010504
 Athena Pierce's Clone	area boss	80	120000	2400	The Other Dimension	Hidden Street	normal respawn	9001002	108010101
 Dances with Balrog's Clone	area boss	80	150000	2400	The Other Dimension	Hidden Street	normal respawn	9001000	108010301
 Dark Lord's Clone	area boss	80	120000	2400	The Other Dimension	Hidden Street	normal respawn	9001003	108010401
 Deet and Roi	area boss	80	175000	850	Lab - Unit 202	Zenumist Research Institute	40 minutes	8090000	261010102
 Grendel the Really Old's Clone	area boss	80	90000	2400	The Other Dimension	Hidden Street	normal respawn	9001001	108010201
-Jr. Balrog	area boss	80	50000	2000	The Cursed Sanctuary	Dungeon	180 minutes	8130100	105090900
+Jr. Balrog	area boss	80	605000	2000	The Cursed Sanctuary	Dungeon	180 minutes	8130100	105090900
 Low Darkstar	instanced, summoned or quest boss	80	10000	0				8500004	
 Scarlion Boss	instanced, summoned or quest boss	80	60000000	268800				9420547	
 Shadow Kyrin	area boss	80	130000	2400	The Other Dimension	Shadow Zone	normal respawn	9001004	108010501
@@ -98,18 +98,18 @@ Thief Crow	area boss	80	150000	0	Black Crow Region	Aran's Past	normal respawn	90
 Zoo Balrog	area boss	80	50000	0	Zoo	Aquarium	normal respawn	9500200	230000003
 Dunas	area boss	81	300000	3800	<Year 2215> Bombed City Center Square	Neo City	normal respawn	8220010	240070303
 Gatekeeper Nex	area boss	81	126000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	8120100	240070040
-Eliza	area boss	83	87000	2800	Stairway to the Sky II	Orbis	checked every 3 hours	8220000	200010300
+Eliza	area boss	83	630000	2800	Stairway to the Sky II	Orbis	kept alive by a script	8220000	200010300
 Aufheben	area boss	85	410000	4300	<Year 2216> Ruined City Land Mark	Neo City	normal respawn	8220011	240070403
-Chimera	area boss	85	96000	3000	Lab - Secret Basement Path	Hidden Street	checked every 3 hours	8220002	261030000
+Chimera	area boss	85	644000	3000	Lab - Secret Basement Path	Hidden Street	kept alive by a script	8220002	261030000
 Gatekeeper Nex	area boss	85	138000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	8120101	240070050
 Snack Bar	instanced, summoned or quest boss	85	230000	4230				9410015	
-Unknow Snack Bar	area boss	85	5000	0	Drake Area	Dungeon	checked every 3 hours	8220008	105090310
+Unknow Snack Bar	area boss	85	5000	0	Drake Area	Dungeon	kept alive by a script	8220008	105090310
 Blue Mushmom	area boss	90	200000	10000	Hall of Mushroom	Zipangu	1380 minutes	9400205	800010100
 Gatekeeper Nex	area boss	90	150000	330	Old Tree in Tera Forest	Tera Forest  	normal respawn	8140510	240070060
 Oberon	area boss	90	450000	5500	<Year 2230> Dangerous Tower Penthouse	Neo City	normal respawn	8220012	240070503
-Snowman	area boss	90	120000	5200	Valley of Snowman	Hidden Street	10 minutes	8220001	211040101
+Snowman	area boss	90	705000	5200	Valley of Snowman	Hidden Street	10 minutes	8220001	211040101
 Geist Balrog Phase	instanced, summoned or quest boss	95	1500000	5600				9400514	
-Male Boss	area boss	95	85000	5500	Showa Street 3	Zipangu	240 minutes	9400120	801030000
+Male Boss	area boss	95	748000	5500	Showa Street 3	Zipangu	240 minutes	9400120	801030000
 Male Boss	area boss	95	85000	5500	Armory	Zipangu	120 minutes	9400122	801040004
 Male Boss	area boss	95	85000	5500	The Nightmarish Last Days	Zipangu	20 minutes	9400122	801040100
 Nibelung	area boss	95	240000	0	<Year 2503> Air Battleship Stern	Neo City	normal respawn	8220013	240070603
@@ -122,34 +122,34 @@ Green Cornian	instanced, summoned or quest boss	100	56000	1000				8810022
 Master Guardian	instanced, summoned or quest boss	100	7000000	10000				9400594	
 Time Sphere	instanced, summoned or quest boss	100	16000	0				8500000	
 Blue Wyvern	instanced, summoned or quest boss	101	57000	1000				8810020	
-Headless Horseman	area boss	101	3500000	300000	Forgotten Path	Phantom Forest	360 minutes	9400549	610010005
-Headless Horseman	area boss	101	3500000	300000	Hidden Evil	Phantom Forest	360 minutes	9400549	610010010
-Headless Horseman	area boss	101	3500000	300000	Creeping Evil	Phantom Forest	360 minutes	9400549	610010011
-Headless Horseman	area boss	101	3500000	300000	The Evil Dead	Phantom Forest	360 minutes	9400549	610010013
-Headless Horseman	area boss	101	3500000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010200
-Headless Horseman	area boss	101	3500000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010201
-Headless Horseman	area boss	101	3500000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010202
-Headless Horseman	area boss	101	3500000	300000	Hollowed Ground	Phantom Forest	360 minutes	9400549	682000001
+Headless Horseman	area boss	101	847000	300000	Forgotten Path	Phantom Forest	360 minutes	9400549	610010005
+Headless Horseman	area boss	101	847000	300000	Hidden Evil	Phantom Forest	360 minutes	9400549	610010010
+Headless Horseman	area boss	101	847000	300000	Creeping Evil	Phantom Forest	360 minutes	9400549	610010011
+Headless Horseman	area boss	101	847000	300000	The Evil Dead	Phantom Forest	360 minutes	9400549	610010013
+Headless Horseman	area boss	101	847000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010200
+Headless Horseman	area boss	101	847000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010201
+Headless Horseman	area boss	101	847000	300000	Crossroads	Phantom Forest	360 minutes	9400549	610010202
+Headless Horseman	area boss	101	847000	300000	Hollowed Ground	Phantom Forest	360 minutes	9400549	682000001
 Dark Wyvern	instanced, summoned or quest boss	103	80000	1050				8810021	
 Balrog	instanced, summoned or quest boss	105	9980000	0				8830003	
 Dark Cornian	instanced, summoned or quest boss	105	67000	1200				8810023	
-Griffey	area boss	105	3700000	13500	Griffey Forest	Leafre	180 minutes	8180001	240020101
-Griffey	area boss	105	3700000	13500	Griffey Forest	Leafre	30 minutes	8180001	240020102
-Manon	area boss	105	3700000	13500	Manon's Forest	Leafre	180 minutes	8180000	240020401
-Manon	area boss	105	3700000	13500	Manon's Forest	Leafre	30 minutes	8180000	240020402
-Bigfoot	area boss	110	32000000	2660000	Forgotten Path	Phantom Forest	720 minutes	9400575	610010005
-Bigfoot	area boss	110	32000000	2660000	Evil Rising	Phantom Forest	720 minutes	9400575	610010012
-Bigfoot	area boss	110	32000000	2660000	The Evil Dead	Phantom Forest	720 minutes	9400575	610010013
-Bigfoot	area boss	110	32000000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010100
-Bigfoot	area boss	110	32000000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010101
-Bigfoot	area boss	110	32000000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010102
-Bigfoot	area boss	110	32000000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010103
-Bigfoot	area boss	110	32000000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010104
-Pianus	area boss	110	30000000	1300000	The Cave of Pianus	Aqua Road	1440 minutes	8510000	230040420
+Griffey	area boss	105	884000	13500	Griffey Forest	Leafre	180 minutes	8180001	240020101
+Griffey	area boss	105	884000	13500	Griffey Forest	Leafre	30 minutes	8180001	240020102
+Manon	area boss	105	884000	13500	Manon's Forest	Leafre	180 minutes	8180000	240020401
+Manon	area boss	105	884000	13500	Manon's Forest	Leafre	30 minutes	8180000	240020402
+Bigfoot	area boss	110	2897000	2660000	Forgotten Path	Phantom Forest	720 minutes	9400575	610010005
+Bigfoot	area boss	110	2897000	2660000	Evil Rising	Phantom Forest	720 minutes	9400575	610010012
+Bigfoot	area boss	110	2897000	2660000	The Evil Dead	Phantom Forest	720 minutes	9400575	610010013
+Bigfoot	area boss	110	2897000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010100
+Bigfoot	area boss	110	2897000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010101
+Bigfoot	area boss	110	2897000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010102
+Bigfoot	area boss	110	2897000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010103
+Bigfoot	area boss	110	2897000	2660000	Twisted Paths	Phantom Forest	720 minutes	9400575	610010104
+Pianus	area boss	110	2897000	1300000	The Cave of Pianus	Aqua Road	1440 minutes	8510000	230040420
 Pianus	area boss	110	24000000	900000	The Cave of Pianus	Aqua Road	2160 minutes	8520000	230040420
-Black Crow	area boss	115	35000000	1780000	Encounter with the Buddha	Zipangu	1380 minutes	9400014	800020130
+Black Crow	area boss	115	3042000	1780000	Encounter with the Buddha	Zipangu	1380 minutes	9400014	800020130
 Azure Ocelot	instanced, summoned or quest boss	120	5000000	250000				9400597	
-Leviathan	area boss	120	13400000	47355	Leviathan's Canyon	Hidden Street	checked every 3 hours	8220003	240040401
+Leviathan	area boss	120	13400000	47355	Leviathan's Canyon	Hidden Street	kept alive by a script	8220003	240040401
 Scarlet Phoenix	instanced, summoned or quest boss	120	5000000	250000				9400596	
 Dodo	area boss	121	5900000	20850	Memory Lane5	Time Lane	60 minutes	8220004	270010500
 Papulatus	instanced, summoned or quest boss	125	1590000	970000				8500002	

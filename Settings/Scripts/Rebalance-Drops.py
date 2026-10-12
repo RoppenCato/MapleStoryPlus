@@ -16,8 +16,10 @@ WHICH MONSTERS DROP AN ITEM that needs level L
      ordinary monsters to drop, so it also drops from everything above it.
   2. At least WANTED monsters between L - BAND_BELOW and L + BAND_ABOVE, chosen from the popular hunting
      spots first (Settings/Reference/Hunting-Spots.tsv), then from the monsters with the fewest drops.
-     This covers every item ordinary monsters already drop, and the plain gear of every class
-     (Settings/Reference/Loadouts.tsv) even where nothing dropped it before.
+     This covers every item ordinary monsters already drop, the plain gear of every class
+     (Settings/Reference/Loadouts.tsv), and equipment that nothing dropped where it is clearly ordinary
+     gear: what a shop sells, and the other colours of an item that does drop. Event items, quest
+     rewards and unfinished items stay out.
   3. Every monster that lives in numbers has something for every class: at least one weapon and
      ARMOUR_PER_CLASS pieces of armour that a warrior, a magician, a bowman, a thief and a pirate can use
      around its level.
@@ -93,6 +95,31 @@ def exp_table():
     return [int(x) for x in m.group(1).split(",")]
 
 
+SPECIAL = re.compile(r"Maple|MISSING|Balrog|Beginner|Anniv|Flag|Astaroth|King Pepe|Seraphim|Raven|Timeless|Reverse|"
+                     r"Dragon|Agent|Witch|Pepe|Event|Test|GM |\(|\[|Nebula|Crystal Ilbi|Balanced Fury|Versal|Stirgeman|"
+                     r"Antellion|Zakum|Horntail|Pink Bean|Santa|Christmas|Halloween|Valentine|Wedding|Snowboard|Medal", re.I)
+COLOURS = re.compile(r"\b(red|blue|green|yellow|black|white|brown|dark|light|purple|pink|orange|silver|gold|golden|bronze|"
+                     r"steel|mithril|adamantium|orihalcon|emerald|sapphire|maroon|grey|gray|sky|aqua|blood|umber|beige|"
+                     r"khaki|ocean|jade|camel|navy|scarlet|indigo|violet|ivory|cobalt|crimson|azure|olive|teal)\b", re.I)
+
+
+def orphans_that_make_sense(equips, known):
+    """Equipment that nothing ordinary drops but that is plainly ordinary gear: sold in a shop, or another
+    colour of something that drops (same kind, level and class, the same name but for the colour)."""
+    in_shop = {int(r["item_id"]) for r in rows("Shops.tsv") if r["item_id"].isdigit() and r["price_meso"].isdigit() and int(r["price_meso"]) > 1}
+    family = lambda e: (e["type"], e["req_level"], e["job"], COLOURS.sub("", e["name"]).lower().split())
+    families = [family(equips[item]) for item in known]
+    found = set()
+    for item, e in equips.items():
+        if item in known or not 10 <= int(e["req_level"]) <= 120 or SPECIAL.search(e["name"]) or not e["name"].strip():
+            continue
+        if e["type"] not in ("Weapon",) + ARMOUR + ("Cape", "Accessory"):
+            continue
+        if item in in_shop or (COLOURS.search(e["name"]) and family(e) in families):
+            found.add(item)
+    return found
+
+
 def plan():
     equips = {int(r["id"]): r for r in rows("Equips.tsv") if r["cash"] != "cash" and r["req_level"].isdigit()}
     mobs = {int(r["id"]): r for r in rows("Mobs.tsv") if r["level"].isdigit()}
@@ -137,6 +164,7 @@ def plan():
     known = set(loadouts)
     for mob in have:
         known.update(have[mob])
+    known |= orphans_that_make_sense(equips, known)
 
     # Rule 1
     removed = 0

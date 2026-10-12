@@ -4,7 +4,7 @@
     <int name="boss" value="1"/>
     <int name="bodyAttack" value="1"/>
     <int name="level" value="74"/>
-    <int name="maxHP" value="11000"/>
+    <int name="maxHP" value="515000"/>
     <int name="maxMP" value="500"/>
     <int name="speed" value="-30"/>
     <int name="PADamage" value="180"/>

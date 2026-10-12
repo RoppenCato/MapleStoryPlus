@@ -69,6 +69,15 @@ def early_mesos_doubled():
              f"WHERE itemid = 0 AND dropperid IN ({ids})"], f"meso drops of the {len(early)} monsters under level 30")
 
 
+@change("2026-10-12 NX cards from every monster",
+        "NX is earned by playing: every monster can drop an NX card, bosses ten times as often (server code).")
+def nx_cards():
+    # Chances are out of 1,000,000 per kill; the drop rate does not apply to these.
+    # 0.5% for 100 NX and 0.05% for 250 NX: about 0.6 NX per kill, about 6 per boss.
+    return (["UPDATE drop_data_global SET chance = 5000 WHERE itemid = 4031865",
+             "UPDATE drop_data_global SET chance = 500 WHERE itemid = 4031866"], "the two NX cards any monster can drop")
+
+
 def main():
     p = argparse.ArgumentParser(description="Apply price and meso changes to the database")
     p.add_argument("--check", action="store_true")

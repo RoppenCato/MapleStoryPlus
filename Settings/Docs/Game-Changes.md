@@ -50,6 +50,8 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-12 | 4th job basics free | 4th job skills needed skill books and mastery books from bosses | The main attack and Maple Warrior are open to level 10 on advancing. The rest will cost boss tokens (not built yet). | No |
 | 2026-10-12 | King Slime in the swamp | Only at the end of the Kerning party quest | Also in The Swamp of Despair I, next to Kerning City | No |
 | 2026-10-12 | Area bosses every 15 minutes | Checked every 3 hours | Checked every 15 minutes | No |
+| 2026-10-12 | Trial bosses sized for one player | HP from 2,000 (Mano) to 35 million (Black Crow), with no relation to a solo fight | HP set from the damage simulator: about 75 seconds for the two before 2nd job, 100 seconds for most, 5 minutes for the three highest of each band. 30 bosses changed. | No |
+| 2026-10-12 | Boss tokens and the 4th job skill shop | 4th job skills needed skill books and mastery books | Trial bosses give tokens (1, 2 or 5 by band, the hardest double, a first kill five times; the endgame bosses 15 to 80). In the Guide a 4th job character raises a skill's limit by ten levels for 10, 20, then 30 tokens. | No |
 | 2026-10-12 | `@goals` | | Shows what you still need for your next job | No |
 
 ## Travel and guidance
@@ -75,6 +77,8 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-12 | A boss always drops at least one item | Each drop was rolled on its own; 61 bosses could drop nothing but mesos, some nearly 9 times in 10 | If no item comes up, one from the boss's list drops anyway, picked in proportion to its chance | No |
 | 2026-10-12 | Scroll prices lowered by a third | 100% 100,000; 60% 300,000; 10% 150,000; dark 70% 1 million; dark 30% 2 million; clean slate 250,000 to 3 million; chaos 10 million; white 25 million | 70,000; 200,000; 100,000; 700,000; 1.4 million; 170,000 to 2 million; 7 million; 17 million. With the gear budget a level at 60 earns about 0.9 million, where the first prices assumed 1.5. | No. The server reports all 41 shops open. |
 | 2026-10-12 | Top gear from level 95 keeps dropping | Magicians found no class weapon after level 110: their best ordinary wand needs 98 | Gear needing level 95 or more drops from every ordinary monster above it | No |
+| 2026-10-12 | NX cards from every monster | 100 NX card 1 kill in 500, 250 NX card 1 in 2,000, the same for bosses | 100 NX card 1 in 200, 250 NX card 1 in 2,000; bosses ten times as often | No |
+| 2026-10-12 | Ordinary gear that nothing dropped | About 1,050 equips had no source | 173 of them now drop from monsters around their level: what shops sell, and other colours of items that drop. 859 are left out (event items, quest rewards, and about 171 weapons that need a human eye). | No |
 | 2026-10-12 | `@whodrops` and `@whatdropsfrom` for everyone | GM commands | Any player can use them | No |
 | 2026-10-12 | A drop site | Nothing; drops had to be looked up in the database | `docs/drops.html`: search any item or monster, with the real chance | Checked in a browser |
  showed that between level 10 and 20 monsters paid about 53,000 mesos while potions cost about 78,000. Now it is about 106,000 against 41,000.

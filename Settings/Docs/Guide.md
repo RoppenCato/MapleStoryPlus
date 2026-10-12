@@ -312,6 +312,11 @@ Explorers advance by level and by beating bosses, through the Guide that the Tra
 | See or change what a character has beaten | Table `plus_trials`: one row per character and boss, with the number of kills and the date of the first. Delete a row to undo a trial. |
 | Give a test character a trial | `INSERT INTO plus_trials VALUES (<character id>, <mob id>, 1, NOW())` |
 | Change how often area bosses come back | `15 * 60 * 1000` in `Server/scripts/event/AreaBoss*.js` (read at server start). |
+| Change how long a boss fight takes | `SECONDS`, `SECONDS_HARDEST`, `SECONDS_BAND_1` in `Settings/Scripts/Tune-Bosses.py`, then run it (`--check` first) and restart. It asks the damage simulator what a player does per second at the boss's level. Run it again after changing skills. |
+| Change how many tokens a boss gives | The last column of `Settings/Trials.tsv`. Band 4 rows give tokens only. |
+| Change what 4th job skills cost | `SKILL_STEP_COST` and `FIRST_KILL_TIMES` in `plus/Trials.java`. |
+| Give a test character tokens | `INSERT INTO plus_tokens VALUES (<character id>, 500) ON DUPLICATE KEY UPDATE tokens = 500` |
+| Make a 4th job test character | `python Settings/Scripts/Make-Character.py DevHero hero 130 --max-skills` (levels up to 200). |
 
 In the game: the Trade button, any job instructor, or `@goals`.
 
@@ -323,6 +328,8 @@ Price and meso changes in the database are made through `Settings/Scripts/Apply-
 python Settings/Scripts/Apply-Economy-Changes.py --check
 python Settings/Scripts/Apply-Economy-Changes.py
 ```
+
+NX comes from the two NX cards that any monster can drop (table `drop_data_global`; the chances are a change in `Apply-Economy-Changes.py`). Bosses roll them ten times as often, which is one line in `MapleMap.java` marked `MapleStoryPlus`. The drop rate does not apply to these.
 
 Before changing a price, a meso drop or a rate, run the economy estimate. It needs the database running and changes nothing.
 

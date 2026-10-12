@@ -3,7 +3,7 @@
   <imgdir name="info">
     <int name="bodyAttack" value="1"/>
     <int name="level" value="20"/>
-    <int name="maxHP" value="2000"/>
+    <int name="maxHP" value="18400"/>
     <int name="maxMP" value="30"/>
     <int name="speed" value="-40"/>
     <int name="PADamage" value="90"/>

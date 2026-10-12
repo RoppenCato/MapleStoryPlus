@@ -222,6 +222,8 @@ def skill_points(line, level):
         out[j2] = 1 + 3 * (min(level, 70) - 30)
     if level >= 70:
         out[j3] = 1 + 3 * (min(level, 120) - 70)
+    if level >= 120:
+        out[j3 + 1] = 3 + 3 * (level - 120)             # 4th job
     return out
 
 
@@ -425,8 +427,10 @@ def apply(data, name, line, level, meso, dry_run, check=False, skill_mode="build
             q.append(insert.format(cid=cid, item=item_id, inv=inv, pos=next_pos[inv], qty=min(stack, quantity)))
             quantity -= stack
     for sid, _, lv in skills:
+        # A 4th job skill can only be raised as far as its master level, so that is set along with it
+        master = lv if sid // 10000 % 10 == 2 else 0
         q.append(f"INSERT INTO skills (skillid, characterid, skilllevel, masterlevel, expiration) "
-                 f"VALUES ({sid}, {cid}, {lv}, 0, -1);")
+                 f"VALUES ({sid}, {cid}, {lv}, {master}, -1);")
     # Sprint for everyone, and no key bindings left over from another class's skills.
     q += [f"DELETE FROM skills WHERE characterid = {cid} AND skillid = {NIMBLE_FEET};",
           f"INSERT INTO skills (skillid, characterid, skilllevel, masterlevel, expiration) VALUES ({NIMBLE_FEET}, {cid}, 3, 0, -1);"]
@@ -487,8 +491,8 @@ def main():
     line = ALIASES.get(line, line)
     if line not in LINES:
         p.error(f"unknown line '{a.line}'")
-    if not 1 <= a.level <= 119:
-        p.error("level must be 1-119 (fourth job is not supported yet)")
+    if not 1 <= a.level <= 200:
+        p.error("level must be 1-200")
     if a.create and not a.dry_run:
         if find_character(a.name):
             raise SystemExit(f"Character '{a.name}' already exists.")

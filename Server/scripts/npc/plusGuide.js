@@ -8,6 +8,8 @@
 var status = -1;
 var chosenJob = 0;
 var onJobPage = false;
+var onSkillShop = false;
+var chosenSkill = 0;
 
 function start() {
     status = -1;
@@ -37,10 +39,25 @@ function action(mode, type, selection) {
         } else if (selection == 1) {
             cm.sendOk(Trials.trialsPage(chr));
             cm.dispose();
+        } else if (Trials.hasSkillShop(chr)) {
+            onSkillShop = true;
+            cm.sendSimple(Trials.fourthJobPage(chr));
         } else {
             cm.sendOk(Trials.fourthJobPage(chr));
             cm.dispose();
         }
+    } else if (status == 2 && onSkillShop) {
+        chosenSkill = selection;
+        var question = Trials.confirmSkill(chr, chosenSkill);
+        if (question == "") {
+            cm.sendOk("That skill's limit is already as high as it goes.");
+            cm.dispose();
+        } else {
+            cm.sendYesNo(question);
+        }
+    } else if (status == 3 && onSkillShop) {
+        cm.sendOk(Trials.buySkill(chr, chosenSkill));
+        cm.dispose();
     } else if (status == 2 && onJobPage) {
         chosenJob = selection;
         cm.sendYesNo("Become a #e" + cm.getJobName(chosenJob) + "#n? This cannot be undone.");

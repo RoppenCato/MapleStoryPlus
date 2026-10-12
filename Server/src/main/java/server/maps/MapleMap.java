@@ -726,7 +726,9 @@ public class MapleMap {
         ItemInformationProvider ii = ItemInformationProvider.getInstance();
 
         for (final MonsterGlobalDropEntry de : globalEntry) {
-            if (Randomizer.nextInt(999999) < de.chance) {
+            // MapleStoryPlus: a boss drops NX cards ten times as often as an ordinary monster
+            int chance = mob.isBoss() && constants.id.ItemId.isNxCard(de.itemId) ? de.chance * 10 : de.chance;
+            if (Randomizer.nextInt(999999) < chance) {
                 if (droptype == 3) {
                     pos.x = mobpos + (d % 2 == 0 ? (40 * (d + 1) / 2) : -(40 * (d / 2)));
                 } else {

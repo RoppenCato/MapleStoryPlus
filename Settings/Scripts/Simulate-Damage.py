@@ -1,7 +1,7 @@
 """Estimates the damage of each class at set levels, to compare classes and check the damage rules.
 
-    python Settings/Scripts/Simulate-Damage.py                     every class at levels 30, 50, 70 and 100
-    python Settings/Scripts/Simulate-Damage.py --levels 70 119      other levels (10 to 119)
+    python Settings/Scripts/Simulate-Damage.py                     every class at levels 30, 50, 70, 100 and 130
+    python Settings/Scripts/Simulate-Damage.py --levels 70 119      other levels (10 to 200)
     python Settings/Scripts/Simulate-Damage.py --rules              per class: does a new job's attack beat the old one?
 
 Nothing is changed and the database is not needed.
@@ -11,16 +11,20 @@ character of that class and level wears (the same loadouts Make-Character.py giv
 attack, and the game's damage formulas for version 83.
 
 What is assumed is in the block below: how many attacks a second each weapon manages, and which skill a
-class uses. The per-second column stands or falls with those; the per-use column does not.
+class uses. The per-second column stands or falls with those; the per-use column does not. The 4th job
+rows (level 120 and up) lean on more assumptions than the others: see FOURTH_JOB_NOTES.
 
 Not counted: monster defence and level difference, elemental weakness, attack potions, and scrolled gear.
 So the numbers are for comparing classes with each other, not for predicting a number on the screen.
+
+Other scripts use this one: Tune-Bosses.py asks it how much damage a player does at a level.
 """
 import argparse
 import importlib.util
 import io
 import os
 import re
+import statistics
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -41,7 +45,9 @@ WEAPON = {
     "bandit":     (3.6, "dex", 1.40), "brawler":   (4.8, "dex", 1.60), "gunslinger": (3.6, "str", 1.45),
     "fp":         (None, None, 1.25), "il":        (None, None, 1.25), "cleric":     (None, None, 1.25),
 }
-STAR_ATTACK = [(10, 15), (30, 19), (50, 21), (70, 23)]     # (from level, attack of the throwing stars used)
+# Skills with a pace of their own, in uses a second: the rapid-fire skills, and the slow heavy ones
+SKILL_RATE = {3121004: 8.0, 5221004: 8.0, 5121007: 0.6, 4221001: 0.7, 1221009: 1.3}
+STAR_ATTACK = [(10, 15), (30, 19), (50, 21), (70, 23), (120, 27)]     # (from level, attack of the throwing stars used)
 ARROW_ATTACK = [(10, 0), (30, 1), (70, 4)]
 MASTERY_FIRST_JOB = 10          # percent, before a weapon mastery skill
 MASTERY_WITH_SKILL = 60         # percent, with the 2nd job mastery skill maxed
@@ -50,23 +56,28 @@ CRIT_OWN = {"hunter": (50, 200), "crossbow": (50, 200), "assassin": (50, 200)}  
 
 # Which attack a class uses on one monster and on a group, per job: (single, group). Skill ids.
 ATTACKS = {
-    "hero":       {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1111003, 1111005)},
-    "paladin":    {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1211002, 1211002)},
-    "darkknight": {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1311001, 1311003)},
-    "fp":         {1: (2001005, 2001004), 2: (2101004, 2101005), 3: (2111006, 2111002)},
-    "il":         {1: (2001005, 2001004), 2: (2201004, 2201005), 3: (2211003, 2211002)},
-    "cleric":     {1: (2001005, 2001004), 2: (2301005, 2301005), 3: (2301005, 2311004)},
-    "hunter":     {1: (3001005, 3001004), 2: (3001005, 3001004), 3: (3111006, 3111004)},
-    "crossbow":   {1: (3001005, 3001004), 2: (3001005, 3201005), 3: (3211006, 3211004)},
-    "assassin":   {1: (4001344, 4001344), 2: (4001344, 4101005), 3: (4001344, 4111005)},
-    "bandit":     {1: (4001334, 4001334), 2: (4201005, 4201004), 3: (4211002, 4211004)},
-    "brawler":    {1: (5001001, 5001002), 2: (5101003, 5101004), 3: (5101003, 5111006)},
-    "gunslinger": {1: (5001003, 5001003), 2: (5001003, 5201001), 3: (5210000, 5211004)},
+    "hero":       {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1111003, 1111005), 4: (1121008, 1121008)},
+    "paladin":    {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1211002, 1211002), 4: (1221009, 1211002)},
+    "darkknight": {1: (1001004, 1001005), 2: (1001004, 1001005), 3: (1311001, 1311003), 4: (1311001, 1311003)},
+    "fp":         {1: (2001005, 2001004), 2: (2101004, 2101005), 3: (2111006, 2111002), 4: (2121006, 2111002)},
+    "il":         {1: (2001005, 2001004), 2: (2201004, 2201005), 3: (2211003, 2211002), 4: (2221006, 2221006)},
+    "cleric":     {1: (2001005, 2001004), 2: (2301005, 2301005), 3: (2301005, 2311004), 4: (2321007, 2311004)},
+    "hunter":     {1: (3001005, 3001004), 2: (3001005, 3001004), 3: (3111006, 3111004), 4: (3121004, 3111004)},
+    "crossbow":   {1: (3001005, 3001004), 2: (3001005, 3201005), 3: (3211006, 3211004), 4: (3211006, 3221001)},
+    "assassin":   {1: (4001344, 4001344), 2: (4001344, 4101005), 3: (4001344, 4111005), 4: (4121007, 4111005)},
+    "bandit":     {1: (4001334, 4001334), 2: (4201005, 4201004), 3: (4211002, 4211004), 4: (4221007, 4221007)},
+    "brawler":    {1: (5001001, 5001002), 2: (5101003, 5101004), 3: (5101003, 5111006), 4: (5121007, 5121001)},
+    "gunslinger": {1: (5001003, 5001003), 2: (5001003, 5201001), 3: (5210000, 5211004), 4: (5221004, 5211004)},
 }
 # Things that multiply every attack once the class has them: (line, from level, factor, what)
 MULTIPLIERS = [("hero", 70, 1.2, "Combo Attack"), ("paladin", 70, 1.3, "element charge"),
                ("assassin", 70, 1.7, "Shadow Partner"), ("fp", 70, 1.4, "Element Amplification"),
-               ("il", 70, 1.4, "Element Amplification")]
+               ("il", 70, 1.4, "Element Amplification"),
+               ("hero", 120, 1.25, "Advanced Combo, on top"), ("paladin", 120, 1.15, "Holy Charge, on top"),
+               ("darkknight", 120, 1.6, "Berserk, when it is on")]
+FOURTH_JOB_NOTES = ("4th job is rougher than the rest: Hurricane and Rapid Fire are counted at 8 shots a second, "
+                    "Barrage, Blast and Assassinate at their own slow pace, Berserk as on most of the time, and "
+                    "summons, the Battleship and the ultimates are left out.")
 MEDITATION = 20                 # magic attack from the Fire/Poison and Ice/Lightning wizard's buff, from level 30
 
 
@@ -142,7 +153,7 @@ def crit_for(line, level):
 
 
 def use_damage(line, level, stats, attack, magic_attack, row):
-    """Average damage of one use of a skill on one monster, with crit and the class's multiplier."""
+    """Average damage of one use of a skill on one monster, with crit and the class's multipliers."""
     hit, value = average_hit(line, level, stats, attack, magic_attack, row)
     _, hits, mobs, magic = per_use(row)
     chance, strength = crit_for(line, level)
@@ -155,12 +166,34 @@ def use_damage(line, level, stats, attack, magic_attack, row):
 
 
 def tier(level):
-    return 1 if level < 30 else 2 if level < 70 else 3
+    return 1 if level < 30 else 2 if level < 70 else 3 if level < 120 else 4
+
+
+def class_damage(data, skills, level):
+    """One row per class at this level: (per second on one monster, class, single skill, per use, group skill,
+    per monster, monsters, per second on the group)."""
+    results = []
+    for line in mc.LINES:
+        stats, attack, magic_attack = character(data, line, level)
+        single_id, group_id = ATTACKS[line][tier(level)]
+        single_row = skills[single_id][max(skills[single_id])]
+        group_row = skills[group_id][max(skills[group_id])]
+        single, _ = use_damage(line, level, stats, attack, magic_attack, single_row)
+        group, mobs = use_damage(line, level, stats, attack, magic_attack, group_row)
+        rate = WEAPON[line][2]
+        results.append((single * SKILL_RATE.get(single_id, rate), line, single_row["skill"], single, group_row["skill"],
+                        group, mobs, group * mobs * SKILL_RATE.get(group_id, rate)))
+    return sorted(results, reverse=True)
+
+
+def typical_damage(data, skills, level):
+    """What a middling class does per second on one monster at this level: the median of the twelve lines."""
+    return statistics.median(row[0] for row in class_damage(data, skills, level))
 
 
 def main():
     p = argparse.ArgumentParser(description="Estimate class damage")
-    p.add_argument("--levels", type=int, nargs="+", default=[30, 50, 70, 100])
+    p.add_argument("--levels", type=int, nargs="+", default=[30, 50, 70, 100, 130])
     p.add_argument("--rules", action="store_true", help="check the two damage rules per class")
     a = p.parse_args()
     data, skills = mc.Data(), load_skills()
@@ -171,36 +204,31 @@ def main():
         for line, by_tier in ATTACKS.items():
             for kind, name in ((0, "single"), (1, "group")):
                 chain = []
-                for t in (1, 2, 3):
+                for t in (1, 2, 3, 4):
                     sid = by_tier[t][kind]
-                    if not chain or chain[-1] != sid:
+                    if sid not in chain:
                         chain.append(sid)
                 for old, new in zip(chain, chain[1:]):
                     o, n = skills[old], skills[new]
                     total = lambda row: per_use(row)[0] * per_use(row)[1]
                     old_max, new_first, new_max = total(o[max(o)]), total(n[1]), total(n[max(n)])
-                    verdict = "ok" if new_first > old_max else ("group, fewer or more targets" if kind else "BELOW")
+                    special = new in SKILL_RATE
+                    verdict = ("ok" if new_first > old_max else "its own pace, compare per second" if special
+                               else "group, fewer or more targets" if kind else "BELOW")
                     print(f"{line:<11} {o[1]['skill'][:24]:<24} {old_max:>6}   {n[1]['skill'][:24]:<24} {new_first:>8} {new_max:>6}  {verdict} ({name})")
         return
 
     print("Average damage per use on one monster, and per second, with every skill of the job maxed.")
-    print("Gear is the plain shop and drop gear for the level, unscrolled. Assumptions are at the top of the script.\n")
-    print(f"{'level':>5} {'class':<11} {'single-target attack':<22} {'per use':>9} {'per sec':>9}   {'group attack':<22} {'per mob':>9} {'mobs':>4} {'per sec, all':>12}")
+    print("Gear is the plain shop and drop gear for the level, unscrolled. Assumptions are at the top of the script.")
+    if any(level >= 120 for level in a.levels):
+        print(FOURTH_JOB_NOTES)
+    print(f"\n{'level':>5} {'class':<11} {'single-target attack':<22} {'per use':>9} {'per sec':>9}   {'group attack':<22} {'per mob':>9} {'mobs':>4} {'per sec, all':>12}")
     for level in a.levels:
-        results = []
-        for line in mc.LINES:
-            stats, attack, magic_attack = character(data, line, level)
-            single_id, group_id = ATTACKS[line][tier(level)]
-            rate = WEAPON[line][2]
-            single_row = skills[single_id][max(skills[single_id])]
-            group_row = skills[group_id][max(skills[group_id])]
-            single, _ = use_damage(line, level, stats, attack, magic_attack, single_row)
-            group, mobs = use_damage(line, level, stats, attack, magic_attack, group_row)
-            results.append((single * rate, line, single_row["skill"], single, group_row["skill"], group, mobs, rate))
-        best = max(r[0] for r in results)
-        for per_second, line, s_name, single, g_name, group, mobs, rate in sorted(results, reverse=True):
+        results = class_damage(data, skills, level)
+        best = results[0][0]
+        for per_second, line, s_name, single, g_name, group, mobs, group_second in results:
             bar = "#" * round(12 * per_second / best)
-            print(f"{level:>5} {line:<11} {s_name[:22]:<22} {single:>9,.0f} {per_second:>9,.0f}   {g_name[:22]:<22} {group:>9,.0f} {mobs:>4} {group * mobs * rate:>12,.0f}  {bar}")
+            print(f"{level:>5} {line:<11} {s_name[:22]:<22} {single:>9,.0f} {per_second:>9,.0f}   {g_name[:22]:<22} {group:>9,.0f} {mobs:>4} {group_second:>12,.0f}  {bar}")
         print()
 
 

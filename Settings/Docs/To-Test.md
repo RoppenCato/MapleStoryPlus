@@ -6,6 +6,20 @@ Before testing: start `Start-Server.bat`, and `Start-Bot-Chat.bat` for anything 
 
 Last updated: 2026-10-12.
 
+## Questions for Robin
+
+Things Claude decided alone and would like a yes or a different number on. None of them blocks anything.
+
+1. **How long should a boss fight be?** The trial bosses are now sized for one player: about 75 seconds for the two before 2nd job, 100 seconds for an ordinary one, 5 minutes for the three highest of each band. Mano went from 2,000 HP to 18,400; Pianus from 30 million to 2.9 million. Longer, shorter?
+2. **King Slime in the party quest** is the same monster as the one in the swamp, so he also has 28,600 HP there (was 8,000). Fine, or should the party quest keep the old one?
+3. **Tokens.** A boss gives 1 (before 2nd job), 2 (before 3rd), 5 (before 4th), the three hardest of a band double; a first kill gives 5 times that; Leviathan 15, Papulatus 20, Zakum 40, Horntail 60, Pink Bean 80. Raising a 4th job skill's limit by ten levels costs 10, then 20, then 30. A whole 4th job comes to roughly 450 to 550 tokens: about a hundred kills of a level 100 boss, or far fewer of the big ones. Right size of grind?
+4. **NX.** Every monster drops a 100 NX card 1 kill in 200 and a 250 NX card 1 in 2,000: about 0.6 NX per kill, so about 55,000 NX by level 70 and 110,000 by level 120. Bosses ten times as often. Is that the amount you had in mind? It is one number each in `Apply-Economy-Changes.py`.
+5. **Weapons nothing drops.** 173 pieces of ordinary gear with no source now drop (what shops sell, and other colours of things that drop). 859 are still left out, and about 171 of those are weapons that look ordinary (Gladius, Doombringer, Holy Spear, Black Scarab, Golden Crow ...) mixed with event weapons (Celestial Staff, Andromeda Bow, the Xaru set). Sorting them needs a human eye: should Claude make a list for you to tick?
+6. **Boomerang Step** now starts below Assaulter's maximum (600% against 701%), which breaks the "new job beats old" rule for Shadowers. Raise it, or is Assaulter the odd one out?
+7. **4th job balance** (simulated, with rough assumptions): Dark Knight far ahead, Bishop and Buccaneer behind. Worth a pass like the one for magicians?
+8. **Zakum, Horntail and Pink Bean** give tokens but cannot be fought alone yet. Leave them as a goal for later?
+9. **Area bosses every 15 minutes** (all 27, not only the trial ones). Good, or too easy to farm?
+
 ## 1. Job advancement and the Guide (2026-10-12)
 
 Most important: this replaces how every explorer advances.
@@ -21,7 +35,10 @@ Most important: this replaces how every explorer advances.
 - [ ] `@goals` prints what is still needed.
 - [ ] A killed area boss is back within 15 minutes.
 - [ ] 3rd job at 70 after any 4 band 2 bosses. *To skip the fights: ask Claude to mark trials as beaten for a test character.*
-- [ ] 4th job at 120: main attack and Maple Warrior can be raised to level 10. *Needs a level 120 character; the character tool does not make those yet.*
+- [ ] 4th job at 120: main attack and Maple Warrior can be raised to level 10. *Ask Claude for a level 120 test character with the trials marked as beaten.*
+- [ ] **Boss HP:** Mano takes about a minute at level 20 to 25 and no longer dies in seconds. Try one band 2 boss at its level: about a minute and a half.
+- [ ] **Tokens:** killing a trial boss prints "+N boss tokens", five times as many on the first kill, and the Guide's first page shows the total.
+- [ ] **4th job skill shop** (4th job character): the Guide's third page lists your skills with their limits and prices; buying one raises the limit by ten and takes the tokens.
 
 ## 2. Drops (2026-10-12)
 
@@ -31,6 +48,7 @@ Most important: this replaces how every explorer advances.
 - [ ] A popular hunting spot (Wild Boars, Jr. Wraiths, Wolf Spiders ...) drops gear of about your own level.
 - [ ] **A boss always drops at least one item.** Kill Mano or Stumpy a few times.
 - [ ] The drop site (`docs/drops.html`) matches what a monster drops in the game: pick one monster and compare.
+- [ ] **NX cards:** an NX card drops about 1 kill in 200, and picking it up adds NX (check in the Cash Shop). A boss drops one about 1 kill in 20.
 
 ## 3. The GM and bot chat (2026-10-12)
 

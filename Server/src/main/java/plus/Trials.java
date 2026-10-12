@@ -44,7 +44,12 @@ import java.util.Set;
 public class Trials {
     private static final Logger log = LoggerFactory.getLogger(Trials.class);
 
-    private record Boss(int band, int mobId, String name, String where) {}
+    private record Boss(int band, int mobId, String name, String where, int tokens) {}
+
+    /** Tokens: a first kill of a boss pays this many times its usual amount. */
+    private static final int FIRST_KILL_TIMES = 5;
+    /** What raising a 4th job skill's limit by ten levels costs: the first ten, the second, the third. */
+    private static final int[] SKILL_STEP_COST = {10, 20, 30};
 
     /** Per band: the level of the job it opens, and how many of its bosses must be beaten. */
     private static final int[][] BANDS = {{}, {30, 2}, {70, 4}, {120, 4}};
@@ -77,7 +82,8 @@ public class Trials {
             for (String line : lines.subList(1, lines.size())) {
                 String[] cell = line.split("\t");
                 if (cell.length >= 3) {
-                    Boss boss = new Boss(Integer.parseInt(cell[0]), Integer.parseInt(cell[1]), cell[2], cell.length > 3 ? cell[3] : "");
+                    Boss boss = new Boss(Integer.parseInt(cell[0]), Integer.parseInt(cell[1]), cell[2], cell.length > 3 ? cell[3] : "",
+                            cell.length > 4 && !cell[4].isBlank() ? Integer.parseInt(cell[4].trim()) : 0);
                     bosses.add(boss);
                     byMob.put(boss.mobId(), boss);
                 }
@@ -88,6 +94,7 @@ public class Trials {
         try (Connection con = DatabaseConnection.getConnection(); Statement st = con.createStatement()) {
             st.execute("CREATE TABLE IF NOT EXISTS plus_trials (characterid INT NOT NULL, mobid INT NOT NULL, "
                     + "kills INT NOT NULL DEFAULT 0, first_kill DATETIME NOT NULL, PRIMARY KEY (characterid, mobid))");
+            st.execute("CREATE TABLE IF NOT EXISTS plus_tokens (characterid INT NOT NULL PRIMARY KEY, tokens INT NOT NULL DEFAULT 0)");
         } catch (Exception e) {
             log.error("The trials table could not be created", e);
         }
@@ -202,7 +209,13 @@ public class Trials {
                 log.error("Could not record the trial {} for {}", boss.name(), chr.getName(), e);
                 continue;
             }
-            if (first) {
+            int gained = boss.tokens() * (first ? FIRST_KILL_TIMES : 1);
+            if (gained > 0) {
+                addTokens(chr, gained);
+                chr.dropMessage(5, "+" + gained + " boss token" + (gained == 1 ? "" : "s") + (first ? " (first kill of " + boss.name() + ")" : "")
+                        + ". You have " + tokens(chr) + ".");
+            }
+            if (first && boss.band() <= 3) {
                 int done = beatenInBand(beaten(chr), boss.band());
                 int needed = BANDS[boss.band()][1];
                 String job = TIER_NAMES[boss.band() + 1] + " job";
@@ -216,6 +229,85 @@ public class Trials {
                 }
             }
         }
+    }
+
+    // ------------------------------------------------------------------------------------------
+    // Tokens
+    // ------------------------------------------------------------------------------------------
+
+    public static int tokens(Character chr) {
+        try (Connection con = DatabaseConnection.getConnection();
+             PreparedStatement ps = con.prepareStatement("SELECT tokens FROM plus_tokens WHERE characterid = ?")) {
+            ps.setInt(1, chr.getId());
+            try (ResultSet rs = ps.executeQuery()) {
+                return rs.next() ? rs.getInt(1) : 0;
+            }
+        } catch (Exception e) {
+            log.error("Could not read the tokens of {}", chr.getName(), e);
+            return 0;
+        }
+    }
+
+    private static void addTokens(Character chr, int amount) {
+        try (Connection con = DatabaseConnection.getConnection();
+             PreparedStatement ps = con.prepareStatement("INSERT INTO plus_tokens (characterid, tokens) VALUES (?, ?) "
+                     + "ON DUPLICATE KEY UPDATE tokens = GREATEST(0, tokens + VALUES(tokens))")) {
+            ps.setInt(1, chr.getId());
+            ps.setInt(2, amount);
+            ps.executeUpdate();
+        } catch (Exception e) {
+            log.error("Could not change the tokens of {}", chr.getName(), e);
+        }
+    }
+
+    /** The 4th job skills of this character's job, in id order. */
+    private static List<Skill> fourthJobSkills(Character chr) {
+        List<Skill> skills = new ArrayList<>();
+        int base = chr.getJob().getId() * 10000;
+        for (int id = base; id < base + 1100; id++) {
+            Skill skill = SkillFactory.getSkill(id);
+            if (skill != null && skill.getMaxLevel() > 0) {
+                skills.add(skill);
+            }
+        }
+        return skills;
+    }
+
+    /** What the next ten levels of a skill's limit cost, or 0 when the limit is already at its top. */
+    private static int stepCost(Character chr, Skill skill) {
+        int master = chr.getMasterLevel(skill);
+        return master >= skill.getMaxLevel() ? 0 : SKILL_STEP_COST[Math.min(SKILL_STEP_COST.length - 1, master / 10)];
+    }
+
+    /** What the Guide asks before a skill's limit is raised. */
+    public static String confirmSkill(Character chr, int skillId) {
+        Skill skill = SkillFactory.getSkill(skillId);
+        if (skill == null || !fourthJobSkills(chr).contains(skill) || stepCost(chr, skill) == 0) {
+            return "";
+        }
+        int master = chr.getMasterLevel(skill);
+        return "Raise the limit of #e" + SkillFactory.getSkillName(skillId) + "#n from " + master + " to "
+                + Math.min(skill.getMaxLevel(), master + 10) + " for #e" + stepCost(chr, skill) + " tokens#n? You have " + tokens(chr) + ".";
+    }
+
+    /** Raises a 4th job skill's limit by ten levels for tokens. Returns what to tell the player. */
+    public static String buySkill(Character chr, int skillId) {
+        Skill skill = SkillFactory.getSkill(skillId);
+        if (tier(chr.getJob()) < 4 || skill == null || !fourthJobSkills(chr).contains(skill)) {
+            return "That is not one of your 4th job skills.";
+        }
+        int cost = stepCost(chr, skill);
+        if (cost == 0) {
+            return "That skill's limit is already as high as it goes.";
+        }
+        if (tokens(chr) < cost) {
+            return "That costs " + cost + " tokens and you have " + tokens(chr) + ". Bosses give tokens; the harder the boss, the more.";
+        }
+        addTokens(chr, -cost);
+        int master = Math.min(skill.getMaxLevel(), chr.getMasterLevel(skill) + 10);
+        chr.changeSkillLevel(skill, chr.getSkillLevel(skill), master, -1);
+        log.info("{} raised the limit of skill {} to {} for {} tokens", chr.getName(), skillId, master, cost);
+        return "#e" + SkillFactory.getSkillName(skillId) + "#n can now be raised to level " + master + ". You have " + tokens(chr) + " tokens left.";
     }
 
     // ------------------------------------------------------------------------------------------
@@ -250,7 +342,7 @@ public class Trials {
         Set<Integer> done = beaten(chr);
         String why = blocker(chr, done);
         StringBuilder text = new StringBuilder("#e" + chr.getName() + "#n, level " + chr.getLevel() + " " + GameConstants.getJobName(chr.getJob().getId()) + ".\r\n");
-        text.append(why.isEmpty() ? "#bYou are ready to advance.#k" : why).append("\r\n#b");
+        text.append(why.isEmpty() ? "#bYou are ready to advance.#k" : why).append("\r\nBoss tokens: ").append(tokens(chr)).append("\r\n#b");
         text.append("\r\n#L0#My job advancement#l");
         text.append("\r\n#L1#Trials: the bosses to beat#l");
         text.append("\r\n#L2#4th job skills#l");
@@ -370,10 +462,27 @@ public class Trials {
         return lines;
     }
 
+    /** Whether the 4th job page is a shop (a selection list) for this character, or only an explanation. */
+    public static boolean hasSkillShop(Character chr) {
+        return isExplorer(chr.getJob()) && tier(chr.getJob()) == 4;
+    }
+
+    /** The 4th job page: for a 4th job character, its skills as a selection list (#L<skill id>#). */
     public static String fourthJobPage(Character chr) {
-        if (tier(chr.getJob()) < 4) {
-            return "This is for 4th job. On advancing you get your main attack and Maple Warrior at once; the other skills are earned with tokens from bosses.";
+        load();
+        if (!hasSkillShop(chr)) {
+            return "This is for 4th job. On advancing you get your main attack and Maple Warrior at once, open to level 10.\r\n\r\n"
+                    + "Every other 4th job skill, and every higher limit, is bought with boss tokens: " + SKILL_STEP_COST[0] + " for a skill's first ten levels, "
+                    + SKILL_STEP_COST[1] + " for the next ten, " + SKILL_STEP_COST[2] + " for the last.\r\n\r\nYou have " + tokens(chr)
+                    + " tokens. Every trial boss gives some, " + FIRST_KILL_TIMES + " times as many on your first kill.";
         }
-        return "Your main attack and Maple Warrior are open to level 10.\r\n\r\nThe token shop for the other 4th job skills is not built yet.";
+        StringBuilder text = new StringBuilder("You have #e" + tokens(chr) + " boss tokens#n. Choose a skill to raise its limit by ten levels.\r\n#b");
+        for (Skill skill : fourthJobSkills(chr)) {
+            int cost = stepCost(chr, skill);
+            text.append("\r\n#L").append(skill.getId()).append("#").append(SkillFactory.getSkillName(skill.getId())).append("  #k(")
+                    .append(chr.getSkillLevel(skill)).append(", limit ").append(chr.getMasterLevel(skill)).append(" of ").append(skill.getMaxLevel())
+                    .append(cost == 0 ? ")" : ", " + cost + " tokens)").append("#b#l");
+        }
+        return text.toString();
     }
 }

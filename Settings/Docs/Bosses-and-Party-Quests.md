@@ -85,32 +85,32 @@ Bosses that live on a normal map. Sorted by level.
 |---|---|---|---|---|---|
 | Zoo Pig | 7 | 10,000 | 10 | Zoo (Aquarium) | normal respawn |
 | Zoo Ribbon Pig | 10 | 10,000 | 10 | Zoo (Aquarium) | normal respawn |
-| Mano | 20 | 2,000 | 120 | Thicket Around the Beach III (Victoria Road) | checked every 3 hours |
-| Amdusias | 25 | 2,500 | 60 | Amdusias Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Andras | 25 | 2,500 | 60 | Andras Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Crocell | 25 | 2,500 | 60 | Crocell Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Marbas | 25 | 2,500 | 60 | Marbas Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Valefor | 25 | 2,500 | 60 | Valefor Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Astaroth | 32 | 180,000 | 5,250 | Astaroth Hiding Place (Mini Dungeon) | checked every 3 hours |
-| Stumpy | 35 | 7,000 | 405 | East Rocky Mountain V (Victoria Road) | checked every 3 hours |
-| Deo | 38 | 7,700 | 445 | Royal Catthus Desert (Hidden Street) | checked every 3 hours |
-| King Slime | 40 | 8,000 | 800 | 1st Accompaniment <Last Stage> (Hidden Street) | normal respawn |
-| Seruf | 45 | 2,550 | 0 | The Seaweed Tower (Aqua Road) | checked every 3 hours |
-| Rombot | 47 | 11,000 | 720 | Hidden Tower (Hidden Street) | 30 minutes |
+| Mano | 20 | 18,400 | 120 | Thicket Around the Beach III (Victoria Road) | kept alive by a script |
+| Amdusias | 25 | 2,500 | 60 | Amdusias Hiding Place (Mini Dungeon) | kept alive by a script |
+| Andras | 25 | 2,500 | 60 | Andras Hiding Place (Mini Dungeon) | kept alive by a script |
+| Crocell | 25 | 2,500 | 60 | Crocell Hiding Place (Mini Dungeon) | kept alive by a script |
+| Marbas | 25 | 2,500 | 60 | Marbas Hiding Place (Mini Dungeon) | kept alive by a script |
+| Valefor | 25 | 2,500 | 60 | Valefor Hiding Place (Mini Dungeon) | kept alive by a script |
+| Astaroth | 32 | 180,000 | 5,250 | Astaroth Hiding Place (Mini Dungeon) | kept alive by a script |
+| Stumpy | 35 | 91,800 | 405 | East Rocky Mountain V (Victoria Road) | kept alive by a script |
+| Deo | 38 | 104,000 | 445 | Royal Catthus Desert (Hidden Street) | kept alive by a script |
+| King Slime | 40 | 28,600 | 800 | 1st Accompaniment <Last Stage> (Hidden Street) | normal respawn |
+| Seruf | 45 | 129,000 | 0 | The Seaweed Tower (Aqua Road) | kept alive by a script |
+| Rombot | 47 | 135,000 | 720 | Hidden Tower (Hidden Street) | 30 minutes |
 | Spirit of Rock | 49 | 250,000 | 1,700 | 7th Floor 8th Floor Area D (Kerning Square ) | normal respawn |
 | Spirit of Rock | 49 | 250,000 | 1,700 | VIP Zone Area C (Kerning Square ) | normal respawn |
-| Faust | 50 | 9,800 | 410 | The Forest of Evil I (Hidden Street) | checked every 3 hours |
-| Faust | 50 | 9,800 | 410 | The Forest of Evil II (Hidden Street) | checked every 3 hours |
-| Giant Centipede | 50 | 15,000 | 425 | 80-Year-Old Herb Garden (Herb Town) | checked every 3 hours |
+| Faust | 50 | 169,000 | 410 | The Forest of Evil I (Hidden Street) | kept alive by a script |
+| Faust | 50 | 169,000 | 410 | The Forest of Evil II (Hidden Street) | kept alive by a script |
+| Giant Centipede | 50 | 169,000 | 425 | 80-Year-Old Herb Garden (Herb Town) | kept alive by a script |
 | MT-09 | 54 | 13,500 | 980 | Defeat Monsters (Hidden Street) | 33 minutes |
-| King Clang | 55 | 4,000 | 0 | Hot Sand (Florina Road) | checked every 3 hours |
-| Shade | 56 | 30,000 | 5,600 | Line 1 <Area 4> (Kerning City Subway) | 60 minutes |
-| Shade | 56 | 30,000 | 5,600 | Line 2 <Area 3> (Kerning City Subway) | 60 minutes |
+| King Clang | 55 | 191,000 | 0 | Hot Sand (Florina Road) | kept alive by a script |
+| Shade | 56 | 195,000 | 5,600 | Line 1 <Area 4> (Kerning City Subway) | 60 minutes |
+| Shade | 56 | 195,000 | 5,600 | Line 2 <Area 3> (Kerning City Subway) | 60 minutes |
 | Zoo White Fang | 58 | 10,000 | 10 | Zoo (Aquarium) | normal respawn |
-| Timer | 59 | 21,000 | 650 | Whirlpool of Time (Ludibrium) | checked every 3 hours |
-| Timer | 59 | 21,000 | 650 | Lost Time <1> (Ludibrium) | checked every 3 hours |
-| Timer | 59 | 21,000 | 650 | Lost Time <2> (Ludibrium) | checked every 3 hours |
-| Mushmom | 60 | 20,000 | 1,200 | Someone Else's House (Hidden Street) | 30 minutes |
+| Timer | 59 | 206,000 | 650 | Whirlpool of Time (Ludibrium) | kept alive by a script |
+| Timer | 59 | 206,000 | 650 | Lost Time <1> (Ludibrium) | kept alive by a script |
+| Timer | 59 | 206,000 | 650 | Lost Time <2> (Ludibrium) | kept alive by a script |
+| Mushmom | 60 | 227,000 | 1,200 | Someone Else's House (Hidden Street) | 30 minutes |
 | Scholar Ghost | 62 | 6,000 | 3,984 | Fox Ridge (Korean Folk Town) | 60 minutes |
 | Rurumo | 63 | 7,600,000 | 245 | Lab - Area B-1 (Alcadno Research Institute) | 40 minutes |
 | Rurumo | 63 | 7,600,000 | 245 | Lab - Area C-2 (Alcadno Research Institute) | 40 minutes |
@@ -118,73 +118,73 @@ Bosses that live on a normal map. Sorted by level.
 | Snow Witch | 64 | 7,700 | 10,320 | Watch Out for Icy Path I (El Nath) | 60 minutes |
 | Snow Witch | 64 | 7,700 | 10,320 | Watch Out for Icy Path II (El Nath) | 60 minutes |
 | Snow Witch | 64 | 7,700 | 10,320 | Icy Cold Field (El Nath) | 60 minutes |
-| Dyle | 65 | 31,000 | 810 | Dangerous Croko I (Warning Street) | checked every 3 hours |
-| Zeno | 65 | 36,000 | 940 | Gray's Prairie (Hidden Street) | checked every 3 hours |
-| Zombie Mushmom | 65 | 35,000 | 1,500 | The Grave of Mushmom (Dungeon) | 30 minutes |
+| Dyle | 65 | 741,000 | 810 | Dangerous Croko I (Warning Street) | kept alive by a script |
+| Zeno | 65 | 741,000 | 940 | Gray's Prairie (Hidden Street) | kept alive by a script |
+| Zombie Mushmom | 65 | 741,000 | 1,500 | The Grave of Mushmom (Dungeon) | 30 minutes |
 | Zoo Yeti | 65 | 11,000 | 10 | Zoo (Aquarium) | normal respawn |
-| Bamboo Warrior | 68 | 86,890 | 17,000 | Vanished Village (Zipangu) | checked every 3 hours |
+| Bamboo Warrior | 68 | 86,890 | 17,000 | Vanished Village (Zipangu) | kept alive by a script |
 | Gatekeeper Nex | 70 | 90,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
 | Giant Cake | 70 | 13,000 | 280 | Sweet Cake Hill 3 (Mini Dungeon) | normal respawn |
-| Nine-Tailed Fox | 70 | 89,000 | 1,300 | Moon Ridge (Hidden Street) | checked every 3 hours |
-| Tae Roon | 71 | 93,000 | 1,580 | Territory of Wandering Bear (Mu Lung) | checked every 3 hours |
+| Nine-Tailed Fox | 70 | 485,000 | 1,300 | Moon Ridge (Hidden Street) | kept alive by a script |
+| Tae Roon | 71 | 492,000 | 1,580 | Territory of Wandering Bear (Mu Lung) | kept alive by a script |
 | Gatekeeper Nex | 73 | 102,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
-| Riche | 74 | 11,000 | 25,000 | Forest of Dead Trees I (El Nath) | 60 minutes |
-| Riche | 74 | 11,000 | 25,000 | Forest of Dead Trees II (El Nath) | 60 minutes |
-| Riche | 74 | 11,000 | 25,000 | Forest of Dead Trees III (El Nath) | 60 minutes |
-| Riche | 74 | 11,000 | 25,000 | Forest of Dead Trees IV (El Nath) | 60 minutes |
+| Riche | 74 | 515,000 | 25,000 | Forest of Dead Trees I (El Nath) | 60 minutes |
+| Riche | 74 | 515,000 | 25,000 | Forest of Dead Trees II (El Nath) | 60 minutes |
+| Riche | 74 | 515,000 | 25,000 | Forest of Dead Trees III (El Nath) | 60 minutes |
+| Riche | 74 | 515,000 | 25,000 | Forest of Dead Trees IV (El Nath) | 60 minutes |
 | Security Camera | 75 | 150,000 | 350 | Authorized Personnel Only (Hidden Street) | 60 minutes |
 | Bergamot | 77 | 40,000 | 0 | <Year 2009> Midnight Harbor Pier (Neo City) | normal respawn |
 | Gatekeeper Nex | 77 | 114,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
-| King Sage Cat | 77 | 108,000 | 2,280 | Goblin Forest 2 (Mu Lung) | checked every 3 hours |
+| King Sage Cat | 77 | 538,000 | 2,280 | Goblin Forest 2 (Mu Lung) | kept alive by a script |
 | Athena Pierce's Clone | 80 | 120,000 | 2,400 | The Other Dimension (Hidden Street) | normal respawn |
 | Dances with Balrog's Clone | 80 | 150,000 | 2,400 | The Other Dimension (Hidden Street) | normal respawn |
 | Dark Lord's Clone | 80 | 120,000 | 2,400 | The Other Dimension (Hidden Street) | normal respawn |
 | Deet and Roi | 80 | 175,000 | 850 | Lab - Unit 202 (Zenumist Research Institute) | 40 minutes |
 | Grendel the Really Old's Clone | 80 | 90,000 | 2,400 | The Other Dimension (Hidden Street) | normal respawn |
-| Jr. Balrog | 80 | 50,000 | 2,000 | The Cursed Sanctuary (Dungeon) | 180 minutes |
+| Jr. Balrog | 80 | 605,000 | 2,000 | The Cursed Sanctuary (Dungeon) | 180 minutes |
 | Shadow Kyrin | 80 | 130,000 | 2,400 | The Other Dimension (Shadow Zone) | normal respawn |
 | Thief Crow | 80 | 150,000 | 0 | Find the Black Crow! (Penguin Port in Emergency) | normal respawn |
 | Thief Crow | 80 | 150,000 | 0 | Black Crow Region (Aran's Past) | normal respawn |
 | Zoo Balrog | 80 | 50,000 | 0 | Zoo (Aquarium) | normal respawn |
 | Dunas | 81 | 300,000 | 3,800 | <Year 2215> Bombed City Center Square (Neo City) | normal respawn |
 | Gatekeeper Nex | 81 | 126,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
-| Eliza | 83 | 87,000 | 2,800 | Stairway to the Sky II (Orbis) | checked every 3 hours |
+| Eliza | 83 | 630,000 | 2,800 | Stairway to the Sky II (Orbis) | kept alive by a script |
 | Aufheben | 85 | 410,000 | 4,300 | <Year 2216> Ruined City Land Mark (Neo City) | normal respawn |
-| Chimera | 85 | 96,000 | 3,000 | Lab - Secret Basement Path (Hidden Street) | checked every 3 hours |
+| Chimera | 85 | 644,000 | 3,000 | Lab - Secret Basement Path (Hidden Street) | kept alive by a script |
 | Gatekeeper Nex | 85 | 138,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
-| Unknow Snack Bar | 85 | 5,000 | 0 | Drake Area (Dungeon) | checked every 3 hours |
+| Unknow Snack Bar | 85 | 5,000 | 0 | Drake Area (Dungeon) | kept alive by a script |
 | Blue Mushmom | 90 | 200,000 | 10,000 | Hall of Mushroom (Zipangu) | 1380 minutes |
 | Gatekeeper Nex | 90 | 150,000 | 330 | Old Tree in Tera Forest (Tera Forest  ) | normal respawn |
 | Oberon | 90 | 450,000 | 5,500 | <Year 2230> Dangerous Tower Penthouse (Neo City) | normal respawn |
-| Snowman | 90 | 120,000 | 5,200 | Valley of Snowman (Hidden Street) | 10 minutes |
-| Male Boss | 95 | 85,000 | 5,500 | Showa Street 3 (Zipangu) | 240 minutes |
+| Snowman | 90 | 705,000 | 5,200 | Valley of Snowman (Hidden Street) | 10 minutes |
+| Male Boss | 95 | 748,000 | 5,500 | Showa Street 3 (Zipangu) | 240 minutes |
 | Male Boss | 95 | 85,000 | 5,500 | Armory (Zipangu) | 120 minutes |
 | Male Boss | 95 | 85,000 | 5,500 | The Nightmarish Last Days (Zipangu) | 20 minutes |
 | Nibelung | 95 | 240,000 | 0 | <Year 2503> Air Battleship Stern (Neo City) | normal respawn |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Forgotten Path (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Hidden Evil (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Creeping Evil (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | The Evil Dead (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
-| Headless Horseman | 101 | 3,500,000 | 300,000 | Hollowed Ground (Phantom Forest) | 360 minutes |
-| Griffey | 105 | 3,700,000 | 13,500 | Griffey Forest (Leafre) | 180 minutes |
-| Griffey | 105 | 3,700,000 | 13,500 | Griffey Forest (Leafre) | 30 minutes |
-| Manon | 105 | 3,700,000 | 13,500 | Manon's Forest (Leafre) | 180 minutes |
-| Manon | 105 | 3,700,000 | 13,500 | Manon's Forest (Leafre) | 30 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Forgotten Path (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Evil Rising (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | The Evil Dead (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
-| Bigfoot | 110 | 32,000,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
-| Pianus | 110 | 30,000,000 | 1,300,000 | The Cave of Pianus (Aqua Road) | 1440 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Forgotten Path (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Hidden Evil (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Creeping Evil (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | The Evil Dead (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Crossroads (Phantom Forest) | 360 minutes |
+| Headless Horseman | 101 | 847,000 | 300,000 | Hollowed Ground (Phantom Forest) | 360 minutes |
+| Griffey | 105 | 884,000 | 13,500 | Griffey Forest (Leafre) | 180 minutes |
+| Griffey | 105 | 884,000 | 13,500 | Griffey Forest (Leafre) | 30 minutes |
+| Manon | 105 | 884,000 | 13,500 | Manon's Forest (Leafre) | 180 minutes |
+| Manon | 105 | 884,000 | 13,500 | Manon's Forest (Leafre) | 30 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Forgotten Path (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Evil Rising (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | The Evil Dead (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
+| Bigfoot | 110 | 2,897,000 | 2,660,000 | Twisted Paths (Phantom Forest) | 720 minutes |
+| Pianus | 110 | 2,897,000 | 1,300,000 | The Cave of Pianus (Aqua Road) | 1440 minutes |
 | Pianus | 110 | 24,000,000 | 900,000 | The Cave of Pianus (Aqua Road) | 2160 minutes |
-| Black Crow | 115 | 35,000,000 | 1,780,000 | Encounter with the Buddha (Zipangu) | 1380 minutes |
-| Leviathan | 120 | 13,400,000 | 47,355 | Leviathan's Canyon (Hidden Street) | checked every 3 hours |
+| Black Crow | 115 | 3,042,000 | 1,780,000 | Encounter with the Buddha (Zipangu) | 1380 minutes |
+| Leviathan | 120 | 13,400,000 | 47,355 | Leviathan's Canyon (Hidden Street) | kept alive by a script |
 | Dodo | 121 | 5,900,000 | 20,850 | Memory Lane5 (Time Lane) | 60 minutes |
 | Master Dummy | 128 | 15,375,000 | 114,200 | Practice Field : Advanced Level (Mu Lung) | 40 minutes |
 | Female Boss | 130 | 75,000,000 | 3,900,000 | Parlor (Zipangu) | 240 minutes |

@@ -53,6 +53,10 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 Estimates how much equipment a player picks up while levelling and how much of it their class would wear, per ten levels or per level. Reads the reference lists; changes nothing. `--class thief` for one class in detail, `--levels` for one row per level, `--drop-rate` to try another rate, `--budget N` for a what-if where every level gives about N pieces.
 
+## Tune-Bosses.py
+
+Sets the HP of the trial bosses (`Settings/Trials.tsv`) so that a fight takes a set time for one player, using the damage simulator. `--check` shows the table without writing. Restart the server afterwards, and run it again after changing skills.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.
