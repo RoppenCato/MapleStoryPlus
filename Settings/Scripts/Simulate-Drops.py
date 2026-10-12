@@ -34,6 +34,7 @@ LEVELS_ABOVE = 1            # ...to this far above
 MIN_SPAWNS = 8
 USEFUL_BELOW = 9            # equipment needing up to this many levels under yours still counts as "for you"...
 USEFUL_AHEAD = 3            # ...and so does what you can wear within this many levels
+TOP_TIER = 100              # the highest level of gear ordinary monsters drop
 CLASSES = ["warrior", "magician", "bowman", "thief", "pirate"]
 
 
@@ -92,7 +93,10 @@ def main():
 
     def fits(item, cls, level):
         e = equips[item]
-        return (e["job"] == "all" or cls in e["job"].split("/")) and level - USEFUL_BELOW <= int(e["req_level"]) <= level + USEFUL_AHEAD
+        wearable = e["job"] == "all" or cls in e["job"].split("/")
+        # The top tier stays useful however far you are past it: ordinary monsters drop nothing better
+        lowest = min(level - USEFUL_BELOW, TOP_TIER)
+        return wearable and lowest <= int(e["req_level"]) <= level + USEFUL_AHEAD
 
     table = []
     for level in range(1, a.to):

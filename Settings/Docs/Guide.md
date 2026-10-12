@@ -225,9 +225,15 @@ python Settings/Reference/Build-Reference.py
 python Settings/Scripts/Make-Drop-Site.py
 ```
 
-Stop the game server before the second line; it saves a database backup first. The rules are numbers at the top of `Rebalance-Drops.py`: how far above or below an item's level a monster may be (5 above, 20 below), how many monsters around its level must drop it (3, within 10 levels below and 2 above), and the chance at a popular hunting spot (0.15% before the drop rate; 0.08% elsewhere). Running it twice changes nothing the second time. It only touches equipment dropped by ordinary monsters; bosses, scrolls, ores and quest items are left alone.
+Stop the game server before the second line; it saves a database backup first. Running it twice changes nothing the second time. It only touches equipment dropped by ordinary monsters; bosses, event monsters, scrolls, ores and quest items are left alone.
 
-Two more rules in the same script: the plain gear every class wears on the way up (`Loadouts.tsv`) always has droppers, also where nothing dropped it before; and the first gear (needing level 12 or less) drops at 0.4% from the monsters before level 10, because that stretch is only about 160 kills long.
+The rules are described at the top of `Rebalance-Drops.py` and their numbers are just below:
+
+- **Which monsters drop an item:** none more than 5 levels above the level it needs or 20 below; at least 3 between 10 under and 2 over; the plain gear of every class (`Loadouts.tsv`) always has droppers; level 100 gear also drops from everything above it.
+- **Something for every class:** every monster that lives in numbers drops at least one weapon and two armour pieces per class.
+- **How often, as a budget:** each monster's total chance is set so that a level of training gives about 8 pieces of gear at a popular hunting spot and 5.5 elsewhere (`PIECES_PER_LEVEL`, `PIECES_ELSEWHERE`), never more than 1 kill in 8. The classes share it equally, and the first gear before level 10 counts five times.
+
+The chances are worked out for the drop and exp rates in `config.yaml`. **After changing those rates, run the script again**, or the amount of gear changes with them.
 
 To see what a rate feels like, run the drop simulation. It changes nothing:
 
