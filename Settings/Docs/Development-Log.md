@@ -95,7 +95,16 @@ What the tests answer: whether buff durations and speed are decided by the serve
 - Game facts are handed to the bot as something it knows, so it says them in its own voice.
 - New from this project: training suggestions by level from the monster data, and `Test-Bot-Voices.py` adapted for MapleStory. What listening changed is listed in `Settings/Bots/README.md`.
 - Tested outside the game only. The server side is unchanged: it still sends whispers to port 8585.
-- Not taken over: memory and bots speaking first. Waiting for Robin's decision.
+- Not taken over: bots speaking first (needs server code for each occasion).
+
+## 2026-10-12: Bots remember their buddies
+
+- Robin's direction: a bot should remember you if it is your buddy or in your guild.
+- Decided: three ties (buddy, guild, party). A stranger keeps nothing beyond the talk. Buddies are asked in a whisper and decided by the bridge: yes after four lines in one talk or when in a party together.
+- Why not the game's buddy list: bots are not in the database and are made fresh, with new ids, at every start. The list would lose them at the next login. Being buddies is kept by bot name in `Database/BotChat/maplestory/`.
+- Guild is wired in the bridge but bots cannot join guilds yet, so the server always sends 0.
+- Tested outside the game: a refused request, an accepted one, notes written, and the notes used in the next talk. Not tested in game.
+
 
 ## Changes to the server code
 
@@ -114,6 +123,7 @@ Every change we make to the original code, so we know what to check when pulling
 | 2026-10-10 | `Server/src/main/java/plus/ClassSkills.java` (new), `client/processor/stat/AssignSPProcessor.java`, `client/Character.java`, `server/maps/MapleMap.java` | Paired warrior weapon skills level together. Chief Bandits and Shadowers are given Flash Jump (level follows character level from 70) and it is put on a free key. | Agreed class changes. Not tested in game yet. |
 | 2026-10-10 | `Server/src/main/java/net/server/channel/handlers/AbstractDealDamageHandler.java` | Drain and the other draining attacks heal from one monster per use, based on the damage to that monster. Before, the heal was worked out for every monster hit, from the running total. | Drain now hits up to 3 monsters; the healing must not grow with it. Not tested in game yet. |
 | 2026-10-10 | `Server/src/main/java/net/server/Server.java` (`haveCharacterEntry`) | When a chosen character is not in the server's list for the account, the account's characters are read from the database again before the choice is refused. | The list is filled at the account's first login after a server start. Characters made by `Make-Character.py --create` after that were shown at character select but dropped the connection when chosen. Not confirmed in game on one of those characters yet. |
+| 2026-10-12 | `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java` | The whisper sent to the bridge also says the bot's gender and whether the bot is in the player's party (and a guild flag, always 0 for now). | So that a new bot gets a person of its own gender, and a bot in your party keeps notes about you. Not tested in game yet. |
 | 2026-10-11 | `Server/src/main/java/plus/FixedShops.java` (new), `soloMapling/FreeMarket/ArtificialFreeMarket.java` (`populateFreeMarketRoom`) | A Free Market room listed in `Settings/Fixed-Shops.tsv` gets the shops from that file instead of random ones. Their stock is refilled after every purchase and nothing about them is saved to the database. | Scrolls and supplies that are always for sale. All 41 shops open at start; buying from one is not tested in game yet. |
 | 2026-10-11 | `Server/src/main/java/server/Shop.java` (`sell`) | Equipment sold to a vendor pays a quarter of its data price. | Selling equipment drops flooded the late game with mesos (see `Simulate-Economy.py`). Not tested in game yet. |
 | 2026-10-10 | `Server/src/main/java/plus/SkillSplash.java` (new), `net/server/channel/handlers/AbstractDealDamageHandler.java` | Energy Bolt, Poison Breath, Holy Arrow, Arrow Blow and Drain: when one of them damages a monster, the server deals the same damage (give or take 10%, rolled per monster) to the nearest monsters within 200 pixels of it, up to the skill's target count, just after the first hit shows (the hit delay the client reports plus 0.15 s, at least 0.7 s). Poison Breath's poison is rolled for each of them. | The client keeps these skills on one target whatever the skill data says (tested with the target count and hit box, and with Energy Bolt's projectile removed). Tested in game by Robin: works (which of the five skills were tried is not recorded). |

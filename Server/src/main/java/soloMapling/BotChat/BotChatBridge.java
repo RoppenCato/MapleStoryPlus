@@ -41,6 +41,12 @@ public class BotChatBridge {
         form.put("job", bot.getJob().name());
         form.put("map", String.valueOf(bot.getMapId()));
         form.put("player_map", String.valueOf(player.getMapId()));   // lets the bot give directions from where the player is
+        // MapleStoryPlus: who the bot is to the player. A bot in your party keeps notes about you; bots cannot
+        // join guilds yet, so that is always 0 for now.
+        form.put("gender", bot.getGender() == 1 ? "female" : "male");
+        form.put("party", player.getParty() != null && bot.getParty() != null
+                && player.getParty().getId() == bot.getParty().getId() ? "1" : "0");
+        form.put("guild", "0");
         form.put("text", message);
         String body = form.entrySet().stream()
                 .map(e -> e.getKey() + "=" + URLEncoder.encode(e.getValue(), StandardCharsets.UTF_8))

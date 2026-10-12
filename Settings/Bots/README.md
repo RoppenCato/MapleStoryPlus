@@ -22,6 +22,7 @@ What is personal to this PC is kept outside the repository, in `Database/BotChat
 | File | What it is |
 |---|---|
 | `Assignments.json` | Which person plays which bot. Fixed the first time a bot is whispered. To give a bot a particular person, put that person's `id` here under `maplestory`. |
+| `maplestory/<you>/<bot>.json` | What that bot remembers about you: up to eight notes, its last ten lines, whether you are buddies and since when. A plain file; edit or delete it to change or wipe a bot's memory of you. |
 | `_session/` | An empty folder the Claude runs happen in. |
 | `_test/` | The listening test's throwaway folder. |
 
@@ -33,7 +34,23 @@ What is personal to this PC is kept outside the repository, in `Database/BotChat
 4. Claude Haiku writes the reply as that person. The length of the answer is drawn, hello, goodbye and thanks get the person's own word, and a joke, a question back or a word about their own day each depend on dice.
 5. The person's typing habits (lower case, no apostrophes, their own laugh word) are applied once more in code, and the reply is cut into lines of at most 70 characters.
 
-Nothing about the conversation is saved; it is forgotten after ten quiet minutes. Everyone is a stranger to the bot, so its private life stays private unless you ask.
+## Buddies and memory
+
+A bot remembers you when there is a tie between you, the way it goes in MapleStory:
+
+| Tie | How you get it | What the bot keeps | How it treats you |
+|---|---|---|---|
+| None (a stranger) | | The conversation, for ten quiet minutes. Nothing after that. | Friendly enough; its private life stays private unless you ask. |
+| Party | The bot is in your party. | Notes about you, for a month after you last spoke. | At ease; something from its day may come up. |
+| Buddy | You ask ("buddy?", "can i add you", "add me") and it says yes. | Notes about you, for good. | At ease at once; after three remembered talks a friend, who names the people in its life and can be in a bad mood in front of you. |
+| Guild | The bot is in your guild. Not possible yet; the bridge is ready for it. | As a buddy. | As a buddy. |
+
+- **A stranger does not say yes straight away.** It agrees once you have written it four lines in the same talk, or at once if you are in a party together. Before that it puts you off lightly. This is decided by the bridge, not by Claude.
+- **"unbuddy"** or "remove you from my buddy list" ends it; the notes then fade after a month.
+- **Notes are written after a talk:** when eight new lines have passed, or four minutes of silence, Claude Haiku brings the bot's notes up to date (at most eight, under 110 characters each). They include what the bot told you about itself, so its story stays the same.
+- **The game's own buddy list is not used.** Bots are made fresh at every server start, so that list cannot hold them. Being buddies is kept by the bot's name. When someone of that name is around after a restart it is the same person, and if their level or job differs they are simply on another character and know it. A name that is not handed out that day cannot be whispered.
+
+To see who your buddies are, look in `Database/BotChat/maplestory/<your character>/`: one file per bot that remembers you.
 
 ## Writing people in full
 
@@ -65,6 +82,7 @@ What to listen for is in the character sheet. What listening changed here, on to
 | A fact answer names one or two monsters, says nothing about the bot's own day and gives no route unless asked. | Answers ran to three lines and ended with the bot's headache. |
 | A message that had to be cut ends at a full stop or comma, never on "and". | Half sentences reached the game. |
 | "Do not ask a question" also removes a tacked-on "you" at the end. | The question mark went but the question stayed. |
+| "im a level 30 cleric" is not a question about where to train. | It was answered with where the Maple Hat drops. |
 | No advice when you tell them something ("stay out of its room"). | Helpdesk. |
 | A thing is said once per talk. | The same headache came up three times. |
 
@@ -72,7 +90,6 @@ What to listen for is in the character sheet. What listening changed here, on to
 
 | Thing | What it would need here |
 |---|---|
-| Memory: up to eight notes per bot about you, and what it said lately. It is also what lets a bot become an acquaintance and then a friend. | Only the bridge: `load_memory`, `note_said`, `remember` and `familiarity` from the reference bridge. It breaks the rule that nothing is saved, which was a decision made for this project. |
 | Bots speaking first: a greeting, a remark of their own. | The game server has to ask for it, and here it only passes on whispers. New server code. |
 | Bots that know each other outside the game. | Only matters once several bots talk in one chat. |
 

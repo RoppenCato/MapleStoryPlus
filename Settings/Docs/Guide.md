@@ -232,7 +232,9 @@ Two files do the work:
 - `Settings/Scripts/bot_minds.py` knows who the bots are: the people, their backgrounds, their typing habits, and how Claude is asked. It is shared with the WowPlus project and must stay identical in both; do not change it for MapleStory alone.
 - `Settings/Scripts/Bot-Chat-Bridge.py` is the MapleStory part: what drops where, where monsters live, where to train at a level, the quickest way between maps, and the rules for how a whisper is answered.
 
-The people themselves are in `Settings/Bots/` (see its [README](../Bots/README.md) and the [character sheet](../Bots/Character-Sheet.md)). A bot gets a person the first time it is whispered and keeps them; that pairing is in `Database/BotChat/Assignments.json`. Conversations are not saved.
+The people themselves are in `Settings/Bots/` (see its [README](../Bots/README.md) and the [character sheet](../Bots/Character-Sheet.md)). A bot gets a person the first time it is whispered and keeps them; that pairing is in `Database/BotChat/Assignments.json`.
+
+A bot that is your buddy, or in your party, keeps notes about you in `Database/BotChat/maplestory/<your character>/<bot>.json`; a stranger keeps nothing. You become buddies by asking the bot in a whisper. The rules are in the Bots README under "Buddies and memory", and the numbers (how many notes, how long a party member is remembered, how many lines before a stranger says yes) are at the top of the bridge.
 
 | I want to | Do this |
 |-----------|---------|
@@ -242,6 +244,8 @@ The people themselves are in `Settings/Bots/` (see its [README](../Bots/README.m
 | Make bots chattier or quieter | The chances at the top of the bridge (`QUESTION_CHANCE`, `JOKE_CHANCE`, `PERSONAL_CHANCE`). |
 | Stop bots typing a phrase | The "player, not a guide" rule in the bridge's `system_prompt`. |
 | Give a bot a particular person | Put the person's `id` under `maplestory` in `Database/BotChat/Assignments.json`. |
+| Change or wipe what a bot remembers about you | Edit or delete its file in `Database/BotChat/maplestory/<your character>/`. |
+| Try memory without the game | `python Settings/Scripts/Bot-Chat-Bridge.py --bot Somebot --say "..." --say "can i add you?" --remember` (delete the file it leaves afterwards). |
 | Write more people in full | `python Settings/Scripts/Make-Bot-Backgrounds.py --count 20` |
 
 After any such change, listen before playing:

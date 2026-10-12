@@ -9,15 +9,20 @@ This file is the part that is MapleStory: the world, what drops where, the way f
 another, and the rules for how a whisper is answered.
 
   - any bot can be whispered
-  - nothing about a conversation is saved; it is forgotten after 10 minutes of silence
-  - which person plays which bot is kept in Database/BotChat/Assignments.json (not in the repository)
+  - a stranger remembers the conversation for 10 quiet minutes and nothing after that
+  - a bot that is your buddy, in your guild or in your party keeps notes about you
+  - what belongs to this PC is in Database/BotChat (not in the repository):
+      Assignments.json              which person plays which bot
+      maplestory/<you>/<bot>.json   what that bot remembers about you, and whether you are buddies
   - replies come from Claude Code running Haiku on your Claude login (no API key)
 
 Test without the game:   python Settings/Scripts/Bot-Chat-Bridge.py --say "hey" --say "where do i find steelies"
 Compare many voices:     python Settings/Scripts/Test-Bot-Voices.py
 """
 import argparse
+import glob
 import io
+import json
 import os
 import random
 import re
@@ -31,7 +36,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import bot_minds  # noqa: E402  (who the bots are; identical in WowPlus and MapleStoryPlus)
-from bot_minds import STRANGER, read_lines  # noqa: E402
+from bot_minds import ACQUAINTANCE, FRIEND, STRANGER, read_lines  # noqa: E402
 
 GAME = "maplestory"
 BOTS_DIR = os.path.join(ROOT, "Settings", "Bots")             # the people behind the bots; shared with WowPlus
@@ -43,6 +48,14 @@ MAX_LINES = 3                   # lines per reply
 MAX_LINE_LENGTH = 70            # characters per chat line
 MAX_AT_ONCE = 3                 # conversations answered at the same time
 WRITE_PEOPLE_IN_FULL = True     # the first time a bot speaks, have its person written in full in the background
+REMEMBER_AFTER_TURNS = 8        # new lines in a talk before a bonded bot's notes are brought up to date
+REMEMBER_AFTER_IDLE = 4 * 60    # or this many seconds of silence
+MAX_NOTES = 8                   # notes a bot keeps about you
+MAX_NOTE_LENGTH = 110
+SAID_KEPT = 10                  # own recent lines a bot is shown so that it does not repeat itself
+PARTY_KEEP_DAYS = 30            # notes of bots that were only party members are dropped after this long
+FRIEND_AFTER_TALKS = 3          # talks remembered before a buddy or guild mate counts you as a friend
+BUDDY_AFTER_LINES = 4           # lines you must have written to a stranger before it says yes to being buddies
 
 # How talkative bots are. Most of what people write in a game is plain and practical; these are the chances
 # that one message may have something extra. Raise them for livelier bots, lower them for quieter ones.
@@ -66,7 +79,7 @@ MAX_MOBS_PER_ITEM = 4
 
 lock = threading.Lock()
 slots = threading.Semaphore(MAX_AT_ONCE)
-conversations = {}              # (player, bot) -> {"turns": [(who, text)], "last": time, "said": [own lines]}
+conversations = {}              # (player, bot) -> {"turns": [(who, text)], "last": time, "said": [own lines], "new": count, "bond": tie}
 map_names = {}
 minds = None
 
@@ -278,6 +291,7 @@ ASKING_WORDS = re.compile(r"\b(drops?|dropp\w*|find|found|farm\w*|where|which (m
                           r"how (do|can|to) i get|where (do|can) i get)\b", re.I)
 # "where should I train at 35", "good spot to grind at lvl 50"
 TRAIN_WORDS = re.compile(r"\b(train\w*|grind\w*|level(?:ing|ling)?|lvl(?:ing)?|exp|spots?)\b", re.I)
+TRAIN_QUESTION = re.compile(r"\?|\b(where|what|which|any|should|good|best|recommend\w*|worth)\b", re.I)
 LEVEL_NUMBER = re.compile(r"(?<![\w.])(\d{1,3})(?![\w.%])")
 # The question is about the person, not the game.
 ABOUT_YOU = re.compile(r"\b(you|your|you're|u|ur)\b", re.I)
@@ -408,11 +422,198 @@ routes = None
 
 
 # ---------------------------------------------------------------------------------------------
+# Memory: what a bot remembers about you
+#
+# A bot remembers you when there is a tie between you, the way people do in MapleStory:
+#   buddy   you asked it to be buddies and it said yes. Kept for good.
+#   guild   it is in your guild. Kept for good. (Bots cannot join guilds yet; the bridge is ready for it.)
+#   party   it is in your party right now. Kept for a month after you last spoke.
+# A stranger remembers the conversation while it lasts and nothing after that.
+#
+# Bots are made fresh at every server start, so the game's own buddy list cannot hold them. Being
+# buddies is kept here instead, by the bot's name: the next time someone of that name is around, it is
+# the same person, possibly on another character.
+# ---------------------------------------------------------------------------------------------
+
+def safe_name(name):
+    return re.sub(r"[^A-Za-z0-9_-]", "_", name)[:40] or "_"
+
+
+def memory_path(player, bot):
+    return os.path.join(STATE_DIR, GAME, safe_name(player), safe_name(bot) + ".json")
+
+
+def load_memory(player, bot):
+    try:
+        with io.open(memory_path(player, bot), encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {"notes": [], "talks": 0, "said": []}
+
+
+def save_memory(player, bot, memory):
+    path = memory_path(player, bot)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with io.open(path, "w", encoding="utf-8") as f:
+        json.dump(memory, f, indent=1, ensure_ascii=False)
+
+
+def tie(memory, party=False, guild=False):
+    """What ties this bot to the player: "buddy", "guild", "party" or "" for a stranger."""
+    return "buddy" if memory.get("buddy") else "guild" if guild or memory.get("guild") else "party" if party else ""
+
+
+def how_well(memory, party=False, guild=False):
+    """How well this bot knows the player: decides how much of its own life it lets show."""
+    bond = tie(memory, party, guild)
+    if bond in ("buddy", "guild"):
+        return FRIEND if memory.get("talks", 0) >= FRIEND_AFTER_TALKS else ACQUAINTANCE
+    return ACQUAINTANCE if bond == "party" or memory.get("talks", 0) >= 1 else STRANGER
+
+
+def note_said(player, bot, lines, character, party, guild):
+    """Keeps a bonded bot's last few lines, so that next time it can avoid saying the same thing again."""
+    with lock:
+        memory = load_memory(player, bot)
+        if not lines or not tie(memory, party, guild):
+            return
+        memory["said"] = (memory.get("said", []) + lines)[-SAID_KEPT:]
+        memory.update(updated=time.time(), character=character, guild=bool(guild) or bool(memory.get("guild")))
+        save_memory(player, bot, memory)
+
+
+def forget_old_parties():
+    """Drops the notes of bots that were only ever party members and have not been talked to for a month."""
+    limit = time.time() - PARTY_KEEP_DAYS * 86400
+    dropped = 0
+    for path in glob.glob(os.path.join(STATE_DIR, GAME, "*", "*.json")):
+        try:
+            with io.open(path, encoding="utf-8") as f:
+                memory = json.load(f)
+            if not memory.get("buddy") and not memory.get("guild") and memory.get("updated", 0) < limit:
+                os.remove(path)
+                dropped += 1
+        except (OSError, ValueError):
+            pass
+    if dropped:
+        log(f"Forgot {dropped} old party members not spoken to for {PARTY_KEEP_DAYS} days.")
+
+
+def remember(player, bot, info, turns):
+    """Brings a bot's notes about the player up to date from a stretch of conversation."""
+    old = "\n".join("- " + n for n in load_memory(player, bot).get("notes", [])) or "(nothing yet)"
+    system = (
+        f"You keep the private memory of {bot}, a person who plays the online game MapleStory, about another player "
+        f"called {player}. From the notes so far and a new stretch of chat, write the notes {bot} should keep.\n"
+        f"- At most {MAX_NOTES} notes, one per line, each under {MAX_NOTE_LENGTH} characters, written from {bot}'s "
+        "point of view ('Plays a cleric', 'We joked about jr balrog').\n"
+        f"- Keep what will matter next time: what {player} is like, what they play and are working on, things they "
+        "told about themselves, plans made together, promises, running jokes, how the two of you get along, and "
+        f"anything {bot} told {player} about their own life (so that the story stays the same next time).\n"
+        "- Merge with the old notes: keep what is still true, replace what changed, drop the least important when "
+        "there are too many. Leave out greetings and small talk. If the chat holds nothing worth keeping, return "
+        "the old notes unchanged.\n"
+        "- Put the notes between <notes> and </notes>, and write nothing outside those tags."
+    )
+    transcript = (f"Notes so far:\n{old}\n\nNew chat:\n" + "\n".join(f"{who}: {line}" for who, line in turns)
+                  + "\n\nWrite the updated notes inside <notes></notes>.")
+    with slots:
+        raw, error = minds.ask(system, transcript)
+    if error:
+        log(f"   ! memory of {bot}: {error}")
+        return
+    found = re.findall(r"<notes>(.*?)</notes>", raw, re.S)
+    notes = []
+    for line in (found[0].splitlines() if found else []):
+        line = line.strip().lstrip("-*0123456789. ").strip()
+        if line and not bot_minds.PRIVATE.search(line) and "nothing yet" not in line:
+            notes.append(line[:MAX_NOTE_LENGTH])
+    with lock:
+        memory = load_memory(player, bot)
+        memory.update(notes=notes[:MAX_NOTES] or memory.get("notes", []), updated=time.time(),
+                      talks=memory.get("talks", 0) + 1, character=info.get("character", ""),
+                      guild=bool(info.get("guild")) or bool(memory.get("guild")))
+        save_memory(player, bot, memory)
+    if notes:
+        log(f"   {bot} remembers about {player}: " + " | ".join(notes[:MAX_NOTES]))
+
+
+def remember_what_is_due(everything=False):
+    """Updates the notes of bonded bots for every talk that has gone on long enough or gone quiet, and puts
+    away talks nobody has added to for a while."""
+    now = time.time()
+    due = []
+    with lock:
+        for key, convo in list(conversations.items()):
+            idle = now - convo["last"]
+            if convo.get("new") and (everything or convo["new"] >= REMEMBER_AFTER_TURNS or idle >= REMEMBER_AFTER_IDLE):
+                if convo.get("bond"):
+                    due.append((convo["player"], convo["bot"], dict(convo), list(convo["turns"][-MAX_TURNS_KEPT:])))
+                convo["new"] = 0
+            if idle > IDLE_SECONDS and not convo.get("new"):
+                del conversations[key]
+    for player, bot, info, turns in due:
+        remember(player, bot, info, turns)
+
+
+def memory_keeper():
+    while True:
+        time.sleep(30)
+        try:
+            remember_what_is_due()
+        except Exception as error:          # the window must keep running
+            log(f"   ! memory keeper: {error}")
+
+
+BUDDY_ASK = re.compile(r"\b(?:budd(?:y|ies)|bl)\b.*\?|\b(?:add (?:me|you|u)|be (?:my )?budd(?:y|ies)|"
+                       r"wanna be (?:budd(?:y|ies)|friends)|buddy me|can i (?:add|buddy) (?:you|u))\b", re.I)
+BUDDY_END = re.compile(r"\b(?:unbuddy|remove (?:you|u|me) (?:from|as)|delete (?:you|u) from|not (?:my )?budd(?:y|ies) any ?more)\b", re.I)
+
+
+def buddy_request(text, memory, party, guild, lines_so_far):
+    """What a bot does when asked to be buddies: ("yes" | "already" | "not yet" | "end" | "", task for the reply)."""
+    if BUDDY_END.search(text) and memory.get("buddy"):
+        return "end", ("They are taking you off their buddy list. Take it lightly, your way, in a few words. "
+                       "No hurt feelings and no questions.")
+    if not BUDDY_ASK.search(text):
+        return "", ""
+    if memory.get("buddy"):
+        return "already", "They ask about being buddies. You already are: say so in a few words, your way."
+    # People buddy someone they have actually talked to, or are in a party or guild with
+    if party or guild or memory.get("talks", 0) >= 1 or lines_so_far >= BUDDY_AFTER_LINES:
+        return "yes", ("They asked to be buddies, and you are happy to. Say yes your way, in a few words, as someone "
+                       "adding them to the buddy list right now. Nothing else.")
+    return "not yet", ("They asked to be buddies, but you have barely exchanged a word. Put it off lightly, your way, "
+                       "in a few words: not a no, just not yet. No explanation of rules.")
+
+
+# ---------------------------------------------------------------------------------------------
 # What a bot is told
 # ---------------------------------------------------------------------------------------------
 
-def system_prompt(bot, level, job, map_id, player, person, familiarity=STRANGER):
+BONDS = {
+    "buddy": "{player} is on your buddy list, and you are on theirs.",
+    "guild": "You and {player} are in the same guild.",
+    "party": "You are in a party with {player} right now.",
+    "": "You are not buddies with {player}, and not in a guild or party with them.",
+}
+
+
+def system_prompt(bot, level, job, map_id, player, person, familiarity=STRANGER, memory=None, bond=""):
+    memory = memory or {}
     job_name = job.replace("_", " ").title() if job else "Beginner"
+    notes = memory.get("notes") or []
+    remembered = ""
+    if bond or notes:
+        remembered = (("What you remember about " + player + " from earlier: " + " ".join(notes)) if notes else
+                      f"You have not talked much with {player} before, as far as you remember.") + "\n"
+    character = f"level {level} {job_name}"
+    if notes and memory.get("character") and memory["character"] != character:
+        remembered += (f"Last time you talked you were on your {memory['character']}; today you are on this "
+                       "character. People have several, so nobody finds that odd.\n")
+    said = memory.get("said") or []
+    repeated = ("Things you said to them recently: " + " / ".join(said) + " Do not repeat these, their wording, their "
+                "jokes or the way they open; say something new.\n") if said else ""
     place = map_names.get(str(map_id), "") or "somewhere in Maple World"
     language = "- Write English, whatever your own language is.\n"
     if person and person.get("language") in bot_minds.SCANDINAVIAN:
@@ -425,8 +626,10 @@ def system_prompt(bot, level, job, map_id, player, person, familiarity=STRANGER)
         "In the game people call you by your character's name.\n"
         + minds.who(person, bot, familiarity)
         + minds.voice(person)
-        + f"The other player is {player}. You are not in a guild or party with them. {player} is whispering you privately.\n"
-        + (f"How chat sounds in this game: {style}\n" if style else "") +
+        + f"The other player is {player}. {BONDS[bond].format(player=player)} {player} is whispering you privately.\n"
+        + remembered
+        + (f"How chat sounds in this game: {style}\n" if style else "")
+        + repeated +
         "Rules:\n"
         "- You are typing in a game with one hand on the mouse. Real chat is short, plain and a little careless: "
         "fragments are fine, so is leaving out 'I' at the start, so is answering with two words.\n"
@@ -451,6 +654,7 @@ def system_prompt(bot, level, job, map_id, player, person, familiarity=STRANGER)
         "an item drops, where a monster lives and the way somewhere you only know when it is given to you below as "
         "something you know; without that, say you are not sure rather than making it up. Do not ask the other "
         "player how to do things in the game.\n"
+        "- Use what you remember about the other player when it fits, the way people do, without listing it.\n"
         "- Put the chat message between <msg> and </msg> and write nothing outside those tags. Write it once, as "
         "it is sent: no second attempt, no correcting yourself, no comment on your own wording.\n"
         "- Plain text only: no quotes around your reply, no emoji, no markdown, no stage directions.\n"
@@ -588,14 +792,18 @@ def game_notes(convo, text, player_map):
     """Facts for this message. Follow-up questions ("where is that?", "how do I get there?") reuse what the
     conversation was last about."""
     travel = bool(TRAVEL_WORDS.search(text))
-    asking = bool(ASKING_WORDS.search(text)) or travel or bool(TRAIN_WORDS.search(text) and LEVEL_NUMBER.search(text))
+    # "where should I train at 35?" is a question; "im a level 30 cleric" is not
+    training = bool(TRAIN_WORDS.search(text) and LEVEL_NUMBER.search(text) and TRAIN_QUESTION.search(text))
+    asking = bool(ASKING_WORDS.search(text)) or travel or training
     # Small talk gets no lookup at all: "do you like cats?" is not a question about the monster Cat.
     if not asking:
         return []
-    notes, places = knowledge.facts(text) if knowledge else ([], [])
     level = LEVEL_NUMBER.search(text)
-    if knowledge and not notes and TRAIN_WORDS.search(text) and level and 8 <= int(level.group(1)) <= 200:
+    if knowledge and training and level and 8 <= int(level.group(1)) <= 200:
+        # A training question is about the level, not about whatever its words happen to name ("good spot")
         notes, places = knowledge.training(int(level.group(1)))
+    else:
+        notes, places = knowledge.facts(text) if knowledge else ([], [])
     asking_way_to_town = bool(routes and travel and routes.town_in(text))
     if asking_way_to_town:
         notes, places = [], []      # "how do I get to Ludibrium" is about the town, not about "Ludibrium Medal"
@@ -622,23 +830,43 @@ def game_notes(convo, text, player_map):
     return notes
 
 
-def reply_to(player, bot, level, job, map_id, text, player_map="", gender="", familiarity=STRANGER):
-    """The bot answers a whisper. Returns the chat lines."""
+def reply_to(player, bot, level, job, map_id, text, player_map="", gender="", familiarity=None, party=False, guild=False):
+    """The bot answers a whisper. Returns the chat lines. `familiarity` is only given by the listening test."""
     key = (player.lower(), bot.lower())
     now = time.time()
     person = minds.person_for(bot, gender)
+    memory = load_memory(player, bot)
+    character = f"level {level} {job.replace('_', ' ').title() if job else 'Beginner'}"
     with lock:
-        for k in [k for k, c in conversations.items() if now - c["last"] > IDLE_SECONDS]:
-            del conversations[k]
-        convo = conversations.setdefault(key, {"turns": [], "last": now, "player": player, "said": []})
+        convo = conversations.setdefault(key, {"turns": [], "last": now, "player": player, "bot": bot, "said": [], "new": 0})
         new = not convo["turns"]
         convo["turns"].append((player, text))
         convo["last"] = now
+        convo["new"] += 1
         turns = list(convo["turns"][-MAX_TURNS_KEPT:])
-        said = list(convo["said"])
+        said = (memory.get("said") or []) + list(convo["said"])
+        lines_so_far = sum(1 for who, _ in convo["turns"] if who == player)
+    # Asked to be buddies? That is decided here, not by the model
+    asked, buddy_task = buddy_request(text, memory, party, guild, lines_so_far)
+    if asked in ("yes", "end"):
+        with lock:
+            memory = load_memory(player, bot)
+            memory.update(buddy=(asked == "yes"), updated=time.time(), character=character)
+            if asked == "yes":
+                memory["buddy_since"] = time.strftime("%Y-%m-%d")
+            save_memory(player, bot, memory)
+        log(f"   {bot} and {player} are " + ("now buddies." if asked == "yes" else "no longer buddies."))
+    bond = tie(memory, party, guild)
+    with lock:
+        convo.update(bond=bond, character=character, guild=guild)
+    if familiarity is None:
+        familiarity = how_well(memory, party, guild)
     if new:
         log(f"--- {bot} (level {level} {job}) is {minds.facts(person) if person else 'nobody in particular'}"
-            + ("" if not person or minds.background(person) else "  (not yet written in full)"))
+            + ("" if not person or minds.background(person) else "  (not yet written in full)")
+            + (f"  [{bond}]" if bond else ""))
+        if memory.get("notes"):
+            log("    remembers: " + " | ".join(memory["notes"]))
         if WRITE_PEOPLE_IN_FULL:
             minds.want_background(person)
     log(f"{player} -> {bot}: {text}")
@@ -659,8 +887,10 @@ def reply_to(player, bot, level, job, map_id, text, player_map="", gender="", fa
         size = f"Answer in one or two short lines, about {about} words in all."
     task = ("Answer the way you would in game chat. " + size + " Fewer words is fine, more is not. "
             "React, do not advise: nothing they should do, avoid or mind.")
-    usual = everyday(text, person)
+    usual = buddy_task or everyday(text, person)
     asked_for_facts = bool(ASKING_WORDS.search(text) or TRAVEL_WORDS.search(text))
+    if buddy_task:
+        notes = []                      # "can I add you?" is not a question about the game
     if usual:
         task = usual
     elif notes:
@@ -683,7 +913,7 @@ def reply_to(player, bot, level, job, map_id, text, player_map="", gender="", fa
     transcript += (f"\n\nNow: {task}\nFor this message: {manner(said, joke, about_them, question, bool(notes))}\n"
                    f"Write what {bot} types inside <msg></msg>.")
     started = time.time()
-    system = system_prompt(bot, level, job, map_id, player, person, familiarity)
+    system = system_prompt(bot, level, job, map_id, player, person, familiarity, memory, bond)
     with slots:
         raw, error = minds.ask(system, transcript)
         # A fact that came back as a scrap of two or three words lost its beginning on the way: ask once more
@@ -715,6 +945,8 @@ def reply_to(player, bot, level, job, map_id, text, player_map="", gender="", fa
             conversations[key]["turns"].append((bot, " ".join(lines)))
             conversations[key]["said"] = (conversations[key]["said"] + [" ".join(lines)])[-10:]
             conversations[key]["last"] = time.time()
+            conversations[key]["new"] += 1
+    note_said(player, bot, lines, character, party, guild)
     for line in lines:
         log(f"{bot} -> {player}: {line}   ({time.time() - started:.1f}s)")
     return lines
@@ -725,7 +957,7 @@ class Handler(BaseHTTPRequestHandler):
         form = parse_qs(self.rfile.read(int(self.headers.get("Content-Length", 0))).decode("utf-8", "ignore"))
         get = lambda k: (form.get(k) or [""])[0]
         lines = reply_to(get("player"), get("bot"), get("level"), get("job"), get("map"), get("text")[:200],
-                         get("player_map"), get("gender"))
+                         get("player_map"), get("gender"), party=get("party") == "1", guild=get("guild") == "1")
         body = "\n".join(lines).encode("utf-8")
         self.send_response(200)
         self.send_header("Content-Type", "text/plain; charset=utf-8")
@@ -753,17 +985,27 @@ def main():
                    help="test without the game: send a line to a made-up bot and print the reply. Repeat for a conversation")
     p.add_argument("--start", default="101000000", help="map id the player stands on for --say (default Ellinia)")
     p.add_argument("--bot", default="Lunaria", help="bot name for --say")
+    p.add_argument("--party", action="store_true", help="with --say: the bot is in your party")
+    p.add_argument("--remember", action="store_true", help="with --say: also write the memory notes afterwards, as the window does after a talk")
     a = p.parse_args()
     start_minds()
     if a.say:
         for line in a.say:
-            reply_to("You", a.bot, "34", "CLERIC", "101000000", line, a.start)
+            reply_to("You", a.bot, "34", "CLERIC", "101000000", line, a.start, party=a.party)
+        if a.remember:
+            remember_what_is_due(everything=True)
         return
+    forget_old_parties()
+    threading.Thread(target=memory_keeper, daemon=True).start()
     full = sum(os.path.exists(minds.background_path(person)) for person in minds.people)
     log(f"Bot chat bridge listening on 127.0.0.1:{PORT}. {len(minds.people)} people, {full} of them written in full.")
     log(f"Using {minds.claude}")
-    log("Whisper any bot in the game. Conversations are not saved; only which person plays which bot is. Close this window to stop.")
-    ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    log("Whisper any bot in the game. Ask one to be buddies and it will remember you. Close this window with Ctrl+C.")
+    try:
+        ThreadingHTTPServer(("127.0.0.1", PORT), Handler).serve_forever()
+    except KeyboardInterrupt:
+        log("Writing down what the bots remember...")
+        remember_what_is_due(everything=True)
 
 
 if __name__ == "__main__":
