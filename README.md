@@ -25,6 +25,7 @@ Our own private MapleStory v83 server. Runs locally for now; playing with friend
 | [Guide](Settings/Docs/Guide.md) | Start here. How the project was set up, how to run it, and how to make each kind of change. Kept up to date. |
 | [Features page](docs/index.html) | Everything this server has that the original game does not, as it is right now, written for a player: by area, with search. Its content is `docs/changes.js`. |
 | [Drop site](docs/drops.html) | What drops where: search any item or monster and see the real chance. Made by `Settings/Scripts/Make-Drop-Site.py`. |
+| [To test](Settings/Docs/To-Test.md) | Everything built but not yet seen working in the game, as a checklist. |
 | [Implementation list](Settings/Docs/Implementation-List.md) | The plan: what we do and in what order, ticked off as we go. |
 | [Ideas](Settings/Docs/Ideas.md) | Things we might do, grouped by area. Not decided or planned. |
 | [Game changes](Settings/Docs/Game-Changes.md) | What is different from the original game. |

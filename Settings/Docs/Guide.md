@@ -413,6 +413,7 @@ To look at it, double-click `docs/index.html`. A missing comma or quote in `chan
 
 | Question | Document |
 |----------|----------|
+| What is built but not yet tried in the game | [To test](To-Test.md) |
 | What is planned, in what order | [Implementation list](Implementation-List.md) |
 | What differs from the original game | [Game changes](Game-Changes.md) |
 | Class and skill design, and what is built | [Class changes](Class-Changes.md) |
