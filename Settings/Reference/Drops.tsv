@@ -13887,11 +13887,11 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150101	Cold Shark	2040301	Scroll for Earring for INT	1	1	0.03	
 8150101	Cold Shark	2040420	Scroll for Topwear for HP 100%	1	1	0.03	
 8150101	Cold Shark	2040931	Scroll for Shield for STR 60%	1	1	0.03	
-8150101	Cold Shark	1072223	Green Varr Shoes	1	1	0.0168	
-8150101	Cold Shark	1072224	Blue Varr Shoes	1	1	0.0168	
 8150101	Cold Shark	2049100	Chaos Scroll 60%	1	1	0.015	
+8150101	Cold Shark	1072223	Green Varr Shoes	1	1	0.0112	
 8150101	Cold Shark	1072318	Black Duke Barkin Shoes	1	1	0.0112	
 8150101	Cold Shark	1072220	Green Crescent Boots	1	1	0.0112	
+8150101	Cold Shark	1072224	Blue Varr Shoes	1	1	0.0112	
 8150101	Cold Shark	1072229	Green Arnah Shoes	1	1	0.0112	
 8150101	Cold Shark	1082159	Blue Arcina	1	1	0.0112	
 8150101	Cold Shark	1312030	Tomahawk	1	1	0.0112	
@@ -13900,6 +13900,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150101	Cold Shark	1492012	Concerto	1	1	0.0112	
 8150101	Cold Shark	1052131	Red Belly Duke	1	1	0.0112	
 8150101	Cold Shark	1072221	Blue Crescent Boots	1	1	0.0112	
+8150101	Cold Shark	1372010	Dimon Wand	1	1	0.0112	
 8150101	Cold Shark	1072213	Green Katina Boots	1	1	0.0112	
 8150101	Cold Shark	1082136	Green Anelin	1	1	0.0112	
 8150200	Green Cornian	4000266	Wooden Shoulder Pad	1	1	60	
@@ -13980,8 +13981,6 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150201	Dark Cornian	2040618	Scroll for Bottomwear for Jump 60%	1	1	0.03	
 8150201	Dark Cornian	2044012	Scroll for Two-Handed Sword for Accuracy 60%	1	1	0.03	
 8150201	Dark Cornian	2044210	Scroll for Two-Handed BW for Accuracy 100%	1	1	0.03	
-8150201	Dark Cornian	1072225	Red Varr Shoes	1	1	0.0171	
-8150201	Dark Cornian	1082151	Green Ciara	1	1	0.0171	
 8150201	Dark Cornian	2049100	Chaos Scroll 60%	1	1	0.015	
 8150201	Dark Cornian	1050098	Red Katinas	1	1	0.0114	
 8150201	Dark Cornian	1041122	Green Lucida	1	1	0.0114	
@@ -13989,12 +13988,15 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150201	Dark Cornian	1082158	Red Arcina	1	1	0.0114	
 8150201	Dark Cornian	1082136	Green Anelin	1	1	0.0114	
 8150201	Dark Cornian	1492012	Concerto	1	1	0.0114	
+8150201	Dark Cornian	1072225	Red Varr Shoes	1	1	0.0114	
 8150201	Dark Cornian	1072227	Red Arnah Shoes	1	1	0.0114	
 8150201	Dark Cornian	1072318	Black Duke Barkin Shoes	1	1	0.0114	
+8150201	Dark Cornian	1082151	Green Ciara	1	1	0.0114	
 8150201	Dark Cornian	1082213	Black Skellduke	1	1	0.0114	
 8150201	Dark Cornian	1332052	Blood Dagger	1	1	0.0114	
 8150201	Dark Cornian	1402035	The Beheader	1	1	0.0114	
 8150201	Dark Cornian	1462015	White Neschere	1	1	0.0114	
+8150201	Dark Cornian	1372010	Dimon Wand	1	1	0.0114	
 8150300	Red Wyvern	4000268	Wyvern Wing	1	1	60	
 8150300	Red Wyvern	0	(meso)	666	986	40	
 8150300	Red Wyvern	4001077	Tough Dragon Skin	1	1	6	7301
@@ -14078,24 +14080,24 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150301	Blue Wyvern	2040001	Scroll for Helmet for DEF	1	1	0.03	
 8150301	Blue Wyvern	2044001	Scroll for Two-handed Sword for ATT	1	1	0.03	
 8150301	Blue Wyvern	2040924	Scroll for Shield for LUK 60%	1	1	0.03	
-8150301	Blue Wyvern	1082213	Black Skellduke	1	1	0.0121	
-8150301	Blue Wyvern	1052131	Red Belly Duke	1	1	0.0121	
-8150301	Blue Wyvern	1072224	Blue Varr Shoes	1	1	0.0121	
-8150301	Blue Wyvern	1442044	Zedbug	1	1	0.0121	
-8150301	Blue Wyvern	1060111	Black Neos Pants	1	1	0.0121	
-8150301	Blue Wyvern	1072213	Green Katina Boots	1	1	0.0121	
-8150301	Blue Wyvern	1072221	Blue Crescent Boots	1	1	0.0121	
-8150301	Blue Wyvern	1082135	Blue Anelin	1	1	0.0121	
-8150301	Blue Wyvern	1082151	Green Ciara	1	1	0.0121	
-8150301	Blue Wyvern	1332052	Blood Dagger	1	1	0.0121	
-8150301	Blue Wyvern	1492012	Concerto	1	1	0.0121	
-8150301	Blue Wyvern	1051107	Red Armis	1	1	0.006	
-8150301	Blue Wyvern	1072229	Green Arnah Shoes	1	1	0.006	
-8150301	Blue Wyvern	1082158	Red Arcina	1	1	0.006	
-8150301	Blue Wyvern	1462017	Dark Neschere	1	1	0.006	
-8150301	Blue Wyvern	1051105	Green Armis	1	1	0.006	
-8150301	Blue Wyvern	1072227	Red Arnah Shoes	1	1	0.006	
-8150301	Blue Wyvern	1372010	Dimon Wand	1	1	0.006	
+8150301	Blue Wyvern	1372010	Dimon Wand	1	1	0.0117	
+8150301	Blue Wyvern	1082213	Black Skellduke	1	1	0.0117	
+8150301	Blue Wyvern	1052131	Red Belly Duke	1	1	0.0117	
+8150301	Blue Wyvern	1072224	Blue Varr Shoes	1	1	0.0117	
+8150301	Blue Wyvern	1442044	Zedbug	1	1	0.0117	
+8150301	Blue Wyvern	1060111	Black Neos Pants	1	1	0.0117	
+8150301	Blue Wyvern	1072213	Green Katina Boots	1	1	0.0117	
+8150301	Blue Wyvern	1072221	Blue Crescent Boots	1	1	0.0117	
+8150301	Blue Wyvern	1082135	Blue Anelin	1	1	0.0117	
+8150301	Blue Wyvern	1082151	Green Ciara	1	1	0.0117	
+8150301	Blue Wyvern	1332052	Blood Dagger	1	1	0.0117	
+8150301	Blue Wyvern	1492012	Concerto	1	1	0.0117	
+8150301	Blue Wyvern	1051107	Red Armis	1	1	0.0058	
+8150301	Blue Wyvern	1072229	Green Arnah Shoes	1	1	0.0058	
+8150301	Blue Wyvern	1082158	Red Arcina	1	1	0.0058	
+8150301	Blue Wyvern	1462017	Dark Neschere	1	1	0.0058	
+8150301	Blue Wyvern	1051105	Green Armis	1	1	0.0058	
+8150301	Blue Wyvern	1072227	Red Arnah Shoes	1	1	0.0058	
 8150302	Dark Wyvern	4000270	Wyvern Toenail	1	1	60	
 8150302	Dark Wyvern	0	(meso)	764	1115	40	
 8150302	Dark Wyvern	4031415	Black Soul of Dark Wyvern	1	1	10	3712
@@ -14135,11 +14137,13 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150302	Dark Wyvern	2040302	Scroll for Earring for INT	1	1	0.03	
 8150302	Dark Wyvern	2044301	Scroll for Spear for ATT	1	1	0.03	
 8150302	Dark Wyvern	2044402	Scroll for Pole Arm for ATT	1	1	0.03	
-8150302	Dark Wyvern	1052076	Blue Czar	1	1	0.0249	
-8150302	Dark Wyvern	1072225	Red Varr Shoes	1	1	0.0249	
+8150302	Dark Wyvern	1072214	Blue Katina Boots 	1	1	0.0166	
+8150302	Dark Wyvern	1482012	King Cent	1	1	0.0166	
+8150302	Dark Wyvern	1052076	Blue Czar	1	1	0.0166	
 8150302	Dark Wyvern	1040121	Blue Neos	1	1	0.0166	
 8150302	Dark Wyvern	1051092	Red Katte	1	1	0.0166	
 8150302	Dark Wyvern	1051105	Green Armis	1	1	0.0166	
+8150302	Dark Wyvern	1072225	Red Varr Shoes	1	1	0.0166	
 8150302	Dark Wyvern	1072227	Red Arnah Shoes	1	1	0.0166	
 8150302	Dark Wyvern	1072318	Black Duke Barkin Shoes	1	1	0.0166	
 8150302	Dark Wyvern	1082139	Green Korben	1	1	0.0166	
@@ -14147,8 +14151,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8150302	Dark Wyvern	1332052	Blood Dagger	1	1	0.0166	
 8150302	Dark Wyvern	1432030	Pinaka	1	1	0.0166	
 8150302	Dark Wyvern	1452019	White Nisrock	1	1	0.0166	
-8150302	Dark Wyvern	1072214	Blue Katina Boots 	1	1	0.0166	
-8150302	Dark Wyvern	1482012	King Cent	1	1	0.0166	
+8150302	Dark Wyvern	1372010	Dimon Wand	1	1	0.0166	
 8160000	Gatekeeper	4000151	Gatekeeper Armband	1	1	60	
 8160000	Gatekeeper	4031175	Tachion	1	1	60	7101
 8160000	Gatekeeper	4031170	Tachion	1	1	50	7100
@@ -14383,9 +14386,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8190000	Jr. Newtie	2040004	Scroll for Helmet for HP	1	1	0.03	
 8190000	Jr. Newtie	2040419	Scroll for Topwear for STR 10%	1	1	0.03	
 8190000	Jr. Newtie	2044110	Scroll for Two-Handed Axe for Accuracy 100%	1	1	0.03	
-8190000	Jr. Newtie	1002398	Green Varr Hat	1	1	0.0176	
-8190000	Jr. Newtie	1082151	Green Ciara	1	1	0.0176	
 8190000	Jr. Newtie	2049000	Clean Slate Scroll 1%	1	1	0.015	
+8190000	Jr. Newtie	1002398	Green Varr Hat	1	1	0.0117	
 8190000	Jr. Newtie	1051092	Red Katte	1	1	0.0117	
 8190000	Jr. Newtie	1082158	Red Arcina	1	1	0.0117	
 8190000	Jr. Newtie	1072228	Blue Arnah Shoes	1	1	0.0117	
@@ -14395,9 +14397,11 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8190000	Jr. Newtie	1060111	Black Neos Pants	1	1	0.0117	
 8190000	Jr. Newtie	1072213	Green Katina Boots	1	1	0.0117	
 8190000	Jr. Newtie	1072221	Blue Crescent Boots	1	1	0.0117	
+8190000	Jr. Newtie	1082151	Green Ciara	1	1	0.0117	
 8190000	Jr. Newtie	1302056	Sparta	1	1	0.0117	
 8190000	Jr. Newtie	1462015	White Neschere	1	1	0.0117	
 8190000	Jr. Newtie	1482012	King Cent	1	1	0.0117	
+8190000	Jr. Newtie	1372010	Dimon Wand	1	1	0.0117	
 8190002	Nest Golem	4000271	Destroyed Nest	1	1	60	
 8190002	Nest Golem	0	(meso)	900	1300	40	
 8190002	Nest Golem	2022003	Unagi	1	1	2	
@@ -14467,13 +14471,13 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8190003	Skelegon	2044902	Scroll for Gun for ATT	1	1	0.03	
 8190003	Skelegon	2040534	Scroll for Overall for STR 10%	1	1	0.03	
 8190003	Skelegon	2040627	Scroll for Bottomwear for DEX 10%	1	1	0.03	
-8190003	Skelegon	1052076	Blue Czar	1	1	0.022	
-8190003	Skelegon	1072225	Red Varr Shoes	1	1	0.022	
 8190003	Skelegon	2049000	Clean Slate Scroll 1%	1	1	0.015	
+8190003	Skelegon	1052076	Blue Czar	1	1	0.0147	
 8190003	Skelegon	1002406	Red Arnah Cap	1	1	0.0147	
 8190003	Skelegon	1002646	Black Polax Hat	1	1	0.0147	
 8190003	Skelegon	1040121	Blue Neos	1	1	0.0147	
 8190003	Skelegon	1051092	Red Katte	1	1	0.0147	
+8190003	Skelegon	1072225	Red Varr Shoes	1	1	0.0147	
 8190003	Skelegon	1072318	Black Duke Barkin Shoes	1	1	0.0147	
 8190003	Skelegon	1082135	Blue Anelin	1	1	0.0147	
 8190003	Skelegon	1082139	Green Korben	1	1	0.0147	
@@ -14482,6 +14486,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8190003	Skelegon	1402035	The Beheader	1	1	0.0147	
 8190003	Skelegon	1452019	White Nisrock	1	1	0.0147	
 8190003	Skelegon	1492012	Concerto	1	1	0.0147	
+8190003	Skelegon	1372010	Dimon Wand	1	1	0.0147	
 8190004	Skelosaurus	4000273	Old Neck Bone	1	1	60	
 8190004	Skelosaurus	0	(meso)	750	1150	40	
 8190004	Skelosaurus	2022003	Unagi	1	1	2	
@@ -14521,20 +14526,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8190004	Skelosaurus	2040530	Scroll for Overall for STR 100%	1	1	0.03	
 8190004	Skelosaurus	2040924	Scroll for Shield for LUK 60%	1	1	0.03	
 8190004	Skelosaurus	2044214	Scroll for Two-Handed BW for Accuracy 10%	1	1	0.03	
-8190004	Skelosaurus	1052076	Blue Czar	1	1	0.022	
-8190004	Skelosaurus	1082151	Green Ciara	1	1	0.022	
+8190004	Skelosaurus	1092042	Gellerhead Shield	1	1	0.0147	
+8190004	Skelosaurus	1052076	Blue Czar	1	1	0.0147	
 8190004	Skelosaurus	1002646	Black Polax Hat	1	1	0.0147	
 8190004	Skelosaurus	1051105	Green Armis	1	1	0.0147	
 8190004	Skelosaurus	1060111	Black Neos Pants	1	1	0.0147	
 8190004	Skelosaurus	1072213	Green Katina Boots	1	1	0.0147	
 8190004	Skelosaurus	1072227	Red Arnah Shoes	1	1	0.0147	
 8190004	Skelosaurus	1082135	Blue Anelin	1	1	0.0147	
+8190004	Skelosaurus	1082151	Green Ciara	1	1	0.0147	
 8190004	Skelosaurus	1082213	Black Skellduke	1	1	0.0147	
 8190004	Skelosaurus	1332052	Blood Dagger	1	1	0.0147	
 8190004	Skelosaurus	1432030	Pinaka	1	1	0.0147	
 8190004	Skelosaurus	1462015	White Neschere	1	1	0.0147	
 8190004	Skelosaurus	1482012	King Cent	1	1	0.0147	
-8190004	Skelosaurus	1092042	Gellerhead Shield	1	1	0.0147	
+8190004	Skelosaurus	1372010	Dimon Wand	1	1	0.0147	
 8190005	Nest Golem	0	(meso)	800	1200	40	
 8190005	Nest Golem	4000271	Destroyed Nest	1	1	20	
 8190005	Nest Golem	4000244	Dragon Spirit	1	1	20	
@@ -14599,8 +14605,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200001	Memory Monk	2386021	Memory Monk Card	1	1	0.8	
 8200001	Memory Monk	4130001	Shoes Production Stimulator	1	1	0.6	
 8200001	Memory Monk	4130014	Dagger Forging Stimulator	1	1	0.6	
-8200001	Memory Monk	2280015	[Skill Book] Combo Tempest	1	1	0.15	
 8200001	Memory Monk	2290129	[Mastery Book] High Mastery	1	1	0.15	
+8200001	Memory Monk	2280015	[Skill Book] Combo Tempest	1	1	0.15	
 8200001	Memory Monk	4020009	Piece of Time	1	1	0.1	
 8200001	Memory Monk	2040030	Scroll for Helmet for DEX 30%	1	1	0.075	
 8200001	Memory Monk	2040322	Scroll for Earring for LUK 30%	1	1	0.075	
@@ -14740,9 +14746,9 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200004	Chief Memory Guardian	2386024	Chief Memory Guardian Card	1	1	0.8	
 8200004	Chief Memory Guardian	4130004	One-Handed Blunt Weapon Forging Stimulator	1	1	0.6	
 8200004	Chief Memory Guardian	4130017	Gun Production Stimulator	1	1	0.6	
+8200004	Chief Memory Guardian	2290134	[Mastery Book] High Defense	1	1	0.15	
 8200004	Chief Memory Guardian	2280016	[Skill Book] Combo Barrier	1	1	0.15	
 8200004	Chief Memory Guardian	2290127	[Mastery Book] Overswing	1	1	0.15	
-8200004	Chief Memory Guardian	2290134	[Mastery Book] High Defense	1	1	0.15	
 8200004	Chief Memory Guardian	4020009	Piece of Time	1	1	0.1	
 8200004	Chief Memory Guardian	2040026	Scroll for Helmet for INT 10%	1	1	0.075	
 8200004	Chief Memory Guardian	2044313	Scroll for Spear for Accuracy 30%	1	1	0.075	
@@ -14753,14 +14759,15 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200004	Chief Memory Guardian	2040025	Scroll for Helmet for INT 60%	1	1	0.03	
 8200004	Chief Memory Guardian	2044312	Scroll for Spear for Accuracy 60%	1	1	0.03	
 8200004	Chief Memory Guardian	2044901	Scroll for Gun for Attack 60%	1	1	0.03	
-8200004	Chief Memory Guardian	1072225	Red Varr Shoes	1	1	0.0178	
-8200004	Chief Memory Guardian	1082152	Blue Ciara	1	1	0.0178	
 8200004	Chief Memory Guardian	1072216	Dark Katina Boots	1	1	0.0118	
+8200004	Chief Memory Guardian	1072225	Red Varr Shoes	1	1	0.0118	
+8200004	Chief Memory Guardian	1082152	Blue Ciara	1	1	0.0118	
 8200004	Chief Memory Guardian	1452019	White Nisrock	1	1	0.0118	
 8200004	Chief Memory Guardian	1051105	Green Armis	1	1	0.0118	
 8200004	Chief Memory Guardian	1072213	Green Katina Boots	1	1	0.0118	
 8200004	Chief Memory Guardian	1072227	Red Arnah Shoes	1	1	0.0118	
 8200004	Chief Memory Guardian	1332052	Blood Dagger	1	1	0.0118	
+8200004	Chief Memory Guardian	1372010	Dimon Wand	1	1	0.0118	
 8200004	Chief Memory Guardian	1072318	Black Duke Barkin Shoes	1	1	0.0089	
 8200004	Chief Memory Guardian	1482012	King Cent	1	1	0.0089	
 8200004	Chief Memory Guardian	1492012	Concerto	1	1	0.0089	
@@ -14790,8 +14797,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200005	Qualm Monk	2290079	[Mastery Book] Venomous Star/Venomous Stab	1	1	0.05	
 8200005	Qualm Monk	2044012	Scroll for Two-Handed Sword for Accuracy 60%	1	1	0.03	
 8200005	Qualm Monk	2040931	Scroll for Shield for STR 60%	1	1	0.03	
-8200005	Qualm Monk	1052076	Blue Czar	1	1	0.0214	
-8200005	Qualm Monk	1082151	Green Ciara	1	1	0.0214	
+8200005	Qualm Monk	1052076	Blue Czar	1	1	0.0143	
 8200005	Qualm Monk	1002406	Red Arnah Cap	1	1	0.0143	
 8200005	Qualm Monk	1040121	Blue Neos	1	1	0.0143	
 8200005	Qualm Monk	1051092	Red Katte	1	1	0.0143	
@@ -14799,11 +14805,13 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200005	Qualm Monk	1060111	Black Neos Pants	1	1	0.0143	
 8200005	Qualm Monk	1072318	Black Duke Barkin Shoes	1	1	0.0143	
 8200005	Qualm Monk	1082135	Blue Anelin	1	1	0.0143	
+8200005	Qualm Monk	1082151	Green Ciara	1	1	0.0143	
 8200005	Qualm Monk	1082158	Red Arcina	1	1	0.0143	
 8200005	Qualm Monk	1302056	Sparta	1	1	0.0143	
 8200005	Qualm Monk	1332052	Blood Dagger	1	1	0.0143	
 8200005	Qualm Monk	1462015	White Neschere	1	1	0.0143	
 8200005	Qualm Monk	1482012	King Cent	1	1	0.0143	
+8200005	Qualm Monk	1372010	Dimon Wand	1	1	0.0143	
 8200006	Qualm Monk Trainee	4000450	Blue Cone Hat	1	1	60	
 8200006	Qualm Monk Trainee	0	(meso)	680	1050	40	
 8200006	Qualm Monk Trainee	2000006	Mana Elixir	1	1	2	
@@ -14826,20 +14834,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200006	Qualm Monk Trainee	2290077	[Mastery Book] Shadow Shifter	1	1	0.05	
 8200006	Qualm Monk Trainee	2040317	Scroll for Earring for DEX 60%	1	1	0.03	
 8200006	Qualm Monk Trainee	2040824	Scroll for Gloves for HP 60%	1	1	0.03	
-8200006	Qualm Monk Trainee	1072225	Red Varr Shoes	1	1	0.0135	
-8200006	Qualm Monk Trainee	1082151	Green Ciara	1	1	0.0135	
 8200006	Qualm Monk Trainee	1051105	Green Armis	1	1	0.009	
 8200006	Qualm Monk Trainee	1072213	Green Katina Boots	1	1	0.009	
 8200006	Qualm Monk Trainee	1072221	Blue Crescent Boots	1	1	0.009	
+8200006	Qualm Monk Trainee	1072225	Red Varr Shoes	1	1	0.009	
 8200006	Qualm Monk Trainee	1072227	Red Arnah Shoes	1	1	0.009	
 8200006	Qualm Monk Trainee	1072318	Black Duke Barkin Shoes	1	1	0.009	
 8200006	Qualm Monk Trainee	1082135	Blue Anelin	1	1	0.009	
 8200006	Qualm Monk Trainee	1082139	Green Korben	1	1	0.009	
+8200006	Qualm Monk Trainee	1082151	Green Ciara	1	1	0.009	
 8200006	Qualm Monk Trainee	1082213	Black Skellduke	1	1	0.009	
 8200006	Qualm Monk Trainee	1332052	Blood Dagger	1	1	0.009	
 8200006	Qualm Monk Trainee	1402035	The Beheader	1	1	0.009	
 8200006	Qualm Monk Trainee	1452019	White Nisrock	1	1	0.009	
 8200006	Qualm Monk Trainee	1492012	Concerto	1	1	0.009	
+8200006	Qualm Monk Trainee	1372010	Dimon Wand	1	1	0.009	
 8200007	Qualm Guardian	4000452	Blue Helmet	1	1	60	
 8200007	Qualm Guardian	0	(meso)	680	990	40	
 8200007	Qualm Guardian	4000459	Black Armor Fragment	1	1	2	
@@ -14861,8 +14870,6 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200007	Qualm Guardian	2040701	Scroll for Shoes for DEX	1	1	0.03	
 8200007	Qualm Guardian	2044301	Scroll for Spear for ATT	1	1	0.03	
 8200007	Qualm Guardian	2040302	Scroll for Earring for INT	1	1	0.03	
-8200007	Qualm Guardian	1072225	Red Varr Shoes	1	1	0.0136	
-8200007	Qualm Guardian	1082151	Green Ciara	1	1	0.0136	
 8200007	Qualm Guardian	1002406	Red Arnah Cap	1	1	0.0091	
 8200007	Qualm Guardian	1002646	Black Polax Hat	1	1	0.0091	
 8200007	Qualm Guardian	1040121	Blue Neos	1	1	0.0091	
@@ -14870,11 +14877,14 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200007	Qualm Guardian	1052131	Red Belly Duke	1	1	0.0091	
 8200007	Qualm Guardian	1060111	Black Neos Pants	1	1	0.0091	
 8200007	Qualm Guardian	1072213	Green Katina Boots	1	1	0.0091	
+8200007	Qualm Guardian	1072225	Red Varr Shoes	1	1	0.0091	
+8200007	Qualm Guardian	1082151	Green Ciara	1	1	0.0091	
 8200007	Qualm Guardian	1082158	Red Arcina	1	1	0.0091	
 8200007	Qualm Guardian	1332052	Blood Dagger	1	1	0.0091	
 8200007	Qualm Guardian	1432030	Pinaka	1	1	0.0091	
 8200007	Qualm Guardian	1462015	White Neschere	1	1	0.0091	
 8200007	Qualm Guardian	1482012	King Cent	1	1	0.0091	
+8200007	Qualm Guardian	1372010	Dimon Wand	1	1	0.0091	
 8200008	Chief Qualm Guardian	4000453	Blue Heart	1	1	60	
 8200008	Chief Qualm Guardian	0	(meso)	690	1020	40	
 8200008	Chief Qualm Guardian	4000459	Black Armor Fragment	1	1	2	
@@ -14894,20 +14904,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200008	Chief Qualm Guardian	2330004	Shiny Bullet	1	1	0.04	
 8200008	Chief Qualm Guardian	2044101	Scroll for Two-handed Axe for ATT	1	1	0.03	
 8200008	Chief Qualm Guardian	2044501	Scroll for Bow for ATT	1	1	0.03	
-8200008	Chief Qualm Guardian	1072225	Red Varr Shoes	1	1	0.0207	
-8200008	Chief Qualm Guardian	1082151	Green Ciara	1	1	0.0207	
 8200008	Chief Qualm Guardian	1092042	Gellerhead Shield	1	1	0.0138	
 8200008	Chief Qualm Guardian	1051092	Red Katte	1	1	0.0138	
 8200008	Chief Qualm Guardian	1051105	Green Armis	1	1	0.0138	
 8200008	Chief Qualm Guardian	1072221	Blue Crescent Boots	1	1	0.0138	
+8200008	Chief Qualm Guardian	1072225	Red Varr Shoes	1	1	0.0138	
 8200008	Chief Qualm Guardian	1072227	Red Arnah Shoes	1	1	0.0138	
 8200008	Chief Qualm Guardian	1072318	Black Duke Barkin Shoes	1	1	0.0138	
 8200008	Chief Qualm Guardian	1082135	Blue Anelin	1	1	0.0138	
+8200008	Chief Qualm Guardian	1082151	Green Ciara	1	1	0.0138	
 8200008	Chief Qualm Guardian	1082213	Black Skellduke	1	1	0.0138	
 8200008	Chief Qualm Guardian	1302056	Sparta	1	1	0.0138	
 8200008	Chief Qualm Guardian	1332052	Blood Dagger	1	1	0.0138	
 8200008	Chief Qualm Guardian	1452019	White Nisrock	1	1	0.0138	
 8200008	Chief Qualm Guardian	1492012	Concerto	1	1	0.0138	
+8200008	Chief Qualm Guardian	1372010	Dimon Wand	1	1	0.0138	
 8200009	Oblivion Monk	4000454	Red Cloth	1	1	60	
 8200009	Oblivion Monk	0	(meso)	700	1060	40	
 8200009	Oblivion Monk	2000006	Mana Elixir	1	1	2	
@@ -14930,20 +14941,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200009	Oblivion Monk	2044601	Scroll for Crossbow for ATT	1	1	0.03	
 8200009	Oblivion Monk	2044001	Scroll for Two-handed Sword for ATT	1	1	0.03	
 8200009	Oblivion Monk	2040924	Scroll for Shield for LUK 60%	1	1	0.03	
-8200009	Oblivion Monk	1072225	Red Varr Shoes	1	1	0.0215	
-8200009	Oblivion Monk	1082151	Green Ciara	1	1	0.0215	
 8200009	Oblivion Monk	1092042	Gellerhead Shield	1	1	0.0144	
 8200009	Oblivion Monk	1002406	Red Arnah Cap	1	1	0.0144	
 8200009	Oblivion Monk	1002646	Black Polax Hat	1	1	0.0144	
 8200009	Oblivion Monk	1052131	Red Belly Duke	1	1	0.0144	
 8200009	Oblivion Monk	1072213	Green Katina Boots	1	1	0.0144	
+8200009	Oblivion Monk	1072225	Red Varr Shoes	1	1	0.0144	
 8200009	Oblivion Monk	1082135	Blue Anelin	1	1	0.0144	
 8200009	Oblivion Monk	1082139	Green Korben	1	1	0.0144	
+8200009	Oblivion Monk	1082151	Green Ciara	1	1	0.0144	
 8200009	Oblivion Monk	1082158	Red Arcina	1	1	0.0144	
 8200009	Oblivion Monk	1332052	Blood Dagger	1	1	0.0144	
 8200009	Oblivion Monk	1402035	The Beheader	1	1	0.0144	
 8200009	Oblivion Monk	1462015	White Neschere	1	1	0.0144	
 8200009	Oblivion Monk	1482012	King Cent	1	1	0.0144	
+8200009	Oblivion Monk	1372010	Dimon Wand	1	1	0.0144	
 8200010	Oblivion Monk Trainee	4000455	Red Cone Hat	1	1	60	
 8200010	Oblivion Monk Trainee	0	(meso)	710	1070	40	
 8200010	Oblivion Monk Trainee	2000006	Mana Elixir	1	1	2	
@@ -14964,20 +14976,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200010	Oblivion Monk Trainee	2290059	[Mastery Book] Hamstring Shot	1	1	0.05	
 8200010	Oblivion Monk Trainee	2043801	Scroll for Staff for Magic Att.	1	1	0.03	
 8200010	Oblivion Monk Trainee	2041022	Scroll for Cape for LUK	1	1	0.03	
-8200010	Oblivion Monk Trainee	1072225	Red Varr Shoes	1	1	0.015	
-8200010	Oblivion Monk Trainee	1082151	Green Ciara	1	1	0.015	
 8200010	Oblivion Monk Trainee	1040121	Blue Neos	1	1	0.01	
 8200010	Oblivion Monk Trainee	1051092	Red Katte	1	1	0.01	
 8200010	Oblivion Monk Trainee	1051105	Green Armis	1	1	0.01	
 8200010	Oblivion Monk Trainee	1060111	Black Neos Pants	1	1	0.01	
 8200010	Oblivion Monk Trainee	1072213	Green Katina Boots	1	1	0.01	
+8200010	Oblivion Monk Trainee	1072225	Red Varr Shoes	1	1	0.01	
 8200010	Oblivion Monk Trainee	1072227	Red Arnah Shoes	1	1	0.01	
 8200010	Oblivion Monk Trainee	1072318	Black Duke Barkin Shoes	1	1	0.01	
+8200010	Oblivion Monk Trainee	1082151	Green Ciara	1	1	0.01	
 8200010	Oblivion Monk Trainee	1082213	Black Skellduke	1	1	0.01	
 8200010	Oblivion Monk Trainee	1332052	Blood Dagger	1	1	0.01	
 8200010	Oblivion Monk Trainee	1432030	Pinaka	1	1	0.01	
 8200010	Oblivion Monk Trainee	1452019	White Nisrock	1	1	0.01	
 8200010	Oblivion Monk Trainee	1492012	Concerto	1	1	0.01	
+8200010	Oblivion Monk Trainee	1372010	Dimon Wand	1	1	0.01	
 8200011	Oblivion Guardian	4000457	Red Helmet	1	1	60	
 8200011	Oblivion Guardian	0	(meso)	750	1050	40	
 8200011	Oblivion Guardian	4000459	Black Armor Fragment	1	1	2	
@@ -15002,20 +15015,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200011	Oblivion Guardian	2044201	Scroll for Two-handed BW for ATT	1	1	0.03	
 8200011	Oblivion Guardian	2041008	Scroll for Cape for HP	1	1	0.03	
 8200011	Oblivion Guardian	2044602	Scroll for Crossbow for ATT	1	1	0.03	
-8200011	Oblivion Guardian	1072225	Red Varr Shoes	1	1	0.0163	
-8200011	Oblivion Guardian	1082151	Green Ciara	1	1	0.0163	
 8200011	Oblivion Guardian	1002406	Red Arnah Cap	1	1	0.0109	
 8200011	Oblivion Guardian	1002646	Black Polax Hat	1	1	0.0109	
 8200011	Oblivion Guardian	1051092	Red Katte	1	1	0.0109	
 8200011	Oblivion Guardian	1052131	Red Belly Duke	1	1	0.0109	
 8200011	Oblivion Guardian	1072221	Blue Crescent Boots	1	1	0.0109	
+8200011	Oblivion Guardian	1072225	Red Varr Shoes	1	1	0.0109	
 8200011	Oblivion Guardian	1082135	Blue Anelin	1	1	0.0109	
 8200011	Oblivion Guardian	1082139	Green Korben	1	1	0.0109	
+8200011	Oblivion Guardian	1082151	Green Ciara	1	1	0.0109	
 8200011	Oblivion Guardian	1082158	Red Arcina	1	1	0.0109	
 8200011	Oblivion Guardian	1302056	Sparta	1	1	0.0109	
 8200011	Oblivion Guardian	1332052	Blood Dagger	1	1	0.0109	
 8200011	Oblivion Guardian	1462015	White Neschere	1	1	0.0109	
 8200011	Oblivion Guardian	1482012	King Cent	1	1	0.0109	
+8200011	Oblivion Guardian	1372010	Dimon Wand	1	1	0.0109	
 8200012	Chief Oblivion Guardian	4000458	Red Heart	1	1	60	
 8200012	Chief Oblivion Guardian	0	(meso)	760	1070	40	
 8200012	Chief Oblivion Guardian	4000459	Black Armor Fragment	1	1	2	
@@ -15039,20 +15053,21 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8200012	Chief Oblivion Guardian	2290115	[Mastery Book] Air Strike	1	1	0.075	
 8200012	Chief Oblivion Guardian	2040501	Scroll for Overall Armor for DEX	1	1	0.03	
 8200012	Chief Oblivion Guardian	2043701	Scroll for Wand for Magic Att.	1	1	0.03	
-8200012	Chief Oblivion Guardian	1072225	Red Varr Shoes	1	1	0.0172	
-8200012	Chief Oblivion Guardian	1082151	Green Ciara	1	1	0.0172	
 8200012	Chief Oblivion Guardian	1040121	Blue Neos	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1051105	Green Armis	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1060111	Black Neos Pants	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1072213	Green Katina Boots	1	1	0.0115	
+8200012	Chief Oblivion Guardian	1072225	Red Varr Shoes	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1072227	Red Arnah Shoes	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1072318	Black Duke Barkin Shoes	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1082135	Blue Anelin	1	1	0.0115	
+8200012	Chief Oblivion Guardian	1082151	Green Ciara	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1082213	Black Skellduke	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1332052	Blood Dagger	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1402035	The Beheader	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1452019	White Nisrock	1	1	0.0115	
 8200012	Chief Oblivion Guardian	1492012	Concerto	1	1	0.0115	
+8200012	Chief Oblivion Guardian	1372010	Dimon Wand	1	1	0.0115	
 8220000	Eliza	2000004	Elixir	1	1	99.9999	
 8220000	Eliza	2000006	Mana Elixir	1	1	99.9999	
 8220000	Eliza	4000073	Solid Horn	1	1	60	
@@ -15693,12 +15708,12 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8520000	Pianus	2040504	Scroll for Overall Armor for DEF	1	1	0.3	
 8520000	Pianus	2040401	Scroll for Topwear for DEF	1	1	0.3	
 8520000	Pianus	2049000	Clean Slate Scroll 1%	1	4	0.25	
-8800002	Zakum3	1372049	Zakum's Tree Branch	1	1	99.9999	
 8800002	Zakum3	2020013	Reindeer Milk	1	1	99.9999	
 8800002	Zakum3	2020015	Sunset Dew	1	1	99.9999	
 8800002	Zakum3	2000005	Power Elixir	1	1	99.9999	
 8800002	Zakum3	2000004	Elixir	1	1	99.9999	
 8800002	Zakum3	4001083	Zakum Certificate	1	1	99.9999	
+8800002	Zakum3	1372049	Zakum's Tree Branch	1	1	99.9999	
 8800002	Zakum3	0	(meso)	10000	15000	70	
 8800002	Zakum3	4032133	Zakum Diamond	1	1	42	
 8800002	Zakum3	1002357	Zakum Helmet	1	2	30	
@@ -15707,7 +15722,6 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8800002	Zakum3	2280016	[Skill Book] Combo Barrier	1	1	6	
 8800002	Zakum3	2280014	[Skill Book] High Defense	1	1	6	
 8800002	Zakum3	2280013	[Skill Book] Final Blow	1	1	6	
-8800002	Zakum3	1002430	Zakum Helmet (3)	3	5	4	
 8800002	Zakum3	2000006	Mana Elixir	1	4	4	
 8800002	Zakum3	1422013	Leomite	1	1	4	
 8800002	Zakum3	1432011	Fairfrozen	1	1	4	
@@ -15726,6 +15740,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8800002	Zakum3	1472033	Casters	1	1	4	
 8800002	Zakum3	1332026	Cursayer	1	1	4	
 8800002	Zakum3	1332027	Varkit	1	1	4	
+8800002	Zakum3	1002430	Zakum Helmet (3)	3	5	4	
 8800002	Zakum3	1302056	Sparta	1	1	3.15	
 8800002	Zakum3	1312030	Tomahawk	1	1	3.15	
 8800002	Zakum3	1322045	Battle Hammer	1	1	3.15	
@@ -18935,8 +18950,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400100	Extra A	1051026	Dark Moonlight	1	1	0.07	
 9400100	Extra A	1060069	Brown Piette Pants	1	1	0.07	
 9400100	Extra A	1072107	Black Red-Lined Shoes	1	1	0.07	
-9400101	Extra B	0	(meso)	88	132	40	
 9400101	Extra B	4000090	Littleman B's Name Plate	1	1	40	
+9400101	Extra B	0	(meso)	88	132	40	
 9400101	Extra B	2000006	Mana Elixir	1	1	4	
 9400101	Extra B	2061003	Blue Arrow for Crossbow	15	19	1	
 9400101	Extra B	4010001	Steel Ore	1	1	0.7	
@@ -18954,8 +18969,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400101	Extra B	1002183	Green Pilfer	1	1	0.07	
 9400101	Extra B	1040061	Green Knucklevest	1	1	0.07	
 9400101	Extra B	1061056	Gold Sneak Pants	1	1	0.07	
-9400102	Extra C	4000091	Littleman C's Necklace	1	1	40	
 9400102	Extra C	0	(meso)	88	132	40	
+9400102	Extra C	4000091	Littleman C's Necklace	1	1	40	
 9400102	Extra C	4010003	Adamantium Ore	1	1	0.7	
 9400102	Extra C	4020001	Amethyst Ore	1	1	0.7	
 9400102	Extra C	2020001	Fried Chicken	1	1	0.3	
@@ -18971,8 +18986,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 9400102	Extra C	1050052	Blue-Lined Kismet	1	1	0.07	
 9400102	Extra C	1051039	Red Lumati	1	1	0.07	
 9400102	Extra C	1040096	Brown China	1	1	0.07	
-9400103	Extra D	0	(meso)	200	300	40	
 9400103	Extra D	4000137	Subordinate D Fingernail	1	1	40	
+9400103	Extra D	0	(meso)	200	300	40	
 9400103	Extra D	2000011	Mana Elixir Pill	1	1	4	
 9400103	Extra D	2001001	Ice Cream Pop	1	1	1	
 9400103	Extra D	2002005	Sniper Potion	1	1	1	

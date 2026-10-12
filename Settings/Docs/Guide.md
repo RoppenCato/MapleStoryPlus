@@ -229,7 +229,7 @@ Stop the game server before the second line; it saves a database backup first. R
 
 The rules are described at the top of `Rebalance-Drops.py` and their numbers are just below:
 
-- **Which monsters drop an item:** none more than 5 levels above the level it needs or 20 below; at least 3 between 10 under and 2 over; the plain gear of every class (`Loadouts.tsv`) always has droppers; level 100 gear also drops from everything above it.
+- **Which monsters drop an item:** none more than 5 levels above the level it needs or 20 below; at least 3 between 10 under and 2 over; the plain gear of every class (`Loadouts.tsv`) always has droppers; gear needing level 95 or more also drops from everything above it.
 - **Something for every class:** every monster that lives in numbers drops at least one weapon and two armour pieces per class.
 - **How often, as a budget:** each monster's total chance is set so that a level of training gives about 8 pieces of gear at a popular hunting spot and 5.5 elsewhere (`PIECES_PER_LEVEL`, `PIECES_ELSEWHERE`), never more than 1 kill in 8. The classes share it equally, and the first gear before level 10 counts five times.
 

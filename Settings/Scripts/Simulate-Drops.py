@@ -34,7 +34,7 @@ LEVELS_ABOVE = 1            # ...to this far above
 MIN_SPAWNS = 8
 USEFUL_BELOW = 9            # equipment needing up to this many levels under yours still counts as "for you"...
 USEFUL_AHEAD = 3            # ...and so does what you can wear within this many levels
-TOP_TIER = 100              # the highest level of gear ordinary monsters drop
+TOP_TIER = 95               # the highest level of gear ordinary monsters drop
 CLASSES = ["warrior", "magician", "bowman", "thief", "pirate"]
 
 

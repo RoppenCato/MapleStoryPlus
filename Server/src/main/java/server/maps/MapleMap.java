@@ -659,6 +659,13 @@ public class MapleMap {
 
     private byte dropItemsFromMonsterOnMap(List<MonsterDropEntry> dropEntry, Point pos, byte index, int chRate,
                                            byte droptype, int mobpos, Character chr, Monster mob, short delay) {
+        return dropItemsFromMonsterOnMap(dropEntry, pos, index, chRate, droptype, mobpos, chr, mob, delay, null);
+    }
+
+    // MapleStoryPlus: gaveItem, when given, is set to true if at least one item (not mesos) was dropped
+    private byte dropItemsFromMonsterOnMap(List<MonsterDropEntry> dropEntry, Point pos, byte index, int chRate,
+                                           byte droptype, int mobpos, Character chr, Monster mob, short delay,
+                                           boolean[] gaveItem) {
         if (dropEntry.isEmpty()) {
             return index;
         }
@@ -700,6 +707,9 @@ public class MapleMap {
                         idrop = new Item(de.itemId, (short) 0, (short) (de.Maximum != 1 ? Randomizer.nextInt(de.Maximum - de.Minimum) + de.Minimum : 1));
                     }
                     spawnDrop(idrop, calcDropPos(pos, mob.getPosition()), mob, chr, droptype, de.questid, delay);
+                    if (gaveItem != null) {
+                        gaveItem[0] = true;
+                    }
                 }
                 index++;
             }
@@ -773,7 +783,18 @@ public class MapleMap {
 
         byte index = 1;
         // Normal Drops
-        index = dropItemsFromMonsterOnMap(dropEntry, pos, index, chRate, droptype, mobpos, chr, mob, delay);
+        boolean[] gaveItem = new boolean[1];
+        index = dropItemsFromMonsterOnMap(dropEntry, pos, index, chRate, droptype, mobpos, chr, mob, delay, gaveItem);
+
+        // MapleStoryPlus: a boss never drops nothing. If no item came up, one from its list drops anyway.
+        if (mob.isBoss() && !gaveItem[0]) {
+            MonsterDropEntry forced = plus.BossDrops.pick(dropEntry);
+            if (forced != null) {
+                List<MonsterDropEntry> one = new ArrayList<>();
+                one.add(forced);
+                index = dropItemsFromMonsterOnMap(one, pos, index, 1000000, droptype, mobpos, chr, mob, delay);
+            }
+        }
 
         // Global Drops
         index = dropGlobalItemsFromMonsterOnMap(globalEntry, pos, index, droptype, mobpos, chr, mob, delay);

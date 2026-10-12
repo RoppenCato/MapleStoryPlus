@@ -22,7 +22,9 @@ PER_SHOP = 16
 SPOTS_PER_ROOM = 23             # shop positions in a Henesys-style Free Market room
 
 # Mesos per scroll, by success rate. Dark scrolls (30% and 70%) can destroy the item.
-SCROLL_PRICE = {100: 100_000, 60: 300_000, 10: 150_000, 70: 1_000_000, 30: 2_000_000}
+# Lowered by a third on 2026-10-12: with the gear budget there is far less equipment to sell, and a level
+# at 60 earns about 0.9 million where the first prices assumed 1.5.
+SCROLL_PRICE = {100: 70_000, 60: 200_000, 10: 100_000, 70: 700_000, 30: 1_400_000}
 
 # Room 1: weapon and accessory scrolls, special scrolls and supplies. Room 2: armour scrolls.
 # One room cannot hold everything: there are about 440 ordinary scrolls and a room has 23 shops of 16 items.
@@ -59,8 +61,8 @@ ACCESSORY_SHOPS = [
 ]
 # (title, [(item id, price)]). Throwing stars, bullets and capsules are sold as one full set.
 OTHER_SHOPS = [
-    ("Special scrolls", [(2049000, 250_000), (2049001, 500_000), (2049002, 1_000_000), (2049003, 3_000_000),
-                         (2049100, 10_000_000), (2340000, 25_000_000)]),
+    ("Special scrolls", [(2049000, 170_000), (2049001, 350_000), (2049002, 700_000), (2049003, 2_000_000),
+                         (2049100, 7_000_000), (2340000, 17_000_000)]),
     ("Potions", [(2000004, 4_000), (2000005, 10_000), (2050004, 1_500), (2002006, 500), (2002007, 500),
                  (2002008, 500), (2002009, 500), (2002010, 475), (2002018, 5_000)]),
     # The best stars and bullets (Steely, Ilbi, Hwabi; Shiny, Eternal) are left out on purpose: they are drops.
