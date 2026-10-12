@@ -227,6 +227,19 @@ python Settings/Scripts/Make-Drop-Site.py
 
 Stop the game server before the second line; it saves a database backup first. The rules are numbers at the top of `Rebalance-Drops.py`: how far above or below an item's level a monster may be (5 above, 20 below), how many monsters around its level must drop it (3, within 10 levels below and 2 above), and the chance at a popular hunting spot (0.15% before the drop rate; 0.08% elsewhere). Running it twice changes nothing the second time. It only touches equipment dropped by ordinary monsters; bosses, scrolls, ores and quest items are left alone.
 
+Two more rules in the same script: the plain gear every class wears on the way up (`Loadouts.tsv`) always has droppers, also where nothing dropped it before; and the first gear (needing level 12 or less) drops at 0.4% from the monsters before level 10, because that stretch is only about 160 kills long.
+
+To see what a rate feels like, run the drop simulation. It changes nothing:
+
+```
+python Settings/Scripts/Simulate-Drops.py
+python Settings/Scripts/Simulate-Drops.py --class thief
+python Settings/Scripts/Simulate-Drops.py --class warrior --levels --to 13
+python Settings/Scripts/Simulate-Drops.py --budget 8
+```
+
+It shows, per ten levels, how many kills the levels take, how much gear drops, how many kills that is per drop, and how much of it your class would actually wear, with the class weapons counted separately. `--budget N` is a what-if: every level gives about N pieces of gear, whatever the level.
+
 The popular hunting spots are a hand-written list, `Settings/Reference/Hunting-Spots.tsv`: the monster, the levels people train on it, and where. Monsters on it are chosen first when an item needs another dropper, and the bots suggest them when asked where to train.
 
 The drop site is `docs/drops.html`, with its data in `docs/drops-data.js`. Both are written by `Make-Drop-Site.py` from the reference lists, so always rebuild the reference lists first. The page's look is the template at the bottom of that script. To see it, double-click `docs/drops.html`.

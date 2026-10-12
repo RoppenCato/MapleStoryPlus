@@ -15,6 +15,11 @@ cash items, boss-only items and items nothing drops are left alone):
      added: monsters of a popular hunting spot (Settings/Reference/Hunting-Spots.tsv) first, then the
      ones with the fewest equipment drops so far.
   3. At a popular hunting spot, equipment of the right level drops at least at POPULAR_CHANCE.
+  4. The plain gear every class wears on the way up (Settings/Reference/Loadouts.tsv, the same list the
+     character tool uses) always has such monsters, also where nothing dropped it before.
+  5. The first gear: equipment needing level STARTER_ITEM_LEVEL or less drops from the monsters you kill on
+     the way to level 10 (snails, slimes, mushrooms, pigs) at least at STARTER_CHANCE, because that stretch
+     is only about 160 kills long.
 
 Bosses and everything that is not equipment (scrolls, ores, potions, quest items) are not touched.
 """
@@ -41,6 +46,9 @@ MAX_PER_MONSTER = 28    # no monster is given more equipment drops than this by 
 MIN_SPAWNS = 8          # a monster must live in at least this number on one ordinary map to be given drops
 NEW_CHANCE = 800        # out of 1,000,000 before the drop rate: 0.08%, the usual chance in the original table
 POPULAR_CHANCE = 1500   # 0.15%: equipment of the right level at a popular hunting spot
+STARTER_ITEM_LEVEL = 12 # the first gear: equipment needing this level or less...
+STARTER_MOB_LEVEL = 10  # ...on monsters of this level or less...
+STARTER_CHANCE = 4000   # ...drops at 0.4%
 
 
 def rows(name):
@@ -84,8 +92,12 @@ def plan():
             by_item[item].append((row_id, mob, chance))
         if item in equips:
             per_mob[mob] += 1
+    # Rule 4: the plain gear of every class is looked at even when nothing drops it yet
+    for r in rows("Loadouts.tsv"):
+        if r["item_id"].isdigit() and int(r["item_id"]) in equips:
+            by_item.setdefault(int(r["item_id"]), [])
 
-    delete, insert, raise_chance = [], [], []
+    delete, insert, raise_chance, raise_starter = [], [], [], []
     for item in sorted(by_item):
         need = int(equips[item]["req_level"])
         if not 10 <= need <= 120:
@@ -100,8 +112,11 @@ def plan():
                 keeps.append((row_id, mob, chance))
         in_band = lambda mob: need - BAND_BELOW <= level(mob) <= need + BAND_ABOVE
         have = {mob for _, mob, _ in keeps}
+        starter = lambda mob: need <= STARTER_ITEM_LEVEL and level(mob) <= STARTER_MOB_LEVEL
         for row_id, mob, chance in keeps:
-            if mob in popular and in_band(mob) and chance < POPULAR_CHANCE:
+            if starter(mob) and chance < STARTER_CHANCE:
+                raise_starter.append(row_id)
+            elif mob in popular and in_band(mob) and chance < POPULAR_CHANCE and not starter(mob):
                 raise_chance.append(row_id)
         missing = WANTED - sum(1 for mob in have if in_band(mob))
         if missing > 0:
@@ -110,24 +125,25 @@ def plan():
             # breaks ties, so that the same run always gives the same answer
             choice.sort(key=lambda m: (m not in popular, per_mob[m], (m * 31 + item) % 97, m))
             for mob in choice[:missing]:
-                insert.append((mob, item, POPULAR_CHANCE if mob in popular else NEW_CHANCE))
+                insert.append((mob, item, STARTER_CHANCE if starter(mob) else POPULAR_CHANCE if mob in popular else NEW_CHANCE))
                 per_mob[mob] += 1
-    return delete, insert, raise_chance, equips, mobs, popular
+    return delete, insert, raise_chance, raise_starter, equips, mobs, popular
 
 
 def main():
     p = argparse.ArgumentParser(description="Equipment drops from monsters around its level")
     p.add_argument("--check", action="store_true")
     a = p.parse_args()
-    delete, insert, raise_chance, equips, mobs, popular = plan()
+    delete, insert, raise_chance, raise_starter, equips, mobs, popular = plan()
     print(f"Popular hunting monsters found: {len(popular)}")
     print(f"Drops removed (monster too far above or below the item): {len(delete)}")
     print(f"Drops added (item had fewer than {WANTED} monsters around its level): {len(insert)}, "
           f"{sum(1 for m, _, _ in insert if m in popular)} of them at popular spots")
     print(f"Drops raised to {POPULAR_CHANCE / 10000:.2f}% at popular spots: {len(raise_chance)}")
+    print(f"First gear raised to {STARTER_CHANCE / 10000:.2f}% on the monsters before level 10: {len(raise_starter)}")
     for mob, item, chance in insert[:6]:
         print(f"   e.g. {equips[item]['name']} (level {equips[item]['req_level']}) now also from {mobs[mob]['name']} (level {mobs[mob]['level']})")
-    if a.check or not (delete or insert or raise_chance):
+    if a.check or not (delete or insert or raise_chance or raise_starter):
         print("Check only: nothing changed." if a.check else "Nothing to do.")
         return
     if sql("SELECT COUNT(*) FROM accounts WHERE loggedin <> 0")[0][0] != "0":
@@ -145,6 +161,8 @@ def main():
         statements.append("DELETE FROM drop_data WHERE id IN (" + ",".join(map(str, delete[i:i + 500])) + ")")
     for i in range(0, len(raise_chance), 500):
         statements.append(f"UPDATE drop_data SET chance = {POPULAR_CHANCE} WHERE id IN (" + ",".join(map(str, raise_chance[i:i + 500])) + ")")
+    for i in range(0, len(raise_starter), 500):
+        statements.append(f"UPDATE drop_data SET chance = {STARTER_CHANCE} WHERE id IN (" + ",".join(map(str, raise_starter[i:i + 500])) + ")")
     for i in range(0, len(insert), 300):
         values = ",".join(f"({mob},{item},1,1,0,{chance})" for mob, item, chance in insert[i:i + 300])
         statements.append("INSERT INTO drop_data (dropperid, itemid, minimum_quantity, maximum_quantity, questid, chance) VALUES " + values)

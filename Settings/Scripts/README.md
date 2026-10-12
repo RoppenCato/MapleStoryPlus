@@ -49,6 +49,10 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 `Make-Drop-Site.py` writes the searchable drop page, `docs/drops.html` and `docs/drops-data.js`, from the reference lists. Run `python Settings/Reference/Build-Reference.py` before it.
 
+## Simulate-Drops.py
+
+Estimates how much equipment a player picks up while levelling and how much of it their class would wear, per ten levels or per level. Reads the reference lists; changes nothing. `--class thief` for one class in detail, `--levels` for one row per level, `--drop-rate` to try another rate, `--budget N` for a what-if where every level gives about N pieces.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

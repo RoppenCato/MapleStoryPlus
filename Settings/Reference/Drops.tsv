@@ -10,22 +10,26 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100100	Snail	4010000	Bronze Ore	1	1	0.9	
 100100	Snail	4020000	Garnet Ore	1	1	0.9	
 100100	Snail	2380000	Snail Card	1	1	0.8	
+100100	Snail	1041061	Yellow Avelin	1	1	0.4	
+100100	Snail	1041064	Blueberry Lolica Armor	1	1	0.4	
+100100	Snail	1060008	Brown Lolico Pants	1	1	0.4	
+100100	Snail	1061009	Green Avelin Skirt	1	1	0.4	
+100100	Snail	1061014	Rookie Pants	1	1	0.4	
+100100	Snail	1061029	Red Cloth Pants	1	1	0.4	
+100100	Snail	1082002	Work Gloves	1	1	0.4	
+100100	Snail	1302007	Long Sword	1	1	0.4	
+100100	Snail	1402001	Wooden Sword	1	1	0.4	
+100100	Snail	1452002	War Bow	1	1	0.4	
+100100	Snail	1002122	Red Ghetto Beanie	1	1	0.4	
+100100	Snail	1041036	Red Cloth Vest	1	1	0.4	
+100100	Snail	1062004	Archer Pants	1	1	0.4	
+100100	Snail	1092005	Wooden Buckler	1	1	0.4	
+100100	Snail	1052095	Brown Rocky Suit	1	1	0.4	
 100100	Snail	1002067	Green Headband	1	1	0.1287	
-100100	Snail	1041061	Yellow Avelin	1	1	0.08	
-100100	Snail	1041064	Blueberry Lolica Armor	1	1	0.08	
-100100	Snail	1060008	Brown Lolico Pants	1	1	0.08	
-100100	Snail	1061009	Green Avelin Skirt	1	1	0.08	
-100100	Snail	1061014	Rookie Pants	1	1	0.08	
-100100	Snail	1061029	Red Cloth Pants	1	1	0.08	
-100100	Snail	1082002	Work Gloves	1	1	0.08	
-100100	Snail	1302007	Long Sword	1	1	0.08	
-100100	Snail	1402001	Wooden Sword	1	1	0.08	
-100100	Snail	1452002	War Bow	1	1	0.08	
 100100	Snail	2041045	Scroll for Cape for Weapon DEF	1	1	0.075	
 100100	Snail	2041043	Scroll for Cape for Magic DEF	1	1	0.075	
 100100	Snail	1302000	Sword	1	1	0.07	
 100100	Snail	1040002	White Undershirt	1	1	0.07	
-100100	Snail	1052095	Brown Rocky Suit	1	1	0.07	
 100100	Snail	2040002	Scroll for Helmet for DEF	1	1	0.03	
 100100	Snail	2041001	Scroll for Cape for Magic Def.	1	1	0.03	
 100101	Blue Snail	4000000	Blue Snail Shell	1	1	60	
@@ -40,20 +44,23 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100101	Blue Snail	2380001	Blue Snail Card	1	1	0.8	
 100101	Blue Snail	4020004	Opal Ore	1	1	0.7	
 100101	Blue Snail	4010004	Silver Ore	1	1	0.7	
-100101	Blue Snail	1040013	Blue One-lined T-Shirt	1	1	0.08	
-100101	Blue Snail	1041012	Red-Striped T-Shirt	1	1	0.08	
-100101	Blue Snail	1060004	Grey Thick Sweat Pants	1	1	0.08	
+100101	Blue Snail	1040013	Blue One-lined T-Shirt	1	1	0.4	
+100101	Blue Snail	1041012	Red-Striped T-Shirt	1	1	0.4	
+100101	Blue Snail	1060004	Grey Thick Sweat Pants	1	1	0.4	
+100101	Blue Snail	1060022	Red Cloth Pants	1	1	0.4	
+100101	Blue Snail	1060028	Blue Lolico Pants	1	1	0.4	
+100101	Blue Snail	1061023	Sophia Pants	1	1	0.4	
+100101	Blue Snail	1061057	Yellow Avelin Skirt	1	1	0.4	
+100101	Blue Snail	1082002	Work Gloves	1	1	0.4	
+100101	Blue Snail	1302007	Long Sword	1	1	0.4	
+100101	Blue Snail	1332000	Triangular Zamadar	1	1	0.4	
+100101	Blue Snail	1442000	Pole Arm	1	1	0.4	
+100101	Blue Snail	1472000	Garnier	1	1	0.4	
+100101	Blue Snail	1002122	Red Ghetto Beanie	1	1	0.4	
+100101	Blue Snail	1041036	Red Cloth Vest	1	1	0.4	
+100101	Blue Snail	1072070	Blue Gidder Shoes	1	1	0.4	
 100101	Blue Snail	1040017	Grey / Brown Training Shirt	1	1	0.08	
 100101	Blue Snail	1060013	Grey / Brown Training Pants	1	1	0.08	
-100101	Blue Snail	1060022	Red Cloth Pants	1	1	0.08	
-100101	Blue Snail	1060028	Blue Lolico Pants	1	1	0.08	
-100101	Blue Snail	1061023	Sophia Pants	1	1	0.08	
-100101	Blue Snail	1061057	Yellow Avelin Skirt	1	1	0.08	
-100101	Blue Snail	1082002	Work Gloves	1	1	0.08	
-100101	Blue Snail	1302007	Long Sword	1	1	0.08	
-100101	Blue Snail	1332000	Triangular Zamadar	1	1	0.08	
-100101	Blue Snail	1442000	Pole Arm	1	1	0.08	
-100101	Blue Snail	1472000	Garnier	1	1	0.08	
 100101	Blue Snail	2041043	Scroll for Cape for Magic DEF	1	1	0.075	
 100101	Blue Snail	1040006	Undershirt	1	1	0.07	
 100101	Blue Snail	2041006	Scroll for Cape for HP	1	1	0.03	
@@ -62,48 +69,57 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100120	Tino	2060000	Arrow for Bow	1	2	1	
 100120	Tino	4003004	Stiff Feather	1	1	0.7	
 100120	Tino	4020000	Garnet Ore	1	1	0.7	
+100120	Tino	1040015	Brown Lolico Armor	1	1	0.4	
+100120	Tino	1040038	Blue Lolico Armor	1	1	0.4	
+100120	Tino	1041004	Pink Starry Shirt	1	1	0.4	
+100120	Tino	1041007	Green Avelin	1	1	0.4	
+100120	Tino	1041014	Orange Lolica Armor	1	1	0.4	
+100120	Tino	1041061	Yellow Avelin	1	1	0.4	
+100120	Tino	1060008	Brown Lolico Pants	1	1	0.4	
+100120	Tino	1060022	Red Cloth Pants	1	1	0.4	
+100120	Tino	1061023	Sophia Pants	1	1	0.4	
+100120	Tino	1072004	White Gomushin	1	1	0.4	
+100120	Tino	1082003	Juno	1	1	0.4	
+100120	Tino	1312000	Double Axe	1	1	0.4	
+100120	Tino	1412001	Metal Axe	1	1	0.4	
+100120	Tino	1432000	Spear	1	1	0.4	
+100120	Tino	1002017	Brown Apprentice Hat	1	1	0.4	
+100120	Tino	1040031	Blue Cloth Vest	1	1	0.4	
+100120	Tino	1062004	Archer Pants	1	1	0.4	
+100120	Tino	1072070	Blue Gidder Shoes	1	1	0.4	
 100120	Tino	2010000	Apple	1	1	0.3	
-100120	Tino	1040015	Brown Lolico Armor	1	1	0.08	
-100120	Tino	1040038	Blue Lolico Armor	1	1	0.08	
-100120	Tino	1041004	Pink Starry Shirt	1	1	0.08	
-100120	Tino	1041007	Green Avelin	1	1	0.08	
-100120	Tino	1041014	Orange Lolica Armor	1	1	0.08	
-100120	Tino	1041061	Yellow Avelin	1	1	0.08	
-100120	Tino	1060008	Brown Lolico Pants	1	1	0.08	
-100120	Tino	1060022	Red Cloth Pants	1	1	0.08	
-100120	Tino	1061023	Sophia Pants	1	1	0.08	
-100120	Tino	1072004	White Gomushin	1	1	0.08	
-100120	Tino	1082003	Juno	1	1	0.08	
-100120	Tino	1312000	Double Axe	1	1	0.08	
-100120	Tino	1412001	Metal Axe	1	1	0.08	
-100120	Tino	1432000	Spear	1	1	0.08	
 100121	Tiv	0	(meso)	20	28	40	
 100121	Tiv	4000483	Tiv's Feather	1	1	40	
 100121	Tiv	2000000	Red Potion	1	1	4	
 100121	Tiv	2060000	Arrow for Bow	4	5	1	
 100121	Tiv	4003004	Stiff Feather	1	1	0.7	
-100121	Tiv	1040013	Blue One-lined T-Shirt	1	1	0.08	
-100121	Tiv	1040015	Brown Lolico Armor	1	1	0.08	
-100121	Tiv	1040038	Blue Lolico Armor	1	1	0.08	
-100121	Tiv	1041004	Pink Starry Shirt	1	1	0.08	
+100121	Tiv	1040013	Blue One-lined T-Shirt	1	1	0.4	
+100121	Tiv	1040015	Brown Lolico Armor	1	1	0.4	
+100121	Tiv	1040038	Blue Lolico Armor	1	1	0.4	
+100121	Tiv	1041004	Pink Starry Shirt	1	1	0.4	
+100121	Tiv	1041064	Blueberry Lolica Armor	1	1	0.4	
+100121	Tiv	1072015	Brown Hard Leather Boots	1	1	0.4	
+100121	Tiv	1092008	Pan Lid	1	1	0.4	
+100121	Tiv	1332000	Triangular Zamadar	1	1	0.4	
+100121	Tiv	1422000	Wooden Mallet	1	1	0.4	
+100121	Tiv	1002017	Brown Apprentice Hat	1	1	0.4	
+100121	Tiv	1040008	Brown Archer Top	1	1	0.4	
+100121	Tiv	1072006	Brown Basic Boots	1	1	0.4	
+100121	Tiv	1082145	Yellow Work Gloves	1	1	0.4	
 100121	Tiv	1041017	Purple Arianne	1	1	0.08	
 100121	Tiv	1041018	Green Arianne	1	1	0.08	
-100121	Tiv	1041064	Blueberry Lolica Armor	1	1	0.08	
 100121	Tiv	1050010	Green Plain Robe	1	1	0.08	
 100121	Tiv	1061012	Purple Arianne Skirt	1	1	0.08	
 100121	Tiv	1061013	Green Arianne Skirt	1	1	0.08	
-100121	Tiv	1072015	Brown Hard Leather Boots	1	1	0.08	
-100121	Tiv	1092008	Pan Lid	1	1	0.08	
-100121	Tiv	1332000	Triangular Zamadar	1	1	0.08	
-100121	Tiv	1422000	Wooden Mallet	1	1	0.08	
 100122	Timu	0	(meso)	70	104	40	
 100122	Timu	2000000	Red Potion	1	1	4	
 100122	Timu	4003004	Stiff Feather	1	1	0.7	
 100122	Timu	4020002	AquaMarine Ore	1	1	0.7	
 100122	Timu	4010002	Mithril Ore	1	1	0.7	
+100122	Timu	1452002	War Bow	1	1	0.4	
+100122	Timu	1041007	Green Avelin	1	1	0.4	
 100122	Timu	1040035	Blue Nightshift	1	1	0.08	
 100122	Timu	1040037	Brown Corporal	1	1	0.08	
-100122	Timu	1041007	Green Avelin	1	1	0.08	
 100122	Timu	1041008	Green Able Armor	1	1	0.08	
 100122	Timu	1041026	Yellow Arianne	1	1	0.08	
 100122	Timu	1041044	Red Nightshift	1	1	0.08	
@@ -122,17 +138,16 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100122	Timu	1322000	Mace	1	1	0.08	
 100122	Timu	1432001	Fork on a Stick	1	1	0.08	
 100122	Timu	1442029	Gold Surfboard	1	1	0.08	
-100122	Timu	1452002	War Bow	1	1	0.07	
 100123	Tiru	0	(meso)	76	110	40	
 100123	Tiru	2000000	Red Potion	1	1	4	
 100123	Tiru	2061000	Arrow for Crossbow	9	12	1	
 100123	Tiru	4003004	Stiff Feather	1	1	0.7	
 100123	Tiru	4010003	Adamantium Ore	1	1	0.7	
-100123	Tiru	1040014	Orange Sporty T-Shirt	1	1	0.08	
+100123	Tiru	1040014	Orange Sporty T-Shirt	1	1	0.4	
+100123	Tiru	1041007	Green Avelin	1	1	0.4	
 100123	Tiru	1040034	Dark Nightshift	1	1	0.08	
 100123	Tiru	1040035	Blue Nightshift	1	1	0.08	
 100123	Tiru	1040037	Brown Corporal	1	1	0.08	
-100123	Tiru	1041007	Green Avelin	1	1	0.08	
 100123	Tiru	1041008	Green Able Armor	1	1	0.08	
 100123	Tiru	1041026	Yellow Arianne	1	1	0.08	
 100123	Tiru	1041045	Brown Nightshift	1	1	0.08	
@@ -165,9 +180,9 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100130	Muru	4010005	Orihalcon Ore	1	1	0.9	
 100130	Muru	4020005	Sapphire Ore	1	1	0.9	
 100130	Muru	2380015	Muru Card	1	1	0.8	
+100130	Muru	1041004	Pink Starry Shirt	1	1	0.4	
 100130	Muru	1002008	Brown Skullcap	1	1	0.1287	
 100130	Muru	1040010	Grey T-Shirt	1	1	0.08	
-100130	Muru	1041004	Pink Starry Shirt	1	1	0.08	
 100130	Muru	1060007	Jean Capris	1	1	0.08	
 100130	Muru	2040003	Scroll for Helmet for HP	1	1	0.03	
 100131	Murupa	4000494	Murupa's Furball	1	1	60	
@@ -177,21 +192,24 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100131	Murupa	4010006	Gold Ore	1	1	0.9	
 100131	Murupa	4020006	Topaz Ore	1	1	0.9	
 100131	Murupa	2380016	Murupa Card	1	1	0.8	
-100131	Murupa	1002019	White Bandana	1	1	0.1287	
-100131	Murupa	1002002	Metal Koif	1	1	0.1287	
-100131	Murupa	1040013	Blue One-lined T-Shirt	1	1	0.08	
-100131	Murupa	1041012	Red-Striped T-Shirt	1	1	0.08	
-100131	Murupa	1060004	Grey Thick Sweat Pants	1	1	0.08	
-100131	Murupa	1072005	Leather Sandals	1	1	0.08	
+100131	Murupa	1002019	White Bandana	1	1	0.4	
+100131	Murupa	1002002	Metal Koif	1	1	0.4	
+100131	Murupa	1040013	Blue One-lined T-Shirt	1	1	0.4	
+100131	Murupa	1041012	Red-Striped T-Shirt	1	1	0.4	
+100131	Murupa	1060004	Grey Thick Sweat Pants	1	1	0.4	
+100131	Murupa	1061009	Green Avelin Skirt	1	1	0.4	
+100131	Murupa	1082002	Work Gloves	1	1	0.4	
+100131	Murupa	1302007	Long Sword	1	1	0.4	
+100131	Murupa	1382000	Wooden Staff	1	1	0.4	
+100131	Murupa	1442013	Aqua Snowboard	1	1	0.4	
+100131	Murupa	1492000	Pistol	1	1	0.4	
+100131	Murupa	1040031	Blue Cloth Vest	1	1	0.4	
+100131	Murupa	1062004	Archer Pants	1	1	0.4	
+100131	Murupa	1082145	Yellow Work Gloves	1	1	0.4	
 100131	Murupa	1050010	Green Plain Robe	1	1	0.08	
-100131	Murupa	1061009	Green Avelin Skirt	1	1	0.08	
 100131	Murupa	1061013	Green Arianne Skirt	1	1	0.08	
 100131	Murupa	1061022	Yellow Arianne Skirt	1	1	0.08	
-100131	Murupa	1082002	Work Gloves	1	1	0.08	
-100131	Murupa	1302007	Long Sword	1	1	0.08	
-100131	Murupa	1382000	Wooden Staff	1	1	0.08	
-100131	Murupa	1442013	Aqua Snowboard	1	1	0.08	
-100131	Murupa	1492000	Pistol	1	1	0.08	
+100131	Murupa	1072005	Leather Sandals	1	1	0.08	
 100131	Murupa	2040619	Scroll for Bottomwear for Jump 10%	1	1	0.075	
 100131	Murupa	2040400	Scroll for Topwear for DEF	1	1	0.03	
 100131	Murupa	2040618	Scroll for Bottomwear for Jump 60%	1	1	0.03	
@@ -202,15 +220,16 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100132	Murupia	4010000	Bronze Ore	1	1	0.9	
 100132	Murupia	4020007	Diamond Ore	1	1	0.9	
 100132	Murupia	2380017	Murupia Card	1	1	0.8	
+100132	Murupia	1002003	Steel Helmet	1	1	0.4	
+100132	Murupia	1040014	Orange Sporty T-Shirt	1	1	0.4	
+100132	Murupia	1040015	Brown Lolico Armor	1	1	0.4	
+100132	Murupia	1060008	Brown Lolico Pants	1	1	0.4	
+100132	Murupia	1041014	Orange Lolica Armor	1	1	0.4	
+100132	Murupia	1061014	Rookie Pants	1	1	0.4	
+100132	Murupia	1072004	White Gomushin	1	1	0.4	
+100132	Murupia	1082003	Juno	1	1	0.4	
+100132	Murupia	1442000	Pole Arm	1	1	0.4	
 100132	Murupia	1002001	Metal Gear	1	1	0.1287	
-100132	Murupia	1002003	Steel Helmet	1	1	0.1287	
-100132	Murupia	1082003	Juno	1	1	0.1	
-100132	Murupia	1040014	Orange Sporty T-Shirt	1	1	0.08	
-100132	Murupia	1040015	Brown Lolico Armor	1	1	0.08	
-100132	Murupia	1060008	Brown Lolico Pants	1	1	0.08	
-100132	Murupia	1041014	Orange Lolica Armor	1	1	0.08	
-100132	Murupia	1061014	Rookie Pants	1	1	0.08	
-100132	Murupia	1072004	White Gomushin	1	1	0.08	
 100132	Murupia	1051000	Steel Fitted Mail	1	1	0.08	
 100132	Murupia	1060024	Dark Nightshift Pants	1	1	0.08	
 100132	Murupia	1060025	Blue Nightshift Pants	1	1	0.08	
@@ -223,7 +242,6 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100132	Murupia	1322007	Leather Purse	1	1	0.08	
 100132	Murupia	1432001	Fork on a Stick	1	1	0.08	
 100132	Murupia	1452003	Composite Bow	1	1	0.08	
-100132	Murupia	1442000	Pole Arm	1	1	0.07	
 100132	Murupia	2040823	Scroll for Gloves for HP 100%	1	1	0.03	
 100132	Murupia	2041018	Scroll for Cape for DEX	1	1	0.03	
 100133	Murumuru	4000496	Murumuru's Furball	1	1	60	
@@ -233,14 +251,14 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 100133	Murumuru	4010001	Steel Ore	1	1	0.9	
 100133	Murumuru	4020003	Emerald Ore	1	1	0.9	
 100133	Murumuru	2380018	MuruMuru Card	1	1	0.8	
+100133	Murumuru	1040038	Blue Lolico Armor	1	1	0.4	
+100133	Murumuru	1060028	Blue Lolico Pants	1	1	0.4	
+100133	Murumuru	1041064	Blueberry Lolica Armor	1	1	0.4	
+100133	Murumuru	1061023	Sophia Pants	1	1	0.4	
 100133	Murumuru	1002041	Yellow Metal Gear	1	1	0.1287	
 100133	Murumuru	1002007	Steel Full Helm	1	1	0.1287	
 100133	Murumuru	1032001	Single Earring	1	1	0.1	
 100133	Murumuru	1082000	Steel Fingerless Gloves	1	1	0.1	
-100133	Murumuru	1040038	Blue Lolico Armor	1	1	0.08	
-100133	Murumuru	1060028	Blue Lolico Pants	1	1	0.08	
-100133	Murumuru	1041064	Blueberry Lolica Armor	1	1	0.08	
-100133	Murumuru	1061023	Sophia Pants	1	1	0.08	
 100133	Murumuru	1072009	Steel Grieves	1	1	0.08	
 100133	Murumuru	1052098	Brown Cotton Lagger	1	1	0.08	
 100133	Murumuru	1060009	Steel Corporal Pants	1	1	0.08	
@@ -297,18 +315,22 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 120100	Shroom	4020002	AquaMarine Ore	1	1	0.9	
 120100	Shroom	4010002	Mithril Ore	1	1	0.9	
 120100	Shroom	2380002	Spore Card	1	1	0.8	
-120100	Shroom	1002610	Brown Rocky Bandana	1	1	0.1287	
+120100	Shroom	1061009	Green Avelin Skirt	1	1	0.4	
+120100	Shroom	1002610	Brown Rocky Bandana	1	1	0.4	
+120100	Shroom	1060004	Grey Thick Sweat Pants	1	1	0.4	
+120100	Shroom	1060028	Blue Lolico Pants	1	1	0.4	
+120100	Shroom	1061029	Red Cloth Pants	1	1	0.4	
+120100	Shroom	1061057	Yellow Avelin Skirt	1	1	0.4	
+120100	Shroom	1072015	Brown Hard Leather Boots	1	1	0.4	
+120100	Shroom	1092008	Pan Lid	1	1	0.4	
+120100	Shroom	1402001	Wooden Sword	1	1	0.4	
+120100	Shroom	1442013	Aqua Snowboard	1	1	0.4	
+120100	Shroom	1002122	Red Ghetto Beanie	1	1	0.4	
+120100	Shroom	1040008	Brown Archer Top	1	1	0.4	
+120100	Shroom	1072006	Brown Basic Boots	1	1	0.4	
+120100	Shroom	1082145	Yellow Work Gloves	1	1	0.4	
 120100	Shroom	1062000	Ice Jeans	1	1	0.08	
 120100	Shroom	1060007	Jean Capris	1	1	0.08	
-120100	Shroom	1061009	Green Avelin Skirt	1	1	0.08	
-120100	Shroom	1060004	Grey Thick Sweat Pants	1	1	0.08	
-120100	Shroom	1060028	Blue Lolico Pants	1	1	0.08	
-120100	Shroom	1061029	Red Cloth Pants	1	1	0.08	
-120100	Shroom	1061057	Yellow Avelin Skirt	1	1	0.08	
-120100	Shroom	1072015	Brown Hard Leather Boots	1	1	0.08	
-120100	Shroom	1092008	Pan Lid	1	1	0.08	
-120100	Shroom	1402001	Wooden Sword	1	1	0.08	
-120100	Shroom	1442013	Aqua Snowboard	1	1	0.08	
 120100	Shroom	1312004	Hand Axe	1	1	0.07	
 120100	Shroom	1332006	Field Dagger	1	1	0.05	
 120100	Shroom	2041007	Scroll for Cape for HP	1	1	0.03	
@@ -326,20 +348,25 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 130100	Stump	4020003	Emerald Ore	1	1	0.9	
 130100	Stump	4010003	Adamantium Ore	1	1	0.9	
 130100	Stump	2380003	Stump Card	1	1	0.8	
-130100	Stump	1082003	Juno	1	1	0.1	
+130100	Stump	1092008	Pan Lid	1	1	0.4	
+130100	Stump	1312000	Double Axe	1	1	0.4	
+130100	Stump	1412001	Metal Axe	1	1	0.4	
+130100	Stump	1002017	Brown Apprentice Hat	1	1	0.4	
+130100	Stump	1040008	Brown Archer Top	1	1	0.4	
+130100	Stump	1072006	Brown Basic Boots	1	1	0.4	
+130100	Stump	1072070	Blue Gidder Shoes	1	1	0.4	
+130100	Stump	1092005	Wooden Buckler	1	1	0.4	
+130100	Stump	1332000	Triangular Zamadar	1	1	0.4	
+130100	Stump	1082003	Juno	1	1	0.4	
+130100	Stump	1061014	Rookie Pants	1	1	0.4	
+130100	Stump	1492000	Pistol	1	1	0.4	
 130100	Stump	1072007	Brown High Boots	1	1	0.08	
-130100	Stump	1061014	Rookie Pants	1	1	0.08	
 130100	Stump	1061022	Yellow Arianne Skirt	1	1	0.08	
-130100	Stump	1092008	Pan Lid	1	1	0.08	
-130100	Stump	1312000	Double Axe	1	1	0.08	
-130100	Stump	1412001	Metal Axe	1	1	0.08	
 130100	Stump	1041002	White Tubetop	1	1	0.07	
 130100	Stump	1322005	Wooden Club	1	1	0.07	
 130100	Stump	1072008	Bronze Aroa Boots	1	1	0.07	
 130100	Stump	1482001	Leather Arms	1	1	0.07	
-130100	Stump	1332000	Triangular Zamadar	1	1	0.05	
 130100	Stump	1452003	Composite Bow	1	1	0.05	
-130100	Stump	1492000	Pistol	1	1	0.05	
 130100	Stump	2041008	Scroll for Cape for HP	1	1	0.03	
 130100	Stump	2040402	Scroll for Topwear for DEF	1	1	0.03	
 130101	Red Snail	4000016	Red Snail Shell	1	1	60	
@@ -353,21 +380,24 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 130101	Red Snail	4010004	Silver Ore	1	1	0.9	
 130101	Red Snail	4020004	Opal Ore	1	1	0.9	
 130101	Red Snail	2380004	Red Snail Card	1	1	0.8	
+130101	Red Snail	1402001	Wooden Sword	1	1	0.4	
+130101	Red Snail	1061029	Red Cloth Pants	1	1	0.4	
+130101	Red Snail	1052095	Brown Rocky Suit	1	1	0.4	
+130101	Red Snail	1382000	Wooden Staff	1	1	0.4	
+130101	Red Snail	1452002	War Bow	1	1	0.4	
+130101	Red Snail	1482000	Steel Knuckler	1	1	0.4	
+130101	Red Snail	1040031	Blue Cloth Vest	1	1	0.4	
+130101	Red Snail	1041036	Red Cloth Vest	1	1	0.4	
+130101	Red Snail	1092005	Wooden Buckler	1	1	0.4	
+130101	Red Snail	1060022	Red Cloth Pants	1	1	0.4	
 130101	Red Snail	1082029	Brown Duo	1	1	0.1	
 130101	Red Snail	1032003	Amethyst Earrings	1	1	0.1	
 130101	Red Snail	1072060	Brown Woodsman Boots	1	1	0.08	
-130101	Red Snail	1061029	Red Cloth Pants	1	1	0.08	
-130101	Red Snail	1382000	Wooden Staff	1	1	0.08	
-130101	Red Snail	1452002	War Bow	1	1	0.08	
-130101	Red Snail	1482000	Steel Knuckler	1	1	0.08	
+130101	Red Snail	1322007	Leather Purse	1	1	0.07	
+130101	Red Snail	1372002	Metal Wand	1	1	0.07	
 130101	Red Snail	1302000	Sword	1	1	0.07	
 130101	Red Snail	1072005	Leather Sandals	1	1	0.07	
 130101	Red Snail	1041006	Yellow T-Shirt	1	1	0.07	
-130101	Red Snail	1060022	Red Cloth Pants	1	1	0.07	
-130101	Red Snail	1402001	Wooden Sword	1	1	0.07	
-130101	Red Snail	1322007	Leather Purse	1	1	0.07	
-130101	Red Snail	1372002	Metal Wand	1	1	0.07	
-130101	Red Snail	1052095	Brown Rocky Suit	1	1	0.07	
 130101	Red Snail	2041009	Scroll for Cape for MP	1	1	0.03	
 130101	Red Snail	2040502	Scroll for Overall Armor for DEX	1	1	0.03	
 210100	Slime	4000004	Squishy Liquid	1	1	60	
@@ -384,32 +414,32 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 210100	Slime	4010005	Orihalcon Ore	1	1	0.9	
 210100	Slime	4020005	Sapphire Ore	1	1	0.9	
 210100	Slime	2380005	Slime Card	1	1	0.8	
-210100	Slime	1002019	White Bandana	1	1	0.15	
-210100	Slime	1412001	Metal Axe	1	1	0.15	
+210100	Slime	1002019	White Bandana	1	1	0.4	
+210100	Slime	1412001	Metal Axe	1	1	0.4	
+210100	Slime	1482000	Steel Knuckler	1	1	0.4	
+210100	Slime	1432000	Spear	1	1	0.4	
+210100	Slime	1002003	Steel Helmet	1	1	0.4	
+210100	Slime	1002010	Brown Winter Hat	1	1	0.4	
+210100	Slime	1002039	Bronze Helmet	1	1	0.4	
+210100	Slime	1002043	Bronze Koif	1	1	0.4	
+210100	Slime	1002075	Red Apprentice Hat	1	1	0.4	
+210100	Slime	1002080	Red Bandana	1	1	0.4	
+210100	Slime	1002081	Blue Bandana	1	1	0.4	
+210100	Slime	1002083	Black Bandana	1	1	0.4	
+210100	Slime	1002610	Brown Rocky Bandana	1	1	0.4	
+210100	Slime	1002041	Yellow Metal Gear	1	1	0.15	
+210100	Slime	1002103	Pink Moon Conehat	1	1	0.15	
+210100	Slime	1002107	Red Thief Hood	1	1	0.15	
+210100	Slime	1002113	Blue Feather Hat	1	1	0.15	
+210100	Slime	1040009	Steel Corporal	1	1	0.15	
+210100	Slime	1040011	Silver Leather Hoodwear	1	1	0.15	
 210100	Slime	1432001	Fork on a Stick	1	1	0.15	
 210100	Slime	1082019	Lemona	1	1	0.15	
 210100	Slime	1072023	Beige Nitty	1	1	0.15	
 210100	Slime	1322007	Leather Purse	1	1	0.15	
 210100	Slime	1412012	Iron Axe	1	1	0.15	
-210100	Slime	1482000	Steel Knuckler	1	1	0.15	
-210100	Slime	1002003	Steel Helmet	1	1	0.15	
-210100	Slime	1002010	Brown Winter Hat	1	1	0.15	
-210100	Slime	1002039	Bronze Helmet	1	1	0.15	
-210100	Slime	1002041	Yellow Metal Gear	1	1	0.15	
-210100	Slime	1002043	Bronze Koif	1	1	0.15	
-210100	Slime	1002075	Red Apprentice Hat	1	1	0.15	
-210100	Slime	1002080	Red Bandana	1	1	0.15	
-210100	Slime	1002081	Blue Bandana	1	1	0.15	
-210100	Slime	1002083	Black Bandana	1	1	0.15	
-210100	Slime	1002103	Pink Moon Conehat	1	1	0.15	
-210100	Slime	1002107	Red Thief Hood	1	1	0.15	
-210100	Slime	1002113	Blue Feather Hat	1	1	0.15	
-210100	Slime	1002610	Brown Rocky Bandana	1	1	0.15	
-210100	Slime	1040009	Steel Corporal	1	1	0.15	
-210100	Slime	1040011	Silver Leather Hoodwear	1	1	0.15	
 210100	Slime	1072008	Bronze Aroa Boots	1	1	0.15	
 210100	Slime	1442029	Gold Surfboard	1	1	0.15	
-210100	Slime	1432000	Spear	1	1	0.15	
 210100	Slime	2040600	Scroll for Bottomwear for DEF	1	1	0.075	
 210100	Slime	2040505	Scroll for Overall Armor for DEF	1	1	0.075	
 210100	Slime	2041043	Scroll for Cape for Magic DEF	1	1	0.075	
@@ -491,11 +521,14 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110101	Dark Stump	4010001	Steel Ore	1	1	0.9	
 1110101	Dark Stump	4020000	Garnet Ore	1	1	0.9	
 1110101	Dark Stump	2380008	Dark Stump Card	1	1	0.8	
-1110101	Dark Stump	1002039	Bronze Helmet	1	1	0.1287	
+1110101	Dark Stump	1002039	Bronze Helmet	1	1	0.4	
+1110101	Dark Stump	1442000	Pole Arm	1	1	0.4	
+1110101	Dark Stump	1041061	Yellow Avelin	1	1	0.4	
+1110101	Dark Stump	1061057	Yellow Avelin Skirt	1	1	0.4	
+1110101	Dark Stump	1382000	Wooden Staff	1	1	0.4	
+1110101	Dark Stump	1482000	Steel Knuckler	1	1	0.4	
 1110101	Dark Stump	1002613	Brown Lagger Cap	1	1	0.1287	
 1110101	Dark Stump	1032001	Single Earring	1	1	0.1	
-1110101	Dark Stump	1041061	Yellow Avelin	1	1	0.08	
-1110101	Dark Stump	1061057	Yellow Avelin Skirt	1	1	0.08	
 1110101	Dark Stump	1041018	Green Arianne	1	1	0.08	
 1110101	Dark Stump	1061013	Green Arianne Skirt	1	1	0.08	
 1110101	Dark Stump	1040020	Blue Split Piece	1	1	0.08	
@@ -510,11 +543,9 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110101	Dark Stump	1322002	Iron Mace	1	1	0.08	
 1110101	Dark Stump	1452001	Hunter's Bow	1	1	0.08	
 1110101	Dark Stump	1492002	The Negotiator	1	1	0.08	
+1110101	Dark Stump	1072025	Deer Huntertop	1	1	0.08	
 1110101	Dark Stump	1092003	Stolen Fence	1	1	0.07	
-1110101	Dark Stump	1442000	Pole Arm	1	1	0.07	
-1110101	Dark Stump	1382000	Wooden Staff	1	1	0.07	
 1110101	Dark Stump	1302006	Machete	1	1	0.07	
-1110101	Dark Stump	1482000	Steel Knuckler	1	1	0.05	
 1110101	Dark Stump	2040802	Scroll for Gloves for DEX	1	1	0.03	
 1110130	Dejected Green Mushroom	4000012	Green Mushroom Cap	1	1	60	
 1110130	Dejected Green Mushroom	0	(meso)	98	144	40	
@@ -546,11 +577,13 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1110130	Dejected Green Mushroom	1372002	Metal Wand	1	1	0.08	
 1110130	Dejected Green Mushroom	1472006	Adamantium Igor	1	1	0.08	
 1110130	Dejected Green Mushroom	1482002	Double Tail Knuckler	1	1	0.08	
-1110130	Dejected Green Mushroom	1412002	Iron Axe	1	1	0.07	
+1110130	Dejected Green Mushroom	1092006	Mithril Buckler	1	1	0.08	
+1110130	Dejected Green Mushroom	1472004	Bronze Igor	1	1	0.08	
 1110130	Dejected Green Mushroom	1322000	Mace	1	1	0.07	
 1110130	Dejected Green Mushroom	1092008	Pan Lid	1	1	0.07	
 1110130	Dejected Green Mushroom	1302007	Long Sword	1	1	0.07	
 1110130	Dejected Green Mushroom	1412012	Iron Axe	1	1	0.07	
+1110130	Dejected Green Mushroom	1412002	Iron Axe	1	1	0.07	
 1110130	Dejected Green Mushroom	1462002	Battle Crossbow	1	1	0.05	
 1110130	Dejected Green Mushroom	1452003	Composite Bow	1	1	0.05	
 1110130	Dejected Green Mushroom	1482001	Leather Arms	1	1	0.05	
@@ -590,6 +623,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1120100	Octopus	1092030	Maple Shield	1	1	0.08	
 1120100	Octopus	1312016	Contra Axe	1	1	0.08	
 1120100	Octopus	1432008	Fish Spear	1	1	0.08	
+1120100	Octopus	1002016	Green Wizardry Hat	1	1	0.08	
+1120100	Octopus	1082032	Bronze Mischief	1	1	0.08	
 1120100	Octopus	1422000	Wooden Mallet	1	1	0.07	
 1120100	Octopus	1092000	Steel Shield	1	1	0.07	
 1120100	Octopus	1442013	Aqua Snowboard	1	1	0.07	
@@ -621,6 +656,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1130100	Axe Stump	1332008	Coconut Knife	1	1	0.08	
 1130100	Axe Stump	1452001	Hunter's Bow	1	1	0.08	
 1130100	Axe Stump	1482002	Double Tail Knuckler	1	1	0.08	
+1130100	Axe Stump	1002016	Green Wizardry Hat	1	1	0.08	
+1130100	Axe Stump	1472004	Bronze Igor	1	1	0.08	
 1130100	Axe Stump	1372001	Wizard Wand	1	1	0.07	
 1130100	Axe Stump	1312016	Contra Axe	1	1	0.07	
 1130100	Axe Stump	1092007	Battle Shield	1	1	0.07	
@@ -661,6 +698,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1140100	Ghost Stump	1072065	Red Enamel Boots	1	1	0.08	
 1140100	Ghost Stump	1302006	Machete	1	1	0.08	
 1140100	Ghost Stump	1382004	Old Wooden Staff	1	1	0.08	
+1140100	Ghost Stump	1040003	Brown Hard Leather Top	1	1	0.08	
+1140100	Ghost Stump	1092006	Mithril Buckler	1	1	0.08	
 1140100	Ghost Stump	2040901	Scroll for Shield for DEF	1	1	0.075	
 1140100	Ghost Stump	2040504	Scroll for Overall Armor for DEF	1	1	0.075	
 1140100	Ghost Stump	2044002	Scroll for Two-handed Sword for ATT	1	1	0.075	
@@ -709,8 +748,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210100	Pig	4030012	Monster Card	1	1	12.5	
 1210100	Pig	4032379	Letter of Commendation - Pirate Adventurer	1	1	8	2409
 1210100	Pig	4030011	Omok Piece : Pig	1	1	7.7	
-1210100	Pig	4031846	Black Magician's Token	1	1	5	2173
 1210100	Pig	4000021	Leather	1	1	5	
+1210100	Pig	4031846	Black Magician's Token	1	1	5	2173
 1210100	Pig	4000017	Pig's Head	1	1	4	
 1210100	Pig	2060000	Arrow for Bow	9	12	3	
 1210100	Pig	2061000	Arrow for Crossbow	9	12	3	
@@ -720,11 +759,14 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210100	Pig	4010006	Gold Ore	1	1	0.9	
 1210100	Pig	4020006	Topaz Ore	1	1	0.9	
 1210100	Pig	2380006	Pig Card	1	1	0.8	
+1210100	Pig	1422000	Wooden Mallet	1	1	0.4	
+1210100	Pig	1472000	Garnier	1	1	0.4	
+1210100	Pig	1041014	Orange Lolica Armor	1	1	0.4	
+1210100	Pig	1002610	Brown Rocky Bandana	1	1	0.4	
+1210100	Pig	1041012	Red-Striped T-Shirt	1	1	0.4	
 1210100	Pig	1002008	Brown Skullcap	1	1	0.1287	
-1210100	Pig	1002610	Brown Rocky Bandana	1	1	0.1287	
 1210100	Pig	1062002	Brown Hard Leather Pants	1	1	0.08	
 1210100	Pig	1061028	White Split Skirt	1	1	0.08	
-1210100	Pig	1041014	Orange Lolica Armor	1	1	0.08	
 1210100	Pig	1040034	Dark Nightshift	1	1	0.08	
 1210100	Pig	1041008	Green Able Armor	1	1	0.08	
 1210100	Pig	1060024	Dark Nightshift Pants	1	1	0.08	
@@ -738,16 +780,13 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210100	Pig	1332006	Field Dagger	1	1	0.08	
 1210100	Pig	1442006	Iron Ball	1	1	0.08	
 1210100	Pig	1492001	Dellinger Special	1	1	0.08	
-1210100	Pig	1422000	Wooden Mallet	1	1	0.07	
-1210100	Pig	1041012	Red-Striped T-Shirt	1	1	0.07	
 1210100	Pig	1402018	Wooden Samurai Sword	1	1	0.07	
-1210100	Pig	1472000	Garnier	1	1	0.05	
 1210100	Pig	2041021	Scroll for Cape for LUK	1	1	0.03	
 1210100	Pig	2040702	Scroll for Shoes for DEX	1	1	0.03	
 1210101	Ribbon Pig	4000002	Pig's Ribbon	1	1	60	
 1210101	Ribbon Pig	0	(meso)	40	60	40	
-1210101	Ribbon Pig	4001350	Pumpkin Head	1	1	20	28235
 1210101	Ribbon Pig	4003004	Stiff Feather	1	1	20	
+1210101	Ribbon Pig	4001350	Pumpkin Head	1	1	20	28235
 1210101	Ribbon Pig	4030012	Monster Card	1	1	12.5	
 1210101	Ribbon Pig	4032377	Letter of Commendation - Bowman Adventurer	1	1	8	2407
 1210101	Ribbon Pig	4001357	Pork	1	1	7	28244
@@ -762,33 +801,33 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210101	Ribbon Pig	4010002	Mithril Ore	1	1	0.9	
 1210101	Ribbon Pig	4020001	Amethyst Ore	1	1	0.9	
 1210101	Ribbon Pig	2380009	Ribbon Pig Card	1	1	0.8	
+1210101	Ribbon Pig	1041012	Red-Striped T-Shirt	1	1	0.4	
+1210101	Ribbon Pig	1040014	Orange Sporty T-Shirt	1	1	0.4	
+1210101	Ribbon Pig	1492000	Pistol	1	1	0.4	
+1210101	Ribbon Pig	1002002	Metal Koif	1	1	0.4	
+1210101	Ribbon Pig	1002010	Brown Winter Hat	1	1	0.4	
+1210101	Ribbon Pig	1002043	Bronze Koif	1	1	0.4	
+1210101	Ribbon Pig	1002075	Red Apprentice Hat	1	1	0.4	
+1210101	Ribbon Pig	1002080	Red Bandana	1	1	0.4	
+1210101	Ribbon Pig	1002081	Blue Bandana	1	1	0.4	
+1210101	Ribbon Pig	1002083	Black Bandana	1	1	0.4	
+1210101	Ribbon Pig	1472000	Garnier	1	1	0.4	
+1210101	Ribbon Pig	1002001	Metal Gear	1	1	0.15	
+1210101	Ribbon Pig	1002007	Steel Full Helm	1	1	0.15	
+1210101	Ribbon Pig	1002041	Yellow Metal Gear	1	1	0.15	
+1210101	Ribbon Pig	1002042	Blue Metal Gear	1	1	0.15	
+1210101	Ribbon Pig	1002055	Bronze Football Helmet	1	1	0.15	
+1210101	Ribbon Pig	1002058	Mithril Viking Helm	1	1	0.15	
+1210101	Ribbon Pig	1002131	Green Loosecap	1	1	0.15	
+1210101	Ribbon Pig	1002613	Brown Lagger Cap	1	1	0.15	
+1210101	Ribbon Pig	1032000	Weighted Earrings	1	1	0.15	
 1210101	Ribbon Pig	1040011	Silver Leather Hoodwear	1	1	0.15	
 1210101	Ribbon Pig	1040034	Dark Nightshift	1	1	0.15	
 1210101	Ribbon Pig	1060024	Dark Nightshift Pants	1	1	0.15	
 1210101	Ribbon Pig	1402018	Wooden Samurai Sword	1	1	0.15	
 1210101	Ribbon Pig	1032003	Amethyst Earrings	1	1	0.15	
-1210101	Ribbon Pig	1041012	Red-Striped T-Shirt	1	1	0.15	
-1210101	Ribbon Pig	1040014	Orange Sporty T-Shirt	1	1	0.15	
-1210101	Ribbon Pig	1492000	Pistol	1	1	0.15	
 1210101	Ribbon Pig	1052098	Brown Cotton Lagger	1	1	0.15	
 1210101	Ribbon Pig	1072285	Brown Lagger Slipper	1	1	0.15	
-1210101	Ribbon Pig	1002001	Metal Gear	1	1	0.15	
-1210101	Ribbon Pig	1002002	Metal Koif	1	1	0.15	
-1210101	Ribbon Pig	1002007	Steel Full Helm	1	1	0.15	
-1210101	Ribbon Pig	1002010	Brown Winter Hat	1	1	0.15	
-1210101	Ribbon Pig	1002041	Yellow Metal Gear	1	1	0.15	
-1210101	Ribbon Pig	1002042	Blue Metal Gear	1	1	0.15	
-1210101	Ribbon Pig	1002043	Bronze Koif	1	1	0.15	
-1210101	Ribbon Pig	1002055	Bronze Football Helmet	1	1	0.15	
-1210101	Ribbon Pig	1002058	Mithril Viking Helm	1	1	0.15	
-1210101	Ribbon Pig	1002075	Red Apprentice Hat	1	1	0.15	
-1210101	Ribbon Pig	1002080	Red Bandana	1	1	0.15	
-1210101	Ribbon Pig	1002081	Blue Bandana	1	1	0.15	
-1210101	Ribbon Pig	1002083	Black Bandana	1	1	0.15	
-1210101	Ribbon Pig	1002131	Green Loosecap	1	1	0.15	
-1210101	Ribbon Pig	1002613	Brown Lagger Cap	1	1	0.15	
-1210101	Ribbon Pig	1032000	Weighted Earrings	1	1	0.15	
-1210101	Ribbon Pig	1472000	Garnier	1	1	0.15	
 1210101	Ribbon Pig	1061028	White Split Skirt	1	1	0.15	
 1210101	Ribbon Pig	2040902	Scroll for Shield for DEF	1	1	0.03	
 1210102	Orange Mushroom	4000001	Orange Mushroom Cap	1	1	60	
@@ -804,34 +843,34 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210102	Orange Mushroom	4010000	Bronze Ore	1	1	0.9	
 1210102	Orange Mushroom	4020007	Diamond Ore	1	1	0.9	
 1210102	Orange Mushroom	2380007	Orange Mushroom Card	1	1	0.8	
+1210102	Orange Mushroom	1002002	Metal Koif	1	1	0.4	
+1210102	Orange Mushroom	1002003	Steel Helmet	1	1	0.4	
+1210102	Orange Mushroom	1002010	Brown Winter Hat	1	1	0.4	
+1210102	Orange Mushroom	1002019	White Bandana	1	1	0.4	
+1210102	Orange Mushroom	1002039	Bronze Helmet	1	1	0.4	
+1210102	Orange Mushroom	1002075	Red Apprentice Hat	1	1	0.4	
+1210102	Orange Mushroom	1002080	Red Bandana	1	1	0.4	
+1210102	Orange Mushroom	1002081	Blue Bandana	1	1	0.4	
+1210102	Orange Mushroom	1002083	Black Bandana	1	1	0.4	
+1210102	Orange Mushroom	1072004	White Gomushin	1	1	0.4	
+1210102	Orange Mushroom	1002043	Bronze Koif	1	1	0.4	
+1210102	Orange Mushroom	1432000	Spear	1	1	0.4	
+1210102	Orange Mushroom	1312000	Double Axe	1	1	0.4	
+1210102	Orange Mushroom	1072015	Brown Hard Leather Boots	1	1	0.4	
+1210102	Orange Mushroom	1052095	Brown Rocky Suit	1	1	0.4	
+1210102	Orange Mushroom	1082012	Basic Archer Gloves	1	1	0.15	
+1210102	Orange Mushroom	1072031	Red Ninja Sandals	1	1	0.15	
 1210102	Orange Mushroom	1002001	Metal Gear	1	1	0.15	
-1210102	Orange Mushroom	1002002	Metal Koif	1	1	0.15	
-1210102	Orange Mushroom	1002003	Steel Helmet	1	1	0.15	
 1210102	Orange Mushroom	1002007	Steel Full Helm	1	1	0.15	
-1210102	Orange Mushroom	1002010	Brown Winter Hat	1	1	0.15	
-1210102	Orange Mushroom	1002019	White Bandana	1	1	0.15	
 1210102	Orange Mushroom	1002033	Old Wisconsin	1	1	0.15	
-1210102	Orange Mushroom	1002039	Bronze Helmet	1	1	0.15	
 1210102	Orange Mushroom	1002042	Blue Metal Gear	1	1	0.15	
 1210102	Orange Mushroom	1002051	Bronze Full Helm	1	1	0.15	
-1210102	Orange Mushroom	1002075	Red Apprentice Hat	1	1	0.15	
-1210102	Orange Mushroom	1002080	Red Bandana	1	1	0.15	
-1210102	Orange Mushroom	1002081	Blue Bandana	1	1	0.15	
-1210102	Orange Mushroom	1002083	Black Bandana	1	1	0.15	
 1210102	Orange Mushroom	1002103	Pink Moon Conehat	1	1	0.15	
 1210102	Orange Mushroom	1002107	Red Thief Hood	1	1	0.15	
 1210102	Orange Mushroom	1002113	Blue Feather Hat	1	1	0.15	
 1210102	Orange Mushroom	1002613	Brown Lagger Cap	1	1	0.15	
 1210102	Orange Mushroom	1040009	Steel Corporal	1	1	0.15	
 1210102	Orange Mushroom	1040011	Silver Leather Hoodwear	1	1	0.15	
-1210102	Orange Mushroom	1072004	White Gomushin	1	1	0.15	
-1210102	Orange Mushroom	1002043	Bronze Koif	1	1	0.15	
-1210102	Orange Mushroom	1432000	Spear	1	1	0.15	
-1210102	Orange Mushroom	1312000	Double Axe	1	1	0.15	
-1210102	Orange Mushroom	1082012	Basic Archer Gloves	1	1	0.15	
-1210102	Orange Mushroom	1072015	Brown Hard Leather Boots	1	1	0.15	
-1210102	Orange Mushroom	1072031	Red Ninja Sandals	1	1	0.15	
-1210102	Orange Mushroom	1052095	Brown Rocky Suit	1	1	0.15	
 1210102	Orange Mushroom	2040001	Scroll for Helmet for DEF	1	1	0.075	
 1210102	Orange Mushroom	2041009	Scroll for Cape for MP	1	1	0.075	
 1210102	Orange Mushroom	2330000	Bullet	1	1	0.05	
@@ -858,9 +897,6 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210103	Bubbling	1412012	Iron Axe	1	1	0.15	
 1210103	Bubbling	1082180	Green Lagger Halfglove	1	1	0.15	
 1210103	Bubbling	1492001	Dellinger Special	1	1	0.15	
-1210103	Bubbling	1092030	Maple Shield	1	1	0.15	
-1210103	Bubbling	1442029	Gold Surfboard	1	1	0.15	
-1210103	Bubbling	1412002	Iron Axe	1	1	0.15	
 1210103	Bubbling	1002020	Red Starry Bandana	1	1	0.15	
 1210103	Bubbling	1002027	Steel Sharp Helm	1	1	0.15	
 1210103	Bubbling	1002051	Bronze Full Helm	1	1	0.15	
@@ -873,6 +909,9 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 1210103	Bubbling	1002129	Brown Loosecap	1	1	0.15	
 1210103	Bubbling	1002160	Brown Hunter	1	1	0.15	
 1210103	Bubbling	1002619	Brown Pitz Bandana	1	1	0.15	
+1210103	Bubbling	1092030	Maple Shield	1	1	0.15	
+1210103	Bubbling	1442029	Gold Surfboard	1	1	0.15	
+1210103	Bubbling	1412002	Iron Axe	1	1	0.15	
 1210103	Bubbling	1002075	Red Apprentice Hat	1	1	0.1287	
 1210103	Bubbling	2048000	Scroll for Pet Equip. for Speed	1	1	0.075	
 1210103	Bubbling	2041045	Scroll for Cape for Weapon DEF	1	1	0.075	
@@ -959,6 +998,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100102	Jr. Cactus	1082004	Venon	1	1	0.08	
 2100102	Jr. Cactus	1302002	Viking Sword	1	1	0.08	
 2100102	Jr. Cactus	1332008	Coconut Knife	1	1	0.08	
+2100102	Jr. Cactus	1040003	Brown Hard Leather Top	1	1	0.08	
+2100102	Jr. Cactus	1092006	Mithril Buckler	1	1	0.08	
 2100102	Jr. Cactus	1051004	Purple Doroness Robe	1	1	0.07	
 2100102	Jr. Cactus	1050024	Yellow Doros Robe	1	1	0.07	
 2100102	Jr. Cactus	1462003	Balanche	1	1	0.05	
@@ -1032,11 +1073,12 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2100104	Royal Cactus	1082050	Black Marker	1	1	0.08	
 2100104	Royal Cactus	1302008	Gladius	1	1	0.08	
 2100104	Royal Cactus	1442011	Surfboard	1	1	0.08	
+2100104	Royal Cactus	1472008	Steel Guards	1	1	0.08	
 2100104	Royal Cactus	2041044	Scroll for Cape for Weapon DEF	1	1	0.075	
 2100104	Royal Cactus	2043216	King Pepe's 60% Scroll for One-handed BW Attacks	1	1	0.075	
+2100104	Royal Cactus	1452022	Maple Soul Searcher	1	1	0.07	
 2100104	Royal Cactus	1442001	Mithril Pole Arm	1	1	0.07	
 2100104	Royal Cactus	1322003	Lollipop	1	1	0.07	
-2100104	Royal Cactus	1452022	Maple Soul Searcher	1	1	0.07	
 2100104	Royal Cactus	2041002	Scroll for Cape for Magic Def.	1	1	0.03	
 2100104	Royal Cactus	2043214	Scroll for One-Handed BW for Accuracy 10%	1	1	0.03	
 2100105	Bellamoa	4000328	Snake Rattle	1	1	60	
@@ -1297,6 +1339,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2110301	Scorpion	1072041	Blood Battle Grieves	1	1	0.08	
 2110301	Scorpion	1082043	Silver Sylvia	1	1	0.08	
 2110301	Scorpion	1332004	Forked Dagger	1	1	0.08	
+2110301	Scorpion	1072170	Green Snowshoes	1	1	0.08	
 2110301	Scorpion	1412004	Niam	1	1	0.07	
 2110301	Scorpion	1050029	Dark Chaos Robe	1	1	0.07	
 2110301	Scorpion	1332009	Cass	1	1	0.05	
@@ -1340,6 +1383,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2130100	Dark Axe Stump	1072288	Brown Skeedy Sandals	1	1	0.08	
 2130100	Dark Axe Stump	1302002	Viking Sword	1	1	0.08	
 2130100	Dark Axe Stump	1322002	Iron Mace	1	1	0.08	
+2130100	Dark Axe Stump	1040003	Brown Hard Leather Top	1	1	0.08	
+2130100	Dark Axe Stump	1082032	Bronze Mischief	1	1	0.08	
 2130100	Dark Axe Stump	1051003	Brown Doroness Robe	1	1	0.07	
 2130100	Dark Axe Stump	1051004	Purple Doroness Robe	1	1	0.07	
 2130100	Dark Axe Stump	1472006	Adamantium Igor	1	1	0.05	
@@ -1377,6 +1422,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2130103	Jr. Necki	1322002	Iron Mace	1	1	0.08	
 2130103	Jr. Necki	1452001	Hunter's Bow	1	1	0.08	
 2130103	Jr. Necki	1492002	The Negotiator	1	1	0.08	
+2130103	Jr. Necki	1082032	Bronze Mischief	1	1	0.08	
 2130103	Jr. Necki	1050005	Blue Kendo Robe	1	1	0.07	
 2130103	Jr. Necki	1332008	Coconut Knife	1	1	0.05	
 2130103	Jr. Necki	1482002	Double Tail Knuckler	1	1	0.05	
@@ -1474,6 +1520,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2220100	Blue Mushroom	1072288	Brown Skeedy Sandals	1	1	0.08	
 2220100	Blue Mushroom	1082020	Blue Morrican	1	1	0.08	
 2220100	Blue Mushroom	1312016	Contra Axe	1	1	0.08	
+2220100	Blue Mushroom	1002016	Green Wizardry Hat	1	1	0.08	
+2220100	Blue Mushroom	1072025	Deer Huntertop	1	1	0.08	
 2220100	Blue Mushroom	2040602	Scroll for Bottomwear for DEF	1	1	0.075	
 2220100	Blue Mushroom	1302020	Maple Sword	1	1	0.07	
 2220100	Blue Mushroom	1412002	Iron Axe	1	1	0.07	
@@ -1837,6 +1885,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230108	Pinboom	1072066	Blue Enamel Boots	1	1	0.08	
 2230108	Pinboom	1302006	Machete	1	1	0.08	
 2230108	Pinboom	1382004	Old Wooden Staff	1	1	0.08	
+2230108	Pinboom	1072025	Deer Huntertop	1	1	0.08	
+2230108	Pinboom	1472004	Bronze Igor	1	1	0.08	
 2230108	Pinboom	1051005	Red Doroness Robe	1	1	0.07	
 2230108	Pinboom	1050024	Yellow Doros Robe	1	1	0.07	
 2230108	Pinboom	1052101	Beige Carribean	1	1	0.07	
@@ -1873,6 +1923,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230109	Bubble Fish	1072080	Blue Hunter Boots	1	1	0.08	
 2230109	Bubble Fish	1082049	Green Marker	1	1	0.08	
 2230109	Bubble Fish	1412006	Blue Axe	1	1	0.08	
+2230109	Bubble Fish	1072338	Purple Snowshoes	1	1	0.08	
 2230109	Bubble Fish	2040801	Scroll for Gloves for DEX	1	1	0.075	
 2230109	Bubble Fish	2040707	Scroll for Shoes for Speed	1	1	0.075	
 2230109	Bubble Fish	1442011	Surfboard	1	1	0.07	
@@ -2058,6 +2109,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 2230200	Flower Fish	1072036	Gold Chain Boots	1	1	0.08	
 2230200	Flower Fish	1072081	Green Hunter Boots	1	1	0.08	
 2230200	Flower Fish	1082051	Red Lutia	1	1	0.08	
+2230200	Flower Fish	1032028	Red Emerald Earrings	1	1	0.08	
 2230200	Flower Fish	1422001	Mithril Maul	1	1	0.07	
 2230200	Flower Fish	1412000	Two-Handed Axe	1	1	0.07	
 2230200	Flower Fish	1412006	Blue Axe	1	1	0.07	
@@ -2138,6 +2190,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3000000	Sentinel	1082048	Brown Marker	1	1	0.08	
 3000000	Sentinel	1322027	Frying Pan	1	1	0.08	
 3000000	Sentinel	1472010	Adamantium Guards	1	1	0.08	
+3000000	Sentinel	1072170	Green Snowshoes	1	1	0.08	
 3000000	Sentinel	2041046	Scroll for Cape for MaxHP	1	1	0.075	
 3000000	Sentinel	2041045	Scroll for Cape for Weapon DEF	1	1	0.075	
 3000000	Sentinel	1382009	Maple Staff	1	1	0.07	
@@ -2263,6 +2316,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3000006	Krip	1072075	Red Magicshoes	1	1	0.08	
 3000006	Krip	1322003	Lollipop	1	1	0.08	
 3000006	Krip	1472010	Adamantium Guards	1	1	0.08	
+3000006	Krip	1072169	Blue Snowshoes	1	1	0.08	
 3000006	Krip	2040424	Scroll for Topwear for LUK 70%	1	1	0.075	
 3000006	Krip	1492021	Maple Storm Pistol	1	1	0.07	
 3000006	Krip	1382017	Circle-Winded Staff	1	1	0.07	
@@ -2322,6 +2376,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3100102	Kiyo	1072080	Blue Hunter Boots	1	1	0.08	
 3100102	Kiyo	1082050	Black Marker	1	1	0.08	
 3100102	Kiyo	1412006	Blue Axe	1	1	0.08	
+3100102	Kiyo	1072338	Purple Snowshoes	1	1	0.08	
 3100102	Kiyo	1050022	Dark Crusader Chainmail	1	1	0.07	
 3100102	Kiyo	1462004	Eagle Crow	1	1	0.05	
 3100102	Kiyo	1472011	Bronze Guardian	1	1	0.05	
@@ -2351,6 +2406,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3110100	Ligator	1072082	Black Hunter Boots	1	1	0.08	
 3110100	Ligator	1302008	Gladius	1	1	0.08	
 3110100	Ligator	1322014	War Hammer	1	1	0.08	
+3110100	Ligator	1072168	Red Snowshoes	1	1	0.08	
 3110100	Ligator	2041044	Scroll for Cape for Weapon DEF	1	1	0.075	
 3110100	Ligator	1442024	Maple Scorpio	1	1	0.07	
 3110100	Ligator	1382009	Maple Staff	1	1	0.07	
@@ -2443,6 +2499,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3110102	Ratz	1072077	White Magicshoes	1	1	0.08	
 3110102	Ratz	1082044	Gold Sylvia	1	1	0.08	
 3110102	Ratz	1332012	Reef Claw	1	1	0.08	
+3110102	Ratz	1072171	Black Snowshoes	1	1	0.08	
 3110102	Ratz	1312006	Dankke	1	1	0.07	
 3110102	Ratz	1322016	Jacker	1	1	0.07	
 3110102	Ratz	1302030	Maple Soul Singer	1	1	0.07	
@@ -2523,6 +2580,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3110301	Dark Sand Dwarf 	1072075	Red Magicshoes	1	1	0.08	
 3110301	Dark Sand Dwarf 	1322003	Lollipop	1	1	0.08	
 3110301	Dark Sand Dwarf 	1472009	Mithril Guards	1	1	0.08	
+3110301	Dark Sand Dwarf 	1072168	Red Snowshoes	1	1	0.08	
 3110301	Dark Sand Dwarf 	1402010	Aluminum Baseball Bat	1	1	0.07	
 3110301	Dark Sand Dwarf 	1332020	Korean Fan	1	1	0.05	
 3110301	Dark Sand Dwarf 	2044701	Scroll for Claw for ATT	1	1	0.03	
@@ -3354,6 +3412,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3230104	Mask Fish	1082050	Black Marker	1	1	0.08	
 3230104	Mask Fish	1322027	Frying Pan	1	1	0.08	
 3230104	Mask Fish	1492004	Cold Mind	1	1	0.08	
+3230104	Mask Fish	1472008	Steel Guards	1	1	0.08	
 3230104	Mask Fish	1382018	Petal Staff	1	1	0.07	
 3230104	Mask Fish	1051014	Sapphire Fitted Mail	1	1	0.07	
 3230104	Mask Fish	1402006	Lionheart	1	1	0.07	
@@ -3653,6 +3712,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3230307	Chirppy	1072079	Red Hunter Boots	1	1	0.08	
 3230307	Chirppy	1082048	Brown Marker	1	1	0.08	
 3230307	Chirppy	1332012	Reef Claw	1	1	0.08	
+3230307	Chirppy	1072171	Black Snowshoes	1	1	0.08	
 3230307	Chirppy	1051032	Blue Calaf	1	1	0.07	
 3230307	Chirppy	1312005	Fireman's Axe	1	1	0.07	
 3230307	Chirppy	1302004	Cutlus	1	1	0.07	
@@ -3726,6 +3786,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3230400	Drumming Bunny	1061045	Blue Steal Pants	1	1	0.08	
 3230400	Drumming Bunny	1040074	Green Legolier	1	1	0.08	
 3230400	Drumming Bunny	1060063	Green Legolier Pants	1	1	0.08	
+3230400	Drumming Bunny	1072169	Blue Snowshoes	1	1	0.08	
 3230400	Drumming Bunny	2044902	Scroll for Gun for ATT	1	1	0.075	
 3230400	Drumming Bunny	2043201	Scroll for One-Handed BW for ATT	1	1	0.075	
 3230400	Drumming Bunny	1482020	Maple Knuckle	1	1	0.07	
@@ -3807,6 +3868,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3300000	Renegade Spores	1072079	Red Hunter Boots	1	1	0.08	
 3300000	Renegade Spores	1082048	Brown Marker	1	1	0.08	
 3300000	Renegade Spores	1432002	Forked Spear	1	1	0.08	
+3300000	Renegade Spores	1072338	Purple Snowshoes	1	1	0.08	
 3300000	Renegade Spores	1402010	Aluminum Baseball Bat	1	1	0.07	
 3300000	Renegade Spores	1332020	Korean Fan	1	1	0.05	
 3300000	Renegade Spores	2044701	Scroll for Claw for ATT	1	1	0.03	
@@ -3843,6 +3905,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3300001	Poison Mushroom	1072003	Emerald Battle Grieves	1	1	0.08	
 3300001	Poison Mushroom	1072083	Brown Hunter Boots	1	1	0.08	
 3300001	Poison Mushroom	1302008	Gladius	1	1	0.08	
+3300001	Poison Mushroom	1072168	Red Snowshoes	1	1	0.08	
 3300001	Poison Mushroom	1402010	Aluminum Baseball Bat	1	1	0.07	
 3300001	Poison Mushroom	1332020	Korean Fan	1	1	0.05	
 3300001	Poison Mushroom	2044701	Scroll for Claw for ATT	1	1	0.03	
@@ -3875,6 +3938,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3300002	Intoxicated Pig	1072076	Blue Magicshoes	1	1	0.08	
 3300002	Intoxicated Pig	1082053	Black Lutia	1	1	0.08	
 3300002	Intoxicated Pig	1472010	Adamantium Guards	1	1	0.08	
+3300002	Intoxicated Pig	1072169	Blue Snowshoes	1	1	0.08	
 3300002	Intoxicated Pig	1322014	War Hammer	1	1	0.07	
 3300002	Intoxicated Pig	1050030	Blue Chaos Robe	1	1	0.07	
 3300002	Intoxicated Pig	1052107	Brown Pollard	1	1	0.07	
@@ -3913,6 +3977,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3300003	Helmet Pepe	1072077	White Magicshoes	1	1	0.08	
 3300003	Helmet Pepe	1082044	Gold Sylvia	1	1	0.08	
 3300003	Helmet Pepe	1332012	Reef Claw	1	1	0.08	
+3300003	Helmet Pepe	1072171	Black Snowshoes	1	1	0.08	
 3300003	Helmet Pepe	1051015	Blood Fitted Mail	1	1	0.07	
 3300003	Helmet Pepe	1302004	Cutlus	1	1	0.07	
 3300003	Helmet Pepe	1332014	Gephart	1	1	0.05	
@@ -4339,6 +4404,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 3400005	Jr. Pepe Doll Claw Game	1072000	Brown Jangoon Shoes	1	1	0.08	
 3400005	Jr. Pepe Doll Claw Game	1082074	Dark Cleave	1	1	0.08	
 3400005	Jr. Pepe Doll Claw Game	1302016	Yellow Umbrella	1	1	0.08	
+3400005	Jr. Pepe Doll Claw Game	1032048	Crystal Leaf Earrings	1	1	0.08	
 3400006	Jr. Pepe Doll  	4000543	Jr. Pepe Keychain	1	1	40	
 3400006	Jr. Pepe Doll  	0	(meso)	80	90	40	
 3400006	Jr. Pepe Doll  	4032521	VIP Invitation	1	1	12	2291
@@ -4787,6 +4853,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4230102	Wraith	1072124	Blue Steel-Tip Boots	1	1	0.15	
 4230102	Wraith	1072129	Green Goni Shoes	1	1	0.15	
 4230102	Wraith	1322021	Black Tube	1	1	0.15	
+4230102	Wraith	1032027	Black Emerald Earrings	1	1	0.15	
 4230102	Wraith	1302030	Maple Soul Singer	1	1	0.07	
 4230102	Wraith	2330002	Mighty Bullet	1	1	0.05	
 4230102	Wraith	2040026	Scroll for Helmet for INT 10%	1	1	0.03	
@@ -5784,6 +5851,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4230501	Red Porky	1072121	Blue Pierre Shoes	1	1	0.08	
 4230501	Red Porky	1082062	Red Arten	1	1	0.08	
 4230501	Red Porky	1082075	Red Cleave	1	1	0.08	
+4230501	Red Porky	1032048	Crystal Leaf Earrings	1	1	0.08	
 4230501	Red Porky	1051026	Dark Moonlight	1	1	0.07	
 4230501	Red Porky	1472018	Steel Slain	1	1	0.05	
 4230501	Red Porky	2040901	Scroll for Shield for DEF	1	1	0.03	
@@ -6009,6 +6077,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4250000	Mossy Snail	1072115	Blue Moon Shoes	1	1	0.08	
 4250000	Mossy Snail	1082071	Aqua Brace	1	1	0.08	
 4250000	Mossy Snail	1092014	Adamantium Tower Shield	1	1	0.08	
+4250000	Mossy Snail	1032048	Crystal Leaf Earrings	1	1	0.08	
 4250000	Mossy Snail	1051025	Blue Moonlight	1	1	0.07	
 4250000	Mossy Snail	1492006	Lunar Shooter	1	1	0.05	
 4250000	Mossy Snail	2040004	Scroll for Helmet for HP	1	1	0.03	
@@ -6296,6 +6365,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4300010	Greatest Oldies	4004000	Power Crystal Ore	1	1	1	
 4300010	Greatest Oldies	4020008	Black Crystal Ore	1	1	0.9	
 4300010	Greatest Oldies	1442027	Green Surfboard	1	1	0.08	
+4300010	Greatest Oldies	1032027	Black Emerald Earrings	1	1	0.08	
+4300010	Greatest Oldies	1102041	Pink Adventurer Cape	1	1	0.08	
 4300010	Greatest Oldies	2040004	Scroll for Helmet for HP	1	1	0.03	
 4300010	Greatest Oldies	2040501	Scroll for Overall Armor for DEX	1	1	0.03	
 4300010	Greatest Oldies	2040504	Scroll for Overall Armor for DEF	1	1	0.03	
@@ -6317,6 +6388,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4300011	Cheap Amplifier	4004000	Power Crystal Ore	1	1	1	
 4300011	Cheap Amplifier	4020008	Black Crystal Ore	1	1	0.9	
 4300011	Cheap Amplifier	1452023	Cao Cao Bow	1	1	0.08	
+4300011	Cheap Amplifier	1102041	Pink Adventurer Cape	1	1	0.08	
 4300011	Cheap Amplifier	2040004	Scroll for Helmet for HP	1	1	0.03	
 4300011	Cheap Amplifier	2040501	Scroll for Overall Armor for DEX	1	1	0.03	
 4300011	Cheap Amplifier	2040504	Scroll for Overall Armor for DEF	1	1	0.03	
@@ -6399,6 +6471,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 4300014	Greatest Oldies	2022003	Unagi	1	1	0.3	
 4300014	Greatest Oldies	4004000	Power Crystal Ore	1	1	0.3	
 4300014	Greatest Oldies	1442028	Black Surfboard	1	1	0.08	
+4300014	Greatest Oldies	1032027	Black Emerald Earrings	1	1	0.08	
+4300014	Greatest Oldies	1102041	Pink Adventurer Cape	1	1	0.08	
 4300014	Greatest Oldies	2040004	Scroll for Helmet for HP	1	1	0.075	
 4300014	Greatest Oldies	2040501	Scroll for Overall Armor for DEX	1	1	0.075	
 4300014	Greatest Oldies	2040504	Scroll for Overall Armor for DEF	1	1	0.075	
@@ -7587,6 +7661,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 5200001	Ice Sentinel	1072076	Blue Magicshoes	1	1	0.08	
 5200001	Ice Sentinel	1082042	Steel Sylvia	1	1	0.08	
 5200001	Ice Sentinel	1322027	Frying Pan	1	1	0.08	
+5200001	Ice Sentinel	1072170	Green Snowshoes	1	1	0.08	
 5200001	Ice Sentinel	1322009	Plunger	1	1	0.07	
 5200001	Ice Sentinel	1442003	Axe Pole Arm	1	1	0.07	
 5200001	Ice Sentinel	1050026	White Wizard Robe	1	1	0.07	
@@ -7621,6 +7696,8 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 5200002	Fire Sentinel	1072036	Gold Chain Boots	1	1	0.08	
 5200002	Fire Sentinel	1072081	Green Hunter Boots	1	1	0.08	
 5200002	Fire Sentinel	1082006	Orihalcon Missel	1	1	0.08	
+5200002	Fire Sentinel	1032028	Red Emerald Earrings	1	1	0.08	
+5200002	Fire Sentinel	1472008	Steel Guards	1	1	0.08	
 5200002	Fire Sentinel	1050000	White Crusader Chainmail	1	1	0.07	
 5200002	Fire Sentinel	1492020	Maple Gun	1	1	0.07	
 5200002	Fire Sentinel	1452006	Red Viper	1	1	0.05	
@@ -7949,6 +8026,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 5300000	Leatty	1072082	Black Hunter Boots	1	1	0.08	
 5300000	Leatty	1082042	Steel Sylvia	1	1	0.08	
 5300000	Leatty	1092002	Red Cross Shield	1	1	0.08	
+5300000	Leatty	1032028	Red Emerald Earrings	1	1	0.08	
 5300000	Leatty	1382017	Circle-Winded Staff	1	1	0.07	
 5300000	Leatty	1060017	White Martial Arts Pants	1	1	0.07	
 5300000	Leatty	1050029	Dark Chaos Robe	1	1	0.07	
@@ -9158,6 +9236,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 6300100	Buffoon	1072172	Green Pirate Boots	1	1	0.08	
 6300100	Buffoon	1092024	Silver Aquila Shield	1	1	0.08	
 6300100	Buffoon	1322028	Heaven's Justice	1	1	0.08	
+6300100	Buffoon	1032026	Gold Emerald Earrings	1	1	0.08	
 6300100	Buffoon	2041013	Scroll for Cape for STR	1	1	0.075	
 6300100	Buffoon	1442030	Maple Snowboard	1	1	0.07	
 6300100	Buffoon	1051065	Dark Lineros	1	1	0.07	
@@ -10389,6 +10468,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 7130500	Rash	1082123	Dark Clarity	1	1	0.08	
 7130500	Rash	1402015	Heaven's Gate	1	1	0.08	
 7130500	Rash	1452015	Dark Arund	1	1	0.08	
+7130500	Rash	1032026	Gold Emerald Earrings	1	1	0.08	
 7130500	Rash	1092016	Silver Ancient Shield	1	1	0.07	
 7130500	Rash	1051054	Brown Requierre	1	1	0.07	
 7130500	Rash	1422010	Gigantic Sledge	1	1	0.07	
@@ -11526,6 +11606,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8140300	Dark Klock	1061105	Red Pirate Skirt	1	1	0.15	
 8140300	Dark Klock	1072173	Red Pirate Boots	1	1	0.15	
 8140300	Dark Klock	1472031	Black Mamba	1	1	0.15	
+8140300	Dark Klock	1032026	Gold Emerald Earrings	1	1	0.15	
 8140300	Dark Klock	2070005	Steely Throwing-Knives	1	1	0.04	
 8140300	Dark Klock	2040513	Scroll for Overall Armor for INT	1	1	0.03	
 8140300	Dark Klock	2044602	Scroll for Crossbow for ATT	1	1	0.03	
@@ -11627,6 +11708,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8140512	Royal Guard	1082153	Red Ciara	1	1	0.08	
 8140512	Royal Guard	1372010	Dimon Wand	1	1	0.08	
 8140512	Royal Guard	1452021	Dark Nisrock	1	1	0.08	
+8140512	Royal Guard	1032030	Sword Earrings	1	1	0.08	
 8140512	Royal Guard	2044602	Scroll for Crossbow for ATT	1	1	0.075	
 8140512	Royal Guard	2044804	Scroll for Knuckler for Attack 30%	1	1	0.075	
 8140512	Royal Guard	2040318	Scroll for Earring for DEX 10%	1	1	0.075	
@@ -11809,6 +11891,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8140703	Brexton	1322045	Battle Hammer	1	1	0.08	
 8140703	Brexton	1372010	Dimon Wand	1	1	0.08	
 8140703	Brexton	1452021	Dark Nisrock	1	1	0.08	
+8140703	Brexton	1032030	Sword Earrings	1	1	0.08	
 8140703	Brexton	2040602	Scroll for Bottomwear for DEF	1	1	0.075	
 8140703	Brexton	2044803	Scroll for Knuckler for Attack 70%	1	1	0.075	
 8140703	Brexton	1040122	Black Neos	1	1	0.07	
@@ -11902,6 +11985,7 @@ mob_id	mob	item_id	item	min	max	chance_percent	quest_id
 8141100	Gigantic Spirit Viking	1372010	Dimon Wand	1	1	0.08	
 8141100	Gigantic Spirit Viking	1452021	Dark Nisrock	1	1	0.08	
 8141100	Gigantic Spirit Viking	1462015	White Neschere	1	1	0.08	
+8141100	Gigantic Spirit Viking	1032030	Sword Earrings	1	1	0.08	
 8141100	Gigantic Spirit Viking	2280005	[Skill Book] Dragon's Breath	1	1	0.05	
 8141100	Gigantic Spirit Viking	2043002	Scroll for One-Handed Sword for ATT	1	1	0.03	
 8141100	Gigantic Spirit Viking	2040902	Scroll for Shield for DEF	1	1	0.03	
