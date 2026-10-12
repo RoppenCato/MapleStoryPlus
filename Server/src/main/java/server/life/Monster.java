@@ -731,6 +731,7 @@ public class Monster extends AbstractLoadedLife {
             if (personalExp != null) {
                 personalExp *= getStatusExpMultiplier(attacker, hasPartySharers);
                 personalExp *= attacker.getExpRate();
+                personalExp *= (float) plus.Pace.of(attacker);      // MapleStoryPlus: the pace of the player's level
             } else {
                 personalExp = 0.0f;
             }
@@ -745,6 +746,7 @@ public class Monster extends AbstractLoadedLife {
             if (partyExp != null) {
                 partyExp *= getStatusExpMultiplier(attacker, hasPartySharers);
                 partyExp *= attacker.getExpRate();
+                partyExp *= (float) plus.Pace.of(attacker);         // MapleStoryPlus
                 partyExp *= YamlConfig.config.server.PARTY_BONUS_EXP_RATE;
             } else {
                 partyExp = 0.0f;

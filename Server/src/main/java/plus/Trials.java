@@ -186,6 +186,9 @@ public class Trials {
     }
 
     /** Called when a monster dies. The killer and the party members on the same map get the credit. */
+    /** The share of a level a trial boss gives on top of its own exp: the first kill, and every kill after. */
+    private static final double EXP_FIRST_KILL = 0.30, EXP_LATER_KILL = 0.05;
+
     public static void onKill(Character killer, Monster monster) {
         load();
         Boss boss = byMob.get(monster.getId());
@@ -216,6 +219,12 @@ public class Trials {
             } catch (Exception e) {
                 log.error("Could not record the trial {} for {}", boss.name(), chr.getName(), e);
                 continue;
+            }
+            // A share of a level, counted at the boss's level so that an old boss is not worth farming
+            int expLevel = Math.max(1, Math.min(chr.getLevel(), monster.getLevel()));
+            if (chr.getLevel() < chr.getMaxClassLevel()) {
+                int exp = (int) (constants.game.ExpTable.getExpNeededForLevel(expLevel) * (first ? EXP_FIRST_KILL : EXP_LATER_KILL));
+                chr.gainExp(exp, true, true);
             }
             int gained = boss.tokens() * (first ? FIRST_KILL_TIMES : 1);
             if (gained > 0) {

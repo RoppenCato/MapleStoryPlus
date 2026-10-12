@@ -50,6 +50,14 @@ def config_rate(name):
     return int(m.group(1)) if m else 1
 
 
+def pace_table():
+    """Settings/Pace.tsv: the multiplier on exp, mesos and drops at each player level (plus/Pace.java)."""
+    with io.open(os.path.join(ROOT, "Settings", "Pace.tsv"), encoding="utf-8") as f:
+        steps = [line.split("\t") for line in f.read().splitlines()[1:] if line.strip()]
+    steps = sorted((int(a), float(b)) for a, b in steps)
+    return lambda level: ([t for start, t in steps if start <= level] or [1.0])[-1]
+
+
 def exp_table():
     path = os.path.join(ROOT, "Server", "src", "main", "java", "constants", "game", "ExpTable.java")
     with io.open(path, encoding="utf-8") as f:
@@ -70,6 +78,7 @@ def main():
     drop_rate = a.drop_rate or config_rate("drop_rate")
     exp_rate = a.exp_rate or config_rate("exp_rate")
     need = exp_table()
+    pace = pace_table()
 
     mobs = {r["id"]: r for r in rows("Mobs.tsv") if r["level"].isdigit() and r["exp"].isdigit()}
     spawns = collections.Counter()
@@ -108,8 +117,9 @@ def main():
         if not hunted:
             continue
         exp = sum(int(mobs[i]["exp"]) for i in hunted) / len(hunted)
-        kills = need[level - 1] / (exp * exp_rate)
-        row = {"level": level, "kills": kills, "where": where, "any": 0.0,
+        kills = need[level - 1] / (exp * exp_rate)             # at pace 1: the drops of a level are worked out from these
+        # Shown: a level takes kills / pace, and each kill drops that much more often, so the drops of a level stay
+        row = {"level": level, "kills": kills / pace(level), "where": where, "any": 0.0,
                "names": ", ".join(sorted({mobs[i]["name"] for i in hunted})[:3])}
         for cls in CLASSES:
             row[cls] = row[cls + "_weapon"] = 0.0
@@ -131,7 +141,7 @@ def main():
         table.append(row)
 
     size = 1 if a.levels and a.cls else 10
-    print(f"Drop rate x{drop_rate:g}, exp rate x{exp_rate:g}. Expected numbers; real play swings around them."
+    print(f"Drop rate x{drop_rate:g}, exp rate x{exp_rate:g}, times the pace of the level (Settings/Pace.tsv). Expected numbers; real play swings around them."
           + (f" WHAT IF: about {a.budget:g} pieces of gear per level, at most 1 kill in {1 / a.cap:.0f}." if a.budget else "") + "\n")
     if a.cls:
         print(f"{a.cls}: equipment picked up while levelling. 'For you' = wearable by a {a.cls}, needing your level or up to {USEFUL_BELOW} under it or {USEFUL_AHEAD} over.\n")

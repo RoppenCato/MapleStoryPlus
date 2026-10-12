@@ -675,9 +675,12 @@ public class MapleMap {
         Item idrop;
         ItemInformationProvider ii = ItemInformationProvider.getInstance();
 
+        // MapleStoryPlus: a level takes fewer kills (plus/Pace.java), so each kill gives more. Not for bosses.
+        final float pace = mob.isBoss() ? 1f : (float) plus.Pace.of(chr);
+
         for (final MonsterDropEntry de : dropEntry) {
             float cardRate = chr.getCardRate(de.itemId);
-            int dropChance = (int) Math.min((float) de.chance * chRate * cardRate, Integer.MAX_VALUE);
+            int dropChance = (int) Math.min((float) de.chance * chRate * cardRate * (de.itemId == 0 ? 1f : pace), Integer.MAX_VALUE);
 
             if (Randomizer.nextInt(999999) < dropChance) {
                 if (droptype == 3) {
@@ -692,7 +695,7 @@ public class MapleMap {
                         if (chr.getBuffedValue(BuffStat.MESOUP) != null) {
                             mesos = (int) (mesos * chr.getBuffedValue(BuffStat.MESOUP).doubleValue() / 100.0);
                         }
-                        mesos = mesos * chr.getMesoRate();
+                        mesos = (int) Math.min((double) mesos * chr.getMesoRate() * pace, Integer.MAX_VALUE);
                         if (mesos <= 0) {
                             mesos = Integer.MAX_VALUE;
                         }

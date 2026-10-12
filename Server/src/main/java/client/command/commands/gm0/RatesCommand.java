@@ -41,6 +41,8 @@ public class RatesCommand extends Command {
         String showMsg_ = "#eCHARACTER RATES#n" + "\r\n\r\n";
         showMsg_ += "EXP Rate: #e#b" + player.getExpRate() + "x#k#n" + (player.hasNoviceExpRate() ? " - novice rate" : "") + "\r\n";
         showMsg_ += "MESO Rate: #e#b" + player.getMesoRate() + "x#k#n" + "\r\n";
+        // MapleStoryPlus: the pace of the player's level multiplies exp, mesos and drops from ordinary monsters
+        showMsg_ += "Pace at level " + player.getLevel() + ": #e#b" + plus.Pace.of(player) + "x#k#n on exp, mesos and drops from monsters\r\n";
         showMsg_ += "DROP Rate: #e#b" + player.getDropRate() + "x#k#n" + "\r\n";
         showMsg_ += "BOSS DROP Rate: #e#b" + player.getBossDropRate() + "x#k#n" + "\r\n";
         if (YamlConfig.config.server.USE_QUEST_RATE) {

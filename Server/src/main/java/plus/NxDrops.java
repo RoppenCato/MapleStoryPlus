@@ -30,7 +30,7 @@ public class NxDrops {
         }
         // The level of the players who train on this monster, and the kills that level takes them
         int hunter = Math.max(1, Math.min(199, mob.getLevel() + 3));
-        double kills = ExpTable.getExpNeededForLevel(hunter) / ((double) mob.getExp() * Math.max(1, chr.getRawExpRate()));
+        double kills = ExpTable.getExpNeededForLevel(hunter) / ((double) mob.getExp() * Math.max(1, chr.getExpRate()) * Pace.of(chr));
         double card = Math.min(MOST_PER_KILL, NX_PER_LEVEL / (Math.max(1.0, kills) * NX_PER_CARD_CHANCE));
         if (mob.isBoss()) {
             card = Math.min(1.0, card * BOSS_TIMES);

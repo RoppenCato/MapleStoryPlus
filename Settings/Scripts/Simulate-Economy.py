@@ -73,6 +73,14 @@ def config_rate(name):
     return int(m.group(1)) if m else 1
 
 
+def pace_table():
+    """Settings/Pace.tsv: the multiplier on exp, mesos and drops at each player level (plus/Pace.java)."""
+    with io.open(os.path.join(ROOT, "Settings", "Pace.tsv"), encoding="utf-8") as f:
+        steps = [line.split("\t") for line in f.read().splitlines()[1:] if line.strip()]
+    steps = sorted((int(a), float(b)) for a, b in steps)
+    return lambda level: ([t for start, t in steps if start <= level] or [1.0])[-1]
+
+
 def exp_table():
     path = os.path.join(ROOT, "Server", "src", "main", "java", "constants", "game", "ExpTable.java")
     with io.open(path, encoding="utf-8") as f:
@@ -142,6 +150,7 @@ def main():
     drop_rate = a.drop_rate or config_rate("drop_rate")
 
     need = exp_table()
+    pace = pace_table()
     prices = sell_prices()
     drops = drop_table()
     spawns = collections.Counter()
@@ -197,9 +206,10 @@ def main():
         if not fits:
             continue
         avg = lambda key: sum(m[key] for m in fits) / len(fits)
-        kills = need[level - 1] / (avg("exp") * exp_rate)
-        row = {"level": level, "kills": kills, "meso": kills * avg("meso") * PICKED_UP,
-               "items": kills * avg("items") * PICKED_UP}
+        # The pace of the level: fewer kills, and each gives that much more mesos and drops
+        kills = need[level - 1] / (avg("exp") * exp_rate * pace(level))
+        row = {"level": level, "kills": kills, "meso": kills * avg("meso") * pace(level) * PICKED_UP,
+               "items": kills * avg("items") * pace(level) * PICKED_UP}
         for name, kind in PLAYERS.items():
             targets = step(kind["targets"], level)
             hp = kills * avg("touch") * kind["hits"] * kind["taken"] * (1 - NATURAL_RECOVERY)
@@ -210,7 +220,7 @@ def main():
             row[name + "_purse"] = purse[name]
         table.append(row)
 
-    print(f"Rates: exp x{exp_rate:g}, meso x{meso_rate:g}, drop x{drop_rate:g}. "
+    print(f"Rates: exp x{exp_rate:g}, meso x{meso_rate:g}, drop x{drop_rate:g}, times the pace of the level (Settings/Pace.tsv). "
           f"Potions cost {hp_cost:.2f} mesos per HP and {mp_cost:.2f} per MP.")
     print("Mesos per level band. 'left' is income minus potions and shop gear; 'purse' is the running total.\n")
     head = f"{'levels':>8} {'kills':>8} {'mesos':>10} {'vendor':>10} |"
