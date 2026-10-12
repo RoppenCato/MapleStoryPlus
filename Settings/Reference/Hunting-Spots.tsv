@@ -1,0 +1,58 @@
+monster	player_from	player_to	note
+Slime	8	15	The tree maps near Ellinia
+Orange Mushroom	10	15	Henesys hunting grounds
+Ribbon Pig	12	20	Pig Beach and the forests near Henesys
+Green Mushroom	15	22	Tree dungeon near Ellinia
+Bubbling	15	22	Kerning subway, line 1
+Stirge	20	30	Kerning subway
+Horny Mushroom	20	30	Ant Tunnel
+Zombie Mushroom	22	32	Ant Tunnel
+Evil Eye	30	40	Cave of Evil Eye
+Wild Boar	28	40	Land of Wild Boar, Perion
+Fire Boar	32	42	Burnt Land, Perion
+Brown Teddy	30	38	Ludibrium, Terrace Hall
+Pink Teddy	30	38	Ludibrium, Cloud Terrace
+Jr. Wraith	33	42	Kerning subway, line 2
+Panda Teddy	35	42	Ludibrium toy factory
+Chronos	35	42	Ludibrium, Path of Time
+Platoon Chronos	38	48	Ludibrium, Lost Time
+Master Chronos	42	52	Ludibrium, Lost Time
+Iron Boar	45	52	Iron Boar Land
+Copper Drake	45	55	Sleepywood, Tunnel That Lost Light
+Wraith	45	55	Kerning subway, line 2
+Trucker	47	65	Singapore, Mysterious Path
+Jr. Yeti	50	58	El Nath, Ice Valley
+Hector	52	62	El Nath, Cold Field
+White Fang	55	65	El Nath, Icy Cold Field
+Pac Pinky	55	65	Singapore, Ghost Ship
+Coolie Zombie	55	75	El Nath, Dead Mine and Forest of Dead Trees
+Mixed Golem	58	68	Forest of Golem
+Voodoo	60	70	Haunted House
+Slimy	60	72	Singapore, Ghost Ship
+Selkie Jr.	60	70	Singapore, Ghost Ship
+Mr. Anchor	65	75	Singapore, Ghost Ship
+Klock	68	78	Ludibrium, Forgotten Path of Time
+Windraider	70	80	Crimsonwood Mountain
+Dark Rash	72	80	Leafre, Peach Monkey Forest
+Dark Klock	72	82	Ludibrium, Forgotten Path of Time
+Wolf Spider	75	95	Wolf Spider Cavern
+Ghost Pirate	80	90	Ludibrium, Warped Path of Time
+Death Teddy	82	92	Ludibrium, Forgotten Path of Time
+Dual Ghost Pirate	85	100	Ludibrium, Unbalanced Time
+Vikerola	85	95	Malaysia, Fantasy Theme Park
+Blue Kentaurus	85	95	Leafre, Area of Blue Kentaurus
+Bain	88	98	Zipangu, WanWan Spa of Hell
+Memory Monk	90	100	Temple of Time, Memory Lane
+Squid	92	102	Aqua Road, Dangerous Sea Gorge
+Spirit Viking	92	105	Ludibrium, Warped Path of Time
+Gallopera	92	104	Malaysia, Spooky World
+Phantom Watch	93	103	Ludibrium, Forgotten Path of Time
+Risell Squid	95	105	Aqua Road, Dangerous Sea Gorge
+Dreamy Ghost	95	115	Zipangu, Encounter with the Buddha ("Himes")
+Grim Phantom Watch	98	110	Ludibrium, Forbidden Time
+Dark Wyvern	100	110	Leafre canyon
+Qualm Monk	104	114	Temple of Time, Road of Regrets
+Skelegon	108	120	Leafre, Nest of a Dead Dragon
+Skelosaurus	110	120	Leafre, Dragon Nest Left Behind
+Chief Qualm Guardian	114	120	Temple of Time, Road of Regrets
+Oblivion Monk	118	120	Temple of Time, Road to Oblivion

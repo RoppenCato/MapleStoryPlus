@@ -38,6 +38,7 @@ Drop chances are before the server's drop rate. With `drop_rate` 2, a 1% drop is
 |------|------------|
 | [Travel.md](Travel.md) | Every ride, taxi and tower: route, cost and time. Written by hand from the scripts. |
 | [TravelLinks.tsv](TravelLinks.tsv) | The same rides and taxis as map-to-map links with fares, for route finding. Written by hand. |
+| [Hunting-Spots.tsv](Hunting-Spots.tsv) | The popular places to train: monster, the levels people train on it, where. Written by hand. Used by the drop rebalance, the drop site and the bots. |
 | [Places.tsv](Places.tsv) | Bosses that are not ordinary spawns (Balrog, Zakum, Horntail, Papulatus, Pink Bean): what players call them and where they are. Written by hand. |
 | [MapLinks.tsv](MapLinks.tsv) | Which maps connect to which by walking (3,231 links): ordinary portals, plus scripted portals with a fixed destination. |
 | [Loadouts.tsv](Loadouts.tsv) | The gear each class gets at levels 10 to 100, as picked by the character tool. See [Scripts](../Scripts/README.md). |

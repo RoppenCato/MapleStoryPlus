@@ -43,6 +43,12 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 `Bot-Chat-Bridge.py` answers whispers to bots (started by `Start-Bot-Chat.bat`). `bot_minds.py` holds who the bots are and is shared, unchanged, with the WowPlus project. `Test-Bot-Voices.py` puts the same lines to six people so you can hear whether they sound different. `Make-Bot-Backgrounds.py` writes people in full. All of it is described in [Settings/Bots/README.md](../Bots/README.md).
 
+## Rebalance-Drops.py and Make-Drop-Site.py
+
+`Rebalance-Drops.py` makes equipment drop from monsters around its own level and favours the popular hunting spots (`Settings/Reference/Hunting-Spots.tsv`). `--check` shows what it would change. Stop the game server first; it saves a backup. Running it twice changes nothing.
+
+`Make-Drop-Site.py` writes the searchable drop page, `docs/drops.html` and `docs/drops-data.js`, from the reference lists. Run `python Settings/Reference/Build-Reference.py` before it.
+
 ## Make-Character.py
 
 Sets up a test character in one go: level, job, stats, skills, gear, potions and ammo.

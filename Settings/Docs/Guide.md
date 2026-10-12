@@ -214,6 +214,25 @@ Tools\mysql\bin\mysql --defaults-file=Settings\mysql.ini cosmic
 - A character's data is only safe to edit while its account is logged out (`accounts.loggedin = 0`). The server writes the character back on logout and overwrites the edit otherwise.
 - Drops are in `drop_data`, shops in `shops` and `shopitems`. The reference lists `Drops.tsv` and `Shops.tsv` show the current content with names.
 
+### 5.5b Where equipment drops, and the drop site
+
+Equipment drops follow rules that a script applies, so that the whole table can be tuned and applied again:
+
+```
+python Settings/Scripts/Rebalance-Drops.py --check
+python Settings/Scripts/Rebalance-Drops.py
+python Settings/Reference/Build-Reference.py
+python Settings/Scripts/Make-Drop-Site.py
+```
+
+Stop the game server before the second line; it saves a database backup first. The rules are numbers at the top of `Rebalance-Drops.py`: how far above or below an item's level a monster may be (5 above, 20 below), how many monsters around its level must drop it (3, within 10 levels below and 2 above), and the chance at a popular hunting spot (0.15% before the drop rate; 0.08% elsewhere). Running it twice changes nothing the second time. It only touches equipment dropped by ordinary monsters; bosses, scrolls, ores and quest items are left alone.
+
+The popular hunting spots are a hand-written list, `Settings/Reference/Hunting-Spots.tsv`: the monster, the levels people train on it, and where. Monsters on it are chosen first when an item needs another dropper, and the bots suggest them when asked where to train.
+
+The drop site is `docs/drops.html`, with its data in `docs/drops-data.js`. Both are written by `Make-Drop-Site.py` from the reference lists, so always rebuild the reference lists first. The page's look is the template at the bottom of that script. To see it, double-click `docs/drops.html`.
+
+In the game every player can type `@whodrops <item>` and `@whatdropsfrom <monster>`.
+
 ### 5.6 Monsters, maps, items (server game data)
 
 1. Edit the XML under `Server/wz/`.

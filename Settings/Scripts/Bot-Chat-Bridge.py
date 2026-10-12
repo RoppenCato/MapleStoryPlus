@@ -222,6 +222,13 @@ class Knowledge:
                 fits.append((home[0][1], name, mob_id))
         fits.sort(reverse=True)
         picked, maps = [], set()
+        # The places people really train at that level come first (Settings/Reference/Hunting-Spots.tsv)
+        for r in self._rows(os.path.join(ROOT, "Settings", "Reference", "Hunting-Spots.tsv")):
+            mob_id = self.mob_ids.get(r["monster"])
+            if mob_id in self.mob_home and int(r["player_from"]) <= level <= int(r["player_to"]) and len(picked) < 3:
+                if self.mob_home[mob_id][2] not in maps:
+                    maps.add(self.mob_home[mob_id][2])
+                    picked.append((r["monster"], mob_id))
         for _, name, mob_id in fits:                      # one monster per map, the three biggest crowds
             if self.mob_home[mob_id][2] not in maps and len(picked) < 3:
                 maps.add(self.mob_home[mob_id][2])

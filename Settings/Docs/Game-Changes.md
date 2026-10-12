@@ -56,8 +56,11 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-11 | Monsters under level 30 drop twice the mesos | For example Snail 4 to 6 | Snail 8 to 12. 381 monsters. | No |
 | 2026-10-11 | Vendors pay a quarter for equipment | 40% of the shop price | 10% of the shop price. Potions, ores and other items are unchanged. | No |
 | 2026-10-11 | Set shops in Free Market rooms 1 and 2 | Every room had random shops; a scroll you needed might not be for sale | Room 1: weapon and accessory scrolls, special scrolls (clean slate, chaos, white), potions, middle throwing stars and bullets, gear for scrolling. Room 2: armour scrolls. Stock never runs out. Scrolls cost 100,000 (100%), 300,000 (60%), 150,000 (10%), 1 million (dark 70%), 2 million (dark 30%); chaos 10 million, white 25 million. | No. The server reports all 41 shops opened. |
-
-Why: the estimate in `Simulate-Economy.py` showed that between level 10 and 20 monsters paid about 53,000 mesos while potions cost about 78,000. Now it is about 106,000 against 41,000.
+| 2026-10-12 | Equipment drops from monsters around its own level | Ordinary monsters dropped equipment of any level; about one item in five from level 80 up only dropped from monsters more than 5 levels above it, and most items had three droppers scattered over the game | No ordinary monster drops equipment more than 5 levels above its own level or more than 20 below. Every item that ordinary monsters drop has at least 3 droppers between 10 levels under and 2 over its level. 1,502 drops removed, 2,077 added. | No |
+| 2026-10-12 | Popular hunting spots drop more | No difference between a training map and anywhere else | 46 monsters people actually train on are picked first when an item needs a dropper, and equipment of the right level drops there at 0.15% (0.3% with the drop rate) where the usual is 0.08% | No |
+| 2026-10-12 | `@whodrops` and `@whatdropsfrom` for everyone | GM commands | Any player can use them | No |
+| 2026-10-12 | A drop site | Nothing; drops had to be looked up in the database | `docs/drops.html`: search any item or monster, with the real chance | Checked in a browser |
+ showed that between level 10 and 20 monsters paid about 53,000 mesos while potions cost about 78,000. Now it is about 106,000 against 41,000.
 
 ## The Hub
 
