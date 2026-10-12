@@ -53,6 +53,17 @@ public final class WhisperHandler extends AbstractPacketHandler {
         Character target = c.getWorldServer().getPlayerStorage().getCharacterByName(name);
 
         if (target == null) {
+            // MapleStoryPlus: the GM can always be whispered, although no character of that name is online
+            if (BotChatBridge.isGm(name) && request == (WhisperFlag.WHISPER | WhisperFlag.REQUEST)) {
+                String toGm = p.readString();
+                Character user = c.getPlayer();
+                if (toGm.length() <= Byte.MAX_VALUE && user.getAutobanManager().getLastSpam(7) + 200 <= currentServerTime()) {
+                    user.getAutobanManager().spam(7);
+                    c.sendPacket(PacketCreator.getWhisperResult(BotChatBridge.GM_NAME, true));
+                    BotChatBridge.whisperGm(user, toGm);
+                }
+                return;
+            }
             c.sendPacket(PacketCreator.getWhisperResult(name, false));
             return;
         }

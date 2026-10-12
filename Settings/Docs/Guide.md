@@ -234,7 +234,7 @@ Two files do the work:
 
 The people themselves are in `Settings/Bots/` (see its [README](../Bots/README.md) and the [character sheet](../Bots/Character-Sheet.md)). A bot gets a person the first time it is whispered and keeps them; that pairing is in `Database/BotChat/Assignments.json`.
 
-A bot that is your buddy, or in your party, keeps notes about you in `Database/BotChat/maplestory/<your character>/<bot>.json`; a stranger keeps nothing. You become buddies by asking the bot in a whisper. The rules are in the Bots README under "Buddies and memory", and the numbers (how many notes, how long a party member is remembered, how many lines before a stranger says yes) are at the top of the bridge.
+One name can always be whispered: `GMNova`, the server's GM. It knows what is different on this server (it is told the whole features page, `docs/changes.js`) and it is the only one that remembers you, in `Database/BotChat/maplestory/<your character>/GMNova.json`. Ordinary bots forget a conversation after ten quiet minutes. The details are in the Bots README under "The GM".
 
 | I want to | Do this |
 |-----------|---------|
@@ -244,8 +244,10 @@ A bot that is your buddy, or in your party, keeps notes about you in `Database/B
 | Make bots chattier or quieter | The chances at the top of the bridge (`QUESTION_CHANCE`, `JOKE_CHANCE`, `PERSONAL_CHANCE`). |
 | Stop bots typing a phrase | The "player, not a guide" rule in the bridge's `system_prompt`. |
 | Give a bot a particular person | Put the person's `id` under `maplestory` in `Database/BotChat/Assignments.json`. |
-| Change or wipe what a bot remembers about you | Edit or delete its file in `Database/BotChat/maplestory/<your character>/`. |
-| Try memory without the game | `python Settings/Scripts/Bot-Chat-Bridge.py --bot Somebot --say "..." --say "can i add you?" --remember` (delete the file it leaves afterwards). |
+| Change or wipe what the GM remembers about you | Edit or delete `Database/BotChat/maplestory/<your character>/GMNova.json`. |
+| Change what the GM knows about the server | Edit `docs/changes.js`; it is read for every answer. |
+| Rename the GM | `GM_NAME` in `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java`, then rebuild. |
+| Talk to the GM without the game | `python Settings/Scripts/Bot-Chat-Bridge.py --gm --say "how much is a chaos scroll"` (add `--remember` to have the notes written). |
 | Write more people in full | `python Settings/Scripts/Make-Bot-Backgrounds.py --count 20` |
 
 After any such change, listen before playing:

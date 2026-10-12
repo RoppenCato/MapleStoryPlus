@@ -41,18 +41,35 @@ public class BotChatBridge {
         form.put("job", bot.getJob().name());
         form.put("map", String.valueOf(bot.getMapId()));
         form.put("player_map", String.valueOf(player.getMapId()));   // lets the bot give directions from where the player is
-        // MapleStoryPlus: who the bot is to the player. A bot in your party keeps notes about you; bots cannot
-        // join guilds yet, so that is always 0 for now.
-        form.put("gender", bot.getGender() == 1 ? "female" : "male");
-        form.put("party", player.getParty() != null && bot.getParty() != null
-                && player.getParty().getId() == bot.getParty().getId() ? "1" : "0");
-        form.put("guild", "0");
+        form.put("gender", bot.getGender() == 1 ? "female" : "male");   // a new bot gets a person of its own gender
         form.put("text", message);
+        post(player, bot.getName(), form, false);
+    }
+
+    // MapleStoryPlus: the GM. A name that can always be whispered, although no character of that name is online.
+    // The bridge answers as the server's game master, who knows this server and remembers the player.
+    public static final String GM_NAME = System.getProperty("bot-chat-gm", "GMNova");
+
+    public static boolean isGm(String name) {
+        return GM_NAME.equalsIgnoreCase(name);
+    }
+
+    public static void whisperGm(Character player, String message) {
+        Map<String, String> form = new LinkedHashMap<>();
+        form.put("player", player.getName());
+        form.put("bot", GM_NAME);
+        form.put("gm", "1");
+        form.put("job", "GM");
+        form.put("player_map", String.valueOf(player.getMapId()));
+        form.put("text", message);
+        post(player, GM_NAME, form, true);
+    }
+
+    private static void post(Character player, String botName, Map<String, String> form, boolean fromGm) {
         String body = form.entrySet().stream()
                 .map(e -> e.getKey() + "=" + URLEncoder.encode(e.getValue(), StandardCharsets.UTF_8))
                 .collect(Collectors.joining("&"));
         int channel = player.getClient().getChannel() - 1;
-        String botName = bot.getName();
 
         Thread.startVirtualThread(() -> {
             try {
@@ -77,7 +94,7 @@ public class BotChatBridge {
                     if (!player.isLoggedinWorld()) {
                         return;
                     }
-                    player.sendPacket(PacketCreator.getWhisperReceive(botName, channel, false, line));
+                    player.sendPacket(PacketCreator.getWhisperReceive(botName, channel, fromGm, line));
                 }
             } catch (java.net.ConnectException | java.net.http.HttpConnectTimeoutException e) {
                 // bridge not running - the bot stays silent

@@ -22,7 +22,7 @@ What is personal to this PC is kept outside the repository, in `Database/BotChat
 | File | What it is |
 |---|---|
 | `Assignments.json` | Which person plays which bot. Fixed the first time a bot is whispered. To give a bot a particular person, put that person's `id` here under `maplestory`. |
-| `maplestory/<you>/<bot>.json` | What that bot remembers about you: up to eight notes, its last ten lines, whether you are buddies and since when. A plain file; edit or delete it to change or wipe a bot's memory of you. |
+| `maplestory/<you>/GMNova.json` | What the GM remembers about you: up to eight notes and its last ten lines. A plain file; edit or delete it to change or wipe that memory. |
 | `_session/` | An empty folder the Claude runs happen in. |
 | `_test/` | The listening test's throwaway folder. |
 
@@ -34,23 +34,30 @@ What is personal to this PC is kept outside the repository, in `Database/BotChat
 4. Claude Haiku writes the reply as that person. The length of the answer is drawn, hello, goodbye and thanks get the person's own word, and a joke, a question back or a word about their own day each depend on dice.
 5. The person's typing habits (lower case, no apostrophes, their own laugh word) are applied once more in code, and the reply is cut into lines of at most 70 characters.
 
-## Buddies and memory
+## The GM: the one who remembers
 
-A bot remembers you when there is a tie between you, the way it goes in MapleStory:
+One name can always be whispered, whether or not anyone of that name is online: **GMNova**, the server's game master. The GM is a person like the others (one of the 300, with a life and a voice), and differs from an ordinary bot in three ways:
 
-| Tie | How you get it | What the bot keeps | How it treats you |
-|---|---|---|---|
-| None (a stranger) | | The conversation, for ten quiet minutes. Nothing after that. | Friendly enough; its private life stays private unless you ask. |
-| Party | The bot is in your party. | Notes about you, for a month after you last spoke. | At ease; something from its day may come up. |
-| Buddy | You ask ("buddy?", "can i add you", "add me") and it says yes. | Notes about you, for good. | At ease at once; after three remembered talks a friend, who names the people in its life and can be in a bad mood in front of you. |
-| Guild | The bot is in your guild. Not possible yet; the bridge is ready for it. | As a buddy. | As a buddy. |
+- **It can always be reached.** The game server answers a whisper to that name itself; no character has to exist.
+- **It knows this server.** It is told everything on the features page (`docs/changes.js`), with the numbers, on top of the drop, monster, training and route knowledge every bot has. So the features page is also what the GM knows: keep it right.
+- **It remembers you.** After a talk (eight new lines, or four quiet minutes) Claude Haiku brings its notes about you up to date: at most eight, under 110 characters each, including what it told you about itself. After one remembered talk it is at ease with you; after three it counts you as a friend and its own life comes up.
 
-- **A stranger does not say yes straight away.** It agrees once you have written it four lines in the same talk, or at once if you are in a party together. Before that it puts you off lightly. This is decided by the bridge, not by Claude.
-- **"unbuddy"** or "remove you from my buddy list" ends it; the notes then fade after a month.
-- **Notes are written after a talk:** when eight new lines have passed, or four minutes of silence, Claude Haiku brings the bot's notes up to date (at most eight, under 110 characters each). They include what the bot told you about itself, so its story stays the same.
-- **The game's own buddy list is not used.** Bots are made fresh at every server start, so that list cannot hold them. Being buddies is kept by the bot's name. When someone of that name is around after a restart it is the same person, and if their level or job differs they are simply on another character and know it. A name that is not handed out that day cannot be whispered.
+It only talks: it does not hand out items, mesos or levels, and says so if asked.
 
-To see who your buddies are, look in `Database/BotChat/maplestory/<your character>/`: one file per bot that remembers you.
+Ordinary bots remember the conversation for ten quiet minutes and nothing after that. They are made fresh at every server start, and neither the game's buddy list nor its guilds can hold them, so there is nothing in the game to hang a lasting memory on. (A version where bots became "buddies" inside the bridge only was built on 2026-10-12 and taken out the same day for that reason.)
+
+| To change | Where |
+|---|---|
+| The GM's name | `GM_NAME` in `Server/src/main/java/soloMapling/BotChat/BotChatBridge.java` (or start the server with `-Dbot-chat-gm=Name`). At most 12 letters, and not a name a bot can get. |
+| Who the GM is | Put another person's `id` under `maplestory` → `gmnova` in `Database/BotChat/Assignments.json`. |
+| What the GM remembers about you | `Database/BotChat/maplestory/<your character>/GMNova.json`. Edit it, or delete it to start over. |
+| What the GM knows about the server | `docs/changes.js`. |
+
+Try it without the game:
+
+```
+python Settings/Scripts/Bot-Chat-Bridge.py --gm --say "hey" --say "how much is a chaos scroll" --remember
+```
 
 ## Writing people in full
 
@@ -90,6 +97,7 @@ What to listen for is in the character sheet. What listening changed here, on to
 
 | Thing | What it would need here |
 |---|---|
+| Memory for every bot, and bots that become friends. | Something in the game to tie it to. Bots are remade at every start and cannot be on the buddy list or in a guild; if bots are ever kept between starts, the WowPlus memory can be used as it is. |
 | Bots speaking first: a greeting, a remark of their own. | The game server has to ask for it, and here it only passes on whispers. New server code. |
 | Bots that know each other outside the game. | Only matters once several bots talk in one chat. |
 
