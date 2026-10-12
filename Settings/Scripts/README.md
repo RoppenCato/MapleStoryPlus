@@ -53,6 +53,10 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 Estimates how much equipment a player picks up while levelling and how much of it their class would wear, per ten levels or per level. Reads the reference lists; changes nothing. `--class thief` for one class in detail, `--levels` for one row per level, `--drop-rate` to try another rate, `--budget N` for a what-if where every level gives about N pieces.
 
+## Save-Default-Keys.py
+
+`python Settings/Scripts/Save-Default-Keys.py Shym` makes that character's key bindings (and its account's quick slots) the ones every new character starts with, by writing `Settings/Default-Keys.tsv`. The character must be logged out, because the game saves keys when it leaves. No restart needed.
+
 ## Pace (`Settings/Pace.tsv`)
 
 Not a script but read by two of them: `Simulate-Economy.py` and `Simulate-Drops.py` divide the kills of a level by the pace of that level and multiply what a kill gives by it, as the server does.

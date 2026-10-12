@@ -478,24 +478,8 @@ public class Character extends AbstractCharacterObject {
         ret.getInventory(InventoryType.SETUP).setSlotLimit(24);
         ret.getInventory(InventoryType.ETC).setSlotLimit(24);
 
-        // Select a keybinding method
-        int[] selectedKey;
-        int[] selectedType;
-        int[] selectedAction;
-
-        if (YamlConfig.config.server.USE_CUSTOM_KEYSET) {
-            selectedKey = GameConstants.getCustomKey(true);
-            selectedType = GameConstants.getCustomType(true);
-            selectedAction = GameConstants.getCustomAction(true);
-        } else {
-            selectedKey = GameConstants.getCustomKey(false);
-            selectedType = GameConstants.getCustomType(false);
-            selectedAction = GameConstants.getCustomAction(false);
-        }
-
-        for (int i = 0; i < selectedKey.length; i++) {
-            ret.keymap.put(selectedKey[i], new KeyBinding(selectedType[i], selectedAction[i]));
-        }
+        // MapleStoryPlus: the keys saved in Settings/Default-Keys.tsv, or the game's own (plus/DefaultKeys.java)
+        ret.keymap.putAll(plus.DefaultKeys.keys());
 
 
         //to fix the map 0 lol
@@ -8201,31 +8185,17 @@ public class Character extends AbstractCharacterObject {
                     }
                 }
 
-                // Select a keybinding method
-                int[] selectedKey;
-                int[] selectedType;
-                int[] selectedAction;
-
-                if (YamlConfig.config.server.USE_CUSTOM_KEYSET) {
-                    selectedKey = GameConstants.getCustomKey(true);
-                    selectedType = GameConstants.getCustomType(true);
-                    selectedAction = GameConstants.getCustomAction(true);
-                } else {
-                    selectedKey = GameConstants.getCustomKey(false);
-                    selectedType = GameConstants.getCustomType(false);
-                    selectedAction = GameConstants.getCustomAction(false);
-                }
-
-                // Key config
+                // Key config. MapleStoryPlus: the keys saved in Settings/Default-Keys.tsv, or the game's own
                 try (PreparedStatement ps = con.prepareStatement("INSERT INTO keymap (characterid, `key`, `type`, `action`) VALUES (?, ?, ?, ?)")) {
                     ps.setInt(1, id);
-                    for (int i = 0; i < selectedKey.length; i++) {
-                        ps.setInt(2, selectedKey[i]);
-                        ps.setInt(3, selectedType[i]);
-                        ps.setInt(4, selectedAction[i]);
+                    for (Map.Entry<Integer, KeyBinding> key : plus.DefaultKeys.keys().entrySet()) {
+                        ps.setInt(2, key.getKey());
+                        ps.setInt(3, key.getValue().getType());
+                        ps.setInt(4, key.getValue().getAction());
                         ps.executeUpdate();
                     }
                 }
+                plus.DefaultKeys.giveQuickslots(con, this.getAccountID());
 
                 // No quickslots, or no change.
                 boolean bQuickslotEquals = this.m_pQuickslotKeyMapped == null || (this.m_aQuickslotLoaded != null && Arrays.equals(this.m_pQuickslotKeyMapped.GetKeybindings(), this.m_aQuickslotLoaded));
