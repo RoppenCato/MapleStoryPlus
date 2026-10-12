@@ -1,0 +1,34 @@
+key	type	action	kind
+2	4	10	window or action
+3	4	12	window or action
+4	4	13	window or action
+5	4	18	window or action
+6	4	24	window or action
+7	4	21	window or action
+17	5	50	action
+18	4	0	window or action
+23	4	1	window or action
+24	4	25	window or action
+25	4	19	window or action
+26	4	14	window or action
+27	4	15	window or action
+30	5	52	action
+31	4	2	window or action
+32	5	53	action
+34	4	17	window or action
+35	4	9	window or action
+37	4	3	window or action
+38	4	20	window or action
+39	4	27	window or action
+40	4	16	window or action
+41	4	23	window or action
+45	5	51	action
+50	4	5	window or action
+59	6	100	expression
+60	6	101	expression
+61	6	102	expression
+62	6	103	expression
+63	6	104	expression
+64	6	105	expression
+65	6	106	expression
+quickslots	42	82	71	73	29	83	79	81

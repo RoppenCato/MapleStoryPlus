@@ -19,7 +19,7 @@ Things Claude decided alone and would like a yes or a different number on. None 
 7. **4th job balance** (simulated, with rough assumptions): Dark Knight far ahead, Bishop and Buccaneer behind. Worth a pass like the one for magicians?
 8. **Zakum, Horntail and Pink Bean** give tokens but cannot be fought alone yet. Leave them as a goal for later?
 9. **Area bosses every 15 minutes** (all 27, not only the trial ones). Good, or too easy to farm?
-10. **Leveling pace.** You asked for faster than my first proposal. Now a rate by level on top of the 2x (`Settings/Pace.tsv`: 1.5 to level 20, 2.5 to 30, 4 to 50, 5 to 80, 4 after), about 40,000 kills from 1 to 120, my guess 27 to 40 hours. Is that the right speed, and does any stretch feel too fast or too slow?
+10. **Leveling pace.** You asked for faster than my first proposal. Now a rate by level on top of the 2x (`Settings/Pace.tsv`: 2.5 to level 20, 3 to 30, 4 to 50, 5 to 80, 4 after), about 40,000 kills from 1 to 120, my guess 27 to 40 hours. Is that the right speed, and does any stretch feel too fast or too slow? (2026-10-12: the first levels felt a bit low at 1.5, so levels 1 to 30 were raised.)
 
 ## 1. Job advancement and the Guide (2026-10-12)
 
@@ -53,7 +53,7 @@ Most important: this replaces how every explorer advances.
 - [ ] The drop site (`docs/drops.html`) matches what a monster drops in the game: pick one monster and compare.
 - [ ] **Stats reset on 1st job:** take 1st job through the Guide (Trade button). STR, DEX, INT and LUK go to 4 except the job's main stat (35 STR warrior, 20 INT magician, 25 DEX bowman or thief, 20 DEX pirate) and the rest are free points. Robin found on 2026-10-12 that this was missing (45 STR as a magician).
 - [ ] **Your keys on new characters:** after `Save-Default-Keys.py Shym` has been run, make a new character, and a new account with a character: both start with Shym's keys, and the new account with Shym's quick slots.
-- [ ] **Leveling pace:** `@rates` shows the pace at your level (1.5 under 21, 2.5 to 30, 4 to 50, 5 to 80, 4 after). A monster gives its exp times 2 times that pace; mesos and drops go up the same. With `Make-Character.py` characters at 25, 45 and 70, count roughly how many kills a level takes: about 130, 420 and 480.
+- [ ] **Leveling pace:** `@rates` shows the pace at your level (2.5 under 21, 3 to 30, 4 to 50, 5 to 80, 4 after). A monster gives its exp times 2 times that pace; mesos and drops go up the same. With `Make-Character.py` characters at 25, 45 and 70, count roughly how many kills a level takes: about 110, 420 and 480.
 - [ ] **Boss exp:** the first kill of a trial boss gives 30% of a level (of the boss's level if you are above it), later kills 5%.
 - [ ] **NX cards:** on a low character an NX card drops about every other kill; around level 50 about 1 kill in 10. Picking it up adds NX (check in the Cash Shop). A level gives roughly 5,000 NX. A boss always drops one.
 - [ ] Can the NX actually be spent? Buy a pet in the Cash Shop with NX earned from cards.
