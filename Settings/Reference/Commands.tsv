@@ -26,10 +26,10 @@ gm_level	command	description
 0	@time	Show current server time.
 0	@toggleexp	Toggle enable/disable all exp gain.
 0	@uptime	Show server online time.
+0	@whatdropsfrom	Show what items drop from a mob.
+0	@whodrops	Show what drops an item.
 1	!buffme	Activate GM buffs on self.
 1	!goto	Warp to a predefined map.
-1	!whatdropsfrom	Show what items drop from a mob.
-1	!whodrops	Show what drops an item.
 2	!ap	Set available AP.
 2	!bomb	Bomb a player, dealing damage.
 2	!buff	Activate a buff.
