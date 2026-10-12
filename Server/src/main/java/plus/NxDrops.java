@@ -11,14 +11,14 @@ import server.life.Monster;
  * Any monster can drop an NX card (100 NX, and a tenth as often 250 NX). A flat chance per kill would
  * give almost nothing in the first levels, which take a few dozen kills each, and a flood later, where
  * a level takes thousands. So the chance follows the monster: one level's worth of kills gives about
- * {@link #NX_PER_LEVEL} NX whatever the level, which is enough for a pet and its gear in the teens and
- * a steady income after. Bosses are worth ten ordinary monsters of their level.
+ * {@link #NX_PER_LEVEL} NX whatever the level, which is more than a player needs: enough to try pets and several outfits on the way, not just one of each, and
+ * to keep buying. Bosses are worth ten ordinary monsters of their level.
  */
 public class NxDrops {
     /** NX a level of training gives, from level 10 on. Before that the cap below keeps it lower. */
-    public static final int NX_PER_LEVEL = 1500;
-    /** No ordinary monster drops a 100 NX card more often than this (15%). */
-    private static final double MOST_PER_KILL = 0.15;
+    public static final int NX_PER_LEVEL = 5000;
+    /** No ordinary monster drops a 100 NX card more often than this (every other kill). */
+    private static final double MOST_PER_KILL = 0.5;
     private static final int BOSS_TIMES = 10;
     /** One 100 NX card and a tenth of a 250 NX card: what a "card chance" of 1 is worth in NX. */
     private static final double NX_PER_CARD_CHANCE = 100 + 250 / 10.0;
