@@ -29,15 +29,15 @@ import java.util.concurrent.ThreadLocalRandom;
  * <p>
  * Two tiers are boss loot only: level 110 (the Dragon weapons and the class sets of that level) from
  * Pianus, Bigfoot, Black Crow and Leviathan, and level 120 (Reverse and Timeless) from Papulatus, Zakum,
- * Horntail and Pink Bean. For those the roll is two pieces for any class, with none aimed at the killer:
- * the gear is meant to be rare, and the roll is the fun of it.
+ * Horntail and Pink Bean. For those the roll is one weapon and one piece of armour, each for any class
+ * and neither aimed at the killer: the gear is meant to be rare, and the roll is the fun of it.
  */
 public class BossGear {
     private static final Logger log = LoggerFactory.getLogger(BossGear.class);
     private static final String[] CLASSES = {"warrior", "magician", "bowman", "thief", "pirate"};
     private static final int WINDOW = 5;            // gear needing a level within this of the boss's gear level
     private static final int WEAPON_ONE_IN = 4;     // one piece in four is a weapon, the rest armour
-    private static final int RARE_TIER = 105;       // from this gear level up: two pieces for any class, none aimed
+    private static final int RARE_TIER = 105;       // from this gear level up: a weapon and an armour for any class, none aimed
 
     private record Gear(int itemId, int level, String jobs, boolean weapon) {}
 
@@ -98,8 +98,11 @@ public class BossGear {
     }
 
     private static Gear pick(String cls, int[] weapons, int level) {
+        return pick(cls, weapons, level, ThreadLocalRandom.current().nextInt(WEAPON_ONE_IN) == 0);
+    }
+
+    private static Gear pick(String cls, int[] weapons, int level, boolean wantWeapon) {
         ThreadLocalRandom r = ThreadLocalRandom.current();
-        boolean wantWeapon = r.nextInt(WEAPON_ONE_IN) == 0;
         // Around the boss's level first; if the class has nothing there, reach further down
         for (int below = WINDOW; below <= 60; below += 5) {
             for (int attempt = 0; attempt < 2; attempt++) {
@@ -171,8 +174,9 @@ public class BossGear {
             if (cls == null) {
                 cls = CLASSES[ThreadLocalRandom.current().nextInt(CLASSES.length)];
             }
-            Gear own = level >= RARE_TIER ? pick(null, new int[0], level) : pick(cls, weaponsOf(job), level);
-            Gear any = pick(null, new int[0], level);
+            boolean rare = level >= RARE_TIER;
+            Gear own = rare ? pick(null, new int[0], level, true) : pick(cls, weaponsOf(job), level);
+            Gear any = rare ? pick(null, new int[0], level, false) : pick(null, new int[0], level);
             if (own != null) {
                 drops.add(better(own.itemId()));
             }

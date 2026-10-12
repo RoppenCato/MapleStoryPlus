@@ -137,7 +137,7 @@ window.CHANGELOG = {
                     "This comes on top of the boss's own drops, on every kill.",
                     "The eight hardest bosses roll differently: see the Dragon, Reverse and Timeless entry."] },
         { title: "Dragon, Reverse and Timeless gear from the hardest bosses",
-          text: "The gear above level 100 only comes from bosses: two pieces on every kill, for any class.",
+          text: "The gear above level 100 only comes from bosses: one weapon and one piece of armour on every kill, each for any class.",
           details: ["Pianus, Bigfoot, Black Crow and Leviathan drop level 110 gear: the Dragon weapons and the class sets of that level, such as Blue Dragon, Garina, Canopus and Red Hunter.",
                     "Papulatus, Zakum, Horntail and Pink Bean drop level 120 Reverse and Timeless weapons and armour.",
                     "Neither piece is aimed at your class here, so every kill is a roll.",
