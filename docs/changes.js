@@ -375,9 +375,13 @@ window.CHANGELOG = {
         { title: "Any monster can drop something rare",
           text: "Every monster in the game has a small chance to drop a Chaos Scroll, a White Scroll, a Maple Leaf or an NX card.",
           details: ["Maple Leaf: 1 kill in 2,000.", "Chaos Scroll 60%: 1 in 20,000.", "White Scroll: 1 in 20,000.", "NX cards: see the next entry."] },
-        { title: "NX drops from monsters",
-          text: "Cash Shop points are earned by playing: any monster can drop an NX card, and bosses drop them ten times as often.",
-          details: ["A card worth 100 NX: 1 kill in 200. A card worth 250 NX: 1 in 2,000.", "About 0.6 NX per kill, about 6 per boss.",
+        { title: "NX drops from monsters, about 1,500 a level",
+          text: "Cash Shop points are earned by playing: monsters drop NX cards often enough for a pet and its gear in your teens, and a steady income after.",
+          details: ["About 1,500 NX per level from level 10, whatever the level: the chance follows how many kills a level takes.",
+                    "About 8,500 NX by level 15, 17,000 by level 20, 32,000 by 30, 94,000 by 70 and 171,000 by 120.",
+                    "A pet costs 4,900 NX; a Meso Magnet or an Item Pouch 2,400.",
+                    "Early on a 100 NX card drops from up to 1 kill in 7; around level 50, 1 in 125.",
+                    "A boss is worth ten monsters of its level.",
                     "Picking a card up adds the NX at once."] }
       ]
     },

@@ -329,7 +329,7 @@ python Settings/Scripts/Apply-Economy-Changes.py --check
 python Settings/Scripts/Apply-Economy-Changes.py
 ```
 
-NX comes from the two NX cards that any monster can drop (table `drop_data_global`; the chances are a change in `Apply-Economy-Changes.py`). Bosses roll them ten times as often, which is one line in `MapleMap.java` marked `MapleStoryPlus`. The drop rate does not apply to these.
+NX comes from the two NX cards that any monster can drop. How often is worked out per monster in `Server/src/main/java/plus/NxDrops.java`, so that a level of training gives about `NX_PER_LEVEL` (1,500) NX at any level; a boss counts as ten monsters. Change that number and rebuild. The chances in the table `drop_data_global` are no longer used for the NX cards (the rows must stay), and the drop rate does not apply.
 
 Before changing a price, a meso drop or a rate, run the economy estimate. It needs the database running and changes nothing.
 

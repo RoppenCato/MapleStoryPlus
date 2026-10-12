@@ -13,7 +13,7 @@ Things Claude decided alone and would like a yes or a different number on. None 
 1. **How long should a boss fight be?** The trial bosses are now sized for one player: about 75 seconds for the two before 2nd job, 100 seconds for an ordinary one, 5 minutes for the three highest of each band. Mano went from 2,000 HP to 18,400; Pianus from 30 million to 2.9 million. Longer, shorter?
 2. **King Slime in the party quest** is the same monster as the one in the swamp, so he also has 28,600 HP there (was 8,000). Fine, or should the party quest keep the old one?
 3. **Tokens.** A boss gives 1 (before 2nd job), 2 (before 3rd), 5 (before 4th), the three hardest of a band double; a first kill gives 5 times that; Leviathan 15, Papulatus 20, Zakum 40, Horntail 60, Pink Bean 80. Raising a 4th job skill's limit by ten levels costs 10, then 20, then 30. A whole 4th job comes to roughly 450 to 550 tokens: about a hundred kills of a level 100 boss, or far fewer of the big ones. Right size of grind?
-4. **NX.** Every monster drops a 100 NX card 1 kill in 200 and a 250 NX card 1 in 2,000: about 0.6 NX per kill, so about 55,000 NX by level 70 and 110,000 by level 120. Bosses ten times as often. Is that the amount you had in mind? It is one number each in `Apply-Economy-Changes.py`.
+4. **NX.** Answered 2026-10-12: it should be more, and usable while levelling for pets and gear. Now about 1,500 NX per level from level 10 (8,500 by level 15, 17,000 by 20, 32,000 by 30, 94,000 by 70, 171,000 by 120), with bosses worth ten monsters. Still to judge in play: is 1,500 a level right? It is `NX_PER_LEVEL` in `Server/src/main/java/plus/NxDrops.java`.
 5. **Weapons nothing drops.** 173 pieces of ordinary gear with no source now drop (what shops sell, and other colours of things that drop). 859 are still left out, and about 171 of those are weapons that look ordinary (Gladius, Doombringer, Holy Spear, Black Scarab, Golden Crow ...) mixed with event weapons (Celestial Staff, Andromeda Bow, the Xaru set). Sorting them needs a human eye: should Claude make a list for you to tick?
 6. **Boomerang Step** now starts below Assaulter's maximum (600% against 701%), which breaks the "new job beats old" rule for Shadowers. Raise it, or is Assaulter the odd one out?
 7. **4th job balance** (simulated, with rough assumptions): Dark Knight far ahead, Bishop and Buccaneer behind. Worth a pass like the one for magicians?
@@ -48,7 +48,8 @@ Most important: this replaces how every explorer advances.
 - [ ] A popular hunting spot (Wild Boars, Jr. Wraiths, Wolf Spiders ...) drops gear of about your own level.
 - [ ] **A boss always drops at least one item.** Kill Mano or Stumpy a few times.
 - [ ] The drop site (`docs/drops.html`) matches what a monster drops in the game: pick one monster and compare.
-- [ ] **NX cards:** an NX card drops about 1 kill in 200, and picking it up adds NX (check in the Cash Shop). A boss drops one about 1 kill in 20.
+- [ ] **NX cards:** on a low character an NX card drops every 7 to 10 kills; around level 50 about 1 kill in 125. Picking it up adds NX (check in the Cash Shop). A level gives roughly 1,500 NX. A boss usually drops one.
+- [ ] Can the NX actually be spent? Buy a pet in the Cash Shop with NX earned from cards.
 
 ## 3. The GM and bot chat (2026-10-12)
 
