@@ -106,6 +106,32 @@ window.CHANGELOG = {
       ]
     },
     {
+      name: "Jobs and trials",
+      colour: "#d2691e",
+      summary: "You advance by reaching the level and beating bosses of your choice, and one button shows where you stand.",
+      items: [
+        { title: "The Trade button opens your Guide",
+          text: "Press Trade anywhere to see what your next job needs, which bosses you have beaten, and to advance when you are ready.",
+          details: ["The job instructors in the towns open the same window.", "Type @goals for a quick look in the chat."] },
+        { title: "Job advancement is a choice of boss fights",
+          text: "The old quest chains are not needed: each advancement asks for a level and a number of bosses, and for 3rd and 4th job you choose which.",
+          details: ["1st job, level 10 (8 for a magician): choose your class. No stat requirements.",
+                    "2nd job, level 30: beat Mano and King Slime.",
+                    "3rd job, level 70: any 4 of 13 bosses, from Stumpy and Faust to Zombie Mushmom and Zeno.",
+                    "4th job, level 120: any 4 of 15 bosses, from Nine-Tailed Fox and Jr. Balrog to Pianus and Bigfoot.",
+                    "A boss counts whenever you beat it, so you can do trials early.",
+                    "Party members on the same map get the credit too.",
+                    "For explorers; Cygnus Knights and Aran advance the old way."] },
+        { title: "4th job starts with its main attack",
+          text: "On reaching 4th job your main attack and Maple Warrior are open to level 10 at once, with no skill books to hunt.",
+          details: ["Brandish, Blast, Berserk, Paralyze, Chain Lightning, Angel Ray, Hurricane, Piercing Arrow, Triple Throw, Boomerang Step, Barrage or Rapid Fire, by class."] },
+        { title: "King Slime outside the party quest",
+          text: "King Slime, one of the two trials for 2nd job, also appears in the swamp next to Kerning City, where one player can reach him." },
+        { title: "Area bosses return every 15 minutes",
+          text: "A defeated area boss is back within 15 minutes, where the original checked every 3 hours." }
+      ]
+    },
+    {
       name: "Every class",
       colour: "#3f9b2f",
       summary: "Critical hits for all, buffs that last, and early attacks that hit a group.",

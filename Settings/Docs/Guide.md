@@ -299,6 +299,22 @@ The first puts the same eight lines to six people side by side. Read down each c
 
 Game knowledge comes from the reference lists: `Drops.tsv`, `Mobs.tsv`, `MobSpawns.tsv`, `TravelLinks.tsv`, `MapLinks.tsv` and `Places.tsv`.
 
+### 5.8b Job advancement and the trials
+
+Explorers advance by level and by beating bosses, through the Guide that the Trade button opens.
+
+| I want to | Do this |
+|-----------|---------|
+| Change which bosses count for a job | Edit `Settings/Trials.tsv` (band 1 is for 2nd job, 2 for 3rd, 3 for 4th), restart the server. |
+| Change how many must be beaten, or the levels | `BANDS` at the top of `Server/src/main/java/plus/Trials.java`, then rebuild. |
+| Change what the Guide says | The texts are built in `plus/Trials.java` (`menu`, `jobPage`, `trialsPage`); `Server/scripts/npc/plusGuide.js` only shows them. |
+| Change which 4th job skills are free | `FOURTH_JOB_BASICS` in `plus/Trials.java`. |
+| See or change what a character has beaten | Table `plus_trials`: one row per character and boss, with the number of kills and the date of the first. Delete a row to undo a trial. |
+| Give a test character a trial | `INSERT INTO plus_trials VALUES (<character id>, <mob id>, 1, NOW())` |
+| Change how often area bosses come back | `15 * 60 * 1000` in `Server/scripts/event/AreaBoss*.js` (read at server start). |
+
+In the game: the Trade button, any job instructor, or `@goals`.
+
 ### 5.9 Prices and the economy
 
 Price and meso changes in the database are made through `Settings/Scripts/Apply-Economy-Changes.py`, not by hand, so they can be repeated on a fresh database. Each change is a small function in that script and is applied once; the table `plus_changes` remembers which ones are in. Stop the game server first. It saves a backup before changing anything. Afterwards run `python Settings/Reference/Build-Reference.py` so the reference lists match.

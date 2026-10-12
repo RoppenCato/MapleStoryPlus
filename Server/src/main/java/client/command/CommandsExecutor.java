@@ -27,6 +27,7 @@ import client.Client;
 import client.command.commands.gm0.ChangeLanguageCommand;
 import client.command.commands.gm0.DisposeCommand;
 import client.command.commands.gm0.DropLimitCommand;
+import client.command.commands.gm0.GoalsCommand;
 import client.command.commands.gm0.EnableAuthCommand;
 import client.command.commands.gm0.EquipLvCommand;
 import client.command.commands.gm0.GachaCommand;
@@ -380,6 +381,7 @@ public class CommandsExecutor {
         // MapleStoryPlus: every player can look up drops (these were GM commands)
         addCommand("whatdropsfrom", WhatDropsFromCommand.class);
         addCommand("whodrops", WhoDropsCommand.class);
+        addCommand("goals", GoalsCommand.class);
 
         commandsNameDesc.add(levelCommandsCursor);
     }

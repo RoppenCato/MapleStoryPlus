@@ -41,6 +41,17 @@ Built so far. The full agreed design is in [Class-Changes.md](Class-Changes.md).
 | 2026-10-11 | Damage rules for every attack skill (82 skills) | Many skills were close to useless at level 1 (Thunder Bolt: 2 at level 1, 60 at max), and a new job's attack often started below the old one | Level 1 is at least 60% of max. A new job's main attack starts at least 10% above the old job's max; where needed the max was raised (Charged Blow 358%, Assaulter 825%, Cold Beam 110, Thunder Bolt 76, Ice Strike 104, Poison Breath 76, Element Composition 165 and 151, Chain Lightning 234, Shining Ray 165). Crusher hits 3 times at every level. | No |
 | 2026-10-11 | Second review pass, after the damage simulator | Magicians at 55 to 65% of the other classes on one monster; the bandit 40% ahead of a Fighter in 2nd job; the Hermit at 76% of a Ranger | Magician single-target spells raised at every job (Fire Arrow 155, Cold Beam 140, Holy Arrow 135, Element Composition 215 and 195, Thunder Spear 210, Shining Ray 200, Paralyze 300, Chain Lightning 280, Angel Ray 320 at max). Savage Blow six hits of 85% at max, Assaulter 561 to 701%. Shadow Partner's shadow at 45 to 70% of skill damage, Avenger 175% at max. | No |
 
+## Jobs and progression
+
+| Date | Change | Before | After | Tested in game |
+|------|--------|--------|-------|----------------|
+| 2026-10-12 | The Guide on the Trade button | The Trade button did nothing | It opens a window anywhere: where you stand, your job advancement, the trials. The job instructors open the same window. | No |
+| 2026-10-12 | Job advancement through trials | Each advancement was a chain of quests, tests and items, different per class, with stat requirements for 1st job | 1st job: choose a class at level 10 (8 for a magician). 2nd job at 30: beat Mano and King Slime. 3rd at 70: any 4 of 13 bosses. 4th at 120: any 4 of 15. Explorers only. | No |
+| 2026-10-12 | 4th job basics free | 4th job skills needed skill books and mastery books from bosses | The main attack and Maple Warrior are open to level 10 on advancing. The rest will cost boss tokens (not built yet). | No |
+| 2026-10-12 | King Slime in the swamp | Only at the end of the Kerning party quest | Also in The Swamp of Despair I, next to Kerning City | No |
+| 2026-10-12 | Area bosses every 15 minutes | Checked every 3 hours | Checked every 15 minutes | No |
+| 2026-10-12 | `@goals` | | Shows what you still need for your next job | No |
+
 ## Travel and guidance
 
 | Date | ID | Change | Before | After |

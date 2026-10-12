@@ -1419,6 +1419,7 @@ public class MapleMap {
         }
 
         try {
+            plus.Trials.onKill(chr, monster);       // MapleStoryPlus: boss kills count towards job advancement
             if (monster.getStats().getLevel() >= chr.getLevel() + 30 && !chr.isGM()) {
                 AutobanFactory.GENERAL.alert(chr, " for killing a " + monster.getName() + " which is over 30 levels higher.");
             }

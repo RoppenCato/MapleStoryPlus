@@ -6,6 +6,38 @@ Related: [Bosses and party quests](Bosses-and-Party-Quests.md), [Class changes](
 
 > **Changed 2026-10-11:** the trial token is dropped. Scrolls and other supplies are bought with mesos in a fixed Free Market room (see [Ideas](Ideas.md)), and bosses pay more mesos than now, next to their normal drops. One token is kept, for 4th job skill books and mastery books only. Every boss on the way up gives some, and the hardest bosses give the most, so getting good enough for them pays off. Where the rows and the Tokens section below speak of a trial token or of tokens buying scrolls, they no longer apply.
 
+## Job advancement: decided and built 2026-10-12
+
+Robin's answers to the questionnaire, and what was built from them. Not tested in game yet.
+
+| Question | Decision |
+|---|---|
+| What you must do to advance | Reach the level and beat 4 of the band's bosses (the trials). |
+| Where | The Trade button opens the Guide anywhere. The job instructors open the same window. |
+| 4th job skills | The main attack and Maple Warrior are open to level 10 on advancing. Everything else is earned with boss tokens. |
+| Band 1 (2nd job) | The two bosses that exist at that level: Mano and King Slime, both. |
+
+| Job | Level | Trials |
+|---|---|---|
+| 1st | 10 (8 for a magician) | None: choose a class in the Guide. No stat requirements. |
+| 2nd | 30 | Mano and King Slime, both. |
+| 3rd | 70 | Any 4 of 13: Stumpy, Deo, Seruf, Rombot, Faust, Giant Centipede, King Clang, Shade, Timer, Mushmom, Zombie Mushmom, Dyle, Zeno. |
+| 4th | 120 | Any 4 of 15: Nine-Tailed Fox, Tae Roon, Riche, King Sage Cat, Jr. Balrog, Eliza, Chimera, Snowman, Male Boss, Headless Horseman, Griffey, Manon, Pianus, Bigfoot, Black Crow. |
+
+- A boss can be beaten at any level and counts for good, so trials can be done early.
+- Reaching the level without the trials: you keep levelling in your old job until they are done.
+- The killer gets the credit, and so do party members on the same map.
+- King Slime only lived at the end of the Kerning party quest, which one player cannot enter, so he also appears in the swamp next to Kerning City (The Swamp of Despair I).
+- Area bosses used to be checked every 3 hours. Now every 15 minutes, so a trial is not a three-hour wait. This applies to every area boss.
+- Only explorers. Cygnus Knights and Aran advance the way they always did.
+- The original advancement quests still exist but are no longer needed.
+
+Built: the Guide, the kill record, advancement, `@goals`, King Slime in the swamp, the 4th job basics.
+
+Not built yet: the tokens and the 4th job skill shop; boss tuning for one player (several band 3 bosses have tens of millions of HP); a first-kill reward.
+
+Where it lives: `Settings/Trials.tsv` (the bosses per band), `Server/src/main/java/plus/Trials.java` (the rules and every text), `Server/scripts/npc/plusGuide.js` (the window), table `plus_trials` (who has beaten what).
+
 ## Decided
 
 | Topic | Decision | Date |

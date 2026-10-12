@@ -112,6 +112,9 @@ public class NPCScriptManager extends AbstractScriptManager {
     }
 
     private boolean start(Client c, int npc, int oid, String fileName, Character chr, boolean itemScript, String engineName) {
+        if (fileName == null && !itemScript && plus.Trials.isInstructor(npc)) {
+            fileName = "plusGuide";     // MapleStoryPlus: the job instructors open the Guide
+        }
         try {
             final NPCConversationManager cm = new NPCConversationManager(c, npc, oid, fileName, itemScript);
             if (cms.containsKey(c)) {

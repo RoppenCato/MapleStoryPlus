@@ -50,7 +50,12 @@ public final class EnterMTSHandler extends AbstractPacketHandler {
         Character chr = c.getPlayer();
 
         if (!YamlConfig.config.server.USE_MTS) {
+            // MapleStoryPlus: the trading system is off, so the Trade button opens the Guide
+            // (job advancement and trials; see plus/Trials.java and scripts/npc/plusGuide.js)
             c.sendPacket(PacketCreator.enableActions());
+            if (chr.isAlive()) {
+                scripting.npc.NPCScriptManager.getInstance().start(c, constants.id.NpcId.MAPLE_ADMINISTRATOR, "plusGuide", null);
+            }
             return;
         }
 
