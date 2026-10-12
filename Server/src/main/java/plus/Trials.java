@@ -44,7 +44,7 @@ import java.util.Set;
 public class Trials {
     private static final Logger log = LoggerFactory.getLogger(Trials.class);
 
-    private record Boss(int band, int mobId, String name, String where, int tokens) {}
+    private record Boss(int band, int mobId, String name, String where, int tokens, int gearLevel) {}
 
     /** Tokens: a first kill of a boss pays this many times its usual amount. */
     private static final int FIRST_KILL_TIMES = 5;
@@ -83,7 +83,8 @@ public class Trials {
                 String[] cell = line.split("\t");
                 if (cell.length >= 3) {
                     Boss boss = new Boss(Integer.parseInt(cell[0]), Integer.parseInt(cell[1]), cell[2], cell.length > 3 ? cell[3] : "",
-                            cell.length > 4 && !cell[4].isBlank() ? Integer.parseInt(cell[4].trim()) : 0);
+                            cell.length > 4 && !cell[4].isBlank() ? Integer.parseInt(cell[4].trim()) : 0,
+                            cell.length > 5 && !cell[5].isBlank() ? Integer.parseInt(cell[5].trim()) : 0);
                     bosses.add(boss);
                     byMob.put(boss.mobId(), boss);
                 }
@@ -99,6 +100,13 @@ public class Trials {
             log.error("The trials table could not be created", e);
         }
         log.info("Trials: {} bosses in {} bands", bosses.size(), BANDS.length - 1);
+    }
+
+    /** The level of gear a boss on the list drops (see BossGear), or 0 for any other monster. */
+    public static int gearLevel(int mobId) {
+        load();
+        Boss boss = byMob.get(mobId);
+        return boss == null ? 0 : boss.gearLevel();
     }
 
     public static boolean isInstructor(int npcId) {

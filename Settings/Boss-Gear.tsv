@@ -1,0 +1,1482 @@
+item_id	item	req_level	classes	kind
+1040017	Grey / Brown Training Shirt	8	magician	armour
+1041015	Black Armine	8	magician	armour
+1060013	Grey / Brown Training Pants	8	magician	armour
+1061010	Black Armine Skirt	8	magician	armour
+1002002	Metal Koif	10	warrior	armour
+1002010	Brown Winter Hat	10	bowman	armour
+1002017	Brown Apprentice Hat	10	magician	armour
+1002019	White Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002043	Bronze Koif	10	warrior	armour
+1002044	Mithril Koif	10	warrior	armour
+1002057	Green Winter Hat	10	bowman	armour
+1002074	Blue Apprentice Hat	10	magician	armour
+1002075	Red Apprentice Hat	10	magician	armour
+1002080	Red Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002081	Blue Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002082	Yellow Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002083	Black Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002122	Red Ghetto Beanie	10	thief	armour
+1002123	Blue Ghetto Beanie	10	thief	armour
+1002124	Brown Ghetto Beanie	10	thief	armour
+1002125	Black Ghetto Beanie	10	thief	armour
+1002126	Green Ghetto Beanie	10	thief	armour
+1002391	Green Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002392	Brown Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002393	Pink Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002394	Grey Bandana	10	warrior/magician/bowman/thief/pirate	armour
+1002610	Brown Rocky Bandana	10	pirate	armour
+1040008	Brown Archer Top	10	bowman	armour
+1040015	Brown Lolico Armor	10	warrior	armour
+1040031	Blue Cloth Vest	10	thief	armour
+1040038	Blue Lolico Armor	10	warrior	armour
+1041007	Green Avelin	10	bowman	armour
+1041014	Orange Lolica Armor	10	warrior	armour
+1041036	Red Cloth Vest	10	thief	armour
+1041061	Yellow Avelin	10	bowman	armour
+1041064	Blueberry Lolica Armor	10	warrior	armour
+1052095	Brown Rocky Suit	10	pirate	armour
+1060008	Brown Lolico Pants	10	warrior	armour
+1060022	Red Cloth Pants	10	thief	armour
+1060028	Blue Lolico Pants	10	warrior	armour
+1061009	Green Avelin Skirt	10	bowman	armour
+1061014	Rookie Pants	10	warrior	armour
+1061023	Sophia Pants	10	warrior	armour
+1061029	Red Cloth Pants	10	thief	armour
+1061057	Yellow Avelin Skirt	10	bowman	armour
+1062004	Archer Pants	10	bowman	armour
+1072006	Brown Basic Boots	10	magician	armour
+1072015	Brown Hard Leather Boots	10	bowman	armour
+1072070	Blue Gidder Shoes	10	thief	armour
+1082002	Work Gloves	10	warrior/magician/bowman/thief/pirate	armour
+1082003	Juno	10	warrior	armour
+1082145	Yellow Work Gloves	10	warrior/magician/bowman/thief/pirate	armour
+1092005	Wooden Buckler	10	warrior	armour
+1092008	Pan Lid	10	warrior/magician/bowman/thief/pirate	armour
+1302007	Long Sword	10	warrior/magician/bowman/thief/pirate	weapon
+1312000	Double Axe	10	warrior/magician/bowman/thief/pirate	weapon
+1382000	Wooden Staff	10	magician	weapon
+1402001	Wooden Sword	10	warrior/bowman/thief	weapon
+1412001	Metal Axe	10	warrior/bowman/thief	weapon
+1422000	Wooden Mallet	10	warrior/bowman/thief	weapon
+1432000	Spear	10	warrior/bowman/thief	weapon
+1442000	Pole Arm	10	warrior/bowman/thief	weapon
+1452002	War Bow	10	bowman	weapon
+1472000	Garnier	10	thief	weapon
+1482000	Steel Knuckler	10	pirate	weapon
+1492000	Pistol	10	pirate	weapon
+1040013	Blue One-lined T-Shirt	11	warrior/magician/bowman/thief/pirate	armour
+1040014	Orange Sporty T-Shirt	11	warrior/magician/bowman/thief/pirate	armour
+1041004	Pink Starry Shirt	11	warrior/magician/bowman/thief/pirate	armour
+1041012	Red-Striped T-Shirt	11	warrior/magician/bowman/thief/pirate	armour
+1060004	Grey Thick Sweat Pants	11	warrior/magician/bowman/thief/pirate	armour
+1072004	White Gomushin	11	warrior/magician/bowman/thief/pirate	armour
+1002003	Steel Helmet	12	warrior	armour
+1002039	Bronze Helmet	12	warrior	armour
+1002040	Mithril Helmet	12	warrior	armour
+1332000	Triangular Zamadar	12	thief	weapon
+1442013	Aqua Snowboard	12	warrior/magician/bowman/thief/pirate	weapon
+1041017	Purple Arianne	13	magician	armour
+1041018	Green Arianne	13	magician	armour
+1041026	Yellow Arianne	13	magician	armour
+1050010	Green Plain Robe	13	magician	armour
+1061012	Purple Arianne Skirt	13	magician	armour
+1061013	Green Arianne Skirt	13	magician	armour
+1061022	Yellow Arianne Skirt	13	magician	armour
+1002001	Metal Gear	15	warrior/magician/bowman/thief/pirate	armour
+1002007	Steel Full Helm	15	warrior	armour
+1002033	Old Wisconsin	15	warrior/magician/bowman/thief/pirate	armour
+1002041	Yellow Metal Gear	15	warrior/magician/bowman/thief/pirate	armour
+1002042	Blue Metal Gear	15	warrior/magician/bowman/thief/pirate	armour
+1002051	Bronze Full Helm	15	warrior	armour
+1002052	Mithril Full Helm	15	warrior	armour
+1002102	Blue Moon Conehat	15	magician	armour
+1002103	Pink Moon Conehat	15	magician	armour
+1002104	Green Moon Conehat	15	magician	armour
+1002105	Dark Moon Conehat	15	magician	armour
+1002107	Red Thief Hood	15	thief	armour
+1002113	Blue Feather Hat	15	bowman	armour
+1002613	Brown Lagger Cap	15	pirate	armour
+1032001	Single Earring	15	warrior/magician/bowman/thief/pirate	armour
+1032003	Amethyst Earrings	15	warrior/magician/bowman/thief/pirate	armour
+1040009	Steel Corporal	15	warrior	armour
+1040011	Silver Leather Hoodwear	15	bowman	armour
+1040034	Dark Nightshift	15	thief	armour
+1040035	Blue Nightshift	15	thief	armour
+1040037	Brown Corporal	15	warrior	armour
+1041008	Green Able Armor	15	bowman	armour
+1041044	Red Nightshift	15	thief	armour
+1041045	Brown Nightshift	15	thief	armour
+1041062	Yellow Able Armor	15	bowman	armour
+1041063	Grey Able Armor	15	bowman	armour
+1051000	Steel Fitted Mail	15	warrior	armour
+1052098	Brown Cotton Lagger	15	pirate	armour
+1060009	Steel Corporal Pants	15	warrior	armour
+1060024	Dark Nightshift Pants	15	thief	armour
+1060025	Blue Nightshift Pants	15	thief	armour
+1060027	Brown Corporal Pants	15	warrior	armour
+1061006	Green Able Armor Skirt	15	bowman	armour
+1061037	Red Nightshift Pants	15	thief	armour
+1061038	Brown Nightshift Pants	15	thief	armour
+1061058	Brown Able Skirt	15	bowman	armour
+1061059	Grey Able Skirt	15	bowman	armour
+1072009	Steel Grieves	15	warrior	armour
+1072023	Beige Nitty	15	magician	armour
+1072031	Red Ninja Sandals	15	thief	armour
+1072050	Bronze Grieves	15	warrior	armour
+1072060	Brown Woodsman Boots	15	bowman	armour
+1072285	Brown Lagger Slipper	15	pirate	armour
+1082000	Steel Fingerless Gloves	15	warrior	armour
+1082012	Basic Archer Gloves	15	bowman	armour
+1082019	Lemona	15	magician	armour
+1082029	Brown Duo	15	thief	armour
+1082180	Green Lagger Halfglove	15	pirate	armour
+1092000	Steel Shield	15	warrior	armour
+1322000	Mace	15	warrior/magician	weapon
+1322007	Leather Purse	15	warrior/magician/bowman/thief/pirate	weapon
+1332006	Field Dagger	15	warrior/thief	weapon
+1402018	Wooden Samurai Sword	15	warrior	weapon
+1412012	Iron Axe	15	warrior	weapon
+1432001	Fork on a Stick	15	warrior/bowman/thief	weapon
+1442006	Iron Ball	15	warrior	weapon
+1442029	Gold Surfboard	15	warrior/magician/bowman/thief/pirate	weapon
+1452003	Composite Bow	15	bowman	weapon
+1482001	Leather Arms	15	pirate	weapon
+1492001	Dellinger Special	15	pirate	weapon
+1062000	Ice Jeans	16	warrior/magician/bowman/thief/pirate	armour
+1072008	Bronze Aroa Boots	16	warrior/magician/bowman/thief/pirate	armour
+1040018	Black Split Piece	18	magician	armour
+1040019	Orange Split Piece	18	magician	armour
+1040020	Blue Split Piece	18	magician	armour
+1041029	Black Split	18	magician	armour
+1041031	Purple Split	18	magician	armour
+1060014	Black Split Pants	18	magician	armour
+1060015	White Split Pants	18	magician	armour
+1061027	Black Split Skirt	18	magician	armour
+1061028	White Split Skirt	18	magician	armour
+1372002	Metal Wand	18	magician	weapon
+1462002	Battle Crossbow	18	bowman	weapon
+1002009	Steel Football Helmet	20	warrior	armour
+1002012	Red Baseball Cap	20	warrior/magician/bowman/thief/pirate	armour
+1002016	Green Wizardry Hat	20	magician	armour
+1002055	Bronze Football Helmet	20	warrior	armour
+1002058	Mithril Viking Helm	20	warrior	armour
+1002118	Blue Robin Hat	20	bowman	armour
+1002119	Green Robin Hat	20	bowman	armour
+1002121	Brown Robin Hat	20	bowman	armour
+1002127	Red Loosecap	20	thief	armour
+1002129	Brown Loosecap	20	thief	armour
+1002131	Green Loosecap	20	thief	armour
+1002616	Brown Double Marine	20	pirate	armour
+1032000	Weighted Earrings	20	warrior/magician/bowman/thief/pirate	armour
+1032009	Yellow Square	20	warrior/magician/bowman/thief/pirate	armour
+1040003	Brown Hard Leather Top	20	bowman	armour
+1040012	Blue Sergeant	20	warrior	armour
+1040042	Blue Pao	20	thief	armour
+1040043	Red Pao	20	thief	armour
+1040044	Black Pao	20	thief	armour
+1041013	Green Shivermail	20	bowman	armour
+1041021	Brown Lamelle	20	warrior	armour
+1041027	Red Shivermail	20	bowman	armour
+1041028	Purple Shivermail	20	bowman	armour
+1041039	Pink Qi Pao	20	thief	armour
+1041040	Blue Qi Pao	20	thief	armour
+1050005	Blue Kendo Robe	20	warrior	armour
+1050006	Red Kendo Robe	20	warrior	armour
+1052101	Beige Carribean	20	pirate	armour
+1060010	Steel Sergeant Kilt	20	warrior	armour
+1060031	Blue Pao Bottom	20	thief	armour
+1060032	Red Pao Bottom	20	thief	armour
+1060033	Black Pao Bottom	20	thief	armour
+1061018	Brown Ramel Skirt	20	warrior	armour
+1061024	Green Shivermail Skirt	20	bowman	armour
+1061025	Red Shivermail Skirt	20	bowman	armour
+1061026	Purple Shivermail Skirt	20	bowman	armour
+1061033	Blue Qi Pao Pants	20	thief	armour
+1062002	Brown Hard Leather Pants	20	bowman	armour
+1072007	Brown High Boots	20	warrior	armour
+1072019	Blue Jewelry Boots	20	magician	armour
+1072020	Purple Jewelry Boots	20	magician	armour
+1072025	Deer Huntertop	20	bowman	armour
+1072046	Orange High Boots	20	warrior	armour
+1072065	Red Enamel Boots	20	thief	armour
+1072066	Blue Enamel Boots	20	thief	armour
+1072288	Brown Skeedy Sandals	20	pirate	armour
+1082004	Venon	20	warrior	armour
+1082020	Blue Morrican	20	magician	armour
+1082032	Bronze Mischief	20	thief	armour
+1082183	Brown Leather Armor Glove	20	pirate	armour
+1092006	Mithril Buckler	20	warrior	armour
+1092030	Maple Shield	20	warrior/magician/bowman/thief/pirate	armour
+1302002	Viking Sword	20	warrior	weapon
+1302006	Machete	20	warrior/thief	weapon
+1312016	Contra Axe	20	warrior	weapon
+1322002	Iron Mace	20	warrior/magician	weapon
+1332008	Coconut Knife	20	warrior/thief	weapon
+1382004	Old Wooden Staff	20	magician	weapon
+1402000	Two-Handed Sword	20	warrior	weapon
+1412002	Iron Axe	20	warrior	weapon
+1432008	Fish Spear	20	warrior/magician/bowman/thief/pirate	weapon
+1452001	Hunter's Bow	20	bowman	weapon
+1472004	Bronze Igor	20	thief	weapon
+1472006	Adamantium Igor	20	thief	weapon
+1482002	Double Tail Knuckler	20	pirate	weapon
+1492002	The Negotiator	20	pirate	weapon
+1002027	Steel Sharp Helm	22	warrior	armour
+1002087	Mithril Sharp Helm	22	warrior	armour
+1002088	Gold Sharp Helm	22	warrior	armour
+1061041	Purple Qi Pao Skirt	22	thief	armour
+1092019	Nimble Wristguard	22	thief	armour
+1092020	Jurgen Wristguard	22	thief	armour
+1092021	Mystic Shield	22	magician	armour
+1332013	Stinger	22	thief	weapon
+1462003	Balanche	22	bowman	weapon
+1050001	Brown Doros Robe	23	magician	armour
+1050023	Blue Doros Robe	23	magician	armour
+1050024	Yellow Doros Robe	23	magician	armour
+1050025	White Doros Robe	23	magician	armour
+1051003	Brown Doroness Robe	23	magician	armour
+1051004	Purple Doroness Robe	23	magician	armour
+1051005	Red Doroness Robe	23	magician	armour
+1372004	Ice Wand	23	magician	weapon
+1442014	Silver Snowboard	24	warrior/magician/bowman/thief/pirate	weapon
+1002005	Iron Burgernet Helm	25	warrior	armour
+1002020	Red Starry Bandana	25	warrior/magician/bowman/thief/pirate	armour
+1002096	Sky Blue Starry Bandana	25	warrior/magician/bowman/thief/pirate	armour
+1002097	Yellow Starry Bandana	25	warrior/magician/bowman/thief/pirate	armour
+1002146	Red Tiberian	25	thief	armour
+1002147	Blue Tiberian	25	thief	armour
+1002148	Green Tiberian	25	thief	armour
+1002149	Brown Tiberian	25	thief	armour
+1002150	Dark Tiberian	25	thief	armour
+1002156	Red Hunter	25	bowman	armour
+1002157	Blue Hunter	25	bowman	armour
+1002158	Green Hunter	25	bowman	armour
+1002159	Black Hunter	25	bowman	armour
+1002160	Brown Hunter	25	bowman	armour
+1002619	Brown Pitz Bandana	25	pirate	armour
+1032004	Gold Earrings	25	warrior/magician/bowman/thief/pirate	armour
+1032005	Red Cross Earrings	25	warrior/magician/bowman/thief/pirate	armour
+1032032	Fallen Leaf Earrings	25	warrior/magician/bowman/thief/pirate	armour
+1040016	Orihalcon Master Sergeant	25	warrior	armour
+1040022	Green Bennis Chainmail	25	bowman	armour
+1040023	Black Bennis Chainmail	25	bowman	armour
+1040024	Blue Bennis Chainmail	25	bowman	armour
+1040025	Red Bennis Chainmail	25	bowman	armour
+1040040	Silver Master Sergeant	25	warrior	armour
+1040041	Dark Master Sergeant	25	warrior	armour
+1040048	Brown Sneak	25	thief	armour
+1040049	Blue Sneak	25	thief	armour
+1040050	Black Sneak	25	thief	armour
+1041022	Blue Shark	25	warrior	armour
+1041023	Sky Shark	25	warrior	armour
+1041032	Green Bennis Chainmail	25	bowman	armour
+1041033	Red Bennis Chainmail	25	bowman	armour
+1041034	Blue Bennis Chainmail	25	bowman	armour
+1041058	Blood Sneak	25	thief	armour
+1041059	Sky Sneak	25	thief	armour
+1041060	Gold Sneak	25	thief	armour
+1052104	Brown Turk Gally	25	pirate	armour
+1060011	Orihalcon Master Sergeant Kilt	25	warrior	armour
+1060030	Dark Master Sergeant Kilt	25	warrior	armour
+1060037	Dark Brown Sneak Pants	25	thief	armour
+1060038	Brown Sneak Pants	25	thief	armour
+1060060	Silver Master Sergeant Kilt	25	warrior	armour
+1061019	Sky Shark Skirt	25	warrior	armour
+1061054	Blood Sneak Pants	25	thief	armour
+1061055	Sky Sneak Pants	25	thief	armour
+1061056	Gold Sneak Pants	25	thief	armour
+1062006	Bennis Chainpants	25	bowman	armour
+1072011	Mithril War Boots	25	warrior	armour
+1072027	Brown Jack Boots	25	bowman	armour
+1072051	Silver War Boots	25	warrior	armour
+1072053	Gold War Boots	25	warrior	armour
+1072069	Red Jack Boots	25	bowman	armour
+1072072	Silver Windshoes	25	magician	armour
+1072073	Yellow Windshoes	25	magician	armour
+1072085	Red Lappy Boots	25	thief	armour
+1072086	Green Lappy Boots	25	thief	armour
+1072087	Black Lappy Boots	25	thief	armour
+1072291	Brown Wooden Krag	25	pirate	armour
+1082016	Blue Savata	25	bowman	armour
+1082017	Red Savata	25	bowman	armour
+1082018	Dark Savata	25	bowman	armour
+1082026	Ocean Mesana	25	magician	armour
+1082037	Bronze Wolfskin	25	thief	armour
+1082038	Mithril Wolfskin	25	thief	armour
+1082186	Hard Leather Glove	25	pirate	armour
+1302003	Eloon	25	warrior/thief	weapon
+1312003	Misthil Axe	25	warrior	weapon
+1322004	Fusion Mace	25	warrior/magician	weapon
+1322009	Plunger	25	warrior/magician/bowman/thief/pirate	weapon
+1322022	Red Flowery Tube	25	warrior/magician/bowman/thief/pirate	weapon
+1332010	Iron Dagger	25	warrior/thief	weapon
+1382002	Wizard Staff	25	magician	weapon
+1402008	Broadsword	25	warrior	weapon
+1412000	Two-Handed Axe	25	warrior	weapon
+1452000	Battle Bow	25	bowman	weapon
+1482003	Norman Grip	25	pirate	weapon
+1492003	Golden Hook	25	pirate	weapon
+1060005	Warfare Pants	26	warrior/magician/bowman/thief/pirate	armour
+1072012	Red Whitebottom Boots	26	warrior/magician/bowman/thief/pirate	armour
+1072054	Orange Whitebottom Boots	26	warrior/magician/bowman/thief/pirate	armour
+1332004	Forked Dagger	27	thief	weapon
+1041041	Purple Fairy Top	28	magician	armour
+1041042	Green Fairy Top	28	magician	armour
+1041043	Blue Fairy Top	28	magician	armour
+1050003	Blue Wizard Robe	28	magician	armour
+1050026	White Wizard Robe	28	magician	armour
+1050027	Black Mage Robe	28	magician	armour
+1050028	Green Wizard Robe	28	magician	armour
+1061034	Purple Fairy Skirt	28	magician	armour
+1061035	Green Fairy Skirt	28	magician	armour
+1061036	Blue Fairy Skirt	28	magician	armour
+1372003	Mithril Wand	28	magician	weapon
+1462000	Mountain Crossbow	28	bowman	weapon
+1002013	Golden Pride	30	magician	armour
+1002023	Jousting Helmet	30	warrior	armour
+1002034	Blue Jester	30	magician	armour
+1002035	Pink Jester	30	magician	armour
+1002036	Green Jester	30	magician	armour
+1002037	Black Jester	30	magician	armour
+1002038	Brown Jester	30	magician	armour
+1002064	Bronze Pride	30	magician	armour
+1002065	Steel Pride	30	magician	armour
+1002161	Red Hawkeye	30	bowman	armour
+1002162	Blue Hawkeye	30	bowman	armour
+1002163	Green Hawkeye	30	bowman	armour
+1002164	Brown Hawkeye	30	bowman	armour
+1002165	Dark Hawkeye	30	bowman	armour
+1002171	Red Guise	30	thief	armour
+1002172	Blue Guise	30	thief	armour
+1002173	Green Guise	30	thief	armour
+1002174	Brown Guise	30	thief	armour
+1002175	Dark Guise	30	thief	armour
+1002579	LeFay Jester	30	magician	armour
+1002622	White Oceania Cap	30	pirate	armour
+1032006	Lightning Earrings	30	warrior/magician/bowman/thief/pirate	armour
+1032007	Emerald Earrings	30	warrior/magician/bowman/thief/pirate	armour
+1032010	Star Earrings	30	warrior/magician/bowman/thief/pirate	armour
+1032028	Red Emerald Earrings	30	warrior/magician/bowman/thief/pirate	armour
+1040021	Red Hwarang Shirt	30	warrior	armour
+1040026	Green Hwarang Shirt	30	warrior	armour
+1040057	Dark Brown Stealer	30	thief	armour
+1040058	Dark Silver Stealer	30	thief	armour
+1040059	Red Gold Stealer	30	thief	armour
+1040060	Silver Black Stealer	30	thief	armour
+1040067	Green Hunter's Armor	30	bowman	armour
+1040068	Dark Hunter's Armor	30	bowman	armour
+1040069	Red Hunter's Armor	30	bowman	armour
+1040070	Blue Hunter's Armor	30	bowman	armour
+1041047	Red Steal	30	thief	armour
+1041048	Black Steal	30	thief	armour
+1041049	Blue Steal	30	thief	armour
+1041050	Purple Steal	30	thief	armour
+1041054	Green Huntress Armor	30	bowman	armour
+1041055	Black Huntress Armor	30	bowman	armour
+1041056	Red Huntress Armor	30	bowman	armour
+1050011	Black Dragon Robe	30	warrior	armour
+1051010	Dark Engrit	30	warrior	armour
+1051011	Red Engrit	30	warrior	armour
+1051012	Blue Engrit	30	warrior	armour
+1051013	Yellow Engrit	30	warrior	armour
+1052107	Brown Pollard	30	pirate	armour
+1060016	Black Martial Arts Pants	30	warrior	armour
+1060017	White Martial Arts Pants	30	warrior	armour
+1060018	Red Martial Arts Pants	30	warrior	armour
+1060019	Brown Martial Arts Pants	30	warrior	armour
+1060043	Dark Brown Stealer Pants	30	thief	armour
+1060044	Dark Silver Stealer Pants	30	thief	armour
+1060045	Red / Gold Stealer Pants	30	thief	armour
+1060046	Silver / Black Stealer Pants	30	thief	armour
+1060056	Green Hunter's Pants	30	bowman	armour
+1060057	Dark Hunter's Pants	30	bowman	armour
+1060058	Red Hunter's Pants	30	bowman	armour
+1060059	Blue Hunter's Pants	30	bowman	armour
+1061043	Red Steal Pants	30	thief	armour
+1061044	Black Steal Pants	30	thief	armour
+1061045	Blue Steal Pants	30	thief	armour
+1061046	Purple Steal Pants	30	thief	armour
+1061050	Green Huntress Pants	30	bowman	armour
+1061051	Black Huntress Pants	30	bowman	armour
+1061052	Red Huntress Pants	30	bowman	armour
+1072003	Emerald Battle Grieves	30	warrior	armour
+1072032	Bronze Chain Boots	30	thief	armour
+1072033	Iron Chain Boots	30	thief	armour
+1072035	Silver Chain Boots	30	thief	armour
+1072036	Gold Chain Boots	30	thief	armour
+1072039	Mithril Battle Grieves	30	warrior	armour
+1072040	Silver Battle Grieves	30	warrior	armour
+1072041	Blood Battle Grieves	30	warrior	armour
+1072075	Red Magicshoes	30	magician	armour
+1072076	Blue Magicshoes	30	magician	armour
+1072077	White Magicshoes	30	magician	armour
+1072078	Black Magicshoes	30	magician	armour
+1072079	Red Hunter Boots	30	bowman	armour
+1072080	Blue Hunter Boots	30	bowman	armour
+1072081	Green Hunter Boots	30	bowman	armour
+1072082	Black Hunter Boots	30	bowman	armour
+1072083	Brown Hunter Boots	30	bowman	armour
+1072168	Red Snowshoes	30	warrior	armour
+1072169	Blue Snowshoes	30	magician	armour
+1072170	Green Snowshoes	30	bowman	armour
+1072171	Black Snowshoes	30	thief	armour
+1072294	Brown Paulie Boots	30	pirate	armour
+1072338	Purple Snowshoes	30	pirate	armour
+1082005	Steel Missel	30	warrior	armour
+1082006	Orihalcon Missel	30	warrior	armour
+1082007	Bronze Missel	30	warrior	armour
+1082042	Steel Sylvia	30	thief	armour
+1082043	Silver Sylvia	30	thief	armour
+1082044	Gold Sylvia	30	thief	armour
+1082048	Brown Marker	30	bowman	armour
+1082049	Green Marker	30	bowman	armour
+1082050	Black Marker	30	bowman	armour
+1082051	Red Lutia	30	magician	armour
+1082052	Blue Lutia	30	magician	armour
+1082053	Black Lutia	30	magician	armour
+1082189	Yellow Tartis	30	pirate	armour
+1092002	Red Cross Shield	30	warrior	armour
+1302008	Gladius	30	warrior	weapon
+1312005	Fireman's Axe	30	warrior	weapon
+1312013	Green Paint Brush	30	warrior/magician/bowman/thief/pirate	weapon
+1322003	Lollipop	30	warrior/magician/bowman/thief/pirate	weapon
+1322014	War Hammer	30	warrior	weapon
+1322027	Frying Pan	30	warrior/magician/bowman/thief/pirate	weapon
+1332009	Cass	30	warrior/thief	weapon
+1332012	Reef Claw	30	thief	weapon
+1382017	Circle-Winded Staff	30	magician	weapon
+1402002	Scimitar	30	warrior	weapon
+1402010	Aluminum Baseball Bat	30	warrior/magician/bowman/thief/pirate	weapon
+1412006	Blue Axe	30	warrior	weapon
+1422001	Mithril Maul	30	warrior	weapon
+1432002	Forked Spear	30	warrior	weapon
+1442001	Mithril Pole Arm	30	warrior	weapon
+1442011	Surfboard	30	warrior/magician/bowman/thief/pirate	weapon
+1452005	Ryden	30	bowman	weapon
+1472008	Steel Guards	30	thief	weapon
+1472009	Mithril Guards	30	thief	weapon
+1472010	Adamantium Guards	30	thief	weapon
+1482004	Prime Hands	30	pirate	weapon
+1492004	Cold Mind	30	pirate	weapon
+1072018	Blue Sneakers	31	warrior/magician/bowman/thief/pirate	armour
+1072064	Red Sneakers	31	warrior/magician/bowman/thief/pirate	armour
+1040028	Blue Sky	32	warrior	armour
+1332001	Halfmoon Zamadar	32	thief	weapon
+1462004	Eagle Crow	32	bowman	weapon
+1041051	Red Amoria Top	33	magician	armour
+1041052	Blue Amoria Top	33	magician	armour
+1041053	Black Amoria Top	33	magician	armour
+1050002	Blood Chaos Robe	33	magician	armour
+1050029	Dark Chaos Robe	33	magician	armour
+1050030	Blue Chaos Robe	33	magician	armour
+1050031	White Chaos Robe	33	magician	armour
+1061047	Red Amoria Skirt	33	magician	armour
+1061048	Blue Amoria Skirt	33	magician	armour
+1061049	Black Amoria Skirt	33	magician	armour
+1092029	Esther Shield	33	magician	armour
+1372001	Wizard Wand	33	magician	weapon
+1002004	Great Brown Helmet	35	warrior	armour
+1002047	Great Red Helmet	35	warrior	armour
+1002048	Great Blue Helmet	35	warrior	armour
+1002135	Brown Pole-Feather Hat	35	bowman	armour
+1002136	Dark Pole-Feather Hat	35	bowman	armour
+1002137	Green Pole-Feather Hat	35	bowman	armour
+1002138	Blue Pole-Feather Hat	35	bowman	armour
+1002139	Red Pole-Feather Hat	35	bowman	armour
+1002141	Red Matty	35	magician	armour
+1002142	Blue Matty	35	magician	armour
+1002143	Green Matty	35	magician	armour
+1002144	Brown Matty	35	magician	armour
+1002145	Dark Matty	35	magician	armour
+1002176	Red Burgler	35	thief	armour
+1002177	Blue Burgler	35	thief	armour
+1002178	Green Burgler	35	thief	armour
+1002179	Brown Burgler	35	thief	armour
+1002180	Dark Burgler	35	thief	armour
+1002625	Blue Den Marine	35	pirate	armour
+1032002	Sapphire Earrings	35	warrior/magician/bowman/thief/pirate	armour
+1032008	Cat's Eye	35	warrior/magician/bowman/thief/pirate	armour
+1040029	Blue Dragon	35	warrior	armour
+1040030	Gold Dragon	35	warrior	armour
+1040061	Green Knucklevest	35	thief	armour
+1040062	Red Knucklevest	35	thief	armour
+1040063	Black Knucklevest	35	thief	armour
+1040072	Red Legolier	35	bowman	armour
+1040073	Blue Legolier	35	bowman	armour
+1040074	Green Legolier	35	bowman	armour
+1040075	Dark Legolier	35	bowman	armour
+1040076	Brown Legolier	35	bowman	armour
+1041065	Red Legolia	35	bowman	armour
+1041066	Blue Legolia	35	bowman	armour
+1041067	Green Legolia	35	bowman	armour
+1041068	Dark Legolia	35	bowman	armour
+1041069	Brown Legolia	35	bowman	armour
+1050000	White Crusader Chainmail	35	warrior	armour
+1050021	Blue Crusader Chainmail	35	warrior	armour
+1050022	Dark Crusader Chainmail	35	warrior	armour
+1051001	Emerald Fitted Mail	35	warrior	armour
+1051006	Dark Avenger	35	thief	armour
+1051007	Red Avenger	35	thief	armour
+1051008	Blue Avenger	35	thief	armour
+1051009	Purple Avenger	35	thief	armour
+1051014	Sapphire Fitted Mail	35	warrior	armour
+1051015	Blood Fitted Mail	35	warrior	armour
+1051016	Silver Fitted Mail	35	warrior	armour
+1052110	Blue Brace Look	35	pirate	armour
+1060020	White Martial Arts Shorts	35	warrior	armour
+1060050	Blue Knucklevest Pants	35	thief	armour
+1060051	Red Knucklevest Pants	35	thief	armour
+1060052	Black Knucklevest Pants	35	thief	armour
+1060061	Red Legolier Pants	35	bowman	armour
+1060062	Blue Legolier Pants	35	bowman	armour
+1060063	Green Legolier Pants	35	bowman	armour
+1060064	Dark Legolier Pants	35	bowman	armour
+1060065	Brown Legolier Pants	35	bowman	armour
+1061060	Red Legolia Pants	35	bowman	armour
+1061061	Blue Legolia Pants	35	bowman	armour
+1061062	Green Legolia Pants	35	bowman	armour
+1061063	Dark Legolia Pants	35	bowman	armour
+1061064	Brown Legolia Pants	35	bowman	armour
+1072002	Steel Trigger	35	warrior	armour
+1072089	Purple Salt Shoes	35	magician	armour
+1072090	Red Salt Shoes	35	magician	armour
+1072091	Black Salt Shoes	35	magician	armour
+1072101	Blue Silky Boots	35	bowman	armour
+1072102	Green Silky Boots	35	bowman	armour
+1072103	Red Silky Boots	35	bowman	armour
+1072104	Red White-Lined Boots	35	thief	armour
+1072105	Green White-Lined Boots	35	thief	armour
+1072106	Blue White-Lined Boots	35	thief	armour
+1072112	Mithril Trigger	35	warrior	armour
+1072113	Dark Trigger	35	warrior	armour
+1072297	Brown Locote Shoes	35	pirate	armour
+1082008	Steel Briggon	35	warrior	armour
+1082035	Yellow Briggon	35	warrior	armour
+1082036	Dark Briggon	35	warrior	armour
+1082045	Gold Arbion	35	thief	armour
+1082046	Steel Arbion	35	thief	armour
+1082047	Orihalcon Arbion	35	thief	armour
+1082054	Red Noel	35	magician	armour
+1082055	Blue Noel	35	magician	armour
+1082056	Dark Noel	35	magician	armour
+1082068	Bronze Scaler	35	bowman	armour
+1082069	Mithril Scaler	35	bowman	armour
+1082070	Gold Scaler	35	bowman	armour
+1082192	Brown Jeweled	35	pirate	armour
+1092007	Battle Shield	35	warrior	armour
+1302004	Cutlus	35	warrior	weapon
+1302013	Red Whip	35	warrior/magician/bowman/thief/pirate	weapon
+1302020	Maple Sword	35	warrior/magician/bowman/thief/pirate	weapon
+1312006	Dankke	35	warrior	weapon
+1322015	Heavy Hammer	35	warrior	weapon
+1332014	Gephart	35	thief	weapon
+1332020	Korean Fan	35	warrior/magician/bowman/thief/pirate	weapon
+1382009	Maple Staff	35	magician	weapon
+1382018	Petal Staff	35	magician	weapon
+1402006	Lionheart	35	warrior	weapon
+1412004	Niam	35	warrior	weapon
+1422008	Sledgehammer	35	warrior	weapon
+1432003	Nakamaki	35	warrior	weapon
+1442003	Axe Pole Arm	35	warrior	weapon
+1452006	Red Viper	35	bowman	weapon
+1452016	Maple Bow	35	bowman	weapon
+1462014	Maple Crow	35	bowman	weapon
+1472011	Bronze Guardian	35	thief	weapon
+1472012	Silver Guardian	35	thief	weapon
+1472013	Dark Guardian	35	thief	weapon
+1472030	Maple Claw	35	thief	weapon
+1482005	Silver Maiden	35	pirate	weapon
+1482020	Maple Knuckle	35	pirate	weapon
+1492005	Shooting Star	35	pirate	weapon
+1492020	Maple Gun	35	pirate	weapon
+1050035	Brown Starlight	38	magician	armour
+1050036	Red Starlight	38	magician	armour
+1050037	Green Starlight	38	magician	armour
+1050038	Blue Starlight	38	magician	armour
+1050039	Dark Starlight	38	magician	armour
+1051023	Purple Moonlight	38	magician	armour
+1051024	Red Moonlight	38	magician	armour
+1051025	Blue Moonlight	38	magician	armour
+1051026	Dark Moonlight	38	magician	armour
+1051027	Brown Moonlight	38	magician	armour
+1372000	Fairy Wand	38	magician	weapon
+1372012	Crystal Wand	38	magician	weapon
+1462005	Heckler	38	bowman	weapon
+1002021	Steel Nordic Helm	40	warrior	armour
+1002025	Red Duke	40	warrior	armour
+1002092	Yellow Duke	40	warrior	armour
+1002093	Blue Duke	40	warrior	armour
+1002098	Gold Nordic Helm	40	warrior	armour
+1002099	Mithril Nordic Helm	40	warrior	armour
+1002151	Brown Guiltian	40	magician	armour
+1002152	Blue Guiltian	40	magician	armour
+1002153	Red Guiltian	40	magician	armour
+1002154	Dark Guiltian	40	magician	armour
+1002155	White Guiltian	40	magician	armour
+1002166	Red Distinction	40	bowman	armour
+1002167	Blue Distinction	40	bowman	armour
+1002168	Green Distinction	40	bowman	armour
+1002169	Brown Distinction	40	bowman	armour
+1002170	Dark Distinction	40	bowman	armour
+1002181	Red Pilfer	40	thief	armour
+1002182	Blue Pilfer	40	thief	armour
+1002183	Green Pilfer	40	thief	armour
+1002184	Brown Pilfer	40	thief	armour
+1002185	Dark Pilfer	40	thief	armour
+1002628	Red Misty	40	pirate	armour
+1032011	Blue Moon	40	warrior/magician/bowman/thief/pirate	armour
+1032048	Crystal Leaf Earrings	40	warrior/magician/bowman/thief/pirate	armour
+1040000	Yellow Jangoon Armor	40	warrior	armour
+1040079	Brown Piette	40	bowman	armour
+1040080	Dark Piette	40	bowman	armour
+1040081	White Piette	40	bowman	armour
+1040082	Khaki Shadow	40	thief	armour
+1040083	Marine Shadow	40	thief	armour
+1040084	Dark Shadow	40	thief	armour
+1040085	Maroon Jangoon Armor	40	warrior	armour
+1040086	Blue Jangoon Armor	40	warrior	armour
+1041074	Purple Shadow	40	thief	armour
+1041075	Red Shadow	40	thief	armour
+1041076	Dark Shadow	40	thief	armour
+1041081	White Piettra	40	bowman	armour
+1041082	Brown Piettra	40	bowman	armour
+1041083	Dark Piettra	40	bowman	armour
+1041084	Red Jangoon Armor	40	warrior	armour
+1041085	Brown Jangoon Armor	40	warrior	armour
+1041086	Black Jangoon Armor	40	warrior	armour
+1052113	Red Barbay	40	pirate	armour
+1060000	Black Jangoon Pants	40	warrior	armour
+1060068	Dark Piette Pants 	40	bowman	armour
+1060069	Brown Piette Pants	40	bowman	armour
+1060070	Blue Piette Pants	40	bowman	armour
+1060071	Khaki Shadow Pants	40	thief	armour
+1060072	Marine Shadow Pants	40	thief	armour
+1060073	Dark Shadow Pants	40	thief	armour
+1060074	White Jangoon Pants	40	warrior	armour
+1060075	Brown Jangoon Pants	40	warrior	armour
+1061069	Purple Shadow Pants	40	thief	armour
+1061070	Red Shadow Pants	40	thief	armour
+1061071	Dark Shadow Pants	40	thief	armour
+1061080	White Piettra Skirt	40	bowman	armour
+1061081	Brown Piettra Skirt	40	bowman	armour
+1061082	Dark Piettra Skirt	40	bowman	armour
+1061083	Red Jangoon Skirt	40	warrior	armour
+1061084	Brown Jangoon Skirt	40	warrior	armour
+1061085	Black Jangoon Skirt	40	warrior	armour
+1072000	Brown Jangoon Shoes	40	warrior	armour
+1072107	Black Red-Lined Shoes	40	thief	armour
+1072108	Black Green-Lined Shoes	40	thief	armour
+1072109	Black Yellow-Lined Shoes	40	thief	armour
+1072110	Black Blue-Lines Shoes	40	thief	armour
+1072114	Red Moon Shoes	40	magician	armour
+1072115	Blue Moon Shoes	40	magician	armour
+1072116	Gold Moon Shoes	40	magician	armour
+1072117	Dark Moon Shoes	40	magician	armour
+1072118	Red Pierre Shoes	40	bowman	armour
+1072119	Yellow Pierre Shoes	40	bowman	armour
+1072120	Brown Pierre Shoes	40	bowman	armour
+1072121	Blue Pierre Shoes	40	bowman	armour
+1072126	Maroon Jangoon Shoes	40	warrior	armour
+1072127	Blue Jangoon Shoes	40	warrior	armour
+1072300	Brown Leather Krag	40	pirate	armour
+1082023	Iron Knuckle	40	warrior	armour
+1082024	Adamantium Knuckle	40	warrior	armour
+1082025	Dark Knuckle	40	warrior	armour
+1082062	Red Arten	40	magician	armour
+1082063	Blue Arten	40	magician	armour
+1082064	Dark Arten	40	magician	armour
+1082071	Aqua Brace	40	bowman	armour
+1082072	Gold Brace	40	bowman	armour
+1082073	Dark Brace	40	bowman	armour
+1082074	Dark Cleave	40	thief	armour
+1082075	Red Cleave	40	thief	armour
+1082076	Gold Cleave	40	thief	armour
+1082195	Brown Barbee	40	pirate	armour
+1092012	Steel Tower Shield	40	warrior	armour
+1092013	Mithril Tower Shield	40	warrior	armour
+1092014	Adamantium Tower Shield	40	warrior	armour
+1302009	Traus	40	warrior	weapon
+1302016	Yellow Umbrella	40	warrior/magician/bowman/thief/pirate	weapon
+1312007	Blue Counter	40	warrior	weapon
+1322016	Jacker	40	warrior	weapon
+1322024	Purple Tube	40	warrior/magician/bowman/thief/pirate	weapon
+1332011	Bazlud	40	thief	weapon
+1332031	Dragon Toenail	40	thief	weapon
+1382019	Hall Staff	40	magician	weapon
+1402007	Zard	40	warrior	weapon
+1412005	Sabretooth	40	warrior	weapon
+1422007	Titan	40	warrior	weapon
+1432005	Zeco	40	warrior	weapon
+1442009	Crescent Polearm	40	warrior	weapon
+1452007	Vaulter 2000	40	bowman	weapon
+1472014	Steel Avarice	40	thief	weapon
+1472015	Blood Avarice	40	thief	weapon
+1472016	Adamantium Avarice	40	thief	weapon
+1472017	Dark Avarice	40	thief	weapon
+1482006	Neozard	40	pirate	weapon
+1492006	Lunar Shooter	40	pirate	weapon
+1002045	Blue Bone Helm	42	warrior	armour
+1002046	Red Bone Helm	42	warrior	armour
+1462006	Silver Crow	42	bowman	weapon
+1302030	Maple Soul Singer	43	warrior/magician/bowman/thief/pirate	weapon
+1332025	Maple Wagner	43	thief	weapon
+1382012	Maple Lama Staff	43	magician	weapon
+1412011	Maple Dragon Axe	43	warrior	weapon
+1422014	Maple Doom Singer	43	warrior	weapon
+1432012	Maple Impaler	43	warrior	weapon
+1442024	Maple Scorpio	43	warrior	weapon
+1452022	Maple Soul Searcher	43	bowman	weapon
+1462019	Maple Crossbow	43	bowman	weapon
+1472032	Maple Kandayo	43	thief	weapon
+1482021	Maple Storm Finger	43	pirate	weapon
+1492021	Maple Storm Pistol	43	pirate	weapon
+1032018	Pansy Earrings	45	warrior/magician/bowman/thief/pirate	armour
+1302068	Onyx Blade	45	warrior	weapon
+1382001	Arc Staff	45	magician	weapon
+1442028	Black Surfboard	45	warrior/magician/bowman/thief/pirate	weapon
+1442055	Green Surfboard	45	warrior/magician/bowman/thief/pirate	weapon
+1002024	Emerald Dome	47	warrior	armour
+1002091	Dark Dome	47	warrior	armour
+1050045	Blue Calas	48	magician	armour
+1050046	Red Calas	48	magician	armour
+1050047	Orange Calas	48	magician	armour
+1050048	White Calas	48	magician	armour
+1050049	Dark Calas	48	magician	armour
+1051030	Dark Calaf	48	magician	armour
+1051031	White Calaf	48	magician	armour
+1051032	Blue Calaf	48	magician	armour
+1051033	Red Calaf	48	magician	armour
+1051034	Orange Calaf	48	magician	armour
+1372007	Cromi	48	magician	weapon
+1442016	Dark Snowboard	48	warrior/magician/bowman/thief/pirate	weapon
+1002028	Silver Crusader Helm	50	warrior	armour
+1002085	Mithril Crusader Helm	50	warrior	armour
+1002086	Bronze Crusader Helm	50	warrior	armour
+1002207	Red Sonata	50	thief	armour
+1002208	Blue Sonata	50	thief	armour
+1002209	Green Sonata	50	thief	armour
+1002210	Brown Sonata	50	thief	armour
+1002211	Blue Maro	50	bowman	armour
+1002212	Red Maro	50	bowman	armour
+1002213	Green Maro	50	bowman	armour
+1002214	Black Maro	50	bowman	armour
+1002215	Flame Golden Circlet	50	magician	armour
+1002216	Aqua Golden Circlet	50	magician	armour
+1002217	Orange Golden Circlet	50	magician	armour
+1002218	Dark Golden Circlet	50	magician	armour
+1002631	Brown Leather Ocean Hat	50	pirate	armour
+1032012	Skull Earrings	50	warrior/magician/bowman/thief/pirate	armour
+1032013	Red-Hearted Earrings	50	warrior/magician/bowman/thief/pirate	armour
+1032027	Black Emerald Earrings	50	warrior/magician/bowman/thief/pirate	armour
+1040087	Blue Shouldermail	50	warrior	armour
+1040088	Oaker Shouldermail	50	warrior	armour
+1040089	Umber Shouldermail	50	warrior	armour
+1040094	Red China	50	thief	armour
+1040095	Blue China	50	thief	armour
+1040096	Brown China	50	thief	armour
+1040097	Green China	50	thief	armour
+1041077	Maroon Moon	50	thief	armour
+1041078	Blue Moon	50	thief	armour
+1041079	Brown Moon	50	thief	armour
+1041080	Red Moon	50	thief	armour
+1041087	Red Shouldermail	50	warrior	armour
+1041088	Ivory Shouldermail	50	warrior	armour
+1041089	Dark Shouldermail	50	warrior	armour
+1050051	Red-Lined Kismet	50	bowman	armour
+1050052	Blue-Lined Kismet	50	bowman	armour
+1051037	Blue Lumati	50	bowman	armour
+1051038	Green Lumati	50	bowman	armour
+1051039	Red Lumati	50	bowman	armour
+1052116	Green Plasteer	50	pirate	armour
+1060076	Blue Shouldermail Pants	50	warrior	armour
+1060077	Oaker Shouldermail Pants	50	warrior	armour
+1060078	Umber Shouldermail Pants	50	warrior	armour
+1060083	Red China Pants	50	thief	armour
+1060084	Blue China Pants	50	thief	armour
+1060085	Brown China Pants	50	thief	armour
+1060086	Green China Pants	50	thief	armour
+1061076	Maroon Moon Pants	50	thief	armour
+1061077	Blue Moon Pants	50	thief	armour
+1061078	Brown Moon Pants	50	thief	armour
+1061079	Red Moon Pants	50	thief	armour
+1061086	Red Shouldermail Pants	50	warrior	armour
+1061087	Ivory Shouldermail Pants	50	warrior	armour
+1061088	Dark Shouldermail Pants	50	warrior	armour
+1072122	Brown Steel-Tip Boots	50	bowman	armour
+1072123	Green Steel-Tip Boots	50	bowman	armour
+1072124	Blue Steel-Tip Boots	50	bowman	armour
+1072125	Purple Steel-Tip Boots	50	bowman	armour
+1072128	Blue Goni Shoes	50	thief	armour
+1072129	Green Goni Shoes	50	thief	armour
+1072130	Red Goni Shoes	50	thief	armour
+1072131	Purple Goni Shoes	50	thief	armour
+1072132	Emerald Hildon Boots	50	warrior	armour
+1072133	Mithril Hildon Boots	50	warrior	armour
+1072134	Orihalcon Hildon Boots	50	warrior	armour
+1072135	Gold Hildon Boots	50	warrior	armour
+1072140	Pink Goldwind Shoes	50	magician	armour
+1072141	Blue Goldwind Shoes	50	magician	armour
+1072142	Purple Goldwind Shoes	50	magician	armour
+1072143	Green Goldwind Shoes	50	magician	armour
+1072303	Brown Double Boots	50	pirate	armour
+1082009	Steel Brist	50	warrior	armour
+1082010	Mithril Brist	50	warrior	armour
+1082011	Gold Brist	50	warrior	armour
+1082065	Blue Moon Gloves	50	thief	armour
+1082066	Brown Moon Gloves	50	thief	armour
+1082067	Red Moon Gloves	50	thief	armour
+1082080	Dark Penance	50	magician	armour
+1082081	Red Pennance	50	magician	armour
+1082082	Blue Pennance	50	magician	armour
+1082083	Dark Willow	50	bowman	armour
+1082084	Blue Willow	50	bowman	armour
+1082085	Red Willow	50	bowman	armour
+1082198	Brown Royce	50	pirate	armour
+1092004	Skull Shield	50	warrior	armour
+1102000	Green Napoleon	50	warrior/magician/bowman/thief/pirate	armour
+1102001	Blue Napoleon	50	warrior/magician/bowman/thief/pirate	armour
+1102002	Red Napoleon	50	warrior/magician/bowman/thief/pirate	armour
+1102003	White Napoleon	50	warrior/magician/bowman/thief/pirate	armour
+1102004	Black Napoleon	50	warrior/magician/bowman/thief/pirate	armour
+1102040	Yellow Adventurer Cape	50	warrior/magician/bowman/thief/pirate	armour
+1102041	Pink Adventurer Cape	50	warrior/magician/bowman/thief/pirate	armour
+1102042	Purple Adventurer Cape	50	warrior/magician/bowman/thief/pirate	armour
+1102043	Brown Adventurer Cape	50	warrior/magician/bowman/thief/pirate	armour
+1302010	Jeweled Katar	50	warrior	weapon
+1312008	Buck	50	warrior	weapon
+1322017	Knuckle Mace	50	warrior	weapon
+1322021	Black Tube	50	warrior/magician/bowman/thief/pirate	weapon
+1332003	Shinkita	50	thief	weapon
+1332016	Sai	50	warrior/thief	weapon
+1402003	Lion's Fang	50	warrior	weapon
+1412003	The Rising	50	warrior	weapon
+1422005	Golden Mole	50	warrior	weapon
+1432004	Serpent's Tongue	50	warrior	weapon
+1442005	The Nine Dragons	50	warrior	weapon
+1452008	Olympus	50	bowman	weapon
+1462007	Rower	50	bowman	weapon
+1472018	Steel Slain	50	thief	weapon
+1472019	Blood Slain	50	thief	weapon
+1472020	Sapphire Slain	50	thief	weapon
+1472021	Dark Slain	50	thief	weapon
+1482007	Fury Claw	50	pirate	weapon
+1492007	Mr. Rasfelt	50	pirate	weapon
+1382011	Mystic Cane	51	magician	weapon
+1452023	Cao Cao Bow	54	bowman	weapon
+1002022	Old Steel Nordic Helm	55	warrior	armour
+1002100	Old Bronze Nordic Helm	55	warrior	armour
+1002101	Old Mithril Nordic Helm	55	warrior	armour
+1032019	Crystal Flower Earrings	55	warrior/magician/bowman/thief/pirate	armour
+1032021	Holy Cross Earrings	55	warrior/magician/bowman/thief/pirate	armour
+1102011	Blue Justice Cape	55	warrior/magician/bowman/thief/pirate	armour
+1102012	Red Justice Cape	55	warrior/magician/bowman/thief/pirate	armour
+1102013	White Justice Cape	55	warrior/magician/bowman/thief/pirate	armour
+1102014	Black Justice Cape	55	warrior/magician/bowman/thief/pirate	armour
+1332024	Bushido	55	thief	weapon
+1382006	Thorns	55	magician	weapon
+1442027	Green Surfboard	55	warrior/magician/bowman/thief/pirate	weapon
+1442056	Sky Blue Surfboard	55	warrior/magician/bowman/thief/pirate	weapon
+1050053	Blue Anakamoon	58	magician	armour
+1050054	Red Anakamoon	58	magician	armour
+1050055	White Anakamoon	58	magician	armour
+1050056	Dark Anakamoon	58	magician	armour
+1051044	Blue Anakarune	58	magician	armour
+1051045	Red Anakarune	58	magician	armour
+1051046	White Anakarune	58	magician	armour
+1051047	Dark Anakarune	58	magician	armour
+1372014	Evil Tale	58	magician	weapon
+1002029	Red Oriental Helmet	60	warrior	armour
+1002084	Blue Oriental Helmet	60	warrior	armour
+1002242	Red Seraphis	60	magician	armour
+1002243	Blue Seraphis	60	magician	armour
+1002244	Green Seraphis	60	magician	armour
+1002245	White Seraphis	60	magician	armour
+1002246	Dark Seraphis	60	magician	armour
+1002247	Bronze Identity	60	thief	armour
+1002248	Silver Identity	60	thief	armour
+1002249	Dark Identity	60	thief	armour
+1002267	Red Polyfeather Hat	60	bowman	armour
+1002268	Brown Polyfeather Hat	60	bowman	armour
+1002269	White Polyfeather Hat	60	bowman	armour
+1002270	Black Polyfeather Hat	60	bowman	armour
+1002634	Purple Cast Linen	60	pirate	armour
+1002656	White Identity	60	thief	armour
+1032014	Pink-Flowered Earrings	60	warrior/magician/bowman/thief/pirate	armour
+1040090	Green Orientican	60	warrior	armour
+1040091	Red Orientican	60	warrior	armour
+1040092	Blue Orientican	60	warrior	armour
+1040093	Dark Orientican	60	warrior	armour
+1040098	Light Scorpio	60	thief	armour
+1040099	Oaker Scorpio	60	thief	armour
+1040100	Dark Scorpio	60	thief	armour
+1041091	Green Ice Queen	60	warrior	armour
+1041092	Red Ice Queen	60	warrior	armour
+1041093	Blue Ice Queen	60	warrior	armour
+1041094	Light Mantis	60	thief	armour
+1041095	Bloody Mantis	60	thief	armour
+1041096	Umber Mantis	60	thief	armour
+1050058	Orange Tai	60	bowman	armour
+1050059	Blue Tai	60	bowman	armour
+1050060	Red Tai	60	bowman	armour
+1051041	Red Choro	60	bowman	armour
+1051042	Blue Choro	60	bowman	armour
+1051043	Brown Choro	60	bowman	armour
+1052119	Black Royal Barone	60	pirate	armour
+1060079	Green Orientican Pants	60	warrior	armour
+1060080	Red Orientican Pants	60	warrior	armour
+1060081	Blue Orientican Pants	60	warrior	armour
+1060082	Dark Orientican Pants	60	warrior	armour
+1060087	Light Scorpio Pants	60	thief	armour
+1060088	Oaker Scorpio Pants	60	thief	armour
+1060089	Dark Scorpio Pants	60	thief	armour
+1061090	Green Ice Queen Skirt	60	warrior	armour
+1061091	Red Ice Queen Skirt	60	warrior	armour
+1061092	Blue Ice Queen Skirt	60	warrior	armour
+1061093	Light Mantis Pants	60	thief	armour
+1061094	Bloody Mantis Pants	60	thief	armour
+1061095	Umber Mantis Pants	60	thief	armour
+1072136	Pink Goldrunners	60	magician	armour
+1072137	Green Goldrunners	60	magician	armour
+1072138	Orange Goldrunners	60	magician	armour
+1072139	Blue Goldrunners	60	magician	armour
+1072144	Red Gore Boots	60	bowman	armour
+1072145	Blue Gore Boots	60	bowman	armour
+1072146	Green Gore Boots	60	bowman	armour
+1072147	Sapphire Camel Boots	60	warrior	armour
+1072148	Orihalcon Camel Boots	60	warrior	armour
+1072149	Blood Camel Boots	60	warrior	armour
+1072150	Blood Moss Boots	60	thief	armour
+1072151	Gold Moss Boots	60	thief	armour
+1072152	Dark Moss Boots	60	thief	armour
+1072306	Black Basile Boots	60	pirate	armour
+1082059	Bronze Clench	60	warrior	armour
+1082060	Sapphire Clench	60	warrior	armour
+1082061	Dark Clench	60	warrior	armour
+1082086	Steel Manute	60	magician	armour
+1082087	Gold Manute	60	magician	armour
+1082088	Dark Manute	60	magician	armour
+1082089	Oaker Garner	60	bowman	armour
+1082090	Sephia Garner	60	bowman	armour
+1082091	Dark Garner	60	bowman	armour
+1082092	Bronze Pow	60	thief	armour
+1082093	Steal Pow	60	thief	armour
+1082094	Gold Pow	60	thief	armour
+1082201	Black Schult	60	pirate	armour
+1092009	Wooden Legend Shield	60	warrior	armour
+1092010	Silver Legend Shield	60	warrior	armour
+1092011	Adamantium Legend Shield	60	warrior	armour
+1102015	Blue Magic Cape	60	warrior/magician/bowman/thief/pirate	armour
+1102016	Red Magic Cape	60	warrior/magician/bowman/thief/pirate	armour
+1102017	White Magic Cape	60	warrior/magician/bowman/thief/pirate	armour
+1102018	Black Magic Cape	60	warrior/magician/bowman/thief/pirate	armour
+1302011	Neocora	60	warrior	weapon
+1312009	Hawkhead	60	warrior	weapon
+1322018	Tamus	60	warrior	weapon
+1322025	Emergency Rescue Tube	60	warrior/magician/bowman/thief/pirate	weapon
+1332015	Deadly Fin	60	thief	weapon
+1332017	Serpent's Coil	60	warrior/thief	weapon
+1402011	Sparta	60	warrior	weapon
+1412007	The Shining	60	warrior	weapon
+1422009	The Blessing	60	warrior	weapon
+1432006	Holy Spear	60	warrior	weapon
+1442010	Skylar	60	warrior	weapon
+1452004	Asianic Bow	60	bowman	weapon
+1462008	Golden Crow	60	bowman	weapon
+1472022	Bronze Gigantic	60	thief	weapon
+1472023	Blood Gigantic	60	thief	weapon
+1472024	Sapphire Gigantic	60	thief	weapon
+1472025	Dark Gigantic	60	thief	weapon
+1482008	Psycho Claw	60	pirate	weapon
+1492008	Burning Hell	60	pirate	weapon
+1092045	Maple Magician shield	64	magician	armour
+1092046	Maple Warrior shield	64	warrior	armour
+1092047	Maple Thief shield	64	thief	armour
+1302064	Maple Glory Sword	64	warrior/magician/bowman/thief/pirate	weapon
+1312032	Maple Steel Axe	64	warrior	weapon
+1322054	Maple Havoc Hammer	64	warrior	weapon
+1332055	Maple Dark Mate	64	thief	weapon
+1332056	Maple Asura Dagger	64	thief	weapon
+1372034	Maple Shine Wand	64	magician	weapon
+1382039	Maple Wisdom Staff	64	magician	weapon
+1402039	Maple Soul Rohen	64	warrior	weapon
+1412027	Maple Demon Axe	64	warrior	weapon
+1422029	Maple Belzet	64	warrior	weapon
+1432040	Maple Soul Spear	64	warrior	weapon
+1442051	Maple Karstan	64	warrior	weapon
+1452045	Maple Kandiva Bow	64	bowman	weapon
+1462040	Maple Nishada	64	bowman	weapon
+1472055	Maple Skanda	64	thief	weapon
+1482022	Maple Golden Claw	64	pirate	weapon
+1492022	Maple Canon Shooter	64	pirate	weapon
+1032020	Gold Drop Earrings	65	warrior/magician/bowman/thief/pirate	armour
+1102021	Blue Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102022	Red Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102023	White Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102024	Black Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102084	Pink Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102085	Yellow Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102086	Purple Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1102087	Green Gaia Cape	65	warrior/magician/bowman/thief/pirate	armour
+1382007	Evil Wings	65	magician	weapon
+1050067	Blue Requiem	68	magician	armour
+1050068	Red Requiem	68	magician	armour
+1050069	Brown Requiem	68	magician	armour
+1050070	Dark Requiem	68	magician	armour
+1051052	Blue Requierre	68	magician	armour
+1051053	Red Requierre	68	magician	armour
+1051054	Brown Requierre	68	magician	armour
+1051055	Dark Requierre	68	magician	armour
+1372015	Angel Wings	68	magician	weapon
+1002030	Silver Planet	70	warrior	armour
+1002094	Bronze Planet	70	warrior	armour
+1002095	Mithril Planet	70	warrior	armour
+1002252	Red Infinium Circlet	70	magician	armour
+1002253	Blue Infinium Circlet	70	magician	armour
+1002254	Dark Infinium Circlet	70	magician	armour
+1002281	Brown Nightfox	70	thief	armour
+1002282	Blue Nightfox	70	thief	armour
+1002283	Purple Nightfox	70	thief	armour
+1002284	White Nightfox	70	thief	armour
+1002285	Blood Nightfox	70	thief	armour
+1002286	Blue Patriot	70	bowman	armour
+1002287	Beige Patriot	70	bowman	armour
+1002288	Green Patriot	70	bowman	armour
+1002289	Dark Patriot	70	bowman	armour
+1002637	Black Pirate's Bandana	70	pirate	armour
+1032015	Metal Silver Earrings	70	warrior/magician/bowman/thief/pirate	armour
+1040102	Bronze Platine	70	warrior	armour
+1040103	Mithril Platine	70	warrior	armour
+1040104	Orihalcon Platine	70	warrior	armour
+1040105	Brown Studded Top	70	thief	armour
+1040106	Blue Studded Top	70	thief	armour
+1040107	Dark Studded Top	70	thief	armour
+1041097	Aqua Platina	70	warrior	armour
+1041098	Violet Platina	70	warrior	armour
+1041099	Bloody Platina	70	warrior	armour
+1041100	Purple Mystique	70	thief	armour
+1041101	Blue Mystique	70	thief	armour
+1041102	Pink Mystique	70	thief	armour
+1041103	Red Mystique	70	thief	armour
+1050061	Blue Linnex	70	bowman	armour
+1050062	Beige Linnex	70	bowman	armour
+1050063	Green Linnex	70	bowman	armour
+1050064	Dark Linnex	70	bowman	armour
+1051062	Blue Lineros	70	bowman	armour
+1051063	Beige Lineros	70	bowman	armour
+1051064	Green Lineros	70	bowman	armour
+1051065	Dark Lineros	70	bowman	armour
+1052122	Red Viska	70	pirate	armour
+1060090	Bronze Platine Pants	70	warrior	armour
+1060091	Mithril Platine Pants	70	warrior	armour
+1060092	Orihalcon Platine Pants	70	warrior	armour
+1060093	Brown Studded Pants	70	thief	armour
+1060094	Blue Studded Pants	70	thief	armour
+1060095	Dark Studded Pants	70	thief	armour
+1061096	Aqua Platina Pants	70	warrior	armour
+1061097	Violet Platina Pants	70	warrior	armour
+1061098	Blood Platina Pants	70	warrior	armour
+1061099	Purple Mystique Pants	70	thief	armour
+1061100	Blue Mystique Pants	70	thief	armour
+1061101	Pink Mystique Pants	70	thief	armour
+1061102	Red Mystique Pants	70	thief	armour
+1072154	Blue Carzen Boots	70	warrior	armour
+1072155	Purple Carzen Boots	70	warrior	armour
+1072156	Dark Carzen Boots	70	warrior	armour
+1072157	Blue Lapiz Sandals	70	magician	armour
+1072158	Red Lapiz Sandals	70	magician	armour
+1072159	Brown Lapiz Sandals	70	magician	armour
+1072160	Gold Lapiz Sandals	70	magician	armour
+1072161	Purple Mystique Shoes	70	thief	armour
+1072162	Blue Mystique Shoes	70	thief	armour
+1072163	Red Mystique Shoes	70	thief	armour
+1072164	Blue Elf Shoes	70	bowman	armour
+1072165	Baige Elf Shoes	70	bowman	armour
+1072166	Green Elf Shoes	70	bowman	armour
+1072167	Dark Elf Shoes	70	bowman	armour
+1072309	Black Voyson Shoes	70	pirate	armour
+1082095	Bronze Rover	70	thief	armour
+1082096	Silver Rover	70	thief	armour
+1082097	Gold Rover	70	thief	armour
+1082098	Brown Lorin	70	magician	armour
+1082099	Blue Lorin	70	magician	armour
+1082100	Dark Lorin	70	magician	armour
+1082103	Bronze Husk	70	warrior	armour
+1082104	Mithril Husk	70	warrior	armour
+1082105	Dark Husk	70	warrior	armour
+1082106	Blue Eyes	70	bowman	armour
+1082107	Gold Eyes	70	bowman	armour
+1082108	Dark Eyes	70	bowman	armour
+1082204	Black Bisk	70	pirate	armour
+1092015	Steel Ancient Shield	70	warrior	armour
+1092016	Silver Ancient Shield	70	warrior	armour
+1092017	Gold Ancient Shield	70	warrior	armour
+1302012	Red Katana	70	warrior	weapon
+1312010	Mikhail	70	warrior	weapon
+1322019	The Judgement	70	warrior	weapon
+1322026	Colorful Tube	70	warrior/magician/bowman/thief/pirate	weapon
+1332018	Kandine	70	thief	weapon
+1332019	Golden River	70	warrior/thief	weapon
+1402012	Doombringer	70	warrior	weapon
+1412008	Chrono	70	warrior	weapon
+1422010	Gigantic Sledge	70	warrior	weapon
+1432007	Redemption	70	warrior	weapon
+1442008	The Gold Dragon	70	warrior	weapon
+1442030	Maple Snowboard	70	warrior/magician/bowman/thief/pirate	weapon
+1452009	Red Hinkel	70	bowman	weapon
+1452010	Blue Hinkel	70	bowman	weapon
+1452011	Golden Hinkel	70	bowman	weapon
+1462009	Gross Jaeger	70	bowman	weapon
+1472026	Brown Scarab	70	thief	weapon
+1472027	Green Scarab	70	thief	weapon
+1472028	Blue Scarab	70	thief	weapon
+1472029	Black Scarab	70	thief	weapon
+1482009	Beia Crash	70	pirate	weapon
+1492009	Abyss Shooter	70	pirate	weapon
+1032022	Half Earrings	75	warrior/magician/bowman/thief/pirate	armour
+1102026	Green Seraph Cape	75	warrior/magician/bowman/thief/pirate	armour
+1102027	Blue Seraph Cape	75	warrior/magician/bowman/thief/pirate	armour
+1102028	Red Seraph Cape	75	warrior/magician/bowman/thief/pirate	armour
+1102029	White Seraph Cape	75	warrior/magician/bowman/thief/pirate	armour
+1102030	Black Seraph Cape	75	warrior/magician/bowman/thief/pirate	armour
+1322020	Bent Judgement	75	warrior	weapon
+1382010	Dark Ritual	75	magician	weapon
+1050072	Green Enigmatic	78	magician	armour
+1050073	Blue Enigmatic	78	magician	armour
+1050074	Dark Enigmatic	78	magician	armour
+1051056	Green Enigma	78	magician	armour
+1051057	Purple Enigma	78	magician	armour
+1051058	Dark Enigma	78	magician	armour
+1372016	Phoenix Wand	78	magician	weapon
+1002271	Green Galaxy	80	magician	armour
+1002272	Blue Galaxy	80	magician	armour
+1002273	Purple Galaxy	80	magician	armour
+1002274	Dark Galaxy	80	magician	armour
+1002275	Blue Falcon	80	bowman	armour
+1002276	Red Falcon	80	bowman	armour
+1002277	Green Falcon	80	bowman	armour
+1002278	Dark Falcon	80	bowman	armour
+1002327	Brown Pireta Hat	80	thief	armour
+1002328	Green Pireta Hat	80	thief	armour
+1002329	Red Pireta Hat	80	thief	armour
+1002330	Dark Pireta Hat	80	thief	armour
+1002338	Red Dragon Babuta	80	warrior	armour
+1002339	Blue Dragon Babuta	80	warrior	armour
+1002340	Dark Dragon Babuta	80	warrior	armour
+1002640	Blue Sun Boat Hat	80	pirate	armour
+1032016	Metal Heart Earrings	80	warrior/magician/bowman/thief/pirate	armour
+1032026	Gold Emerald Earrings	80	warrior/magician/bowman/thief/pirate	armour
+1040108	Green Pirate Top	80	thief	armour
+1040109	Red Pirate Top	80	thief	armour
+1040110	Dark Pirate Top	80	thief	armour
+1041105	Green Pirate Blouse	80	thief	armour
+1041106	Red Pirate Blouse	80	thief	armour
+1041107	Dark Pirate Blouse	80	thief	armour
+1050075	Red Pris	80	bowman	armour
+1050076	Blue Pris	80	bowman	armour
+1050077	Green Pris	80	bowman	armour
+1050078	Dark Pris	80	bowman	armour
+1050080	Green Battle Road	80	warrior	armour
+1050081	Red Battle Road	80	warrior	armour
+1050082	Blue Battle Road	80	warrior	armour
+1050083	Dark Battle Road	80	warrior	armour
+1051066	Red Pria	80	bowman	armour
+1051067	Blue Pria	80	bowman	armour
+1051068	Green Pria	80	bowman	armour
+1051069	Dark Pria	80	bowman	armour
+1051077	Yellow Battle Empress	80	warrior	armour
+1051078	Red Battle Empress	80	warrior	armour
+1051079	Blue Battle Empress	80	warrior	armour
+1051080	Dark Battle Empress	80	warrior	armour
+1052125	White Pioneer	80	pirate	armour
+1060097	Green Pirate Pants	80	thief	armour
+1060098	Red Pirate Pants	80	thief	armour
+1060099	Dark Pirate Pants	80	thief	armour
+1061104	Green Pirate Skirt	80	thief	armour
+1061105	Red Pirate Skirt	80	thief	armour
+1061106	Dark Pirate Skirt	80	thief	armour
+1072172	Green Pirate Boots	80	thief	armour
+1072173	Red Pirate Boots	80	thief	armour
+1072174	Dark Pirate Boots	80	thief	armour
+1072177	Green Enigma Shoes	80	magician	armour
+1072178	Purple Enigma Shoes	80	magician	armour
+1072179	Dark Enigma Shoes	80	magician	armour
+1072182	Blue Wing Boots	80	bowman	armour
+1072183	Red Wing Boots	80	bowman	armour
+1072184	Green Wing Boots	80	bowman	armour
+1072185	Dark Wing Boots	80	bowman	armour
+1072210	Red Rivers Boots	80	warrior	armour
+1072211	Blue Rivers Boots	80	warrior	armour
+1072212	Dark Rivers Boots	80	warrior	armour
+1072312	Blue Pageant	80	pirate	armour
+1082109	Red Cordon	80	bowman	armour
+1082110	Blue Cordon	80	bowman	armour
+1082111	Green Cordon	80	bowman	armour
+1082112	Dark Cordon	80	bowman	armour
+1082114	Sapphire Emperor	80	warrior	armour
+1082115	Emerald Emperor	80	warrior	armour
+1082116	Blood Emperor	80	warrior	armour
+1082117	Dark Emperor	80	warrior	armour
+1082118	Green Larceny	80	thief	armour
+1082119	Purple Larceny	80	thief	armour
+1082120	Blood Larceny	80	thief	armour
+1082121	Green Clarity	80	magician	armour
+1082122	Blue Clarity	80	magician	armour
+1082123	Dark Clarity	80	magician	armour
+1082207	Blue Halfglove	80	pirate	armour
+1092023	Steel Aquila Shield	80	warrior	armour
+1092024	Silver Aquila Shield	80	warrior	armour
+1092025	Gold Aquila Shield	80	warrior	armour
+1302018	Khan	80	warrior	weapon
+1312011	Gaea	80	warrior	weapon
+1322028	Heaven's Justice	80	warrior	weapon
+1332022	Angelic Betrayal	80	warrior/thief	weapon
+1332023	Dragon's Tail	80	thief	weapon
+1402004	Blue Screamer	80	warrior	weapon
+1402015	Heaven's Gate	80	warrior	weapon
+1412009	Helios	80	warrior	weapon
+1422012	The Morningstar	80	warrior	weapon
+1432010	Omega Spear	80	warrior	weapon
+1442019	Eclipse	80	warrior	weapon
+1452012	Marine Arund	80	bowman	weapon
+1452013	Fire Arund	80	bowman	weapon
+1452014	Golden Arund	80	bowman	weapon
+1452015	Dark Arund	80	bowman	weapon
+1462010	Marine Raven	80	bowman	weapon
+1462011	Fire Raven	80	bowman	weapon
+1462012	Golden Raven	80	bowman	weapon
+1462013	Dark Raven	80	bowman	weapon
+1472031	Black Mamba	80	thief	weapon
+1482010	Steelno	80	pirate	weapon
+1492010	Infinity's Wrath	80	pirate	weapon
+1032023	Strawberry Earrings	85	warrior/magician/bowman/thief/pirate	armour
+1102031	Green Giles Cape	85	warrior/magician/bowman/thief/pirate	armour
+1102032	Purple Giles Cape	85	warrior/magician/bowman/thief/pirate	armour
+1102033	Red Giles Cape	85	warrior/magician/bowman/thief/pirate	armour
+1102034	Blue Giles Cape	85	warrior/magician/bowman/thief/pirate	armour
+1102035	Black Giles Cape	85	warrior/magician/bowman/thief/pirate	armour
+1382008	Kage	85	magician	weapon
+1050092	Green Oriental Fury Coat	88	magician	armour
+1050093	Blue Oriental Fury Coat	88	magician	armour
+1050094	Red Oriental Fury Coat	88	magician	armour
+1050095	Black Oriental Fury Coat	88	magician	armour
+1051094	Green Oriental Fury Coat	88	magician	armour
+1051095	Blue Oriental Fury Coat	88	magician	armour
+1051096	Red Oriental Fury Coat	88	magician	armour
+1051097	Black Oriental Fury Coat	88	magician	armour
+1372009	Magicodar	88	magician	weapon
+1002323	Green Osfa Hat	90	thief	armour
+1002324	Brown Osfa Hat	90	thief	armour
+1002325	Purple Osfa Hat	90	thief	armour
+1002326	Red Osfa Hat	90	thief	armour
+1002363	Green Oriental Fury Hat	90	magician	armour
+1002364	Blue Oriental Fury Hat	90	magician	armour
+1002365	Red Oriental Fury Hat	90	magician	armour
+1002366	Black Oriental Fury Hat	90	magician	armour
+1002402	Red Arlic Helmet	90	bowman	armour
+1002403	Blue Arlic Helmet	90	bowman	armour
+1002404	Green Arlic Helmet	90	bowman	armour
+1002405	Dark Arlic Helmet	90	bowman	armour
+1002528	Green Grace Helmet	90	warrior	armour
+1002529	Blue Grace Helmet	90	warrior	armour
+1002530	Red Grace Helmet	90	warrior	armour
+1002531	Silver Grace Helmet	90	warrior	armour
+1002532	Dark Grace Helmet	90	warrior	armour
+1002643	Red Brave Hamal	90	pirate	armour
+1032017	Rose Earrings	90	warrior/magician/bowman/thief/pirate	armour
+1040111	Green Commodore	90	warrior	armour
+1040112	Blue Commodore	90	warrior	armour
+1040113	Dark Commodore	90	warrior	armour
+1040115	Green Osfa Suit	90	thief	armour
+1040116	Brown Osfa Suit	90	thief	armour
+1040117	Purple Osfa Suit	90	thief	armour
+1040118	Red Osfa Suit	90	thief	armour
+1041115	Green Osfa Suit	90	thief	armour
+1041116	Brown Osfa Suit	90	thief	armour
+1041117	Purple Osfa Suit	90	thief	armour
+1041118	Red Osfa Suit	90	thief	armour
+1041119	Green Valkyrie	90	warrior	armour
+1041120	Purple Valkyrie	90	warrior	armour
+1041121	Dark Valkyrie	90	warrior	armour
+1050088	Red Ades	90	bowman	armour
+1050089	Blue Ades	90	bowman	armour
+1050090	Green Ades	90	bowman	armour
+1050091	Dark Ades	90	bowman	armour
+1051082	Red Anes	90	bowman	armour
+1051083	Blue Anes	90	bowman	armour
+1051084	Green Anes	90	bowman	armour
+1051085	Dark Anes	90	bowman	armour
+1052128	White Marquini	90	pirate	armour
+1060100	Green Commodore Pants	90	warrior	armour
+1060101	Blue Commodore Pants	90	warrior	armour
+1060102	Dark Commodore Pants	90	warrior	armour
+1060104	Green Osfa Pants	90	thief	armour
+1060105	Brown Osfa Pants	90	thief	armour
+1060106	Purple Osfa Pants	90	thief	armour
+1060107	Red Osfa Pants	90	thief	armour
+1061114	Green Osfa Pants	90	thief	armour
+1061115	Brown Osfa Pants	90	thief	armour
+1061116	Purple Osfa Pants	90	thief	armour
+1061117	Red Osfa Pants	90	thief	armour
+1061118	Green Valkyrie Skirt	90	warrior	armour
+1061119	Purple Valkyrie Skirt	90	warrior	armour
+1061120	Blood Valkyrie Skirt	90	warrior	armour
+1072192	Green Osfa Boots	90	thief	armour
+1072193	Brown Osfa Boots	90	thief	armour
+1072194	Purple Osfa Boots	90	thief	armour
+1072195	Red Osfa Boots	90	thief	armour
+1072196	Emerald War Greave	90	warrior	armour
+1072197	Orihalcon War Greave	90	warrior	armour
+1072198	Dark War Greave	90	warrior	armour
+1072203	Red Ades Shoes	90	bowman	armour
+1072204	Green Ades Shoes	90	bowman	armour
+1072205	Dark Ades Shoes	90	bowman	armour
+1072206	Blue Neli Shoes	90	magician	armour
+1072207	Green Neli Shoes	90	magician	armour
+1072208	Red Neli Shoes	90	magician	armour
+1072209	Dark Neli Shoes	90	magician	armour
+1072315	Black Markintz	90	pirate	armour
+1082125	Red Focus	90	bowman	armour
+1082126	Green Focus	90	bowman	armour
+1082127	Dark Focus	90	bowman	armour
+1082128	Green Imperial	90	warrior	armour
+1082129	Purple Imperial	90	warrior	armour
+1082130	Dark Imperial	90	warrior	armour
+1082131	Blue Sage	90	magician	armour
+1082132	Green Sage	90	magician	armour
+1082133	Red Sage	90	magician	armour
+1082134	Dark Pachone	90	magician	armour
+1082142	Green Mystra	90	thief	armour
+1082143	Purple Mystra	90	thief	armour
+1082144	Dark Mystra	90	thief	armour
+1082210	Red Martier	90	pirate	armour
+1092026	Bronze Kalkan	90	warrior	armour
+1092027	Silver Kalkan	90	warrior	armour
+1092028	Gold Kalkan	90	warrior	armour
+1302023	Fraute	90	warrior	weapon
+1312015	Vifennis	90	warrior	weapon
+1322029	Ruin Hammer	90	warrior	weapon
+1332026	Cursayer	90	warrior/thief	weapon
+1332027	Varkit	90	thief	weapon
+1402005	Berzerker	90	warrior	weapon
+1402016	Devil's Sunrise	90	warrior	weapon
+1412010	Colonian Axe	90	warrior	weapon
+1422013	Leomite	90	warrior	weapon
+1432011	Fairfrozen	90	warrior	weapon
+1442020	Hellslayer	90	warrior	weapon
+1452017	Metus	90	bowman	weapon
+1452025	Blue Metus	90	bowman	weapon
+1452026	Black Metus	90	bowman	weapon
+1462018	Casa Crow	90	bowman	weapon
+1472033	Casters	90	thief	weapon
+1482011	White Fangz	90	pirate	weapon
+1492011	The Peacemaker	90	pirate	weapon
+1382035	Blue Marine	95	magician	weapon
+1442026	Red Surfboard	95	warrior/magician/bowman/thief/pirate	weapon
+1442057	Purple Surfboard	95	warrior/magician/bowman/thief/pirate	weapon
+1050102	Green Varuna	98	magician	armour
+1050103	Blue Varuna	98	magician	armour
+1050104	Red Varuna	98	magician	armour
+1050105	Dark Varuna	98	magician	armour
+1051101	Green Bazura	98	magician	armour
+1051102	Blue Bazura	98	magician	armour
+1051103	Red Bazura	98	magician	armour
+1051104	Dark Bazura	98	magician	armour
+1372010	Dimon Wand	98	magician	weapon
+1002377	Green Valhalla Helmet	100	warrior	armour
+1002378	Blue Valhalla Helmet	100	warrior	armour
+1002379	Dark Valhalla Helmet	100	warrior	armour
+1002380	Green Canal Hood	100	thief	armour
+1002381	Blue Canal Hood	100	thief	armour
+1002382	Red Canal Hood	100	thief	armour
+1002383	Dark Canal Hood	100	thief	armour
+1002398	Green Varr Hat	100	magician	armour
+1002399	Blue Varr Hat	100	magician	armour
+1002400	Red Varr Hat	100	magician	armour
+1002401	Dark Varr Hat	100	magician	armour
+1002406	Red Arnah Cap	100	bowman	armour
+1002407	Blue Arnah Cap	100	bowman	armour
+1002408	Green Arnah Cap	100	bowman	armour
+1002646	Black Polax Hat	100	pirate	armour
+1032030	Sword Earrings	100	warrior/magician/bowman/thief/pirate	armour
+1040120	Green Neos	100	warrior	armour
+1040121	Blue Neos	100	warrior	armour
+1040122	Black Neos	100	warrior	armour
+1041122	Green Lucida	100	warrior	armour
+1041123	Purple Lucida	100	warrior	armour
+1041124	Dark Lucida	100	warrior	armour
+1050096	Green Katinas	100	thief	armour
+1050097	Blue Katinas	100	thief	armour
+1050098	Red Katinas	100	thief	armour
+1050099	Dark Katinas	100	thief	armour
+1050106	Green Arzuna	100	bowman	armour
+1050107	Blue Arzuna	100	bowman	armour
+1050108	Red Arzuna	100	bowman	armour
+1051090	Green Katte	100	thief	armour
+1051091	Blue Katte	100	thief	armour
+1051092	Red Katte	100	thief	armour
+1051093	Dark Katte	100	thief	armour
+1051105	Green Armis	100	bowman	armour
+1051106	Blue Armis	100	bowman	armour
+1051107	Red Armis	100	bowman	armour
+1052131	Red Belly Duke	100	pirate	armour
+1060109	Green Neos Pants	100	warrior	armour
+1060110	Blue Neos Pants	100	warrior	armour
+1060111	Black Neos Pants	100	warrior	armour
+1061121	Green Lucida Skirt	100	warrior	armour
+1061122	Purple Lucida Skirt	100	warrior	armour
+1061123	Dark Lucida Skirt	100	warrior	armour
+1072213	Green Katina Boots	100	thief	armour
+1072214	Blue Katina Boots 	100	thief	armour
+1072215	Red Katina Boots	100	thief	armour
+1072216	Dark Katina Boots	100	thief	armour
+1072220	Green Crescent Boots	100	warrior	armour
+1072221	Blue Crescent Boots	100	warrior	armour
+1072222	Dark Crescent Boots	100	warrior	armour
+1072223	Green Varr Shoes	100	magician	armour
+1072224	Blue Varr Shoes	100	magician	armour
+1072225	Red Varr Shoes	100	magician	armour
+1072226	Dark Varr Shoes	100	magician	armour
+1072227	Red Arnah Shoes	100	bowman	armour
+1072228	Blue Arnah Shoes	100	bowman	armour
+1072229	Green Arnah Shoes	100	bowman	armour
+1072318	Black Duke Barkin Shoes	100	pirate	armour
+1082135	Blue Anelin	100	thief	armour
+1082136	Green Anelin	100	thief	armour
+1082137	Red Anelin	100	thief	armour
+1082138	Dark Anelin	100	thief	armour
+1082139	Green Korben	100	warrior	armour
+1082140	Blue Korben	100	warrior	armour
+1082141	Dark Korben	100	warrior	armour
+1082151	Green Ciara	100	magician	armour
+1082152	Blue Ciara	100	magician	armour
+1082153	Red Ciara	100	magician	armour
+1082154	Purple Ciara	100	magician	armour
+1082158	Red Arcina	100	bowman	armour
+1082159	Blue Arcina	100	bowman	armour
+1082160	Green Arcina	100	bowman	armour
+1082213	Black Skellduke	100	pirate	armour
+1092036	Green Hoflon	100	warrior	armour
+1092037	Violet Hoflon	100	warrior	armour
+1092038	Blue Hoflon	100	warrior	armour
+1302056	Sparta	100	warrior	weapon
+1312030	Tomahawk	100	warrior	weapon
+1322045	Battle Hammer	100	warrior	weapon
+1332051	Gold Double Knife	100	warrior/thief	weapon
+1332052	Blood Dagger	100	thief	weapon
+1402035	The Beheader	100	warrior	weapon
+1412021	Tavar	100	warrior	weapon
+1422027	Golden Smith Hammer	100	warrior	weapon
+1432030	Pinaka	100	warrior	weapon
+1442044	Zedbug	100	warrior	weapon
+1452019	White Nisrock	100	bowman	weapon
+1452020	Golden Nisrock	100	bowman	weapon
+1452021	Dark Nisrock	100	bowman	weapon
+1462015	White Neschere	100	bowman	weapon
+1462016	Golden Neschere	100	bowman	weapon
+1462017	Dark Neschere	100	bowman	weapon
+1472053	Red Craven	100	thief	weapon
+1482012	King Cent	100	pirate	weapon
+1492012	Concerto	100	pirate	weapon
+1052076	Blue Czar	108	magician	armour
+1092042	Gellerhead Shield	120	warrior	armour

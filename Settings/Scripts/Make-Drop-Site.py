@@ -59,7 +59,22 @@ def main():
     for name, ids in by_name.items():
         shown.add(max(ids, key=lambda i: (home.get(i, ((False, 0), ""))[0], -int(i))))
 
+    # The trial bosses always drop two pieces of gear of a set level (plus/BossGear.java)
+    boss_gear = {}
+    with io.open(os.path.join(ROOT, "Settings", "Trials.tsv"), encoding="utf-8") as f:
+        head = f.readline().rstrip("\n").split("\t")
+        for line in f:
+            r = dict(zip(head, line.rstrip("\n").split("\t")))
+            if r.get("gear_level", "").isdigit():
+                boss_gear[r["mob_id"]] = int(r["gear_level"])
+                if r["mob_id"] not in home:                 # area bosses are placed by a script, not by the map
+                    home[r["mob_id"]] = ((False, 0), r.get("where", ""))
     out_mobs, out_items, drops, everywhere = {}, {}, [], []
+    for mob_id, level in boss_gear.items():
+        m = mobs.get(mob_id)
+        if m:                                           # also the bosses whose own list is empty
+            out_mobs[mob_id] = [m["name"].strip(), int(m["level"] or 0), 1, home.get(mob_id, (0, ""))[1], popular.get(mob_id, ""), level]
+            shown.add(mob_id)
     for d in rows("Drops.tsv"):
         if not d["item_id"].isdigit():
             continue
@@ -84,7 +99,7 @@ def main():
             continue
         if d["mob_id"] not in out_mobs:
             out_mobs[d["mob_id"]] = [m["name"].strip(), int(m["level"] or 0), 1 if m["boss"] else 0,
-                                     home.get(d["mob_id"], (0, ""))[1], popular.get(d["mob_id"], "")]
+                                     home.get(d["mob_id"], (0, ""))[1], popular.get(d["mob_id"], ""), boss_gear.get(d["mob_id"], 0)]
         drops.append([int(d["mob_id"]), int(item_id), chance, low, high, quest])
 
     data = {"made": datetime.date.today().isoformat(), "dropRate": rate("drop_rate"), "bossRate": rate("boss_drop_rate"),
@@ -229,6 +244,9 @@ PAGE = r"""<!doctype html>
     if (!m) return showList();
     var list = byMob[id] || [], html = '<button class="back" data-go="">Back to the search</button><div class="card"><h2>' + esc(m[0]) +
         '</h2><p class="meta">Level ' + m[1] + (m[3] ? ", lives in " + esc(m[3]) : "") + mobTags(m) + "</p>";
+    if (m[5]) html += "<p><b>Always drops two pieces of gear</b> needing about level " + Math.max(8, Math.min(m[5], 100) - 5) + " to " + Math.min(m[5] + 5, 100) +
+        ": one for your class, down to the kind of weapon your job uses, and one for any class. Their stats are never below the item's standard, " +
+        "so they beat the same item from an ordinary monster.</p>";
     var meso = list.filter(function (d) { return d[1] === 0; })[0];
     if (meso) html += "<p>Mesos: " + (meso[3] * D.mesoRate).toLocaleString("en") + " to " + (meso[4] * D.mesoRate).toLocaleString("en") + ", " + odds(meso[2], m[2]) + ".</p>";
     ["e", "u", "t", "s"].forEach(function (k) {

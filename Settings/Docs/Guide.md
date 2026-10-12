@@ -222,6 +222,7 @@ Equipment drops follow rules that a script applies, so that the whole table can 
 python Settings/Scripts/Rebalance-Drops.py --check
 python Settings/Scripts/Rebalance-Drops.py
 python Settings/Reference/Build-Reference.py
+python Settings/Scripts/Make-Boss-Gear.py
 python Settings/Scripts/Make-Drop-Site.py
 ```
 
@@ -313,7 +314,9 @@ Explorers advance by level and by beating bosses, through the Guide that the Tra
 | Give a test character a trial | `INSERT INTO plus_trials VALUES (<character id>, <mob id>, 1, NOW())` |
 | Change how often area bosses come back | `15 * 60 * 1000` in `Server/scripts/event/AreaBoss*.js` (read at server start). |
 | Change how long a boss fight takes | `SECONDS`, `SECONDS_HARDEST`, `SECONDS_BAND_1` in `Settings/Scripts/Tune-Bosses.py`, then run it (`--check` first) and restart. It asks the damage simulator what a player does per second at the boss's level. Run it again after changing skills. |
-| Change how many tokens a boss gives | The last column of `Settings/Trials.tsv`. Band 4 rows give tokens only. |
+| Change how many tokens a boss gives | The `tokens` column of `Settings/Trials.tsv`. Band 4 rows give tokens only. |
+| Change the level of gear a boss drops | The `gear_level` column of `Settings/Trials.tsv`. Every boss in that file drops two pieces on every kill: one for the killer's class, one for any class. |
+| Change what boss gear can be | `python Settings/Scripts/Make-Boss-Gear.py` rewrites `Settings/Boss-Gear.tsv` from the drop table (run it after `Rebalance-Drops.py` and `Build-Reference.py`). How a piece is picked and how its stats are rolled is `Server/src/main/java/plus/BossGear.java`. |
 | Change what 4th job skills cost | `SKILL_STEP_COST` and `FIRST_KILL_TIMES` in `plus/Trials.java`. |
 | Give a test character tokens | `INSERT INTO plus_tokens VALUES (<character id>, 500) ON DUPLICATE KEY UPDATE tokens = 500` |
 | Make a 4th job test character | `python Settings/Scripts/Make-Character.py DevHero hero 130 --max-skills` (levels up to 200). |

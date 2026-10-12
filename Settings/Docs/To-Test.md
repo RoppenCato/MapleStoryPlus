@@ -46,7 +46,8 @@ Most important: this replaces how every explorer advances.
 - [ ] **Starter gear:** a new character sees gear drop about 1 kill in 8 from snails, slimes and mushrooms, and has several wearable pieces by level 10.
 - [ ] At level 30 and up, gear drops clearly more rarely than before (about 1 kill in 100 to 400) and feels like an event, not a flood.
 - [ ] A popular hunting spot (Wild Boars, Jr. Wraiths, Wolf Spiders ...) drops gear of about your own level.
-- [ ] **A boss always drops at least one item.** Kill Mano or Stumpy a few times.
+- [ ] **Boss gear:** a boss on the trials list (Mano, Stumpy ...) drops two pieces of gear every time, of about its own level: one your class can wear, with the kind of weapon your job uses, and one for any class. Compare a piece with the same item in a shop or from a monster: no stat is lower.
+- [ ] **A boss that is not on the list always drops at least one item.**
 - [ ] The drop site (`docs/drops.html`) matches what a monster drops in the game: pick one monster and compare.
 - [ ] **NX cards:** on a low character an NX card drops about every other kill; around level 50 about 1 kill in 40. Picking it up adds NX (check in the Cash Shop). A level gives roughly 5,000 NX. A boss always drops one.
 - [ ] Can the NX actually be spent? Buy a pet in the Cash Shop with NX earned from cards.

@@ -788,6 +788,15 @@ public class MapleMap {
         boolean[] gaveItem = new boolean[1];
         index = dropItemsFromMonsterOnMap(dropEntry, pos, index, chRate, droptype, mobpos, chr, mob, delay, gaveItem);
 
+        // MapleStoryPlus: a boss on the trials list always drops two pieces of gear of its level, with better
+        // stats than a monster's copy: one for the killer's class and one for any class (plus/BossGear.java)
+        for (Item piece : plus.BossGear.roll(chr, mob)) {
+            pos.x = mobpos + ((index % 2 == 0) ? (25 * ((index + 1) / 2)) : -(25 * (index / 2)));
+            spawnDrop(piece, calcDropPos(pos, mob.getPosition()), mob, chr, droptype, (short) 0, delay);
+            gaveItem[0] = true;
+            index++;
+        }
+
         // MapleStoryPlus: a boss never drops nothing. If no item came up, one from its list drops anyway.
         if (mob.isBoss() && !gaveItem[0]) {
             MonsterDropEntry forced = plus.BossDrops.pick(dropEntry);

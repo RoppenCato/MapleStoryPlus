@@ -1,36 +1,36 @@
-band	mob_id	boss	where	tokens
-1	2220000	Mano	Thicket Around the Beach III, near Lith Harbor	1
-1	9300003	King Slime	The Swamp of Despair I, next to Kerning City	1
-2	3220000	Stumpy	East Rocky Mountain V, Perion	2
-2	3220001	Deo	Royal Cactus Desert, Ariant	2
-2	4220001	Seruf	The Seaweed Tower, Aqua Road	2
-2	4130103	Rombot	Hidden Tower, Ludibrium	2
-2	5220002	Faust	The Forest of Evil, near Kerning City	2
-2	5220004	Giant Centipede	80-Year-Old Herb Garden, Herb Town	2
-2	5220001	King Clang	Hot Sand, Florina Beach	2
-2	5090000	Shade	Kerning subway, line 1 area 4 and line 2 area 3	2
-2	5220003	Timer	Lost Time and Whirlpool of Time, Ludibrium	2
-2	6130101	Mushmom	Someone Else's House, near Henesys	2
-2	6300005	Zombie Mushmom	The Grave of Mushmom, Sleepywood	4
-2	6220000	Dyle	Dangerous Croko I, the swamp near Kerning City	4
-2	6220001	Zeno	Gray's Prairie, Omega Sector	4
-3	7220001	Nine-Tailed Fox	Moon Ridge, Korean Folk Town	5
-3	7220000	Tae Roon	Territory of Wandering Bear, Mu Lung	5
-3	6090000	Riche	Forest of Dead Trees, El Nath	5
-3	7220002	King Sage Cat	Goblin Forest 2, Herb Town	5
-3	8130100	Jr. Balrog	The Cursed Sanctuary, Sleepywood	5
-3	8220000	Eliza	Stairway to the Sky II, Orbis	5
-3	8220002	Chimera	Lab - Secret Basement Path, Magatia	5
-3	8220001	Snowman	Valley of Snowman, El Nath	5
-3	9400120	Male Boss	Showa Street 3, Zipangu	5
-3	9400549	Headless Horseman	The haunted paths of Crimsonwood	5
-3	8180001	Griffey	Griffey Forest, Leafre	5
-3	8180000	Manon	Manon's Forest, Leafre	5
-3	8510000	Pianus	The Cave of Pianus, Aqua Road	10
-3	9400575	Bigfoot	The twisted paths of Crimsonwood	10
-3	9400014	Black Crow	Encounter with the Buddha, Zipangu	10
-4	8220003	Leviathan	Leviathan's Canyon, Leafre	15
-4	8500002	Papulatus	The Origin of Clocktower, Ludibrium	20
-4	8800002	Zakum	Zakum's Altar, El Nath	40
-4	8810018	Horntail	Horntail's Cave, Leafre	60
-4	8820001	Pink Bean	Twilight of the Gods, Temple of Time	80
+band	mob_id	boss	where	tokens	gear_level
+1	2220000	Mano	Thicket Around the Beach III, near Lith Harbor	1	20
+1	9300003	King Slime	The Swamp of Despair I, next to Kerning City	1	28
+2	3220000	Stumpy	East Rocky Mountain V, Perion	2	35
+2	3220001	Deo	Royal Cactus Desert, Ariant	2	38
+2	4220001	Seruf	The Seaweed Tower, Aqua Road	2	45
+2	4130103	Rombot	Hidden Tower, Ludibrium	2	47
+2	5220002	Faust	The Forest of Evil, near Kerning City	2	50
+2	5220004	Giant Centipede	80-Year-Old Herb Garden, Herb Town	2	50
+2	5220001	King Clang	Hot Sand, Florina Beach	2	55
+2	5090000	Shade	Kerning subway, line 1 area 4 and line 2 area 3	2	56
+2	5220003	Timer	Lost Time and Whirlpool of Time, Ludibrium	2	59
+2	6130101	Mushmom	Someone Else's House, near Henesys	2	60
+2	6300005	Zombie Mushmom	The Grave of Mushmom, Sleepywood	4	65
+2	6220000	Dyle	Dangerous Croko I, the swamp near Kerning City	4	65
+2	6220001	Zeno	Gray's Prairie, Omega Sector	4	65
+3	7220001	Nine-Tailed Fox	Moon Ridge, Korean Folk Town	5	70
+3	7220000	Tae Roon	Territory of Wandering Bear, Mu Lung	5	71
+3	6090000	Riche	Forest of Dead Trees, El Nath	5	74
+3	7220002	King Sage Cat	Goblin Forest 2, Herb Town	5	77
+3	8130100	Jr. Balrog	The Cursed Sanctuary, Sleepywood	5	80
+3	8220000	Eliza	Stairway to the Sky II, Orbis	5	83
+3	8220002	Chimera	Lab - Secret Basement Path, Magatia	5	85
+3	8220001	Snowman	Valley of Snowman, El Nath	5	90
+3	9400120	Male Boss	Showa Street 3, Zipangu	5	95
+3	9400549	Headless Horseman	The haunted paths of Crimsonwood	5	101
+3	8180001	Griffey	Griffey Forest, Leafre	5	105
+3	8180000	Manon	Manon's Forest, Leafre	5	105
+3	8510000	Pianus	The Cave of Pianus, Aqua Road	10	110
+3	9400575	Bigfoot	The twisted paths of Crimsonwood	10	110
+3	9400014	Black Crow	Encounter with the Buddha, Zipangu	10	115
+4	8220003	Leviathan	Leviathan's Canyon, Leafre	15	100
+4	8500002	Papulatus	The Origin of Clocktower, Ludibrium	20	100
+4	8800002	Zakum	Zakum's Altar, El Nath	40	100
+4	8810018	Horntail	Horntail's Cave, Leafre	60	100
+4	8820001	Pink Bean	Twilight of the Gods, Temple of Time	80	100

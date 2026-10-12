@@ -128,6 +128,9 @@
     if (!m) return showList();
     var list = byMob[id] || [], html = '<button class="back" data-go="">Back to the search</button><div class="card"><h2>' + esc(m[0]) +
         '</h2><p class="meta">Level ' + m[1] + (m[3] ? ", lives in " + esc(m[3]) : "") + mobTags(m) + "</p>";
+    if (m[5]) html += "<p><b>Always drops two pieces of gear</b> needing about level " + Math.max(8, Math.min(m[5], 100) - 5) + " to " + Math.min(m[5] + 5, 100) +
+        ": one for your class, down to the kind of weapon your job uses, and one for any class. Their stats are never below the item's standard, " +
+        "so they beat the same item from an ordinary monster.</p>";
     var meso = list.filter(function (d) { return d[1] === 0; })[0];
     if (meso) html += "<p>Mesos: " + (meso[3] * D.mesoRate).toLocaleString("en") + " to " + (meso[4] * D.mesoRate).toLocaleString("en") + ", " + odds(meso[2], m[2]) + ".</p>";
     ["e", "u", "t", "s"].forEach(function (k) {
