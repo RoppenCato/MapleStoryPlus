@@ -408,6 +408,11 @@ public class Trials {
             return "That job does not exist.";
         }
         chr.changeJob(target);
+        if (job.getId() % 1000 == 0) {
+            // A beginner's points were placed for them, mostly in STR. Hand them back as the job masters do:
+            // the least the job needs in its main stat, the rest free to place.
+            chr.resetStats();
+        }
         StringBuilder told = new StringBuilder("You are now a #e" + GameConstants.getJobName(jobId) + "#n.");
         int[] basics = FOURTH_JOB_BASICS.get(jobId);
         if (basics != null) {
