@@ -407,9 +407,9 @@ window.CHANGELOG = {
       items: [
         { title: "Leveling speeds up as you grow",
           text: "Experience, mesos and drops from monsters are multiplied by a rate that depends on your level, so the long middle levels no longer drag.",
-          details: ["Level 1 to 20: 5 times. 21 to 30: 6 times. 31 to 50: 8 times. 51 to 80: 10 times. 81 and up: 8 times.",
-                    "About 40,000 kills from level 1 to 120; with a flat double rate it was about 169,000.",
-                    "A level takes roughly 200 to 500 kills from level 31 on, on monsters near your level.",
+          details: ["Level 1 to 20: 12 times. 21 to 30: 14 times. 31 to 50: 18 times. 51 to 80: 20 times. 81 and up: 16 times.",
+                    "About 21,000 kills from level 1 to 120; with a flat double rate it was about 169,000.",
+                    "A level takes roughly 100 to 250 kills from level 31 on, on monsters near your level.",
                     "The rate follows your level only, never the monster, so you can keep hunting where you like; weaker monsters simply give their own smaller experience.",
                     "Mesos and item drops grow by the same rate, so a level gives the same money and gear as before, in fewer kills.",
                     "Bosses drop items five times as often, at every level.",
