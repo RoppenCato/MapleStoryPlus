@@ -6,3 +6,6 @@
 # The game client and its downloads: large, and not ours to redistribute
 /Client/MapleStory/
 /Client/Downloads/
+
+# Music copied out of the game client by Settings/Scripts/Export-Music.ps1: for local listening, not ours to share
+/Settings/Music/

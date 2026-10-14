@@ -53,6 +53,10 @@ python Settings/Scripts/Simulate-Damage.py --rules
 
 Estimates how much equipment a player picks up while levelling and how much of it their class would wear, per ten levels or per level. Reads the reference lists; changes nothing. `--class thief` for one class in detail, `--levels` for one row per level, `--drop-rate` to try another rate, `--budget N` for a what-if where every level gives about N pieces.
 
+## Export-Music.ps1
+
+Copies 41 well-known music tracks out of the game client's `Sound.wz` into `Settings\Music` as MP3 files named by place (`04 Henesys.mp3`, `06 Ellinia.mp3` ...). The folder is kept out of git, because the repository is public.
+
 ## Save-Default-Keys.py
 
 `python Settings/Scripts/Save-Default-Keys.py Shym` makes that character's key bindings (and its account's quick slots) the ones every new character starts with, by writing `Settings/Default-Keys.tsv`. The character must be logged out, because the game saves keys when it leaves. No restart needed.
