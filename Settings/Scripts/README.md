@@ -59,7 +59,7 @@ Copies 41 well-known music tracks out of the game client's `Sound.wz` into `Sett
 
 ## Export-Sounds.ps1
 
-Copies 75 sound effects out of the client's `Sound.wz` into `Settings\Sounds`: every weapon swing and shot, the game sounds (level up, portal, pick up, quest done ...) and the interface sounds. Kept out of git like the music.
+Copies about 1,000 sound effects out of the client's `Sound.wz` into `Settings\Sounds`: every weapon swing and shot, the game sounds (level up, portal, pick up, quest done ...), the interface sounds, and each monster's hit and death sound (the impact you hear when you hit it), named by monster. Kept out of git like the music.
 
 ## Save-Default-Keys.py
 
