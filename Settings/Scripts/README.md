@@ -57,6 +57,10 @@ Estimates how much equipment a player picks up while levelling and how much of i
 
 Copies 41 well-known music tracks out of the game client's `Sound.wz` into `Settings\Music` as MP3 files named by place (`04 Henesys.mp3`, `06 Ellinia.mp3` ...). The folder is kept out of git, because the repository is public.
 
+## Export-Sounds.ps1
+
+Copies 75 sound effects out of the client's `Sound.wz` into `Settings\Sounds`: every weapon swing and shot, the game sounds (level up, portal, pick up, quest done ...) and the interface sounds. Kept out of git like the music.
+
 ## Save-Default-Keys.py
 
 `python Settings/Scripts/Save-Default-Keys.py Shym` makes that character's key bindings (and its account's quick slots) the ones every new character starts with, by writing `Settings/Default-Keys.tsv`. The character must be logged out, because the game saves keys when it leaves. No restart needed.
