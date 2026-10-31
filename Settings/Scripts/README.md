@@ -61,6 +61,10 @@ Copies 41 well-known music tracks out of the game client's `Sound.wz` into `Sett
 
 Copies about 1,000 sound effects out of the client's `Sound.wz` into `Settings\Sounds`: every weapon swing and shot, the game sounds (level up, portal, pick up, quest done ...), the interface sounds, and each monster's hit and death sound (the impact you hear when you hit it), named by monster. Kept out of git like the music.
 
+## Export-Inspiration.ps1
+
+Pulls art out of the game client into `Settings\Inspiration` to look at when making new art: whole maps drawn as one picture with their monsters (`Maps\Places`), backgrounds, tiles and decorations per set with overview sheets, and every monster with sheets per ten levels and frame-by-frame sheets of well-known ones. Kept out of git like the music. Whole maps are an approximation, because the game moves background layers with the camera.
+
 ## Save-Default-Keys.py
 
 `python Settings/Scripts/Save-Default-Keys.py Shym` makes that character's key bindings (and its account's quick slots) the ones every new character starts with, by writing `Settings/Default-Keys.tsv`. The character must be logged out, because the game saves keys when it leaves. No restart needed.
