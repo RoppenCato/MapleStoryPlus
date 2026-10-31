@@ -409,8 +409,11 @@ function Draw-Backgrounds($g, $map, $dirBack, $left, $top, $width, $height, $fro
         $type = Num $bg 'type' 0
         $rx = Num $bg 'rx' 0; $ry = Num $bg 'ry' 0
         # Where the layer lies with the camera in the middle of the map
-        $x = (Num $bg 'x' 0) + $cx * (100 - $rx) / 100 - $entry.OX - $left
-        $y = (Num $bg 'y' 0) + $cy * (100 - $ry) / 100 - $entry.OY - $top
+        # rx 0 stays on the screen, rx -100 stays on the map. In moving types (4 to 7) rx or ry is a speed instead.
+        $shiftX = if ($type -in 4, 6) { 0 } else { $cx * (100 + $rx) / 100 }
+        $shiftY = if ($type -in 5, 7) { 0 } else { $cy * (100 + $ry) / 100 }
+        $x = (Num $bg 'x' 0) + $shiftX - $entry.OX - $left
+        $y = (Num $bg 'y' 0) + $shiftY - $entry.OY - $top
         $stepX = Num $bg 'cx' 0; if ($stepX -le 0) { $stepX = $b.Width }
         $stepY = Num $bg 'cy' 0; if ($stepY -le 0) { $stepY = $b.Height }
         $tileX = $type -in 1, 3, 4, 6, 7
