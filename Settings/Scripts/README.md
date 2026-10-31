@@ -65,6 +65,10 @@ Copies about 1,000 sound effects out of the client's `Sound.wz` into `Settings\S
 
 Pulls art out of the game client into `Settings\Inspiration` to look at when making new art: whole maps drawn as one picture with their monsters (`Maps\Places`), backgrounds, tiles and decorations per set with overview sheets, and every monster with sheets per ten levels and frame-by-frame sheets of well-known ones. Kept out of git like the music. Whole maps are an approximation, because the game moves background layers with the camera.
 
+## Preview-Parallax.py
+
+Draws a map's background layers at the left, middle and right of the map, and as a GIF of the camera panning, from a real map (`--map`) or new art (`--layers`). Needs the pictures from `Export-Inspiration.ps1` for `--map`. See the parallax section of `Settings/Inspiration/Instructions.md`.
+
 ## Save-Default-Keys.py
 
 `python Settings/Scripts/Save-Default-Keys.py Shym` makes that character's key bindings (and its account's quick slots) the ones every new character starts with, by writing `Settings/Default-Keys.tsv`. The character must be logged out, because the game saves keys when it leaves. No restart needed.

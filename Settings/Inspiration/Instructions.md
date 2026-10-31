@@ -1,10 +1,26 @@
 # Using this art as inspiration
 
-For a Claude making new art for MapleStoryPlus, a private MapleStory v83 server. This folder holds art pulled from the game client. Use it to learn how the game's art is built and how it looks, then make new art that fits in.
+For a Claude making art for **a new, original game**. That game is not MapleStory and is not connected to it. This folder holds art from MapleStory (version 83), kept as a reference for how a well-loved 2D side-scroller builds its look: its proportions, motion, tiles, layered backgrounds and parallax.
 
-**Study it, don't copy it.** Do not trace, recolour or edit these files and call the result new, unless the user asks for that. Never commit anything from this folder except this file: the repository is public and the art is not ours. `Settings/Scripts/Export-Inspiration.ps1` recreates the pictures if they go missing.
+## The rule: learn from it, make your own
 
-All numbers below were measured from the game's data in `Server/wz` (the median is the typical value). "p90" means 90% of the art is at or below that number.
+**Nothing in this folder may go into the new game.** It is MapleStory's art and it isn't ours. Do not trace, recolour, edit, crop or assemble these files, and do not feed them to a tool to produce look-alikes. Every piece in the new game has to be drawn from scratch. If you are asked to reuse something from here, say that it can't ship and offer to make an original instead.
+
+| Take from here | Leave here |
+|---|---|
+| How things are built: layers, tile grids, frame counts, timing | The pictures themselves |
+| Proportions: how big things are next to the player | Its characters and monsters, such as a mushroom with a face or a slime with an antenna |
+| What makes it work: readable silhouettes, strong hit poses, squash and stretch | Its signature look as a whole, so the new game shouldn't be mistaken for it |
+| How colour sets a mood and separates near from far | An area's exact colours, used all together |
+| The kinds of place that work, such as a sky town or a toy world | Its named places, logos, signs, buildings and layouts |
+
+A useful test: if a player could say "that's the MapleStory one", redesign it. Ask what the new game's own world is, and let that lead. Use this folder to answer "how is this done?", not "what should this look like?"
+
+Where the new game's own style, resolution or engine differ from what is here, follow the new game. **The numbers are a tested starting point, not requirements.** Proportions and timings carry over well; exact pixel sizes only do if the new game has a similar resolution.
+
+Paths below are relative to this folder, unless they start with `Settings/`, which is relative to the MapleStoryPlus project, `C:\dev\MapleStoryPlus`. Run its commands from there. Keep the new game's files out of this folder and out of that project. Never commit anything from this folder except this file: the repository is public. `Settings/Scripts/Export-Inspiration.ps1` recreates the pictures if they go missing.
+
+All numbers below were measured from the game's data (the median is the typical value). "p90" means 90% of the art is at or below that number.
 
 ## Where to look
 
@@ -13,7 +29,7 @@ All numbers below were measured from the game's data in `Server/wz` (the median 
 | A monster | `Monsters/Sheets/Level ... .png` for its level | `Monsters/Animations/` for motion, `Maps/Places/` to see it in its home |
 | A boss | `Monsters/Sheets/Bosses part N.png` | `Monsters/Animations/` (Mano, King Slime, Mushmom, Papulatus, Pianus, Pink Bean, Crimson Balrog) |
 | A whole new area | `Maps/Places/` for the closest mood | The sets for that mood in the table below |
-| A background | `Maps/Backgrounds/_Overview/<set>.png` | `Maps/Places/` to see the layers stacked |
+| A background | `Maps/Backgrounds/_Overview/<set>.png` and the parallax section below | `Maps/Places/` to see the layers stacked |
 | Ground or platforms | `Maps/Tiles/_Overview/<set>.png` | `Maps/Places/` to see the pieces joined |
 | Houses, trees, props | `Maps/Objects/_Overview/<set>.png` | The single files in `Maps/Objects/<set>/` |
 | A colour palette | The palette column below | Sample a picture in `Maps/Places/` |
@@ -88,13 +104,26 @@ Use this to go from a mood to the right sets. Palettes are the commonest colours
 - **Light from above,** with highlights on top and darker undersides. Ground has a bright grassy or stony top edge above a darker body.
 - **Each area has one clear idea and palette.** Pick the mood first and keep every piece to it.
 
-**Draw at real size.** One image pixel is one screen pixel and the game does not scale art, so never draw large and shrink it without checking detail survives. Save as PNG with transparency.
+**Draw at real size.** MapleStory shows one image pixel as one screen pixel, so its art never looks blurred. If the new game does the same, never draw large and shrink without checking that detail survives. Save as PNG with transparency.
+
+This describes MapleStory. Use it to see what works, and decide what the new game's own style keeps or changes.
 
 ## Scale
 
-A player character stands about 65 pixels tall and 40 wide: a 21×31 body under a 39×35 head, so the head is half the height. Compare everything to this.
+A player character stands about 65 pixels tall and 40 wide: a 21×31 body under a 39×35 head, so the head is half the height. Everything below is sized against this. For the new game, carry over the ratios, not the pixels:
+
+| Thing | Next to the player |
+|---|---|
+| Typical monster up to level 60 | About as tall as the player |
+| Typical monster around level 100 | About twice as tall |
+| Typical boss | About twice as tall and four times as wide |
+| Biggest boss | About 8 to 9 times as tall |
+| One row of ground tile (60 pixels) | About the player's height |
+| Typical decoration | About 1.5 times as tall |
 
 ## How monsters are made
+
+Monster levels below are MapleStory's, from 1 up to about 120. Read them as "early game" through "late game".
 
 ### Size
 
@@ -186,12 +215,12 @@ Build one from the back to the front:
 
 Layer sizes vary widely: typically 287 × 226, and up to 800 × 537 for the largest tenth. A flat colour can be far smaller.
 
-**Each layer in a map has these settings:**
+**Each layer in a MapleStory map has these settings.** The new game's engine will have its own names for most of them:
 
 | Setting | What it does |
 |---|---|
 | `type` | 0 single picture; 1 repeats sideways; 2 repeats up and down; 3 repeats both ways; 4 repeats sideways and drifts sideways (clouds); 5 repeats up and down and drifts vertically (rain, bubbles); 6 and 7 repeat both ways and drift |
-| `rx`, `ry` | Parallax: how the layer follows the camera. 0 = stays on the screen, so it seems infinitely far. -100 = moves with the map, as if right beside the player. Values between are in between: use about -5 to -20 for far things and -50 to -80 for near things. On drifting types, this is the drift speed instead |
+| `rx`, `ry` | Parallax: how the layer follows the camera, from 0 (far) to -100 (near). See the next section. On drifting types, it is the drift speed in that direction instead |
 | `cx`, `cy` | Spacing when repeating; 0 uses the image's size |
 | `a` | Opacity, 0–255. Nearly all layers are 255 |
 | `front` | 1 draws the layer over the characters |
@@ -199,10 +228,88 @@ Layer sizes vary widely: typically 287 × 226, and up to 800 × 537 for the larg
 | `f` | 1 flips the picture |
 
 Rules that follow from that:
-- **The camera sees wide.** The original game was 800 × 600, but this client runs at **1680 × 720**. Far layers should repeat sideways, and a single picture needs placing so that nothing behind it shows as a gap.
+- **Know the screen size first.** MapleStory was made for 800 × 600. The new game's resolution decides how much of each layer shows at once, so far layers should repeat sideways, and a single picture needs placing so that nothing behind it shows as a gap.
 - **Map sizes:** typically 990 × 850, the widest tenth 2,315+, the biggest 9,720. Layers near the map's speed must cover all of it.
 - **Keep contrast low in the back.** Layers are hazier and lighter the further they are.
 - **Moving layers:** about 1 in 7 layers in maps is animated, typically with 2 frames (9 or fewer for most) and 250 ms a frame. Delays of up to 3,000 ms are normal for slow changes.
+
+## Parallax: how the depth is made
+
+Parallax is the game's main trick for depth. When the player walks, the camera moves, and layers slide at different speeds: far mountains barely move, near trees move almost with the ground. Nothing is drawn in 3D, but the map looks deep. Plan it from the start, because it decides how the layers are cut, sized and painted.
+
+### The numbers
+
+`rx` is sideways and `ry` is up and down. For layers that don't drift:
+
+```
+screen x = x - origin x + camera x * rx / 100 + screen width / 2
+screen y = y - origin y + camera y * ry / 100 + screen height / 2
+```
+
+`camera` is the world position at the middle of the screen. These are MapleStory's own numbers. **In the new game's engine, use a scroll factor,** which is the same idea from 0 to 1 (for example `motion_scale` in Godot). The factor is `-rx / 100`:
+
+```
+layer screen x = layer x - camera x * factor
+```
+
+| Factor | `rx` | As the camera moves 100 pixels, on screen the layer moves | Feels like |
+|---|---|---|---|
+| 0 | 0 | Not at all, while the ground moves 100 | Sky or a far distance, at infinity |
+| 0.05–0.2 | -5 to -20 | 5–20 | Far mountains and skyline |
+| 0.3–0.5 | -30 to -50 | 30–50 | Middle distance, hills |
+| 0.6–0.8 | -60 to -80 | 60–80 | Near scenery |
+| 1 | -100 | 100, locked to the ground | Scenery standing right behind the platforms |
+
+The ground, objects and monsters all move as -100. Across the game, layers go in this order: the median `rx` is -5 for the backmost fifth of a map's stack, then -30, -50, -60 and -60 at the front.
+
+### How real maps do it
+
+- **Henesys, the simplest good example (8 layers).** `rx` is 0 for the flat blue, -20 for the far hill and big tree, and -40 for the near meadow, with one drifting cloud layer. Four 1024-wide pieces make up the meadow, using two pictures in turn.
+- **Kerning City, only 3 layers.** Sky -5, far skyline -10, near skyline -15. All are far away and tile sideways, with buildings placed as objects on top.
+- **Leafre, a richer one.** Sky 0; horizon -5; drifting clouds at speeds 5–10; distant trees -30; trees -50, then -70; and near trees -100 repeating every 1650 pixels. Light shafts are in front at -80.
+- **Ellinia, a tall map (44 layers).** The depth is built from many small pieces, with near values like -33, -38 and -40 and many at -100. Forest trunks at -8, -11, -13 and -15 are slightly different on purpose, so that they drift past one another and nothing looks like a single sheet.
+
+To watch these move, run:
+
+```
+python Settings/Scripts/Preview-Parallax.py --map 240000000
+```
+
+### Making a parallax background
+
+1. **Pick the depth planes.** Three to five planes are enough for most maps. Assign each one an `rx` with clear gaps between them, because layers with nearly the same value read as one flat sheet.
+2. **Paint each plane for its distance.** Far planes are paler, hazier, less saturated, low in contrast and low in detail, with soft or no outlines. Near planes are saturated, with more contrast and sharper shapes. Shift the far planes towards the sky colour. Things that are further away should look smaller too.
+3. **Cut each plane out with transparency.** Each layer shows the one behind it through its top. Give it an irregular upper edge, such as a treeline or ridge, and make gaps worth looking through.
+4. **Work out how wide it must be.** A layer slides less than the camera, so it doesn't need to be as wide as the map:
+
+   ```
+   width needed = screen width + (map width - screen width) * |rx| / 100
+   ```
+
+   This is why a far layer can be small. On a 1680-wide screen, Henesys (7,466 wide) needs 3,994 at `rx` -40, and its four meadow pieces give 4,096. An `rx` of -100 needs the whole map. Either repeat the layer (`type` 1 or 3, needing a seamless join) or make it wide enough. A layer at `rx` 0 needs only the screen.
+5. **Place it.** To have a layer's origin in the middle of the screen when the camera is at world position `C`, set `x = -C * rx / 100`. Do this for the moment that matters, usually the map's centre or the town's main spot. Use the same idea for `y`.
+6. **Choose `ry` for the map's shape.** On a wide, flat map, keep `ry` small (Henesys: -5 to 3), so the horizon stays put behind the ground. On a tall map, use about the same value as `rx` (Ellinia, Leafre), because the player climbs and the layers must follow, or the layers run out.
+7. **Add life.** Clouds use `type` 4, where `rx` becomes a speed, usually 1–10, and its sign sets the direction; `ry` still works as parallax. Sideways, such a layer is locked to the ground as well as drifting, so it can pass quickly when the player runs. In your own engine you can combine both: a low scroll factor plus a slow drift keeps clouds feeling far away.
+8. **Hide the seams.** Accents that repeat, such as big trees, need wide spacing (`cx` 300–1650), and two or three different pictures in turn.
+9. **Add a foreground, sparingly.** Use `front` = 1 for light shafts or mist (Leafre uses `rx` -80). It covers the player, so keep it translucent or at the screen's edges.
+10. **Preview it.** Write the layers to a file and run this, then look at `Settings/Inspiration/_Preview/parallax.png`, which shows the left, middle and right of the map, and `parallax.gif`, which pans across:
+
+    ```
+    python Settings/Scripts/Preview-Parallax.py --layers my-layers.tsv --span 4000
+    ```
+
+    The file's columns are `file type x y rx ry cx cy a front ox oy`, listed from back to front, using `rx` = -100 × your scroll factor. `file` can be the path to the new game's art, and the preview doesn't change or copy it. `--span` is the map's width. Set the screen with `--width` and `--height`, which default to 1680 × 720, and send the output elsewhere with `--out`.
+
+### What goes wrong
+
+- **Gaps:** a layer's edge slides into view at the far ends of the map. Check both ends in the preview, and use the width formula.
+- **Hard bottom edges:** most layers end in a straight line that the ground is meant to hide. If a low platform leaves it visible, extend the layer down or raise it. The preview has no ground, so these edges show there even when they are fine in play.
+- **Order and speed disagree:** a layer drawn in front must move faster than the layers behind it. Otherwise the depth looks wrong and the eye notices.
+- **Flat stacks:** all layers at about the same `rx`. Spread them out.
+- **Busy backgrounds:** high-contrast detail behind the platforms makes monsters and the player hard to see. Save strong detail for the top half and the sides.
+- **Wrong screen size:** a wider screen shows more of each layer at once. Test at the new game's real resolution, and at any others it supports. The real maps here can show gaps at 1680 wide, because they were made for 800 × 600.
+
+These formulas follow how open-source MapleStory clients read these values, and real maps line up correctly when drawn this way, but they weren't checked in the running game. That doesn't matter for the new game: the scroll factor is the part to reuse, and your engine sets the rest. Judge it by eye in the new game.
 
 ## How objects work
 
@@ -210,17 +317,15 @@ Objects are pieces placed freely on the map: trees, houses, signs, lamps and gra
 
 - **Size:** typically 123 × 101, and up to 422 × 334 for the largest tenth. Houses and big trees run larger.
 - **Origin:** usually at the centre of the picture, not at its base (in `acc1` and `houseGS`, nearly all sit at half the height). So a map places an object by its middle: work out where its base lands, and line that up with the walking line.
-- **Animation:** about 1 in 8 is animated, typically 150 ms a frame (lamps, water, flags). Few frames are enough. Slow idle pieces hold for up to 1,800 ms. Only the first frame is exported, so check the game data for the others.
+- **Animation:** about 1 in 8 is animated, typically 150 ms a frame (lamps, water, flags). Few frames are enough. Slow idle pieces hold for up to 1,800 ms. Only the first frame is exported.
 - **Depth:** maps have 8 layers (0–7), each drawing objects, then tiles. Objects also have a `z` for order within a layer, so bushes can sit in front of the ground and houses behind.
 - **Build in kits.** Each town has a house set with `basic` and `deco` parts. Make several small props per large one, because maps get their richness from many small pieces. See `Maps/Places/Henesys.png`, which is mostly reusable props from `acc1` and `houseGS`.
 
 ## Before you hand art over
 
-1. Put it next to a character for scale, and next to a similar piece from here.
+1. Put it next to the new game's character for scale. Compare it with similar pieces here to check the proportions and motion, not to match the look.
 2. Check it on the actual background of its map, because outlines and colours behave differently on busy art.
-3. Check that it isn't a copy of something in this folder.
+3. Check that it's original: nobody should recognise it as a particular MapleStory monster, building or place, and no file from here went into making it.
 4. For tiles and repeating layers, tile them 3 × 3 and look for seams.
 5. For animation, play it at the real delays. Motion that looks fine in a row of frames can jitter in play, usually from a moving origin.
-6. Give the user the art with its data (origin, delay, hit box, type, parallax), so that it can be put in the game.
-
-New art for the game goes into the client's `.wz` files, with the game closed, and any new data the server needs goes into `Server/wz`. No art has been put in that way yet. `Settings/Scripts/Patch-Client-Skills.ps1` shows how this project writes to the client's files with the library in `Tools/HaRepacker-4.1.0`, so start there, and back up the file first.
+6. Give the user the art with its data (origin, delay, hit box, repeat type, scroll factor), in the form the new game's engine needs.
